@@ -1,16 +1,43 @@
 import { SignIn } from "@clerk/nextjs";
+import Image from "next/image";
 
-const SignInPage = () => (
-  <main className="flex h-screen flex-col items-center bg-gradient-to-b from-[#2e026d] to-[#15162c] text-white">
-    <div className="flex flex-col items-center justify-center gap-4">
-      <div className="container flex flex-col items-center justify-center gap-12 px-4 py-8">
-        <h1 className="text-5xl font-extrabold tracking-tight sm:text-[5rem]">
-          Sign In
-        </h1>
-        <SignIn path="/sign-in" routing="path" signUpUrl="/sign-up" />
+const SignInPage = ({ referer }: { referer: string }) => (
+  <main className="relative h-screen overflow-hidden bg-gray-800 ">
+    <div className="flex h-full w-full">
+      <div className="w-full lg:mt-16 lg:h-full lg:w-1/2">
+        <div className="mt-16 flex  w-full justify-center">
+          <SignIn
+            path="/sign-in"
+            routing="path"
+            signUpUrl="/sign-up"
+            redirectUrl={referer}
+            appearance={{
+              layout: {
+                socialButtonsVariant: "iconButton",
+                socialButtonsPlacement: "bottom",
+              },
+            }}
+          />
+        </div>
+      </div>
+      <div className="absolute lg:right-0 lg:h-full lg:w-1/2">
+        <Image
+          layout="fill"
+          className="absolute inset-0 h-full w-full object-cover"
+          src="https://images.unsplash.com/photo-1520333789090-1afc82db536a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2102&q=80"
+          alt=""
+        />
       </div>
     </div>
   </main>
 );
+
+export async function getServerSideProps(context: {
+  req: { headers: { referer: string } };
+}) {
+  return {
+    props: { referer: context.req.headers.referer },
+  };
+}
 
 export default SignInPage;

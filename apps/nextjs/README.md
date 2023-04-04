@@ -14,7 +14,6 @@ We try to keep this project as simple as possible, so you can start with the mos
 
 If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
 
-- [Next-Auth.js](https://next-auth.js.org)
 - [Prisma](https://prisma.io)
 - [TailwindCSS](https://tailwindcss.com)
 - [tRPC](https://trpc.io) (using @next version? [see v10 docs here](https://alpha.trpc.io))
@@ -127,5 +126,3 @@ You can also dockerize this stack and deploy a container.
 ## Useful resources
 
 Here are some resources that we commonly refer to:
-
-- [Protecting routes with Next-Auth.js](https://next-auth.js.org/configuration/nextjs#unstable_getserversession)

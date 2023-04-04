@@ -14,6 +14,26 @@ const config = {
   eslint: {
     ignoreDuringBuilds: !!process.env.CI,
   },
+  i18n: {
+    locales: ["en"],
+    defaultLocale: "en",
+  },
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "cdn-images-1.listennotes.com",
+      },
+      {
+        protocol: "https",
+        hostname: "production.listennotes.com",
+      },
+      {
+        protocol: "https",
+        hostname: "images.unsplash.com",
+      },
+    ],
+  },
 };
 
 export default config;

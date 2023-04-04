@@ -6,12 +6,83 @@ generator client {
 }
 
 datasource db {
-    provider = "sqlite"
-    url      = env("DATABASE_URL")
+    provider     = "mysql"
+    url          = env("DATABASE_URL")
+    relationMode = "prisma"
 }
 
-model Post {
-    id      String @id @default(cuid())
-    title   String
-    content String
+model User {
+    id              String    @id @default(cuid())
+    firstName       String?
+    lastName        String?
+    clerkId         String?   @unique
+    email           String?   @unique
+    emailVerified   String?
+    isAdmin         Boolean?  @default(false)
+    lastSignInAt    String?
+    profileImageURL String?
+    username        String?
+    birthday        String?
+    follows         Follows[]
+}
+
+model Follows {
+    id          String  @id @default(cuid())
+    podcastId   String?
+    interests   String?
+    User        User?   @relation(fields: [userId], references: [id])
+    userId      String?
+    description String?
+
+    @@index([userId])
+}
+
+model Categories {
+    id         String   @id @default(cuid())
+    categories String
+    Podcast    Podcast? @relation(fields: [podcastId], references: [id])
+    podcastId  String?
+
+    @@index([podcastId])
+}
+
+model Podcast {
+    id              String            @id @default(cuid())
+    podcast         String            @unique
+    favoriteCount   Int
+    episodes        Episode[]
+    categories      Categories[]
+    ToBeTranscribed ToBeTranscribed[]
+}
+
+model Episode {
+    id           String       @unique
+    name         String
+    length       Int
+    transcribed  Boolean
+    podcastId    String
+    podcast      Podcast      @relation(fields: [podcastId], references: [id], onDelete: Cascade)
+    transcriptId String       @unique
+    Transcript   Transcript[]
+
+    @@index([podcastId])
+}
+
+model ToBeTranscribed {
+    id        String  @id @default(cuid())
+    episodeId String
+    Episode   Podcast @relation(fields: [episodeId], references: [id])
+
+    @@index([episodeId])
+}
+
+model Transcript {
+    id              String   @id @default(cuid())
+    episode         Episode  @relation(fields: [episodeId], references: [id])
+    dateTranscribed DateTime
+    transcription   String
+    episodeId       String
+    podcastId       String
+
+    @@index([episodeId])
 }
