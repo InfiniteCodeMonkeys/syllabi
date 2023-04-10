@@ -7,10 +7,10 @@ const NextHead = () => {
 
   return (
     <Head>
-      <title>AnnoPod</title>
+      <title>theSyllabi</title>
       <meta
         name="description"
-        content="Get transcripts and interest analysis for your favorite podcasts."
+        content="Find the best curriculum for whatever you want to learn."
       />
       <link
         rel="icon"

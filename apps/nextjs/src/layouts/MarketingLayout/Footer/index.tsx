@@ -1,28 +1,7 @@
 import { useRouter } from "next/router";
 import { useState } from "react";
 
-/*
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-    ],
-  }
-  ```
-*/
 const navigation = {
-  solutions: [
-    { name: "Features", href: "/features" },
-    { name: "Pricing", href: "/pricing" },
-    { name: "Podcasts", href: "/podcasts" },
-    // { name: "Insights", href: "#" },
-  ],
-
   company: [
     { name: "About", href: "/about" },
     { name: "Privacy", href: "/privacy" },
@@ -87,21 +66,6 @@ export default function MarketingFooter() {
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <div className="grid grid-cols-2 gap-8 xl:col-span-2">
             <div className="md:grid md:grid-cols-2 md:gap-1">
-              <div>
-                <h3 className="text-base font-medium text-white">Solutions</h3>
-                <ul role="list" className="mt-4 space-y-4">
-                  {navigation.solutions.map((item) => (
-                    <li key={item.name}>
-                      <a
-                        href={item.href}
-                        className="text-base text-gray-300 hover:text-white"
-                      >
-                        {item.name}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
               <div className="mt-12 md:mt-0">
                 <h3 className="text-base font-medium text-white">Company</h3>
                 <ul role="list" className="mt-4 space-y-4">
@@ -124,8 +88,8 @@ export default function MarketingFooter() {
               Get started for free
             </h3>
             <p className="mt-4 text-base text-gray-300">
-              Set interest trackers. Get transcripts. Read or listen to the
-              important bits.
+              Get a recommended curriculum and course recommendaations for
+              whatever you want to learn.
             </p>
             <div className="mt-4 sm:flex sm:max-w-md">
               <label htmlFor="email-address" className="sr-only">

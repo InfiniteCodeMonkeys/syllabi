@@ -6,11 +6,7 @@ import { UserButton, useUser } from "@clerk/nextjs";
 import Link from "next/link";
 import Image from "next/image";
 
-const navigation = [
-  { name: "Features", href: "#features" },
-  { name: "Pricing", href: "/pricing" },
-  { name: "Podcasts", href: "/podcasts" },
-];
+const navigation = [{ name: "How does this work?", href: "/features" }];
 
 const MarketingHeader = () => {
   const { isSignedIn } = useUser();
@@ -26,14 +22,8 @@ const MarketingHeader = () => {
             <div className="flex w-full items-center justify-between md:w-auto">
               <Link href="/">
                 <>
-                  <span className="sr-only">AnnoPod</span>
-                  <Image
-                    height={40}
-                    width={200}
-                    className="h-8 w-auto  sm:h-10"
-                    src="/logo_full_no_dot.png"
-                    alt="AnnoPod Logo"
-                  />
+                  <span className="sr-only">the Syllabi</span>
+                  <h1 className="text-xl font-bold text-white">theSyllabi</h1>
                 </>
               </Link>
               <div className="-mr-2 flex items-center md:hidden">
@@ -67,7 +57,7 @@ const MarketingHeader = () => {
                 </button>
               </Link>
               <Link href="/sign-up">
-                <button className="inline-flex items-center rounded-md border border-transparent bg-gray-600 px-4 py-2 text-base font-medium text-white hover:bg-gray-700">
+                <button className="inline-flex items-center rounded-md border border-transparent bg-gradient-to-r from-orange-600 to-pink-500 px-4 py-2 text-base font-medium text-white hover:bg-gray-700">
                   Sign Up Free
                 </button>
               </Link>
