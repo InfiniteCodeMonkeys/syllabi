@@ -13,7 +13,6 @@
     "@acme/db": "*",
     "@trpc/client": "^10.1.0",
     "@trpc/server": "^10.1.0",
-    "podcast-api": "^2.0.2",
     "superjson": "^1.9.1",
     "zod": "^3.18.0"
   },
