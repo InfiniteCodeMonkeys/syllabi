@@ -6,7 +6,10 @@ import { UserButton, useUser } from "@clerk/nextjs";
 import Link from "next/link";
 import Image from "next/image";
 
-const navigation = [{ name: "How does this work?", href: "/features" }];
+const navigation = [
+  { name: "How does this work?", href: "/features" },
+  { name: "Contribute", href: "/contribute" },
+];
 
 const MarketingHeader = () => {
   const { isSignedIn } = useUser();

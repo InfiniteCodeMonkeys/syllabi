@@ -3,7 +3,11 @@ import Link from "next/link";
 import { useState } from "react";
 import { Handle, Position } from "reactflow";
 
-export default function TextUpdaterNode({ data }: { data: any }) {
+export default function CourseNode({
+  data,
+}: {
+  data: { label: string; description: string; id: string };
+}) {
   const [expanded, setExpanded] = useState(false);
 
   const handleExpand = () => {

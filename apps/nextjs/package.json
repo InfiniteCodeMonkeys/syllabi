@@ -28,8 +28,10 @@
     "@trpc/server": "^10.1.0",
     "@upstash/qstash": "^0.3.2",
     "aws-sdk": "^2.1300.0",
+    "classcat": "^5.0.4",
     "clsx": "^1.2.1",
     "micro": "^10.0.1",
+    "nanoid": "^4.0.2",
     "next": "^13.1.6",
     "puppeteer": "^19.5.2",
     "react": "18.2.0",
@@ -38,7 +40,8 @@
     "reactflow": "^11.7.0",
     "svix": "^0.81.0",
     "tabler-icons-react": "^1.56.0",
-    "zod": "^3.18.0"
+    "zod": "^3.18.0",
+    "zustand": "^4.3.7"
   },
   "devDependencies": {
     "@types/node": "^18.0.0",
