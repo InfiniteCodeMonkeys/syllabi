@@ -1,4 +1,3 @@
-import React from "react";
 import NextHead from "../ui/atoms/Head";
 
 const contact = () => {
