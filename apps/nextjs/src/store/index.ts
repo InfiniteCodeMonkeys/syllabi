@@ -84,8 +84,8 @@ const useStore = create<RFState>((set, get) => ({
   addChildNode: (parentNode: Node, position: XYPosition) => {
     const newNode = {
       id: nanoid(),
-      type: "mindmap",
-      data: { label: "New Node" },
+      type: "courseNode",
+      data: { label: "New Course" },
       position,
       parentNode: parentNode.id,
     };
