@@ -1,14 +1,10 @@
 import { useUser } from "@clerk/nextjs";
-import { Handle, Position } from "reactflow";
+import { Handle, Position, Node, NodeProps } from "reactflow";
 import useStore from "store";
 
-export default function FieldNode(node: {
-  data: { label: string };
-  id: string;
-  position: { x: number; y: number };
-  parentNode: string;
-  type: string;
-}) {
+export default function FieldNode(
+  node: NodeProps & { data: { label: string; description: string } },
+) {
   const { isSignedIn } = useUser();
   const { addChildNode } = useStore((state) => ({
     addChildNode: state.addChildNode,
@@ -16,9 +12,14 @@ export default function FieldNode(node: {
   // const updateNodeLabel = useStore((state) => state.updateNodeLabel);
 
   const handleClick = () => {
-    console.log("id", node);
-    console.log(node.position, "position");
-    addChildNode(node, { x: 150, y: 250 });
+    addChildNode(
+      node as unknown as Node<{
+        label: string;
+        description: string;
+        syllabus: string[];
+      }>,
+      { x: 150, y: 250 },
+    );
   };
 
   return (
