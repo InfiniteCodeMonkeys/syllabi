@@ -43,6 +43,8 @@ export default async function handler(req: any, res: NextApiResponse) {
       profile_image_url,
     } = msg.data;
     try {
+      // why doesn't this work?
+
       await prisma.user.update({
         where: { clerkId: id },
         data: {

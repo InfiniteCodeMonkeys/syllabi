@@ -1,14 +1,16 @@
-import { useCallback, useMemo, useRef } from "react";
+import { useCallback, useEffect, useMemo, useRef } from "react";
 import ReactFlow, {
   Controls,
   Background,
   NodeOrigin,
+  Node,
   ConnectionLineType,
   StraightEdge,
   OnConnectEnd,
   OnConnectStart,
   useStoreApi,
   useReactFlow,
+  Edge,
 } from "reactflow";
 import { shallow } from "zustand/shallow";
 import useStore, { RFState } from "../../store";
@@ -17,27 +19,35 @@ import CourseNode from "../molecules/Nodes/CourseNode";
 import AcademyNode from "../molecules/Nodes/AcademyNode";
 // we have to import the React Flow styles for it to work
 import "reactflow/dist/style.css";
+import { trpc } from "utils/trpc";
 
 const nodeOrigin: NodeOrigin = [0.5, 0.5];
 const connectionLineStyle = { stroke: "#F6AD55", strokeWidth: 3 };
-const defaultEdgeOptions = { style: connectionLineStyle, type: "mindmap" };
+const defaultEdgeOptions = { style: connectionLineStyle, type: "straight" };
 
 function Flow() {
+  const connectingNodeId = useRef<string | null>(null);
+  const store = useStoreApi();
+  const { project } = useReactFlow();
+  const nodesFromTRPC = trpc.nodes.get.useQuery({});
   const selector = (state: RFState) => ({
     nodes: state.nodes,
     edges: state.edges,
     onNodesChange: state.onNodesChange,
     onEdgesChange: state.onEdgesChange,
     addChildNode: state.addChildNode,
+    updateNodes: state.updateNodes,
+    updateEdges: state.updateEdges,
   });
-  // whenever you use multiple values, you should use shallow to make sure the component only re-renders when one of the values changes
-  const { nodes, edges, onNodesChange, onEdgesChange, addChildNode } = useStore(
-    selector,
-    shallow,
-  );
-  const connectingNodeId = useRef<string | null>(null);
-  const store = useStoreApi();
-  const { project } = useReactFlow();
+  const {
+    nodes,
+    edges,
+    onNodesChange,
+    onEdgesChange,
+    addChildNode,
+    updateNodes,
+    updateEdges,
+  } = useStore(selector, shallow);
 
   const getChildNodePosition = (event: MouseEvent, parentNode?: any) => {
     const { domNode } = store.getState();
@@ -101,9 +111,18 @@ function Flow() {
     [],
   );
 
-  const edgeTypes = {
-    straight: StraightEdge,
+  const edgeTypes = useMemo(() => ({ straight: StraightEdge }), []);
+
+  const data = nodesFromTRPC?.data as unknown as {
+    nodeArray: Node[];
+    edgeArray: Edge[];
   };
+
+  useEffect(() => {
+    updateNodes(data?.nodeArray);
+    updateEdges(data?.edgeArray);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [data]);
 
   return (
     <div style={{ height: "80vh" }}>

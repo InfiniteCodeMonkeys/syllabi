@@ -22,18 +22,10 @@ model User {
     profileImageURL String?
     username        String?
     birthday        String?
-    savedCourses    Course[]
+    savedCourses    Nodes[]
 }
 
-model Field {
-    id          String   @id @default(cuid())
-    name        String
-    description String?
-    parent      String
-    children    String[]
-}
-
-model Course {
+model Nodes {
     id          String   @id @default(cuid())
     name        String
     description String?
@@ -42,4 +34,5 @@ model Course {
     children    String[]
     User        User?    @relation(fields: [userId], references: [id])
     userId      String?
+    type        String   @default("courseNode")
 }

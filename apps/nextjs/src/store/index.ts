@@ -18,58 +18,25 @@ export type RFState = {
   onNodesChange: OnNodesChange;
   onEdgesChange: OnEdgesChange;
   addChildNode: (parentNode: Node, position: XYPosition) => void;
+  updateNodeLabel: (nodeId: string, label: string) => void;
+  updateNodes: (nodes: Node[]) => void;
+  updateEdges: (edges: Edge[]) => void;
 };
 
 const useStore = create<RFState>((set, get) => ({
   nodes: [
     {
-      id: "1",
+      id: "clggtsotk0004p0eqk2lfm793",
       type: "academyNode",
-      data: { label: "The Academy" },
-      position: { x: 0, y: 0 },
-    },
-    {
-      id: "2",
-      type: "fieldNode",
-      data: { label: "Sciences" },
-      position: { x: 100, y: 100 },
-    },
-    {
-      id: "3",
-      type: "fieldNode",
-      data: { label: "Engineering" },
+      data: {
+        label: "The Academy",
+        description: "The Body of Human Knowledge",
+        syllabus: [],
+      },
       position: { x: 200, y: 200 },
     },
-    {
-      id: "4",
-      type: "fieldNode",
-      data: { label: "Computer Science" },
-      position: { x: 300, y: 300 },
-    },
-    {
-      id: "5",
-      type: "fieldNode",
-      data: { label: "Arts & Humanities" },
-      position: { x: -100, y: -100 },
-    },
-    {
-      id: "6",
-      type: "courseNode",
-      data: {
-        label: "Computer Science 101",
-        description:
-          "This course is an introduction to computer science, covering the basics of programming, algorithms, data structures, and computer systems.",
-      },
-      position: { x: 400, y: 400 },
-    },
   ],
-  edges: [
-    { id: "1-2", source: "1", target: "2" },
-    { id: "1-5", source: "1", target: "5" },
-    { id: "2-3", source: "2", target: "3" },
-    { id: "3-4", source: "3", target: "4" },
-    { id: "4-6", source: "4", target: "6" },
-  ],
+  edges: [],
 
   onNodesChange: (changes: NodeChange[]) => {
     set({
@@ -111,6 +78,21 @@ const useStore = create<RFState>((set, get) => ({
 
         return node;
       }),
+    });
+  },
+
+  updateNodes: (nodes: Node[]) => {
+    const nodesArray = [...get().nodes];
+
+    nodes?.forEach((node) => {
+      nodesArray.push(node);
+    });
+
+    set({ nodes: nodesArray });
+  },
+  updateEdges: (edges: Edge[]) => {
+    set({
+      edges: edges,
     });
   },
 }));
