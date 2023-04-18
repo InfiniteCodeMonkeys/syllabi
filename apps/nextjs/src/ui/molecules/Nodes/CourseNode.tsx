@@ -24,11 +24,11 @@ export default function CourseNode({
       <div
         className={clsx(
           "rounded-md bg-gradient-to-r from-indigo-700 to-indigo-600",
-          !expanded ? "w-60" : "w-80",
+          !expanded ? "w-68" : "w-88",
         )}
       >
         <div className="flex items-center justify-between p-2">
-          <h4 className="text-white">{data.label}</h4>
+          <h4 className="mr-2 text-white">{data.label}</h4>
           <div className="mt-2">
             {!liked ? (
               <button

@@ -11,28 +11,36 @@ datasource db {
 }
 
 model User {
-    id              String   @id @default(cuid())
+    id              String    @id @default(cuid())
     firstName       String?
     lastName        String?
-    clerkId         String?  @unique
-    email           String?  @unique
+    clerkId         String?   @unique
+    email           String?   @unique
     emailVerified   String?
-    isAdmin         Boolean? @default(false)
+    isAdmin         Boolean?  @default(false)
     lastSignInAt    String?
     profileImageURL String?
     username        String?
     birthday        String?
-    savedCourses    Nodes[]
+    savedCourses    Courses[]
 }
 
-model Nodes {
+model Courses {
     id          String   @id @default(cuid())
     name        String
     description String?
     syllabus    String[]
+    resources   String[]
     parents     String[]
-    children    String[]
     User        User?    @relation(fields: [userId], references: [id])
     userId      String?
     type        String   @default("courseNode")
+}
+
+model Subjects {
+    id          String  @id @default(cuid())
+    name        String
+    description String?
+    type        String  @default("fieldNode")
+    children    Json
 }

@@ -25,13 +25,15 @@ export default function FieldNode(
   return (
     <>
       <Handle type="target" position={Position.Top} />
-      <div className="flex h-40 w-40 items-center justify-center rounded-full border-transparent bg-gradient-to-r from-cyan-500 to-blue-500">
-        <div className="flex flex-col items-center">
-          <h4 className="mt-12 text-white">{node.data.label}</h4>
+      <div className="flex h-32 w-32 items-center justify-center rounded-full border-transparent bg-gradient-to-r from-cyan-500 to-blue-500">
+        <div className="flex flex-col items-center justify-between">
+          <h4 className="text-center text-white">{node.data.label}</h4>
+        </div>
+        <div className=" absolute bottom-0 ">
           {isSignedIn ? (
             <button
               onClick={handleClick}
-              className="mt-8 text-gray-500 hover:text-white"
+              className="mt-4 text-gray-500 hover:text-white"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -39,7 +41,7 @@ export default function FieldNode(
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
                 stroke="currentColor"
-                className="h-6 w-6"
+                className="h-4 w-4"
               >
                 <path
                   strokeLinecap="round"
