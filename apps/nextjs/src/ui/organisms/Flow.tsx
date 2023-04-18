@@ -50,6 +50,8 @@ function Flow() {
     updateEdges,
   } = useStore(selector, shallow);
 
+  console.log(nodes);
+
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const getChildNodePosition = (event: MouseEvent, parentNode?: any) => {
     const { domNode } = store.getState();

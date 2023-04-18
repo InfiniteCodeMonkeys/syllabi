@@ -1,15 +1,21 @@
 import clsx from "clsx";
-import Link from "next/link";
 import { useState } from "react";
 import { Handle, Position } from "reactflow";
+import useStore, { RootState } from "store";
 
 export default function CourseNode({
+  id,
   data,
 }: {
-  data: { label: string; description: string; id: string };
+  id: string;
+  data: { label: string; description: string };
 }) {
+  console.log(data);
   const [expanded, setExpanded] = useState(false);
   const [liked, setLiked] = useState(false);
+  const setCourseModalOpen = useStore(
+    (state: RootState) => state.setCourseModalOpen,
+  );
 
   const handleExpand = () => {
     setExpanded(!expanded);
@@ -18,6 +24,11 @@ export default function CourseNode({
   const handleLike = () => {
     setLiked(!liked);
   };
+
+  const handleOpenCourseModal = () => {
+    setCourseModalOpen({ id, data });
+  };
+
   return (
     <>
       <Handle type="target" position={Position.Top} />
@@ -92,9 +103,9 @@ export default function CourseNode({
               <b>Course Description:</b> {data.description}
             </span>
             <div className="flex items-center justify-center p-2">
-              <Link href={`courses/${data.id}`}>
+              <button onClick={handleOpenCourseModal}>
                 <span className="text-white underline">Course Syllabus</span>
-              </Link>
+              </button>
             </div>
           </div>
         ) : null}

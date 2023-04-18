@@ -8,11 +8,11 @@ import {
   applyEdgeChanges,
   XYPosition,
 } from "reactflow";
-import { RFState } from "store";
+import { RootState } from "store";
 
 export const createFlowSlice = (
   set: (arg0: { nodes?: any; edges?: Edge<any>[] | any[] }) => void,
-  get: () => RFState,
+  get: () => RootState,
 ) => ({
   nodes: [
     {
