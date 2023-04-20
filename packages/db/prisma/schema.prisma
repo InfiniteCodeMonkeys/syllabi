@@ -26,15 +26,16 @@ model User {
 }
 
 model Courses {
-    id          String   @id @default(cuid())
-    name        String
-    description String?
-    syllabus    String[]
-    resources   String[]
-    parents     String[]
-    User        User?    @relation(fields: [userId], references: [id])
-    userId      String?
-    type        String   @default("courseNode")
+    id                 String   @id @default(cuid())
+    name               String
+    description        String?
+    learningObjectives String[]
+    syllabus           Json
+    resources          String[]
+    parents            String[]
+    User               User?    @relation(fields: [userId], references: [id])
+    userId             String?
+    type               String   @default("courseNode")
 }
 
 model Subjects {

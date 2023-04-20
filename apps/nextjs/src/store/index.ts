@@ -18,14 +18,8 @@ export type RootState = {
   updateNodeLabel: (nodeId: string, label: string) => void;
   updateNodes: (nodes: Node[]) => void;
   updateEdges: (edges: Edge[]) => void;
-  courseModalOpen: {
-    id: string;
-    data: { label: string; description: string };
-  };
-  setCourseModalOpen: (arg0: {
-    id: string;
-    data: { label: string; description: string };
-  }) => void;
+  courseModalOpen: string;
+  setCourseModalOpen: (id: string) => void;
 };
 
 const useStore = create<RootState>((set, get) => ({
