@@ -4,8 +4,32 @@ import useStore, { RootState } from "store";
 import { trpc } from "utils/trpc";
 import Link from "next/link";
 
+interface CourseData {
+  id: string;
+  name: string;
+  description: string;
+  syllabus: {
+    weeks: {
+      week: number;
+      topics: string[];
+      readings: {
+        link: string;
+        chapters: string[];
+        book: string;
+        author: string;
+      }[];
+      videos: {
+        link: string;
+        title: string;
+        author: string;
+      }[];
+    }[];
+  };
+}
+
 const CourseModal = ({ courseModalOpen }: { courseModalOpen: string }) => {
-  const course = trpc.courses.get.useQuery({ id: courseModalOpen });
+  const course = trpc.courses.get.useQuery({ id: courseModalOpen })
+    .data as unknown as CourseData;
   const setCourseModalOpen = useStore(
     (state: RootState) => state.setCourseModalOpen,
   );
@@ -13,7 +37,7 @@ const CourseModal = ({ courseModalOpen }: { courseModalOpen: string }) => {
 
   return (
     <>
-      {courseModalOpen && course.data ? (
+      {courseModalOpen && course ? (
         <Transition.Root show={true} as={Fragment}>
           <Dialog
             as="div"
@@ -51,7 +75,7 @@ const CourseModal = ({ courseModalOpen }: { courseModalOpen: string }) => {
                           as="h3"
                           className="text-base font-semibold leading-6 text-gray-900"
                         >
-                          {course.data.name}
+                          {course.name}
                         </Dialog.Title>
                         <button
                           type="button"
@@ -75,7 +99,7 @@ const CourseModal = ({ courseModalOpen }: { courseModalOpen: string }) => {
                       <div className="mt-3 h-96 overflow-y-auto sm:mt-5">
                         <div className="mt-2">
                           <p className="text-sm text-gray-500">
-                            {course.data.description}
+                            {course.description}
                           </p>
                         </div>
                         <div className="mt-2">
@@ -83,93 +107,91 @@ const CourseModal = ({ courseModalOpen }: { courseModalOpen: string }) => {
                             <b>Course Syllabus:</b>
                           </p>
                         </div>
-                        {course.data.syllabus.weeks.map(
-                          (item, index: number) => (
-                            <>
-                              <div className="mt-6" key={index}>
-                                <p className="text-sm text-gray-500">
-                                  <b>
-                                    Week {item.week}:{" "}
-                                    {item.topics.map(
-                                      (topic: string, index: number) => (
-                                        <>
-                                          {item.topics.length === 1 ||
-                                          index + 1 === item.topics.length ? (
-                                            <span key={index}>{topic} </span>
-                                          ) : (
-                                            <span key={index}>{topic}, </span>
-                                          )}
-                                        </>
-                                      ),
-                                    )}
-                                  </b>
-                                </p>
-                                <div>
-                                  <p className="mt-2 text-xs text-gray-500">
-                                    <b>Readings</b>
-                                  </p>
-                                  {item.readings.map(
-                                    (
-                                      reading: {
-                                        link: string;
-                                        chapters: string[];
-                                        book: string;
-                                        author: string;
-                                      },
-                                      index: number,
-                                    ) => (
-                                      <Link href={reading.link} key={index}>
-                                        {reading.chapters.map(
-                                          (chapter: string, index: number) => (
-                                            <p
-                                              className="text-sm text-gray-500"
-                                              key={index}
-                                            >
-                                              <span className="underline">
-                                                {chapter}
-                                              </span>{" "}
-                                              of {reading.book} By:{" "}
-                                              {reading.author}
-                                            </p>
-                                          ),
+                        {course.syllabus.weeks.map((item, index: number) => (
+                          <>
+                            <div className="mt-6" key={index}>
+                              <p className="text-sm text-gray-500">
+                                <b>
+                                  Week {item.week}:{" "}
+                                  {item.topics.map(
+                                    (topic: string, index: number) => (
+                                      <>
+                                        {item.topics.length === 1 ||
+                                        index + 1 === item.topics.length ? (
+                                          <span key={index}>{topic} </span>
+                                        ) : (
+                                          <span key={index}>{topic}, </span>
                                         )}
-                                      </Link>
+                                      </>
                                     ),
                                   )}
-                                </div>
-                                {item.videos.length ? (
-                                  <div>
-                                    <p className="mt-2 text-xs text-gray-500">
-                                      <b>Videos</b>
-                                    </p>
-                                    {item.videos.map(
-                                      (
-                                        video: {
-                                          title: string;
-                                          link: string;
-                                          author: string;
-                                        },
-                                        index: number,
-                                      ) => (
-                                        <Link href={video.link} key={index}>
+                                </b>
+                              </p>
+                              <div>
+                                <p className="mt-2 text-xs text-gray-500">
+                                  <b>Readings</b>
+                                </p>
+                                {item.readings.map(
+                                  (
+                                    reading: {
+                                      link: string;
+                                      chapters: string[];
+                                      book: string;
+                                      author: string;
+                                    },
+                                    index: number,
+                                  ) => (
+                                    <Link href={reading.link} key={index}>
+                                      {reading.chapters.map(
+                                        (chapter: string, index: number) => (
                                           <p
                                             className="text-sm text-gray-500"
                                             key={index}
                                           >
                                             <span className="underline">
-                                              {video.title}
+                                              {chapter}
                                             </span>{" "}
-                                            By: {video.author}
+                                            of {reading.book} By:{" "}
+                                            {reading.author}
                                           </p>
-                                        </Link>
-                                      ),
-                                    )}
-                                  </div>
-                                ) : null}
+                                        ),
+                                      )}
+                                    </Link>
+                                  ),
+                                )}
                               </div>
-                            </>
-                          ),
-                        )}
+                              {item.videos.length ? (
+                                <div>
+                                  <p className="mt-2 text-xs text-gray-500">
+                                    <b>Videos</b>
+                                  </p>
+                                  {item.videos.map(
+                                    (
+                                      video: {
+                                        title: string;
+                                        link: string;
+                                        author: string;
+                                      },
+                                      index: number,
+                                    ) => (
+                                      <Link href={video.link} key={index}>
+                                        <p
+                                          className="text-sm text-gray-500"
+                                          key={index}
+                                        >
+                                          <span className="underline">
+                                            {video.title}
+                                          </span>{" "}
+                                          By: {video.author}
+                                        </p>
+                                      </Link>
+                                    ),
+                                  )}
+                                </div>
+                              ) : null}
+                            </div>
+                          </>
+                        ))}
                       </div>
                     </div>
                     <div className="mt-5 sm:mt-6 sm:grid sm:grid-flow-row-dense sm:grid-cols-2 sm:gap-3"></div>
