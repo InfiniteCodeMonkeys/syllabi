@@ -7,7 +7,7 @@ const NextHead = () => {
 
   return (
     <Head>
-      <title>theSyllabi</title>
+      <title>theCurricula</title>
       <meta
         name="description"
         content="Find the best curriculum for whatever you want to learn."
