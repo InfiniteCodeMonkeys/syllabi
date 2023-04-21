@@ -13,7 +13,7 @@ import ReactFlow, {
   Edge,
 } from "reactflow";
 import { shallow } from "zustand/shallow";
-import useStore, { RFState } from "../../store";
+import useStore, { RootState } from "../../store";
 import FieldNode from "../molecules/Nodes/FieldNode";
 import CourseNode from "../molecules/Nodes/CourseNode";
 import AcademyNode from "../molecules/Nodes/AcademyNode";
@@ -29,8 +29,9 @@ function Flow() {
   const connectingNodeId = useRef<string | null>(null);
   const store = useStoreApi();
   const { project } = useReactFlow();
-  const nodesFromTRPC = trpc.nodes.get.useQuery({});
-  const selector = (state: RFState) => ({
+  const nodesFromTRPC = trpc.subjects.get.useQuery({});
+
+  const selector = (state: RootState) => ({
     nodes: state.nodes,
     edges: state.edges,
     onNodesChange: state.onNodesChange,
@@ -49,6 +50,9 @@ function Flow() {
     updateEdges,
   } = useStore(selector, shallow);
 
+  console.log(nodes);
+
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const getChildNodePosition = (event: MouseEvent, parentNode?: any) => {
     const { domNode } = store.getState();
 
