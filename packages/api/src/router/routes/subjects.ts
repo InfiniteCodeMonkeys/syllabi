@@ -2,6 +2,7 @@ import { z } from "zod";
 import { publicProcedure, protectedProcedure, router } from "../../trpc";
 import createNodesAndEdges from "../../helpers/createNodesAndEdges";
 import { Subjects } from "@prisma/client";
+import { prisma } from "@acme/db";
 
 export const subjectsRouter = router({
   get: publicProcedure.input(z.object({})).query(async () => {

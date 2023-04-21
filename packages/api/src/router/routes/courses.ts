@@ -1,5 +1,6 @@
 import { z } from "zod";
 import { publicProcedure, router } from "../../trpc";
+import { prisma } from "@acme/db";
 
 export const coursesRouter = router({
   get: publicProcedure
