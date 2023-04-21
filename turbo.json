@@ -5,8 +5,9 @@
       "inputs": ["prisma/schema.prisma"],
       "cache": false
     },
-    "migrate": {
+    "db-migrate": {
       "dependsOn": ["^db-generate"],
+      "inputs": ["prisma/schema.prisma"],
       "cache": false
     },
     "db-push": {
@@ -18,7 +19,7 @@
       "cache": false
     },
     "build": {
-      "dependsOn": ["^build", "^db-generate"],
+      "dependsOn": ["^build", "^db-generate", "^db-migrate"],
       "outputs": [".next/**", ".expo/**"]
     },
     "lint": {
