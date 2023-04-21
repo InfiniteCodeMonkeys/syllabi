@@ -25,8 +25,8 @@ const MarketingHeader = () => {
             <div className="flex w-full items-center justify-between md:w-auto">
               <Link href="/">
                 <>
-                  <span className="sr-only">the Syllabi</span>
-                  <h1 className="text-xl font-bold text-white">theSyllabi</h1>
+                  <span className="sr-only">theCurricula</span>
+                  <h1 className="text-xl font-bold text-white">theCurricula</h1>
                 </>
               </Link>
               <div className="-mr-2 flex items-center md:hidden">
@@ -100,7 +100,7 @@ const MarketingHeader = () => {
                 </Popover.Button>
               </div>
             </div>
-            <div className="pt-5 pb-6">
+            <div className="pb-6 pt-5">
               <div className="space-y-1 px-2">
                 {navigation.map((item) => (
                   <a
@@ -129,7 +129,7 @@ const MarketingHeader = () => {
                   <div className="mt-6 px-5">
                     <Link
                       href="/auth/new-user"
-                      className="block w-full rounded-md border-transparent bg-red-500 py-3 px-4 text-center font-medium text-white shadow hover:bg-gray-700"
+                      className="block w-full rounded-md border-transparent bg-red-500 px-4 py-3 text-center font-medium text-white shadow hover:bg-gray-700"
                     >
                       Logout
                     </Link>
@@ -140,7 +140,7 @@ const MarketingHeader = () => {
                   <div className="mt-6 px-5">
                     <Link
                       href="/sign-up"
-                      className="block w-full rounded-md border-transparent bg-gradient-to-r from-orange-600 to-pink-500 py-3 px-4 text-center font-medium text-white shadow hover:bg-gray-700"
+                      className="block w-full rounded-md border-transparent bg-gradient-to-r from-orange-600 to-pink-500 px-4 py-3 text-center font-medium text-white shadow hover:bg-gray-700"
                     >
                       Sign Up Free
                     </Link>
