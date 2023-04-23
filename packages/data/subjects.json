@@ -75,7 +75,29 @@
                 "id": "clgny7kqd0002p0vo4bxx7k65",
                 "name": "Introduction to Computer Science",
                 "description": "This course is an introduction to the intellectual enterprises of computer science and the art of programming.",
-                "type": "courseNode"
+                "type": "courseNode",
+                "children": [
+                  {
+                    "id": "clgny7kqd0002p0vo4bxx5666",
+                    "name": "Programming Methodology",
+                    "description": "This course is an introduction to the intellectual enterprises of computer science and the art of programming.",
+                    "type": "courseNode"
+                  }
+                ]
+              },
+              {
+                "id": "clgny7kqd0002p0vo4bxx7k6poop",
+                "name": "Introduction to Data Structures",
+                "description": "This course is an introduction to design of data structures.",
+                "type": "courseNode",
+                "children": [
+                  {
+                    "id": "clgny7kqd0002p0vo4bxx5666",
+                    "name": "Programming Methodology",
+                    "description": "This course is an introduction to the intellectual enterprises of computer science and the art of programming.",
+                    "type": "courseNode"
+                  }
+                ]
               }
             ]
           },

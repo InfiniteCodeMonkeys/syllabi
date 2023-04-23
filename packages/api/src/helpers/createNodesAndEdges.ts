@@ -2,8 +2,12 @@ import { Node, Edge, XYPosition } from "reactflow";
 import { Prisma, Subjects } from "@prisma/client";
 import setPosition from "./setPosition";
 
+interface NewNode extends Node {
+  children?: Subjects[] | null;
+}
+
 const createNodesAndEdges = (subjects: Subjects[]) => {
-  const nodeArray: Node[] = [];
+  const nodeArray: NewNode[] = [];
   const edgeArray: Edge[] = [];
 
   const pushToArrays = (
@@ -25,6 +29,7 @@ const createNodesAndEdges = (subjects: Subjects[]) => {
         y,
       },
       parentNode: parent.id,
+      children: child.children as Subjects[],
     });
 
     edgeArray.push({

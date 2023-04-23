@@ -10,7 +10,6 @@ export default function CourseNode({
   id: string;
   data: { label: string; description: string };
 }) {
-  console.log(data);
   const [expanded, setExpanded] = useState(false);
   const [liked, setLiked] = useState(false);
   const setCourseModalOpen = useStore(

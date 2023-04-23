@@ -39,6 +39,7 @@ function Flow() {
     addChildNode: state.addChildNode,
     updateNodes: state.updateNodes,
     updateEdges: state.updateEdges,
+    filteredNodes: state.filteredNodes,
   });
   const {
     nodes,
@@ -48,9 +49,8 @@ function Flow() {
     addChildNode,
     updateNodes,
     updateEdges,
+    filteredNodes,
   } = useStore(selector, shallow);
-
-  console.log(nodes);
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const getChildNodePosition = (event: MouseEvent, parentNode?: any) => {
@@ -123,10 +123,13 @@ function Flow() {
   };
 
   useEffect(() => {
-    updateNodes(data?.nodeArray);
-    updateEdges(data?.edgeArray);
+    if (filteredNodes === false) {
+      updateNodes(data?.nodeArray);
+      updateEdges(data?.edgeArray);
+    }
+
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [data]);
+  }, [data, filteredNodes]);
 
   return (
     <div style={{ height: "80vh" }}>
@@ -143,7 +146,7 @@ function Flow() {
         defaultEdgeOptions={defaultEdgeOptions}
         connectionLineStyle={connectionLineStyle}
         connectionLineType={ConnectionLineType.Straight}
-        fitView
+        defaultViewport={{ x: 900, y: 300, zoom: 0 }}
       >
         <Background />
         <Controls showInteractive={false} />

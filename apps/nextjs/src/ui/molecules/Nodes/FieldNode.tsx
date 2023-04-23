@@ -1,4 +1,5 @@
 import { useUser } from "@clerk/nextjs";
+import { useState } from "react";
 import { Handle, Position, Node, NodeProps } from "reactflow";
 import useStore from "store";
 
@@ -6,10 +7,11 @@ export default function FieldNode(
   node: NodeProps & { data: { label: string; description: string } },
 ) {
   const { isSignedIn } = useUser();
-  const { addChildNode } = useStore((state) => ({
+  const { addChildNode, filterNodes, filteredNodes } = useStore((state) => ({
     addChildNode: state.addChildNode,
+    filterNodes: state.filterNodes,
+    filteredNodes: state.filteredNodes,
   }));
-  // const updateNodeLabel = useStore((state) => state.updateNodeLabel);
 
   const handleClick = () => {
     addChildNode(
@@ -22,8 +24,16 @@ export default function FieldNode(
     );
   };
 
+  const handleNodeClick = () => {
+    if (!filteredNodes) {
+      filterNodes(node);
+    } else {
+      filterNodes(null);
+    }
+  };
+
   return (
-    <>
+    <button onClick={handleNodeClick}>
       <Handle type="target" position={Position.Top} />
       <div className="flex h-32 w-32 items-center justify-center rounded-full border-transparent bg-gradient-to-r from-cyan-500 to-blue-500">
         <div className="flex flex-col items-center justify-between">
@@ -54,6 +64,6 @@ export default function FieldNode(
         </div>
       </div>
       <Handle type="source" position={Position.Bottom} id="a" />
-    </>
+    </button>
   );
 }

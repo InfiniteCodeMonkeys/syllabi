@@ -11,7 +11,7 @@ import {
 import { RootState } from "store";
 
 export const createFlowSlice = (
-  set: (arg0: { nodes?: any; edges?: Edge<any>[] | any[] }) => void,
+  set: (arg0: any) => void,
   get: () => RootState,
 ) => ({
   nodes: [
@@ -85,4 +85,58 @@ export const createFlowSlice = (
       edges: edges,
     });
   },
+  filterNodes: (nodeFromProps: Node) => {
+    const filterStatus = get().filteredNodes;
+
+    if (filterStatus === false) {
+      set({ filteredNodes: true });
+
+      const edgeArray = [...get().edges];
+      const nodeArray = [...get().nodes];
+
+      const formattedNode = nodeArray.filter(
+        (node) => node.id === nodeFromProps.id,
+      );
+      const newNodesArray = [formattedNode[0]];
+
+      const getParents = (node) => {
+        const parentEdges = edgeArray.filter((edge) => edge.target === node.id);
+
+        parentEdges.forEach((edge) => {
+          const parents = nodeArray.filter((node) => node.id === edge.source);
+          newNodesArray.push(...parents);
+
+          parents.forEach((parent) => {
+            getParents(parent);
+          });
+        });
+      };
+
+      const getChildren = (node) => {
+        const childrenEdges = edgeArray.filter(
+          (edge) => edge.source === node.id,
+        );
+
+        childrenEdges.forEach((edge) => {
+          const children = nodeArray.filter((node) => node.id === edge.target);
+          newNodesArray.push(...children);
+
+          children.forEach((child) => {
+            getChildren(child);
+          });
+        });
+        return;
+      };
+
+      getParents(formattedNode[0]);
+      getChildren(formattedNode[0]);
+
+      set({
+        nodes: newNodesArray,
+      });
+    } else {
+      set({ filteredNodes: false });
+    }
+  },
+  filteredNodes: false,
 });
