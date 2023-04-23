@@ -99,7 +99,7 @@ export const createFlowSlice = (
       );
       const newNodesArray = [formattedNode[0]];
 
-      const getParents = (node) => {
+      const getParents = (node: any) => {
         const parentEdges = edgeArray.filter((edge) => edge.target === node.id);
 
         parentEdges.forEach((edge) => {
@@ -112,7 +112,7 @@ export const createFlowSlice = (
         });
       };
 
-      const getChildren = (node) => {
+      const getChildren = (node: any) => {
         const childrenEdges = edgeArray.filter(
           (edge) => edge.source === node.id,
         );
