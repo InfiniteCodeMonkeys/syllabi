@@ -1,0 +1,138 @@
+[
+  {
+    "id": "1hgfhfkhf",
+    "name": "Art History",
+    "description": "Art History is the study of the visual arts in civilization. It examines painting, sculpture, and architecture of the Western tradition, from the ancient through the modern eras.",
+    "type": "fieldNode"
+  },
+  {
+    "id": "1fgdhdxx",
+    "name": "Classics",
+    "description": "Classics is the study of the ancient Greek and Roman civilizations, especially their languages, literature, and philosophy.",
+    "type": "fieldNode"
+  },
+  {
+    "id": "765thfdd",
+    "name": "History",
+    "description": "History is the study of the past. It is the search for meaning in the past and for the significance of the past for the present or future.",
+    "type": "fieldNode"
+  },
+
+  {
+    "id": "65yhfddr",
+    "name": "Language & Literature",
+    "description": "Language & Literature is the study of written and verbal communication. It includes the study of the history, structure, and use of language and the study of literary works.",
+    "type": "fieldNode"
+  },
+
+  {
+    "id": "1274rqwe",
+    "name": "Music",
+    "description": "Music is the study of the art and science of music, including its historical development, theoretical foundations, and creative inspiration.",
+    "type": "fieldNode"
+  },
+
+  {
+    "id": "1676jgdd",
+    "name": "Philosophy",
+    "description": "Philosophy is the study of the fundamental nature of knowledge, reality, and existence, especially when considered as an academic discipline.",
+    "type": "fieldNode"
+  },
+
+  {
+    "id": "1256gfds",
+    "name": "Religion",
+    "description": "Religion is the study of the religious beliefs, behavior, and institutions of humankind.",
+    "type": "fieldNode"
+  },
+  {
+    "id": "1hgfhfghf",
+    "name": "Biology",
+    "description": "Biology is the study of living organisms, divided into many specialized fields that cover their morphology, physiology, anatomy, behavior, origin, and distribution.",
+    "type": "fieldNode"
+  },
+  {
+    "id": "35345rfs",
+    "name": "Chemistry",
+    "description": "Chemistry is the study of the composition, structure, properties, and reactions of matter, especially of atomic and molecular systems.",
+    "type": "fieldNode"
+  },
+  {
+    "id": "fdfsjhkfu333",
+    "name": "Computer Science",
+    "description": "Computer Science is the study of the theoretical foundations of information and computation and their implementation and application in computer systems.",
+    "type": "fieldNode",
+    "children": [
+      {
+        "id": "clgny7kqd0002p0vo4bxx7k65",
+        "name": "Introduction to Computer Science",
+        "description": "This course is an introduction to the intellectual enterprises of computer science and the art of programming.",
+        "type": "courseNode",
+        "children": [
+          {
+            "id": "clgny7kqd0002p0vo4bxx5666",
+            "name": "Programming Methodology",
+            "description": "This course is an introduction to the intellectual enterprises of computer science and the art of programming.",
+            "type": "courseNode"
+          }
+        ]
+      },
+      {
+        "id": "clgny7kqd0002p0vo4bxx7k6poop",
+        "name": "Introduction to Data Structures",
+        "description": "This course is an introduction to design of data structures.",
+        "type": "courseNode",
+        "children": [
+          {
+            "id": "clgny7kqd0002p0vo4bxx5666",
+            "name": "Programming Methodology",
+            "description": "This course is an introduction to the intellectual enterprises of computer science and the art of programming.",
+            "type": "courseNode"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "clgny7kqd0002p0vo4bxx5666",
+    "name": "Programming Methodology",
+    "description": "This course is an introduction to the intellectual enterprises of computer science and the art of programming.",
+    "type": "courseNode"
+  },
+  {
+    "id": "clgny7kqd0002p0vo4bxx7k65",
+    "name": "Introduction to Computer Science",
+    "description": "This course is an introduction to the intellectual enterprises of computer science and the art of programming.",
+    "type": "courseNode"
+  },
+  {
+    "id": "clgny7kqd0002p0vo4bxx7k6poop",
+    "name": "Introduction to Data Structures",
+    "description": "This course is an introduction to design of data structures.",
+    "type": "courseNode"
+  },
+  {
+    "id": "8907fddsfdsu767",
+    "name": "Engineering",
+    "description": "Engineering is the application of scientific, economic, social, and practical knowledge in order to design, build, and maintain structures, machines, devices, systems, materials and processes.",
+    "type": "fieldNode"
+  },
+  {
+    "id": "786fhsdjfldsf",
+    "name": "Environmental Studies",
+    "description": "Environmental Studies is the study of the environment and the solution of environmental problems.",
+    "type": "fieldNode"
+  },
+  {
+    "id": "fsdbn3535w23",
+    "name": "Mathematics",
+    "description": "Mathematics is the study of quantity, structure, space, and change.",
+    "type": "fieldNode"
+  },
+  {
+    "id": "fsdbn3535w2gfgdf3",
+    "name": "Physics",
+    "description": "Physics is the study of matter and its motion through spacetime and all that derives from these, such as energy and force.",
+    "type": "fieldNode"
+  }
+]

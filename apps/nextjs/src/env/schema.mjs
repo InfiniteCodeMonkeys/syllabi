@@ -9,6 +9,9 @@ export const serverSchema = z.object({
   NODE_ENV: z.enum(["development", "test", "production"]),
   CLERK_SECRET_KEY: z.string().optional(),
   CLERK_SIGNING_KEY: z.string().optional(),
+  ALGOLIA_APPLICATION_ID: z.string().optional(),
+  ALGOLIA_API_KEY: z.string().optional(),
+  ALGOLIA_INDEX: z.string().optional(),
 });
 
 /**

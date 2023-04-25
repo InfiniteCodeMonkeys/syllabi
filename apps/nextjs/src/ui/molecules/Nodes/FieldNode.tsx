@@ -1,17 +1,33 @@
 import { useUser } from "@clerk/nextjs";
-import { useState } from "react";
-import { Handle, Position, Node, NodeProps } from "reactflow";
+import { Handle, Position, Node, NodeProps, Edge } from "reactflow";
 import useStore from "store";
+import { trpc } from "utils/trpc";
 
 export default function FieldNode(
   node: NodeProps & { data: { label: string; description: string } },
 ) {
   const { isSignedIn } = useUser();
-  const { addChildNode, filterNodes, filteredNodes } = useStore((state) => ({
+  const nodesFromTRPC = trpc.subjects.get.useQuery({});
+  const {
+    addChildNode,
+    filterNodes,
+    filteredNodes,
+    updateNodes,
+    updateEdges,
+    updateFilteredNodes,
+  } = useStore((state) => ({
     addChildNode: state.addChildNode,
     filterNodes: state.filterNodes,
     filteredNodes: state.filteredNodes,
+    updateNodes: state.updateNodes,
+    updateEdges: state.updateEdges,
+    updateFilteredNodes: state.updateFilteredNodes,
   }));
+
+  const data = nodesFromTRPC?.data as unknown as {
+    nodeArray: Node[];
+    edgeArray: Edge[];
+  };
 
   const handleClick = () => {
     addChildNode(
@@ -28,7 +44,9 @@ export default function FieldNode(
     if (!filteredNodes) {
       filterNodes(node);
     } else {
-      filterNodes(null);
+      updateFilteredNodes(false);
+      updateNodes(data?.nodeArray);
+      updateEdges(data?.edgeArray);
     }
   };
 

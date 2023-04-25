@@ -20,6 +20,7 @@ export type RootState = {
   updateEdges: (edges: Edge[]) => void;
   filterNodes: (node: any) => void;
   filteredNodes: boolean;
+  updateFilteredNodes: (filteredNodes: boolean) => void;
   courseModalOpen: string;
   setCourseModalOpen: (id: string) => void;
 };

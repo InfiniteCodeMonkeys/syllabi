@@ -1,11 +1,16 @@
 import React, { useState, KeyboardEvent, ReactElement } from "react";
 import ReactTypingEffect from "react-typing-effect";
-import { useRouter } from "next/router";
+import useStore, { RootState } from "store";
+import { trpc } from "utils/trpc";
 
 const SearchBox = (): ReactElement => {
-  const router = useRouter();
   const [value, setValue] = useState("");
   const [input, setInput] = useState(false);
+  const search = trpc.algolia.search.useQuery(value, { enabled: false });
+  const { filterNodes, updateFilteredNodes } = useStore((state: RootState) => ({
+    filterNodes: state.filterNodes,
+    updateFilteredNodes: state.updateFilteredNodes,
+  }));
 
   const placeholders = [
     "Computer Science",
@@ -16,7 +21,9 @@ const SearchBox = (): ReactElement => {
   ];
 
   const postRequest = async () => {
-    router.push(`/?value=${value}`);
+    const results = await search.refetch();
+    !value && updateFilteredNodes(false);
+    value && results && filterNodes(results.data?.hits[0]);
   };
 
   const handleKeyDown = async (e: KeyboardEvent<HTMLDivElement>) => {

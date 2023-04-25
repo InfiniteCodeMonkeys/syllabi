@@ -10,22 +10,24 @@ import {
 } from "reactflow";
 import { RootState } from "store";
 
+const initialArray = [
+  {
+    id: "clggtsotk0004p0eqk2lfm793",
+    type: "academyNode",
+    data: {
+      label: "The Academy",
+      description: "The Body of Human Knowledge",
+      syllabus: [],
+    },
+    position: { x: 200, y: 200 },
+  },
+];
+
 export const createFlowSlice = (
   set: (arg0: any) => void,
   get: () => RootState,
 ) => ({
-  nodes: [
-    {
-      id: "clggtsotk0004p0eqk2lfm793",
-      type: "academyNode",
-      data: {
-        label: "The Academy",
-        description: "The Body of Human Knowledge",
-        syllabus: [],
-      },
-      position: { x: 200, y: 200 },
-    },
-  ],
+  nodes: initialArray,
   edges: [],
 
   onNodesChange: (changes: NodeChange[]) => {
@@ -72,13 +74,9 @@ export const createFlowSlice = (
   },
 
   updateNodes: (nodes: Node[]) => {
-    const nodesArray = [...get().nodes];
-
-    nodes?.forEach((node) => {
-      nodesArray.push(node);
+    set({
+      nodes: initialArray.concat(nodes),
     });
-
-    set({ nodes: nodesArray });
   },
   updateEdges: (edges: Edge[]) => {
     set({
@@ -86,57 +84,60 @@ export const createFlowSlice = (
     });
   },
   filterNodes: (nodeFromProps: Node) => {
-    const filterStatus = get().filteredNodes;
+    set({ filteredNodes: true });
 
-    if (filterStatus === false) {
-      set({ filteredNodes: true });
+    let edgeArray = [...get().edges];
+    let nodeArray = [...get().nodes];
 
-      const edgeArray = [...get().edges];
-      const nodeArray = [...get().nodes];
+    const formattedNode = nodeArray.filter(
+      (node) => node.id === nodeFromProps.id,
+    );
+    let newNodesArray = [formattedNode[0]];
 
-      const formattedNode = nodeArray.filter(
-        (node) => node.id === nodeFromProps.id,
-      );
-      const newNodesArray = [formattedNode[0]];
+    const getParents = (node: any) => {
+      const parentEdges = edgeArray.filter((edge) => edge.target === node.id);
 
-      const getParents = (node: any) => {
-        const parentEdges = edgeArray.filter((edge) => edge.target === node.id);
+      parentEdges.forEach((edge) => {
+        const parents = nodeArray.filter((node) => node.id === edge.source);
+        console.log("parents", parents);
+        newNodesArray.push(...parents);
 
-        parentEdges.forEach((edge) => {
-          const parents = nodeArray.filter((node) => node.id === edge.source);
-          newNodesArray.push(...parents);
-
-          parents.forEach((parent) => {
-            getParents(parent);
-          });
+        parents.forEach((parent) => {
+          getParents(parent);
         });
-      };
-
-      const getChildren = (node: any) => {
-        const childrenEdges = edgeArray.filter(
-          (edge) => edge.source === node.id,
-        );
-
-        childrenEdges.forEach((edge) => {
-          const children = nodeArray.filter((node) => node.id === edge.target);
-          newNodesArray.push(...children);
-
-          children.forEach((child) => {
-            getChildren(child);
-          });
-        });
-        return;
-      };
-
-      getParents(formattedNode[0]);
-      getChildren(formattedNode[0]);
-
-      set({
-        nodes: newNodesArray,
       });
-    } else {
-      set({ filteredNodes: false });
-    }
+    };
+
+    const getChildren = (node: any) => {
+      const childrenEdges = edgeArray.filter((edge) => edge.source === node.id);
+
+      childrenEdges.forEach((edge) => {
+        const children = nodeArray.filter((node) => node.id === edge.target);
+        newNodesArray.push(...children);
+
+        children.forEach((child) => {
+          getChildren(child);
+        });
+      });
+      return;
+    };
+
+    getParents(formattedNode[0]);
+    getChildren(formattedNode[0]);
+
+    set({ nodes: [] });
+
+    set({
+      nodes: newNodesArray,
+    });
+
+    newNodesArray = [];
+    nodeArray = [];
+    edgeArray = [];
+    set({ filteredNodes: true });
   },
   filteredNodes: false,
+  updateFilteredNodes: (filteredNodes: boolean) => {
+    set({ filteredNodes });
+  },
 });
