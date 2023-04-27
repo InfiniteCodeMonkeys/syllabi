@@ -14,7 +14,7 @@ const NextHead = () => {
       />
       <link
         rel="icon"
-        href={isDarkMode ? "/logo_short.png" : "/logo_short_black.png"}
+        href={isDarkMode ? "/short_logo_white.png" : "/short_logo_black.png"}
       />
     </Head>
   );
