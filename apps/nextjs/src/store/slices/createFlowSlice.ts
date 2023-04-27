@@ -10,24 +10,22 @@ import {
 } from "reactflow";
 import { RootState } from "store";
 
-const initialArray = [
-  {
-    id: "clggtsotk0004p0eqk2lfm793",
-    type: "academyNode",
-    data: {
-      label: "The Academy",
-      description: "The Body of Human Knowledge",
-      syllabus: [],
-    },
-    position: { x: 200, y: 200 },
+const academyNode = {
+  id: "clggtsotk0004p0eqk2lfm793",
+  type: "academyNode",
+  data: {
+    label: "The Academy",
+    description: "The Body of Human Knowledge",
+    syllabus: [],
   },
-];
+  position: { x: 200, y: 200 },
+};
 
 export const createFlowSlice = (
   set: (arg0: any) => void,
   get: () => RootState,
 ) => ({
-  nodes: initialArray,
+  nodes: [academyNode],
   edges: [],
 
   onNodesChange: (changes: NodeChange[]) => {
@@ -74,9 +72,13 @@ export const createFlowSlice = (
   },
 
   updateNodes: (nodes: Node[]) => {
-    set({
-      nodes: initialArray.concat(nodes),
+    const nodesArray: Node[] = [academyNode];
+
+    nodes?.forEach((node) => {
+      nodesArray.push(node);
     });
+
+    set({ nodes: nodesArray });
   },
   updateEdges: (edges: Edge[]) => {
     set({
@@ -99,7 +101,6 @@ export const createFlowSlice = (
 
       parentEdges.forEach((edge) => {
         const parents = nodeArray.filter((node) => node.id === edge.source);
-        console.log("parents", parents);
         newNodesArray.push(...parents);
 
         parents.forEach((parent) => {

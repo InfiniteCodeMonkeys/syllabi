@@ -22,7 +22,8 @@ model User {
     profileImageURL String?
     username        String?
     birthday        String?
-    savedCourses    Courses[]
+    savedCourses    String[]
+    Courses         Courses[]
 }
 
 model Courses {

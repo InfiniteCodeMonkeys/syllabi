@@ -1,7 +1,11 @@
+import { User } from "@acme/db";
+import { useAuth } from "@clerk/nextjs";
 import clsx from "clsx";
-import { useState } from "react";
+import { useRouter } from "next/router";
+import { useEffect, useState } from "react";
 import { Handle, Position } from "reactflow";
 import useStore, { RootState } from "store";
+import { trpc } from "utils/trpc";
 
 export default function CourseNode({
   id,
@@ -10,6 +14,11 @@ export default function CourseNode({
   id: string;
   data: { label: string; description: string };
 }) {
+  const { isSignedIn } = useAuth();
+  const router = useRouter();
+  const user = trpc.user.get.useQuery().data as unknown as User;
+  const saveLike = trpc.user.like.useMutation();
+  const removeLike = trpc.user.unlike.useMutation();
   const [expanded, setExpanded] = useState(false);
   const [liked, setLiked] = useState(false);
   const setCourseModalOpen = useStore(
@@ -21,12 +30,28 @@ export default function CourseNode({
   };
 
   const handleLike = () => {
-    setLiked(!liked);
+    if (!isSignedIn) {
+      router.push("/sign-in");
+    } else {
+      setLiked(!liked);
+
+      if (!liked) {
+        return removeLike.mutateAsync({ id });
+      }
+      saveLike.mutateAsync({ id });
+    }
   };
 
   const handleOpenCourseModal = () => {
     setCourseModalOpen(id);
   };
+
+  useEffect(() => {
+    if (user?.savedCourses.includes(id)) {
+      setLiked(true);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   return (
     <>
