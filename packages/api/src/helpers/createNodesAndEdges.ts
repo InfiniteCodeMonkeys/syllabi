@@ -63,7 +63,7 @@ const createNodesAndEdges = (subjects: Subjects[]) => {
     let position: XYPosition;
 
     if (subject.name === "Arts & Humanities") {
-      position = { x: index + 2 + 500 * -1, y: index + 2 + 400 };
+      position = { x: index + 2 + 500 * -1, y: index + 2 + 200 };
     } else {
       position = { x: index + 2 + 800, y: index + 2 - 50 };
     }

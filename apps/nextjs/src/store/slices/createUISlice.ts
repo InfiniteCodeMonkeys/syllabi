@@ -1,7 +1,7 @@
 import { RootState } from "store";
 
 export const createUISlice = (
-  set: (arg0: { courseModalOpen: string }) => void,
+  set: (arg0: any) => void,
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   get: () => RootState,
 ) => ({
@@ -9,5 +9,15 @@ export const createUISlice = (
 
   setCourseModalOpen: (id: string) => {
     set({ courseModalOpen: id });
+  },
+
+  suggestionModalOpen: false,
+  setSuggestionModalOpen: (open: boolean) => {
+    set({ suggestionModalOpen: open });
+  },
+
+  featuresModalOpen: false,
+  setFeaturesModalOpen: (open: boolean) => {
+    set({ featuresModalOpen: open });
   },
 });

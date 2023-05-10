@@ -12,6 +12,7 @@ export const serverSchema = z.object({
   ALGOLIA_APPLICATION_ID: z.string().optional(),
   ALGOLIA_API_KEY: z.string().optional(),
   ALGOLIA_INDEX: z.string().optional(),
+  OPENAI_API_KEYT: z.string().optional(),
 });
 
 /**

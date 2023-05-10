@@ -11,19 +11,20 @@ datasource db {
 }
 
 model User {
-    id              String    @id @default(cuid())
-    firstName       String?
-    lastName        String?
-    clerkId         String?   @unique
-    email           String?   @unique
-    emailVerified   String?
-    isAdmin         Boolean?  @default(false)
-    lastSignInAt    String?
-    profileImageURL String?
-    username        String?
-    birthday        String?
-    savedCourses    String[]
-    Courses         Courses[]
+    id               String             @id @default(cuid())
+    firstName        String?
+    lastName         String?
+    clerkId          String?            @unique
+    email            String?            @unique
+    emailVerified    String?
+    isAdmin          Boolean?           @default(false)
+    lastSignInAt     String?
+    profileImageURL  String?
+    username         String?
+    birthday         String?
+    savedCourses     String[]
+    Courses          Courses[]
+    SuggestedCourses SuggestedCourses[]
 }
 
 model Courses {
@@ -37,6 +38,16 @@ model Courses {
     User               User?    @relation(fields: [userId], references: [id])
     userId             String?
     type               String   @default("courseNode")
+}
+
+model SuggestedCourses {
+    id                 String   @id @default(cuid())
+    name               String
+    description        String?
+    learningObjectives String[]
+    syllabus           Json
+    User               User?    @relation(fields: [userId], references: [id])
+    userId             String?
 }
 
 model Subjects {

@@ -6,14 +6,21 @@ import { UserButton, useUser } from "@clerk/nextjs";
 import Link from "next/link";
 import Image from "next/image";
 import SearchBox from "ui/molecules/Search";
-
-const navigation = [
-  { name: "How does this work?", href: "/features" },
-  { name: "Contribute", href: "/contribute" },
-];
+import useStore, { RootState } from "store";
 
 const MarketingHeader = () => {
   const { isSignedIn } = useUser();
+  const { setSuggestionModalOpen, setFeaturesModalOpen } = useStore(
+    (state: RootState) => ({
+      setSuggestionModalOpen: state.setSuggestionModalOpen,
+      setFeaturesModalOpen: state.setFeaturesModalOpen,
+    }),
+  );
+
+  const navigation = [
+    { name: "How does this work?", onClick: () => setFeaturesModalOpen(true) },
+    { name: "Contribute", onClick: () => setSuggestionModalOpen(true) },
+  ];
 
   return (
     <Popover as="header" className="relative z-40">
@@ -39,13 +46,13 @@ const MarketingHeader = () => {
             </div>
             <div className="hidden space-x-8 md:ml-10 md:flex">
               {navigation.map((item) => (
-                <a
+                <button
                   key={item.name}
-                  href={item.href}
+                  onClick={item.onClick}
                   className="mt-2 text-base font-medium text-white hover:text-gray-300"
                 >
                   {item.name}
-                </a>
+                </button>
               ))}
               <SearchBox />
             </div>
@@ -105,13 +112,13 @@ const MarketingHeader = () => {
             <div className="pb-6 pt-5">
               <div className="space-y-1 px-2">
                 {navigation.map((item) => (
-                  <a
+                  <button
                     key={item.name}
-                    href={item.href}
+                    onClick={item.onClick}
                     className="block rounded-md px-3 py-2 text-base font-medium text-white hover:underline"
                   >
                     {item.name}
-                  </a>
+                  </button>
                 ))}
               </div>
               {isSignedIn ? (

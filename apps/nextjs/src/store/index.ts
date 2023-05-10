@@ -23,6 +23,10 @@ export type RootState = {
   updateFilteredNodes: (filteredNodes: boolean) => void;
   courseModalOpen: string;
   setCourseModalOpen: (id: string) => void;
+  suggestionModalOpen: boolean;
+  setSuggestionModalOpen: (open: boolean) => void;
+  featuresModalOpen: boolean;
+  setFeaturesModalOpen: (open: boolean) => void;
 };
 
 const useStore = create<RootState>((set, get) => ({
