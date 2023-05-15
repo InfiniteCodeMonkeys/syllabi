@@ -1,17 +1,27 @@
 import { z } from "zod";
 import { publicProcedure, router } from "../../trpc";
 import { prisma } from "@acme/db";
-
 import setPosition from "../../helpers/setPosition";
+
+interface Subject {
+  id: string;
+  data: any;
+  type: string;
+  children: string[];
+  details: any;
+  parent: {
+    id: string;
+  };
+}
 
 export const nodesRouter = router({
   get: publicProcedure.input(z.object({})).query(async () => {
     const nodes: any[] = [];
     try {
-      const subjects = await prisma?.nodes.findMany();
+      const subjects = (await prisma?.nodes.findMany()) as unknown as Subject[];
       const edges = await prisma?.edges.findMany();
 
-      subjects.forEach((subject, index) => {
+      subjects.forEach((subject: Subject, index) => {
         const { x, y } = setPosition(subject, index);
         nodes.push({
           ...subject,

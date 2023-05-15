@@ -1,0 +1,22 @@
+{
+    "subdisciplines": [
+        {
+            "name": "Phonology", 
+            "description": "The study of the organization of sounds in natural languages.", 
+            "parent": "Historical Linguistics", 
+            "children": {}
+        }, 
+        {
+            "name": "Morphology", 
+            "description": "The study of the formation and structure of words in natural languages.", 
+            "parent": "Historical Linguistics", 
+            "children": {}
+        },
+        {
+            "name": "Syntax", 
+            "description": "The study of the principles governing the structure of sentences in natural languages.", 
+            "parent": "Historical Linguistics", 
+            "children": {}
+        }
+    ]
+}
