@@ -27,8 +27,8 @@ function Flow() {
   const connectingNodeId = useRef<string | null>(null);
   const store = useStoreApi();
   const { project } = useReactFlow();
-  const nodesAndEdges = trpc.nodes.get.useQuery({}).data as unknown as any;
-  console.log(nodesAndEdges);
+  const nodesAndEdges = trpc.nodes.get.useQuery({ refetchOnWindowFocus: false })
+    .data as unknown as any;
 
   const selector = (state: RootState) => ({
     nodes: state.nodes,

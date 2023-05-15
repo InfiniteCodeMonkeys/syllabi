@@ -1,0 +1,22 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Family History",
+      "description": "Study of families and the role of family in social and cultural history.",
+      "parent": "Social History",
+      "children": {}
+    },
+    {
+      "name": "Labor History",
+      "description": "Study of the history of work, labor activism, and labor relations.",
+      "parent": "Social History",
+      "children": {}
+    },
+    {
+      "name": "Gender History",
+      "description": "Study of the social, cultural, and political role of gender throughout history.",
+      "parent": "Social History",
+      "children": {}
+    }
+  ]
+}

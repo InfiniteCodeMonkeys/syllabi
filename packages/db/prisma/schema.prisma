@@ -23,7 +23,7 @@ model User {
     username        String?
     birthday        String?
     SuggestedNodes  SuggestedNodes[]
-    // savedCourses    Nodes[]          @relation(name: "SavedCourses")
+    savedCourses    String[]
     // createdCourses  Nodes[]          @relation(name: "CreatedCourses")
 }
 

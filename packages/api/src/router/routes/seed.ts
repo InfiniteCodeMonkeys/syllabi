@@ -23,7 +23,6 @@ export const seedRouter = router({
     });
     console.log(nodes.length);
     for (const node in nodes) {
-      console.log(nodes[node]);
       try {
         await prisma?.nodes.create({
           data: {
