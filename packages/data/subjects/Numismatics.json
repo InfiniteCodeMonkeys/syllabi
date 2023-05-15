@@ -1,0 +1,22 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Roman Numismatics",
+      "description": "The study of ancient Roman coins",
+      "parent": "Numismatics",
+      "children": {}
+    },
+    {
+      "name": "Greek Numismatics",
+      "description": "The study of ancient Greek coins",
+      "parent": "Numismatics",
+      "children": {}
+    },
+    {
+      "name": "Medieval Numismatics",
+      "description": "The study of coins used in Europe during the Middle Ages",
+      "parent": "Numismatics",
+      "children": {}
+    }
+  ]
+}

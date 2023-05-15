@@ -1,0 +1,28 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Quantum Chromodynamics",
+      "description": "The study of the strong interaction between quarks and gluons.",
+      "parent": "Particle Physics",
+      "children": {}
+    },
+    {
+      "name": "Electroweak Interaction",
+      "description": "The study of the unified theory of electromagnetism and the weak force.",
+      "parent": "Particle Physics",
+      "children": {}
+    },
+    {
+      "name": "Neutrino Physics",
+      "description": "The study of the properties and behavior of neutrinos.",
+      "parent": "Particle Physics",
+      "children": {}
+    },
+    {
+      "name": "Cosmic Rays",
+      "description": "The study of high-energy particles from outside the solar system.",
+      "parent": "Particle Physics",
+      "children": {}
+    }
+  ]
+}

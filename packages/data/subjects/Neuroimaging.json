@@ -1,0 +1,22 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Functional Magnetic Resonance Imaging (fMRI)",
+      "description": "A neuroimaging technique that uses magnetic resonance imaging to measure brain activity by detecting changes associated with blood flow.",
+      "parent": "Neuroimaging",
+      "children": {}
+    },
+    {
+      "name": "Positron Emission Tomography (PET)",
+      "description": "A neuroimaging technique that uses radioactive tracers to measure brain activity by detecting changes in blood flow, metabolism, and neurotransmitter activity.",
+      "parent": "Neuroimaging",
+      "children": {}
+    },
+    {
+      "name": "Magnetic Resonance Spectroscopy (MRS)",
+      "description": "A neuroimaging technique that uses magnetic resonance imaging to measure chemical concentrations in the brain.",
+      "parent": "Neuroimaging",
+      "children": {}
+    }
+  ]
+}

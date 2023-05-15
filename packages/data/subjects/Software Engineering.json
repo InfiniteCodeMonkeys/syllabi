@@ -1,0 +1,67 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Software Requirements",
+      "description": "The process of determining software requirements, documenting them in a systematic way, and managing changes to them",
+      "parent": "Software Engineering",
+      "children": {}
+    },
+    {
+      "name": "Software Design",
+      "description": "The process of defining the architecture, components, interfaces, and other characteristics of a system or component.",
+      "parent": "Software Engineering",
+      "children": {}
+    },
+    {
+      "name": "Software Construction",
+      "description": "The activity of creating software by writing and maintaining the source code",
+      "parent": "Software Engineering",
+      "children": {}
+    },
+    {
+      "name": "Software Testing",
+      "description": "The process of evaluating the software or system against the intended or expected behavior",
+      "parent": "Software Engineering",
+      "children": {}
+    },
+    {
+      "name": "Software Maintenance",
+      "description": "The process of modifying a software system or component after delivery to correct faults, improve performance or other aspects of the system, or adapt it to a changed environment",
+      "parent": "Software Engineering",
+      "children": {}
+    }
+  ]
+}{
+  "subdisciplines": [
+    {
+      "name": "Agile Software Development",
+      "description": "An iterative approach to software development that emphasizes flexibility and customer collaboration.",
+      "parent": "Software Engineering",
+      "children": {}
+    },
+    {
+      "name": "Software Testing and Quality Assurance",
+      "description": "The process of verifying that a software application meets its requirements and meets the needs of its users.",
+      "parent": "Software Engineering",
+      "children": {}
+    },
+    {
+      "name": "Software Architecture",
+      "description": "The high-level design of a software system, including its components and their interactions.",
+      "parent": "Software Engineering",
+      "children": {}
+    },
+    {
+      "name": "Software Maintenance",
+      "description": "The process of modifying, updating, and improving existing software applications.",
+      "parent": "Software Engineering",
+      "children": {}
+    },
+    {
+      "name": "Software Requirements Engineering",
+      "description": "The process of eliciting, analyzing, specifying, validating, and managing the needs and constraints of stakeholders for a software system.",
+      "parent": "Software Engineering",
+      "children": {}
+    }
+  ]
+}

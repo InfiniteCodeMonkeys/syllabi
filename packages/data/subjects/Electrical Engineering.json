@@ -1,0 +1,40 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Power Engineering",
+      "description": "The study and design of systems that generate, transmit, and distribute electrical power.",
+      "parent": "Electrical Engineering",
+      "children": {}
+    },
+    {
+      "name": "Control Engineering",
+      "description": "The study and design of systems that control and regulate other systems or processes through the use of feedback.",
+      "parent": "Electrical Engineering",
+      "children": {}
+    },
+    {
+      "name": "Electronics",
+      "description": "The study of the behavior and control of electrons and their motion through vacuum, gas, and semiconductor materials.",
+      "parent": "Electrical Engineering",
+      "children": {}
+    },
+    {
+      "name": "Telecommunications Engineering",
+      "description": "The study and design of systems that transmit information over long distances using various forms of media like radio waves, fiber optics, or copper wires.",
+      "parent": "Electrical Engineering",
+      "children": {}
+    },
+    {
+      "name": "Computer Engineering",
+      "description": "The study of the design and development of computer systems, including hardware and software aspects.",
+      "parent": "Electrical Engineering",
+      "children": {}
+    },
+    {
+      "name": "Signal Processing",
+      "description": "The study of operations performed on a signal to extract information and convert it into a form that can be easily analyzed or transmitted.",
+      "parent": "Electrical Engineering",
+      "children": {}
+    }
+  ]
+}

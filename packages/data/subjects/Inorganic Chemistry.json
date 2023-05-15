@@ -1,0 +1,22 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Bioinorganic chemistry",
+      "description": "The study of inorganic chemical reactions and compounds in biological systems and models.",
+      "parent": "Inorganic Chemistry",
+      "children": {}
+    },
+    {
+      "name": "Organometallic chemistry",
+      "description": "The study of compounds that contain metal-carbon bonds.",
+      "parent": "Inorganic Chemistry",
+      "children": {}
+    },
+    {
+      "name": "Cluster Chemistry",
+      "description": "The study of compounds that contain metal-metal bonds in polyhedral systems.",
+      "parent": "Inorganic Chemistry",
+      "children": {}
+    }
+  ]
+}

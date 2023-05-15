@@ -1,0 +1,34 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Performance art",
+      "description": "A form of art in which the artist uses their body, voice, or other elements to create a work of art that is typically only performed once.",
+      "parent": "Contemporary Art",
+      "children": {}
+    },
+    {
+      "name": "Installation art",
+      "description": "Artwork created by combining and arranging objects within a specific space, often outside of a traditional gallery or museum setting.",
+      "parent": "Contemporary Art",
+      "children": {}
+    },
+    {
+      "name": "Video art",
+      "description": "Visual art that uses video as its primary medium. Often includes elements of performance, installation, and traditional filmmaking.",
+      "parent": "Contemporary Art",
+      "children": {}
+    },
+    {
+      "name": "Conceptual art",
+      "description": "Art that emphasizes idea over aesthetic or emotional qualities. Often takes the form of instructions, documentation, or other non-traditional mediums.",
+      "parent": "Contemporary Art",
+      "children": {}
+    },
+    {
+      "name": "Digital art",
+      "description": "Art created using digital technology, often involving computer-generated images, animation, or interactive installations.",
+      "parent": "Contemporary Art",
+      "children": {}
+    }
+  ]
+}

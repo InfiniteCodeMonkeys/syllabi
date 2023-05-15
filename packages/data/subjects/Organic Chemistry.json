@@ -1,0 +1,28 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Bioorganic Chemistry",
+      "description": "The study of the chemistry of living organisms and their biological processes.",
+      "parent": "Organic Chemistry",
+      "children": {}
+    },
+    {
+      "name": "Physical Organic Chemistry",
+      "description": "The study of the relationship between the physical and chemical properties of organic molecules.",
+      "parent": "Organic Chemistry",
+      "children": {}
+    },
+    {
+      "name": "Organometallic Chemistry",
+      "description": "The study of the chemistry of compounds containing carbon-metal bonds.",
+      "parent": "Organic Chemistry",
+      "children": {}
+    },
+    {
+      "name": "Polymer Chemistry",
+      "description": "The study of the synthesis, structure, and properties of polymers.",
+      "parent": "Organic Chemistry",
+      "children": {}
+    }
+  ]
+}

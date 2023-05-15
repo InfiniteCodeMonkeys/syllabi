@@ -1,0 +1,22 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Computer Organization",
+      "description": "The study of the internal organization of digital computers, especially the interaction between hardware and software, and its effect on computer performance.",
+      "parent": "Computer Architecture",
+      "children": {}
+    },
+    {
+      "name": "Microarchitecture",
+      "description": "The study of the organization of the data paths, functional units and the memory hierarchy of a computer system.",
+      "parent": "Computer Architecture",
+      "children": {}
+    },
+    {
+      "name": "Instruction Set Architecture",
+      "description": "The study of the definition of machine language commands and how they are executed and implemented in hardware.",
+      "parent": "Computer Architecture",
+      "children": {}
+    }
+  ]
+}

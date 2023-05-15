@@ -1,0 +1,49 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Cosmic Microwave Background Radiation",
+      "description": "The study of the afterglow of the Big Bang, which provides key evidence for the standard model of cosmology.",
+      "parent": "Cosmology",
+      "children": {}
+    },
+    {
+      "name": "Large Scale Structure",
+      "description": "The study of the distribution of matter on the largest scales in the universe, and its relation to the cosmic microwave background.",
+      "parent": "Cosmology",
+      "children": {}
+    },
+    {
+      "name": "Dark Matter",
+      "description": "The study of the mysterious substance that is believed to make up most of the matter in the universe, based on gravitational effects on visible matter.",
+      "parent": "Cosmology",
+      "children": {}
+    },
+    {
+      "name": "Dark Energy",
+      "description": "The study of the mysterious force that is believed to be causing the accelerating expansion of the universe.",
+      "parent": "Cosmology",
+      "children": {}
+    }
+  ]
+}{
+    "subdisciplines": [
+        {
+            "name": "Physical cosmology",
+            "description": "The study of the largest-scale structures and dynamics of the universe and is concerned with fundamental questions about its formation, evolution, and ultimate fate.",
+            "parent": "Cosmology",
+            "children": {}
+        },
+        {
+            "name": "Observational cosmology",
+            "description": "Deals with the observation and measurement of the universe's properties, including studies involving galaxies and the cosmic microwave background radiation.",
+            "parent": "Cosmology",
+            "children": {}
+        },
+        {
+            "name": "Theoretical cosmology",
+            "description": "Attempts to develop explanations or models of the universe's properties, origins, and evolution, primarily based on physics principles.",
+            "parent": "Cosmology",
+            "children": {}
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Machine Learning",
+      "description": "The study of algorithms and statistical models that computer systems use to perform a specific task without using explicit instructions, relying on patterns and inference instead.",
+      "parent": "Artificial Intelligence",
+      "children": {}
+    },
+    {
+      "name": "Natural Language Processing",
+      "description": "The branch of AI that deals with the interaction between computers and humans using the natural language.",
+      "parent": "Artificial Intelligence",
+      "children": {}
+    },
+    {
+      "name": "Computer Vision",
+      "description": "The field of AI that focuses on enabling computers to interpret and understand the visual world.",
+      "parent": "Artificial Intelligence",
+      "children": {}
+    }
+  ]
+}

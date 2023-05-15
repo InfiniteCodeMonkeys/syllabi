@@ -1,0 +1,22 @@
+{
+   "subdisciplines":[
+      {
+         "name":"Classical Archaeology",
+         "description":"The study of ancient Greece and Rome through their material culture",
+         "parent":"Archaeology",
+         "children":{}
+      },
+      {
+         "name":"Egyptology",
+         "description":"The study of ancient Egypt through its archaeology, history, and culture",
+         "parent":"Archaeology",
+         "children":{}
+      },
+      {
+         "name":"Maritime Archaeology",
+         "description":"The study of human interactions with the sea through the excavation and analysis of shipwrecks, harbors, and other underwater sites",
+         "parent":"Archaeology",
+         "children":{}
+      }
+   ]
+}

@@ -3,14 +3,12 @@ import ReactFlow, {
   Controls,
   Background,
   NodeOrigin,
-  Node,
   ConnectionLineType,
   StraightEdge,
   OnConnectEnd,
   OnConnectStart,
   useStoreApi,
   useReactFlow,
-  Edge,
 } from "reactflow";
 import { shallow } from "zustand/shallow";
 import useStore, { RootState } from "../../store";
@@ -29,7 +27,8 @@ function Flow() {
   const connectingNodeId = useRef<string | null>(null);
   const store = useStoreApi();
   const { project } = useReactFlow();
-  const nodesFromTRPC = trpc.subjects.get.useQuery({});
+  const nodesAndEdges = trpc.nodes.get.useQuery({}).data as unknown as any;
+  console.log(nodesAndEdges);
 
   const selector = (state: RootState) => ({
     nodes: state.nodes,
@@ -117,19 +116,15 @@ function Flow() {
 
   const edgeTypes = useMemo(() => ({ straight: StraightEdge }), []);
 
-  const data = nodesFromTRPC?.data as unknown as {
-    nodeArray: Node[];
-    edgeArray: Edge[];
-  };
-
   useEffect(() => {
     if (filteredNodes === false) {
-      updateNodes(data?.nodeArray);
-      updateEdges(data?.edgeArray);
+      console.log(nodesAndEdges?.edges);
+      updateNodes(nodesAndEdges?.nodes);
+      updateEdges(nodesAndEdges?.edges);
     }
 
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [data, filteredNodes]);
+  }, [nodesAndEdges, filteredNodes]);
 
   return (
     <div style={{ height: "80vh" }}>

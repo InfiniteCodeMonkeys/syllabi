@@ -1,0 +1,22 @@
+{
+   "subdisciplines":[
+      {
+         "name":"Foundation Engineering",
+         "description":"The study of soil mechanics and foundation design for structures.",
+         "parent":"Geotechnical Engineering",
+         "children":{}
+      },
+      {
+         "name":"Slope Stability",
+         "description":"The study of the stability of slopes and embankments under various conditions.",
+         "parent":"Geotechnical Engineering",
+         "children":{}
+      },
+      {
+         "name":"Earthquake Engineering",
+         "description":"The study of the behavior of soil and structures under seismic loading.",
+         "parent":"Geotechnical Engineering",
+         "children":{}
+      }
+   ]
+}

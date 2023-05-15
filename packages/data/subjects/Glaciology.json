@@ -1,0 +1,34 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Glaciochemistry",
+      "description": "The study of chemical properties and reactions in glacier environments",
+      "parent": "Glaciology",
+      "children": {}
+    },
+    {
+      "name": "Glacio-geomorphology",
+      "description": "The study of the shape and form of glaciers and their impact on landscapes",
+      "parent": "Glaciology",
+      "children": {}
+    },
+    {
+      "name": "Glacio-hydrology",
+      "description": "The study of the movement and behavior of glaciers and their impact on hydrology",
+      "parent": "Glaciology",
+      "children": {}
+    },
+    {
+      "name": "Glacio-geophysics",
+      "description": "The study of glaciers using geophysical methods, such as seismic surveys, radar surveys, and gravimetry",
+      "parent": "Glaciology",
+      "children": {}
+    },
+    {
+      "name": "Paleoglaciology",
+      "description": "The study of the history and evolution of glaciers and ice sheets, including their structures and properties",
+      "parent": "Glaciology",
+      "children": {}
+    }
+  ]
+}

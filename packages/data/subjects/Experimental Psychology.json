@@ -1,0 +1,28 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Behavioral Neuroscience",
+      "description": "The study of how the brain and nervous system influence behavior and mental processes.",
+      "parent": "Experimental Psychology",
+      "children": {}
+    },
+    {
+      "name": "Cognitive Psychology",
+      "description": "The study of mental processes such as \"attention, language use, perception, problem solving, memory, and thinking\"",
+      "parent": "Experimental Psychology",
+      "children": {}
+    },
+    {
+      "name": "Developmental Psychology",
+      "description": "The study of how people change over time, physical, psychological, and social development",
+      "parent": "Experimental Psychology",
+      "children": {}
+    },
+    {
+      "name": "Social Psychology",
+      "description": "The study of how people interact with each other and the environment, including how attitudes, beliefs, and behaviors are shaped by social factors.",
+      "parent": "Experimental Psychology",
+      "children": {}
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Developmental Cognitive Neuroscience",
+      "description": "The study of the neural processes and mechanisms underlying cognitive development in infants, children, and adolescents.",
+      "parent": "Developmental Neuroscience",
+      "children": {}
+    },
+    {
+      "name": "Developmental Social Neuroscience",
+      "description": "The study of the neural and biological processes underlying social and emotional development in humans.",
+      "parent": "Developmental Neuroscience",
+      "children": {}
+    }
+  ]
+}

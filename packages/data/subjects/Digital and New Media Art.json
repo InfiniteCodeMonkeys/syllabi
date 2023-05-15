@@ -1,0 +1,28 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Digital Painting",
+      "description": "The creation of digital art using painting software or tablet input devices.",
+      "parent": "Digital and New Media Art",
+      "children": {}
+    },
+    {
+      "name": "Sound Art",
+      "description": "The use of sound as a medium for artistic expression through various forms such as installation, performance and composition.",
+      "parent": "Digital and New Media Art",
+      "children": {}
+    },
+    {
+      "name": "Virtual Reality Art",
+      "description": "The creation of immersive art experiences through the use of virtual reality technology.",
+      "parent": "Digital and New Media Art",
+      "children": {}
+    },
+    {
+      "name": "Interactive Art",
+      "description": "A form of art that involves audience participation, where the viewer becomes an active participant and co-creator of the work.",
+      "parent": "Digital and New Media Art",
+      "children": {}
+    }
+  ]
+}

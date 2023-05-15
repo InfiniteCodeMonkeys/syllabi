@@ -1,0 +1,22 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Audience and Reception Studies",
+      "description": "The study of how audiences interact with and interpret media and cultural products.",
+      "parent": "Reception Studies",
+      "children": {}
+    },
+    {
+      "name": "Fan Studies",
+      "description": "The study of the social and cultural practices of fans, particularly in relation to media and entertainment franchises.",
+      "parent": "Reception Studies",
+      "children": {}
+    },
+    {
+      "name": "Reader-Response Theory",
+      "description": "The study of how readers interpret and respond to literary texts.",
+      "parent": "Reception Studies",
+      "children": {}
+    }
+  ]
+}

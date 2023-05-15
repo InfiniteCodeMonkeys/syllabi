@@ -1,0 +1,28 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Computer Architecture",
+      "description": "The study of how computer systems are designed and how they operate.",
+      "parent": "Computer Engineering",
+      "children": {}
+    },
+    {
+      "name": "Computer Networks",
+      "description": "The study of how networks of computers communicate with each other.",
+      "parent": "Computer Engineering",
+      "children": {}
+    },
+    {
+      "name": "Computer Security",
+      "description": "The study of how to protect computer systems from unauthorized access or attacks.",
+      "parent": "Computer Engineering",
+      "children": {}
+    },
+    {
+      "name": "Software Engineering",
+      "description": "The study of how to design, develop, and maintain software systems.",
+      "parent": "Computer Engineering",
+      "children": {}
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+    "subdisciplines": [
+        {
+            "name": "Bioinformatics",
+            "description": "The development and application of computational methods to analyze large biological datasets.",
+            "parent": "Biotechnology",
+            "children": {}
+        },
+        {
+            "name": "Biomaterials",
+            "description": "The study of materials that can be used in medical devices, implants, and other applications in healthcare.",
+            "parent": "Biotechnology",
+            "children": {}
+        },
+        {
+            "name": "Biomedical Engineering",
+            "description": "The application of engineering principles and design concepts to medicine and biology for healthcare purposes.",
+            "parent": "Biotechnology",
+            "children": {}
+        }
+    ]
+}

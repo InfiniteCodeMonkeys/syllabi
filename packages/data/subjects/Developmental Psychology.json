@@ -1,0 +1,22 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Child Development",
+      "description": "The study of how children's physical, cognitive, and emotional development occurs from birth through adolescence.",
+      "parent": "Developmental Psychology",
+      "children": {}
+    },
+    {
+      "name": "Adolescent Development",
+      "description": "The study of how young people develop from childhood to adulthood, including physical, cognitive, and social-emotional changes.",
+      "parent": "Developmental Psychology",
+      "children": {}
+    },
+    {
+      "name": "Gerontology",
+      "description": "The study of aging and the effects it has on individuals, including physical, cognitive, and social-emotional changes.",
+      "parent": "Developmental Psychology",
+      "children": {}
+    }
+  ]
+}

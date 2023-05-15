@@ -1,0 +1,40 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Ornithology",
+      "description": "The study of birds",
+      "parent": "Zoology",
+      "children": {}
+    },
+    {
+      "name": "Ichthyology",
+      "description": "The study of fish",
+      "parent": "Zoology",
+      "children": {}
+    },
+    {
+      "name": "Herpetology",
+      "description": "The study of reptiles and amphibians",
+      "parent": "Zoology",
+      "children": {}
+    },
+    {
+      "name": "Entomology",
+      "description": "The study of insects",
+      "parent": "Zoology",
+      "children": {}
+    },
+    {
+      "name": "Mammalogy",
+      "description": "The study of mammals",
+      "parent": "Zoology",
+      "children": {}
+    },
+    {
+      "name": "Ethology",
+      "description": "The study of animal behavior",
+      "parent": "Zoology",
+      "children": {}
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "subdisciplines": [
+    {
+      "name": "General Relativity",
+      "description": "The study of gravitation on a cosmic scale, describing the laws of gravity and its relation to other natural forces and fields.",
+      "parent": "Relativity",
+      "children": {}
+    },
+    {
+      "name": "Special Relativity",
+      "description": "The study of space and time, explaining how objects in motion appear differently to observers in different states of motion.",
+      "parent": "Relativity",
+      "children": {}
+    }
+  ]
+}

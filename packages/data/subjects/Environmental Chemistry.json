@@ -1,0 +1,34 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Environmental Toxicology",
+      "description": "The study of the effects of chemicals on the environment and the organisms that inhabit it.",
+      "parent": "Environmental Chemistry",
+      "children": {}
+    },
+    {
+      "name": "Environmental Organic Chemistry",
+      "description": "The study of the behavior of organic compounds in the environment, including their sources, fate, and effects.",
+      "parent": "Environmental Chemistry",
+      "children": {}
+    },
+    {
+      "name": "Environmental Inorganic Chemistry",
+      "description": "The study of the behavior of inorganic compounds in the environment, including their sources, fate, and effects.",
+      "parent": "Environmental Chemistry",
+      "children": {}
+    },
+    {
+      "name": "Environmental Analytical Chemistry",
+      "description": "The development and application of analytical methods to measure chemicals in the environment.",
+      "parent": "Environmental Chemistry",
+      "children": {}
+    },
+    {
+      "name": "Environmental Physical Chemistry",
+      "description": "The study of the physical behavior of chemicals in the environment, including their reactions, transport, and partitioning.",
+      "parent": "Environmental Chemistry",
+      "children": {}
+    }
+  ]
+}

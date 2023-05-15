@@ -1,0 +1,22 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Painting",
+      "description": "The creation of visual art through the practice of applying paint to a surface.",
+      "parent": "Renaissance Art",
+      "children": {}
+    },
+    {
+      "name": "Sculpture",
+      "description": "The creation of three-dimensional art through the manipulation of materials such as stone, metal, or wood.",
+      "parent": "Renaissance Art",
+      "children": {}
+    },
+    {
+      "name": "Architecture",
+      "description": "The design and construction of buildings and other physical structures.",
+      "parent": "Renaissance Art",
+      "children": {}
+    }
+  ]
+}

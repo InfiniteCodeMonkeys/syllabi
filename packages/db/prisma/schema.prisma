@@ -11,49 +11,48 @@ datasource db {
 }
 
 model User {
-    id               String             @id @default(cuid())
-    firstName        String?
-    lastName         String?
-    clerkId          String?            @unique
-    email            String?            @unique
-    emailVerified    String?
-    isAdmin          Boolean?           @default(false)
-    lastSignInAt     String?
-    profileImageURL  String?
-    username         String?
-    birthday         String?
-    savedCourses     String[]
-    Courses          Courses[]
-    SuggestedCourses SuggestedCourses[]
+    id              String           @id @default(cuid())
+    firstName       String?
+    lastName        String?
+    clerkId         String?          @unique
+    email           String?          @unique
+    emailVerified   String?
+    isAdmin         Boolean?         @default(false)
+    lastSignInAt    String?
+    profileImageURL String?
+    username        String?
+    birthday        String?
+    SuggestedNodes  SuggestedNodes[]
+    // savedCourses    Nodes[]          @relation(name: "SavedCourses")
+    // createdCourses  Nodes[]          @relation(name: "CreatedCourses")
 }
 
-model Courses {
-    id                 String   @id @default(cuid())
-    name               String
-    description        String?
-    learningObjectives String[]
-    syllabus           Json
-    resources          String[]
-    parents            String[]
-    User               User?    @relation(fields: [userId], references: [id])
-    userId             String?
-    type               String   @default("courseNode")
-}
-
-model SuggestedCourses {
-    id                 String   @id @default(cuid())
-    name               String
-    description        String?
-    learningObjectives String[]
-    syllabus           Json
-    User               User?    @relation(fields: [userId], references: [id])
-    userId             String?
-}
-
-model Subjects {
-    id          String  @id @default(cuid())
+model SuggestedNodes {
+    id          String   @id @default(cuid())
     name        String
     description String?
-    type        String  @default("fieldNode")
+    type        String   @default("fieldNode")
+    parents     String[]
     children    Json
+    details     Json
+    userId      String?
+    User        User?    @relation(fields: [userId], references: [id])
+}
+
+model Nodes {
+    id       String   @id @default(cuid())
+    data     Json
+    type     String   @default("fieldNode")
+    children String[]
+    parent   Json?
+    details  Json?
+    // savedBy   User[]   @relation(name: "SavedCourses")
+    // createdBy User     @relation(name: "CreatedCourses", fields: [userId], references: [id])
+    // userId    String
+}
+
+model Edges {
+    id     String @id @default(cuid())
+    source String
+    target String
 }

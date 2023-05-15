@@ -1,0 +1,34 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Polymer Chemistry",
+      "description": "The study of polymers and their properties, synthesis, and applications",
+      "parent": "Materials Chemistry",
+      "children": {}
+    },
+    {
+      "name": "Nanostructured Materials",
+      "description": "The study of materials with structural features on the nanoscale, and their properties and applications",
+      "parent": "Materials Chemistry",
+      "children": {}
+    },
+    {
+      "name": "Electronic Materials",
+      "description": "The study of materials used in electronic devices, and their properties and applications",
+      "parent": "Materials Chemistry",
+      "children": {}
+    },
+    {
+      "name": "Biomaterials",
+      "description": "The study of materials used in medical implants, drug delivery systems, and other biomedical applications",
+      "parent": "Materials Chemistry",
+      "children": {}
+    },
+    {
+      "name": "Inorganic Materials",
+      "description": "The study of materials composed of inorganic compounds, and their properties and applications",
+      "parent": "Materials Chemistry",
+      "children": {}
+    }
+  ]
+}

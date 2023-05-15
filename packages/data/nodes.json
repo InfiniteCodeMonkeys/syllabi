@@ -1,0 +1,628 @@
+[
+  {
+    "parent": { "id": "", "data": "" },
+    "id": "clggtsotk0004p0eqk2lfm793",
+    "type": "academyNode",
+    "children": [
+      "zrqnyjntpa3cbyc0b66cjglq",
+      "ovr8ku7wllxdqty01ovhmjre",
+      "tsnn44wkim179hq4fgtag0ta"
+    ],
+    "data": {
+      "name": "Academy",
+      "description": "The body of human knowledge. The term comes from the Greek word akademeia, referring to the garden where Plato taught his students."
+    }
+  },
+  {
+    "parent": {
+      "id": "clggtsotk0004p0eqk2lfm793",
+      "data": {
+        "name": "Academy",
+        "description": "The body of human knowledge. The term comes from the Greek word akademeia, referring to the garden where Plato taught his students."
+      }
+    },
+    "id": "zrqnyjntpa3cbyc0b66cjglq",
+    "type": "fieldNode",
+    "children": [
+      "xsaejwa8wdmy7wapo1zrcr8k",
+      "k3wdwzkyg0pmlvmxd38onmzk",
+      "ec1n63r2mfaqh8b26a1vcelk",
+      "qekgdk1s8cfdty03pb7g1ozv",
+      "uncci3ccl7jxxo4lb6w46xq0",
+      "putci5121bht0urqrvqye8v8",
+      "er5u1sytmk5mra3zxqkz7m04",
+      "flya2woud0efqd3bwqjmdj3a",
+      "e32e39d4ziajkxjrirkcutbz",
+      "rul85bvivt3yuyyubm5lgu6x",
+      "clml68dueiflbrlqsu66yxog",
+      "gewxxb54cp7cc13guq6u6fvp",
+      "szbro05oxcwz1h0acw75hqu4",
+      "hoktowuaz2ksqu5u1pn68xk5",
+      "pjezl7z0bwj0sd2h37d2kx6a",
+      "lvair14y9ta4k08rozqdbp4n",
+      "vs5ep3ere10vsvl4e0ry9q8i",
+      "byss76qbag3juxn891jkzhb6",
+      "sh44f9rzahk5n4b5hx26rhnl",
+      "tblwwggcjmsyu6j6wiogpc43"
+    ],
+    "data": {
+      "name": "Humanities",
+      "description": "The humanities are a branch of knowledge that deals with human culture, history, language, literature, philosophy, and the arts. It is an interdisciplinary field that involves critical thinking, analysis, and interpretation of cultural and social phenomena, past and present. The humanities aim to understand and explore the human experience and expression, including its creativity, beliefs, values, and aspirations."
+    }
+  },
+  {
+    "parent": {
+      "id": "clggtsotk0004p0eqk2lfm793",
+      "data": {
+        "name": "Academy",
+        "description": "The body of human knowledge. The term comes from the Greek word akademeia, referring to the garden where Plato taught his students."
+      }
+    },
+    "id": "ovr8ku7wllxdqty01ovhmjre",
+    "type": "fieldNode",
+    "children": [
+      "snwkaecnxg9dv4lv97ee3yr4",
+      "rq79lb334avhoexa0l2mscam",
+      "rn075e00it0s7tw7pimd9zzw",
+      "g1seo751hp6dbe6ykt4ryad8",
+      "z6ac6k88svgqzics4c0ai7fq",
+      "m51f6nr6wliz33mo26bg71pm",
+      "qkllgop6zgwphnytvuhx846f",
+      "mcxygzpen8tafg3nutpw42we",
+      "jvfx5xf1cl4u5xjlkkepbdun"
+    ],
+    "data": {
+      "name": "Sciences",
+      "description": "The fields of study that focus on the natural world and its phenomena, using empirical methods to observe, measure, and analyze data in order to better understand the world around us. "
+    }
+  },
+  {
+    "parent": {
+      "id": "clggtsotk0004p0eqk2lfm793",
+      "data": {
+        "name": "Academy",
+        "description": "The body of human knowledge. The term comes from the Greek word akademeia, referring to the garden where Plato taught his students."
+      }
+    },
+    "id": "tsnn44wkim179hq4fgtag0ta",
+    "type": "fieldNode",
+    "children": [
+      "m8ccxojqrzwh12bft0xdczyl",
+      "jzc2m7xue2iigskwd4y9t9gn",
+      "qnvngbvws0aklg9fpds6q12r",
+      "kbl4fdt7wqzckjqx7oem849y"
+    ],
+    "data": {
+      "name": "Arts",
+      "description": "The arts is a broad field encompassing creative and cultural expression through various mediums such as visual art, music, literature, theater, film, and dance. The primary purpose of the arts is to evoke an emotional or intellectual response from the audience."
+    }
+  },
+  {
+    "parent": {
+      "id": "zrqnyjntpa3cbyc0b66cjglq",
+      "data": {
+        "name": "Humanities",
+        "description": "The humanities are a branch of knowledge that deals with human culture, history, language, literature, philosophy, and the arts. It is an interdisciplinary field that involves critical thinking, analysis, and interpretation of cultural and social phenomena, past and present. The humanities aim to understand and explore the human experience and expression, including its creativity, beliefs, values, and aspirations."
+      }
+    },
+    "id": "xsaejwa8wdmy7wapo1zrcr8k",
+    "type": "fieldNode",
+    "children": [],
+    "data": {
+      "name": "Anthropology",
+      "description": "The study of human societies, cultures, and their development."
+    }
+  },
+  {
+    "parent": {
+      "id": "zrqnyjntpa3cbyc0b66cjglq",
+      "data": {
+        "name": "Humanities",
+        "description": "The humanities are a branch of knowledge that deals with human culture, history, language, literature, philosophy, and the arts. It is an interdisciplinary field that involves critical thinking, analysis, and interpretation of cultural and social phenomena, past and present. The humanities aim to understand and explore the human experience and expression, including its creativity, beliefs, values, and aspirations."
+      }
+    },
+    "id": "k3wdwzkyg0pmlvmxd38onmzk",
+    "type": "fieldNode",
+    "children": [],
+    "data": {
+      "name": "Archaeology",
+      "description": "The study of human history and prehistory through the excavation and analysis of artifacts, structures, and other physical remains."
+    }
+  },
+  {
+    "parent": {
+      "id": "zrqnyjntpa3cbyc0b66cjglq",
+      "data": {
+        "name": "Humanities",
+        "description": "The humanities are a branch of knowledge that deals with human culture, history, language, literature, philosophy, and the arts. It is an interdisciplinary field that involves critical thinking, analysis, and interpretation of cultural and social phenomena, past and present. The humanities aim to understand and explore the human experience and expression, including its creativity, beliefs, values, and aspirations."
+      }
+    },
+    "id": "ec1n63r2mfaqh8b26a1vcelk",
+    "type": "fieldNode",
+    "children": [],
+    "data": {
+      "name": "Art History",
+      "description": "The study of visual art and its history, including the analysis of style, iconography, and cultural context."
+    }
+  },
+  {
+    "parent": {
+      "id": "ovr8ku7wllxdqty01ovhmjre",
+      "data": {
+        "name": "Sciences",
+        "description": "The fields of study that focus on the natural world and its phenomena, using empirical methods to observe, measure, and analyze data in order to better understand the world around us. "
+      }
+    },
+    "id": "snwkaecnxg9dv4lv97ee3yr4",
+    "type": "fieldNode",
+    "children": [],
+    "data": {
+      "name": "Astronomy",
+      "description": "The study of celestial objects, such as stars, planets, and galaxies, and the phenomena that occur within the universe."
+    }
+  },
+  {
+    "parent": {
+      "id": "ovr8ku7wllxdqty01ovhmjre",
+      "data": {
+        "name": "Sciences",
+        "description": "The fields of study that focus on the natural world and its phenomena, using empirical methods to observe, measure, and analyze data in order to better understand the world around us. "
+      }
+    },
+    "id": "rq79lb334avhoexa0l2mscam",
+    "type": "fieldNode",
+    "children": [],
+    "data": {
+      "name": "Biology",
+      "description": "The study of living organisms and their interactions with the environment."
+    }
+  },
+  {
+    "parent": {
+      "id": "ovr8ku7wllxdqty01ovhmjre",
+      "data": {
+        "name": "Sciences",
+        "description": "The fields of study that focus on the natural world and its phenomena, using empirical methods to observe, measure, and analyze data in order to better understand the world around us. "
+      }
+    },
+    "id": "rn075e00it0s7tw7pimd9zzw",
+    "type": "fieldNode",
+    "children": [],
+    "data": {
+      "name": "Chemistry",
+      "description": "The study of matter, its composition, properties, and interactions with other matter and energy."
+    }
+  },
+  {
+    "parent": {
+      "id": "zrqnyjntpa3cbyc0b66cjglq",
+      "data": {
+        "name": "Humanities",
+        "description": "The humanities are a branch of knowledge that deals with human culture, history, language, literature, philosophy, and the arts. It is an interdisciplinary field that involves critical thinking, analysis, and interpretation of cultural and social phenomena, past and present. The humanities aim to understand and explore the human experience and expression, including its creativity, beliefs, values, and aspirations."
+      }
+    },
+    "id": "qekgdk1s8cfdty03pb7g1ozv",
+    "type": "fieldNode",
+    "children": [],
+    "data": {
+      "name": "Classics",
+      "description": "The study of the languages, literature, history, art, and other cultural aspects of ancient Greece and Rome."
+    }
+  },
+  {
+    "parent": {
+      "id": "zrqnyjntpa3cbyc0b66cjglq",
+      "data": {
+        "name": "Humanities",
+        "description": "The humanities are a branch of knowledge that deals with human culture, history, language, literature, philosophy, and the arts. It is an interdisciplinary field that involves critical thinking, analysis, and interpretation of cultural and social phenomena, past and present. The humanities aim to understand and explore the human experience and expression, including its creativity, beliefs, values, and aspirations."
+      }
+    },
+    "id": "uncci3ccl7jxxo4lb6w46xq0",
+    "type": "fieldNode",
+    "children": [],
+    "data": {
+      "name": "Communication Studies",
+      "description": "The study of human communication, including its processes, effects, and social and cultural contexts."
+    }
+  },
+  {
+    "parent": {
+      "id": "ovr8ku7wllxdqty01ovhmjre",
+      "data": {
+        "name": "Sciences",
+        "description": "The fields of study that focus on the natural world and its phenomena, using empirical methods to observe, measure, and analyze data in order to better understand the world around us. "
+      }
+    },
+    "id": "g1seo751hp6dbe6ykt4ryad8",
+    "type": "fieldNode",
+    "children": [],
+    "data": {
+      "name": "Computer Science",
+      "description": "The study of computing and information technology, including programming, software engineering, and computer hardware."
+    }
+  },
+  {
+    "parent": {
+      "id": "tsnn44wkim179hq4fgtag0ta",
+      "data": {
+        "name": "Arts",
+        "description": "The arts is a broad field encompassing creative and cultural expression through various mediums such as visual art, music, literature, theater, film, and dance. The primary purpose of the arts is to evoke an emotional or intellectual response from the audience."
+      }
+    },
+    "id": "m8ccxojqrzwh12bft0xdczyl",
+    "type": "fieldNode",
+    "children": [],
+    "data": {
+      "name": "Creative Writing",
+      "description": "The practice of writing stories, poems, and other works of fiction or nonfiction that explore and express the imagination and human experience."
+    }
+  },
+  {
+    "parent": {
+      "id": "zrqnyjntpa3cbyc0b66cjglq",
+      "data": {
+        "name": "Humanities",
+        "description": "The humanities are a branch of knowledge that deals with human culture, history, language, literature, philosophy, and the arts. It is an interdisciplinary field that involves critical thinking, analysis, and interpretation of cultural and social phenomena, past and present. The humanities aim to understand and explore the human experience and expression, including its creativity, beliefs, values, and aspirations."
+      }
+    },
+    "id": "putci5121bht0urqrvqye8v8",
+    "type": "fieldNode",
+    "children": [],
+    "data": {
+      "name": "Cultural Studies",
+      "description": "The interdisciplinary study of culture, including its social, political, and historical dimensions, as well as its expressions in media, art, and literature."
+    }
+  },
+  {
+    "parent": {
+      "id": "ovr8ku7wllxdqty01ovhmjre",
+      "data": {
+        "name": "Sciences",
+        "description": "The fields of study that focus on the natural world and its phenomena, using empirical methods to observe, measure, and analyze data in order to better understand the world around us. "
+      }
+    },
+    "id": "z6ac6k88svgqzics4c0ai7fq",
+    "type": "fieldNode",
+    "children": [],
+    "data": {
+      "name": "Earth Science",
+      "description": "The study of the physical, chemical, and biological processes that shape the Earth's surface, interior, and atmosphere."
+    }
+  },
+  {
+    "parent": {
+      "id": "zrqnyjntpa3cbyc0b66cjglq",
+      "data": {
+        "name": "Humanities",
+        "description": "The humanities are a branch of knowledge that deals with human culture, history, language, literature, philosophy, and the arts. It is an interdisciplinary field that involves critical thinking, analysis, and interpretation of cultural and social phenomena, past and present. The humanities aim to understand and explore the human experience and expression, including its creativity, beliefs, values, and aspirations."
+      }
+    },
+    "id": "er5u1sytmk5mra3zxqkz7m04",
+    "type": "fieldNode",
+    "children": [],
+    "data": {
+      "name": "Economics",
+      "description": "The study of how individuals, organizations, and societies allocate resources and make decisions about production, distribution, and consumption of goods and services."
+    }
+  },
+  {
+    "parent": {
+      "id": "ovr8ku7wllxdqty01ovhmjre",
+      "data": {
+        "name": "Sciences",
+        "description": "The fields of study that focus on the natural world and its phenomena, using empirical methods to observe, measure, and analyze data in order to better understand the world around us. "
+      }
+    },
+    "id": "m51f6nr6wliz33mo26bg71pm",
+    "type": "fieldNode",
+    "children": [],
+    "data": {
+      "name": "Engineering",
+      "description": "The application of scientific and mathematical principles to design, build, and improve machines, structures, and systems for practical purposes."
+    }
+  },
+  {
+    "parent": {
+      "id": "zrqnyjntpa3cbyc0b66cjglq",
+      "data": {
+        "name": "Humanities",
+        "description": "The humanities are a branch of knowledge that deals with human culture, history, language, literature, philosophy, and the arts. It is an interdisciplinary field that involves critical thinking, analysis, and interpretation of cultural and social phenomena, past and present. The humanities aim to understand and explore the human experience and expression, including its creativity, beliefs, values, and aspirations."
+      }
+    },
+    "id": "flya2woud0efqd3bwqjmdj3a",
+    "type": "fieldNode",
+    "children": [],
+    "data": {
+      "name": "English Literature",
+      "description": "The study of literature written in the English language, including poetry, drama, and prose fiction."
+    }
+  },
+  {
+    "parent": {
+      "id": "zrqnyjntpa3cbyc0b66cjglq",
+      "data": {
+        "name": "Humanities",
+        "description": "The humanities are a branch of knowledge that deals with human culture, history, language, literature, philosophy, and the arts. It is an interdisciplinary field that involves critical thinking, analysis, and interpretation of cultural and social phenomena, past and present. The humanities aim to understand and explore the human experience and expression, including its creativity, beliefs, values, and aspirations."
+      }
+    },
+    "id": "e32e39d4ziajkxjrirkcutbz",
+    "type": "fieldNode",
+    "children": [],
+    "data": {
+      "name": "Ethics",
+      "description": "The study of moral principles, values, and decision-making, including the exploration of ethical dilemmas and controversies in various fields."
+    }
+  },
+  {
+    "parent": {
+      "id": "tsnn44wkim179hq4fgtag0ta",
+      "data": {
+        "name": "Arts",
+        "description": "The arts is a broad field encompassing creative and cultural expression through various mediums such as visual art, music, literature, theater, film, and dance. The primary purpose of the arts is to evoke an emotional or intellectual response from the audience."
+      }
+    },
+    "id": "jzc2m7xue2iigskwd4y9t9gn",
+    "type": "fieldNode",
+    "children": [],
+    "data": {
+      "name": "Film Studies",
+      "description": "The study of cinema as an art form, including the analysis of film history, theory, and criticism, as well as the production and direction of films."
+    }
+  },
+  {
+    "parent": {
+      "id": "tsnn44wkim179hq4fgtag0ta",
+      "data": {
+        "name": "Arts",
+        "description": "The arts is a broad field encompassing creative and cultural expression through various mediums such as visual art, music, literature, theater, film, and dance. The primary purpose of the arts is to evoke an emotional or intellectual response from the audience."
+      }
+    },
+    "id": "qnvngbvws0aklg9fpds6q12r",
+    "type": "fieldNode",
+    "children": [],
+    "data": {
+      "name": "Fine Arts",
+      "description": "The study and creation of visual and performing arts, including painting, sculpture, music, and theater."
+    }
+  },
+  {
+    "parent": {
+      "id": "zrqnyjntpa3cbyc0b66cjglq",
+      "data": {
+        "name": "Humanities",
+        "description": "The humanities are a branch of knowledge that deals with human culture, history, language, literature, philosophy, and the arts. It is an interdisciplinary field that involves critical thinking, analysis, and interpretation of cultural and social phenomena, past and present. The humanities aim to understand and explore the human experience and expression, including its creativity, beliefs, values, and aspirations."
+      }
+    },
+    "id": "rul85bvivt3yuyyubm5lgu6x",
+    "type": "fieldNode",
+    "children": [],
+    "data": {
+      "name": "Gender & Sexuality Studies",
+      "description": "The interdisciplinary study of gender and sexuality, including their social, cultural, and political dimensions, as well as their intersections with race, class, and other identity categories."
+    }
+  },
+  {
+    "parent": {
+      "id": "zrqnyjntpa3cbyc0b66cjglq",
+      "data": {
+        "name": "Humanities",
+        "description": "The humanities are a branch of knowledge that deals with human culture, history, language, literature, philosophy, and the arts. It is an interdisciplinary field that involves critical thinking, analysis, and interpretation of cultural and social phenomena, past and present. The humanities aim to understand and explore the human experience and expression, including its creativity, beliefs, values, and aspirations."
+      }
+    },
+    "id": "clml68dueiflbrlqsu66yxog",
+    "type": "fieldNode",
+    "children": [],
+    "data": {
+      "name": "History",
+      "description": "History is the study of past events, people, and societies. It involves researching, analyzing, and interpreting the past to better understand the present and anticipate the future."
+    }
+  },
+  {
+    "parent": {
+      "id": "zrqnyjntpa3cbyc0b66cjglq",
+      "data": {
+        "name": "Humanities",
+        "description": "The humanities are a branch of knowledge that deals with human culture, history, language, literature, philosophy, and the arts. It is an interdisciplinary field that involves critical thinking, analysis, and interpretation of cultural and social phenomena, past and present. The humanities aim to understand and explore the human experience and expression, including its creativity, beliefs, values, and aspirations."
+      }
+    },
+    "id": "gewxxb54cp7cc13guq6u6fvp",
+    "type": "fieldNode",
+    "children": [],
+    "data": {
+      "name": "Journalism",
+      "description": "Journalism is the practice of gathering, assessing, creating, and presenting news and information. It involves researching, writing, and reporting stories on current events and issues to inform and engage audiences."
+    }
+  },
+  {
+    "parent": {
+      "id": "zrqnyjntpa3cbyc0b66cjglq",
+      "data": {
+        "name": "Humanities",
+        "description": "The humanities are a branch of knowledge that deals with human culture, history, language, literature, philosophy, and the arts. It is an interdisciplinary field that involves critical thinking, analysis, and interpretation of cultural and social phenomena, past and present. The humanities aim to understand and explore the human experience and expression, including its creativity, beliefs, values, and aspirations."
+      }
+    },
+    "id": "szbro05oxcwz1h0acw75hqu4",
+    "type": "fieldNode",
+    "children": [],
+    "data": {
+      "name": "Linguistics",
+      "description": "Linguistics is the scientific study of language and its structure, including its grammar, syntax, semantics, and phonetics. It involves analyzing and understanding how language is used and how it changes over time, as well as how it influences society and culture."
+    }
+  },
+  {
+    "parent": {
+      "id": "ovr8ku7wllxdqty01ovhmjre",
+      "data": {
+        "name": "Sciences",
+        "description": "The fields of study that focus on the natural world and its phenomena, using empirical methods to observe, measure, and analyze data in order to better understand the world around us. "
+      }
+    },
+    "id": "qkllgop6zgwphnytvuhx846f",
+    "type": "fieldNode",
+    "children": [],
+    "data": {
+      "name": "Mathematics",
+      "description": "Mathematics is the study of numbers, quantities, and shapes, and the relationships between them. It involves exploring patterns and structures through logical reasoning, and using mathematical models to solve problems in various fields such as science, engineering, and finance."
+    }
+  },
+  {
+    "parent": {
+      "id": "zrqnyjntpa3cbyc0b66cjglq",
+      "data": {
+        "name": "Humanities",
+        "description": "The humanities are a branch of knowledge that deals with human culture, history, language, literature, philosophy, and the arts. It is an interdisciplinary field that involves critical thinking, analysis, and interpretation of cultural and social phenomena, past and present. The humanities aim to understand and explore the human experience and expression, including its creativity, beliefs, values, and aspirations."
+      }
+    },
+    "id": "hoktowuaz2ksqu5u1pn68xk5",
+    "type": "fieldNode",
+    "children": [],
+    "data": {
+      "name": "Media Studies",
+      "description": "Media studies is the interdisciplinary study of mass media and its impact on society and culture. It involves analyzing the production, distribution, and consumption of media content, as well as the social, political, and economic factors that shape media industries."
+    }
+  },
+  {
+    "parent": {
+      "id": "zrqnyjntpa3cbyc0b66cjglq",
+      "data": {
+        "name": "Humanities",
+        "description": "The humanities are a branch of knowledge that deals with human culture, history, language, literature, philosophy, and the arts. It is an interdisciplinary field that involves critical thinking, analysis, and interpretation of cultural and social phenomena, past and present. The humanities aim to understand and explore the human experience and expression, including its creativity, beliefs, values, and aspirations."
+      }
+    },
+    "id": "pjezl7z0bwj0sd2h37d2kx6a",
+    "type": "fieldNode",
+    "children": [],
+    "data": {
+      "name": "Musicology",
+      "description": "Musicology is the scholarly study of music and its history, theory, and cultural context. It involves analyzing and interpreting music as a form of human expression and creativity, as well as examining the social and cultural factors that shape musical practices and traditions."
+    }
+  },
+  {
+    "parent": {
+      "id": "ovr8ku7wllxdqty01ovhmjre",
+      "data": {
+        "name": "Sciences",
+        "description": "The fields of study that focus on the natural world and its phenomena, using empirical methods to observe, measure, and analyze data in order to better understand the world around us. "
+      }
+    },
+    "id": "mcxygzpen8tafg3nutpw42we",
+    "type": "fieldNode",
+    "children": [],
+    "data": {
+      "name": "Neuroscience",
+      "description": "Neuroscience is the scientific study of the nervous system, including the brain, spinal cord, and nerves. It involves exploring the structure and function of the nervous system, as well as how it influences behavior, cognition, and mental processes."
+    }
+  },
+  {
+    "parent": {
+      "id": "zrqnyjntpa3cbyc0b66cjglq",
+      "data": {
+        "name": "Humanities",
+        "description": "The humanities are a branch of knowledge that deals with human culture, history, language, literature, philosophy, and the arts. It is an interdisciplinary field that involves critical thinking, analysis, and interpretation of cultural and social phenomena, past and present. The humanities aim to understand and explore the human experience and expression, including its creativity, beliefs, values, and aspirations."
+      }
+    },
+    "id": "lvair14y9ta4k08rozqdbp4n",
+    "type": "fieldNode",
+    "children": [],
+    "data": {
+      "name": "Philosophy",
+      "description": "Philosophy is the study of fundamental questions about existence, knowledge, values, reason, and ethics. It involves critically examining and evaluating arguments and concepts, and seeking to understand the nature of reality and human experience."
+    }
+  },
+  {
+    "parent": {
+      "id": "ovr8ku7wllxdqty01ovhmjre",
+      "data": {
+        "name": "Sciences",
+        "description": "The fields of study that focus on the natural world and its phenomena, using empirical methods to observe, measure, and analyze data in order to better understand the world around us. "
+      }
+    },
+    "id": "jvfx5xf1cl4u5xjlkkepbdun",
+    "type": "fieldNode",
+    "children": [],
+    "data": {
+      "name": "Physics",
+      "description": "Physics is the study of matter, energy, and the fundamental laws that govern the universe. It involves exploring the properties of matter and energy, as well as the interactions between them, through observation, experimentation, and mathematical modeling."
+    }
+  },
+  {
+    "parent": {
+      "id": "zrqnyjntpa3cbyc0b66cjglq",
+      "data": {
+        "name": "Humanities",
+        "description": "The humanities are a branch of knowledge that deals with human culture, history, language, literature, philosophy, and the arts. It is an interdisciplinary field that involves critical thinking, analysis, and interpretation of cultural and social phenomena, past and present. The humanities aim to understand and explore the human experience and expression, including its creativity, beliefs, values, and aspirations."
+      }
+    },
+    "id": "vs5ep3ere10vsvl4e0ry9q8i",
+    "type": "fieldNode",
+    "children": [],
+    "data": {
+      "name": "Political Science",
+      "description": "Political science is the study of politics, government, and public policies at the local, national, and international levels. It involves analyzing the structures and functions of political systems, as well as the behavior of individuals and groups in political contexts."
+    }
+  },
+  {
+    "parent": {
+      "id": "zrqnyjntpa3cbyc0b66cjglq",
+      "data": {
+        "name": "Humanities",
+        "description": "The humanities are a branch of knowledge that deals with human culture, history, language, literature, philosophy, and the arts. It is an interdisciplinary field that involves critical thinking, analysis, and interpretation of cultural and social phenomena, past and present. The humanities aim to understand and explore the human experience and expression, including its creativity, beliefs, values, and aspirations."
+      }
+    },
+    "id": "byss76qbag3juxn891jkzhb6",
+    "type": "fieldNode",
+    "children": [],
+    "data": {
+      "name": "Psychology",
+      "description": "Psychology is the scientific study of the human mind and behavior. It involves exploring the biological, cognitive, emotional, and social factors that influence mental processes and behavior, as well as developing and applying theories to understand and treat psychological disorders."
+    }
+  },
+  {
+    "parent": {
+      "id": "zrqnyjntpa3cbyc0b66cjglq",
+      "data": {
+        "name": "Humanities",
+        "description": "The humanities are a branch of knowledge that deals with human culture, history, language, literature, philosophy, and the arts. It is an interdisciplinary field that involves critical thinking, analysis, and interpretation of cultural and social phenomena, past and present. The humanities aim to understand and explore the human experience and expression, including its creativity, beliefs, values, and aspirations."
+      }
+    },
+    "id": "sh44f9rzahk5n4b5hx26rhnl",
+    "type": "fieldNode",
+    "children": [],
+    "data": {
+      "name": "Religious Studies",
+      "description": "Religious studies is the academic study of religion and its role in society and culture. It involves examining the beliefs, practices, and institutions of various religions, as well as exploring the ways in which religion influences individuals and communities."
+    }
+  },
+  {
+    "parent": {
+      "id": "zrqnyjntpa3cbyc0b66cjglq",
+      "data": {
+        "name": "Humanities",
+        "description": "The humanities are a branch of knowledge that deals with human culture, history, language, literature, philosophy, and the arts. It is an interdisciplinary field that involves critical thinking, analysis, and interpretation of cultural and social phenomena, past and present. The humanities aim to understand and explore the human experience and expression, including its creativity, beliefs, values, and aspirations."
+      }
+    },
+    "id": "tblwwggcjmsyu6j6wiogpc43",
+    "type": "fieldNode",
+    "children": [],
+    "data": {
+      "name": "Sociology",
+      "description": "Sociology is the scientific study of human social behavior, relationships, and institutions. It examines how society is organized, how individuals and groups interact within society, and how social structures and systems shape people's lives."
+    }
+  },
+  {
+    "parent": {
+      "id": "tsnn44wkim179hq4fgtag0ta",
+      "data": {
+        "name": "Arts",
+        "description": "The arts is a broad field encompassing creative and cultural expression through various mediums such as visual art, music, literature, theater, film, and dance. The primary purpose of the arts is to evoke an emotional or intellectual response from the audience."
+      }
+    },
+    "id": "kbl4fdt7wqzckjqx7oem849y",
+    "type": "fieldNode",
+    "children": [],
+    "data": {
+      "name": "Theater and Performance Studies",
+      "description": "Theater and Performance Studies is an interdisciplinary field that explores the history, theory, and practice of theater, performance, and related art forms. It involves the study of acting, directing, design, dramaturgy, playwriting, and theater history, as well as the analysis of cultural, social, and political contexts in which performances take place."
+    }
+  }
+]

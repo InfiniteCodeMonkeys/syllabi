@@ -1,0 +1,10 @@
+{
+  "subdisciplines": [
+    {
+      "name": "None",
+      "description": "There are no subdisciplines under Statistical Mechanics.",
+      "parent": "Statistical Mechanics",
+      "children": {}
+    }
+  ]
+}

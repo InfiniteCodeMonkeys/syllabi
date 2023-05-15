@@ -1,0 +1,22 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Calligraphy",
+      "description": "The art of beautiful writing, often used in the Qur'an and other Islamic texts.",
+      "parent": "Islamic Art",
+      "children": {}
+    },
+    {
+      "name": "Geometry",
+      "description": "The use of geometric shapes to create intricate designs, often seen in Islamic architecture.",
+      "parent": "Islamic Art",
+      "children": {}
+    },
+    {
+      "name": "Arabesque",
+      "description": "A style of decoration using intricate floral and foliage designs, often found in Islamic architecture and textiles.",
+      "parent": "Islamic Art",
+      "children": {}
+    }
+  ]
+}

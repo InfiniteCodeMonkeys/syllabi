@@ -1,0 +1,22 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Soil Biology",
+      "description": "The study of the microbial and faunal life present in soil and their interactions with the physical and chemical properties of soil.",
+      "parent": "Soil Science",
+      "children": {}
+    },
+    {
+      "name": "Soil Chemistry",
+      "description": "The study of the chemical composition and reactions of soils.",
+      "parent": "Soil Science",
+      "children": {}
+    },
+    {
+      "name": "Soil Physics",
+      "description": "The study of the physical properties of soils, including the water flow, gas exchange, and heat transfer.",
+      "parent": "Soil Science",
+      "children": {}
+    }
+  ]
+}

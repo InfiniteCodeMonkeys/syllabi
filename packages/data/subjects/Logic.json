@@ -1,0 +1,34 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Computational Logic",
+      "description": "The study of how computers can be used to model and reason about logical systems.",
+      "parent": "Logic",
+      "children": {}
+    },
+    {
+      "name": "Modal Logic",
+      "description": "The study of reasoning about necessity and possibility.",
+      "parent": "Logic",
+      "children": {}
+    },
+    {
+      "name": "Philosophical Logic",
+      "description": "The study of logic in relation to philosophy, especially in evaluating arguments and reasoning.",
+      "parent": "Logic",
+      "children": {}
+    },
+    {
+      "name": "Non-Classical Logic",
+      "description": "The study of logical systems that operate outside the scope of traditional boolean logic.",
+      "parent": "Logic",
+      "children": {}
+    },
+    {
+      "name": "Meta-Logic",
+      "description": "The study of the foundations, principles, and methods of logic itself.",
+      "parent": "Logic",
+      "children": {}
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Ancient Greek Drama",
+      "description": "The study of the plays and theatrical productions from ancient Greece.",
+      "parent": "Greek Literature",
+      "children": {}
+    },
+    {
+      "name": "Homer",
+      "description": "The study of the epic poems 'The Iliad' and 'The Odyssey' and their impact on Greek Literature.",
+      "parent": "Greek Literature",
+      "children": {}
+    },
+    {
+      "name": "Greek Poetry",
+      "description": "The study of poetry from ancient Greece and its literary significance.",
+      "parent": "Greek Literature",
+      "children": {}
+    }
+  ]
+}
