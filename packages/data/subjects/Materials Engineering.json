@@ -1,0 +1,22 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Ceramic Engineering",
+      "description": "The study and production of ceramic materials such as pottery, porcelain, bricks, tiles, and glass.",
+      "parent": "Materials Engineering",
+      "children": {}
+    },
+    {
+      "name": "Metallurgical Engineering",
+      "description": "The science and technology of metals and alloys, including their extraction, production, and use.",
+      "parent": "Materials Engineering",
+      "children": {}
+    },
+    {
+      "name": "Polymer Engineering",
+      "description": "The study of polymers and plastic materials, including their synthesis, properties, and applications.",
+      "parent": "Materials Engineering",
+      "children": {}
+    }
+  ]
+}

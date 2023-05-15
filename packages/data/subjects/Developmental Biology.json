@@ -1,0 +1,28 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Embryology",
+      "description": "The study of the development of embryos in animals and plants.",
+      "parent": "Developmental Biology",
+      "children": {}
+    },
+    {
+      "name": "Molecular Biology of Development",
+      "description": "The study of the molecular mechanisms underlying the process of development.",
+      "parent": "Developmental Biology",
+      "children": {}
+    },
+    {
+      "name": "Evolutionary Developmental Biology",
+      "description": "The study of the evolutionary history of developmental processes and the mechanisms underlying the evolution of developmental processes.",
+      "parent": "Developmental Biology",
+      "children": {}
+    },
+    {
+      "name": "Cellular and Molecular Neuroscience",
+      "description": "The study of the cellular and molecular mechanisms underlying the function and development of the nervous system.",
+      "parent": "Developmental Biology",
+      "children": {}
+    }
+  ]
+}

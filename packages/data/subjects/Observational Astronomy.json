@@ -1,0 +1,52 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Astrochemistry",
+      "description": "The study of the chemical composition of astronomical objects, including stars and planets.",
+      "parent": "Observational Astronomy",
+      "children": {}
+    },
+    {
+      "name": "Astrophysics",
+      "description": "The application of the principles of physics to the study of astronomical objects and phenomena, including the structure and evolution of stars and galaxies.",
+      "parent": "Observational Astronomy",
+      "children": {}
+    },
+    {
+      "name": "Cosmology",
+      "description": "The study of the origin, evolution, and structure of the Universe.",
+      "parent": "Observational Astronomy",
+      "children": {}
+    },
+    {
+      "name": "Exoplanetology",
+      "description": "The study of planets beyond our solar system.",
+      "parent": "Observational Astronomy",
+      "children": {}
+    },
+    {
+      "name": "Galactic Astronomy",
+      "description": "The study of the structure, dynamics, and evolution of galaxies.",
+      "parent": "Observational Astronomy",
+      "children": {}
+    },
+    {
+      "name": "High-Energy Astrophysics",
+      "description": "The study of astronomical objects and phenomena that emit high-energy radiation, including X-rays and gamma rays.",
+      "parent": "Observational Astronomy",
+      "children": {}
+    },
+    {
+      "name": "Radio Astronomy",
+      "description": "The study of astronomical objects and phenomena that emit radio waves, including stars, galaxies, and black holes.",
+      "parent": "Observational Astronomy",
+      "children": {}
+    },
+    {
+      "name": "Solar Astronomy",
+      "description": "The study of the Sun, its properties, and its effects on the Solar System.",
+      "parent": "Observational Astronomy",
+      "children": {}
+    }
+  ]
+}

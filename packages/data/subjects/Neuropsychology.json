@@ -1,0 +1,55 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Behavioral Neuropsychology",
+      "description": "The study of how behavior is influenced by brain structures and functions.",
+      "parent": "Neuropsychology",
+      "children": {}
+    },
+    {
+      "name": "Clinical Neuropsychology",
+      "description": "The assessment and treatment of cognitive and behavioral problems caused by brain injury or disease.",
+      "parent": "Neuropsychology",
+      "children": {}
+    },
+    {
+      "name": "Cognitive Neuropsychology",
+      "description": "The study of how cognitive processes are related to specific brain structures and functions.",
+      "parent": "Neuropsychology",
+      "children": {}
+    },
+    {
+      "name": "Developmental Neuropsychology",
+      "description": "The study of cognitive development and how the brain changes during development.",
+      "parent": "Neuropsychology",
+      "children": {}
+    },
+    {
+      "name": "Experimental Neuropsychology",
+      "description": "The study of cognitive processes and brain structures using experimental methods.",
+      "parent": "Neuropsychology",
+      "children": {}
+    },
+    {
+      "name": "Neuropsychological Rehabilitation",
+      "description": "The development and implementation of interventions to improve cognitive and behavioral functioning following brain injury or disease.",
+      "parent": "Neuropsychology",
+      "children": {}
+    }
+  ]
+}{
+  "subdisciplines": [
+    {
+      "name": "Clinical Neuropsychology",
+      "description": "The assessment and treatment of cognitive and behavioral problems resulting from brain injury or neurological illness.",
+      "parent": "Neuropsychology",
+      "children": {}
+    },
+    {
+      "name": "Experimental Neuropsychology",
+      "description": "The study of the relationship between brain function and behavior by manipulating or measuring brain activity.",
+      "parent": "Neuropsychology",
+      "children": {}
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Comparative History",
+      "description": "The study of similarities and differences between historical periods, regions, nations or cultures.",
+      "parent": "Global History",
+      "children": {}
+    },
+    {
+      "name": "World History",
+      "description": "The study of the history of all humanity, focusing on the development of civilization on a global scale.",
+      "parent": "Global History",
+      "children": {}
+    }
+  ]
+}

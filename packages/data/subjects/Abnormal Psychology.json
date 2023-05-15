@@ -1,0 +1,28 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Clinical Neuropsychology",
+      "description": "The study and assessment of cognitive, behavioral, and emotional effects of brain injuries and illness.",
+      "parent": "Abnormal Psychology",
+      "children": {}
+    },
+    {
+      "name": "Forensic Psychology",
+      "description": "The application of psychology to legal and criminal justice systems. Forensic psychologists may be involved in profiling, jury selection, and evaluating criminal defendants.",
+      "parent": "Abnormal Psychology",
+      "children": {}
+    },
+    {
+      "name": "Health Psychology",
+      "description": "The study of how psychological, social, and behavioral factors influence physical health and well-being.",
+      "parent": "Abnormal Psychology",
+      "children": {}
+    },
+    {
+      "name": "Child and Adolescent Psychology",
+      "description": "The study of psychological disorders and treatment of children and adolescents.",
+      "parent": "Abnormal Psychology",
+      "children": {}
+    }
+  ]
+}

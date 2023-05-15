@@ -1,0 +1,22 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Comparative Politics",
+      "description": "The study of political systems, institutions, and behavior across different countries and regions.",
+      "parent": "Political History",
+      "children": {}
+    },
+    {
+      "name": "International Relations",
+      "description": "The study of interactions between states, international organizations, and global actors.",
+      "parent": "Political History",
+      "children": {}
+    },
+    {
+      "name": "Political Economy",
+      "description": "The study of how economic systems and political institutions interact to shape public policy and social outcomes.",
+      "parent": "Political History",
+      "children": {}
+    }
+  ]
+}

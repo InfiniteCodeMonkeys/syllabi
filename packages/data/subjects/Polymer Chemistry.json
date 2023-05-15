@@ -1,0 +1,22 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Polymer Physics",
+      "description": "The study of the physical properties of polymers, including their mechanical, electrical, and optical properties.",
+      "parent": "Polymer Chemistry",
+      "children": {}
+    },
+    {
+      "name": "Polymer Synthesis",
+      "description": "The process of creating polymers through chemical reactions and synthesis.",
+      "parent": "Polymer Chemistry",
+      "children": {}
+    },
+    {
+      "name": "Polymer Characterization",
+      "description": "The measurement and analysis of the properties and behavior of polymers.",
+      "parent": "Polymer Chemistry",
+      "children": {}
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Network Security",
+      "description": "The practice of securing a computer network from unauthorized access or attacks.",
+      "parent": "Computer Networks",
+      "children": {}
+    },
+    {
+      "name": "Wireless Networks",
+      "description": "The study of how to design, maintain and troubleshoot wireless networks.",
+      "parent": "Computer Networks",
+      "children": {}
+    },
+    {
+      "name": "Network Architecture",
+      "description": "The design of computer networks, including both their physical and logical layouts.",
+      "parent": "Computer Networks",
+      "children": {}
+    }
+  ]
+}

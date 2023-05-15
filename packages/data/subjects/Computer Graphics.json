@@ -1,0 +1,22 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Computer Animation",
+      "description": "The creation of moving images using computers.",
+      "parent": "Computer Graphics",
+      "children": {}
+    },
+    {
+      "name": "Computer Modeling",
+      "description": "The use of computers to create three-dimensional models of objects or scenes.",
+      "parent": "Computer Graphics",
+      "children": {}
+    },
+    {
+      "name": "Rendering",
+      "description": "The process of generating an image from a three-dimensional model or scene.",
+      "parent": "Computer Graphics",
+      "children": {}
+    }
+  ]
+}

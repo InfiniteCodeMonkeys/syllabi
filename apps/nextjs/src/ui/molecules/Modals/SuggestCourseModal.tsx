@@ -5,7 +5,7 @@ import { trpc } from "utils/trpc";
 
 const SuggestCourseModal = () => {
   const [title, setTitle] = useState("");
-  const newCourse = trpc.courses.create.useMutation();
+  const newCourse = trpc.seed.seed.useMutation();
   const { setSuggestionModalOpen, suggestionModalOpen } = useStore(
     (state: RootState) => ({
       setSuggestionModalOpen: state.setSuggestionModalOpen,
@@ -16,7 +16,7 @@ const SuggestCourseModal = () => {
   const cancelButtonRef = useRef(null);
 
   const handleSubmit = async () => {
-    const response = await newCourse.mutateAsync({ title });
+    const response = await newCourse.mutateAsync();
     console.log(response);
   };
 

@@ -1,0 +1,28 @@
+{
+  "subdisciplines": [
+    {
+      "name": "African Architecture",
+      "description": "The study of the architectural styles, building materials, and construction methods used in traditional and contemporary African architecture and design.",
+      "parent": "African Art",
+      "children": {}
+    },
+    {
+      "name": "African Sculpture",
+      "description": "The study of the traditional and contemporary sculptural practices throughout Africa. It includes the study of materials, techniques, forms, styles, and iconography. ",
+      "parent": "African Art",
+      "children": {}
+    },
+    {
+      "name": "African Ceramics",
+      "description": "The study of traditional and contemporary African pottery, including materials, techniques, forms, styles, and iconography.",
+      "parent": "African Art",
+      "children": {}
+    },
+    {
+      "name": "African Textiles and Fashion",
+      "description": "The study of traditional and contemporary African textile production, including weaving, dying, embroidery, and fashion.",
+      "parent": "African Art",
+      "children": {}
+    }
+  ]
+}

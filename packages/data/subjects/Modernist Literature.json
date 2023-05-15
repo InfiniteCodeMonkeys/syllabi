@@ -1,0 +1,22 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Modernist Poetry",
+      "description": "The study of poetry produced during the modernist period, characterized by unique language and forms.",
+      "parent": "Modernist Literature",
+      "children": {}
+    },
+    {
+      "name": "Modernist Fiction",
+      "description": "The study of fiction produced during the modernist period, characterized by a focus on inner consciousness and fragmented narrative forms.",
+      "parent": "Modernist Literature",
+      "children": {}
+    },
+    {
+      "name": "Modernist Drama",
+      "description": "The study of drama produced during the modernist period, characterized by experimental techniques and themes that challenged traditional social norms.",
+      "parent": "Modernist Literature",
+      "children": {}
+    }
+  ]
+}

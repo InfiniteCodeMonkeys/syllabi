@@ -1,0 +1,16 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Southern Gothic",
+      "description": "A subgenre of Gothic fiction set in the American South that uses dark, grotesque, and often supernatural elements to explore social issues such as race and class.",
+      "parent": "Gothic Literature",
+      "children": {}
+    },
+    {
+      "name": "Gothic Romance",
+      "description": "A subgenre of romantic fiction that features elements of the Gothic, such as dark, mysterious settings, supernatural events, and melodramatic plot twists.",
+      "parent": "Gothic Literature",
+      "children": {}
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Network Security",
+      "description": "The practice of securing computer networks from unauthorized access or damage.",
+      "parent": "Computer Security",
+      "children": {}
+    },
+    {
+      "name": "Cryptography",
+      "description": "The practice of secure communication in the presence of third parties. It relies on mathematically idealized schemes to provide confidentiality, integrity, and authenticity guarantees.",
+      "parent": "Computer Security",
+      "children": {}
+    },
+    {
+      "name": "Application Security",
+      "description": "The use of software, hardware, and procedural methods to protect applications from external threats.",
+      "parent": "Computer Security",
+      "children": {}
+    }
+  ]
+}

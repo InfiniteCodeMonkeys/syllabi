@@ -1,0 +1,34 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Plant anatomy and morphology",
+      "description": "The study of the structure and form of plants.",
+      "parent": "Botany",
+      "children": {}
+    },
+    {
+      "name": "Plant physiology",
+      "description": "The study of the normal functioning of plants.",
+      "parent": "Botany",
+      "children": {}
+    },
+    {
+      "name": "Plant taxonomy",
+      "description": "The identification, classification, and naming of plants.",
+      "parent": "Botany",
+      "children": {}
+    },
+    {
+      "name": "Plant ecology",
+      "description": "The study of the interrelationships between plants and their environment.",
+      "parent": "Botany",
+      "children": {}
+    },
+    {
+      "name": "Plant genetics",
+      "description": "The study of the genetic makeup of plants.",
+      "parent": "Botany",
+      "children": {}
+    }
+  ]
+}

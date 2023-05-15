@@ -1,0 +1,34 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Food Anthropology",
+      "description": "The study of the cultural and social aspects of food production, consumption, and distribution.",
+      "parent": "Food Studies",
+      "children": {}
+    },
+    {
+      "name": "Food History",
+      "description": "The study of the historical development of food and its role in human society.",
+      "parent": "Food Studies",
+      "children": {}
+    },
+    {
+      "name": "Food Policy",
+      "description": "The study of the development and implementation of public policies related to food, agriculture, and nutrition.",
+      "parent": "Food Studies",
+      "children": {}
+    },
+    {
+      "name": "Food Science",
+      "description": "The study of the physical, biological, and chemical properties of food, as well as the development of new food products and processes.",
+      "parent": "Food Studies",
+      "children": {}
+    },
+    {
+      "name": "Food Systems",
+      "description": "The study of the complex relationships between food producers, consumers, and the environment.",
+      "parent": "Food Studies",
+      "children": {}
+    }
+  ]
+}

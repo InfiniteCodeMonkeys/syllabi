@@ -1,22 +1,28 @@
-interface Parent {
-  id?: string;
-  name?: string;
-  description?: string | null;
-  type?: string;
-  children: any;
-  position?: any;
-}
+import { Nodes } from "@prisma/client";
 
-const setPosition = (parent: Parent, index: number) => {
-  const numberOfChildren = parent.children?.children?.length || 1;
+const setPosition = (subject: Nodes, index: number) => {
+  const numberOfChildren = subject.children.length || 1;
 
   const degreesOfSeparation = 360 / numberOfChildren;
 
-  const newX = Math.cos(degreesOfSeparation * (index + 1)) * 300;
-  const newY = Math.sin(degreesOfSeparation * (index + 1)) * 300;
+  const x = Math.cos(degreesOfSeparation * (index + 1)) * 300;
+  const y = Math.sin(degreesOfSeparation * (index + 1)) * 300;
 
-  const x = newX;
-  const y = newY;
+  if (subject.id === "clggtsotk0004p0eqk2lfm793") {
+    return { x: 0, y: 0 };
+  }
+
+  if (subject.id === "ovr8ku7wllxdqty01ovhmjre") {
+    return { x: 300, y: 150 };
+  }
+
+  if (subject.id === "tsnn44wkim179hq4fgtag0ta") {
+    return { x: -300, y: -150 };
+  }
+
+  if (subject.id === "zrqnyjntpa3cbyc0b66cjglq") {
+    return { x: 0, y: -300 };
+  }
 
   return { x, y };
 };

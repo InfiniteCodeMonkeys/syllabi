@@ -1,0 +1,28 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Weaving",
+      "description": "The art of interlacing two sets of threads at right angles to create a fabric or textile.",
+      "parent": "Textile Arts",
+      "children": {}
+    },
+    {
+      "name": "Knitting",
+      "description": "The art of creating a fabric or textile by interlocking loops of yarn with knitting needles.",
+      "parent": "Textile Arts",
+      "children": {}
+    },
+    {
+      "name": "Embroidery",
+      "description": "The art of decorating fabric or other materials with needle and thread or yarn.",
+      "parent": "Textile Arts",
+      "children": {}
+    },
+    {
+      "name": "Dyeing",
+      "description": "The art of applying color to fabric or other materials to alter their appearance.",
+      "parent": "Textile Arts",
+      "children": {}
+    }
+  ]
+}

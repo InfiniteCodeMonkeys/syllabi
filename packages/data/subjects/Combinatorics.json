@@ -1,0 +1,22 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Enumerative Combinatorics",
+      "description": "The study of finite structures and the number of ways they can be arranged or chosen.",
+      "parent": "Combinatorics",
+      "children": {}
+    },
+    {
+      "name": "Algorithmic Combinatorics",
+      "description": "The design and analysis of algorithms for solving combinatorial problems.",
+      "parent": "Combinatorics",
+      "children": {}
+    },
+    {
+      "name": "Probabilistic Combinatorics",
+      "description": "The application of probabilistic methods to combinatorial problems and the study of random discrete structures.",
+      "parent": "Combinatorics",
+      "children": {}
+    }
+  ]
+}

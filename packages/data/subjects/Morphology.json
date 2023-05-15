@@ -1,0 +1,28 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Morpheme-based Morphology",
+      "description": "The analysis of words through decomposing them into morphemes, the smallest unit of meaning.",
+      "parent": "Morphology",
+      "children": {}
+    },
+    {
+      "name": "Word-based Morphology",
+      "description": "The study of words and how they are formed from smaller units of meaning.",
+      "parent": "Morphology",
+      "children": {}
+    },
+    {
+      "name": "Paradigmatic Morphology",
+      "description": "The study of paradigms, which are sets of words that share the same grammatical properties.",
+      "parent": "Morphology",
+      "children": {}
+    },
+    {
+      "name": "Syntagmatic Morphology",
+      "description": "The study of the relationship between morphemes in a sentence, and how they combine to create meaning.",
+      "parent": "Morphology",
+      "children": {}
+    }
+  ]
+}

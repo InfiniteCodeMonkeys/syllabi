@@ -1,0 +1,34 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Neural Systems and Circuits",
+      "description": "The study of the neural circuits underlying behavior and cognition.",
+      "parent": "Systems Neuroscience",
+      "children": {}
+    },
+    {
+      "name": "Computational Neuroscience",
+      "description": "The study of the information processing algorithms and models that underlie neural systems.",
+      "parent": "Systems Neuroscience",
+      "children": {}
+    },
+    {
+      "name": "Neurophysiology",
+      "description": "The study of the electrical properties of neurons and their functions within neural circuits.",
+      "parent": "Systems Neuroscience",
+      "children": {}
+    },
+    {
+      "name": "Neuroanatomy",
+      "description": "The study of the structure and organization of the nervous system, including the brain and spinal cord.",
+      "parent": "Systems Neuroscience",
+      "children": {}
+    },
+    {
+      "name": "Neuroimaging",
+      "description": "The use of advanced imaging techniques to visualize the structure and function of the human brain.",
+      "parent": "Systems Neuroscience",
+      "children": {}
+    }
+  ]
+}

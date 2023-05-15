@@ -1,0 +1,22 @@
+{
+    "subdisciplines": [
+        {
+            "name": "Systems Neuroscience",
+            "description": "The study of the function of neural circuits and systems that give rise to specific behaviors.",
+            "parent": "Computational Neuroscience",
+            "children": {}
+        },
+        {
+            "name": "Cognitive Neuroscience",
+            "description": "The study of the neural mechanisms that underlie cognitive processes, such as perception, attention, language, memory, and decision-making.",
+            "parent": "Computational Neuroscience",
+            "children": {}
+        },
+        {
+            "name": "Computational Cognitive Neuroscience",
+            "description": "The use of computational models to explain cognitive processes in the brain.",
+            "parent": "Computational Neuroscience",
+            "children": {}
+        }
+    ]
+}

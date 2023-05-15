@@ -1,0 +1,34 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Digital Media Studies",
+      "description": "The study of digital media and their impact on society, culture, and communication.",
+      "parent": "Media Studies",
+      "children": {}
+    },
+    {
+      "name": "Film Studies",
+      "description": "The academic study of films as a form of art, entertainment, and communication.",
+      "parent": "Media Studies",
+      "children": {}
+    },
+    {
+      "name": "Journalism Studies",
+      "description": "The study of the production, distribution, and reception of news and other forms of media content.",
+      "parent": "Media Studies",
+      "children": {}
+    },
+    {
+      "name": "Media Psychology",
+      "description": "The study of the psychological processes underlying media and communication, including media effects and audience behavior.",
+      "parent": "Media Studies",
+      "children": {}
+    },
+    {
+      "name": "Media Theory",
+      "description": "The study of how media shape and are shaped by culture, society, politics, and economics.",
+      "parent": "Media Studies",
+      "children": {}
+    }
+  ]
+}

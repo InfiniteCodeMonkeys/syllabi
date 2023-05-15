@@ -1,0 +1,30 @@
+{
+  "subdisciplines": []
+}{
+  "subdisciplines": [
+    {
+      "name": "Molecular Biology",
+      "description": "The branch of biology that deals with the structure and function of the macromolecules (e.g. proteins and nucleic acids) essential to life.",
+      "parent": "Biochemistry",
+      "children": {}
+    },
+    {
+      "name": "Enzymology",
+      "description": "The study of enzymes, the proteins that catalyze chemical reactions within living organisms.",
+      "parent": "Biochemistry",
+      "children": {}
+    },
+    {
+      "name": "Metabolism",
+      "description": "The set of chemical reactions that occur within a living organism in order to maintain life.",
+      "parent": "Biochemistry",
+      "children": {}
+    },
+    {
+      "name": "Proteomics",
+      "description": "The large-scale study of proteins, particularly their structures and functions.",
+      "parent": "Biochemistry",
+      "children": {}
+    }
+  ]
+}

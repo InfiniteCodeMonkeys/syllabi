@@ -1,0 +1,22 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Trait Theory",
+      "description": "The study of individual differences in personality characteristics and how they relate to behavior and outcomes.",
+      "parent": "Personality Psychology",
+      "children": {}
+    },
+    {
+      "name": "Social-cognitive Theory",
+      "description": "The study of how people learn, structure, and use information in the social world as part of their personality development.",
+      "parent": "Personality Psychology",
+      "children": {}
+    },
+    {
+      "name": "Humanistic Theory",
+      "description": "The study of how individuals perceive and understand themselves and their world, and how they strive towards self-actualization and personal growth.",
+      "parent": "Personality Psychology",
+      "children": {}
+    }
+  ]
+}

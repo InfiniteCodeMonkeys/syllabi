@@ -1,0 +1,22 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Paleography",
+      "description": "The study of ancient handwriting and scripts.",
+      "parent": "Epigraphy",
+      "children": {}
+    },
+    {
+      "name": "Numismatics",
+      "description": "The study of coins and currency throughout history.",
+      "parent": "Epigraphy",
+      "children": {}
+    },
+    {
+      "name": "Graphemics",
+      "description": "The study of the relationship between writing systems and the sounds they represent.",
+      "parent": "Epigraphy",
+      "children": {}
+    }
+  ]
+}

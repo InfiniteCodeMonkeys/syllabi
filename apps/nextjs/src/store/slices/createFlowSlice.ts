@@ -29,9 +29,12 @@ export const createFlowSlice = (
   edges: [],
 
   onNodesChange: (changes: NodeChange[]) => {
-    set({
-      nodes: applyNodeChanges(changes, get().nodes),
-    });
+    const nodes = get().nodes;
+    nodes
+      ? set({
+          nodes: applyNodeChanges(changes, get().nodes),
+        })
+      : null;
   },
   onEdgesChange: (changes: EdgeChange[]) => {
     set({
@@ -72,17 +75,11 @@ export const createFlowSlice = (
   },
 
   updateNodes: (nodes: Node[]) => {
-    const nodesArray: Node[] = [academyNode];
-
-    nodes?.forEach((node) => {
-      nodesArray.push(node);
-    });
-
-    set({ nodes: nodesArray });
+    set({ nodes });
   },
   updateEdges: (edges: Edge[]) => {
     set({
-      edges: edges,
+      edges,
     });
   },
   filterNodes: (nodeFromProps: Node) => {

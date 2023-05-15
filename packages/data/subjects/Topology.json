@@ -1,0 +1,22 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Algebraic Topology",
+      "description": "The study of topological spaces by associating algebraic objects, such as groups, to them, and then studying these algebraic objects.",
+      "parent": "Topology",
+      "children": {}
+    },
+    {
+      "name": "Differential Topology",
+      "description": "The study of smooth manifolds (spaces that locally look like Euclidean space) and the transformations between them.",
+      "parent": "Topology",
+      "children": {}
+    },
+    {
+      "name": "Geometric Topology",
+      "description": "The study of the properties of geometric structures such as curves, surfaces, and hyperbolic manifolds.",
+      "parent": "Topology",
+      "children": {}
+    }
+  ]
+}

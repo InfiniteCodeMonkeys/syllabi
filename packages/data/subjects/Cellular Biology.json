@@ -1,0 +1,34 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Cell Signaling",
+      "description": "The study of how cells communicate with each other and their surroundings.",
+      "parent": "Cellular Biology",
+      "children": {}
+    },
+    {
+      "name": "Cellular Physiology",
+      "description": "The study of how cells function, including metabolism, energy transport, and cell division.",
+      "parent": "Cellular Biology",
+      "children": {}
+    },
+    {
+      "name": "Cellular Imaging",
+      "description": "The use of imaging techniques such as microscopy to visualize cellular structures and processes.",
+      "parent": "Cellular Biology",
+      "children": {}
+    },
+    {
+      "name": "Stem Cell Biology",
+      "description": "The study of stem cells, including their development, differentiation, and potential applications in regenerative medicine.",
+      "parent": "Cellular Biology",
+      "children": {}
+    },
+    {
+      "name": "Cancer Biology",
+      "description": "The study of the cellular and molecular processes involved in the development and progression of cancer.",
+      "parent": "Cellular Biology",
+      "children": {}
+    }
+  ]
+}

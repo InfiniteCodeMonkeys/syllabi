@@ -1,0 +1,79 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Astrobiology",
+      "description": "The study of the origin, evolution, and distribution of life in the universe.",
+      "parent": "Astrophysics",
+      "children": {}
+    },
+    {
+      "name": "Astrochemistry",
+      "description": "The study of the chemical reactions and properties of matter in space.",
+      "parent": "Astrophysics",
+      "children": {}
+    },
+    {
+      "name": "Astrodynamics",
+      "description": "The study of the behavior of objects in space, including spacecraft, planets, and stars.",
+      "parent": "Astrophysics",
+      "children": {}
+    },
+    {
+      "name": "Cosmology",
+      "description": "The study of the origin, evolution, and eventual fate of the universe.",
+      "parent": "Astrophysics",
+      "children": {}
+    },
+    {
+      "name": "Galactic Astronomy",
+      "description": "The study of the structure, formation, and evolution of galaxies.",
+      "parent": "Astrophysics",
+      "children": {}
+    },
+    {
+      "name": "High Energy Astrophysics",
+      "description": "The study of astrophysical objects and phenomena that produce high-energy particles and radiation.",
+      "parent": "Astrophysics",
+      "children": {}
+    },
+    {
+      "name": "Stellar Astronomy",
+      "description": "The study of stars, their properties, formation, and evolution.",
+      "parent": "Astrophysics",
+      "children": {}
+    }
+  ]
+}{
+  "subdisciplines": [
+    {
+      "name": "Astrochemistry",
+      "description": "The study of the chemical composition and processes of astrophysical objects, including stars, planets, and interstellar medium.",
+      "parent": "Astrophysics",
+      "children": {}
+    },
+    {
+      "name": "Astrobiology",
+      "description": "The study of the origin, evolution, and potential for life in the universe.",
+      "parent": "Astrophysics",
+      "children": {}
+    },
+    {
+      "name": "Astrophysical Fluid Dynamics",
+      "description": "The study of the behavior of fluids in astrophysical environments, including stars, galaxies, and interstellar medium.",
+      "parent": "Astrophysics",
+      "children": {}
+    },
+    {
+      "name": "Gravitational Astrophysics",
+      "description": "The study of the properties and effects of gravity in astrophysical systems, including black holes, neutron stars, and gravitational waves.",
+      "parent": "Astrophysics",
+      "children": {}
+    },
+    {
+      "name": "Stellar Astrophysics",
+      "description": "The study of the properties, evolution, and behavior of stars.",
+      "parent": "Astrophysics",
+      "children": {}
+    }
+  ]
+}

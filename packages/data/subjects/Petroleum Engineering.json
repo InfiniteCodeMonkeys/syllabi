@@ -1,0 +1,22 @@
+{
+    "subdisciplines": [
+        {
+            "name": "Drilling Engineering",
+            "description": "The study of engineering principles related to drilling wells for oil and gas exploration and production.",
+            "parent": "Petroleum Engineering",
+            "children": {}
+        },
+        {
+            "name": "Reservoir Engineering",
+            "description": "The study of the characteristics of oil and gas reservoirs to optimize the recovery of hydrocarbons.",
+            "parent": "Petroleum Engineering",
+            "children": {}
+        },
+        {
+            "name": "Production Engineering",
+            "description": "The study of optimizing the production of oil and gas reservoirs through the design and implementation of production systems.",
+            "parent": "Petroleum Engineering",
+            "children": {}
+        }
+    ]
+}

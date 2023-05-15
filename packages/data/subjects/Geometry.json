@@ -1,0 +1,22 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Euclidean Geometry",
+      "description": "The study of shapes, sizes, and positions of figures in two-dimensional space based on axioms and theorems of Euclid.",
+      "parent": "Geometry",
+      "children": {}
+    },
+    {
+      "name": "Non-Euclidean Geometry",
+      "description": "The branch of geometry that does not follow the axioms and theorems of Euclidean geometry, such as hyperbolic and elliptic geometries.",
+      "parent": "Geometry",
+      "children": {}
+    },
+    {
+      "name": "Differential Geometry",
+      "description": "The study of geometry using calculus and differential equations, focusing on the properties of curves, surfaces, and higher-dimensional manifolds.",
+      "parent": "Geometry",
+      "children": {}
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Mechanical Design",
+      "description": "The application of engineering principles to the design of mechanical systems.",
+      "parent": "Mechanical Engineering",
+      "children": {}
+    },
+    {
+      "name": "Thermo-Fluids",
+      "description": "The study of thermodynamics, fluid mechanics, and heat transfer in mechanical systems.",
+      "parent": "Mechanical Engineering",
+      "children": {}
+    },
+    {
+      "name": "Manufacturing Engineering",
+      "description": "The application of engineering principles to the design and optimization of manufacturing processes and systems.",
+      "parent": "Mechanical Engineering",
+      "children": {}
+    },
+    {
+      "name": "Mechatronics",
+      "description": "The integration of mechanical, electrical, and computer engineering to design and control advanced systems.",
+      "parent":"Mechanical Engineering",
+      "children": {}
+    }
+  ]
+}

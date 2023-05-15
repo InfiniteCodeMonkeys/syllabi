@@ -1,0 +1,22 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Behavioral Ecology",
+      "description": "The study of the ecological and evolutionary basis for animal behavior, often focusing on the behavior of individuals within populations.",
+      "parent": "Ecology",
+      "children": {}
+    },
+    {
+      "name": "Conservation Biology",
+      "description": "The study of the preservation of biodiversity and the management of ecosystems to prevent their loss.",
+      "parent": "Ecology",
+      "children": {}
+    },
+    {
+      "name": "Population Ecology",
+      "description": "The study of how populations of organisms interact with their environment and with each other.",
+      "parent": "Ecology",
+      "children": {}
+    }
+  ]
+}

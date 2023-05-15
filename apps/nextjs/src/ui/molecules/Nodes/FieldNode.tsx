@@ -4,10 +4,10 @@ import useStore from "store";
 import { trpc } from "utils/trpc";
 
 export default function FieldNode(
-  node: NodeProps & { data: { label: string; description: string } },
+  node: NodeProps & { data: { name: string; description: string } },
 ) {
   const { isSignedIn } = useUser();
-  const nodesFromTRPC = trpc.subjects.get.useQuery({});
+  const nodesFromTRPC = trpc.nodes.get.useQuery({});
   const {
     addChildNode,
     filterNodes,
@@ -25,8 +25,8 @@ export default function FieldNode(
   }));
 
   const data = nodesFromTRPC?.data as unknown as {
-    nodeArray: Node[];
-    edgeArray: Edge[];
+    nodes: Node[];
+    edges: Edge[];
   };
 
   const handleClick = () => {
@@ -45,8 +45,8 @@ export default function FieldNode(
       filterNodes(node);
     } else {
       updateFilteredNodes(false);
-      updateNodes(data?.nodeArray);
-      updateEdges(data?.edgeArray);
+      updateNodes(data?.nodes);
+      updateEdges(data?.edges);
     }
   };
 
@@ -55,7 +55,7 @@ export default function FieldNode(
       <Handle type="target" position={Position.Top} />
       <div className="flex h-32 w-32 items-center justify-center rounded-full border-transparent bg-gradient-to-r from-cyan-500 to-blue-500">
         <div className="flex flex-col items-center justify-between">
-          <h4 className="text-center text-white">{node.data.label}</h4>
+          <h4 className="text-center text-white">{node.data.name}</h4>
         </div>
         <div className=" absolute bottom-0 ">
           {isSignedIn ? (

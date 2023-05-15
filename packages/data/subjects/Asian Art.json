@@ -1,0 +1,22 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Chinese Art",
+      "description": "The study of art produced in China or by Chinese artists.",
+      "parent": "Asian Art",
+      "children": {}
+    },
+    {
+      "name": "Japanese Art",
+      "description": "The study of art produced in Japan or by Japanese artists.",
+      "parent": "Asian Art",
+      "children": {}
+    },
+    {
+      "name": "Korean Art",
+      "description": "The study of art produced in Korea or by Korean artists.",
+      "parent": "Asian Art",
+      "children": {}
+    }
+  ]
+}

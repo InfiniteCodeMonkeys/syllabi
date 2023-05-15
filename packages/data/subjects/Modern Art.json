@@ -1,0 +1,34 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Abstract Expressionism",
+      "description": "A post-World War II art movement in American painting, developed in New York in the 1940s.",
+      "parent": "Modern Art",
+      "children": {}
+    },
+    {
+      "name": "Pop Art",
+      "description": "An art movement that emerged in the 1950s in Britain and the United States.",
+      "parent": "Modern Art",
+      "children": {}
+    },
+    {
+      "name": "Minimalism",
+      "description": "An art movement in the United States in the 1960s and 1970s, characterized by extreme simplicity of form.",
+      "parent": "Modern Art",
+      "children": {}
+    },
+    {
+      "name": "Conceptual Art",
+      "description": "An art movement that emerged in the 1960s and 1970s in which the idea or concept behind the work is more important than the finished art object.",
+      "parent": "Modern Art",
+      "children": {}
+    },
+    {
+      "name": "Postmodernism",
+      "description": "A movement that emerged in the 20th century as a reaction to modernism.",
+      "parent": "Modern Art",
+      "children": {}
+    }
+  ]
+}

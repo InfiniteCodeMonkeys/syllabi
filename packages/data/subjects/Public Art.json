@@ -1,0 +1,16 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Environmental art",
+      "description": "Art that is concerned with the relationship between humans and their natural environment.",
+      "parent": "Public Art",
+      "children": {}
+    },
+    {
+      "name": "Architectural art",
+      "description": "Art that is integrated into or applied to the design of buildings.",
+      "parent": "Public Art",
+      "children": {}
+    }
+  ]
+}

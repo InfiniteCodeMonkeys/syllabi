@@ -1,0 +1,49 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Vertebrate Paleontology",
+      "description": "The study of fossils of animals with backbones.",
+      "parent": "Paleontology",
+      "children": {}
+    },
+    {
+      "name": "Invertebrate Paleontology",
+      "description": "The study of fossils of animals without backbones.",
+      "parent": "Paleontology",
+      "children": {}
+    },
+    {
+      "name": "Paleobotany",
+      "description": "The study of plant fossils.",
+      "parent": "Paleontology",
+      "children": {}
+    },
+    {
+      "name": "Micropaleontology",
+      "description": "The study of fossils of microscopic organisms, such as diatoms.",
+      "parent": "Paleontology",
+      "children": {}
+    }
+  ]
+}{
+  "subdisciplines": [
+    {
+      "name": "Vertebrate Paleontology",
+      "description": "The study of extinct vertebrates, including their evolution, ecology, and behavior.",
+      "parent": "Paleontology",
+      "children": {}
+    },
+    {
+      "name": "Invertebrate Paleontology",
+      "description": "The study of extinct invertebrates, including their evolution, ecology, and behavior.",
+      "parent": "Paleontology",
+      "children": {}
+    },
+    {
+      "name": "Micropaleontology",
+      "description": "The study of microfossils, including their distribution, ecology, and evolution.",
+      "parent": "Paleontology",
+      "children": {}
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Quantum Chemistry",
+      "description": "The application of quantum mechanics to the study of chemical systems.",
+      "parent": "Theoretical Chemistry",
+      "children": {}
+    },
+    {
+      "name": "Statistical Mechanics",
+      "description": "The application of statistical methods to the study of chemical systems at the macroscopic level.",
+      "parent": "Theoretical Chemistry",
+      "children": {}
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Molecular Genetics",
+      "description": "The study of the molecular basis of genetics, including the structure and function of genes, genetic regulation, and DNA replication and repair.",
+      "parent": "Genetics",
+      "children": {}
+    },
+    {
+      "name": "Population Genetics",
+      "description": "The study of how genetic variation is distributed and changes within populations, including the effects of selection, migration, and genetic drift.",
+      "parent": "Genetics",
+      "children": {}
+    },
+    {
+      "name": "Developmental Genetics",
+      "description": "The study of how genes control the development of embryos and how mutations can give rise to developmental abnormalities.",
+      "parent": "Genetics",
+      "children": {}
+    }
+  ]
+}

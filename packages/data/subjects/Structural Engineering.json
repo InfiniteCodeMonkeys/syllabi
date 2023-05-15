@@ -1,0 +1,22 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Concrete Structures",
+      "description": "Design and analysis of structures made primarily of concrete, including buildings and bridges.",
+      "parent": "Structural Engineering",
+      "children": {}
+    },
+    {
+      "name": "Steel Structures",
+      "description": "Design and analysis of structures made primarily of steel, including buildings, bridges, and towers.",
+      "parent": "Structural Engineering",
+      "children": {}
+    },
+    {
+      "name": "Timber Structures",
+      "description": "Design and analysis of structures made primarily of wood, including buildings and bridges.",
+      "parent": "Structural Engineering",
+      "children": {}
+    }
+  ]
+}

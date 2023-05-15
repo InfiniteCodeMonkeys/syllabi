@@ -1,0 +1,34 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Astroecology",
+      "description": "The study of the interactions between organisms and their environment in space.",
+      "parent": "Astrobiology",
+      "children": {}
+    },
+    {
+      "name": "Exobiology",
+      "description": "The study of extraterrestrial life and its potential for existing within our solar system and beyond.",
+      "parent": "Astrobiology",
+      "children": {}
+    },
+    {
+      "name": "Planetary Science",
+      "description": "The study of the formation and evolution of planets and their potential for supporting life.",
+      "parent": "Astrobiology",
+      "children": {}
+    },
+    {
+      "name": "Astrochemistry",
+      "description": "The study of chemical reactions and processes in space, including the formation of organic molecules and their potential for supporting life.",
+      "parent": "Astrobiology",
+      "children": {}
+    },
+    {
+      "name": "Astrogeology",
+      "description": "The study of the geology of celestial bodies, including planets, moons, and asteroids, and their potential for supporting life.",
+      "parent": "Astrobiology",
+      "children": {}
+    }
+  ]
+}

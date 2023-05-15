@@ -1,0 +1,22 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Classical Literature",
+      "description": "The study of the literature of ancient Greece and Rome.",
+      "parent": "Classics Education",
+      "children": {}
+    },
+    {
+      "name": "Classical Languages",
+      "description": "The study of Latin and Ancient Greek.",
+      "parent": "Classics Education",
+      "children": {}
+    },
+    {
+      "name": "Classical Archaeology",
+      "description": "The study of the material remains of ancient Greece and Rome.",
+      "parent": "Classics Education",
+      "children": {}
+    }
+  ]
+}
