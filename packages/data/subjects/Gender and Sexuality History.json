@@ -1,0 +1,16 @@
+{
+    "subdisciplines": [
+        {
+            "name": "Queer Theory",
+            "description": "The study of the social and cultural construction of sexuality and gender identity, and the ways in which those constructs shape individuals and societies.",
+            "parent": "Gender and Sexuality History",
+            "children": {}
+        },
+        {
+            "name": "Feminist Studies",
+            "description": "The study of the ways in which gender shapes social, political, and economic structures, and the ways in which gender intersects with other social and cultural identities.",
+            "parent": "Gender and Sexuality History",
+            "children": {}
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Articulatory phonetics",
+      "description": "The study of how speech sounds are produced by the human vocal tract.",
+      "parent": "Phonetics and Phonology",
+      "children": {}
+    },
+    {
+      "name": "Acoustic phonetics",
+      "description": "The study of the physical properties of speech sounds, such as frequency, amplitude, and duration.",
+      "parent": "Phonetics and Phonology",
+      "children": {}
+    },
+    {
+      "name": "Auditory phonetics",
+      "description": "The study of how speech sounds are perceived by the human ear and brain.",
+      "parent": "Phonetics and Phonology",
+      "children": {}
+    },
+    {
+      "name": "Experimental phonetics",
+      "description": "The scientific study of speech sounds using experimental methods.",
+      "parent": "Phonetics and Phonology",
+      "children": {}
+    }
+  ]
+}

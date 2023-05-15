@@ -1,0 +1,22 @@
+{
+    "subdisciplines": [
+        {
+            "name": "Renaissance Art",
+            "description": "The study of art produced during the Renaissance period.",
+            "parent": "Art History",
+            "children": {}
+        },
+        {
+            "name": "Modern Art",
+            "description": "The study of art produced during the modern era.",
+            "parent": "Art History",
+            "children": {}
+        },
+        {
+            "name": "Contemporary Art",
+            "description": "The study of art produced during the contemporary era.",
+            "parent": "Art History",
+            "children": {}
+        }
+    ]
+}

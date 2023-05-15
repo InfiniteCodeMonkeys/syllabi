@@ -1,0 +1,22 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Oral history",
+      "description": "The study of historical information gathered through recorded interviews with people who have firsthand experiences or knowledge of past events.",
+      "parent": "Public History",
+      "children": {}
+    },
+    {
+      "name": "Archives",
+      "description": "The science of collecting, categorizing, preserving, and providing access to documents and materials that have historical or cultural significance.",
+      "parent": "Public History",
+      "children": {}
+    },
+    {
+      "name": "Historic preservation",
+      "description": "The practice of protecting and preserving historic buildings, landscapes, and other artifacts of cultural heritage.",
+      "parent": "Public History",
+      "children": {}
+    }
+  ]
+}

@@ -28,7 +28,7 @@ interface CourseData {
 }
 
 const CourseModal = ({ courseModalOpen }: { courseModalOpen: string }) => {
-  const course = trpc.courses.get.useQuery({ id: courseModalOpen })
+  const course = trpc.nodes.get.useQuery({ id: courseModalOpen })
     .data as unknown as CourseData;
   const setCourseModalOpen = useStore(
     (state: RootState) => state.setCourseModalOpen,

@@ -1,0 +1,28 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Environmental Justice",
+      "description": "The study of the intersection between social justice and environmental issues.",
+      "parent": "Environmental History",
+      "children": {}
+    },
+    {
+      "name": "Climate History",
+      "description": "The study of the history of climate and climate change, and its impact on human societies and the environment.",
+      "parent": "Environmental History",
+      "children": {}
+    },
+    {
+      "name": "Ecological History",
+      "description": "The study of the interconnections and feedbacks between human societies and ecological systems over time.",
+      "parent": "Environmental History",
+      "children": {}
+    },
+    {
+      "name": "Environmental Ethics",
+      "description": "The study of the moral and ethical issues related to the environment, including our relationship to the natural world and responsibilities towards future generations.",
+      "parent": "Environmental History",
+      "children": {}
+    }
+  ]
+}

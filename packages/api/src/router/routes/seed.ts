@@ -29,7 +29,7 @@ export const seedRouter = router({
             id: nodes[node].id,
             data: nodes[node].data,
             children: nodes[node].children || undefined,
-            parent: nodes[node].parents,
+            parent: nodes[node].parent,
             type: nodes[node].type,
           },
         });

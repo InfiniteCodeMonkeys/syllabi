@@ -13,7 +13,11 @@ export const nodesRouter = router({
 
       subjects.forEach((subject, index) => {
         const { x, y } = setPosition(subject, index);
-        nodes.push({ ...subject, position: { x, y } });
+        nodes.push({
+          ...subject,
+          position: { x, y },
+          parentNode: subject?.parent?.id,
+        });
       });
 
       return { nodes, edges };

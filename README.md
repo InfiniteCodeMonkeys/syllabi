@@ -209,3 +209,5 @@ The stack originates from [create-t3-turbo](https://github.com/t3-oss/create-t3-
 ## Common Problems You've Already Fixed Somehow
 
 Do a mix of db-push and npx prisma migrate dev and restarting your computer to get prisma studio to update. Rough. EDIT: stay away from npx prisma migrate dev at all costs. So annoying.
+
+If the nodes don't move together, you need to add parentNode to the nodes.

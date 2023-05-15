@@ -7,7 +7,7 @@ export default function FieldNode(
   node: NodeProps & { data: { name: string; description: string } },
 ) {
   const { isSignedIn } = useUser();
-  const nodesFromTRPC = trpc.subjects.get.useQuery({});
+  const nodesFromTRPC = trpc.nodes.get.useQuery({});
   const {
     addChildNode,
     filterNodes,
@@ -25,8 +25,8 @@ export default function FieldNode(
   }));
 
   const data = nodesFromTRPC?.data as unknown as {
-    nodeArray: Node[];
-    edgeArray: Edge[];
+    nodes: Node[];
+    edges: Edge[];
   };
 
   const handleClick = () => {
@@ -45,8 +45,8 @@ export default function FieldNode(
       filterNodes(node);
     } else {
       updateFilteredNodes(false);
-      updateNodes(data?.nodeArray);
-      updateEdges(data?.edgeArray);
+      updateNodes(data?.nodes);
+      updateEdges(data?.edges);
     }
   };
 
