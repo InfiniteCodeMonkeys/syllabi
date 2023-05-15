@@ -14,13 +14,13 @@ const edges = JSON.parse(
 );
 
 export const seedRouter = router({
-  seed: protectedProcedure.mutation(async ({ ctx }) => {
-    const userId = ctx.auth.userId;
-    const user = await prisma?.user.findUnique({
-      where: {
-        clerkId: userId,
-      },
-    });
+  seed: protectedProcedure.mutation(async () => {
+    // const userId = ctx.auth.userId;
+    // const user = await prisma?.user.findUnique({
+    //   where: {
+    //     clerkId: userId,
+    //   },
+    // });
     console.log(nodes.length);
     for (const node in nodes) {
       try {

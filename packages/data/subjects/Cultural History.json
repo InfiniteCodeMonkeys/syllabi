@@ -1,0 +1,22 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Art History",
+      "description": "The study of visual arts and their place in cultural history.",
+      "parent": "Cultural History",
+      "children": {}
+    },
+    {
+      "name": "Literary History",
+      "description": "The study of literature and its relation to cultural history.",
+      "parent": "Cultural History",
+      "children": {}
+    },
+    {
+      "name": "Music History",
+      "description": "The study of music and its place in cultural history.",
+      "parent": "Cultural History",
+      "children": {}
+    }
+  ]
+}
