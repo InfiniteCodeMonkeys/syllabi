@@ -1,0 +1,34 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Intercultural Communication Theory",
+      "description": "The study of theories and models used to explain and understand intercultural communication.",
+      "parent": "Intercultural Communication",
+      "children": {}
+    },
+    {
+      "name": "Intercultural Communication in Business",
+      "description": "The study of intercultural communication issues and challenges faced by businesses and organizations.",
+      "parent": "Intercultural Communication",
+      "children": {}
+    },
+    {
+      "name": "Intercultural Communication and Education",
+      "description": "The study of intercultural communication in educational settings and its impact on learning and teaching.",
+      "parent": "Intercultural Communication",
+      "children": {}
+    },
+    {
+      "name": "Intercultural Communication and Media",
+      "description": "The study of intercultural communication as it relates to media and mass communication.",
+      "parent": "Intercultural Communication",
+      "children": {}
+    },
+    {
+      "name": "Intercultural Conflict Resolution",
+      "description": "The study of intercultural conflict and strategies used to resolve it effectively.",
+      "parent": "Intercultural Communication",
+      "children": {}
+    }
+  ]
+}

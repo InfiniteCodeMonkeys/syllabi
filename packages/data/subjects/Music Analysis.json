@@ -1,0 +1,22 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Schenkerian analysis",
+      "description": "A method of analyzing tonal music through the use of voice-leading graphs and reductions that focus on underlying harmonic and contrapuntal structures.",
+      "parent": "Music Analysis",
+      "children": {}
+    },
+    {
+      "name": "Neo-Riemannian theory",
+      "description": "A model of tonal harmony which emphasizes the transformational relationships between chords and their inversions.",
+      "parent": "Music Analysis",
+      "children": {}
+    },
+    {
+      "name": "Formal analysis",
+      "description": "The study of the structure of a piece of music, often examining the relationships between individual sections to reveal larger-scale patterns.",
+      "parent": "Music Analysis",
+      "children": {}
+    }
+  ]
+}

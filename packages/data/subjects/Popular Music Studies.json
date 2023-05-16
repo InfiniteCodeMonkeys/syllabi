@@ -1,0 +1,28 @@
+{
+    "subdisciplines": [
+        {
+            "name": "Musicology",
+            "description": "The study of music in historical context, including its creation, performance, reception, and cultural significance.",
+            "parent": "Popular Music Studies",
+            "children": {}
+        },
+        {
+            "name": "Ethnomusicology",
+            "description": "The study of music within its cultural context, including its social and cultural significance, performance practices, and musical traditions.",
+            "parent": "Popular Music Studies",
+            "children": {}
+        },
+        {
+            "name": "Music Theory",
+            "description": "The study of the mechanics of music, including its structure, harmony, rhythm, and form.",
+            "parent": "Popular Music Studies",
+            "children": {}
+        },
+        {
+            "name": "Music Technology",
+            "description": "The study of the tools and techniques used to create, record, and produce music, including recording equipment, software, and musical instruments.",
+            "parent": "Popular Music Studies",
+            "children": {}
+        }
+    ]
+}

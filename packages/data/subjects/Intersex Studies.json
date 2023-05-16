@@ -1,0 +1,16 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Medical Management of Intersex Traits",
+      "description": "The study of medical practices surrounding those who are intersex, including hormone therapies, surgeries, and psychosocial implications.",
+      "parent": "Intersex Studies",
+      "children": {}
+    },
+    {
+      "name": "Intersex Activism",
+      "description": "The study of the work, progress and impact of activist movements surrounding those who are intersex, including legal advocacy, support groups, and gender identity acceptance.",
+      "parent": "Intersex Studies",
+      "children": {}
+    }
+  ]
+}

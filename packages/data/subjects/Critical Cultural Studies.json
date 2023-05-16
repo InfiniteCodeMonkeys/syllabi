@@ -1,0 +1,22 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Critical Race Theory",
+      "description": "The examination of how race and racism intersect with other forms of social inequality, such as class, gender, and sexuality.",
+      "parent": "Critical Cultural Studies",
+      "children": {}
+    },
+    {
+      "name": "Queer and Gender Studies",
+      "description": "The exploration of how gender and sexual identity are constructed, represented, and regulated in cultural contexts.",
+      "parent": "Critical Cultural Studies",
+      "children": {}
+    },
+    {
+      "name": "Postcolonial Theory",
+      "description": "The analysis of the ongoing effects of colonialism and imperialism on global power relations, cultures, and identities.",
+      "parent": "Critical Cultural Studies",
+      "children": {}
+    }
+  ]
+}

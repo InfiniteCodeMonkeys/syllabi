@@ -1,0 +1,16 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Conflict Reporting",
+      "description": "The reporting of armed conflict and its impact on individuals and society.",
+      "parent": "War Journalism",
+      "children": {}
+    },
+    {
+      "name": "Military Journalism",
+      "description": "The reporting on military affairs, including news about armed forces, weapons, and operations.",
+      "parent": "War Journalism",
+      "children": {}
+    }
+  ]
+}

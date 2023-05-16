@@ -1,0 +1,22 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Crisis Management",
+      "description": "The practice of managing and communicating during a crisis or emergency situation.",
+      "parent": "Public Relations",
+      "children": {}
+    },
+    {
+      "name": "Media Relations",
+      "description": "The management of relationships with media outlets and journalists to promote positive coverage of an organization.",
+      "parent": "Public Relations",
+      "children": {}
+    },
+    {
+      "name": "Employee Relations",
+      "description": "The management of relationships between an organization and its employees, including communication, motivation, and conflict resolution.",
+      "parent": "Public Relations",
+      "children": {}
+    }
+  ]
+}

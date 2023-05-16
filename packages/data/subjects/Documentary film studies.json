@@ -1,0 +1,22 @@
+{
+    "subdisciplines": [
+        {
+            "name": "Documentary theories",
+            "description": "the study of theoretical frameworks within which documentaries are conceptualized and analyzed.",
+            "parent": "Documentary film studies",
+            "children": {}
+        },
+        {
+            "name": "Documentary production",
+            "description": "the study of the techniques, processes, and technologies used in producing documentaries.",
+            "parent": "Documentary film studies",
+            "children": {}
+        },
+        {
+            "name": "Documentary criticism",
+            "description": "the study of critical approaches to analyzing documentaries, including formalist, Marxist, feminist, and psychoanalytic readings.",
+            "parent": "Documentary film studies",
+            "children": {}
+        }
+    ]
+}

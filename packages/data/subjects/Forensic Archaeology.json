@@ -1,0 +1,10 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Forensic Taphonomy",
+      "description": "The study of the processes that affect the decomposition of human remains at crime scenes.",
+      "parent": "Forensic Archaeology",
+      "children": {}
+    }
+  ]
+}

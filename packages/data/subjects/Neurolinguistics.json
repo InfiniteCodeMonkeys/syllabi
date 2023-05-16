@@ -1,0 +1,34 @@
+{
+   "subdisciplines":[
+      {
+         "name":"Agrammatism",
+         "description":"A language disorder characterized by difficulties in processing grammar and syntax.",
+         "parent":"Neurolinguistics",
+         "children":{}
+      },
+      {
+         "name":"Aphasia",
+         "description":"A language disorder resulting from brain damage that affects a person's ability to use or comprehend language.",
+         "parent":"Neurolinguistics",
+         "children":{}
+      },
+      {
+         "name":"Functional Neuroimaging",
+         "description":"The use of imaging techniques to study the neural basis of language processing.",
+         "parent":"Neurolinguistics",
+         "children":{}
+      },
+      {
+         "name":"Language Acquisition",
+         "description":"The study of how humans acquire and learn language, both in childhood and later in life.",
+         "parent":"Neurolinguistics",
+         "children":{}
+      },
+      {
+         "name":"Language Processing",
+         "description":"The study of the mental processes involved in the comprehension and production of language.",
+         "parent":"Neurolinguistics",
+         "children":{}
+      }
+   ]
+}

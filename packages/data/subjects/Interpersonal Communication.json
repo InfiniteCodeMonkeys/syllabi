@@ -1,0 +1,16 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Nonverbal Communication",
+      "description": "The study of how people communicate without using words.",
+      "parent": "Interpersonal Communication",
+      "children": {}
+    },
+    {
+      "name": "Language and Social Interaction",
+      "description": "The study of how language is used in social contexts.",
+      "parent": "Interpersonal Communication",
+      "children": {}
+    }
+  ]
+}

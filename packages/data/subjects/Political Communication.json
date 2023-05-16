@@ -1,0 +1,28 @@
+{
+   "subdisciplines":[
+      {
+         "name":"Media Effects",
+         "description":"The study of the impact of media on individuals, groups, and society.",
+         "parent":"Political Communication",
+         "children":{}
+      },
+      {
+         "name":"Political Advertising",
+         "description":"The study of how political campaigns use advertising to influence public opinion and behavior.",
+         "parent":"Political Communication",
+         "children":{}
+      },
+      {
+         "name":"Public Opinion",
+         "description":"The study of the attitudes and beliefs of the public about political issues and candidates.",
+         "parent":"Political Communication",
+         "children":{}
+      },
+      {
+         "name":"Rhetoric",
+         "description":"The study of persuasive language and its use in political discourse.",
+         "parent":"Political Communication",
+         "children":{}
+      }
+   ]
+}

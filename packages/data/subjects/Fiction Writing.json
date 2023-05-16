@@ -1,0 +1,34 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Character Development",
+      "description": "The study and development of characters in fiction writing.",
+      "parent": "Fiction Writing",
+      "children": {}
+    },
+    {
+      "name": "Plot Development",
+      "description": "The study and development of the plot of a work of fiction.",
+      "parent": "Fiction Writing",
+      "children": {}
+    },
+    {
+      "name": "Dialogue",
+      "description": "The study and development of the dialogue in a work of fiction.",
+      "parent": "Fiction Writing",
+      "children": {}
+    },
+    {
+      "name": "Worldbuilding",
+      "description": "The study and development of the world in which a work of fiction is set.",
+      "parent": "Fiction Writing",
+      "children": {}
+    },
+    {
+      "name": "Genre-specific Writing",
+      "description": "The study and development of writing fiction that belongs to a certain genre.",
+      "parent": "Fiction Writing",
+      "children": {}
+    }
+  ]
+}

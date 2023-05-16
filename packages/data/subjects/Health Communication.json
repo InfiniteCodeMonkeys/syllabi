@@ -1,0 +1,22 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Media Effects",
+      "description": "The study of how media messages affect individuals or society as a whole.",
+      "parent": "Health Communication",
+      "children": {}
+    },
+    {
+      "name": "Patient-Provider Communication",
+      "description": "The study of the ways in which patients and healthcare providers communicate with each other, and how that communication impacts healthcare outcomes.",
+      "parent": "Health Communication",
+      "children": {}
+    },
+    {
+      "name": "Risk Communication",
+      "description": "The study of how information about risks is communicated, received, and processed by individuals and groups.",
+      "parent": "Health Communication",
+      "children": {}
+    }
+  ]
+}

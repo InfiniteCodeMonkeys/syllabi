@@ -1,0 +1,22 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Culture and Behavior",
+      "description": "The study of how cultural and social factors influence individual behavior, emotion, and cognition.",
+      "parent": "Psychological Anthropology",
+      "children": {}
+    },
+    {
+      "name": "Psychological Trauma",
+      "description": "The study of the impact of traumatic experiences on individual psychology and the development of culturally-specific healing practices.",
+      "parent": "Psychological Anthropology",
+      "children": {}
+    },
+    {
+      "name": "Psychological Anthropology of Religion",
+      "description": "The study of the relationship between religious beliefs and practices, and individual and collective psychology.",
+      "parent": "Psychological Anthropology",
+      "children": {}
+    }
+  ]
+}

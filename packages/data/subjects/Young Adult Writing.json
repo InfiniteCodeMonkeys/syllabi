@@ -1,0 +1,16 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Creative Writing",
+      "description": "The practice of artistic writing (such as fiction or poetry) used to entertain, empower, or inspire readers.",
+      "parent": "Young Adult Writing",
+      "children": {}
+    },
+    {
+      "name": "Young Adult Literature",
+      "description": "Literature written for and marketed towards young adults or teenagers, typically featuring coming-of-age themes and relatable protagonists.",
+      "parent": "Young Adult Writing",
+      "children": {}
+    }
+  ]
+}

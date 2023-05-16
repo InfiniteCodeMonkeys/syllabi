@@ -1,0 +1,22 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Advertising Design",
+      "description": "The creation of visual content for advertising purposes, including layouts, graphics, and typography.",
+      "parent": "Advertising",
+      "children": {}
+    },
+    {
+      "name": "Copywriting",
+      "description": "The creation of written content for advertising purposes, including slogans, headlines, and scripts.",
+      "parent": "Advertising",
+      "children": {}
+    },
+    {
+      "name": "Consumer Behavior",
+      "description": "The study of how consumers make decisions and how advertising can influence those decisions.",
+      "parent": "Advertising",
+      "children": {}
+    }
+  ]
+}

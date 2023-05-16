@@ -1,0 +1,22 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Epistemology",
+      "description": "The study of knowledge and belief",
+      "parent": "Philosophy of Science",
+      "children": {}
+    },
+    {
+      "name": "Metaphysics of Science",
+      "description": "The study of the fundamental nature of scientific reality",
+      "parent": "Philosophy of Science",
+      "children": {}
+    },
+    {
+      "name": "Ethics of Science",
+      "description": "The study of the ethical and moral implications of scientific research and discovery",
+      "parent": "Philosophy of Science",
+      "children": {}
+    }
+  ]
+}

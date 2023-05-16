@@ -31,4 +31,37 @@
       "children": {}
     }
   ]
+}{
+  "subdisciplines": [
+    {
+      "name": "Cognitive Anthropology",
+      "description": "The study of the relationship between human cognition and culture.",
+      "parent": "Cultural Anthropology",
+      "children": {}
+    },
+    {
+      "name": "Ecological Anthropology",
+      "description": "The study of the relationship between humans and their environment.",
+      "parent": "Cultural Anthropology",
+      "children": {}
+    },
+    {
+      "name": "Historical Anthropology",
+      "description": "The study of past cultures through their material remains.",
+      "parent": "Cultural Anthropology",
+      "children": {}
+    },
+    {
+      "name": "Medical Anthropology",
+      "description": "The study of the relationship between culture, health, and illness.",
+      "parent": "Cultural Anthropology",
+      "children": {}
+    },
+    {
+      "name": "Linguistic Anthropology",
+      "description": "The study of language and its relationship to culture.",
+      "parent": "Cultural Anthropology",
+      "children": {}
+    }
+  ]
 }

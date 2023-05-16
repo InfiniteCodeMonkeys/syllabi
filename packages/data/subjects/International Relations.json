@@ -1,0 +1,28 @@
+{
+  "subdisciplines": [
+    {
+      "name": "International Security",
+      "description": "The study of the use of military force and the management of violent conflict between and within states.",
+      "parent": "International Relations",
+      "children": {}
+    },
+    {
+      "name": "International Political Economy",
+      "description": "The study of the interactions between states and markets, and the distribution of power and resources in the international system.",
+      "parent": "International Relations",
+      "children": {}
+    },
+    {
+      "name": "International Law",
+      "description": "The study of the legal rules and principles that govern the behavior of states and other international actors.",
+      "parent": "International Relations",
+      "children": {}
+    },
+    {
+      "name": "Foreign Policy Analysis",
+      "description": "The study of the decision-making processes and strategies of states in their interactions with other states.",
+      "parent": "International Relations",
+      "children": {}
+    }
+  ]
+}

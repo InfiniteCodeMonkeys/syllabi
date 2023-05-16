@@ -46,4 +46,37 @@
          "children":{}
       }
    ]
+}{
+  "subdisciplines": [
+    {
+      "name": "Bioarchaeology",
+      "description": "The study of biological remains, including bones, teeth, and DNA, to understand ancient human and animal populations.",
+      "parent": "Archaeology",
+      "children": {}
+    },
+    {
+      "name": "Classical Archaeology",
+      "description": "The study of the material culture and texts of ancient Greece and Rome.",
+      "parent": "Archaeology",
+      "children": {}
+    },
+    {
+      "name": "Egyptology",
+      "description": "The study of the history, language, and material culture of ancient Egypt.",
+      "parent": "Archaeology",
+      "children": {}
+    },
+    {
+      "name": "Maritime Archaeology",
+      "description": "The study of shipwrecks, ports, and other human activity related to the sea.",
+      "parent": "Archaeology",
+      "children": {}
+    },
+    {
+      "name": "Paleoanthropology",
+      "description": "The study of the biological and cultural evolution of early humans and their relatives.",
+      "parent": "Archaeology",
+      "children": {}
+    }
+  ]
 }

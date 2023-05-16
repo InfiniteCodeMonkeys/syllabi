@@ -1,0 +1,22 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Religious sociology of the Middle East",
+      "description": "The study of the religions and their intersection with society, culture, economics and politics in the Middle East.",
+      "parent": "Sociology of Religion",
+      "children": {}
+    },
+    {
+      "name": "Cultural Sociology of Religion",
+      "description": "The study of how religion shapes cultural practices and beliefs.",
+      "parent": "Sociology of Religion",
+      "children": {}
+    },
+    {
+      "name": "Religious Change and Conflict",
+      "description": "The study of how religions change over time and how they interact with each other in situations of conflict.",
+      "parent": "Sociology of Religion",
+      "children": {}
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Semantics",
+      "description": "The study of meaning in language and how it is constructed and interpreted",
+      "parent": "Philosophy of Language",
+      "children": {}
+    },
+    {
+      "name": "Pragmatics",
+      "description": "The study of how context contributes to meaning in language and how language is used to achieve social goals",
+      "parent": "Philosophy of Language",
+      "children": {}
+    },
+    {
+      "name": "Syntax",
+      "description": "The study of the rules governing the structure of sentences and how words are combined to form them",
+      "parent": "Philosophy of Language",
+      "children": {}
+    }
+  ]
+}

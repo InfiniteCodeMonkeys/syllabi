@@ -1,0 +1,22 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Audio Engineering",
+      "description": "The technical and creative aspects of recording and manipulating sound.",
+      "parent": "Music Technology",
+      "children": {}
+    },
+    {
+      "name": "Music Information Retrieval",
+      "description": "The analysis and organization of music data, such as audio and scores, through computational techniques.",
+      "parent": "Music Technology",
+      "children": {}
+    },
+    {
+      "name": "Digital Signal Processing",
+      "description": "The use of mathematical algorithms to manipulate and analyze digital signals, such as sound and images.",
+      "parent": "Music Technology",
+      "children": {}
+    }
+  ]
+}

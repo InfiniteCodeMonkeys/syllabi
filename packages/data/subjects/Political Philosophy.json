@@ -1,0 +1,28 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Political Ethics",
+      "description": "The study of the moral principles and values that should guide political behavior and decision-making.",
+      "parent": "Political Philosophy",
+      "children": {}
+    },
+    {
+      "name": "Political Epistemology",
+      "description": "The study of knowledge in political thought and its relation to political practice.",
+      "parent": "Political Philosophy",
+      "children": {}
+    },
+    {
+      "name": "Political Ontology",
+      "description": "The study of the nature and existence of political realities and entities, such as power and authority.",
+      "parent": "Political Philosophy",
+      "children": {}
+    },
+    {
+      "name": "Political Theology",
+      "description": "The study of the religious and theological foundations of political thought and practice.",
+      "parent": "Political Philosophy",
+      "children": {}
+    }
+  ]
+}

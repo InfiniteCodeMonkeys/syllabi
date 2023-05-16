@@ -1,0 +1,28 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Syro-Palestinian Archaeology",
+      "description": "The study of the archaeology of the Levant, including modern-day Syria, Lebanon, Jordan, Israel, and Palestine.",
+      "parent": "Near Eastern Archaeology",
+      "children": {}
+    },
+    {
+      "name": "Mesopotamian Archaeology",
+      "description": "The study of the archaeology of the ancient Near East, specifically the region known as Mesopotamia, roughly corresponding to modern-day Iraq.",
+      "parent": "Near Eastern Archaeology",
+      "children": {}
+    },
+    {
+      "name": "Egyptian Archaeology",
+      "description": "The study of the archaeology of ancient Egypt.",
+      "parent": "Near Eastern Archaeology",
+      "children": {}
+    },
+    {
+      "name": "Anatolian Archaeology",
+      "description": "The study of the archaeology of ancient Anatolia, a region which includes modern-day Turkey.",
+      "parent": "Near Eastern Archaeology",
+      "children": {}
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+    "subdisciplines": [
+        {
+            "name": "Queer Film Studies",
+            "description": "The study of LGBT+ representation in film and the impact of media on the queer community.",
+            "parent": "Queer Theory",
+            "children": {}
+        },
+        {
+            "name": "Queer Performance Studies",
+            "description": "The study of queer identities and experiences as expressed through performance, including theatre, dance, and other forms of live art.",
+            "parent": "Queer Theory",
+            "children": {}
+        },
+        {
+            "name": "Queer Literature",
+            "description": "The study of LGBT+ themes and experiences in literary works.",
+            "parent": "Queer Theory",
+            "children": {}
+        }
+    ]
+}

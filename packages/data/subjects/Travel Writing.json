@@ -1,0 +1,21 @@
+{
+  "subdisciplines": [{
+      "name": "Culinary Travel Writing",
+      "description": "The exploration and description of food and drink experiences encountered while travelling.",
+      "parent": "Travel Writing",
+      "children": {}
+    },
+    {
+      "name": "Guidebook Writing",
+      "description": "The creation of informative and engaging guidebooks for travelers.",
+      "parent": "Travel Writing",
+      "children": {}
+    },
+    {
+      "name": "Memoir Writing",
+      "description": "The personal recounting of travel experiences and reflections on their significance.",
+      "parent": "Travel Writing",
+      "children": {}
+    }
+  ]
+}

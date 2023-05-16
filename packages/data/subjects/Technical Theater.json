@@ -1,0 +1,34 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Scenic Design",
+      "description": "The creation of theatrical scenery, including research, concept development, drafting, and model-building.",
+      "parent": "Technical Theater",
+      "children": {}
+    },
+    {
+      "name": "Lighting Design",
+      "description": "The creation of theatrical lighting effects, including research, planning, and execution.",
+      "parent": "Technical Theater",
+      "children": {}
+    },
+    {
+      "name": "Costume Design",
+      "description": "The creation of theatrical costumes, including research, sketching, pattern-making, and construction.",
+      "parent": "Technical Theater",
+      "children": {}
+    },
+    {
+      "name": "Sound Design",
+      "description": "The creation of soundscapes for theatrical productions, including research, recording, editing, and mixing.",
+      "parent": "Technical Theater",
+      "children": {}
+    },
+    {
+      "name": "Stage Management",
+      "description": "The coordination and management of all technical aspects of a theatrical production, including scheduling, budgeting, and communication.",
+      "parent": "Technical Theater",
+      "children": {}
+    }
+  ]
+}

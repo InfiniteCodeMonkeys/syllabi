@@ -1,0 +1,34 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Comparative Political Behavior",
+      "description": "The study of how individuals and groups behave politically in different contexts and societies, and the factors that shape their behavior.",
+      "parent": "Comparative Politics",
+      "children": {}
+    },
+    {
+      "name": "Comparative Political Economy",
+      "description": "The study of how economic actors and institutions interact with political actors and institutions, and how this impacts political outcomes.",
+      "parent": "Comparative Politics",
+      "children": {}
+    },
+    {
+      "name": "Comparative Political Institutions",
+      "description": "The study of the structures, processes, and practices of political institutions in different countries and regions, and how they shape political outcomes.",
+      "parent": "Comparative Politics",
+      "children": {}
+    },
+    {
+      "name": "Comparative Political Methodology",
+      "description": "The study of the methods and techniques used to study politics comparatively, including research design, statistical analysis, and qualitative methods.",
+      "parent": "Comparative Politics",
+      "children": {}
+    },
+    {
+      "name": "Comparative Political Theory",
+      "description": "The study of political ideas, concepts, and principles across different cultures, societies, and historical periods, and how they shape political institutions and practices.",
+      "parent": "Comparative Politics",
+      "children": {}
+    }
+  ]
+}

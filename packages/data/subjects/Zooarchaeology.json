@@ -1,0 +1,22 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Faunal Analysis",
+      "description": "The study of animal remains from archaeological sites to reconstruct past human-animal interactions.",
+      "parent": "Zooarchaeology",
+      "children": {}
+    },
+    {
+      "name": "Taphonomy",
+      "description": "The study of how bone assemblages are formed in the archaeological record, from death to discovery.",
+      "parent": "Zooarchaeology",
+      "children": {}
+    },
+    {
+      "name": "Zooarchaeological Theory",
+      "description": "The development of theoretical frameworks to interpret zooarchaeological data and understand the relationships between humans and animals in the past.",
+      "parent": "Zooarchaeology",
+      "children": {}
+    }
+  ]
+}

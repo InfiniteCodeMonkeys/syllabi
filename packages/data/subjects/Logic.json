@@ -31,4 +31,25 @@
       "children": {}
     }
   ]
+}{
+  "subdisciplines": [
+    {
+      "name": "Philosophical Logic",
+      "description": "The study of logic from a philosophical perspective",
+      "parent": "Logic",
+      "children": {}
+    },
+    {
+      "name": "Mathematical Logic",
+      "description": "The study of mathematical structures and their applications to logic",
+      "parent": "Logic",
+      "children": {}
+    },
+    {
+      "name": "Computational Logic",
+      "description": "The study of the computational properties of logic",
+      "parent": "Logic",
+      "children": {}
+    }
+  ]
 }

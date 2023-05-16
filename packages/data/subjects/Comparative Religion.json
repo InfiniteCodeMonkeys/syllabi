@@ -1,0 +1,28 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Anthropology of Religion",
+      "description": "The study of the relationship between religion and culture in human societies.",
+      "parent": "Comparative Religion",
+      "children": {}
+    },
+    {
+      "name": "Philosophy of Religion",
+      "description": "The study of the nature of religion, including its epistemological, metaphysical, and ethical implications.",
+      "parent": "Comparative Religion",
+      "children": {}
+    },
+    {
+      "name": "History of Religions",
+      "description": "The study of the historical development of different religious traditions and the ways they have shaped human cultures.",
+      "parent": "Comparative Religion",
+      "children": {}
+    },
+    {
+      "name": "Psychology of Religion",
+      "description": "The study of the psychological aspects of religious beliefs, practices, and experiences.",
+      "parent": "Comparative Religion",
+      "children": {}
+    }
+  ]
+}

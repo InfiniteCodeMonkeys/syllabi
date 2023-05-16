@@ -1,0 +1,28 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Neurolinguistics",
+      "description": "The study of the neural mechanisms underlying the comprehension, production, and acquisition of language.",
+      "parent": "Psycholinguistics",
+      "children": {}
+    },
+    {
+      "name": "Language Acquisition",
+      "description": "The study of how children acquire language, including the role of innate abilities, learning mechanisms, and input from the environment.",
+      "parent": "Psycholinguistics",
+      "children": {}
+    },
+    {
+      "name": "Language Processing",
+      "description": "The study of how language is processed and understood in the brain, including the mechanisms of speech perception, syntactic parsing, and discourse comprehension.",
+      "parent": "Psycholinguistics",
+      "children": {}
+    },
+    {
+      "name": "Language Disorders",
+      "description": "The study of language impairment in both developmental and acquired disorders, including aphasia, dyslexia, and specific language impairment.",
+      "parent": "Psycholinguistics",
+      "children": {}
+    }
+  ]
+}

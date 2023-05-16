@@ -1,0 +1,67 @@
+{
+                "subdisciplines": [
+                    {
+                        "name": "Animation",
+                        "description": "The creation of moving images using computers, graphics, and other media technologies.",
+                        "parent": "Digital media",
+                        "children": {}
+                    },
+                    {
+                        "name": "Game Design",
+                        "description": "The design and development of video games using computer programs and creative design.",
+                        "parent": "Digital media",
+                        "children": {}
+                    },
+                    {
+                        "name": "Graphic Design",
+                        "description": "The process of visual communication and problem-solving through the use of typography, photography, and illustration.",
+                        "parent": "Digital media",
+                        "children": {}
+                    },
+                    {
+                        "name": "Interactive Media",
+                        "description": "The creation of digital experiences that allow user interaction with media content.",
+                        "parent": "Digital media",
+                        "children": {}
+                    },
+                    {
+                        "name": "Web Design",
+                        "description": "The process of designing and creating websites, including layout, usability, and visual aesthetics.",
+                        "parent": "Digital media",
+                        "children": {}
+                    }
+                ]
+            }{
+    "subdisciplines": [
+        {
+            "name": "Animation",
+            "description": "The creation of visual effects and motion graphics by means of computer-generated imagery or animations.",
+            "parent": "Digital Media",
+            "children": {}
+        },
+        {
+            "name": "Game Design",
+            "description": "The process of creating the content and rules of a game, including the overall concept, storyline, characters, and game mechanics.",
+            "parent": "Digital Media",
+            "children": {}
+        },
+        {
+            "name": "Interactive Media",
+            "description": "The design and creation of user-centered digital experiences that respond to user actions and inputs.",
+            "parent": "Digital Media",
+            "children": {}
+        },
+        {
+            "name": "Mobile Media",
+            "description": "The creation of content specifically designed for mobile devices such as smartphones and tablets.",
+            "parent": "Digital Media",
+            "children": {}
+        },
+        {
+            "name": "Video Production",
+            "description": "The conceptualization, production, and post-production of video content for various applications, including advertising, educational and informative.",
+            "parent": "Digital Media",
+            "children": {}
+        }
+    ]
+}

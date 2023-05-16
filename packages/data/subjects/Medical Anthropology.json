@@ -1,0 +1,22 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Medical Ecology",
+      "description": "The study of the relationships between human health and the environment, including cultural and political-economic factors.",
+      "parent": "Medical Anthropology",
+      "children": {}
+    },
+    {
+      "name": "Global Health",
+      "description": "The study of health issues that transcend national boundaries, including the social, cultural, political, and economic factors that shape health outcomes.",
+      "parent": "Medical Anthropology",
+      "children": {}
+    },
+    {
+      "name": "Psychological Anthropology",
+      "description": "The study of the relationship between culture and human psychology, including mental health, illness, and healing practices.",
+      "parent": "Medical Anthropology",
+      "children": {}
+    }
+  ]
+}

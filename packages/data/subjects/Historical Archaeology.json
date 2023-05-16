@@ -1,0 +1,22 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Industrial Archaeology",
+      "description": "The study of the material culture of industrial societies and the impact of industry on their communities.",
+      "parent": "Historical Archaeology",
+      "children": {}
+    },
+    {
+      "name": "Colonial Archaeology",
+      "description": "The study of the material culture and social history of colonial societies.",
+      "parent": "Historical Archaeology",
+      "children": {}
+    },
+    {
+      "name": "Post-Medieval Archaeology",
+      "description": "The study of the material culture and social history of societies after the Middle Ages.",
+      "parent": "Historical Archaeology",
+      "children": {}
+    }
+  ]
+}

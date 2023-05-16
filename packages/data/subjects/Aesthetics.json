@@ -1,0 +1,28 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Environmental Aesthetics",
+      "description": "The study of aesthetic appreciation of natural environments and how it intersects with environmental ethics and concerns.",
+      "parent": "Aesthetics",
+      "children": {}
+    },
+    {
+      "name": "Feminist Aesthetics",
+      "description": "The study of how gender and sexuality influence perception and creation of art and aesthetics.",
+      "parent": "Aesthetics",
+      "children": {}
+    },
+    {
+      "name": "Literary Aesthetics",
+      "description": "The study of the aesthetic properties of literature, such as style, narrative, and the relationship between form and content.",
+      "parent": "Aesthetics",
+      "children": {}
+    },
+    {
+      "name": "Visual Aesthetics",
+      "description": "The study of the aesthetic properties of visual art, such as painting, sculpture, and photography.",
+      "parent": "Aesthetics",
+      "children": {}
+    }
+  ]
+}
