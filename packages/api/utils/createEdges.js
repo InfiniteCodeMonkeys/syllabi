@@ -2,7 +2,7 @@ const { createId } = require("@paralleldrive/cuid2");
 const fs = require("fs");
 
 const createEdges = () => {
-  const nodesFile = "../data/nodes.json";
+  const nodesFile = "../data/subjectsAndDisciplines.json";
   const edgesFile = "../data/edges.json";
 
   const nodes = JSON.parse(fs.readFileSync(nodesFile, "utf8"));

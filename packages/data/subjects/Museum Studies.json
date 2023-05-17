@@ -1,6 +1,24 @@
 {
   "subdisciplines": [
     {
+      "name": "Archival Studies",
+      "description": "The management and preservation of historical documents and other records in archives.",
+      "parent": "Museum Studies",
+      "children": {}
+    },
+    {
+      "name": "Curatorial Studies",
+      "description": "The study of organizing and managing art collections, exhibitions, and displays at museums and galleries.",
+      "parent": "Museum Studies",
+      "children": {}
+    },
+    {
+      "name": "Heritage Studies",
+      "description": "The study of cultural heritage, including its preservation, interpretation and management.",
+      "parent": "Museum Studies",
+      "children": {}
+    },
+    {
       "name": "Collections Management",
       "description": "The study and practical application of management principles to the acquisition, documentation, preservation, and dissemination of a museum's collections.",
       "parent": "Museum Studies",
@@ -21,27 +39,6 @@
     {
       "name": "Museum Education",
       "description": "The study and development of educational programs and resources for museum audiences.",
-      "parent": "Museum Studies",
-      "children": {}
-    }
-  ]
-}{
-  "subdisciplines": [
-    {
-      "name": "Archival Studies",
-      "description": "The management and preservation of historical documents and other records in archives.",
-      "parent": "Museum Studies",
-      "children": {}
-    },
-    {
-      "name": "Curatorial Studies",
-      "description": "The study of organizing and managing art collections, exhibitions, and displays at museums and galleries.",
-      "parent": "Museum Studies",
-      "children": {}
-    },
-    {
-      "name": "Heritage Studies",
-      "description": "The study of cultural heritage, including its preservation, interpretation and management.",
       "parent": "Museum Studies",
       "children": {}
     }

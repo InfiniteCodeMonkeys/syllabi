@@ -1,52 +1,4 @@
 {
-   "subdisciplines":[
-      {
-         "name":"Classical Archaeology",
-         "description":"The study of ancient Greece and Rome through their material culture",
-         "parent":"Archaeology",
-         "children":{}
-      },
-      {
-         "name":"Egyptology",
-         "description":"The study of ancient Egypt through its archaeology, history, and culture",
-         "parent":"Archaeology",
-         "children":{}
-      },
-      {
-         "name":"Maritime Archaeology",
-         "description":"The study of human interactions with the sea through the excavation and analysis of shipwrecks, harbors, and other underwater sites",
-         "parent":"Archaeology",
-         "children":{}
-      }
-   ]
-}{
-   "subdisciplines":[
-      {
-         "name":"Anthropological Archaeology",
-         "description":"The study of human society and culture through material remains.",
-         "parent":"Archaeology",
-         "children":{}
-      },
-      {
-         "name":"Landscape Archaeology",
-         "description":"The study of the ways in which people have changed and interacted with the landscape.",
-         "parent":"Archaeology",
-         "children":{}
-      },
-      {
-         "name":"Historical Archaeology",
-         "description":"The study of material culture from the recent past, often focusing on the colonial period.",
-         "parent":"Archaeology",
-         "children":{}
-      },
-      {
-         "name":"Classical Archaeology",
-         "description":"The study of the Greek and Roman world through material remains.",
-         "parent":"Archaeology",
-         "children":{}
-      }
-   ]
-}{
   "subdisciplines": [
     {
       "name": "Bioarchaeology",
@@ -55,20 +7,38 @@
       "children": {}
     },
     {
+      "name": "Anthropological Archaeology",
+      "description": "The study of human society and culture through material remains.",
+      "parent": "Archaeology",
+      "children": {}
+    },
+    {
+      "name": "Landscape Archaeology",
+      "description": "The study of the ways in which people have changed and interacted with the landscape.",
+      "parent": "Archaeology",
+      "children": {}
+    },
+    {
+      "name": "Historical Archaeology",
+      "description": "The study of material culture from the recent past, often focusing on the colonial period.",
+      "parent": "Archaeology",
+      "children": {}
+    },
+    {
       "name": "Classical Archaeology",
-      "description": "The study of the material culture and texts of ancient Greece and Rome.",
+      "description": "The study of ancient Greece and Rome through their material culture",
       "parent": "Archaeology",
       "children": {}
     },
     {
       "name": "Egyptology",
-      "description": "The study of the history, language, and material culture of ancient Egypt.",
+      "description": "The study of ancient Egypt through its archaeology, history, and culture",
       "parent": "Archaeology",
       "children": {}
     },
     {
       "name": "Maritime Archaeology",
-      "description": "The study of shipwrecks, ports, and other human activity related to the sea.",
+      "description": "The study of human interactions with the sea through the excavation and analysis of shipwrecks, harbors, and other underwater sites",
       "parent": "Archaeology",
       "children": {}
     },

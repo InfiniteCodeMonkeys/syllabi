@@ -8,15 +8,6 @@
     },
     {
       "name": "Performance Theory",
-      "description": "The study of the theories and principles that underlie performance art and other related disciplines.",
-      "parent": "Performance Studies",
-      "children": {}
-    }
-  ]
-}{
-  "subdisciplines": [
-    {
-      "name": "Performance Theory",
       "description": "The study of theoretical frameworks for analyzing and understanding the processes, meanings, and effects of performance",
       "parent": "Performance Studies",
       "children": {}
@@ -44,29 +35,18 @@
       "description": "The study of the relationship between performance and social justice, including activism, protest, and community-based performance",
       "parent": "Performance Studies",
       "children": {}
+    },
+    {
+      "name": "Dance Studies",
+      "description": "The study of various forms of dance and their cultural significance within society.",
+      "parent": "Performance Studies",
+      "children": {}
+    },
+    {
+      "name": "Theatre Studies",
+      "description": "The study of theatrical performances, including staging, directing, acting, and design.",
+      "parent": "Performance Studies",
+      "children": {}
     }
   ]
-}{
-   "subdisciplines":[
-      {
-         "name":"Dance Studies",
-         "description":"The study of various forms of dance and their cultural significance within society.",
-         "parent":"Performance Studies",
-         "children":{}
-      },
-      {
-         "name":"Theatre Studies",
-         "description":"The study of theatrical performances, including staging, directing, acting, and design.",
-         "parent":"Performance Studies",
-         "children":{}
-      },
-      {
-         "name":"Performance Art",
-         "description":"A form of artistic expression that combines different art forms, such as theater, dance, and music, to create a performance.",
-         "parent":"Performance Studies",
-         "children":{}
-      }
-   ]
-}{
-  "subdisciplines": []
 }

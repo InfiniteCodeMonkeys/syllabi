@@ -1,0 +1,16 @@
+{
+    "subdisciplines": [
+        {
+            "name": "International Trade",
+            "description": "The study of the exchange of goods and services across international borders.",
+            "parent": "International Economics",
+            "children": {}
+        },
+        {
+            "name": "International Finance",
+            "description": "The study of monetary interactions between countries and the implications for international trade and investment.",
+            "parent": "International Economics",
+            "children": {}
+        }
+    ]
+}

@@ -53,9 +53,11 @@ export default function FieldNode(
   return (
     <button onClick={handleNodeClick}>
       <Handle type="target" position={Position.Top} />
-      <div className="flex h-32 w-32 items-center justify-center rounded-full border-transparent bg-gradient-to-r from-cyan-500 to-blue-500">
+      <div className="flex h-12 w-12 items-center justify-center rounded-full border-transparent bg-gradient-to-r from-cyan-500 to-blue-500">
         <div className="flex flex-col items-center justify-between">
-          <h4 className="text-center text-white">{node.data.name}</h4>
+          <span className="text-center text-[6px] text-white">
+            {node.data.name}
+          </span>
         </div>
         <div className=" absolute bottom-0 ">
           {isSignedIn ? (

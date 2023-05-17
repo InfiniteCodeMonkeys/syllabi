@@ -1,16 +1,16 @@
 {
-"subdisciplines": [
-{
-"name": "Romanticism",
-"description": "A literary and artistic movement in Europe and America in the late 18th and early 19th centuries, characterized by a heightened interest in nature, emotion, and individualism, and often featuring the supernatural or mystical.",
-"parent": "Romantic and Victorian Literature",
-"children": {}
-},
-{
-"name": "Victorian Studies",
-"description": "The study of literature, culture, and society in the Victorian era, which spanned from 1837 to 1901.",
-"parent": "Romantic and Victorian Literature",
-"children": {}
-}
-]
+  "subdisciplines": [
+    {
+      "name": "Romanticism",
+      "description": "A literary and artistic movement in Europe and America in the late 18th and early 19th centuries, characterized by a heightened interest in nature, emotion, and individualism, and often featuring the supernatural or mystical.",
+      "parent": "Romantic and Victorian Literature",
+      "children": {}
+    },
+    {
+      "name": "Victorian Studies",
+      "description": "The study of literature, culture, and society in the Victorian era, which spanned from 1837 to 1901.",
+      "parent": "Romantic and Victorian Literature",
+      "children": {}
+    }
+  ]
 }

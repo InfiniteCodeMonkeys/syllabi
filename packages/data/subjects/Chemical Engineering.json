@@ -25,35 +25,14 @@
       "children": {}
     },
     {
-      "name": "Chemical Reaction Engineering",
-      "description": "The study of chemical kinetics and the design of chemical reactors for optimal chemical reaction rates.",
-      "parent": "Chemical Engineering",
-      "children": {}
-    }
-  ]
-}{
-  "subdisciplines": [
-    {
-      "name": "Process Design",
-      "description": "The application of engineering principles and tools to design and optimize industrial processes.",
-      "parent": "Chemical Engineering",
-      "children": {}
-    },
-    {
-      "name": "Process Control",
-      "description": "The use of mathematical models to design and implement control systems for chemical processes.",
-      "parent": "Chemical Engineering",
-      "children": {}
-    },
-    {
       "name": "Process Simulation",
       "description": "The use of computational methods to simulate and optimize the behavior of chemical processes.",
       "parent": "Chemical Engineering",
       "children": {}
     },
     {
-      "name": "Reaction Engineering",
-      "description": "The study of chemical reactions and their design and optimization in industrial processes.",
+      "name": "Chemical Reaction Engineering",
+      "description": "The study of chemical kinetics and the design of chemical reactors for optimal chemical reaction rates.",
       "parent": "Chemical Engineering",
       "children": {}
     }

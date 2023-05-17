@@ -1,0 +1,28 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Behavioral Game Theory",
+      "description": "The study of strategic decision-making in interactive settings incorporating insights from psychology and economics.",
+      "parent": "Behavioral Economics",
+      "children": {}
+    },
+    {
+      "name": "Decision Theory",
+      "description": "The study of individual decision-making under uncertainty and risk, incorporating insights from cognitive psychology and behavioral economics.",
+      "parent": "Behavioral Economics",
+      "children": {}
+    },
+    {
+      "name": "Experimental Economics",
+      "description": "The application of controlled experiments to provide insight into economic phenomena, accounting for behavioral factors.",
+      "parent": "Behavioral Economics",
+      "children": {}
+    },
+    {
+      "name": "Neuroeconomics",
+      "description": "The study of the biological basis of decision-making, integrating methods from economics, neuroscience, and psychology.",
+      "parent": "Behavioral Economics",
+      "children": {}
+    }
+  ]
+}

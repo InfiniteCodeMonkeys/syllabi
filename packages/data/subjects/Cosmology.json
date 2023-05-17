@@ -1,6 +1,24 @@
 {
   "subdisciplines": [
     {
+      "name": "Physical cosmology",
+      "description": "The study of the largest-scale structures and dynamics of the universe and is concerned with fundamental questions about its formation, evolution, and ultimate fate.",
+      "parent": "Cosmology",
+      "children": {}
+    },
+    {
+      "name": "Observational cosmology",
+      "description": "Deals with the observation and measurement of the universe's properties, including studies involving galaxies and the cosmic microwave background radiation.",
+      "parent": "Cosmology",
+      "children": {}
+    },
+    {
+      "name": "Theoretical cosmology",
+      "description": "Attempts to develop explanations or models of the universe's properties, origins, and evolution, primarily based on physics principles.",
+      "parent": "Cosmology",
+      "children": {}
+    },
+    {
       "name": "Cosmic Microwave Background Radiation",
       "description": "The study of the afterglow of the Big Bang, which provides key evidence for the standard model of cosmology.",
       "parent": "Cosmology",
@@ -25,25 +43,4 @@
       "children": {}
     }
   ]
-}{
-    "subdisciplines": [
-        {
-            "name": "Physical cosmology",
-            "description": "The study of the largest-scale structures and dynamics of the universe and is concerned with fundamental questions about its formation, evolution, and ultimate fate.",
-            "parent": "Cosmology",
-            "children": {}
-        },
-        {
-            "name": "Observational cosmology",
-            "description": "Deals with the observation and measurement of the universe's properties, including studies involving galaxies and the cosmic microwave background radiation.",
-            "parent": "Cosmology",
-            "children": {}
-        },
-        {
-            "name": "Theoretical cosmology",
-            "description": "Attempts to develop explanations or models of the universe's properties, origins, and evolution, primarily based on physics principles.",
-            "parent": "Cosmology",
-            "children": {}
-        }
-    ]
 }

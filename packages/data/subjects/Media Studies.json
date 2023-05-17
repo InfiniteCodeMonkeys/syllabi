@@ -29,10 +29,7 @@
       "description": "The study of how media shape and are shaped by culture, society, politics, and economics.",
       "parent": "Media Studies",
       "children": {}
-    }
-  ]
-}{
-  "subdisciplines": [
+    },
     {
       "name": "Audience Studies",
       "description": "The study of how people receive, consume, and interpret media messages.",

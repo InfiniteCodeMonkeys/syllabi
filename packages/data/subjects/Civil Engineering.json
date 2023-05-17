@@ -1,6 +1,12 @@
 {
   "subdisciplines": [
     {
+      "name": "Geoengineering",
+      "description": "The study and modification of the Earth's environment using engineering principles.",
+      "parent": "Civil Engineering",
+      "children": {}
+    },
+    {
       "name": "Structural engineering",
       "description": "The analysis and design of structures that support or resist loads.",
       "parent": "Civil Engineering",
@@ -27,33 +33,6 @@
     {
       "name": "Construction engineering and management",
       "description": "The planning, design, and management of construction projects, including scheduling, budgeting, and risk management.",
-      "parent": "Civil Engineering",
-      "children": {}
-    }
-  ]
-}{
-  "subdisciplines": [
-    {
-      "name": "Geoengineering",
-      "description": "The study and modification of the Earth's environment using engineering principles.",
-      "parent": "Civil Engineering",
-      "children": {}
-    },
-    {
-      "name": "Structural Engineering",
-      "description": "The design and analysis of structures that support or resist loads, such as buildings, bridges, or tunnels.",
-      "parent": "Civil Engineering",
-      "children": {}
-    },
-    {
-      "name": "Transportation Engineering",
-      "description": "The planning, design, and operation of transportation systems, including roads, bridges, airports, and public transit.",
-      "parent": "Civil Engineering",
-      "children": {}
-    },
-    {
-      "name": "Water Resources Engineering",
-      "description": "The management of water resources, such as rivers, lakes, and groundwater, for human use and environmental protection.",
       "parent": "Civil Engineering",
       "children": {}
     }

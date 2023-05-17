@@ -1,0 +1,46 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Behavioral finance",
+      "description": "The study of the influence of psychology on the behavior of financial practitioners and the subsequent effect on markets.",
+      "parent": "Financial Economics",
+      "children": {}
+    },
+    {
+      "name": "Corporate finance",
+      "description": "The study of the financial decisions made by corporations, including investment, financing, and dividend decisions.",
+      "parent": "Financial Economics",
+      "children": {}
+    },
+    {
+      "name": "Financial econometrics",
+      "description": "The application of statistical methods to financial data to test theories or validate models in financial economics.",
+      "parent": "Financial Economics",
+      "children": {}
+    },
+    {
+      "name": "Financial engineering",
+      "description": "The application of mathematical techniques such as stochastic calculus, differential equations and computer simulations to financial problems.",
+      "parent": "Financial Economics",
+      "children": {}
+    },
+    {
+      "name": "International finance",
+      "description": "The study of financial interactions among countries, including international trade, foreign direct investment, and international capital flows.",
+      "parent": "Financial Economics",
+      "children": {}
+    },
+    {
+      "name": "Market microstructure",
+      "description": "The study of the process and outcomes of exchanging assets under fast-changing market conditions.",
+      "parent": "Financial Economics",
+      "children": {}
+    },
+    {
+      "name": "Portfolio theory",
+      "description": "The study of how investors build diversified portfolios and allocate their wealth across different assets to maximize expected returns for a given level of risk.",
+      "parent": "Financial Economics",
+      "children": {}
+    }
+  ]
+}

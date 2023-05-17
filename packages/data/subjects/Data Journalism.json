@@ -19,19 +19,4 @@
       "children": {}
     }
   ]
-}{
-    "subdisciplines": [
-        {
-            "name": "Data Visualization",
-            "description": "The creation and study of visual representations of data to aid in understanding patterns and trends.",
-            "parent": "Data Journalism",
-            "children": {}
-        },
-        {
-            "name": "Data Analysis",
-            "description": "The process of inspecting, cleaning, transforming, and modeling data with the goal of discovering useful information, drawing conclusions, and supporting decision-making.",
-            "parent": "Data Journalism",
-            "children": {}
-        }
-    ]
 }

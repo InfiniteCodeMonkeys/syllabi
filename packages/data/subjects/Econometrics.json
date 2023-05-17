@@ -1,0 +1,22 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Time-Series Analysis",
+      "description": "The application of statistical methods to analyze time-based data.",
+      "parent": "Econometrics",
+      "children": {}
+    },
+    {
+      "name": "Panel Data Analysis",
+      "description": "The application of statistical methods to analyze data sets that include observations over multiple time periods and/or cross-sectional units.",
+      "parent": "Econometrics",
+      "children": {}
+    },
+    {
+      "name": "Limited Dependent Variable Analysis",
+      "description": "The application of statistical methods to analyze dependent variables that have limited range or are otherwise restricted in their distribution.",
+      "parent": "Econometrics",
+      "children": {}
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "subdisciplines": [
+    {
+      "name": "International Political Economy",
+      "description": "The study of the interaction between politics and economics in the global arena.",
+      "parent": "Political Economy",
+      "children": {}
+    },
+    {
+      "name": "Comparative Political Economy",
+      "description": "The study of how different political and economic systems interact and affect one another.",
+      "parent": "Political Economy",
+      "children": {}
+    }
+  ]
+}

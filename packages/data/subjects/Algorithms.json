@@ -1,34 +1,34 @@
 {
-    "subdisciplines": [
-        {
-            "name": "Algorithm Design and Analysis",
-            "description": "The study of designing and analyzing algorithms, including developing efficient algorithms and proving their correctness.",
-            "parent": "Algorithms",
-            "children": {}
-        },
-        {
-            "name": "Computational Complexity",
-            "description": "The study of the resources (such as time and space) needed to solve computational problems.",
-            "parent": "Algorithms",
-            "children": {}
-        },
-        {
-            "name": "Distributed Algorithms",
-            "description": "The study of algorithms for distributed systems, where multiple computers must work together to achieve a common goal.",
-            "parent": "Algorithms",
-            "children": {}
-        },
-        {
-            "name": "Numerical Algorithms",
-            "description": "The study of algorithms for numerical computation, including methods for solving equations and optimization problems.",
-            "parent": "Algorithms",
-            "children": {}
-        },
-        {
-            "name": "Parallel Algorithms",
-            "description": "The study of algorithms for parallel computing, where multiple processors work together to solve a problem.",
-            "parent": "Algorithms",
-            "children": {}
-        }
-    ]
+  "subdisciplines": [
+    {
+      "name": "Algorithm Design and Analysis",
+      "description": "The study of designing and analyzing algorithms, including developing efficient algorithms and proving their correctness.",
+      "parent": "Algorithms",
+      "children": {}
+    },
+    {
+      "name": "Computational Complexity",
+      "description": "The study of the resources (such as time and space) needed to solve computational problems.",
+      "parent": "Algorithms",
+      "children": {}
+    },
+    {
+      "name": "Distributed Algorithms",
+      "description": "The study of algorithms for distributed systems, where multiple computers must work together to achieve a common goal.",
+      "parent": "Algorithms",
+      "children": {}
+    },
+    {
+      "name": "Numerical Algorithms",
+      "description": "The study of algorithms for numerical computation, including methods for solving equations and optimization problems.",
+      "parent": "Algorithms",
+      "children": {}
+    },
+    {
+      "name": "Parallel Algorithms",
+      "description": "The study of algorithms for parallel computing, where multiple processors work together to solve a problem.",
+      "parent": "Algorithms",
+      "children": {}
+    }
+  ]
 }

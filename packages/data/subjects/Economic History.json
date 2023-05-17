@@ -13,6 +13,12 @@
       "children": {}
     },
     {
+      "name": "New Institutional Economics",
+      "description": "The study of how economic institutions affect economic behavior and outcomes over time.",
+      "parent": "Economic History",
+      "children": {}
+    },
+    {
       "name": "New Economic History",
       "description": "An approach to economic history that uses economic theory and quantitative methods to study historical phenomena, often emphasizing the role of institutions and organizations in shaping economic outcomes.",
       "parent": "Economic History",

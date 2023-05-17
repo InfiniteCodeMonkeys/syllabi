@@ -17,21 +17,6 @@
       "description": "The management of soil and water resources in agriculture through the use of engineering principles.",
       "parent": "Agricultural Engineering",
       "children": {}
-    }
-  ]
-}{
-  "subdisciplines": [
-    {
-      "name": "Farm Power and Machinery",
-      "description": "Design, development, and improvement of agricultural machinery and equipment.",
-      "parent": "Agricultural Engineering",
-      "children": {}
-    },
-    {
-      "name": "Soil and Water Conservation",
-      "description": "Prevention of soil erosion and conservation of water through engineering practices.",
-      "parent": "Agricultural Engineering",
-      "children": {}
     },
     {
       "name": "Food and Bioprocess Engineering",
@@ -42,21 +27,6 @@
     {
       "name": "Structures and Environmental Control",
       "description": "Design and construction of agricultural structures, such as farm buildings, greenhouses, and animal housing, and their environmental control systems.",
-      "parent": "Agricultural Engineering",
-      "children": {}
-    }
-  ]
-}{
-  "subdisciplines": [
-    {
-      "name": "Farm Power and Machinery",
-      "description": "Design and development of machines and equipment for agricultural use.",
-      "parent": "Agricultural Engineering",
-      "children": {}
-    },
-    {
-      "name": "Soil and Water Conservation",
-      "description": "Design of structures and techniques to reduce soil erosion and conserve water in agriculture.",
       "parent": "Agricultural Engineering",
       "children": {}
     },

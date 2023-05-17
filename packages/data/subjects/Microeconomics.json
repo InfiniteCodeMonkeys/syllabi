@@ -1,0 +1,28 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Behavioral Economics",
+      "description": "The study of how psychology affects economic decision-making and behavior.",
+      "parent": "Microeconomics",
+      "children": {}
+    },
+    {
+      "name": "Industrial Organization",
+      "description": "The study of how firms compete in a market and the implications for market structure and outcomes.",
+      "parent": "Microeconomics",
+      "children": {}
+    },
+    {
+      "name": "Game Theory",
+      "description": "The study of strategic interaction among rational agents, including individuals, firms, and governments.",
+      "parent": "Microeconomics",
+      "children": {}
+    },
+    {
+      "name": "Information Economics",
+      "description": "The study of how information is used and communicated in economic systems.",
+      "parent": "Microeconomics",
+      "children": {}
+    }
+  ]
+}

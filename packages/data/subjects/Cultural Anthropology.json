@@ -1,14 +1,8 @@
 {
   "subdisciplines": [
     {
-      "name": "Linguistic Anthropology",
-      "description": "The study of language and how it shapes culture.",
-      "parent": "Cultural Anthropology",
-      "children": {}
-    },
-    {
-      "name": "Ecological Anthropology",
-      "description": "The study of how humans interact with their environment.",
+      "name": "Cognitive Anthropology",
+      "description": "The study of the relationship between human cognition and culture.",
       "parent": "Cultural Anthropology",
       "children": {}
     },
@@ -21,21 +15,6 @@
     {
       "name": "Political Anthropology",
       "description": "The study of political systems and their relationship with culture.",
-      "parent": "Cultural Anthropology",
-      "children": {}
-    },
-    {
-      "name": "Medical Anthropology",
-      "description": "The study of health and illness from a cross-cultural perspective",
-      "parent": "Cultural Anthropology",
-      "children": {}
-    }
-  ]
-}{
-  "subdisciplines": [
-    {
-      "name": "Cognitive Anthropology",
-      "description": "The study of the relationship between human cognition and culture.",
       "parent": "Cultural Anthropology",
       "children": {}
     },
