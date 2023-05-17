@@ -1,0 +1,28 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Language Acquisition",
+      "description": "The study of how humans acquire and learn language, including the social, psychological, and cognitive factors that influence language development.",
+      "parent": "Applied Linguistics",
+      "children": {}
+    },
+    {
+      "name": "Language Assessment",
+      "description": "The development and use of tests to measure language proficiency, including the design and evaluation of language tests for various purposes and contexts.",
+      "parent": "Applied Linguistics",
+      "children": {}
+    },
+    {
+      "name": "Language Education",
+      "description": "The study of how to teach languages effectively, including language pedagogy, curriculum development, and teacher training.",
+      "parent": "Applied Linguistics",
+      "children": {}
+    },
+    {
+      "name": "Sociolinguistics",
+      "description": "The study of the relationship between language and society, including language variation, language attitudes, and language use in different social contexts.",
+      "parent": "Applied Linguistics",
+      "children": {}
+    }
+  ]
+}

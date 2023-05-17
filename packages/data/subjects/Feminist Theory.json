@@ -1,0 +1,22 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Intersectionality",
+      "description": "Examining how social identities intersect and affect experiences of oppression and privilege.",
+      "parent": "Feminist Theory",
+      "children": {}
+    },
+    {
+      "name": "Queer Theory",
+      "description": "Exploring the complexities of sexual and gender identities and challenging heteronormativity.",
+      "parent": "Feminist Theory",
+      "children": {}
+    },
+    {
+      "name": "Transgender Studies",
+      "description": "Centering the experiences and perspectives of transgender individuals and communities in feminist scholarship.",
+      "parent": "Feminist Theory",
+      "children": {}
+    }
+  ]
+}

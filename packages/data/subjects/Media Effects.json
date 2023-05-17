@@ -1,0 +1,22 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Audience Analysis",
+      "description": "The study of the behaviors and characteristics of media audiences.",
+      "parent": "Media Effects",
+      "children": {}
+    },
+    {
+      "name": "News Effects",
+      "description": "The study of how news media impact audiences' knowledge, attitudes, and behaviors.",
+      "parent": "Media Effects",
+      "children": {}
+    },
+    {
+      "name": "Entertainment Effects",
+      "description": "The study of how media entertainment impacts audiences' emotions and behaviors.",
+      "parent": "Media Effects",
+      "children": {}
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Existentialist psychology",
+      "description": "The application of existentialist thought to psychology, emphasizing the freedom and responsibility of the individual to create meaning in life.",
+      "parent": "Existentialism",
+      "children": {}
+    },
+    {
+      "name": "Existentialist philosophy",
+      "description": "The exploration of the human condition and the search for meaning in life through philosophical inquiry and personal experience.",
+      "parent": "Existentialism",
+      "children": {}
+    }
+  ]
+}

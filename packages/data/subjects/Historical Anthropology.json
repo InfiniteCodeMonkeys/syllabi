@@ -1,0 +1,22 @@
+{
+ "subdisciplines": [
+  {
+   "name": "Historical Demography",
+   "description": "The study of human demography in the past using historical data and methods.",
+   "parent": "Historical Anthropology",
+   "children": {}
+  },
+  {
+   "name": "Historical Linguistics",
+   "description": "The study of language change over time using historical data and methods.",
+   "parent": "Historical Anthropology",
+   "children": {}
+  },
+  {
+   "name": "Archaeology",
+   "description": "The study of human history and prehistory through the analysis of material remains.",
+   "parent": "Historical Anthropology",
+   "children": {}
+  }
+ ]
+}

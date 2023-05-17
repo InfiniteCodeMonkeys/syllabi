@@ -1,0 +1,34 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Queer Theory",
+      "description": "A field of critical theory that emerged in the late 1980s from feminist studies and LGBTQ+ studies, questioning the binary categories that inform gender and sexuality, and exploring the ways in which power structures shape individuals and societies.",
+      "parent": "LGBTQ+ Studies",
+      "children": {}
+    },
+    {
+      "name": "Transgender Studies",
+      "description": "An interdisciplinary field that explores gender identity and expression, as experienced by transgender, transsexual, and gender non-binary people.",
+      "parent": "LGBTQ+ Studies",
+      "children": {}
+    },
+    {
+      "name": "LGBTQ+ History",
+      "description": "The study of LGBTQ+ people and their experiences throughout history.",
+      "parent": "LGBTQ+ Studies",
+      "children": {}
+    },
+    {
+      "name": "LGBTQ+ Psychology",
+      "description": "The study of psychological phenomena related to LGBTQ+ identities, such as coming out, identity development, and mental health disparities.",
+      "parent": "LGBTQ+ Studies",
+      "children": {}
+    },
+    {
+      "name": "LGBTQ+ Sociology",
+      "description": "The study of social phenomena related to LGBTQ+ identities, such as social movements, discrimination, and community building.",
+      "parent": "LGBTQ+ Studies",
+      "children": {}
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Animation",
+      "description": "The creation of moving images using computers, graphics, and other media technologies.",
+      "parent": "Digital media",
+      "children": {}
+    },
+    {
+      "name": "Game Design",
+      "description": "The design and development of video games using computer programs and creative design.",
+      "parent": "Digital media",
+      "children": {}
+    },
+    {
+      "name": "Graphic Design",
+      "description": "The process of visual communication and problem-solving through the use of typography, photography, and illustration.",
+      "parent": "Digital media",
+      "children": {}
+    },
+    {
+      "name": "Interactive Media",
+      "description": "The creation of digital experiences that allow user interaction with media content.",
+      "parent": "Digital media",
+      "children": {}
+    },
+    {
+      "name": "Web Design",
+      "description": "The process of designing and creating websites, including layout, usability, and visual aesthetics.",
+      "parent": "Digital media",
+      "children": {}
+    }
+  ]
+}

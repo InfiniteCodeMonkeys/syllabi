@@ -1,0 +1,16 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Environmental Literature",
+      "description": "The literary exploration of the natural world, including the human relationship to nature, ecology, and environmental issues.",
+      "parent": "Nature Writing",
+      "children": {}
+    },
+    {
+      "name": "Ecocriticism",
+      "description": "The study of the relationship between literature and the environment, including the ways that literature represents the natural world and the impact of human activity on the environment.",
+      "parent": "Nature Writing",
+      "children": {}
+    }
+  ]
+}

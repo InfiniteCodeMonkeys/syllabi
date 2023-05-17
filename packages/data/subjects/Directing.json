@@ -1,0 +1,28 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Acting",
+      "description": "The art of performing roles in theater, film, or television productions.",
+      "parent": "Directing",
+      "children": {}
+    },
+    {
+      "name": "Screenwriting",
+      "description": "The art of writing scripts for film, television, or video games.",
+      "parent": "Directing",
+      "children": {}
+    },
+    {
+      "name": "Cinematography",
+      "description": "The art and technique of capturing visual images on camera for film or video.",
+      "parent": "Directing",
+      "children": {}
+    },
+    {
+      "name": "Editing",
+      "description": "The process of selecting and combining shots into sequences, and ultimately creating a finished film or video.",
+      "parent": "Directing",
+      "children": {}
+    }
+  ]
+}

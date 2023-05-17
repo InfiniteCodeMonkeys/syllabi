@@ -1,0 +1,22 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Meta-Ethics",
+      "description": "The study of the nature of moral language, thought, and reality.",
+      "parent": "Descriptive Ethics",
+      "children": {}
+    },
+    {
+      "name": "Normative Ethics",
+      "description": "The study of ethical action and evaluation.",
+      "parent": "Descriptive Ethics",
+      "children": {}
+    },
+    {
+      "name": "Applied Ethics",
+      "description": "The application of ethical theory to concrete moral issues.",
+      "parent": "Descriptive Ethics",
+      "children": {}
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+    "subdisciplines": [
+        {
+            "name": "Metaethics",
+            "description": "The study of the fundamental nature of ethics, including the nature of ethical facts, properties, and attitudes.",
+            "parent": "Normative Ethics",
+            "children": {}
+        },
+        {
+            "name": "Moral Psychology",
+            "description": "The study of how people perceive, reason, and act in moral situations.",
+            "parent": "Normative Ethics",
+            "children": {}
+        },
+        {
+            "name": "Moral Epistemology",
+            "description": "The study of how we know which moral claims are true or false, or more or less probable.",
+            "parent": "Normative Ethics",
+            "children": {}
+        }
+    ]
+}

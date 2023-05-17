@@ -1,0 +1,21 @@
+{
+    "subdisciplines": [{
+        "name": "Formal epistemology",
+        "description": "The study of mathematical or logical models for knowledge and belief, including Bayesianism, decision theory, and game theory.",
+        "parent": "Epistemology",
+        "children": {}
+      },
+      {
+        "name": "Sociology of knowledge",
+        "description": "The study of the social construction of knowledge and how it shapes society.",
+        "parent": "Epistemology",
+        "children": {}
+      },
+      {
+        "name": "Feminist epistemology",
+        "description": "The study of how gender affects knowledge and beliefs, and how to address gender biases in epistemology.",
+        "parent": "Epistemology",
+        "children": {}
+      }
+    ]
+}

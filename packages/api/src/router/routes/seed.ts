@@ -2,7 +2,7 @@ import { protectedProcedure, router } from "../../trpc";
 import { prisma } from "@acme/db";
 import fs from "fs";
 import path from "path";
-const nodesFile = "../../packages/data/nodes.json";
+const nodesFile = "../../packages/data/subjectsAndDisciplines.json";
 const edgesFile = "../../packages/data/edges.json";
 
 const nodes = JSON.parse(

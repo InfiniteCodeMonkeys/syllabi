@@ -1,0 +1,34 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Advertising",
+      "description": "The practice of creating and distributing messages to promote products, services, and ideas.",
+      "parent": "Mass Communication",
+      "children": {}
+    },
+    {
+      "name": "Broadcast Journalism",
+      "description": "The reporting of news and other information through television or radio broadcasts.",
+      "parent": "Mass Communication",
+      "children": {}
+    },
+    {
+      "name": "Film/Cinema Studies",
+      "description": "The academic study of the history, theory, and analysis of film and related media.",
+      "parent": "Mass Communication",
+      "children": {}
+    },
+    {
+      "name": "Public Relations",
+      "description": "The practice of maintaining and enhancing the reputation of individuals, organizations, and companies through communications.",
+      "parent": "Mass Communication",
+      "children": {}
+    },
+    {
+      "name": "Digital/Online Media",
+      "description": "The study of media that are distributed online or over computer networks.",
+      "parent": "Mass Communication",
+      "children": {}
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Satire",
+      "description": "The use of humor, irony, exaggeration, or ridicule to expose and criticize people's stupidity or vices, particularly in the context of contemporary politics and other topical issues.",
+      "parent": "Humor Writing",
+      "children": {}
+    },
+    {
+      "name": "Parody",
+      "description": "A work created to imitate, make fun of, or comment on an original work or its subject matter in a humorous way.",
+      "parent": "Humor Writing",
+      "children": {}
+    },
+    {
+      "name": "Comedy Writing",
+      "description": "Writing in which humor, satire, irony, parody, absurdity, or other comic elements are used to entertain, inform, or make a point.",
+      "parent": "Humor Writing",
+      "children": {}
+    }
+  ]
+}

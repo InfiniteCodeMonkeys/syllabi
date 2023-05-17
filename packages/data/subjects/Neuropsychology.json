@@ -37,19 +37,4 @@
       "children": {}
     }
   ]
-}{
-  "subdisciplines": [
-    {
-      "name": "Clinical Neuropsychology",
-      "description": "The assessment and treatment of cognitive and behavioral problems resulting from brain injury or neurological illness.",
-      "parent": "Neuropsychology",
-      "children": {}
-    },
-    {
-      "name": "Experimental Neuropsychology",
-      "description": "The study of the relationship between brain function and behavior by manipulating or measuring brain activity.",
-      "parent": "Neuropsychology",
-      "children": {}
-    }
-  ]
 }

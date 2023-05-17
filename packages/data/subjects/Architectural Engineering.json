@@ -23,58 +23,22 @@
       "description": "The integration of mechanical and electrical systems to control the indoor environment, including temperature, humidity, air quality, and noise, for the comfort of occupants and to conserve energy.",
       "parent": "Architectural Engineering",
       "children": {}
-    }
-  ]
-}{
-   "subdisciplines": [
-      {
-         "name": "Building Systems Engineering",
-         "description": "The design and analysis of the mechanical, electrical, plumbing, and fire protection systems within a building.",
-         "parent": "Architectural Engineering",
-         "children": {}
-      },
-      {
-         "name": "Building Energy Modeling",
-         "description": "The practice of simulating the energy use of a building using computer software in order to optimize its energy performance.",
-         "parent": "Architectural Engineering",
-         "children": {}
-      },
-      {
-         "name": "Structural Engineering",
-         "description": "The analysis and design of the structural components of a building, including the foundation, columns, beams, and walls.",
-         "parent": "Architectural Engineering",
-         "children": {}
-      },
-      {
-         "name": "Acoustical Engineering",
-         "description": "The science of sound and its behavior in a space, and the design of building structures and materials to optimize sound quality.",
-         "parent": "Architectural Engineering",
-         "children": {}
-      },
-      {
-         "name": "Sustainable Design",
-         "description": "The practice of designing buildings to optimize their energy and resource efficiency, reduce their impact on the environment, and improve the health and comfort of their occupants.",
-         "parent": "Architectural Engineering",
-         "children": {}
-      }
-   ]
-}{
-  "subdisciplines": [
+    },
     {
-      "name": "Structural Engineering",
-      "description": "The subdiscipline of architectural engineering concerned with the design and analysis of structures that support or resist loads.",
+      "name": "Acoustical Engineering",
+      "description": "The science of sound and its behavior in a space, and the design of building structures and materials to optimize sound quality.",
       "parent": "Architectural Engineering",
       "children": {}
     },
     {
-      "name": "Building Physics",
-      "description": "The subdiscipline of architectural engineering that studies the physical behavior of buildings and building materials.",
+      "name": "Sustainable Design",
+      "description": "The practice of designing buildings to optimize their energy and resource efficiency, reduce their impact on the environment, and improve the health and comfort of their occupants.",
       "parent": "Architectural Engineering",
       "children": {}
     },
     {
-      "name": "Building Automation",
-      "description": "The subdiscipline of architectural engineering that deals with the automation and integration of building systems, including HVAC, lighting and security systems.",
+      "name": "Building Energy Modeling",
+      "description": "The practice of simulating the energy use of a building using computer software in order to optimize its energy performance.",
       "parent": "Architectural Engineering",
       "children": {}
     }

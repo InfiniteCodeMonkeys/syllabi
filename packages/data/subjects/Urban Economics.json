@@ -1,0 +1,22 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Transport Economics",
+      "description": "The study of the transportation system and its economic implications, including infrastructure development, public policy, and pricing strategies.",
+      "parent": "Urban Economics",
+      "children": {}
+    },
+    {
+      "name": "Housing Economics",
+      "description": "The analysis of the housing market, including supply and demand, pricing and affordability, and the impact of public policy on housing outcomes.",
+      "parent": "Urban Economics",
+      "children": {}
+    },
+    {
+      "name": "Urban Planning",
+      "description": "The study of the physical design and management of cities, including land use regulation, transportation planning, and environmental sustainability.",
+      "parent": "Urban Economics",
+      "children": {}
+    }
+  ]
+}

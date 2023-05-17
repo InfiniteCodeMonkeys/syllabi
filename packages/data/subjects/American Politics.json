@@ -1,0 +1,28 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Political Theory",
+      "description": "The study of political ideas, concepts, and principles",
+      "parent": "American Politics",
+      "children": {}
+    },
+    {
+      "name": "Comparative Politics",
+      "description": "The study of different political systems around the world",
+      "parent": "American Politics",
+      "children": {}
+    },
+    {
+      "name": "International Relations",
+      "description": "The study of relationships between nations and international organizations",
+      "parent": "American Politics",
+      "children": {}
+    },
+    {
+      "name": "Public Policy",
+      "description": "The study of how government policies are created and implemented",
+      "parent": "American Politics",
+      "children": {}
+    }
+  ]
+}

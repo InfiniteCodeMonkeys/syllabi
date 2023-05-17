@@ -1,28 +1,28 @@
 {
-"subdisciplines": [
-{
-"name": "Postcolonial Feminism",
-"description": "The examination of the intersection between postcolonialism and feminism, and how it shapes our understanding of gender, race, class, and power.",
-"parent": "Postcolonial Literature",
-"children": {}
-},
-{
-"name": "Postcolonial Ecocriticism",
-"description": "The study of the relationship between literature, culture, and the environment in the context of postcolonialism and globalization.",
-"parent": "Postcolonial Literature",
-"children": {}
-},
-{
-"name": "Postcolonialism and Globalization",
-"description": "The exploration of the cultural, political, and economic implications of globalization in the context of postcolonialism.",
-"parent": "Postcolonial Literature",
-"children": {}
-},
-{
-"name": "Postcolonial Queer Theory",
-"description": "The study of the intersection between postcolonialism and queer theory, and how it shapes our understanding of sex, gender, and sexuality in the context of colonialism and imperialism.",
-"parent": "Postcolonial Literature",
-"children": {}
-}
-]
+  "subdisciplines": [
+    {
+      "name": "Postcolonial Feminism",
+      "description": "The examination of the intersection between postcolonialism and feminism, and how it shapes our understanding of gender, race, class, and power.",
+      "parent": "Postcolonial Literature",
+      "children": {}
+    },
+    {
+      "name": "Postcolonial Ecocriticism",
+      "description": "The study of the relationship between literature, culture, and the environment in the context of postcolonialism and globalization.",
+      "parent": "Postcolonial Literature",
+      "children": {}
+    },
+    {
+      "name": "Postcolonialism and Globalization",
+      "description": "The exploration of the cultural, political, and economic implications of globalization in the context of postcolonialism.",
+      "parent": "Postcolonial Literature",
+      "children": {}
+    },
+    {
+      "name": "Postcolonial Queer Theory",
+      "description": "The study of the intersection between postcolonialism and queer theory, and how it shapes our understanding of sex, gender, and sexuality in the context of colonialism and imperialism.",
+      "parent": "Postcolonial Literature",
+      "children": {}
+    }
+  ]
 }

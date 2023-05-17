@@ -1,0 +1,16 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Intersectionality",
+      "description": "The study of how race, gender, class, and other social identities intersect to shape an individual's experiences and outcomes in society.",
+      "parent": "Political Sociology",
+      "children": {}
+    },
+    {
+      "name": "Social Movements",
+      "description": "The study of collective action by groups of people who are trying to effect social change through political, economic, or cultural means.",
+      "parent": "Political Sociology",
+      "children": {}
+    }
+  ]
+}

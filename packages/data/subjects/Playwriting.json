@@ -1,0 +1,22 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Musical theatre",
+      "description": "The creation of plays that include both spoken dialogue and songs.",
+      "parent": "Playwriting",
+      "children": {}
+    },
+    {
+      "name": "Comedy",
+      "description": "The creation of plays that aim to entertain through humor.",
+      "parent": "Playwriting",
+      "children": {}
+    },
+    {
+      "name": "Drama",
+      "description": "The creation of plays that aim to portray life or character with realism.",
+      "parent": "Playwriting",
+      "children": {}
+    }
+  ]
+}

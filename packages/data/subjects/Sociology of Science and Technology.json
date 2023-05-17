@@ -1,0 +1,22 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Science and Technology Studies",
+      "description": "The study of the social and cultural dimensions of science and technology, including their development, distribution, and use.",
+      "parent": "Sociology of Science and Technology",
+      "children": {}
+    },
+    {
+      "name": "Information and Communication Technologies",
+      "description": "The study of the social and cultural impacts of information and communication technologies, including the internet, social media, and mobile devices.",
+      "parent": "Sociology of Science and Technology",
+      "children": {}
+    },
+    {
+      "name": "Medical Sociology",
+      "description": "The study of the social factors that influence health and illness, including the organization and delivery of healthcare.",
+      "parent": "Sociology of Science and Technology",
+      "children": {}
+    }
+  ]
+}

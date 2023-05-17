@@ -1,0 +1,22 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Data Journalism",
+      "description": "The use of data analysis techniques to uncover information and stories, often using large datasets or complex information.",
+      "parent": "Investigative Journalism",
+      "children": {}
+    },
+    {
+      "name": "Undercover Journalism",
+      "description": "The practice of going undercover to gather information, often involving the use of hidden cameras or other recording devices.",
+      "parent": "Investigative Journalism",
+      "children": {}
+    },
+    {
+      "name": "Computer-Assisted Reporting",
+      "description": "The use of computer programming and data analysis tools to aid in investigative reporting.",
+      "parent": "Investigative Journalism",
+      "children": {}
+    }
+  ]
+}

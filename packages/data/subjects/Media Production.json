@@ -1,0 +1,22 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Audio Production",
+      "description": "The creation and manipulation of sound for media projects such as film, television, and music.",
+      "parent": "Media Production",
+      "children": {}
+    },
+    {
+      "name": "Video Production",
+      "description": "The process of creating video content for television, film, or online distribution.",
+      "parent": "Media Production",
+      "children": {}
+    },
+    {
+      "name": "Interactive Media Production",
+      "description": "The creation and design of interactive media projects, such as video games, websites, and mobile applications.",
+      "parent": "Media Production",
+      "children": {}
+    }
+  ]
+}

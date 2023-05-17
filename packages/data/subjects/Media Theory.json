@@ -1,0 +1,28 @@
+{
+  "subdisciplines": [
+    { 
+      "name": "Media Aesthetics",
+      "description": "The study of the art and beauty of media, including visual and auditory media.",
+      "parent": "Media Theory",
+      "children": {}
+    },
+    { 
+      "name": "Media Ecology",
+      "description": "The study of how media and communication technologies affect human perception, understanding, feeling, and value.",
+      "parent": "Media Theory",
+      "children": {}
+    },
+    { 
+      "name": "Media Sociology",
+      "description": "The study of media as a social institution, and the social and cultural forces that shape media and media use.",
+      "parent": "Media Theory",
+      "children": {}
+    },
+    { 
+      "name": "Media Psychology",
+      "description": "The study of the psychological effects of media on individuals and groups, including cognition, emotion, and behavior.",
+      "parent": "Media Theory",
+      "children": {}
+    }
+  ]
+}

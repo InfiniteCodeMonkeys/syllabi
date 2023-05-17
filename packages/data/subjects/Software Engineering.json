@@ -31,37 +31,4 @@
       "children": {}
     }
   ]
-}{
-  "subdisciplines": [
-    {
-      "name": "Agile Software Development",
-      "description": "An iterative approach to software development that emphasizes flexibility and customer collaboration.",
-      "parent": "Software Engineering",
-      "children": {}
-    },
-    {
-      "name": "Software Testing and Quality Assurance",
-      "description": "The process of verifying that a software application meets its requirements and meets the needs of its users.",
-      "parent": "Software Engineering",
-      "children": {}
-    },
-    {
-      "name": "Software Architecture",
-      "description": "The high-level design of a software system, including its components and their interactions.",
-      "parent": "Software Engineering",
-      "children": {}
-    },
-    {
-      "name": "Software Maintenance",
-      "description": "The process of modifying, updating, and improving existing software applications.",
-      "parent": "Software Engineering",
-      "children": {}
-    },
-    {
-      "name": "Software Requirements Engineering",
-      "description": "The process of eliciting, analyzing, specifying, validating, and managing the needs and constraints of stakeholders for a software system.",
-      "parent": "Software Engineering",
-      "children": {}
-    }
-  ]
 }

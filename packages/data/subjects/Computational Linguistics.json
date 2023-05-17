@@ -1,0 +1,34 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Natural Language Processing",
+      "description": "The application of computational techniques to the analysis and synthesis of natural language.",
+      "parent": "Computational Linguistics",
+      "children": {}
+    },
+    {
+      "name": "Speech Recognition",
+      "description": "The process of converting spoken language into digital text or commands.",
+      "parent": "Computational Linguistics",
+      "children": {}
+    },
+    {
+      "name": "Speech Synthesis",
+      "description": "The process of generating spoken language from digital text.",
+      "parent": "Computational Linguistics",
+      "children": {}
+    },
+    {
+      "name": "Language Generation",
+      "description": "The process of generating natural language text from non-linguistic input, such as data or other forms of structured information.",
+      "parent": "Computational Linguistics",
+      "children": {}
+    },
+    {
+      "name": "Machine Translation",
+      "description": "The use of computer algorithms to automatically translate text from one language to another.",
+      "parent": "Computational Linguistics",
+      "children": {}
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Ontology",
+      "description": "The study of being and existence.",
+      "parent": "Metaphysics",
+      "children": {}
+    },
+    {
+      "name": "Epistemology",
+      "description": "The study of knowledge.",
+      "parent": "Metaphysics",
+      "children": {}
+    },
+    {
+      "name": "Logic",
+      "description": "The study of argument and reasoning.",
+      "parent": "Metaphysics",
+      "children": {}
+    },
+    {
+      "name": "Metaphilosophy",
+      "description": "The study of the nature, aims, and methods of philosophy.",
+      "parent": "Metaphysics",
+      "children": {}
+    },
+    {
+      "name": "Metaphysics of Mind",
+      "description": "The study of the relationship between mind and body, consciousness, and mental states.",
+      "parent": "Metaphysics",
+      "children": {}
+    }
+  ]
+}

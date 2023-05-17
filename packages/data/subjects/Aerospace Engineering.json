@@ -1,63 +1,29 @@
 {
   "subdisciplines": [
-    {"name": "Aerodynamics",
-    "description": "The study of airflow and how it affects objects in motion, especially aircraft.",
-    "parent": "Aerospace Engineering",
-    "children": {}},
-    
-    {"name": "Astrodynamics",
-    "description": "The study of the motion of man-made objects in space.",
-    "parent": "Aerospace Engineering",
-    "children": {}},
-    
-    {"name": "Propulsion",
-    "description": "The study of the thrust required to propel vehicles in aerospace.",
-    "parent": "Aerospace Engineering",
-    "children": {}},
-    
-    {"name": "Structural design",
-    "description": "The design of structures that can resist the forces encountered during aircraft operation.",
-    "parent": "Aerospace Engineering",
-    "children": {}}
-  ]
-}{
-   "subdisciplines":[
-      {
-         "name":"Aerodynamics",
-         "description":"The study of the motion of air and other gases, particularly as it relates to the behavior of objects in motion through the atmosphere.",
-         "parent":"Aerospace Engineering",
-         "children": {}
-      },
-      {
-         "name":"Flight Mechanics and Controls",
-         "description":"The study of the dynamics and control of aircraft and spacecraft, including stability and control, guidance and navigation, and flight performance.",
-         "parent":"Aerospace Engineering",
-         "children": {}
-      },
-      {
-         "name":"Structures and Materials",
-         "description":"The study of the materials and structural systems used in the design and construction of aircraft and spacecraft, including analysis, testing, and optimization.",
-         "parent":"Aerospace Engineering",
-         "children": {}
-      },
-      {
-         "name":"Propulsion and Power",
-         "description":"The study of the propulsion systems and power generation systems used in aircraft and spacecraft, including engine design, performance analysis, and fuel consumption optimization.",
-         "parent":"Aerospace Engineering",
-         "children": {}
-      }
-   ]
-}{
-  "subdisciplines": [
     {
-      "name": "Astrodynamics",
-      "description": "The study of spacecraft trajectories in the context of gravitational forces.",
+      "name": "Aerodynamics",
+      "description": "The study of airflow and how it affects objects in motion, especially aircraft.",
       "parent": "Aerospace Engineering",
       "children": {}
     },
+
     {
-      "name": "Aerodynamics",
-      "description": "The study of the properties of gases in motion, and specifically the interaction between gases and solid or fluid bodies moving through them.",
+      "name": "Astrodynamics",
+      "description": "The study of the motion of man-made objects in space.",
+      "parent": "Aerospace Engineering",
+      "children": {}
+    },
+
+    {
+      "name": "Propulsion",
+      "description": "The study of the thrust required to propel vehicles in aerospace.",
+      "parent": "Aerospace Engineering",
+      "children": {}
+    },
+
+    {
+      "name": "Structural design",
+      "description": "The design of structures that can resist the forces encountered during aircraft operation.",
       "parent": "Aerospace Engineering",
       "children": {}
     }

@@ -1,0 +1,28 @@
+{
+   "subdisciplines":[
+      {
+         "name":"Bioethics",
+         "description":"The study of ethical issues related to medical treatments, genetic testing, and other areas of biotechnology.",
+         "parent":"Ethics",
+         "children":{}
+      },
+      {
+         "name":"Environmental Ethics",
+         "description":"Concerned with the ethical considerations related to issues such as global warming and environmental protection.",
+         "parent":"Ethics",
+         "children":{}
+      },
+      {
+         "name":"Applied Ethics",
+         "description":"The application of ethical principles to real-world scenarios, such as business ethics or medical ethics.",
+         "parent":"Ethics",
+         "children":{}
+      },
+      {
+         "name":"Metaethics",
+         "description":"Investigates the nature of ethical concepts and judgements.",
+         "parent":"Ethics",
+         "children":{}
+      }
+   ]
+}

@@ -1,0 +1,34 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Public Management",
+      "description": "The study of the implementation of public policies and the management of public sector organizations.",
+      "parent": "Public Policy",
+      "children": {}
+    },
+    {
+      "name": "Policy Analysis",
+      "description": "The systematic study of the policy process, including agenda setting, policy formulation, adoption, implementation, evaluation, and change.",
+      "parent": "Public Policy",
+      "children": {}
+    },
+    {
+      "name": "Political Economy",
+      "description": "The study of the interrelationship between politics and economics as they affect policy choices and outcomes.",
+      "parent": "Public Policy",
+      "children": {}
+    },
+    {
+      "name": "Science, Technology and Innovation Policy",
+      "description": "The study of policies related to science, technology and innovation, including their development, diffusion, and impact on society and the economy.",
+      "parent": "Public Policy",
+      "children": {}
+    },
+    {
+      "name": "Global Governance",
+      "description": "The study of the institutions, rules, norms, and processes of global governance and their roles in addressing global challenges.",
+      "parent": "Public Policy",
+      "children": {}
+    }
+  ]
+}

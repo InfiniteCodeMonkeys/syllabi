@@ -1,0 +1,22 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Biblical Studies",
+      "description": "The study of the Bible as a religious text and its interpretation.",
+      "parent": "Theology",
+      "children": {}
+    },
+    {
+      "name": "Historical Theology",
+      "description": "The study of the development of Christian theology throughout history.",
+      "parent": "Theology",
+      "children": {}
+    },
+    {
+      "name": "Systematic Theology",
+      "description": "The study of the nature and the principles of the Christian faith and beliefs.",
+      "parent": "Theology",
+      "children": {}
+    }
+  ]
+}

@@ -1,34 +1,34 @@
 {
-                "subdisciplines": [
-                  {
-                    "name": "Physical Optics",
-                    "description": "The study of the fundamental principles of optics, including the wave nature of light, interference, diffraction, polarization, and scattering.",
-                    "parent": "Optics",
-                    "children": {}
-                  },
-                  {
-                    "name": "Geometrical Optics",
-                    "description": "The study of light as rays and how they interact with different materials and shapes of objects.",
-                    "parent": "Optics",
-                    "children": {}
-                  },
-                  {
-                    "name": "Applied Optics",
-                    "description": "The application of optical principles to design and construct instruments and systems for practical use.",
-                    "parent": "Optics",
-                    "children": {}
-                  },
-                  {
-                    "name": "Quantum Optics",
-                    "description": "The study of the behavior of light and its interactions with matter at the level of individual particles such as atoms and photons.",
-                    "parent": "Optics",
-                    "children": {}
-                  },
-                  {
-                    "name": "Nonlinear Optics",
-                    "description": "The study of the behavior of light in materials that exhibit nonlinear optical properties, including harmonic generation, self-focusing, and the optical Kerr effect.",
-                    "parent": "Optics",
-                    "children": {}
-                  }
-                ]
-              }
+  "subdisciplines": [
+    {
+      "name": "Physical Optics",
+      "description": "The study of the fundamental principles of optics, including the wave nature of light, interference, diffraction, polarization, and scattering.",
+      "parent": "Optics",
+      "children": {}
+    },
+    {
+      "name": "Geometrical Optics",
+      "description": "The study of light as rays and how they interact with different materials and shapes of objects.",
+      "parent": "Optics",
+      "children": {}
+    },
+    {
+      "name": "Applied Optics",
+      "description": "The application of optical principles to design and construct instruments and systems for practical use.",
+      "parent": "Optics",
+      "children": {}
+    },
+    {
+      "name": "Quantum Optics",
+      "description": "The study of the behavior of light and its interactions with matter at the level of individual particles such as atoms and photons.",
+      "parent": "Optics",
+      "children": {}
+    },
+    {
+      "name": "Nonlinear Optics",
+      "description": "The study of the behavior of light in materials that exhibit nonlinear optical properties, including harmonic generation, self-focusing, and the optical Kerr effect.",
+      "parent": "Optics",
+      "children": {}
+    }
+  ]
+}

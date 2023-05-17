@@ -1,0 +1,34 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Computational theory of mind",
+      "description": "The study of the mind as an information processor.",
+      "parent": "Philosophy of Mind",
+      "children": {}
+    },
+    {
+      "name": "Consciousness studies",
+      "description": "The study of subjective experience and qualia.",
+      "parent": "Philosophy of Mind",
+      "children": {}
+    },
+    {
+      "name": "Intentionality",
+      "description": "The study of the mind's ability to be about something.",
+      "parent": "Philosophy of Mind",
+      "children": {}
+    },
+    {
+      "name": "Philosophical psychology",
+      "description": "The study of psychological phenomena using philosophical methods.",
+      "parent": "Philosophy of Mind",
+      "children": {}
+    },
+    {
+      "name": "Philosophy of perception",
+      "description": "The study of perception and the mechanisms of perception.",
+      "parent": "Philosophy of Mind",
+      "children": {}
+    }
+  ]
+}

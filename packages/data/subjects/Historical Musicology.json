@@ -1,0 +1,16 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Music Analysis",
+      "description": "The study of musical structures and how they function within a given piece.",
+      "parent": "Historical Musicology",
+      "children": {}
+    },
+    {
+      "name": "Performance Practice",
+      "description": "The study of historical methods of musical performance, including historical instruments, vocal practices, and musical gestures.",
+      "parent": "Historical Musicology",
+      "children": {}
+    }
+  ]
+}

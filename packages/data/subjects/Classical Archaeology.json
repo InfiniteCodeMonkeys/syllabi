@@ -1,0 +1,16 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Greek Archaeology",
+      "description": "The study of ancient Greek civilization through its material remains, including architecture, art, and everyday objects.",
+      "parent": "Classical Archaeology",
+      "children": {}
+    },
+    {
+      "name": "Roman Archaeology",
+      "description": "The study of ancient Roman civilization through its material remains, including architecture, art, and everyday objects.",
+      "parent": "Classical Archaeology",
+      "children": {}
+    }
+  ]
+}

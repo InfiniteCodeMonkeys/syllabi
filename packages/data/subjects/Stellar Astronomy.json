@@ -1,22 +1,22 @@
 {
-                "subdisciplines": [
-                  {
-                    "name": "Exoplanet Astronomy",
-                    "description": "The study of planets outside of our solar system, including their formation, composition, and behavior in relation to their host star.",
-                    "parent": "Stellar Astronomy",
-                    "children": {}
-                  },
-                  {
-                    "name": "Stellar Evolution",
-                    "description": "The study of how stars change over time, including their birth, life, and death.",
-                    "parent": "Stellar Astronomy",
-                    "children": {}
-                  },
-                  {
-                    "name": "Stellar Astrophysics",
-                    "description": "The study of the physical properties and behavior of stars, including their structure, atmosphere, and energy generation.",
-                    "parent": "Stellar Astronomy",
-                    "children": {}
-                  }
-                ]
-              }
+  "subdisciplines": [
+    {
+      "name": "Exoplanet Astronomy",
+      "description": "The study of planets outside of our solar system, including their formation, composition, and behavior in relation to their host star.",
+      "parent": "Stellar Astronomy",
+      "children": {}
+    },
+    {
+      "name": "Stellar Evolution",
+      "description": "The study of how stars change over time, including their birth, life, and death.",
+      "parent": "Stellar Astronomy",
+      "children": {}
+    },
+    {
+      "name": "Stellar Astrophysics",
+      "description": "The study of the physical properties and behavior of stars, including their structure, atmosphere, and energy generation.",
+      "parent": "Stellar Astronomy",
+      "children": {}
+    }
+  ]
+}

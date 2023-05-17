@@ -1,0 +1,16 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Architectural History",
+      "description": "The study of the history of architecture in relation to the socio-economic and cultural context in which it was produced.",
+      "parent": "Industrial Archaeology",
+      "children": {}
+    },
+    {
+      "name": "Industrial Heritage Management",
+      "description": "The management of industrial heritage sites and their conservation, interpretation, and exploitation for tourism.",
+      "parent": "Industrial Archaeology",
+      "children": {}
+    }
+  ]
+}

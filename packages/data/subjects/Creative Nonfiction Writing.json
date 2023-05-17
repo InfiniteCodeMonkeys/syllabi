@@ -1,0 +1,22 @@
+{
+   "subdisciplines":[
+      {
+         "name":"Memoir",
+         "description":"A subgenre of creative nonfiction in which the author writes about their own personal experiences.",
+         "parent":"Creative Nonfiction Writing",
+         "children":{}
+      },
+      {
+         "name":"Personal essay",
+         "description":"A subgenre of creative nonfiction in which the author writes about their own personal experiences or observations.",
+         "parent":"Creative Nonfiction Writing",
+         "children":{}
+      },
+      {
+         "name":"Literary journalism",
+         "description":"A subgenre of creative nonfiction that combines elements of journalism with the techniques of creative writing.",
+         "parent":"Creative Nonfiction Writing",
+         "children":{}
+      }
+   ]
+}

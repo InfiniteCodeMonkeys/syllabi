@@ -7,6 +7,12 @@
       "children": {}
     },
     {
+      "name": "Mathematical Logic",
+      "description": "The study of mathematical structures and their applications to logic",
+      "parent": "Logic",
+      "children": {}
+    },
+    {
       "name": "Modal Logic",
       "description": "The study of reasoning about necessity and possibility.",
       "parent": "Logic",

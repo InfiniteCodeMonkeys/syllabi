@@ -1,6 +1,7 @@
 const { createId } = require("@paralleldrive/cuid2");
 const fs = require("fs");
-const subjects = "../data/nodes.json";
+const subjects = "../data/subjectsAndDisciplines.json";
+const moveFrom = "../data/subjects";
 
 const data = JSON.parse(fs.readFileSync(subjects, "utf8"));
 
@@ -43,63 +44,39 @@ const SUBJECTS = [
 ];
 
 const cleanUpJSON = (data) => {
-  const newChildArray = [];
   data.forEach((subject) => {
-    // reformat where name and decription are nested in data
-    subject.data = {};
-    subject.data.name = subject.name;
-    subject.data.description = subject.description;
-
-    delete subject.name;
-    delete subject.description;
-
-    if (subject.children && subject.children.length > 0) {
-      const IDarray = [];
-
-      subject.children.forEach((child) => {
-        // children should be an array of child Ids
-        IDarray.push(child.id);
-
-        // change parent from name to an id for consistency
-        const parent = data.filter((item) => item.data?.name === child.parent);
-        console.log("data", data);
-        console.log("child", child);
-        console.log("parent of child", parent);
-        child.parent = parent.id;
-
-        // we don't want to duplicate children in the parent's children array
-        console.log("parent.children", parent.children);
-        if (!parent.children?.includes(child.id)) {
-          parent.children?.push(child.id);
-        }
-
-        // reformat where name and decription are nested in data
-        child.data = {};
-        child.data.name = child.name;
-        child.data.description = child.description;
-
-        delete child.name;
-        delete child.description;
-      });
-      // we want all nodes at one level when we create edges and upload to prisma
-      newChildArray.push(subject.children);
-
-      // set children to an array of child Ids
-      subject.children = IDarray;
+    if (!subject.id) {
+      subject.id = createId();
     }
-    // do the same for subjects. set their parents to an id
-    const parent = data.filter((item) => item.name === subject.parent);
-    // console.log("subject", subject);
-    // console.log("parent", parent);
-    subject.parent = parent.id;
+    if (!subject.data) {
+      subject.data = {};
+      subject.data.name = subject.name;
+      subject.data.description = subject.description;
+
+      delete subject.name;
+      delete subject.description;
+    }
+    if (Object.keys(subject.children).length === 0) {
+      subject.children = [];
+    }
+
+    if (typeof subject.parent === "string") {
+      const parent = data.filter(
+        (item) => item.data?.name === subject.parent,
+      )[0];
+      if (parent) {
+        subject.parent = { id: parent.id, data: parent.data };
+        parent.children.push(subject.id);
+      }
+    }
   });
 
-  // write to nodes.json
-  fs.writeFileSync(subjects, JSON.stringify({ ...data, ...newChildArray }));
+  // write to file
+  fs.writeFileSync(subjects, JSON.stringify([...data]));
   console.log("Success!");
 };
 
-// cleanUpJSON(data);
+cleanUpJSON(data);
 
 const reformatJSON = (data) => {
   fs.writeFileSync(subjects, JSON.stringify(data.flat()));
@@ -108,7 +85,7 @@ const reformatJSON = (data) => {
 
 // reformatJSON(data);
 
-const setEmptyChildrenToNull = (data) => {
+const setEmptyChildrenToArray = (data) => {
   data.forEach((subject) => {
     if (!subject.children) {
       subject.children = [];
@@ -120,4 +97,25 @@ const setEmptyChildrenToNull = (data) => {
   console.log("Done!");
 };
 
-setEmptyChildrenToNull(data);
+// setEmptyChildrenToArray(data);
+
+const addIdToSubjects = async () => {
+  const files = await fs.promises.readdir(moveFrom);
+
+  // Loop them all with the new for...of
+  for await (const file of files) {
+    console.log(file);
+    const data = JSON.parse(
+      fs.readFileSync(`../data/subjects/${file}`, "utf8"),
+    );
+
+    console.log(data.subdisciplines);
+    fs.writeFileSync(
+      subjects,
+      JSON.stringify([...nodes, ...data.subdisciplines]),
+    );
+    // cleanUpJSON(data.subdisciplines);
+  }
+};
+
+//addIdToSubjects();

@@ -1,0 +1,22 @@
+{
+  "subdisciplines": [
+    {
+      "name": "Musical Acoustics",
+      "description": "The study of the physical properties of sound in music, including harmonics, overtones, frequency spectra, and timbre.",
+      "parent": "Music Psychology",
+      "children": {}
+    },
+    {
+      "name": "Music Cognition",
+      "description": "The study of how humans perceive, process, and respond to music, including topics like memory, emotion, and attention.",
+      "parent": "Music Psychology",
+      "children": {}
+    },
+    {
+      "name": "Music Therapy",
+      "description": "The use of music as a therapeutic tool to achieve physical, emotional, and cognitive goals in individuals.",
+      "parent": "Music Psychology",
+      "children": {}
+    }
+  ]
+}
