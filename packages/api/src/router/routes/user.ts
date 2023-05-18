@@ -1,5 +1,6 @@
 import { z } from "zod";
 import { protectedProcedure, publicProcedure, router } from "../../trpc";
+import { User } from "@acme/db";
 
 export const userRouter = router({
   get: protectedProcedure.query(async ({ ctx }) => {
@@ -50,59 +51,102 @@ export const userRouter = router({
         return error;
       }
     }),
-  // like: protectedProcedure
-  //   .input(
-  //     z.object({
-  //       id: z.string(),
-  //     }),
-  //   )
-  //   .mutation(async ({ ctx, input }) => {
-  //     const user = ctx.auth.userId;
+  like: protectedProcedure
+    .input(
+      z.object({
+        id: z.string(),
+      }),
+    )
+    .mutation(async ({ ctx, input }) => {
+      const userId = ctx.auth.userId;
+      const user = await prisma?.user.findUnique({
+        where: {
+          clerkId: userId,
+        },
+      });
 
-  //     try {
-  //       prisma?.user.update({
-  //         where: {
-  //           id: user,
-  //         },
-  //         data: {
-  //           savedCourses: { push: input.id },
-  //         },
-  //       });
-  //     } catch (error) {
-  //       console.error(error);
-  //       return error;
-  //     }
-  //   }),
-  // unlike: protectedProcedure
-  //   .input(z.object({ id: z.string() }))
-  //   .mutation(async ({ ctx, input }) => {
-  //     const user = ctx.auth.userId;
+      const node = await prisma?.nodes.findUnique({
+        where: {
+          id: input.id,
+        },
+      });
+      if (!node) {
+        throw new Error("Node not found");
+      }
+      try {
+        prisma?.nodes.update({
+          where: {
+            id: input.id,
+          },
+          data: {
+            savedBy: {
+              create: [user],
+            },
+          },
+        });
 
-  //     const courses = await prisma?.user.findUnique({
-  //       where: {
-  //         id: user,
-  //       },
-  //       select: {
-  //         savedCourses: true,
-  //       },
-  //     });
+        prisma?.user.update({
+          where: {
+            clerkId: userId,
+          },
+          data: {
+            savedCourses: {
+              connect: [node],
+            },
+          },
+        });
+      } catch (error) {
+        console.error(error);
+        return error;
+      }
+    }),
+  unlike: protectedProcedure
+    .input(z.object({ id: z.string() }))
+    .mutation(async ({ ctx, input }) => {
+      const userId = ctx.auth.userId;
 
-  //     try {
-  //       prisma?.user.update({
-  //         where: {
-  //           id: user,
-  //         },
-  //         data: {
-  //           savedCourses: {
-  //             set: courses?.savedCourses.filter(
-  //               (course) => course !== input.id,
-  //             ),
-  //           },
-  //         },
-  //       });
-  //     } catch (error) {
-  //       console.error(error);
-  //       return error;
-  //     }
-  //   }),
+      const courses = await prisma?.user.findUnique({
+        where: {
+          clerkId: userId,
+        },
+        select: {
+          savedCourses: true,
+        },
+      });
+
+      const node = await prisma?.nodes.findUnique({
+        where: {
+          id: input.id,
+        },
+      });
+
+      try {
+        prisma?.nodes.update({
+          where: {
+            id: input.id,
+          },
+          data: {
+            savedBy: {
+              set: node?.savedBy.filter((user: User) => user.id !== userId),
+            },
+          },
+        });
+
+        prisma?.user.update({
+          where: {
+            id: userId,
+          },
+          data: {
+            savedCourses: {
+              set: courses?.savedCourses.filter(
+                (course) => course.id !== input.id,
+              ),
+            },
+          },
+        });
+      } catch (error) {
+        console.error(error);
+        return error;
+      }
+    }),
 });

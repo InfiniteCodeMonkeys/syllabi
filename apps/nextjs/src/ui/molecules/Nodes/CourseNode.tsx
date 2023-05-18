@@ -1,4 +1,3 @@
-import { User } from "@acme/db";
 import { useAuth } from "@clerk/nextjs";
 import clsx from "clsx";
 import { useRouter } from "next/router";
@@ -16,7 +15,7 @@ export default function CourseNode({
 }) {
   const { isSignedIn } = useAuth();
   const router = useRouter();
-  const user = trpc.user.get.useQuery().data as unknown as User;
+  const user = trpc.user.get.useQuery().data as any;
   const saveLike = trpc.user.like.useMutation();
   const removeLike = trpc.user.unlike.useMutation();
   const [expanded, setExpanded] = useState(false);
@@ -47,9 +46,8 @@ export default function CourseNode({
   };
 
   useEffect(() => {
-    if (user?.savedCourses.includes(id)) {
-      setLiked(true);
-    }
+    user?.savedCourses?.includes(id) ? setLiked(true) : setLiked(false);
+
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
