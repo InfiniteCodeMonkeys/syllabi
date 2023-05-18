@@ -7,18 +7,22 @@ import Link from "next/link";
 import Image from "next/image";
 import SearchBox from "ui/molecules/Search";
 import useStore, { RootState } from "store";
+import { trpc } from "utils/trpc";
+import { User } from "@acme/db";
 
 const MarketingHeader = () => {
   const { isSignedIn } = useUser();
-  const { setSuggestionModalOpen, setFeaturesModalOpen } = useStore(
-    (state: RootState) => ({
+  const user = trpc.user.get.useQuery().data as User;
+  const isAdmin = user?.isAdmin;
+  const { setSuggestionModalOpen, setHowWorkModalOpen, setAdminModalOpen } =
+    useStore((state: RootState) => ({
       setSuggestionModalOpen: state.setSuggestionModalOpen,
-      setFeaturesModalOpen: state.setFeaturesModalOpen,
-    }),
-  );
+      setHowWorkModalOpen: state.setHowWorkModalOpen,
+      setAdminModalOpen: state.setAdminModalOpen,
+    }));
 
   const navigation = [
-    { name: "How does this work?", onClick: () => setFeaturesModalOpen(true) },
+    { name: "How does this work?", onClick: () => setHowWorkModalOpen(true) },
     { name: "Contribute", onClick: () => setSuggestionModalOpen(true) },
   ];
 
@@ -44,21 +48,34 @@ const MarketingHeader = () => {
                 </Popover.Button>
               </div>
             </div>
-            <div className="hidden space-x-8 md:ml-10 md:flex">
-              {navigation.map((item) => (
-                <button
-                  key={item.name}
-                  onClick={item.onClick}
-                  className="mt-2 text-base font-medium text-white hover:text-gray-300"
-                >
-                  {item.name}
-                </button>
-              ))}
+            <div className="hidden space-x-8  md:ml-10 md:flex">
+              <div className="hidden space-x-8 lg:flex">
+                {" "}
+                {navigation.map((item) => (
+                  <button
+                    key={item.name}
+                    onClick={item.onClick}
+                    className=" text-base font-medium text-white hover:text-gray-300"
+                  >
+                    {item.name}
+                  </button>
+                ))}
+              </div>
+
               <SearchBox />
             </div>
           </div>
           {isSignedIn ? (
             <div className="hidden items-center md:flex md:items-center md:space-x-6">
+              {isAdmin ? (
+                <button
+                  onClick={() => setAdminModalOpen(true)}
+                  className=" text-base font-medium text-white hover:text-gray-300"
+                >
+                  Admin
+                </button>
+              ) : null}
+
               <UserButton />
             </div>
           ) : (

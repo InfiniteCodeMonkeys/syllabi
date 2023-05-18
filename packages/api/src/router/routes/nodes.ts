@@ -1,8 +1,7 @@
 import { z } from "zod";
 import { publicProcedure, router } from "../../trpc";
-import { prisma } from "@acme/db";
 import setPosition from "../../helpers/setPosition";
-
+import { prisma } from "@acme/db";
 interface Subject {
   id: string;
   data: any;
@@ -36,6 +35,33 @@ export const nodesRouter = router({
       return error;
     }
   }),
+  suggest: publicProcedure
+    .input(
+      z.object({
+        title: z.string(),
+        description: z.string(),
+        tags: z.string(),
+        parent: z.string(),
+        resources: z.string(),
+      }),
+    )
+    .mutation(async ({ input }) => {
+      try {
+        await prisma?.suggestedNodes.create({
+          data: {
+            name: input.title,
+            description: input.description,
+            details: { tags: input.tags, resources: input.resources },
+            parents: input.parent,
+            children: [],
+          },
+        });
+        return "Success";
+      } catch (error) {
+        console.error(error);
+        return error;
+      }
+    }),
   //   add: protectedProcedure
   //     .input(
   //       z.object({

@@ -23,8 +23,7 @@ model User {
     username        String?
     birthday        String?
     SuggestedNodes  SuggestedNodes[]
-    savedCourses    String[]
-    // createdCourses  Nodes[]          @relation(name: "CreatedCourses")
+    savedCourses    Nodes[]
 }
 
 model SuggestedNodes {
@@ -46,9 +45,7 @@ model Nodes {
     children String[]
     parent   Json?
     details  Json?
-    // savedBy   User[]   @relation(name: "SavedCourses")
-    // createdBy User     @relation(name: "CreatedCourses", fields: [userId], references: [id])
-    // userId    String
+    savedBy  User[]
 }
 
 model Edges {

@@ -4,14 +4,12 @@ import { protectedProcedure, publicProcedure, router } from "../../trpc";
 export const userRouter = router({
   get: protectedProcedure.query(async ({ ctx }) => {
     const userId = ctx.auth.userId;
-
+    const user = await prisma?.user.findUnique({
+      where: {
+        clerkId: userId,
+      },
+    });
     try {
-      const user = await prisma?.user.findUnique({
-        where: {
-          id: userId,
-        },
-      });
-
       return user;
     } catch (e) {
       console.error(e);
@@ -52,59 +50,59 @@ export const userRouter = router({
         return error;
       }
     }),
-  like: protectedProcedure
-    .input(
-      z.object({
-        id: z.string(),
-      }),
-    )
-    .mutation(async ({ ctx, input }) => {
-      const user = ctx.auth.userId;
+  // like: protectedProcedure
+  //   .input(
+  //     z.object({
+  //       id: z.string(),
+  //     }),
+  //   )
+  //   .mutation(async ({ ctx, input }) => {
+  //     const user = ctx.auth.userId;
 
-      try {
-        prisma?.user.update({
-          where: {
-            id: user,
-          },
-          data: {
-            savedCourses: { push: input.id },
-          },
-        });
-      } catch (error) {
-        console.error(error);
-        return error;
-      }
-    }),
-  unlike: protectedProcedure
-    .input(z.object({ id: z.string() }))
-    .mutation(async ({ ctx, input }) => {
-      const user = ctx.auth.userId;
+  //     try {
+  //       prisma?.user.update({
+  //         where: {
+  //           id: user,
+  //         },
+  //         data: {
+  //           savedCourses: { push: input.id },
+  //         },
+  //       });
+  //     } catch (error) {
+  //       console.error(error);
+  //       return error;
+  //     }
+  //   }),
+  // unlike: protectedProcedure
+  //   .input(z.object({ id: z.string() }))
+  //   .mutation(async ({ ctx, input }) => {
+  //     const user = ctx.auth.userId;
 
-      const courses = await prisma?.user.findUnique({
-        where: {
-          id: user,
-        },
-        select: {
-          savedCourses: true,
-        },
-      });
+  //     const courses = await prisma?.user.findUnique({
+  //       where: {
+  //         id: user,
+  //       },
+  //       select: {
+  //         savedCourses: true,
+  //       },
+  //     });
 
-      try {
-        prisma?.user.update({
-          where: {
-            id: user,
-          },
-          data: {
-            savedCourses: {
-              set: courses?.savedCourses.filter(
-                (course) => course !== input.id,
-              ),
-            },
-          },
-        });
-      } catch (error) {
-        console.error(error);
-        return error;
-      }
-    }),
+  //     try {
+  //       prisma?.user.update({
+  //         where: {
+  //           id: user,
+  //         },
+  //         data: {
+  //           savedCourses: {
+  //             set: courses?.savedCourses.filter(
+  //               (course) => course !== input.id,
+  //             ),
+  //           },
+  //         },
+  //       });
+  //     } catch (error) {
+  //       console.error(error);
+  //       return error;
+  //     }
+  //   }),
 });
