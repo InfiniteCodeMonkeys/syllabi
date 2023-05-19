@@ -1,17 +1,16 @@
 import { z } from "zod";
 import { protectedProcedure, publicProcedure, router } from "../../trpc";
+import { User } from "@acme/db";
 
 export const userRouter = router({
   get: protectedProcedure.query(async ({ ctx }) => {
     const userId = ctx.auth.userId;
-
+    const user = await prisma?.user.findUnique({
+      where: {
+        clerkId: userId,
+      },
+    });
     try {
-      const user = await prisma?.user.findUnique({
-        where: {
-          id: userId,
-        },
-      });
-
       return user;
     } catch (e) {
       console.error(e);
@@ -59,15 +58,33 @@ export const userRouter = router({
       }),
     )
     .mutation(async ({ ctx, input }) => {
-      const user = ctx.auth.userId;
+      const userId = ctx.auth.userId;
+      const user = await prisma?.user.findUnique({
+        where: {
+          clerkId: userId,
+        },
+      });
+
+      const node = await prisma?.nodes.findUnique({
+        where: {
+          id: input.id,
+        },
+      });
 
       try {
-        prisma?.user.update({
-          where: {
-            id: user,
-          },
+        await prisma?.usersSavedNodes.create({
           data: {
-            savedCourses: { push: input.id },
+            user: {
+              connect: {
+                id: user?.id,
+              },
+            },
+            nodes: {
+              connect: {
+                id: node?.id,
+              },
+            },
+            assignedBy: user?.id as string,
           },
         });
       } catch (error) {
@@ -78,27 +95,25 @@ export const userRouter = router({
   unlike: protectedProcedure
     .input(z.object({ id: z.string() }))
     .mutation(async ({ ctx, input }) => {
-      const user = ctx.auth.userId;
-
-      const courses = await prisma?.user.findUnique({
+      const userId = ctx.auth.userId;
+      const user = await prisma?.user.findUnique({
         where: {
-          id: user,
+          clerkId: userId,
         },
-        select: {
-          savedCourses: true,
+      });
+
+      const node = await prisma?.nodes.findUnique({
+        where: {
+          id: input.id,
         },
       });
 
       try {
-        prisma?.user.update({
+        await prisma?.usersSavedNodes.delete({
           where: {
-            id: user,
-          },
-          data: {
-            savedCourses: {
-              set: courses?.savedCourses.filter(
-                (course) => course !== input.id,
-              ),
+            userId_nodesId: {
+              userId: user?.id as string,
+              nodesId: node?.id as string,
             },
           },
         });

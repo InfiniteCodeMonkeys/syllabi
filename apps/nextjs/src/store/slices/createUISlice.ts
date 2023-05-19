@@ -16,8 +16,13 @@ export const createUISlice = (
     set({ suggestionModalOpen: open });
   },
 
-  featuresModalOpen: false,
-  setFeaturesModalOpen: (open: boolean) => {
-    set({ featuresModalOpen: open });
+  howWorkModalOpen: false,
+  setHowWorkModalOpen: (open: boolean) => {
+    set({ howWorkModalOpen: open });
+  },
+
+  adminModalOpen: false,
+  setAdminModalOpen: (open: boolean) => {
+    set({ adminModalOpen: open });
   },
 });

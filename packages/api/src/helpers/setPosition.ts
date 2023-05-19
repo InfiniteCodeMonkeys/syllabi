@@ -1,13 +1,6 @@
 import { Nodes } from "@prisma/client";
 
 const setPosition = (subject: Nodes, index: number) => {
-  const numberOfChildren = subject.children.length || 1;
-
-  const degreesOfSeparation = 360 / numberOfChildren;
-
-  const x = Math.cos(degreesOfSeparation * (index + 1)) * 200;
-  const y = Math.sin(degreesOfSeparation * (index + 1)) * 200;
-
   if (subject.id === "clggtsotk0004p0eqk2lfm793") {
     return { x: 0, y: 0 };
   }
@@ -23,7 +16,12 @@ const setPosition = (subject: Nodes, index: number) => {
   if (subject.id === "zrqnyjntpa3cbyc0b66cjglq") {
     return { x: 0, y: -900 };
   }
+  const numberOfChildren = subject.children.length || 1;
 
+  const degreesOfSeparation = 360 / numberOfChildren;
+
+  const x = Math.cos(degreesOfSeparation * (index + 1)) * 200;
+  const y = Math.sin(degreesOfSeparation * (index + 1)) * 200;
   return { x, y };
 };
 

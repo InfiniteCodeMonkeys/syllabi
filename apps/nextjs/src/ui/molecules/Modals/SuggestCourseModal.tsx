@@ -5,7 +5,12 @@ import { trpc } from "utils/trpc";
 
 const SuggestCourseModal = () => {
   const [title, setTitle] = useState("");
-  const newCourse = trpc.seed.seed.useMutation();
+  const [parent, setParent] = useState("");
+  const [description, setDescription] = useState("");
+  const [tags, setTags] = useState("");
+  const [resources, setResources] = useState("");
+  const [submitted, setSubmitted] = useState(false);
+  const newCourse = trpc.nodes.suggest.useMutation();
   const { setSuggestionModalOpen, suggestionModalOpen } = useStore(
     (state: RootState) => ({
       setSuggestionModalOpen: state.setSuggestionModalOpen,
@@ -16,8 +21,24 @@ const SuggestCourseModal = () => {
   const cancelButtonRef = useRef(null);
 
   const handleSubmit = async () => {
-    const response = await newCourse.mutateAsync();
-    console.log(response);
+    await newCourse.mutateAsync({
+      title,
+      parent,
+      description,
+      tags,
+      resources,
+    });
+    setSubmitted(true);
+  };
+
+  const handleClose = () => {
+    setSuggestionModalOpen(false);
+    setTitle("");
+    setParent("");
+    setDescription("");
+    setTags("");
+    setResources("");
+    setSubmitted(false);
   };
 
   return (
@@ -28,7 +49,7 @@ const SuggestCourseModal = () => {
             as="div"
             className="relative z-10"
             initialFocus={cancelButtonRef}
-            onClose={() => setSuggestionModalOpen(false)}
+            onClose={handleClose}
           >
             <Transition.Child
               as={Fragment}
@@ -62,10 +83,7 @@ const SuggestCourseModal = () => {
                         >
                           Suggest a Course
                         </Dialog.Title>
-                        <button
-                          type="button"
-                          onClick={() => setSuggestionModalOpen(false)}
-                        >
+                        <button type="button" onClick={handleClose}>
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 24 24"
@@ -82,25 +100,86 @@ const SuggestCourseModal = () => {
                       </div>
 
                       <div className="mt-3 h-96 overflow-y-auto sm:mt-5">
-                        <div className="mt-2">
-                          <p className="text-sm text-gray-500">Course Title</p>
-                          <input
-                            type="text"
-                            name="course-title"
-                            id="course-title"
-                            className="mt-1 block w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-indigo-500"
-                            value={title}
-                            onChange={(e) => setTitle(e.currentTarget.value)}
-                          />
-                          <div className="flex justify-end">
-                            <button
-                              onClick={handleSubmit}
-                              className="alrounded-md mt-2 block rounded-md border-transparent bg-gradient-to-r from-orange-600 to-pink-500 px-4 py-3 text-center font-medium text-white shadow hover:bg-gray-700"
-                            >
-                              Submit for Review
-                            </button>
+                        {submitted ? (
+                          <div className="mt-2">
+                            <p className="text-md text-gray-500">
+                              Thank you for suggesting a course! We will review
+                              it and add it shortly.
+                            </p>
                           </div>
-                        </div>
+                        ) : (
+                          <div className="mr-4 mt-2">
+                            <p className="text-sm text-gray-500">
+                              Course Title
+                            </p>
+                            <input
+                              type="text"
+                              name="course-title"
+                              id="course-title"
+                              className="mt-1 block w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-indigo-500"
+                              value={title}
+                              onChange={(e) => setTitle(e.currentTarget.value)}
+                            />
+                            <p className="mt-4 text-sm text-gray-500">
+                              Course Parent(s)
+                            </p>
+                            <input
+                              type="text"
+                              name="course-title"
+                              id="course-title"
+                              className="mt-1 block w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-indigo-500"
+                              value={parent}
+                              onChange={(e) => setParent(e.currentTarget.value)}
+                            />
+                            <p className="mt-4 text-sm text-gray-500">
+                              Course Description
+                            </p>
+                            <textarea
+                              name="course-description"
+                              id="course-description"
+                              rows={3}
+                              className="mt-1 block w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-indigo-500"
+                              value={description}
+                              onChange={(e) =>
+                                setDescription(e.currentTarget.value)
+                              }
+                            />
+                            <p className="mt-4 text-sm text-gray-500">
+                              Course Resources
+                            </p>
+                            <input
+                              type="text"
+                              name="course-resources"
+                              id="course-resources"
+                              className="mt-1 block w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-indigo-500"
+                              value={resources}
+                              onChange={(e) =>
+                                setResources(e.currentTarget.value)
+                              }
+                            />
+                            <p className="mt-4 text-sm text-gray-500">
+                              Course Tags
+                            </p>
+                            <input
+                              type="text"
+                              name="course-tags"
+                              id="course-tags"
+                              className="mt-1 block w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-indigo-500"
+                              value={tags}
+                              onChange={(e) => setTags(e.currentTarget.value)}
+                            />
+
+                            <div className="mt-4 flex justify-end">
+                              <button
+                                onClick={handleSubmit}
+                                className="alrounded-md mt-2 block rounded-md border-transparent bg-gradient-to-r from-orange-600 to-pink-500 px-4 py-3 text-center font-medium text-white shadow hover:bg-gray-700"
+                                disabled={submitted}
+                              >
+                                Submit for Review
+                              </button>
+                            </div>
+                          </div>
+                        )}
                       </div>
                     </div>
                     <div className="mt-5 sm:mt-6 sm:grid sm:grid-flow-row-dense sm:grid-cols-2 sm:gap-3"></div>
