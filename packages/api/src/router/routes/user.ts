@@ -70,29 +70,21 @@ export const userRouter = router({
           id: input.id,
         },
       });
-      if (!node) {
-        throw new Error("Node not found");
-      }
-      try {
-        prisma?.nodes.update({
-          where: {
-            id: input.id,
-          },
-          data: {
-            savedBy: {
-              create: [user],
-            },
-          },
-        });
 
-        prisma?.user.update({
-          where: {
-            clerkId: userId,
-          },
+      try {
+        await prisma?.usersSavedNodes.create({
           data: {
-            savedCourses: {
-              connect: [node],
+            user: {
+              connect: {
+                id: user?.id,
+              },
             },
+            nodes: {
+              connect: {
+                id: node?.id,
+              },
+            },
+            assignedBy: user?.id as string,
           },
         });
       } catch (error) {
@@ -104,13 +96,9 @@ export const userRouter = router({
     .input(z.object({ id: z.string() }))
     .mutation(async ({ ctx, input }) => {
       const userId = ctx.auth.userId;
-
-      const courses = await prisma?.user.findUnique({
+      const user = await prisma?.user.findUnique({
         where: {
           clerkId: userId,
-        },
-        select: {
-          savedCourses: true,
         },
       });
 
@@ -121,26 +109,11 @@ export const userRouter = router({
       });
 
       try {
-        prisma?.nodes.update({
+        await prisma?.usersSavedNodes.delete({
           where: {
-            id: input.id,
-          },
-          data: {
-            savedBy: {
-              set: node?.savedBy.filter((user: User) => user.id !== userId),
-            },
-          },
-        });
-
-        prisma?.user.update({
-          where: {
-            id: userId,
-          },
-          data: {
-            savedCourses: {
-              set: courses?.savedCourses.filter(
-                (course) => course.id !== input.id,
-              ),
+            userId_nodesId: {
+              userId: user?.id as string,
+              nodesId: node?.id as string,
             },
           },
         });
