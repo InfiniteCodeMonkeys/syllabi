@@ -1,0 +1,34 @@
+[
+  {
+    "name": "College Algebra",
+    "description": "This course introduces students to the fundamental concepts of algebra, including equations, functions, and graphs. Students learn techniques to solve linear and quadratic equations and examine exponential and logarithmic functions.",
+    "prerequisites": []
+  },
+  {
+    "name": "Trigonometry",
+    "description": "This course explores trigonometric functions in the context of right triangles and the unit circle. It covers topics including circular functions, inverse trigonometric functions, and applications of trigonometric functions to real-world problems.",
+    "prerequisites": ["College Algebra"]
+  },
+  {
+    "name": "Calculus I",
+    "description": "This course introduces students to the fundamental concepts of calculus, including limits, derivatives, and integrals. It covers applications of calculus to real-world problems and prepares students for advanced calculus courses.",
+    "prerequisites": ["College Algebra", "Trigonometry"]
+  },
+  [
+    {
+      "name": "Linear Algebra",
+      "description": "This course covers the theory and applications of linear algebra, including vectors, matrices, determinants, and systems of linear equations. It prepares students for more advanced courses in algebra and other fields.",
+      "prerequisites": ["Calculus I"]
+    },
+    {
+      "name": "Calculus II",
+      "description": "This course expands on the concepts introduced in Calculus I, including derivatives and integrals of more complex functions. It covers topics like techniques of integration, sequences, and series.",
+      "prerequisites": ["Calculus I"]
+    }
+  ],
+  {
+    "name": "Abstract Algebra",
+    "description": "This course covers the abstract algebraic structures like groups, rings, fields, and their properties. It provides the foundation for students to study other algebraic fields in mathematics.",
+    "prerequisites": ["Linear Algebra", "Calculus II"]
+  }
+]

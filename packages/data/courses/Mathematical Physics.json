@@ -1,0 +1,49 @@
+[
+  {
+    "name": "Calculus I",
+    "description": "This course introduces students to the principles of calculus, including limits, derivatives, and integrals.",
+    "prerequisites": []
+  },
+  {
+    "name": "Calculus II",
+    "description": "This course covers more advanced topics in calculus, including techniques of integration, infinite series, and analytic geometry.",
+    "prerequisites": ["Calculus I"]
+  },
+  {
+    "name": "Linear Algebra",
+    "description": "This course introduces students to the principles of linear algebra, including matrices, vectors, vector spaces, and linear transformations.",
+    "prerequisites": ["Calculus II"]
+  },
+  {
+    "name": "Differential Equations",
+    "description": "This course covers the principles of differential equations, including first order equations, second and higher order equations, systems of differential equations, and partial differential equations.",
+    "prerequisites": ["Calculus II"]
+  },
+  [
+  {
+    "name": "Classical Mechanics",
+    "description": "This course introduces students to classical mechanics, including Newton's laws of motion, energy, momentum, rotational dynamics, and oscillations. This course also covers Lagrange's equations and Hamilton's equations.",
+    "prerequisites": ["Calculus II", "Linear Algebra", "Differential Equations"]
+  },
+  {
+    "name": "Electromagnetism",
+    "description": "This course covers the principles of electromagnetism, including electric fields, magnetic fields, and electromagnetic waves.",
+    "prerequisites": ["Calculus II", "Linear Algebra", "Differential Equations"]
+  },
+  ],
+  {
+    "name": "Quantum Mechanics",
+    "description": "This course introduces students to quantum mechanics, including wave-particle duality, Schrödinger's equation, operators, and the hydrogen atom.",
+    "prerequisites": ["Calculus II", "Linear Algebra", "Differential Equations"]
+  },
+  {
+    "name": "Statistical Mechanics",
+    "description": "This course covers the principles of statistical mechanics, including classical and quantum statistics, the partition function, and phase transitions.",
+    "prerequisites": ["Calculus II", "Linear Algebra", "Differential Equations"]
+  },
+  {
+    "name": "General Relativity",
+    "description": "This course introduces students to the principles of general relativity, including curved spacetime, tensor analysis, and the Einstein field equations.",
+    "prerequisites": ["Calculus II", "Linear Algebra", "Differential Equations"]
+  }
+]

@@ -1,0 +1,44 @@
+[
+   {
+      "name": "Introduction to Linguistics",
+      "description": "This course introduces students to the principles of linguistics. Students will learn about phonetics, phonology, morphology, syntax, semantics, and pragmatics."
+      "prerequisites": []
+   },
+   {
+      "name": "Phonetics and Phonology",
+      "description": "This course covers the study of speech sounds and their patterns. Students will learn about the articulation and acoustics of speech sounds as well as the patterns they form in different languages."
+      "prerequisites": ["Introduction to Linguistics"]
+   }, 
+   {
+      "name": "Morphology and Syntax",
+      "description": "This course covers the study of word formation and sentence structure. Students will learn about the rules and patterns that govern the formation of words and sentences in different languages."
+      "prerequisites": ["Introduction to Linguistics"]
+   },
+   [
+      {
+         "name": "Semantics",
+         "description": "This course covers the study of meaning in language. Students will learn about the ways in which words and sentences convey meaning and how different languages express concepts in different ways."
+         "prerequisites": ["Introduction to Linguistics"]
+      },
+      {
+         "name": "Pragmatics",
+         "description": "This course covers the study of language use in context. Students will learn about the ways in which speakers use language to convey meaning and achieve goals in different situations."
+         "prerequisites": ["Introduction to Linguistics"]
+      }
+   ],
+   {
+      "name": "Historical Linguistics",
+      "description": "This course covers the study of language change over time. Students will learn about the processes of language change and the factors that influence them, as well as the reconstruction of earlier stages of languages and language families."
+      "prerequisites": ["Phonetics and Phonology", "Morphology and Syntax"]
+   },
+   {
+      "name": "Sociolinguistics",
+      "description": "This course covers the study of language variation and its social and cultural context. Students will learn about the ways in which language varies among speakers and groups of speakers, and how that variation is influenced by factors such as race, ethnicity, gender, and social class."
+      "prerequisites": ["Phonetics and Phonology", "Morphology and Syntax"]
+   },
+   {
+      "name": "Psycholinguistics",
+      "description": "This course covers the study of the psychological processes involved in language use and comprehension. Students will learn about the cognitive mechanisms involved in producing and processing language, and how they develop in the individual and across cultures."
+      "prerequisites": ["Phonetics and Phonology", "Morphology and Syntax"]
+   }
+]

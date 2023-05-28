@@ -1,0 +1,175 @@
+[
+  {
+    "name": "Calculus 1",
+    "description": "This course introduces students to differential and integral calculus; a branch of mathematics that deals with finding rates of change and slopes to curves of different shapes; as well as how this math is used in the context of physics.",
+    "prerequisites": []
+  },
+  {
+    "name": "Calculus 2",
+    "description": "This course builds on a student's knowledge of calculus 1 to teach further concepts like series, integration techniques, and more advanced differential equations.",
+    "prerequisites": ["Calculus 1"]
+  },
+  {
+    "name": "Physics 1",
+    "description": "This course introduces students to the fundamental concepts of physics including kinematics, dynamics, energy and work, conservation laws, and thermodynamics. By the end of the course, students will be able to apply these concepts to practical situations in the real world.",
+    "prerequisites": ["Calculus 1"]
+  },
+  {
+    "name": "Physics 2",
+    "description": "This course builds on a student's knowledge of physics 1 to cover more advanced concepts including electricity and magnetism, waves and light, and atomic and nuclear physics.",
+    "prerequisites": ["Calculus 2", "Physics 1"]
+  },
+  {
+    "name": "Statics",
+    "description": "This course teaches the principles of statics which is the branch of mechanics concerned with the analysis of loads (force and torque, or "moment") on physical systems in static equilibrium, that is, in a state where the relative positions of subsystems do not vary over time, or where components and structures are at a constant velocity.",
+    "prerequisites": ["Calculus 2", "Physics 1"]
+  },
+  [
+    {
+      "name": "Dynamics",
+      "description": "This course teaches the principles of dynamics which is the branch of mechanics concerned with the study of forces and motion on systems under conditions that impose changes in the physical components and structures. Dynamics refers to the calculation of forces and motion of objects.",
+      "prerequisites": ["Calculus 2", "Physics 2"]
+    },
+    {
+      "name": "Materials Science",
+      "description": "This course teaches the principles of materials science and engineering, including the structure and defects of materials, thermodynamics of materials, phase equilibria and transformations, mechanical properties of solids, and the relationships between microstructure, processing, and properties.",
+      "prerequisites": ["Calculus 2", "Physics 2"]
+    }
+  ],
+  {
+    "name": "Fluid Mechanics",
+    "description": "This course teaches the principles of fluid mechanics including fluid statics and dynamics, momentum equations, energy equations, dimensional analysis, potential flow, viscous flow, and computational fluid dynamics.",
+    "prerequisites": ["Calculus 2", "Physics 2"]
+  },
+  {
+    "name": "Thermodynamics",
+    "description": "This course teaches the principles of thermodynamics including the first and second laws of thermodynamics, properties of pure substances, closed and open systems, basic cycles (Carnot, Brayton, Rankine), and thermodynamic property relationships.",
+    "prerequisites": ["Calculus 2", "Physics 2"]
+  },
+  [
+    {
+      "name": "Mechanics of Materials",
+      "description": "This course teaches how forces are transmitted through different parts of a solid and how different materials react to external forces. Topics covered include stress, normal and shear strain, material elasticity, torsion, bending, and buckling.",
+      "prerequisites": ["Statics", "Materials Science"]
+    },
+    {
+      "name": "Machine Dynamics",
+      "description": "This course teaches advanced concepts related to kinematics and dynamics of machines. Topics covered include rotations and translation of mechanical systems, and in depth understanding of gears, linkages, cams, bearings, etc.",
+      "prerequisites": ["Dynamics", "Materials Science"]
+    }
+  ],
+  {
+    "name": "Heat Transfer",
+    "description": "This course teaches the principles of heat transfer including conduction, convection, and radiation, as well as the application of these principles to real-world engineering problems.",
+    "prerequisites": ["Fluid Mechanics", "Thermodynamics"]
+  },
+  {
+    "name": "Manufacturing Processes",
+    "description": "This course teaches the principles of manufacturing processes, including casting, metal forming, machining, nontraditional manufacturing processes, and surface engineering.",
+    "prerequisites": ["Mechanics of Materials", "Machine Dynamics"]
+  },
+  [
+    {
+      "name": "Control Systems",
+      "description": "This course teaches the principles of control systems including Laplace transforms, transfer functions, stability analysis, frequency domain analysis and design, and state-space analysis and design.",
+      "prerequisites": ["Fluid Mechanics", "Dynamic Systems and Vibrations"]
+    },
+    {
+      "name": "Dynamic Systems and Vibrations",
+      "description": "This course teaches the principles of dynamic systems and vibrations including free and forced vibrations of single and multiple degrees of freedom systems with both elastic and viscous damping, frequency response, and basic signal processing techniques.",
+      "prerequisites": ["Dynamics", "Materials Science"]
+    }
+  ],
+  {
+    "name": "Mechanical Design",
+    "description": "This course teaches the principles of mechanical design including the use of solid models and design software, optimizing design for strength and weight, and design for manufacturability.",
+    "prerequisites": ["Manufacturing Processes", "Materials Science"]
+  }
+][
+  {
+    "name": "Calculus I",
+    "description": "This course introduces students to the basic concepts of calculus such as limits, derivatives, integrals, and their applications. It is the foundation for most science and engineering fields.",
+    "prerequisites": []
+  },
+  {
+    "name": "Physics I",
+    "description": "This course introduces the fundamental principles of mechanics, including kinematics, dynamics, momentum, energy, and a study of fluids, thermodynamics, mechanical waves, and sound.",
+    "prerequisites": ["Calculus I"]
+  },
+  {
+    "name": "Statics",
+    "description": "This course introduces the concepts of vector algebra, equilibrium of particles, and rigid bodies in two and three dimensions. Other topics include trusses, frames, cables, and friction.",
+    "prerequisites": ["Physics I"]
+  },
+  {
+    "name": "Dynamics",
+    "description": "This course introduces the concepts of kinematics and dynamics of motion. Other topics include work and energy, impulse and momentum, vibration, and mechanical waves.",
+    "prerequisites": ["Physics I", "Calculus II"]
+  },
+  [
+    {
+      "name": "Materials Science",
+      "description": "This course introduces the scientific principles that govern the behavior of materials in various applications. Topics include crystal structures, defects, mechanical properties, and thermal properties.",
+      "prerequisites": ["Physics I"]
+    },
+    {
+      "name": "Thermodynamics",
+      "description": "This course introduces the fundamental principles of thermodynamics, including the first and second laws of thermodynamics, thermodynamic cycles, and applications to engineering systems.",
+      "prerequisites": ["Physics I", "Calculus II"]
+    }
+  ],
+  {
+    "name": "Fluid Mechanics",
+    "description": "This course introduces the fundamental principles of fluid mechanics, including fluid statics, dynamics, and applications.",
+    "prerequisites": ["Physics I", "Calculus III"]
+  },
+  {
+    "name": "Strength of Materials",
+    "description": "This course applies principles of mechanics and materials science to analyze the behavior of solid bodies subjected to various types of loading.",
+    "prerequisites": ["Statics"]
+  },
+  {
+    "name": "Mechanics of Materials",
+    "description": "This course covers topics such as stress and strain, shear and moment diagrams, torsion, and deflection of beams.",
+    "prerequisites": ["Strength of Materials"]
+  },
+  {
+    "name": "Machine Design",
+    "description": "This course introduces the principles and techniques of design and analysis of mechanical components, such as gears, bearings, and power screws.",
+    "prerequisites": ["Strength of Materials", "Mechanics of Materials"]
+  },
+  {
+    "name": "Dynamic Systems",
+    "description": "This course introduces mathematical models for mechanical and electrical systems. Topics include modeling, analysis, and control of mechanical and electrical systems.",
+    "prerequisites": ["Dynamics"]
+  },
+  [
+    {
+      "name": "Manufacturing Processes",
+      "description": "This course introduces the principles and practices of manufacturing processes, including metal casting, forming, joining, and machining.",
+      "prerequisites": ["Materials Science"]
+    },
+    {
+      "name": "Control Systems",
+      "description": "This course introduces the principles and techniques for the design and analysis of feedback control systems. Topics include root locus, Bode plot, Nyquist plot, and design using PID controllers.",
+      "prerequisites": ["Dynamic Systems"]
+    }
+  ],
+  {
+    "name": "Heat Transfer",
+    "description": "This course introduces the principles and applications of heat transfer by conduction, convection, and radiation.",
+    "prerequisites": ["Thermodynamics", "Fluid Mechanics"]
+  },
+  [
+    {
+      "name": "Mechanical Design",
+      "description": "This course covers the principles and methods of mechanical design, including product design, materials selection, and manufacturing process selection.",
+      "prerequisites": ["Machine Design"]
+    },
+    {
+      "name": "Engineering Measurements and Instrumentation",
+      "description": "This course introduces the principles and techniques of engineering measurements and instrumentation, including sensors, transducers, and signal conditioning. ",
+      "prerequisites": ["Control Systems"]
+    }
+  ]
+]

@@ -1,0 +1,39 @@
+[
+  {
+    "name": "Calculus I",
+    "description": "This course introduces students to the basic concepts of calculus, including limits, derivatives, and integrals. It provides students with the necessary background for further study in mathematics and related fields.",
+    "prerequisites": []
+  },
+  {
+    "name": "Calculus II",
+    "description": "This course builds on the concepts learned in Calculus I, introducing more advanced topics such as techniques of integration and applications of calculus. It further prepares students for advanced study in mathematics and related fields.",
+    "prerequisites": ["Calculus I"]
+  }, 
+  {
+    "name": "Linear Algebra",
+    "description": "This course introduces students to the fundamental concepts of linear algebra, including matrix theory, vector spaces, and linear transformations. It provides students with the necessary background for further study in mathematics and related fields.",
+    "prerequisites": ["Calculus II"]
+  },
+  [
+    {
+      "name": "Differential Geometry",
+      "description": "This course introduces students to the basic concepts of differential geometry, including curves, surfaces, and manifolds. It provides students with the necessary background for further study in geometry and related fields.",
+      "prerequisites": ["Calculus II", "Linear Algebra"]
+    },
+    {
+      "name": "Abstract Algebra",
+      "description": "This course introduces students to the fundamental concepts of abstract algebra, including groups, rings, and fields. It provides students with the necessary background for further study in algebraic geometry and related fields.",
+      "prerequisites": ["Calculus II", "Linear Algebra"]
+    }
+  ],
+  {
+    "name": "Topology",
+    "description": "This course introduces students to the fundamental concepts of topology, including basic point-set topology, continuous functions, and topological spaces. It provides students with the necessary background for further study in geometry and related fields.",
+    "prerequisites": ["Differential Geometry"]
+  },
+  {
+    "name": "Differential Topology",
+    "description": "This course builds on the concepts learned in Differential Geometry and Topology, introducing more advanced topics such as smooth manifolds, tangent spaces, and vector bundles. It further prepares students for advanced study in geometry and related fields.",
+    "prerequisites": ["Differential Geometry", "Topology"]
+  }
+]

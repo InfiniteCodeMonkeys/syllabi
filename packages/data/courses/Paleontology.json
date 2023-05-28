@@ -1,0 +1,96 @@
+[
+  {
+    "name": "Introductory Biology",
+    "description": "This course introduces students to the principles of biology. Students will learn about the scientific method, the structure and function of cells, the structure and function of DNA, the structure and function of proteins, the structure and function of organelles, the structure and function of tissues, the structure and function of organs, the structure and function of organ systems, the structure and function of organisms, the structure and function of populations, the structure and function of communities, the structure and function of ecosystems, the structure and function of the biosphere, the structure and function of the earth, the structure and function of the solar system, the structure and function of the galaxy, the structure and function of the universe, the structure and function of time, the structure and function of space, the structure and function of matter, the structure and function of energy, the structure and function of life, and the structure and function of death.",
+    "prerequisites": []
+  },
+  {
+    "name": "Evolutionary Biology",
+    "description": "This course introduces students to the principles of evolutionary biology. Students will learn about patterns and processes of evolution, the origin and diversification of species, and the interactions between organisms and their environment.",
+    "prerequisites": ["Introductory Biology"]
+  },
+  {
+    "name": "Geology",
+    "description": "This course introduces students to the principles of geology. Students will learn about the structure and composition of the earth, plate tectonics, and the processes that shape the earth's surface.",
+    "prerequisites": ["Introductory Biology"]
+  },
+  [
+    {
+      "name": "Invertebrate Paleontology",
+      "description": "This course introduces students to the principles of invertebrate paleontology. Students will learn about the evolution of invertebrates, with an emphasis on the fossil record.",
+      "prerequisites": ["Introductory Biology", "Evolutionary Biology", "Geology"]
+    },
+    {
+      "name": "Vertebrate Paleontology",
+      "description": "This course introduces students to the principles of vertebrate paleontology. Students will learn about the evolution of vertebrates, with an emphasis on the fossil record.",
+      "prerequisites": ["Introductory Biology", "Evolutionary Biology", "Geology"]
+    }
+  ],
+  {
+    "name": "Paleobotany",
+    "description": "This course introduces students to the principles of paleobotany. Students will learn about the evolution of plant life through time, with an emphasis on the fossil record.",
+    "prerequisites": ["Introductory Biology", "Evolutionary Biology", "Geology"]
+  },
+  {
+    "name": "Paleoecology",
+    "description": "This course introduces students to the principles of paleoecology. Students will learn about how ecosystems have changed through time, with an emphasis on the fossil record.",
+    "prerequisites": ["Introductory Biology", "Evolutionary Biology", "Geology"]
+  },
+  [
+    {
+      "name": "Biostatistics",
+      "description": "This course introduces students to the principles of statistical analysis in biology. Students will learn about probability theory, hypothesis testing, and experimental design.",
+      "prerequisites": ["Introductory Biology"]
+    },
+    {
+      "name": "Quantitative Methods in Paleontology",
+      "description": "This course introduces students to quantitative methods used in paleontology. Students will learn about statistical analysis of morphological data.",
+      "prerequisites": ["Introductory Biology", "Invertebrate Paleontology", "Vertebrate Paleontology"]
+    }
+  ]
+][
+  {
+    "name": "Introduction to Earth Science",
+    "description": "This course introduces students to the principles of Earth Science. Students will learn about topics like plate tectonics, rock formations, natural resource extraction, and the history of the Earth.",
+    "prerequisites": []
+  },
+  [
+    {
+      "name": "Physical Geology",
+      "description": "This course focuses on the study of the physical features of the Earth, including its rocks, minerals, and landforms. Students will learn about the structure of the Earth, how it has changed over time, and the different geological processes that shape the planet.",
+      "prerequisites": ["Introduction to Earth Science"]
+    },
+    {
+      "name": "Historical Geology",
+      "description": "This course explores the history of the Earth and the life that has existed on it. Students will learn about evolution, fossils, and the geological time scale, as well as the impact of major geological events on the planet and its inhabitants.",
+      "prerequisites": ["Introduction to Earth Science"]
+    }
+  ],
+  {
+    "name": "Mineralogy and Petrology",
+    "description": "This course focuses on the study of minerals and rocks, including how they are formed and the various processes that can affect them. Students will learn about different types of minerals, their chemical and physical properties, and how they are used in industry and technology.",
+    "prerequisites": ["Physical Geology"]
+  },
+  {
+    "name": "Sedimentology and Stratigraphy",
+    "description": "This course explores the processes that shape sedimentary rocks and the principles of stratigraphy. Students will learn about the formation of sedimentary rocks, the environments in which they are formed, and how they can be used to infer past climates and environments on Earth.",
+    "prerequisites": ["Historical Geology"]
+  },
+  [
+    {
+      "name": "Paleontology",
+      "description": "This course focuses specifically on the study of fossils, including how they are formed, how they can be used to infer past environments and life forms, and how they are used in the search for natural resources.",
+      "prerequisites": ["Historical Geology"]
+    },
+    {
+      "name": "Invertebrate Paleontology",
+      "description": "This course explores the evolution and biology of invertebrate life forms throughout Earth's history. Students will learn about the major groups of invertebrates that have existed, their anatomy and physiology, and how they have adapted to different environments over time.",
+      "prerequisites": ["Paleontology"]
+    }
+  ],
+  {
+    "name": "Vertebrate Paleontology",
+    "description": "This course specifically focuses on the evolution and biology of vertebrate life forms throughout Earth's history. Students will learn about the major groups of vertebrates that have existed, their anatomy and physiology, and how they have adapted to different environments over time.",
+    "prerequisites": ["Paleontology"]
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "name": "General Chemistry I",
+    "description": "This course introduces students to the principles of chemistry. Students will learn about atomic structure and bonding, stoichiometry and chemical reactions, gases, thermochemistry, and quantum mechanics.",
+    "prerequisites": []
+  },
+  {
+    "name": "General Chemistry II",
+    "description": "This course continues the study of the principles of chemistry. Students will learn about liquids and solids, solutions, acids and bases, chemical equilibrium, thermodynamics, kinetics, electrochemistry, and nuclear chemistry.",
+    "prerequisites": ["General Chemistry I"]
+  },
+  [
+    {
+      "name": "Organic Chemistry I",
+      "description": "This course introduces students to the principles of organic chemistry. Students will learn about the structure and reactivity of organic molecules, including nomenclature, stereochemistry, and functional groups.",
+      "prerequisites": ["General Chemistry II"]
+    },
+    {
+      "name": "Physical Chemistry I",
+      "description": "This course introduces students to the principles of physical chemistry. Students will learn about thermodynamics, kinetics, quantum mechanics, and spectroscopy.",
+      "prerequisites": ["General Chemistry II"]
+    }
+  ],
+  {
+    "name": "Organic Chemistry II",
+    "description": "This course continues the study of the principles of organic chemistry. Students will learn about mechanisms, reactions, synthesis, and spectroscopy.",
+    "prerequisites": ["Organic Chemistry I"]
+  },
+  [
+    {
+      "name": "Physical Chemistry II",
+      "description": "This course continues the study of the principles of physical chemistry. Students will learn about statistical mechanics, thermodynamics, quantum mechanics, and spectroscopy.",
+      "prerequisites": ["Physical Chemistry I"]
+    },
+    {
+      "name": "Analytical Chemistry",
+      "description": "This course introduces students to the principles of analytical chemistry. Students will learn about chemical analysis methods, including chromatography, spectroscopy, and electrochemistry.",
+      "prerequisites": ["General Chemistry II"]
+    }
+  ],
+  {
+    "name": "Inorganic Chemistry",
+    "description": "This course introduces students to the principles of inorganic chemistry. Students will learn about the electronic structure of atoms, chemical bonding in inorganic compounds, coordination chemistry, and solid state chemistry.",
+    "prerequisites": ["General Chemistry II"]
+  },
+  {
+    "name": "Advanced Organic Chemistry",
+    "description": "This course provides an in-depth exploration of the principles of organic chemistry. Students will study advanced topics such as pericyclic reactions, organometallic chemistry, and natural product synthesis.",
+    "prerequisites": ["Organic Chemistry II"]
+  }
+]

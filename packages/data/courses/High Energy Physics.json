@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Classical Mechanics",
+    "description": "This course introduces students to the principles of classical mechanics, including kinematics, forces, work, energy, motion of systems of particles, collisions, rotational motion, and fluid mechanics.",
+    "prerequisites": []
+  },
+  {
+    "name": "Electromagnetism",
+    "description": "This course introduces students to the principles of electromagnetism, such as electric and magnetic fields, electric potential, Gauss's Law, Ampere's Law, Faraday's Law, Lenz's Law, Maxwell's equations, and electromagnetic waves.",
+    "prerequisites": ["Classical Mechanics"]
+  },
+  {
+    "name": "Quantum Mechanics",
+    "description": "This course introduces students to the principles of quantum mechanics, such as wave-particle duality, Schrödinger equation, uncertainty principle, quantum states and operators, angular momentum, hydrogen atom, and quantum mechanics of systems with identical particles.",
+    "prerequisites": ["Classical Mechanics"]
+  },
+  {
+    "name": "Thermodynamics and Statistical Mechanics",
+    "description": "This course introduces students to the principles of thermodynamics and statistical mechanics, including laws of thermodynamics, thermodynamic potentials, heat engines, ideal gases, kinetic theory of gases, Maxwell-Boltzmann distribution, and statistical thermodynamics.",
+    "prerequisites": ["Classical Mechanics"]
+  },
+  [
+    {
+      "name": "Special Relativity",
+      "description": "This course introduces students to the principles of special relativity, including Lorentz transformations, time dilation, length contraction, relativistic energy and momentum, and relativistic mechanics.",
+      "prerequisites": []
+    },
+    {
+      "name": "General Relativity",
+      "description": "This course introduces students to the principles of general relativity, such as equivalence principle, curvature of spacetime, geodesics, black holes, and cosmology.",
+      "prerequisites": ["Special Relativity"]
+    }
+  ],
+  [
+    {
+      "name": "Nuclear Physics",
+      "description": "This course introduces students to the principles of nuclear physics, including nuclear structure, radioactive decay, nuclear reactions, and nuclear astrophysics.",
+      "prerequisites": ["Quantum Mechanics", "Thermodynamics and Statistical Mechanics"]
+    },
+    {
+      "name": "Particle Physics",
+      "description": "This course introduces students to the principles of particle physics, including elementary particles, the standard model, and particle interactions.",
+      "prerequisites": ["Quantum Mechanics", "Electromagnetism"]
+    }
+  ],
+  {
+    "name": "High Energy Physics",
+    "description": "This course introduces students to the principles of high energy physics, including experimental techniques, accelerator physics, and particle detectors, as well as current research and open questions in the field.",
+    "prerequisites": ["Nuclear Physics", "Particle Physics"]
+  }
+]

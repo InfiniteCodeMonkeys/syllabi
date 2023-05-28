@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Calculus I",
+    "description": "This course covers differential calculus, including limits, continuity, derivatives, and their applications.",
+    "prerequisites": []
+  },
+  {
+    "name": "Calculus II",
+    "description": "This course covers integral calculus, including techniques of integration, applications of integration, sequences and series, and power series.",
+    "prerequisites": ["Calculus I"]
+  },
+  {
+    "name": "Discrete Mathematics",
+    "description": "This course covers various topics in discrete mathematics, including sets, functions, relations, combinatorics, graph theory, and number theory.",
+    "prerequisites": ["Calculus I"]
+  },
+  [
+    {
+      "name": "Linear Algebra",
+      "description": "This course covers the algebra of linear equations, matrices, determinants, vector spaces, linear transformations, and eigenvectors and eigenvalues.",
+      "prerequisites": ["Calculus II"]
+    },
+    {
+      "name": "Number Theory",
+      "description": "This course covers the properties of integers, including divisibility, primes, congruences, Diophantine equations, and quadratic residues.",
+      "prerequisites": ["Discrete Mathematics"]
+    }
+  ],
+  {
+    "name": "Abstract Algebra",
+    "description": "This course covers the basic algebraic structures, including groups, rings, and fields, as well as some more advanced topics.",
+    "prerequisites": ["Linear Algebra", "Number Theory"]
+  },
+  {
+    "name": "Algebraic Number Theory",
+    "description": "This course covers the theory of algebraic number fields, including the rings of integers in these fields, the ideal theory of these rings, and the arithmetic of algebraic number fields.",
+    "prerequisites": ["Abstract Algebra"]
+  },
+  {
+    "name": "Analytic Number Theory",
+    "description": "This course covers the application of analytic methods to problems in number theory, including the prime number theorem, the Riemann zeta function, and Dirichlet L-functions.",
+    "prerequisites": ["Calculus II", "Abstract Algebra"]
+  }
+]

@@ -1,0 +1,63 @@
+[
+    {
+        "name": "Introductory Astronomy",
+        "description": "This course introduces students to the science of Astronomy. Students will learn about the history of Astronomy, the physics of light and telescopes, the properties and evolution of stars, the properties and dynamics of the solar system, the properties and evolution of galaxies and the universe, and the search for life beyond Earth.",
+        "prerequisites": []
+    },
+    {
+        "name": "Calculus",
+        "description": "This course introduces students to the concepts and techniques of calculus. Topics include limits and continuity, differentiation, the chain rule, optimization, integration, and the Fundamental Theorem of Calculus.",
+        "prerequisites": []
+    },
+    [
+        {
+            "name": "Physics I",
+            "description": "This course introduces students to the principles of physics. Topics include mechanics, kinematics, forces, energy, and motion.",
+            "prerequisites": ["Calculus"]
+        },
+        {
+            "name": "Introduction to Geology",
+            "description": "This course introduces students to the principles of geology. Topics include the structure and composition of Earth, the processes that shape the surface of Earth, the nature and origin of minerals and rocks, and the evolution of the Earth's crust and mantle.",
+            "prerequisites": ["Introductory Astronomy"]
+        }
+    ],
+    [
+        {
+            "name": "Physics II",
+            "description": "This course introduces students to the principles of physics. Topics include thermodynamics, electricity and magnetism, waves, and optics.",
+            "prerequisites": ["Physics I", "Calculus"]
+        },
+        {
+            "name": "Introduction to Planetary Science",
+            "description": "This course introduces students to the study of the solar system. Topics include the structure and formation of planets, moons, and asteroids, the dynamics of solar system bodies, the nature and origin of planetary surfaces, the search for life beyond Earth, and the exploration and observation of the solar system.",
+            "prerequisites": ["Introductory Astronomy"]
+        }
+    ],
+    {
+        "name": "Planetary Atmospheres",
+        "description": "This course focuses on the study of the atmospheres of planets and moons in the solar system. Topics include atmospheric structure and composition, atmospheric dynamics and circulation patterns, atmospheric energy transport, and the influence of atmospheric processes on climate and weather.",
+        "prerequisites": ["Physics II", "Introduction to Planetary Science"]
+    },
+    [
+        {
+            "name": "Astrophysics",
+            "description": "This course introduces students to the principles of astrophysics. Topics include the properties and evolution of stars, the formation and structure of galaxies, dark matter and dark energy, and other advanced topics.",
+            "prerequisites": ["Physics II", "Calculus", "Introductory Astronomy"]
+        },
+        {
+            "name": "Introduction to Astrobiology",
+            "description": "This course introduces students to the study of life in the universe. Topics include the properties and distribution of life on Earth, the possibility of life beyond Earth, the search for habitable environments in the solar system and beyond, and the scientific and ethical implications of the discovery of extraterrestrial life.",
+            "prerequisites": ["Introductory Astronomy"]
+        }
+    ],
+    {
+        "name": "Planetary Surfaces and Interiors",
+        "description": "This course focuses on the study of the surfaces and interiors of planets and moons in the solar system. Topics include the structure and composition of planetary bodies, the processes that shape planetary surfaces, the nature and origin of geological features such as mountains, valleys, and canyons, and the exploration and observation of planetary surfaces and interiors.",
+        "prerequisites": ["Physics II", "Introduction to Planetary Science"]
+    },
+    {
+        "name": "Advanced Topics in Planetary Science",
+        "description": "This course covers advanced topics in planetary science. Topics vary by instructor and may include the study of exoplanets, impact cratering, planetary magnetospheres, or other specialized topics.",
+        "prerequisites": ["Physics II", "Introduction to Planetary Science", "Planetary Atmospheres", "Planetary Surfaces and Interiors"]
+    }
+]

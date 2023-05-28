@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Introductory Astronomy",
+    "description": "This course provides an overview of astronomy and introduces key astronomical concepts, principles, and methods. Students can expect to learn about the history of astronomy, the solar system, stars and galaxies, telescopes and instrumentation, and observational techniques and methods.",
+    "prerequisites": []
+  },
+  {
+    "name": "Observational Techniques",
+    "description": "This course teaches students the fundamental observational techniques used in observational astronomy. Students will learn about data acquisition, reduction and analysis techniques, and image processing. Topics covered will include CCD imaging, photometry, spectroscopy, time series analysis, and data reduction with IRAF.",
+    "prerequisites": ["Introductory Astronomy"]
+  },
+  {
+    "name": "Stellar Astronomy",
+    "description": "This course focuses on the study of stars, including their formation, structure, and evolution. Topics covered will include the Hertzsprung-Russell diagram, stellar atmospheres, nucleosynthesis, and the life cycle of stars.",
+    "prerequisites": ["Introductory Astronomy"]
+  },
+  {
+    "name": "Galactic Astronomy",
+    "description": "This course teaches students about the structure and evolution of galaxies. Students will learn about the Milky Way and nearby galaxies, including their classification, morphology, kinematics, and dynamics. Topics covered will also include dark matter, black holes, and galaxy formation and evolution.",
+    "prerequisites": ["Introductory Astronomy"]
+  },
+  {
+    "name": "Cosmology",
+    "description": "This course introduces students to the study of the universe on its largest scales. Students will learn about the origins and history of the universe, its large-scale structure, and its evolution. Topics covered will include the Big Bang, cosmic microwave background radiation, dark matter, dark energy, and the search for extraterrestrial life.",
+    "prerequisites": ["Introductory Astronomy"]
+  }
+]

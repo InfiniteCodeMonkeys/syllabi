@@ -1,0 +1,39 @@
+[
+  {
+    "name": "Introduction to Earth Science",
+    "description": "This course provides a broad overview of the major fields of Earth Science, including geology, oceanography, meteorology, and astronomy. Students will learn about the earth's composition, structure, and history, as well as the interactions between the atmosphere, hydrosphere, biosphere, and lithosphere. Specific topics covered will include plate tectonics, earth materials, weathering and erosion, ocean currents, climate patterns, and the solar system.",
+    "prerequisites": []
+  },
+  {
+    "name": "Physical Geology",
+    "description": "This course introduces students to the principles of physical geology. Students will learn about earth materials, plate tectonics, earthquakes, volcanoes, and the rock cycle. Specific topics covered will include mineralogy, petrology, structural geology, and geological time.",
+    "prerequisites": ["Introduction to Earth Science"] 
+  },
+  {
+    "name": "Meteorology",
+    "description": "This course covers the physical principles governing the earth's atmosphere, including atmospheric composition and structure, radiation, temperature, humidity, air pressure, winds, storms, and climate. The course includes an introduction to observational and modeling techniques used to study and predict weather and climate.",
+    "prerequisites": ["Introduction to Earth Science", "Physical Geology"] 
+  },
+  {
+    "name": "Atmospheric Dynamics",
+    "description": "This course builds on the principles covered in introductory meteorology and provides a more in-depth exploration of atmospheric dynamics. Topics covered may include the equations governing atmospheric motion, large-scale circulation patterns, atmospheric waves, and the interaction between the atmosphere and the oceans.",
+    "prerequisites": ["Introduction to Earth Science", "Physical Geology", "Meteorology"] 
+  },
+  [
+    {
+    "name": "Synoptic Meteorology",
+    "description": "This course focuses on weather forecasting using synoptic meteorology techniques. Topics covered may include pressure systems, fronts, mid-latitude cyclones, severe weather, and forecasting methods.",
+    "prerequisites": ["Introduction to Earth Science", "Physical Geology", "Meteorology"]
+  },
+    {
+    "name": "Climatology",
+    "description": "This course provides an in-depth exploration of the earth's climate system, including the factors that drive climate variability and change over long time scales. Topics covered may include the greenhouse effect, the carbon cycle, ice ages, climate modeling, and the impacts of climate change on ecosystems and society.",
+    "prerequisites": ["Introduction to Earth Science", "Physical Geology", "Meteorology"]
+   }
+  ],
+  {
+    "name": "Remote Sensing and GIS",
+    "description": "This course provides an introduction to remote sensing techniques and geospatial information systems (GIS). Students will learn how to collect, analyze, and interpret data using a variety of sensing platforms and tools. Applications to meteorology and other earth science fields will be explored.",
+    "prerequisites": ["Introduction to Earth Science", "Physical Geology", "Meteorology"] 
+  }
+]

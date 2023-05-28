@@ -1,0 +1,73 @@
+[
+  {
+    "name": "Introduction to Programming",
+    "description": "This course introduces students to the concepts of programming. Students will learn how to write simple programs using an iterative process, conditional statements, and functions."
+    "prerequisites": []
+  },
+  {
+    "name": "Data Structures and Algorithms",
+    "description": "This course introduces students to the fundamental techniques for designing and analyzing algorithms. Students will learn about common data structures, sorting and searching algorithms, and graph algorithms."
+    "prerequisites": ["Introduction to Programming"]
+  },
+  {
+    "name": "Digital Logic and Computer Architecture",
+    "description": "This course introduces students to the principles of digital logic design and computer architecture. Students will learn about combinational and sequential logic circuits, CPU architecture, memory hierarchy, and input/output."
+    "prerequisites": ["Data Structures and Algorithms"]
+  },
+  {
+    "name": "Operating Systems",
+    "description": "This course introduces students to the principles of operating systems. Students will learn about process management, memory management, file systems, and virtualization."
+    "prerequisites": ["Data Structures and Algorithms"]
+  },
+  [
+    {
+      "name": "Computer Networks",
+      "description": "This course introduces students to the principles of computer networks. Students will learn about the TCP/IP protocol stack, network architecture, routing, congestion control, and security."
+      "prerequisites": ["Data Structures and Algorithms"]
+    },
+    {
+      "name": "Databases",
+      "description": "This course introduces students to the principles of databases. Students will learn about relational database design, SQL, transaction management, and indexing."
+      "prerequisites": ["Data Structures and Algorithms"]
+    }
+  ],
+  {
+    "name": "Programming Languages",
+    "description": "This course introduces students to the principles of programming language design and implementation. Students will learn about syntax and semantics, scoping and binding, type systems, and program optimization."
+    "prerequisites": ["Data Structures and Algorithms"]
+  },
+  [
+    {
+      "name": "Computer Graphics",
+      "description": "This course introduces students to the principles of computer graphics. Students will learn about the 2D and 3D graphics pipeline, transformations, rasterization, shading, and texturing."
+      "prerequisites": ["Data Structures and Algorithms", "Digital Logic and Computer Architecture"]
+    },
+    {
+      "name": "Artificial Intelligence",
+      "description": "This course introduces students to the principles of artificial intelligence. Students will learn about search algorithms, knowledge representation, machine learning, and natural language processing."
+      "prerequisites": ["Data Structures and Algorithms"]
+    }
+  ],
+  {
+    "name": "Software Engineering",
+    "description": "This course introduces students to the principles of software engineering. Students will learn about software design patterns, program testing, version control, and project management."
+    "prerequisites": ["Data Structures and Algorithms"]
+  },
+  [
+    {
+      "name": "Embedded Systems",
+      "description": "This course introduces students to the principles of embedded systems. Students will learn about microcontrollers, sensors and actuators, real-time operating systems, and embedded system design."
+      "prerequisites": ["Digital Logic and Computer Architecture"]
+    },
+    {
+      "name": "Computer Security",
+      "description": "This course introduces students to the principles of computer security. Students will learn about cryptography, access control, network security, and software security."
+      "prerequisites": ["Operating Systems"]
+    }
+  ],
+  {
+    "name": "Computer Vision",
+    "description": "This course introduces students to the principles of computer vision. Students will learn about image processing, pattern recognition, object recognition, and computer vision applications."
+    "prerequisites": ["Programming Languages", "Computer Graphics"]
+  }
+]

@@ -1,0 +1,65 @@
+[
+    {
+      "name": "Calculus I",
+      "description": "This course introduces students to the principles of calculus. Students will learn about limits, derivatives, integrals, functions, and applications.",
+      "prerequisites": []
+    },
+
+    {
+      "name": "Calculus II",
+      "description": "This course is a continuation of Calculus I, introducing more advanced topics like techniques of integration, further applications of the integral, series, and Taylor series.",
+      "prerequisites": ["Calculus I"]
+    },
+
+    [
+        {
+          "name": "Linear Algebra",
+          "description": "This course introduces students to the principles of linear algebra. Students will learn about vectors, vector spaces, linear transformations, matrices, determinants, eigenvalues, and eigenvectors.",
+          "prerequisites": ["Calculus I"]
+        },
+        {
+          "name": "Differential Equations",
+          "description": "This course introduces students to the principles of differential equations. Students will learn about first order differential equations, second and higher order linear differential equations, systems of differential equations, and Laplace transforms.",
+          "prerequisites": ["Calculus II"]
+        }
+    ],
+
+    [
+        {
+          "name": "Real Analysis I",
+          "description": "This course introduces students to the principles of real analysis, including set theory, sequences, limits, continuity, derivatives, and integrals.",
+          "prerequisites": ["Calculus II", "Linear Algebra"]
+        },
+        {
+          "name": "Abstract Algebra I",
+          "description": "This course introduces students to the principles of abstract algebra. Students will learn about groups, rings, fields, and Galois theory.",
+          "prerequisites": ["Calculus II", "Linear Algebra"]
+        }
+    ],
+
+    [
+        {
+          "name": "Real Analysis II",
+          "description": "This course is a continuation of Real Analysis I, introducing more advanced topics like series and sequences, convergence, continuity, derivatives, and integrals in multiple dimensions.",
+          "prerequisites": ["Real Analysis I"]
+        },
+        {
+          "name": "Toplogy I",
+          "description": "This course introduces students to the principles of topology. Students will learn about metric spaces, continuity, connectedness, compactness, and separability.",
+          "prerequisites": ["Real Analysis I"]
+        }
+
+    ],
+    [
+        {
+          "name": "Functional Analysis",
+          "description": "This course introduces students to the principles of functional analysis, including normed spaces, inner product spaces, Hilbert spaces, Banach spaces, and operators on these spaces.",
+          "prerequisites": ["Real Analysis II"]
+        },
+        {
+          "name": "Toplogy II",
+          "description": "This course is a continuation of Topology I, introducing more advanced topics like homotopy, homology, and cohomology",
+          "prerequisites": ["Topology I"]
+        }
+    ]
+]

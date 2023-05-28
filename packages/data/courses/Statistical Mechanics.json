@@ -1,0 +1,44 @@
+[
+  { 
+    "name": "Classical Mechanics",
+    "description": "This course introduces students to the principles of classical mechanics, including the laws of motion, forces, energy, and momentum. Students will learn how to solve problems in classical mechanics using mathematical techniques such as calculus and differential equations.",
+    "prerequisites": []
+  }, 
+  {
+    "name": "Electricity and Magnetism",
+    "description": "This course introduces students to the principles of electricity and magnetism, including static and dynamic electric and magnetic fields, circuits, and electromagnetic waves. Students will learn how to solve problems in electricity and magnetism using mathematical techniques such as vector calculus and basic differential equations.",
+    "prerequisites": ["Classical Mechanics"]
+  },
+  {
+    "name": "Quantum Mechanics",
+    "description": "This course introduces students to the principles of quantum mechanics, including wave-particle duality, uncertainty, and tunneling. Students will learn how to solve problems in quantum mechanics using mathematical techniques such as linear algebra and differential equations.",
+    "prerequisites": ["Classical Mechanics"]
+  },
+  {
+    "name": "Thermodynamics",
+    "description": "This course introduces students to the principles of thermodynamics, including the laws of thermodynamics, the behavior of gases, heat engines, and entropy. Students will learn how to solve problems in thermodynamics using mathematical techniques such as calculus and differential equations.",
+    "prerequisites": ["Classical Mechanics"]
+  },
+  [
+    {
+      "name": "Statistical Mechanics",
+      "description": "This course introduces students to the principles of statistical mechanics, including the canonical and grand canonical ensembles, phase transitions, and critical phenomena. Students will learn how to solve problems in statistical mechanics using mathematical techniques such as probability theory and calculus.",
+      "prerequisites": ["Thermodynamics", "Quantum Mechanics"]
+    },
+    {
+      "name": "Condensed Matter Physics",
+      "description": "This course introduces students to the principles of condensed matter physics, including crystal structure, band theory, and superconductivity. Students will learn how to solve problems in condensed matter physics using mathematical techniques such as solid state physics and quantum mechanics.",
+      "prerequisites": ["Thermodynamics", "Electricity and Magnetism"]
+    },
+  ],
+  {
+    "name": "Advanced Topics in Statistical Mechanics",
+    "description": "This course covers advanced topics in statistical mechanics, including non-equilibrium statistical mechanics and quantum statistical mechanics. Students will learn how to solve problems in advanced statistical mechanics using mathematical techniques such as quantum statistical mechanics and the theory of open systems.",
+    "prerequisites": ["Statistical Mechanics", "Quantum Mechanics"]
+  },
+  {
+    "name": "Advanced Topics in Condensed Matter Physics",
+    "description": "This course covers advanced topics in condensed matter physics, including topological phases of matter and strongly correlated electron systems. Students will learn how to solve problems in advanced condensed matter physics using mathematical techniques such as gauge theory and the Hubbard model.",
+    "prerequisites": ["Condensed Matter Physics"]
+  }
+]

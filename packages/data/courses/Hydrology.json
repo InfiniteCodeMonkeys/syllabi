@@ -1,0 +1,49 @@
+[
+  {
+    "name": "Introduction to Earth Science",
+    "description": "This course introduces students to the basics of earth science. Students will explore topics like geology, oceanography, meteorology, and hydrology. They will learn about the structure and composition of the earth, how it has changed over time, and the processes that govern it. They will also learn about the importance of earth science for understanding environmental issues and making policy decisions.",
+    "prerequisites": []
+  },
+  {
+    "name": "Physical Geology",
+    "description": "This course focuses on the physical processes that shape the earth. Students will learn about plate tectonics, earthquakes, volcanoes, and the rock cycle. They will also study the properties of minerals and rocks, and how they are formed and transformed by these processes.",
+    "prerequisites": ["Introduction to Earth Science"]
+  },
+  {
+    "name": "Introduction to Hydrology",
+    "description": "This course introduces students to the science of water. They will learn about the properties of water, how it moves within the water cycle, and its role in shaping the landscape. They will also study the surface and subsurface hydrological processes that control water availability and quality, including evaporation, infiltration, runoff, groundwater flow, and streamflow.",
+    "prerequisites": ["Introduction to Earth Science"]
+  },
+  {
+    "name": "Geochemistry",
+    "description": "This course introduces students to the chemistry of the earth. They will learn about the composition of rocks, minerals, and soils, and how chemical reactions and biogeochemical cycles control the distribution of elements and isotopes on the planet. They will also study the applications of geochemistry to environmental issues, such as pollution, climate change, and resource management.",
+    "prerequisites": ["Physical Geology"]
+  },
+  [
+    {
+      "name": "Groundwater Hydrology",
+      "description": "This course focuses on groundwater, the water that fills the spaces between soil particles and rock fractures beneath the earth's surface. Students will learn about the hydrogeologic cycle, aquifer properties, flow equations, well hydraulics, and groundwater modeling. They will also study the applications of groundwater hydrology to water supply, contamination, and management.",
+      "prerequisites": ["Introduction to Hydrology", "Geochemistry"]
+    },
+    {
+      "name": "Surface Water Hydrology",
+      "description": "This course focuses on surface water, the water that flows on the earth's surface in streams, rivers, lakes, and oceans. Students will learn about the hydrologic cycle, runoff generation, streamflow measurement, flood frequency analysis, and watershed management. They will also study the interactions between surface water and groundwater, and the role of surface water in ecosystem health and climate change.",
+      "prerequisites": ["Introduction to Hydrology", "Physical Geology"]
+    }
+  ],
+  {
+    "name": "Hydrologic Modeling",
+    "description": "This course teaches students how to use computer models to simulate hydrological processes and predict water availability and quality under different scenarios. They will learn about the theory and practice of hydrologic modeling, including data collection and preprocessing, model selection and calibration, uncertainty analysis, and model applications to water resources planning and management.",
+    "prerequisites": ["Groundwater Hydrology", "Surface Water Hydrology"]
+  },
+  {
+    "name": "Environmental Hydrology",
+    "description": "This course examines how hydrology interacts with other physical and biogeochemical processes to shape the natural environment and influence human activities. Students will learn about topics such as water quality, water scarcity, water-related hazards, and water policy and law. They will also study case studies of environmental hydrology problems, such as acid mine drainage, urbanization, drought, and climate change.",
+    "prerequisites": ["Hydrologic Modeling"]
+  },
+  {
+    "name": "Independent Research in Hydrology",
+    "description": "This course gives students an opportunity to conduct independent research in hydrology under the guidance of a faculty mentor. They will develop research questions, design and execute experiments or simulations, analyze and interpret data, and communicate their findings through oral and written presentations. They will also learn about the ethical and professional aspects of scientific research.",
+    "prerequisites": ["Environmental Hydrology"]
+  }
+]

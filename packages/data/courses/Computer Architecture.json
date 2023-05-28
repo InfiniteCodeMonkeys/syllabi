@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Introduction to Computer Science",
+    "description": "This course introduces students to the fundamentals of computer science. Topics include algorithms, data structures, programming languages, software engineering, and computer architecture.",
+    "prerequisites": []
+  },
+  {
+    "name": "Computer Organization and Design",
+    "description": "This course covers the design and implementation of computer systems, including the instruction set architecture, data path, control unit, memory hierarchy, bus architecture, and I/O systems.",
+    "prerequisites": ["Introduction to Computer Science"]
+  },
+  {
+    "name": "Operating Systems",
+    "description": "This course covers the design and implementation of operating systems, including process management, memory management, file systems, device drivers, and security issues.",
+    "prerequisites": ["Computer Organization and Design"]
+  },
+  [
+    {
+      "name": "Data Structures and Algorithms",
+      "description": "This course covers the design and analysis of data structures and algorithms, including graphs, trees, sorting, searching, and hashing.",
+      "prerequisites": ["Introduction to Computer Science"]
+    },
+    {
+      "name": "Computer Networks",
+      "description": "This course covers the fundamentals of computer networks, including network architectures, protocols, network programming, network security, and the Internet.",
+      "prerequisites": ["Computer Organization and Design"]
+    }
+  ],
+  {
+    "name": "Programming Languages",
+    "description": "This course covers the principles of programming language design and implementation, including syntax, semantics, parsing, type systems, and program optimization.",
+    "prerequisites": ["Data Structures and Algorithms"]
+  },
+  {
+    "name": "Advanced Computer Architecture",
+    "description": "This course covers advanced computer architecture topics, including parallel processing, vector processing, multiprocessors, cache coherence, and memory consistency.",
+    "prerequisites": ["Computer Organization and Design"]
+  },
+  {
+    "name": "Embedded Systems",
+    "description": "This course covers the design and implementation of embedded systems, including hardware, software, real-time operating systems, and system-on-a-chip (SoC) design.",
+    "prerequisites": ["Operating Systems", "Advanced Computer Architecture"]
+  }
+]

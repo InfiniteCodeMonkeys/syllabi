@@ -1,0 +1,53 @@
+[
+  {
+    "name": "Classical Mechanics",
+    "description": "This course introduces students to the principles of classical mechanics. Students will learn about Newtonian mechanics, Lagrangian mechanics, Eulerian mechanics, gravitation, oscillations, waves, energy and momentum conservation, and rotational motion.",
+    "prerequisites": []
+  },
+  [
+    {
+    "name": "Thermodynamics",
+    "description": "This course introduces students to the principles of thermodynamics. Students will learn about the laws of thermodynamics, thermodynamic properties of matter, entropy, energy, work, heat, and the behavior of thermal systems.",
+    "prerequisites": ["Classical Mechanics"]
+    },
+    {
+      "name": "Mathematical Methods for Physicists",
+      "description": "This course introduces students to the mathematical methods used in physics. Students will learn about linear algebra, calculus of several variables, vector analysis, tensors, differential equations, complex analysis, and Fourier analysis.",
+      "prerequisites": ["Classical Mechanics"]
+    }
+  ],
+  {
+    "name": "Electricity and Magnetism",
+    "description": "This course introduces students to the principles of electricity and magnetism. Students will learn about electric charge and electric field, electric potential, Gauss’s law, electric current and resistance, DC and AC circuits, magnetism, and electromagnetic waves.",
+    "prerequisites": ["Classical Mechanics", "Mathematical Methods for Physicists"]
+  },
+  [
+    {
+      "name": "Quantum Mechanics",
+      "description": "This course introduces students to the principles of quantum mechanics. Students will learn about wave-particle duality, quantum states, quantum measurements, operators, commutators, time evolution, and quantum mechanics of simple systems.",
+      "prerequisites": ["Classical Mechanics", "Electricity and Magnetism", "Mathematical Methods for Physicists"]
+    },
+    {
+      "name": "Atomic Physics",
+      "description": "This course introduces students to the principles of atomic physics. Students will learn about the hydrogen atom, angular momentum, spin, the fine structure, the hyperfine structure, the Zeeman effect, atomic spectra, and atomic transitions.",
+      "prerequisites": ["Classical Mechanics", "Electricity and Magnetism", "Mathematical Methods for Physicists"]
+    }
+  ],
+  {
+    "name": "Nuclear Physics",
+    "description": "This course introduces students to the principles of nuclear physics. Students will learn about nuclear structure, nuclear forces, binding energy, radioactive decay, nuclear reactions, and nuclear energy.",
+    "prerequisites": ["Classical Mechanics", "Electricity and Magnetism", "Quantum Mechanics", "Atomic Physics"]
+  },
+  [
+    {
+      "name": "Particle Physics",
+      "description": "This course introduces students to the principles of particle physics. Students will learn about the Standard Model of particle physics, symmetries, conservation laws, quantum field theory, and particle interactions.",
+      "prerequisites": ["Classical Mechanics", "Electricity and Magnetism", "Quantum Mechanics", "Atomic Physics", "Nuclear Physics"]
+    },
+    {
+      "name": "Cosmology",
+      "description": "This course introduces students to the principles of cosmology. Students will learn about the large-scale structure of the universe, the cosmic microwave background, dark matter, dark energy, and the history and fate of the universe.",
+      "prerequisites": ["Classical Mechanics", "Electricity and Magnetism", "Quantum Mechanics", "Atomic Physics", "Nuclear Physics"]
+    }
+  ]
+]

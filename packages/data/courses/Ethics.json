@@ -1,0 +1,39 @@
+[
+  {
+    "name": "Introduction to Philosophy",
+    "description": "This course introduces students to the major topics and methods of philosophical inquiry. Students will learn about the nature of reality, knowledge, ethics, and other key philosophical concepts through the study of influential thinkers and texts.",
+    "prerequisites": []
+  },
+  {
+    "name": "Ethics",
+    "description": "This course focuses on ethical theories and their applications to contemporary moral issues. Students will learn about different ethical frameworks and apply them to topics such as abortion, euthanasia, and social justice.",
+    "prerequisites": ["Introduction to Philosophy"]
+  },
+  {
+    "name": "Philosophy of Religion",
+    "description": "This course explores the major philosophical issues surrounding religion, including the existence of God, the nature of religious experience, and the relationship between faith and reason.",
+    "prerequisites": ["Introduction to Philosophy"]
+  },
+  [
+    {
+      "name": "Philosophy of Science",
+      "description": "This course examines the methodology and assumptions of scientific inquiry. Students will learn about the nature of scientific theories, the role of experimentation, and the relationship between science and other areas of human inquiry.",
+      "prerequisites": ["Introduction to Philosophy"]
+    },
+    {
+      "name": "History of Philosophy",
+      "description": "This course surveys the development of philosophical thought from the ancient Greeks to the present day. Students will learn about major figures and movements in philosophy and their contributions to our understanding of reality, knowledge, and morality.",
+      "prerequisites": ["Introduction to Philosophy"]
+    }
+  ],
+  {
+    "name": "Logic",
+    "description": "This course provides an introduction to deductive and inductive reasoning. Students will learn how to construct valid arguments and identify common fallacies.",
+    "prerequisites": ["Introduction to Philosophy"]
+  },
+  {
+    "name": "Aesthetics",
+    "description": "This course examines the nature of beauty, art, and taste. Students will learn about different theories of aesthetics and apply them to works of art from various cultures and time periods.",
+    "prerequisites": ["Introduction to Philosophy"]
+  }
+]

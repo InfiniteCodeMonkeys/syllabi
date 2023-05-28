@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Introductory Biology",
+    "description": "This course introduces students to the principles of biology. Students will learn about the scientific method, the structure and function of cells, the structure and function of organelles, the structure and function of tissues, the structure and function of organs, the structure and function of organ systems, the structure and function of organisms."
+    "prerequisites": []
+  },
+  {
+    "name": "Chemistry",
+    "description": "This course introduces students to the principles of chemistry. Students will learn about atomic structure, stoichiometry, solutions, gases, thermochemistry, acids and bases, nuclear chemistry, and organic chemistry.",
+    "prerequisites": ["Introductory Biology"]
+  },
+  {
+    "name": "Biochemistry",
+    "description": "This course introduces students to the principles of biochemistry. Students will learn about the structure and function of proteins, carbohydrates, enzymes, lipids, and nucleic acids.",
+    "prerequisites": ["Introductory Biology", "Chemistry"]
+  },
+  [
+    {
+      "name": "Human Anatomy",
+      "description": "This course introduces students to the structure and function of the human body. Students will learn about the skeletal system, the muscular system, the nervous system, the cardiovascular system, the respiratory system, the digestive system, the urinary system, and the reproductive system.",
+      "prerequisites": ["Introductory Biology", "Chemistry", "Biochemistry"]
+    },
+    {
+      "name": "Human Physiology",
+      "description": "This course introduces students to the study of human physiology. Students will learn about the physiology of the circulatory, digestive, endocrine, immune, integumentary, lymphatic, muscular, nervous, reproductive, respiratory, skeletal, and urinary systems.",
+      "prerequisites": ["Introductory Biology", "Chemistry", "Biochemistry"]
+    }
+  ],
+  {
+    "name": "Histology",
+    "description": "This course introduces students to the microscopic anatomy of tissues and cells. Students will examine different types of cells, tissues, and organs.",
+    "prerequisites": ["Introductory Biology", "Chemistry", "Biochemistry"]
+  },
+  {
+    "name": "Embryology",
+    "description": "This course introduces students to the development of organisms from fertilization to birth. Students will learn about the major stages of development and the formation and differentiation of tissues.",
+    "prerequisites": ["Introductory Biology", "Chemistry", "Biochemistry"]
+  },
+  {
+    "name": "Comparative Anatomy",
+    "description": "This course introduces students to the comparative anatomy of vertebrates and invertebrates. Students will learn about the homologous and analogous structures found in different species.",
+    "prerequisites": ["Introductory Biology", "Chemistry", "Biochemistry"]
+  }
+]

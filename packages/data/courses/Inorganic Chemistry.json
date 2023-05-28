@@ -1,0 +1,39 @@
+[
+  {
+    "name": "General Chemistry I",
+    "description": "This course provides a comprehensive study of the fundamental principles and laws of chemistry, including atomic structure, chemical bonding, stoichiometry, states of matter, solutions, acids and bases, and equilibrium.",
+    "prerequisites": []
+  },
+  {
+    "name": "General Chemistry II",
+    "description": "This course is a continuation of General Chemistry I and provides a comprehensive study of chemical thermodynamics, acid-base equilibrium, electrochemistry, quantum mechanics, and periodic properties.",
+    "prerequisites": ["General Chemistry I"]
+  },
+  {
+    "name": "Inorganic Chemistry",
+    "description": "This course is an introduction to inorganic chemistry, including chemical bonding, symmetry, molecular orbital theory, coordination chemistry, solid state chemistry, and descriptive chemistry of the elements.",
+    "prerequisites": ["General Chemistry II"]
+  },
+  {
+    "name": "Physical Chemistry I",
+    "description": "This course provides a comprehensive study of thermodynamics, including energy, work, heat, enthalpy, entropy, and free energy.",
+    "prerequisites": ["General Chemistry II"]
+  },
+  {
+    "name": "Instrumental Methods of Analysis",
+    "description": "This course is an introduction to the modern analytical techniques used in chemistry, including spectroscopy, chromatography, and electrochemistry.",
+    "prerequisites": ["General Chemistry II"]
+  },
+  [
+    {
+      "name": "Inorganic Synthesis",
+      "description": "This course is an introduction to the synthesis and manipulation of inorganic compounds, including organometallics and bioinorganic compounds.",
+      "prerequisites": ["Inorganic Chemistry"]
+    },
+    {
+      "name": "Physical Chemistry II",
+      "description": "This course provides a comprehensive study of quantum mechanics, including wave-particle duality, the Schrödinger equation, the hydrogen atom, and molecular orbital theory.",
+      "prerequisites": ["Physical Chemistry I"]
+    }
+  ]
+]

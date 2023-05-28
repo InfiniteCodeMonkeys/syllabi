@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Introduction to Communication Studies",
+    "description": "This course introduces students to the field of communication studies, covering theories, approaches, and methods used in the study of communication. Topics covered include interpersonal, mass, and mediated communication, public speaking, persuasion, visual communication, and cultural studies.",
+    "prerequisites": []
+  },
+  [
+    {
+      "name": "Mass Communication",
+      "description": "This course explores the effects and role of media in society, including newspapers, television, radio, film, and the internet. Topics covered will include media ownership, the impact of media on public opinion, citizen journalism, and media ethics.",
+      "prerequisites": ["Introduction to Communication Studies"]
+    },
+    {
+      "name": "Interpersonal Communication",
+      "description": "This course focuses on the communication between individuals, including relationship development, maintenance and deterioration, conflict resolution, and nonverbal communication. Students will also learn about the role of culture and gender in interpersonal communication.",
+      "prerequisites": ["Introduction to Communication Studies"]
+    }
+  ],
+  {
+    "name": "Intercultural Communication",
+    "description": "This course explores the communication between people from different cultures, including language and nonverbal communication, cultural values and beliefs, and the effects of globalization. Students will learn about intercultural communication competence.",
+    "prerequisites": ["Introduction to Communication Studies"]
+  },
+  {
+    "name": "Public Relations",
+    "description": "This course covers the principles and practices of public relations, including research, strategy, messaging, media relations, crisis communication, and ethics. Students will learn about the role of public relations in organizations and society.",
+    "prerequisites": ["Introduction to Communication Studies"]
+  },
+  [
+    {
+      "name": "Gender and Communication",
+      "description": "This course explores communication processes and practices related to gender. Topics covered include gender identity, representation, and stereotypes, gender and workplace communication, and gender violence.",
+      "prerequisites": ["Introduction to Communication Studies"]
+    },
+    {
+      "name": "Visual Communication",
+      "description": "This course covers the theory and practice of visual communication, including graphic design, typography, photography, and video. Students will learn about the use and impact of visual communication in popular culture and advertising.",
+      "prerequisites": ["Introduction to Communication Studies"]
+    }
+  ],
+  {
+    "name": "Organizational Communication",
+    "description": "This course explores communication practices and processes in organizations, including communication networks, group dynamics, leadership, and decision making. Students will learn about the role of communication in shaping organizational culture.",
+    "prerequisites": ["Introduction to Communication Studies"]
+  },
+  {
+    "name": "Advanced Topics in Communication Studies",
+    "description": "This course covers advanced topics in communication studies, including critical perspectives, multidisciplinary approaches, and emerging trends in the field.",
+    "prerequisites": ["Introduction to Communication Studies", "Mass Communication", "Interpersonal Communication", "Intercultural Communication", "Public Relations", "Gender and Communication", "Visual Communication", "Organizational Communication"]
+  },
+]

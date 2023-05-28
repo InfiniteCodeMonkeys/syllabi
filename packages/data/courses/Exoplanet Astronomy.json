@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Introductory Astronomy",
+    "description": "This course introduces students to the principles of astronomy. Students will learn about the characteristics and classification of stars, the formation and evolution of stars and galaxies, and the techniques used to study them. The course will also cover the basic principles of telescopes and observational astronomy, and the search for extraterrestrial life.",
+    "prerequisites": []
+  },
+  {
+    "name": "Astrophysics",
+    "description": "This course introduces students to the principles of astrophysics. Students will learn about the fundamental laws of physics as they apply to the universe, including mechanics, electromagnetism, thermodynamics, and quantum mechanics. They will also learn about the properties of stars, including their mass, temperature, and luminosity, and how these properties affect their behavior.",
+    "prerequisites": ["Introductory Astronomy"]
+  },
+  {
+    "name": "Planetary Science",
+    "description": "This course introduces students to the principles of planetary science. Students will learn about the structure and composition of planets, including Earth, and the processes that shape their surfaces and atmospheres. They will also learn about the formation and evolution of the solar system, the search for habitable planets, and the prospects for finding life beyond Earth.",
+    "prerequisites": ["Introductory Astronomy"]
+  },
+  [
+    {
+      "name": "Stellar Astrophysics",
+      "description": "This course focuses on the study of the properties and evolution of individual stars. Students will learn about the physical processes that occur inside stars, including nuclear fusion, convection, and stellar winds. They will also learn about the different stages of stellar evolution, from protostars to red giants and supernovae.",
+      "prerequisites": ["Astrophysics"]
+    },
+    {
+      "name": "Planetary Astronomy",
+      "description": "This course focuses on the study of planets and other objects in the solar system. Students will learn about the physical and chemical properties of planets, moons, asteroids, and comets, and the different techniques used to study them. They will also learn about the history of the solar system and the major events that shaped its evolution.",
+      "prerequisites": ["Planetary Science"]
+    }
+  ],
+  {
+    "name": "Exoplanet Astronomy",
+    "description": "This course focuses on the study of exoplanets, including their detection, characterization, and properties. Students will learn about the different techniques used to detect exoplanets, such as the transit and radial velocity methods, and the properties of exoplanets, such as their mass, radius, and atmosphere. They will also learn about the prospects for finding habitable exoplanets and the search for extraterrestrial intelligence.",
+    "prerequisites": ["Astrophysics", "Planetary Science", "Stellar Astrophysics", "Planetary Astronomy"]
+  }
+]

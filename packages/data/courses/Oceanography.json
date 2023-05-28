@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Introductory Geology",
+    "description": "This course introduces students to the fundamental concepts and processes of geology. Students will learn about plate tectonics, geologic time, rock formation, mineralogy, and geologic field techniques.",
+    "prerequisites": []
+  },
+  {
+    "name": "Introductory Oceanography",
+    "description": "This course provides an introduction to the physical, geological, chemical, and biological aspects of the world's ocean. Students will learn about the basic principles of oceanography and explore the formation and dynamics of oceans, the features of the ocean floor and its topography, marine life, and the ocean's interaction with the atmosphere, climate, and global environmental concerns. ",
+    "prerequisites": ["Introductory Geology"]
+  },
+  {
+    "name": "Marine Geology",
+    "description": "This course provides an overview of the geologic processes that shape the seafloor and its surrounding areas. Students will learn about seafloor spreading, plate tectonics, sedimentary processes, and marine geophysics. The course will cover the evolution of the seafloor and geological features such as mid-ocean ridges, seamounts, trenches, and abyssal plains. ",
+    "prerequisites": ["Introductory Geology", "Introductory Oceanography"]
+  },
+  [
+    {
+      "name": "Marine Biology",
+      "description": "This course provides an overview of the major groups and interactions of marine life, their morphology, physiology, ecology, and evolution. The course covers topics such as biodiversity, classification, adaptation, symbiosis, reproduction, behavior, and conservation. ",
+      "prerequisites": ["Introductory Biology"]
+    },
+    {
+      "name": "Chemical Oceanography",
+      "description": "This course covers the chemistry of seawater, including the major dissolved salts, gases, nutrients, and pollutants.  Students will learn about basic chemical concepts and chemical reactions that take place in the ocean, and undertake analysis of samples and interpretations of data. ",
+      "prerequisites": ["Introductory Chemistry", "Introductory Oceanography"]
+    },
+    {
+      "name": "Physical Oceanography",
+      "description": "This course provides an introduction to ocean physics, including properties of seawater, currents, waves, tides, and interactions of air and ocean.  Students will learn the theoretical and observational techniques used in physical oceanography and explore current issues in the field. ",
+      "prerequisites": ["Introductory Physics", "Introductory Oceanography"]
+    }
+  ],
+  {
+    "name": "Biological Oceanography",
+    "description": "This course explores the interactions between marine organisms and their physical and chemical environment. The course will cover topics such as primary production, carbon cycling, nutrient cycling, ecosystem dynamics, and climate change. Students will read and interpret scientific literature, and conduct their research projects on the subject. ",
+    "prerequisites": ["Marine Biology", "Chemical Oceanography", "Physical Oceanography"]
+  },
+  {
+    "name": "Paleoceanography",
+    "description": "This course introduces students to the study of the ocean's past through geologic and biological records. The course covers topics such as climate change, sea-level variations, biodiversity, and evolution of marine organisms and ecosystems throughout geologic time. Students will learn to interpret and analyze data from sediment cores, fossils, isotopes, and proxies. ",
+    "prerequisites": ["Marine Geology", "Biological Oceanography"]
+  },
+  [
+    {
+      "name": "Coastal Oceanography",
+      "description": "This course explores the dynamic physical, chemical, and biological processes that occur in the coastal zone and discusses estuaries, beaches, dunes, coral reefs, and tidal and wave-dominated coasts. In this course, students learn the challenges of coastal management and the integration of natural, social, and economic factors to maintain coastal resources sustainability. ",
+      "prerequisites": ["Marine Biology", "Physical Oceanography"]
+    },
+    {
+      "name": "Marine Policy",
+      "description": "This course provides an overview of the governance, management, and regulation of marine resources at the national, regional, and global level. The course will examine topics in international maritime law, marine spatial planning, conservation, fisheries, offshore energy, and trade. The course will also explore public engagement, stakeholder participation, and Indigenous perspectives in marine resource management. ",
+      "prerequisites": []
+    }
+  ]
+]

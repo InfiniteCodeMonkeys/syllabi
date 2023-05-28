@@ -1,0 +1,75 @@
+[
+  {
+  "name": "Introduction to Earth Science",
+  "description": "This course introduces students to the core principles of Earth Science. Students will learn about the structure of the earth, plate tectonics, minerals and rocks, the origin and evolution of the atmosphere and oceans, and the history of life on earth.",
+  "prerequisites": []
+  },
+  
+  {
+  "name": "Physical Geology",
+  "description": "This course introduces students to the physical processes that shape the earth. Students will learn about plate tectonics, rock deformation, earthquakes, volcanoes, erosion, and sedimentation.",
+  "prerequisites": ["Introduction to Earth Science"]
+  },
+  
+  {
+  "name": "Mineralogy",
+  "description": "This course introduces students to the study of minerals. Students will learn about crystal structure, mineral properties, and the identification and classification of minerals.",
+  "prerequisites": ["Physical Geology"]
+  },
+  
+  {
+  "name": "Sedimentology",
+  "description": "This course introduces students to the study of sedimentary rocks. Students will learn about sedimentary processes, environments of deposition, and the identification and classification of sedimentary rocks.",
+  "prerequisites": ["Physical Geology"]
+  },
+  
+  {
+  "name": "Petrology",
+  "description": "This course introduces students to the study of igneous and metamorphic rocks. Students will learn about the origin, classification, and identification of igneous and metamorphic rocks.",
+  "prerequisites": ["Mineralogy", "Physical Geology"]
+  },
+  
+  {
+  "name": "Structural Geology",
+  "description": "This course introduces students to the study of earth structures. Students will learn about rock deformation, faults, folds, and the evolution of mountain belts.",
+  "prerequisites": ["Physical Geology"]
+  },
+  
+  [
+    {
+    "name": "Geophysics",
+    "description": "This course introduces students to the study of the earth's internal structure using physical principles. Students will learn about the earth's gravity field, magnetic field, seismic waves, and geodesy.",
+    "prerequisites": ["Physical Geology"]
+    },
+    
+    {
+    "name": "Geochemistry",
+    "description": "This course introduces students to the study of the chemistry of the earth. Students will learn about the composition, origin, and evolution of the earth's lithosphere, hydrosphere, and atmosphere.",
+    "prerequisites": ["Mineralogy", "Physical Geology"]
+    }
+  ],
+  
+  {
+  "name": "Paleontology",
+  "description": "This course introduces students to the study of fossils. Students will learn about the history of life on earth, the evolution of organisms, and the use of fossils in biostratigraphy and paleoenvironmental studies.",
+  "prerequisites": ["Physical Geology"]
+  },
+  
+  {
+  "name": "Geomorphology",
+  "description": "This course introduces students to the study of landforms. Students will learn about the processes that shape the earth's surface, such as weathering, mass wasting, and erosion.",
+  "prerequisites": ["Physical Geology"]
+  },
+  
+  {
+  "name": "Hydrogeology",
+  "description": "This course introduces students to the study of groundwater. Students will learn about the hydrologic cycle, aquifers, groundwater flow, and the use of groundwater resources.",
+  "prerequisites": ["Physical Geology"]
+  },
+  
+  {
+  "name": "Environmental Geology",
+  "description": "This course introduces students to the study of the interactions between humans and the earth. Students will learn about natural hazards, resource management, pollution, and sustainability.",
+  "prerequisites": ["Physical Geology"]
+  }
+]

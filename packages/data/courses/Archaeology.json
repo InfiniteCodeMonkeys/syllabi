@@ -1,0 +1,61 @@
+[
+  {
+    "name": "Introduction to Archaeology",
+    "description": "This course provides an overview of archaeology as a field of study and its relationship to other disciplines within the humanities. Topics may include archaeological methods, ethics, and the interpretation of material culture.",
+    "prerequisites": []
+  },
+  {
+    "name": "World Archaeology",
+    "description": "This course explores the archaeology of various regions and cultures around the world, including the rise of complex societies, social organization, and the development of written language.",
+    "prerequisites": ["Introduction to Archaeology"]
+  },
+  {
+    "name": "Art and Archaeology of the Ancient World",
+    "description": "This course examines the art and artifacts of ancient societies, and explores the relationship between art and archaeology as sources of information about the past",
+    "prerequisites": ["Introduction to Archaeology"]
+  },
+  {
+    "name": "Archaeology of the Americas",
+    "description": "This course focuses on the archaeology of the Americas, including the pre-Columbian societies of North, Central, and South America.",
+    "prerequisites": ["Introduction to Archaeology"]
+  },
+  [
+    {
+      "name": "Environmental Archaeology",
+      "description": "This course examines the relationship between human societies and the environment throughout history, with an emphasis on the use of environmental data in archaeological research.",
+      "prerequisites": ["Introduction to Archaeology"]
+    },
+    {
+      "name": "Anthropology of Food",
+      "description": "This course explores the cultural, social, and environmental factors that shape food systems and culinary practices around the world.",
+      "prerequisites": []
+    }
+  ],
+  {
+    "name": "Archaeological Theory and Methods",
+    "description": "This course explores the theoretical approaches and methods used by archaeologists to study the past. Topics may include archaeological ethics, excavation techniques, and data analysis.",
+    "prerequisites": ["Introduction to Archaeology"]
+  },
+  [
+    {
+      "name": "Historical Archaeology",
+      "description": "This course examines the archaeology of the recent past, with a focus on the material culture and built environment of colonial and industrial societies.",
+      "prerequisites": ["Introduction to Archaeology"]
+    },
+    {
+      "name": "Archaeology of Death and Burial",
+      "description": "This course examines the archaeological and cultural aspects of death and burial practices, including funerary art, the material culture of death, and the relationship between mortuary practices and social organization.",
+      "prerequisites": ["Introduction to Archaeology"]
+    }
+  ],
+  {
+    "name": "Archaeology and Social Justice",
+    "description": "This course explores the intersections of archaeology and social justice, including the role of archaeology in the construction of national identity, issues of cultural heritage, and the representation of marginalized communities in archaeological research.",
+    "prerequisites": ["Introduction to Archaeology", "Archaeology Theory and Methods"]
+  },
+  {
+    "name": "Fieldwork in Archaeology",
+    "description": "This course provides hands-on training in archaeological field methods, including survey, excavation, and laboratory analysis.",
+    "prerequisites": ["Introduction to Archaeology", "Archaeology Theory and Methods", "World Archaeology"]
+  }
+]

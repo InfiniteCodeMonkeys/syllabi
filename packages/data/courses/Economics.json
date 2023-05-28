@@ -1,0 +1,49 @@
+[
+  {
+    "name": "Introduction to Microeconomics",
+    "description": "This course introduces students to the principles of microeconomics. Topics include supply and demand, consumer theory, production and costs, market structure, and welfare economics.",
+    "prerequisites": []
+  },
+  {
+    "name": "Introduction to Macroeconomics",
+    "description": "This course introduces students to the principles of macroeconomics. Topics include national income accounting, inflation, unemployment, economic growth, monetary policy, and fiscal policy.",
+    "prerequisites": []
+  },
+  {
+    "name": "Intermediate Microeconomics",
+    "description": "This course builds on Introduction to Microeconomics and covers more advanced topics in microeconomics, including general equilibrium, game theory, market failures, and externalities.",
+    "prerequisites": ["Introduction to Microeconomics"]
+  },
+  {
+    "name": "Intermediate Macroeconomics",
+    "description": "This course builds on Introduction to Macroeconomics and covers more advanced topics in macroeconomics, including business cycles, international trade, open economy macroeconomics, and economic growth.",
+    "prerequisites": ["Introduction to Macroeconomics"]
+  },
+  [
+    {
+      "name": "Econometrics",
+      "description": "This course introduces students to the principles of econometrics, the application of statistical methods to economic data. Topics include regression analysis, hypothesis testing, time series analysis, and panel data analysis.",
+      "prerequisites": ["Intermediate Microeconomics","Intermediate Macroeconomics","Calculus","Statistics"]
+    },
+    {
+      "name": "Mathematics for Economists",
+      "description": "This course covers mathematical concepts that are important in economics, including optimization theory, matrix algebra, and differential and integral calculus.",
+      "prerequisites": ["Intermediate Microeconomics","Intermediate Macroeconomics","Calculus"]
+    }
+  ],
+  {
+    "name": "Development Economics",
+    "description": "This course introduces students to the principles of development economics, focusing on the challenges facing developing countries and possible solutions to those challenges. Topics include poverty, inequality, education, health, agriculture, trade, and foreign aid.",
+    "prerequisites": ["Intermediate Microeconomics","Intermediate Macroeconomics"]
+  },
+  {
+    "name": "International Economics",
+    "description": "This course introduces students to the principles of international economics, including trade theory, trade policy, exchange rates, and international capital flows.",
+    "prerequisites": ["Intermediate Microeconomics","Intermediate Macroeconomics"]
+  },
+  {
+    "name": "Environmental Economics",
+    "description": "This course introduces students to the principles of environmental economics, including pollution control, natural resource management, and climate change.",
+    "prerequisites": ["Intermediate Microeconomics"]
+  }
+]

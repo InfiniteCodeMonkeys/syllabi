@@ -1,0 +1,59 @@
+[
+  {
+    "name": "Introduction to Mechanics",
+    "description": "This course provides a comprehensive introduction to classical mechanics. Topics include vector kinematics and dynamics, work and energy, conservation of energy, momentum, collisions, rotational kinematics and dynamics, torque, angular momentum, oscillations, and waves.",
+    "prerequisites": []
+  },
+  {
+    "name": "Introduction to Electromagnetism",
+    "description": "This course provides a comprehensive introduction to classical electromagnetism. Topics include electric fields, Gauss's law, electric potential, capacitance, current and resistance, magnetic fields, Ampere's law, Faraday's law, inductance, AC circuits, and Maxwell's equations.",
+    "prerequisites": []
+  },
+  {
+    "name": "Mathematics for Physicists",
+    "description": "This course provides the mathematical foundation for the study of physics. Topics include linear algebra, differential equations, vector calculus, complex analysis, and Fourier analysis.",
+    "prerequisites": []
+  },
+  [
+    {
+      "name": "Mechanics II: Lagrangian and Hamiltonian Mechanics",
+      "description": "This course covers advanced topics in classical mechanics, including Lagrangian mechanics, Hamiltonian mechanics, variational principles, small oscillations, and classical chaos.",
+      "prerequisites": ["Introduction to Mechanics", "Mathematics for Physicists"]
+    },
+    {
+      "name": "Electromagnetism II: Electromagnetic Waves and Optics",
+      "description": "This course covers advanced topics in classical electromagnetism, including electromagnetic waves, polarization, interference, diffraction, dispersion, and special relativity.",
+      "prerequisites": ["Introduction to Electromagnetism", "Mathematics for Physicists"]
+    }
+  ],
+  {
+    "name": "Quantum Mechanics",
+    "description": "This course provides an introduction to quantum mechanics. Topics include wave-particle duality, the Schrödinger equation, quantum states and operators, wave functions, the hydrogen atom, angular momentum, and the harmonic oscillator.",
+    "prerequisites": ["Mechanics II: Lagrangian and Hamiltonian Mechanics", "Mathematics for Physicists"]
+  },
+  {
+    "name": "Thermodynamics and Statistical Mechanics",
+    "description": "This course covers thermodynamics and statistical mechanics. Topics include laws of thermodynamics, applications of thermodynamics, kinetic theory of gases, partition functions, ensembles, and the statistical mechanics of simple systems.",
+    "prerequisites": ["Introduction to Mechanics", "Mathematics for Physicists"]
+  },
+  {
+    "name": "Classical Mechanics III: Special Topics",
+    "description": "This course covers advanced topics in classical mechanics, including rigid body dynamics, celestial mechanics, and continuum mechanics.",
+    "prerequisites": ["Mechanics II: Lagrangian and Hamiltonian Mechanics", "Mathematics for Physicists"]
+  },
+  {
+    "name": "Electromagnetism III: Special Topics",
+    "description": "This course covers advanced topics in classical electromagnetism, including relativistic electrodynamics, electromagnetic radiation, and electromagnetic potentials.",
+    "prerequisites": ["Electromagnetism II: Electromagnetic Waves and Optics", "Mathematics for Physicists"]
+  },
+  {
+    "name": "Quantum Mechanics II: Special Topics",
+    "description": "This course covers advanced topics in quantum mechanics, including the hydrogen atom, perturbation theory, scattering theory, and quantum field theory.",
+    "prerequisites": ["Quantum Mechanics", "Mathematics for Physicists"]
+  },
+  {
+    "name": "Astrophysics",
+    "description": "This course is an introduction to astrophysics. Topics include the properties of stars, the interstellar medium, the Milky Way galaxy, galactic structure and evolution, and cosmology.",
+    "prerequisites": ["Mechanics II: Lagrangian and Hamiltonian Mechanics", "Electromagnetism II: Electromagnetic Waves and Optics", "Mathematics for Physicists"]
+  }
+]

@@ -1,0 +1,61 @@
+[
+  {
+    "name": "Calculus I",
+    "description": "This course introduces students to differential calculus. Students will learn about functions, limits, continuity, derivatives.",
+    "prerequisites": []
+  },
+  {
+    "name": "Calculus II",
+    "description": "This course introduces students to integral calculus. Students will learn about antiderivatives, Riemann sums, fundamentals theorem of calculus.",
+    "prerequisites": ["Calculus I"]
+  },
+  [
+    {
+      "name": "Linear Algebra",
+      "description": "This course introduces students to matrices, vectors, systems of linear equations, and linear transformations.",
+      "prerequisites": ["Calculus I"]
+    },
+    {
+      "name": "Probability and Statistics",
+      "description": "This course introduces students to probability, descriptive statistics, probability distributions, statistical inference, and hypothesis testing.",
+      "prerequisites": ["Calculus I"]
+    }
+  ],
+  {
+    "name": "Multivariable Calculus",
+    "description": "This course introduces students to multivariable calculus. Students will learn about partial derivatives, multiple integrals, and vector calculus.",
+    "prerequisites": ["Calculus II"]
+  },
+  {
+    "name": "Differential Equations",
+    "description": "This course introduces students to differential equations. Students will learn about first-order differential equations, second-order differential equations, and Laplace transforms.",
+    "prerequisites": ["Calculus II"]
+  },
+  {
+    "name": "Numerical Methods",
+    "description": "This course introduces students to numerical methods for solving mathematical problems. Students will learn about interpolation, approximation, and numerical integration and differentiation.",
+    "prerequisites": ["Calculus II"]
+  },
+  {
+    "name": "Real Analysis",
+    "description": "This course introduces students to the rigorous study of real numbers and functions of a real variable.",
+    "prerequisites": ["Multivariable Calculus"]
+  },
+  [
+    {
+      "name": "Partial Differential Equations",
+      "description": "This course introduces students to partial differential equations. Students will learn about the wave equation, diffusion equation, and Laplace's equation.",
+      "prerequisites": ["Multivariable Calculus", "Differential Equations"]
+    },
+    {
+      "name": "Topology",
+      "description": "This course introduces students to topology, the branch of mathematics that deals with the properties of space that are preserved under continuous transformations.",
+      "prerequisites": ["Calculus II", "Real Analysis"]
+    }
+  ],
+  {
+    "name": "Abstract Algebra",
+    "description": "This course introduces students to abstract algebra, the study of algebraic structures such as groups, rings, and fields.",
+    "prerequisites": ["Calculus II", "Linear Algebra"]
+  }
+]

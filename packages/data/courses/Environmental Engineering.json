@@ -1,0 +1,94 @@
+[
+  {
+    "name": "Introduction to Environmental Engineering",
+    "description": "This course introduces students to the principles of environmental engineering. Students will learn about the interactions between humans and the environment, natural systems, and how environmental engineers use scientific and engineering principles to solve environmental problems.",
+    "prerequisites": []
+  },
+  {
+    "name": "Engineering Mechanics",
+    "description": "This course introduces students to the principles of mechanics as they apply to engineering problems. Students will learn about statics, dynamics, forces, Newton's laws of motion, and other fundamental concepts in classical mechanics.",
+    "prerequisites": []
+  },
+  [
+    {
+      "name": "Calculus I",
+      "description": "This course introduces students to differential calculus, which is the study of how things change. Students will learn about limits, derivatives, and applications of derivatives, such as optimization and rate of change problems.",
+      "prerequisites": []
+    },
+    {
+      "name": "Physics I",
+      "description": "This course introduces students to the principles of physics. Students will learn about mechanics, waves, and thermodynamics.",
+      "prerequisites": []
+    }
+  ],
+  [
+    {
+      "name": "Calculus II",
+      "description": "This course continues the study of calculus by introducing integration, which is the process of finding the area under a curve. Students will learn about indefinite integrals, definite integrals, and applications of integrations, such as volumes of revolution and work.",
+      "prerequisites": ["Calculus I"]
+    },
+    {
+      "name": "Physics II",
+      "description": "This course continues the study of physics by introducing electricity and magnetism. Students will learn about electric fields, electric potential, electric circuits, magnetic fields, and electromagnetic waves.",
+      "prerequisites": ["Physics I"]
+    }
+  ],
+  {
+    "name": "Chemistry for Engineers",
+    "description": "This course introduces students to the principles of chemistry as they apply to engineering problems. Students will learn about atomic structure, chemical bonding, chemical reactions, stoichiometry, thermodynamics, and kinetics.",
+    "prerequisites": []
+  },
+  {
+    "name": "Fluid Mechanics",
+    "description": "This course introduces students to the principles of fluid mechanics. Students will learn about fluid properties, fluid statics, fluid flow, Bernoulli's equation, and applications of fluid mechanics, such as pipe flow and open-channel flow.",
+    "prerequisites": ["Engineering Mechanics", "Calculus II"]
+  },
+  {
+    "name": "Environmental Chemistry",
+    "description": "This course introduces students to the principles of environmental chemistry. Students will learn about the composition of the atmosphere, water, and soil, and the chemical processes that occur in these systems. Students will also learn about environmental pollutants and their sources, transport, transformation, and fate.",
+    "prerequisites": ["Chemistry for Engineers"]
+  },
+  {
+    "name": "Thermodynamics",
+    "description": "This course introduces students to the principles of thermodynamics. Students will learn about the laws of thermodynamics, thermodynamic systems, thermodynamic processes, and applications of thermodynamics, such as power cycles and refrigeration cycles.",
+    "prerequisites": ["Engineering Mechanics", "Calculus II"]
+  },
+  {
+    "name": "Environmental Microbiology",
+    "description": "This course introduces students to the principles of environmental microbiology. Students will learn about microbial growth, metabolism, and diversity, and the roles of microbes in environmental processes, such as biogeochemical cycles, wastewater treatment, and bioremediation.",
+    "prerequisites": ["Chemistry for Engineers"]
+  },
+  {
+    "name": "Transport Phenomena",
+    "description": "This course introduces students to the principles of transport phenomena. Students will learn about the mechanisms of mass transport, momentum transport, and heat transfer, and their applications in environmental engineering, such as diffusion, advection, dispersion, boundary layers, and convection.",
+    "prerequisites": ["Engineering Mechanics", "Fluid Mechanics", "Thermodynamics"]
+  },
+  [
+    {
+      "name": "Introduction to Sustainable Engineering",
+      "description": "This course introduces students to the principles of sustainability and sustainable engineering. Students will learn about the environmental, social, and economic dimensions of sustainability, and how engineers can design and implement sustainable solutions.",
+      "prerequisites": []
+    },
+    {
+      "name": "Engineering Ethics",
+      "description": "This course introduces students to the principles of professional ethics for engineers. Students will learn about ethical theories, codes of ethics, and case studies in engineering ethics, and develop skills in ethical decision-making.",
+      "prerequisites": []
+    }
+  ],
+  {
+    "name": "Water and Wastewater Treatment",
+    "description": "This course introduces students to the principles of water and wastewater treatment. Students will learn about the physical, chemical, and biological processes used in treating surface water, groundwater, and wastewater, and the design and operation of treatment plants.",
+    "prerequisites": ["Transport Phenomena", "Environmental Chemistry", "Environmental Microbiology"]
+  },
+  [
+    {
+      "name": "Air Pollution Control",
+      "description": "This course introduces students to the principles of air pollution control. Students will learn about the sources, effects, and regulations of air pollutants, and the technologies and strategies used to control air pollution.",
+      "prerequisites": ["Transport Phenomena", "Environmental Chemistry"]
+    },
+    {
+      "name": "Solid and Hazardous Waste Management",
+      "description": "This course introduces students to the principles of solid and hazardous waste management. Students will learn about the sources, characteristics, and regulations of solid and hazardous wastes, and the techniques and methods used for waste minimization, recycling, and disposal.",
+      "prerequisites": ["Transport Phenomena", "Environmental Chemistry"]
+    }
+  ]

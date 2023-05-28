@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Introduction to Humanities",
+    "description": "This course provides an interdisciplinary introduction to the Humanities. Focusing on the exploration of human experience through art, literature, philosophy, music, and culture.",
+    "prerequisites": []
+  },
+  
+  {
+    "name": "Great Works of Literature",
+    "description": "This course introduces students to major literary masterpieces of world literature from ancient times to the present. Students will analyze works from various genres and cultures and develop critical reading skills. Some works to be analyzed can include the Epic of Gilgamesh, the Odyssey, the Argonautica, the Aeneid, Beowulf, the Divine Comedy, and Don Quixote.",
+    "prerequisites": ["Introduction to Humanities"]
+  },
+  
+  [
+    {
+      "name": "Greek Civilization",
+      "description": "This course provides a comprehensive study of ancient Greek civilization, including its political, social, cultural, and intellectual history. Topics will include Greek mythology, democracy, philosophy, art, literature, theater, and architecture.",
+      "prerequisites": ["Introduction to Humanities"]
+    },
+    {
+      "name": "Roman Civilization",
+      "description": "This course provides a comprehensive study of ancient Roman civilization, including its political, social, cultural, and intellectual history. Topics will include Roman mythology, the Roman Republic, the Roman Empire, law, art, literature, theater, and architecture.",
+      "prerequisites": ["Introduction to Humanities"]
+    }
+  ],
+  
+  {
+    "name": "Greek Mythology",
+    "description": "This course focuses on the study of Greek mythological stories and the characters involved in those stories.",
+    "prerequisites": ["Introduction to Humanities"]
+  },
+  
+  {
+    "name": "Roman Mythology",
+    "description": "This course focuses on the study of Roman mythological stories and the characters involved in those stories.",
+    "prerequisites": ["Introduction to Humanities"]
+  },
+  
+  {
+    "name": "Ancient Greek Literature",
+    "description": "This course provides an in-depth study of ancient Greek literature, including epic poetry, tragedy, comedy, and philosophy. Selected works to be studied can include Homer's Iliad and Odyssey, Aeschylus's Oresteia, Sophocles's Oedipus Rex, Euripides's Medea, Aristophanes's Clouds, and Plato's Symposium.",
+    "prerequisites": ["Introduction to Humanities", "Greek Civilization"]
+  },
+  
+  {
+    "name": "Ancient Roman Literature",
+    "description": "This course provides an in-depth study of ancient Roman literature, including epic poetry, drama, satire, and rhetoric. Selected works to be studied can include Virgil's Aeneid, Ovid's Metamorphoses, Seneca's Medea, Plautus's A Funny Thing Happened on the Way to the Forum, and Cicero's On the Orator.",
+    "prerequisites": ["Introduction to Humanities", "Roman Civilization"]
+  },
+  
+  {
+    "name": "Classical Archaeology",
+    "description": "This course covers the archaeological remains of Ancient Greece and Rome, such as temples, theaters, public buildings, mosaics, pottery, and sculpture.",
+    "prerequisites": ["Introduction to Humanities"]
+  }
+]

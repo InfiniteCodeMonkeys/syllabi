@@ -1,0 +1,78 @@
+[
+  {
+    "name": "Introduction to Engineering",
+    "description": "This course introduces students to the principles of engineering along with an overview of the various disciplines and subfields. Students will learn about the engineering design process, technical communication, ethical considerations in engineering, and teamwork in engineering. ",
+    "prerequisites": []
+  },
+    [
+    {
+      "name": "Calculus I",
+      "description": "This course introduces students to the principles of calculus. Students will learn about limits, derivatives, integrals, related rates, optimization, and curve sketching.",
+      "prerequisites": []
+    },
+        {
+      "name": "Physics I",
+      "description": "This course introduces students to the principles of classical physics. Students will learn about motion, forces, energy, momentum, and rotational motion.",
+      "prerequisites": []
+    },
+    ],
+  {
+    "name": "Statics",
+    "description": "This course introduces students to the principles of statics. Students will learn about force systems, equilibrium, trusses, frames and machines.",
+    "prerequisites": ["Physics I"]
+  },
+  {
+    "name": "Dynamics",
+    "description": "This course introduces students to the principles of dynamics. Students will learn about kinematics, kinetics, work and energy, impulse and momentum.",
+    "prerequisites": ["Physics I", "Calculus I"]
+  },
+    [
+    {
+      "name": "Differential Equations",
+      "description": "This course introduces students to the principles of differential equations. Students will learn first-order differential equations, second-order linear differential equations with constant coefficients, and Laplace transforms.",
+      "prerequisites": ["Calculus I"]
+    },
+          {
+      "name": "Probability & Statistics",
+      "description": "This course introduces students to the principles of probability and statistics. Students will learn about probability theory, random variables, distributions, statistical inference, sampling, and correlation.",
+      "prerequisites": ["Calculus I"]
+    },
+    ],
+  {
+    "name": "Electric Circuits",
+    "description": "This course introduces students to the principles of electric circuits. Students will learn about circuit elements, Kirchhoff's laws, nodal and mesh analysis, circuit theorems, and operational amplifiers.",
+    "prerequisites": ["Physics I", "Calculus I"]
+  },
+  {
+    "name": "Systems Analysis",
+    "description": "This course introduces students to the principles of systems analysis. Students will learn about the systems approach, systems modeling and simulation, optimization techniques and decision-making processes.",
+    "prerequisites": ["Electric Circuits", "Dynamics", "Differential Equations"]
+  },
+    [
+    {
+      "name": "Instrumentation & Control",
+      "description": "This course introduces students to the principles of instrumentation and control. Students will learn about sensors, data acquisition, signal conditioning, control systems, transfer functions, and stability analysis.",
+      "prerequisites": ["Electric Circuits"]
+    },
+      {
+      "name": "Thermodynamics",
+      "description": "This course introduces students to the principles of thermodynamics. Students will learn about the laws of thermodynamics, thermodynamic cycles, power and refrigeration cycles, and thermodynamic properties of materials.",
+      "prerequisites": ["Physics I", "Calculus I"]
+    },
+    {
+      "name": "Engineering Materials",
+      "description": "This course introduces students to the principles of engineering materials. Students will learn about the structure and properties of materials, material selection, mechanical behavior of materials, and material processing.",
+      "prerequisites": ["Statics"]
+    },
+    ],
+  {
+    "name": "Engineering Design",
+    "description": "This course introduces students to the principles of engineering design. Students will learn about the design process, project management, communication, ethics, and sustainability.",
+    "prerequisites": ["Systems Analysis"]
+  },
+  {
+    "name": "Systems Engineering",
+    "description": "This course introduces students to the principles of systems engineering. Students will learn about requirements analysis, risk management, system architecture, verification and validation and design trade-offs. ",
+    "prerequisites": ["Engineering Design"]
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Calculus I",
+    "description": "This course introduces students to the basic principles of calculus such as limits, derivatives, and integrals. It also includes discussions on applications of derivatives and integrals to engineering problems and various functions such as exponential functions, trigonometric functions, power functions, logarithmic functions, etc.",
+    "prerequisites": []
+  },
+  {
+    "name": "Calculus II",
+    "description": "This course builds on the concepts learned in Calculus I and introduces students to techniques of integration, applications of integration, polar coordinates, parametric equations, infinite series, and vectors.",
+    "prerequisites": ["Calculus I"]
+  },
+  {
+    "name": "Physics I",
+    "description": "This course introduces students to the principles of mechanics – forces, motions and motions of objects, conservation of energy and momentum, rigid body dynamics, and mechanical waves and sounds.",
+    "prerequisites": ["Calculus I"]
+  },
+  {
+    "name": "Physics II",
+    "description": "This course extends the principles learned in Physics I into the realms of electricity and magnetism, optics, and modern physics.",
+    "prerequisites": ["Calculus II", "Physics I"]
+  },
+  {
+    "name": "Statics",
+    "description": "This course covers the basic principles of statics and mechanics of rigid bodies. Topics include equilibrium of forces, moments, couples, centroids, moments of inertia, and friction.",
+    "prerequisites": ["Calculus II", "Physics I"]
+  },
+  {
+    "name": "Dynamics",
+    "description": "This course introduces students to the study of dynamics. Topics include kinematics and kinetics of a particle, systems of particles and rigid bodies, coupled systems, and vibrations.",
+    "prerequisites": ["Calculus II", "Physics I", "Statics"]
+  },
+  {
+    "name": "Materials Science",
+    "description": "This course covers the properties, behavior, and design of materials. It includes discussions on atomic and molecular structures, crystalline and amorphous structures, defects, thermal properties, and mechanical properties of materials.",
+    "prerequisites": ["Calculus II", "Physics I"]
+  },
+  {
+    "name": "Fluid Mechanics",
+    "description": "This course covers the principles of fluid mechanics. Topics include fluid statics, fluid dynamics, mass conservation, and energy conservation.",
+    "prerequisites": ["Calculus II", "Physics II"]
+  },
+  [
+    {
+      "name": "Structural Analysis",
+      "description": "This course introduces students to structural analysis methods including force and displacement methods, energy methods, and analysis of statically determinate and indeterminate structures.",
+      "prerequisites": ["Calculus II", "Physics I", "Statics"]
+    },
+    {
+      "name": "Engineering Geology",
+      "description": "This course introduces students to the geologic processes that shape the Earth and their effect on civil engineering projects. Topics include rocks, minerals, soil mechanics, sedimentology, stratigraphy, and geological hazards.",
+      "prerequisites": ["Calculus I", "Physics I"]
+    }
+  ],
+  [
+    {
+      "name": "Transportation Engineering",
+      "description": "This course covers the basic principles of transportation engineering, including transportation planning, traffic analysis, geometric design of highways, pavement design, and highway safety.",
+      "prerequisites": ["Calculus II", "Physics I"]
+    },
+    {
+      "name": "Environmental Engineering",
+      "description": "This course covers the basics of environmental engineering and the principles of environmental chemistry, ecology and microbiology, water and wastewater treatment, air pollution control, solid waste management, hazardous waste management, and environmental regulations.",
+      "prerequisites": ["Calculus II", "Physics II", "Fluid Mechanics"]
+    }
+  ],
+  {
+    "name": "Hydraulics",
+    "description": "This course introduces students to the principles of hydraulics and hydraulic machinery. Topics include fluid mechanics, hydrostatics, hydraulic pumps and turbines, and pipelines and open channel flow.",
+    "prerequisites": ["Calculus II", "Physics II", "Fluid Mechanics"]
+  },
+  {
+    "name": "Concrete Design",
+    "description": "This course covers the fundamentals of reinforced concrete design, including flexural analysis and design, shear and torsional analysis and design, and serviceability and durability of concrete structures.",
+    "prerequisites": ["Structural Analysis"]
+  },
+  {
+    "name": "Steel Design",
+    "description": "This course covers the principles of steel design. Topics include behavior of steel structures under axial, bending, and tensile loadings; connections; and design of steel structures.",
+    "prerequisites": ["Structural Analysis"]
+  },
+  {
+    "name": "Geotechnical Engineering",
+    "description": "This course covers the principles of geotechnical engineering including soil mechanics and foundation design. Topics include geologic processes, soil classification and properties, stresses and deformations, lateral earth pressures, shallow and deep foundation design, and slope stability.",
+    "prerequisites": ["Engineering Geology"]
+  }
+]

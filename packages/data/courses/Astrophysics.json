@@ -1,0 +1,106 @@
+[
+  {
+    "name": "Classical Mechanics",
+    "description": "This course is an introduction to the principles of classical mechanics. Students will learn about classical mechanics, including kinematics, dynamics, classical potential energy, linear momentum, rotational motion, vector calculus, Lagrangian mechanics, Hamiltonian mechanics, and conservation principles.",
+    "prerequisites": []
+  },
+  {
+    "name": "Mathematical Methods",
+    "description": "This course provides an introduction to the mathematical techniques required for advanced physics courses, including linear algebra, complex analysis, Fourier series, vector calculus, and partial differential equations.",
+    "prerequisites": []
+  },
+  [
+    {
+      "name": "Electricity and Magnetism",
+      "description": "This course will introduce students to the principles of electricity and magnetism, including electrostatics, magnetostatics, electromagnetic waves, and optics.",
+      "prerequisites": ["Classical Mechanics", "Mathematical Methods"]
+    },
+    {
+      "name": "Mathematical Physics",
+      "description": "This course will introduce students to mathematical techniques used in advanced physics courses, including Fourier analysis, group theory, and special functions.",
+      "prerequisites": ["Mathematical Methods"]
+    },
+  ],
+  {
+    "name": "Modern Physics",
+    "description": "This course is an introduction to modern physics, including quantum mechanics and relativity.",
+    "prerequisites": ["Classical Mechanics"]
+  },
+  [
+    {
+      "name": "Thermodynamics and Statistical Mechanics",
+      "description": "This course is an introduction to the principles of thermodynamics and statistical mechanics, including entropy, temperature, heat, work, and applications in astrophysics.",
+      "prerequisites": ["Classical Mechanics", "Mathematical Methods", "Modern Physics"]
+    },
+    {
+      "name": "Electrodynamics",
+      "description": "This course will introduce students to the principles of electrodynamics, including Maxwell's equations and electromagnetic waves.",
+      "prerequisites": ["Electricity and Magnetism"]
+    },
+  ],
+  {
+    "name": "Astrophysics",
+    "description": "This course is an introduction to astrophysics, including stellar astrophysics, galaxies, and cosmology.",
+    "prerequisites": ["Classical Mechanics", "Mathematical Methods", "Modern Physics", "Electricity and Magnetism", "Thermodynamics and Statistical Mechanics", "Electrodynamics"]
+  },
+  [
+    {
+      "name": "Gravitational Physics",
+      "description": "This course is an introduction to the principles of Einstein's theory of general relativity, including black holes, gravitational waves, and cosmology.",
+      "prerequisites": ["Electricity and Magnetism", "Modern Physics", "Thermodynamics and Statistical Mechanics"]
+    },
+    {
+      "name": "Nuclear and Particle Physics",
+      "description": "This course is an introduction to the principles of nuclear and particle physics, including the Standard Model and applications in astrophysics.",
+      "prerequisites": ["Modern Physics"]
+    },
+  ],
+][
+  {
+    "name": "Introductory Physics",
+    "description": "This course introduces students to basic concepts in physics, such as mechanics, thermodynamics, electricity and magnetism, waves and optics, and modern physics.",
+    "prerequisites": []
+  },
+  {
+    "name": "Introductory Astronomy",
+    "description": "This course introduces students to the principles of astronomy, such as celestial mechanics, observations and instrumentation, stellar and galactic astronomy, and cosmology.",
+    "prerequisites": ["Introductory Physics"]
+  },
+  [
+    {
+      "name": "Classical Mechanics",
+      "description": "This course introduces students to classical mechanics, including kinematics, forces, energy, momentum, and rotational motion.",
+      "prerequisites": ["Introductory Physics"]
+    },
+    {
+      "name": "Electromagnetism",
+      "description": "This course introduces students to electromagnetism, including electric and magnetic fields, Gauss's law, electric potential, capacitance, circuits, and Maxwell's equations.",
+      "prerequisites": ["Introductory Physics"]
+    }
+  ],
+  {
+    "name": "Thermal Physics",
+    "description": "This course introduces students to thermal physics, including temperature, heat, entropy, kinetic theory, and thermodynamics.",
+    "prerequisites": ["Introductory Physics"]
+  },
+  {
+    "name": "Quantum Mechanics",
+    "description": "This course introduces students to quantum mechanics, including wave-particle duality, uncertainty principle, Schrödinger equation, hydrogen atom, and quantum states of atoms and molecules.",
+    "prerequisites": ["Introductory Physics"]
+  },
+  {
+    "name": "Optics",
+    "description": "This course introduces students to optics, including geometrical and wave optics, interference, diffraction, polarization, and lasers.",
+    "prerequisites": ["Introductory Physics"]
+  },
+  {
+    "name": "Astrophysics I",
+    "description": "This course introduces students to astrophysics, including stellar structure, evolution, and nucleosynthesis, and observational techniques, such as spectroscopy and photometry.",
+    "prerequisites": ["Introductory Astronomy", "Classical Mechanics", "Electromagnetism", "Thermal Physics", "Quantum Mechanics"]
+  },
+  {
+    "name": "Astrophysics II",
+    "description": "This course covers topics in astrophysics, such as black holes, neutron stars, white dwarfs, gravitational waves, high-energy astrophysics, and cosmology.",
+    "prerequisites": ["Astrophysics I"]
+  }
+]

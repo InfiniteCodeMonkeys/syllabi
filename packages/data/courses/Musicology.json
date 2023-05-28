@@ -1,0 +1,71 @@
+[
+  {
+    "name": "Introduction to Musicology",
+    "description": "This course introduces students to the study of musicology and the larger field of Humanities. Students will learn about the different areas of interest within musicology, including historical musicology, ethnomusicology, music theory, and music criticism. Students will also become familiar with various research methodologies used in musicology and apply these methods to analyze music from different periods and cultures. They will also begin to explore how music intersects with other disciplines in the Humanities, including literature, philosophy, history, and cultural studies.",
+    "prerequisites": []
+  },
+  {
+    "name": "Western Music History to 1750",
+    "description": "This course covers the history of Western music from its earliest expressions through the Baroque period. Students will examine how music reflects and is influenced by the social, political, and cultural contexts in which it was created. They will also develop an understanding of the basic components of music, including melody, harmony, rhythm, and timbre, and how these components have evolved over time.",
+    "prerequisites": ["Introduction to Musicology"]
+  },
+  {
+    "name": "Musical Analysis",
+    "description": "This course explores various methods of analyzing music, including formal, harmonic, and motivic analysis. Students will deepen their understanding of the basic components of music and how these components interact to create meaning and affect the listener. They will also develop skills in critical listening and interpretation and learn how to use music notation software to create and analyze musical scores.",
+    "prerequisites": ["Introduction to Musicology"]
+  },
+  [
+    {
+      "name": "Music Theory I",
+      "description": "This course introduces students to the fundamental concepts of music theory, including scales, intervals, chords, and basic harmonic progressions. Students will learn to read music notation and develop skills in ear training and sight-singing.",
+      "prerequisites": ["Introduction to Musicology"]
+    },
+    {
+      "name": "Keyboard Skills I",
+      "description": "This course provides students with an introduction to keyboard skills, including techniques for playing scales, chords, and basic keyboard repertoire. Students will also develop skills in music reading, ear training, and keyboard theory.",
+      "prerequisites": ["Introduction to Musicology"]
+    }
+  ],
+  {
+    "name": "Musicology Research Methods",
+    "description": "This course provides students with a comprehensive understanding of research methodologies used in musicology. Students will learn how to formulate research questions, design research projects, collect data, and analyze and interpret findings. They will also explore ethical considerations in music research and learn how to present their research in written and oral formats.",
+    "prerequisites": ["Introduction to Musicology"]
+  },
+  [
+    {
+      "name": "Music Theory II",
+      "description": "This course builds upon the concepts of Music Theory I and explores more complex harmonic progressions, including secondary dominant chords, pivot chords, and modulation. Students will continue to develop skills in ear training, sight-singing, and music reading.",
+      "prerequisites": ["Music Theory I"]
+    },
+    {
+      "name": "Keyboard Skills II",
+      "description": "This course builds upon the skills developed in Keyboard Skills I and focuses on more complex keyboard repertoire, including Baroque and Classical compositions. Students will continue to develop skills in music reading, ear training, and keyboard theory.",
+      "prerequisites": ["Keyboard Skills I"]
+    }
+  ],
+  {
+    "name": "Music and Modernity",
+    "description": "This course examines the intersection of music and modernity, including the origins of musical modernism in the late 19th and early 20th centuries. Students will analyze how composers responded to changing cultural and political contexts, including the rise of nationalism, the two World Wars, and the Cold War. They will also explore how modernism intersected with other artistic and intellectual movements of the period, including Futurism, Dadaism, and Surrealism.",
+    "prerequisites": ["Music Theory I", "Western Music History to 1750"]
+  },
+  [
+    {
+      "name": "Music Theory III",
+      "description": "This course builds upon the concepts of Music Theory II and explores more advanced harmonic progressions, including chromaticism and extended tertian chords. Students will continue to develop skills in ear training, sight-singing, and music reading.",
+      "prerequisites": ["Music Theory II"]
+    },
+    {
+      "name": "Keyboard Skills III",
+      "description": "This course builds upon the skills developed in Keyboard Skills II and focuses on more advanced keyboard repertoire, including Romantic and contemporary compositions. Students will continue to develop skills in music reading, ear training, and keyboard theory.",
+      "prerequisites": ["Keyboard Skills II"]
+    }
+  ],
+  {
+    "name": "Ethnomusicology",
+    "description": "This course introduces students to the study of ethnomusicology, which seeks to understand music as a cultural and social practice. Students will explore the diversity of musical traditions around the world and learn how to analyze music in its cultural and historical contexts.",
+    "prerequisites": ["Musicology Research Methods"]
+  },
+  {
+    "name": "Music, Media, and Society",
+    "description": "This course examines the impact of modern media on the creation, dissemination, and reception of music. Students will explore the history, economics, and politics of the music industry and learn how to analyze music videos, film scores, and other multimedia musical forms. They will also explore how music is used in advertising, branding, and political campaigns.",
+    "prerequisites": ["Musicology Research Methods"]

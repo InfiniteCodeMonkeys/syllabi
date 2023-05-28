@@ -1,0 +1,43 @@
+[
+  {
+    "name": "General Chemistry",
+    "description": "This course provides an introduction to the fundamental principles of chemistry. Topics include atomic structure, molecular structure, stoichiometry, bonding, chemical reactions, thermochemistry, periodicity, properties of solids, liquids, and gases, solutions, and acids and bases.",
+    "prerequisites": []
+  },
+  [
+    {
+      "name": "Organic Chemistry I",
+      "description": "This course provides an introduction to the principles of organic chemistry. Topics include the structure and reactivity of organic molecules, stereochemistry, reaction mechanisms, synthesis and reactions of alkanes, alkenes, alkynes, and alkyl halides.",
+      "prerequisites": ["General Chemistry"]
+    },
+    {
+      "name": "Physical Chemistry I",
+      "description": "This course provides an introduction to the principles of physical chemistry. Topics include thermodynamics, kinetics, quantum mechanics, spectroscopy, and statistical mechanics.",
+      "prerequisites": ["General Chemistry", "Calculus I"]
+    }
+  ],
+  [
+    {
+      "name": "Organic Chemistry II",
+      "description": "This course provides a continuation of the principles of organic chemistry. Topics include the synthesis and reactions of aromatic compounds, carbonyl compounds, carboxylic acids and their derivatives, and biomolecules.",
+      "prerequisites": ["Organic Chemistry I"]
+    },
+    {
+      "name": "Physical Chemistry II",
+      "description": "This course provides a continuation of the principles of physical chemistry. Topics include chemical thermodynamics, phase transitions, electrochemistry, and surface science.",
+      "prerequisites": ["Physical Chemistry I", "Calculus II"]
+    }
+  ],
+  [
+    {
+      "name": "Inorganic Chemistry",
+      "description": "This course provides an introduction to the principles of inorganic chemistry. Topics include atomic structure, bonding, coordination chemistry, solid state chemistry, and bioinorganic chemistry.",
+      "prerequisites": ["General Chemistry", "Physical Chemistry II"]
+    },
+    {
+      "name": "Nuclear Chemistry",
+      "description": "This course provides an introduction to the principles of nuclear chemistry. Topics include nuclear properties, nuclear reactions, decay, radiation detection, and applications of nuclear chemistry.",
+      "prerequisites": ["Physical Chemistry II"]
+    }
+  ]
+]

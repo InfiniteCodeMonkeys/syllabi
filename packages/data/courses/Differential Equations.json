@@ -1,0 +1,39 @@
+[
+  {
+    "name": "Calculus I",
+    "description": "This course introduces students to the principles of calculus. Students will learn about limits, derivatives, and integrals."
+    "prerequisites": []
+  }, 
+  {
+    "name": "Calculus II",
+    "description": "This course builds upon the principles learned in Calculus I. Students will learn about advanced integration techniques, series, and sequences.",
+    "prerequisites": ["Calculus I"]
+  },
+  {
+    "name": "Linear Algebra",
+    "description": "This course introduces students to the principles of linear algebra. Students will learn about matrices, determinants, vectors, and vector spaces.",
+    "prerequisites": ["Calculus II"]
+  },
+  [
+    {
+      "name": "Differential Equations",
+      "description": "This course introduces students to the principles of ordinary differential equations. Students will learn about first-order differential equations, second-order differential equations, higher-order differential equations, and systems of differential equations.",
+      "prerequisites": ["Calculus II"]
+    },
+    {
+      "name": "Probability Theory",
+      "description": "This course introduces students to the principles of probability theory. Students will learn about the axioms of probability, conditional probability, independence, random variables, expected values, probability distributions, and limit theorems.",
+      "prerequisites": ["Calculus II"]
+    }
+  ],  
+  {
+    "name": "Numerical Analysis",
+    "description": "This course introduces students to the principles of numerical analysis. Students will learn about numerical methods for finding roots of equations, numerical methods for solving systems of equations, and numerical methods for approximating integrals and derivatives.",
+    "prerequisites": ["Differential Equations"]
+  },
+  {
+    "name": "Partial Differential Equations",
+    "description": "This course introduces students to the principles of partial differential equations. Students will learn about boundary value problems, initial value problems, and numerical methods for solving partial differential equations.",
+    "prerequisites": ["Differential Equations", "Linear Algebra"]
+  }
+]

@@ -1,0 +1,72 @@
+[
+{
+  "name": "Calculus I",
+  "description": "This course introduces students to single-variable calculus and its applications. Topics include limits and continuity, differentiation, integration, and the Fundamental Theorem of Calculus. Applications include optimization, related rates, and area and volume computations.",
+  "prerequisites": []
+},
+
+{
+  "name": "Physics I",
+  "description": "This course introduces students to the principles and applications of mechanics. Topics include kinematics, forces, energy, momentum, rotational dynamics, and oscillations. Applications include free-body diagrams and motion in one and two dimensions.",
+  "prerequisites": ["Calculus I"]
+},
+{
+  "name": "Statics",
+  "description": "This course introduces students to the principles of statics. Topics include forces, moments, equilibrium, trusses, frames and machines.",
+  "prerequisites": ["Physics I"]
+},
+{
+  "name": "Dynamics",
+  "description": "This course introduces students to the principles of dynamics. Topics include kinematics and kinetics of particles and rigid bodies, work and energy, impulse and momentum.",
+  "prerequisites": ["Physics I"]
+},
+[
+{
+  "name": "Calculus II",
+  "description": "This course continues the study of calculus from Calculus I. Topics include techniques of integration, differential equations, infinite series, and sequences.",
+  "prerequisites": ["Calculus I"]
+},
+{
+  "name": "Physics II",
+  "description": "This course continues the study of physics from Physics I. Topics include electricity, magnetism, and waves.",
+  "prerequisites": ["Calculus I", "Physics I"]
+},
+],
+{
+"name": "Structural Mechanics",
+"description": "This course applies the principles of statics, dynamics, and material science to the behavior of structures. Topics include stress and strain, axial and torsion loads, bending moments and shearing forces, deflection and deformation, and failure theories.",
+"prerequisites": ["Statics", "Dynamics", "Physics II"]
+},
+{
+"name": "Mechanics of Materials",
+"description": "This course applies the principles of statics, dynamics, and material science to the behavior of materials. Topics include stress and strain, axial and torsion loads, bending moments and shearing forces, and deflection and deformation.",
+"prerequisites": ["Structural Mechanics"]
+},
+[
+{
+  "name": "Calculus III",
+  "description": "This course extends the study of calculus from Calculus II. Topics include multivariable calculus, partial derivatives, multiple integrals, and vector calculus.",
+  "prerequisites": ["Calculus II"]
+},
+{
+  "name": "Differential Equations",
+  "description": "This course is an introduction to ordinary differential equations. Topics include first order differential equations, second order linear differential equations, power series solutions, and Laplace transform solutions.",
+  "prerequisites": ["Calculus II"]
+},
+],
+{
+"name": "Structural Analysis",
+"description": "This course applies the principles of mechanics of materials and calculus to the analysis of structures. Topics include determinate and indeterminate systems, force and displacement methods, influence lines, and matrix methods.",
+"prerequisites": ["Mechanics of Materials", "Calculus III"]
+},
+{
+"name": "Fundamentals of Geotechnical Engineering",
+"description": "This course covers the basic principles of geotechnical engineering. Topics include soil classification, soil properties and behavior, subsurface exploration, groundwater flow, and earth retaining structures.",
+"prerequisites": ["Structural Analysis"]
+},
+{
+"name": "Fundamentals of Structural Design",
+"description": "This course applies the principles of mechanics of materials and structural analysis to the design of structures. Topics include design of beams, columns, and connections, safety and serviceability considerations, and building codes.",
+"prerequisites": ["Structural Analysis"]
+}
+]

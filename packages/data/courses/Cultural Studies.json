@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Introduction to Cultural Studies",
+    "description": "This course provides an overview of the field of Cultural Studies, including topics such as the history of Cultural Studies, cultural theory, and interdisciplinary approaches to studying culture.",
+    "prerequisites": []
+  },
+  [
+    {
+      "name": "Media and Society",
+      "description": "This course examines the relationship between media and society, focusing on topics such as media ownership, media representation, and media effects.",
+      "prerequisites": []
+    },
+    {
+      "name": "Visual Culture",
+      "description": "This course explores the role of visual culture in shaping our understanding of the world, including topics such as the history of visual culture, the politics of representation, and the relationship between image and text.",
+      "prerequisites": []
+    }
+  ],
+  {
+    "name": "Globalization and Culture",
+    "description": "This course examines the impact of globalization on culture and society, including topics such as the global flow of culture, transnationalism, and hybridity.",
+    "prerequisites": ["Introduction to Cultural Studies"]
+  },
+  [
+    {
+      "name": "Gender and Culture",
+      "description": "This course explores the relationship between gender and culture, focusing on topics such as the construction of gender identity, the representation of gender in media and popular culture, and the intersection of gender with other forms of identity.",
+      "prerequisites": ["Introduction to Cultural Studies"]
+    },
+    {
+      "name": "Race and Ethnicity in American Culture",
+      "description": "This course examines the role of race and ethnicity in American culture, including topics such as the history of race and ethnicity in America, the politics of representation, and the intersection of race and class.",
+      "prerequisites": ["Introduction to Cultural Studies"]
+    }
+  ],
+  {
+    "name": "Cultural Studies Research Methods",
+    "description": "This course provides an introduction to research methods in the field of Cultural Studies, including topics such as ethnography, textual analysis, and critical discourse analysis.",
+    "prerequisites": ["Introduction to Cultural Studies"]
+  },
+  {
+    "name": "Cultural Studies Senior Seminar",
+    "description": "In this seminar, students will synthesize their knowledge of the field of Cultural Studies and complete a research project on a topic of their choice.",
+    "prerequisites": ["Introduction to Cultural Studies", "Globalization and Culture", "Cultural Studies Research Methods"]
+  }
+]

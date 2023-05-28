@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Classical Mechanics",
+    "description": "This course covers advanced topics in classical mechanics, including Newtonian mechanics, Lagrangian mechanics, Hamiltonian mechanics, and the calculus of variations. Students will learn the mathematical tools needed for the study of biophysics, such as differential equations, linear algebra, and vector calculus.",
+    "prerequisites": []
+  },
+  {
+    "name": "Thermodynamics and Statistical Mechanics",
+    "description": "This course covers the principles of thermodynamics, including the laws of thermodynamics, thermodynamic potentials, and thermodynamic cycles. It also covers statistical mechanics, including the Maxwell-Boltzmann, Fermi-Dirac, and Bose-Einstein distributions, and their applications to systems with large numbers of particles.",
+    "prerequisites": ["Classical Mechanics"]
+  },
+  {
+    "name": "Electromagnetism",
+    "description": "This course covers the principles of electromagnetism, including electrostatics, magnetostatics, electromagnetic waves, and the properties of matter in an electromagnetic field. It also covers the mathematical tools needed for the study of biophysics, such as vector calculus and complex analysis.",
+    "prerequisites": ["Classical Mechanics"]
+  },
+  {
+    "name": "Optics",
+    "description": "This course covers the principles of optics, including the wave and ray models of light, reflection and refraction, interference and diffraction, polarization, and optical instruments. It also covers the applications of optics in biophysics, such as microscopy and spectroscopy.",
+    "prerequisites": ["Electromagnetism"]
+  },
+  {
+    "name": "Quantum Mechanics",
+    "description": "This course covers the principles of quantum mechanics, including the Schrödinger equation, wave-particle duality, quantum states and operators, and the hydrogen atom. It also covers the mathematical tools needed for the study of quantum mechanics, such as linear algebra and operator theory.",
+    "prerequisites": ["Thermodynamics and Statistical Mechanics", "Electromagnetism"]
+  },
+  {
+    "name": "Biophysics",
+    "description": "This course covers the applications of physics to biological systems, including the principles of molecular and cellular biophysics, thermodynamics in biological systems, and the physics of biological membranes and ion channels. It also covers the use of physical techniques in the study of biological systems, such as X-ray crystallography, NMR spectroscopy, and microscopy.",
+    "prerequisites": ["Quantum Mechanics"]
+  },
+  {
+    "name": "Computational Biophysics",
+    "description": "This course covers the principles of computational modeling and simulation in biophysics, including the molecular dynamics method, Monte Carlo simulations, and Brownian dynamics simulations. It also covers the applications of computational biophysics in the study of biological systems, such as protein folding, DNA structure, and drug design.",
+    "prerequisites": ["Biophysics"]
+  }
+]

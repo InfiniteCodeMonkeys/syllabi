@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Introduction to Proof",
+    "description": "This course introduces students to the basics of mathematical proof-writing. Students will learn about logical operators, quantifiers, elementary set theory, relations, functions, partitions and equivalence relations, mathematical induction, and basic combinatorial principles. ",
+    "prerequisites": []
+  },
+  [
+    {
+      "name": "Discrete Mathematics",
+      "description": "This course introduces students to discrete mathematics, which is the foundation of computer science and the backbone for much of modern applied mathematics. Students will learn about sets, relations, counting principles, permutations and combinations, graphs, trees, Boolean algebra, and propositional logic.",
+      "prerequisites": ["Introduction to Proof"]
+    },
+    {
+      "name": "Probability Theory",
+      "description": "This course introduces students to probability theory, the study of random events. Students will learn about probability axioms, conditional probability, independence, random variables, and expected values.",
+      "prerequisites": ["Introduction to Proof"]
+    }
+  ],
+  {
+    "name": "Combinatorial Theory and Graph Theory",
+    "description": "This course is an intermediate-level course that explores the combinatorial methods and graph theory techniques used in discrete mathematics. Students will learn about generating functions, recurrences, inclusion-exclusion principle, lecture hall partitions, Ramsey theory, trees, and matching theory.",
+    "prerequisites": ["Discrete Mathematics"]
+  },
+  {
+    "name": "Design and Analysis of Algorithms",
+    "description": "This course covers the design and analysis of algorithms, which is a central area in computer science. Students will learn about basic algorithmic techniques, such as divide and conquer, dynamic programming, and greedy algorithms. The course also covers combinatorial algorithms, such as sorting and searching, graph algorithms, and approximation algorithms.",
+    "prerequisites": ["Discrete Mathematics"]
+  },
+  [
+    {
+      "name": "Introduction to Cryptography",
+      "description": "This course introduces students to the basics of cryptography, the science of secure communication. Students will learn about classical cryptography, symmetric-key cryptography, public-key cryptography, hash functions, digital signatures, and cryptographic protocols.",
+      "prerequisites": ["Discrete Mathematics"]
+    },
+    {
+      "name": "Combinatorial Optimization",
+      "description": "This course covers the study of combinatorial optimization problems and techniques for solving them. Students will learn about approximation algorithms, linear programming, integer programming, graph algorithms, and polyhedral combinatorics.",
+      "prerequisites": ["Discrete Mathematics"]
+    }
+  ],
+  {
+    "name": "Probabilistic Combinatorics",
+    "description": "This is an advanced course that covers probabilistic methods in combinatorics and computer science. Students will learn about the probabilistic method, random graphs, Markov chains, and randomized algorithms.",
+    "prerequisites": ["Combinatorial Theory and Graph Theory", "Probability Theory"]
+  }
+]

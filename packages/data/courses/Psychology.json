@@ -1,0 +1,131 @@
+[
+  {
+    "name": "Introductory Psychology",
+    "description": "This course introduces students to the fundamental concepts and theories of psychology. Topics include neuroscience, sensation and perception, learning, memory, cognition, motivation, emotion, personality, social psychology, and abnormal psychology.",
+    "prerequisites": []
+  },
+  {
+    "name": "Statistics for Psychology",
+    "description": "This course covers the basic concepts of statistical methods as they apply to behavioral research and data analysis in psychology. Topics include descriptive statistics, inferential statistics, probability theory, sampling distributions, hypothesis testing, correlation and regression, and analysis of variance.",
+    "prerequisites": ["Introductory Psychology"]
+  },
+  [
+      {
+        "name": "Research Methods in Psychology",
+        "description": "This course introduces students to the principles and techniques involved in conducting psychological research. Topics include research design, sampling procedures, measurement techniques, data collection methods, data analysis, and interpretation of results.",
+        "prerequisites": ["Introductory Psychology"]
+      },
+      {
+        "name": "Social Psychology",
+        "description": "This course introduces students to the study of social behavior and mental processes in individuals and groups. Topics include social influence, attitudes, persuasion, group dynamics, intergroup relations, aggression, and prosocial behavior.",
+        "prerequisites": ["Introductory Psychology"]
+      }
+  ],
+  [
+      {
+        "name": "Cognitive Psychology",
+        "description": "This course introduces students to the study of mental processes such as attention, perception, memory, language, and problem solving. Topics include information processing, cognitive development, and cognitive neuroscience.",
+        "prerequisites": ["Introductory Psychology"]
+      },
+      {
+        "name": "Developmental Psychology",
+        "description": "This course introduces students to the study of human development across the lifespan. Topics include physical, cognitive, and social-emotional development, as well as major theories of development.",
+        "prerequisites": ["Introductory Psychology"]
+      }
+  ],
+  {
+    "name": "Abnormal Psychology",
+    "description": "This course introduces students to the major diagnostic categories and psychological disorders of clinical psychology. Topics include the etiology, symptoms, and treatment of disorders such as anxiety, mood, psychotic, and personality disorders.",
+    "prerequisites": ["Introductory Psychology"]
+  },
+  [
+      {
+        "name": "Personality Psychology",
+        "description": "This course introduces students to the study of personality and individual differences. Topics include major theoretical perspectives, measurement techniques, assessment of personality traits, and the relationship between personality and behavior.",
+        "prerequisites": ["Introductory Psychology"]
+      },
+      {
+        "name": "Sensation and Perception",
+        "description": "This course introduces students to the neural and cognitive processes involved in sensation and perception. Topics include sensation, perception, attention, and the relationship between sensory experience and behavior.",
+        "prerequisites": ["Introductory Psychology"]
+      }
+  ],
+  {
+    "name": "Cultural Psychology",
+    "description": "This course introduces students to the study of cultural influences on human behavior and mental processes. Topics include cultural norms, values, beliefs, and practices, as well as cross-cultural comparisons of cognition, emotion, and perception.",
+    "prerequisites": ["Introductory Psychology"]
+  }
+][
+  {
+    "name": "Introduction to Psychology",
+    "description": "This course introduces students to the fundamental concepts of psychology and explores ways of understanding behavior and experience, including perception, learning, memory, motivation, emotion, personality, social behavior, and psychological disorders.",
+    "prerequisites": []
+  },
+  {
+    "name": "Research Methods in Psychology",
+    "description": "This course covers research design and analysis methods for psychology. Students will learn how to design empirical studies, collect and analyze data, and report results.",
+    "prerequisites": ["Introduction to Psychology"]
+  },
+  {
+    "name": "Statistics for Psychology",
+    "description": "This course covers descriptive and inferential statistics for psychology. Students will learn how to use statistical software to analyze data and interpret results.",
+    "prerequisites": ["Introduction to Psychology"]
+  },
+  {
+    "name": "Abnormal Psychology",
+    "description": "This course examines the definition, causes, and treatments of abnormal behavior, including various forms of psychopathology, such as anxiety disorders, mood disorders, personality disorders, and psychotic disorders.",
+    "prerequisites": ["Introduction to Psychology"]
+  },
+  {
+    "name": "Social Psychology",
+    "description": "This course explores how social factors shape behavior, thoughts, and emotions. Topics include social influence, group dynamics, intergroup relations, prejudice and discrimination, and prosocial behavior.",
+    "prerequisites": ["Introduction to Psychology"]
+  },
+  {
+    "name": "Developmental Psychology",
+    "description": "This course covers human development across the lifespan, including physical, cognitive, and social-emotional development. Topics include nature vs. nurture, attachment, language development, and aging.",
+    "prerequisites": ["Introduction to Psychology"]
+  },
+  {
+    "name": "Cognitive Psychology",
+    "description": "This course covers topics related to mental processes, such as attention, perception, memory, language, and problem-solving. Students will explore cognitive psychology research methods and theories.",
+    "prerequisites": ["Introduction to Psychology"]
+  },
+  {
+    "name": "Personality Psychology",
+    "description": "This course covers theories and research related to personality, including psychodynamic, trait, social-cognitive, and humanistic approaches. Students will explore the influence of personality on behavior and well-being.",
+    "prerequisites": ["Introduction to Psychology"]
+  },
+  {
+    "name": "History and Systems of Psychology",
+    "description": "This course explores the historical and philosophical foundations of psychology, and how different schools of thought have contributed to the development of the discipline.",
+    "prerequisites": ["Introduction to Psychology"]
+  },
+  [
+    {
+      "name": "Psychology of Learning",
+      "description": "This course covers various theories and approaches to learning, including classical and operant conditioning, observational learning, and cognitive approaches. Students will learn how to apply learning principles to real-world situations.",
+      "prerequisites": ["Introduction to Psychology"]
+    },
+    {
+      "name": "Sensation and Perception",
+      "description": "This course covers the basic principles and research methods of sensation and perception, including how we perceive color, sound, touch, and other sensory information.",
+      "prerequisites": ["Introduction to Psychology"]
+    }
+  ],
+  {
+    "name": "Clinical Psychology",
+    "description": "This course covers various approaches to clinical psychology, including psychoanalytic, cognitive-behavioral, and humanistic approaches. Students will explore the diagnosis, assessment, and treatment of psychological disorders.",
+    "prerequisites": ["Introduction to Psychology", "Abnormal Psychology"]
+  },
+  {
+    "name": "Health Psychology",
+    "description": "This course covers how biological, psychological, and social factors influence health and illness. Students will explore how to promote health and prevent illness through behavior change and other interventions.",
+    "prerequisites": ["Introduction to Psychology"]
+  },
+  {
+    "name": "Positive Psychology",
+    "description": "This course examines human flourishing and well-being, and explores positive emotions, positive relationships, and positive institutions. Students will learn about the research and applications of positive psychology.",
+    "prerequisites": ["Introduction to Psychology"]
+  }
+]

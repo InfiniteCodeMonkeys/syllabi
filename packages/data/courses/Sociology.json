@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Introduction to Sociology",
+    "description": "This course introduces students to sociology as a major field of inquiry within the social sciences, emphasizing the ways in which sociologists study social structures, institutions, and groups, as well as the role of culture, history, and power in shaping social life.",
+    "prerequisites": []
+  },
+  {
+    "name": "Research Methods in Sociology",
+    "description": "This course introduces students to the tools and methods that sociologists use to study the social world, including how to conduct empirical research, analyze data, and draw valid conclusions.",
+    "prerequisites": ["Introduction to Sociology"]
+  },
+  [
+    {
+      "name": "Social Theory",
+      "description": "This course introduces students to the major intellectual traditions that have shaped the discipline of sociology, exploring the work of major thinkers such as Durkheim, Marx, and Weber. ",
+      "prerequisites": ["Introduction to Sociology"]
+    },
+    {
+      "name": "Globalization and Society",
+      "description": "This course examines the processes of globalization and their impacts on societies around the world, considering the economic, political, cultural, and social changes brought about by globalization and the responses of individuals and communities to these changes.",
+      "prerequisites": ["Introduction to Sociology"]
+    }
+  ],
+  {
+    "name": "Race and Ethnic Relations",
+    "description": "This course examines the social, economic and political processes that shape racial inequality and ethnic division in contemporary societies, focusing on the ways in which race and ethnicity intersect with gender, class, sexuality, and other social inequalities.",
+    "prerequisites": ["Introduction to Sociology"]
+  },
+  {
+    "name": "Gender and Society",
+    "description": "This course explores the social construction of gender, examining how gender is experienced and enacted in different cultures and societies, and how gender intersects with other systems of social stratification and power.",
+    "prerequisites": ["Introduction to Sociology"]
+  },
+  [
+    {
+      "name": "Political Sociology",
+      "description": "This course examines the social and political processes through which power is distributed, contested, and exercised in contemporary societies, focusing on the ways in which political institutions, interests, and ideologies interact with social structures and cultural values.",
+      "prerequisites": ["Introduction to Sociology"]
+    },
+    {
+      "name": "Social Inequality",
+      "description": "This course investigates the social structures and processes that create and sustain social inequality, including economic stratification, racial and ethnic disparities, and gender inequities, and how these inequalities are reproduced and challenged over time.",
+      "prerequisites": ["Introduction to Sociology"]
+    }
+  ],
+  {
+    "name": "Social Change",
+    "description": "This course explores the complex and multifaceted processes of social change, including the causes, consequences, and interactions of economic, political, cultural, and technological changes at different levels of analysis.",
+    "prerequisites": ["Introduction to Sociology"]
+  },
+  {
+    "name": "Capstone Seminar in Sociology",
+    "description": "This course provides an opportunity for students to integrate and apply their knowledge of sociology, drawing on the theories, methods, and concepts they have learned to address a substantive social issue or problem in depth.",
+    "prerequisites": ["Research Methods in Sociology", "any two 300-level sociology courses"]
+  }
+]

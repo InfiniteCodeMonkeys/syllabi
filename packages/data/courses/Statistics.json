@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Calculus",
+    "description": "This course introduces students to the principles of calculus. Students will learn about limits, derivatives, and integrals.",
+    "prerequisites": []
+  },
+  {
+    "name": "Linear Algebra",
+    "description": "This course introduces students to the principles of linear algebra. Students will learn about vectors, matrices, and transformations.",
+    "prerequisites": ["Calculus"]
+  },
+  {
+    "name": "Probability Theory",
+    "description": "This course introduces students to the principles of probability theory. Students will learn about random variables, distributions, and expectation.",
+    "prerequisites": ["Calculus"]
+  },
+  {
+    "name": "Mathematical Statistics",
+    "description": "This course introduces students to the principles of mathematical statistics. Students will learn about estimation, hypothesis testing, and regression analysis.",
+    "prerequisites": ["Probability Theory"]
+  },
+  {
+    "name": "Multivariate Analysis",
+    "description": "This course introduces students to the principles of multivariate analysis. Students will learn about principal component analysis, factor analysis, and cluster analysis.",
+    "prerequisites": ["Linear Algebra", "Mathematical Statistics"]
+  },
+  {
+    "name": "Time Series Analysis",
+    "description": "This course introduces students to the principles of time series analysis. Students will learn about autocorrelation, ARIMA models, and forecasting.",
+    "prerequisites": ["Mathematical Statistics"]
+  }
+]

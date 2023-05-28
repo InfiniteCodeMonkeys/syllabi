@@ -1,0 +1,88 @@
+[
+  {
+    "name": "Introduction to Engineering",
+    "description": "This course provides an overview of the field of engineering, including the different disciplines, their histories, and how they are used in practice. Students will learn about the scientific method, the design process, and how to work collaboratively on projects. They will also explore career opportunities in engineering."
+    "prerequisites": []
+  },
+  [
+    {
+      "name": "Calculus I",
+      "description": "This course provides students with an introduction to differential and integral calculus. They will learn about functions, limits, continuity, derivatives, and integrals, as well as their applications in engineering."
+      "prerequisites": []
+    },
+    {
+      "name": "General Chemistry",
+      "description": "This course introduces students to the fundamental principles of chemistry, including atomic structure, chemical bonding, stoichiometry, gases, liquids, solids, and solutions. They will also learn about thermodynamics, chemical equilibrium, acids and bases, and electrochemistry."
+      "prerequisites": []
+    }
+  ],
+  [
+    {
+      "name": "Calculus II",
+      "description": "This course is an extension of Calculus I, covering topics such as integration techniques, differential equations, sequences, series, and power series. Students will also learn about vectors and parametric equations, as well as their applications in engineering."
+      "prerequisites": ["Calculus I"]
+    },
+    {
+      "name": "Physics I",
+      "description": "This course covers the principles of classical mechanics, including motion, forces, energy, momentum, rotational motion, and oscillations. Students will also learn about the properties of matter, such as density, elasticity, and viscosity."
+      "prerequisites": []
+    }
+  ],
+  [
+    {
+      "name": "Statics",
+      "description": "This course provides an introduction to the principles of statics, including the analysis of forces on rigid bodies at rest in two and three dimensions. Students will learn about the basic theories of mechanics and apply them to solving real-world engineering problems."
+      "prerequisites": ["Calculus II", "Physics I"]
+    },
+    {
+      "name": "Dynamics",
+      "description": "This course covers the principles of dynamics, including the analysis of forces on rigid bodies in motion in two and three dimensions. Students will learn about the basic theories of mechanics and apply them to solving real-world engineering problems."
+      "prerequisites": ["Calculus II", "Physics I"]
+    }
+  ],
+  [
+    {
+      "name": "Thermodynamics",
+      "description": "This course introduces students to the basic principles of thermodynamics, including the first and second laws, heat transfer, and thermodynamic cycles. They will also learn about the properties of gases, liquids and solids, as well as the thermodynamic properties of substances."
+      "prerequisites": ["Calculus II", "Physics I", "General Chemistry"]
+    },
+    {
+      "name": "Fluid Mechanics",
+      "description": "This course covers the principles of fluid mechanics, including hydrostatics, fluid kinematics, conservation laws, and dimensional analysis. Students will also explore topics in fluid dynamics such as boundary layers, turbulence, and flow in pipes and open channels."
+      "prerequisites": ["Calculus II", "Physics I"]
+    }
+  ],
+  {
+    "name": "Engineering Mechanics",
+    "description": "This course is an application of mechanics to the analysis of real-world engineering problems. It covers topics such as stress and strain analysis, beam bending, torsion, and structural dynamics. Students will also learn about the design and analysis of mechanical systems."
+    "prerequisites": ["Calculus II", "Physics I", "Statics", "Dynamics"]
+  },
+  [
+    {
+      "name": "Soil Mechanics",
+      "description": "This course provides an introduction to the principles of soil mechanics, including soil properties, soil classification, soil compaction, and shear strength. Students will also learn about geotechnical engineering and its applications."
+      "prerequisites": ["Calculus II", "Physics I"]
+    },
+    {
+      "name": "Hydrology",
+      "description": "This course covers the principles of hydrology, including the study of water in the natural environment, such as flows, water quality, erosion, and groundwater. Students will also learn about the design and analysis of hydraulic systems."
+      "prerequisites": ["Calculus II", "Physics I"]
+    }
+  ],
+  {
+    "name": "Crop Science and Soil Fertility",
+    "description": "This course provides an overview of soil fertility and crop science, including soil properties, plant nutrition, fertilizers, and soil management. Students will learn about the relationships between soil fertility and crop production, and about the latest research and practical application of soil fertility management."
+    "prerequisites": ["Calculus II", "Physics I", "Soil Mechanics"]
+  },
+  [
+    {
+      "name": "Irrigation and Drainage",
+      "description": "This course introduces students to the principles of hydrology, irrigation, and drainage design, including the design and analysis of irrigation and drainage systems. Students will also learn about the latest technology in sprinkler irrigation, drip irrigation, and subsurface irrigation."
+      "prerequisites": ["Calculus II", "Physics I", "Fluid Mechanics"]
+    },
+    {
+      "name": "Structures and Environmental Control",
+      "description": "This course covers the fundamentals of structural engineering and environmental control systems, including building codes, loadings, design of steel, concrete and timber structures, heating, ventilation, air conditioning, and refrigeration (HVAC&R) systems. Students will learn how to analyze, design, and evaluate structural systems and the environmental control of buildings."
+      "prerequisites": ["Calculus II", "Physics I", "Engineering Mechanics"]
+    }
+  ]

@@ -1,0 +1,61 @@
+[
+  {
+    "name":"Introduction to Astronomy",
+    "description":"This course provides an overview of the principles of astronomy. Students will learn about the structure and function of the universe, the laws of physics and thermodynamics, and the tools and techniques used to observe and study celestial objects.",
+    "prerequisites": []
+  },
+  {
+    "name":"Calculus I",
+    "description":"This course introduces students to the principles of calculus and analytic geometry. Students will learn about limits and continuity, differentiation and integration of elementary functions, and optimization and related rates applications.",
+    "prerequisites": []
+  },
+  {
+    "name":"Physics I",
+    "description":"This course introduces students to the principles of classical mechanics, including motion, forces, energy, momentum, and rotational motion. Students will learn about kinematics and dynamics of particles, systems of particles, and rigid bodies using algebra and calculus.",
+    "prerequisites": ["Calculus I"]
+  },
+  [
+    {
+      "name":"Astronomy and Astrophysics I",
+      "description":"This course introduces students to the principles of stellar and planetary systems. Students will learn about the properties, structure, and evolution of stars, the formation and evolution of planetary systems, and the observational methods used to study them.",
+      "prerequisites": []
+    },
+    {
+      "name":"Physical Optics",
+      "description":"This course introduces students to the principles of physical optics. Students will learn about the behavior of light, including reflection, refraction, and interference, using the wave model, and diffraction of light using the wave model and diffraction grating.",
+      "prerequisites": ["Physics I", "Calculus I"]
+    }
+  ],
+  {
+    "name":"Modern Astronomy",
+    "description":"This course introduces students to the principles of modern astronomy. Students will learn about the latest discoveries in astronomy, including the discovery of extrasolar planets, dark matter, and dark energy, and the observable universe.",
+    "prerequisites": ["Astronomy and Astrophysics I"]
+  },
+  {
+    "name":"Galactic Astronomy",
+    "description":"This course introduces students to the principles of galactic astronomy. Students will learn about the properties, structure, and evolution of our own galaxy and other galaxies, and the observational methods used to study them.",
+    "prerequisites": ["Modern Astronomy"]
+  },
+  {
+    "name":"Astronomical Techniques and Instrumentation",
+    "description":"This course introduces students to the principles of astronomical techniques and instrumentation. Students will learn about the technology and instruments used to observe celestial objects, including telescopes, cameras, and spectrographs, and the analysis of astronomical data.",
+    "prerequisites": ["Modern Astronomy"]
+  },
+  [
+    {
+      "name":"Astronomy and Astrophysics II",
+      "description":"This course introduces students to the principles of cosmology and high-energy astrophysics. Students will learn about the properties, structure, and evolution of the universe, including the Big Bang, dark matter, and the cosmic microwave background radiation, and the study of high-energy phenomena like pulsars and black holes.",
+      "prerequisites": ["Modern Astronomy"]
+    },
+    {
+      "name":"Introduction to Quantum Mechanics",
+      "description":"This course introduces students to the principles of quantum mechanics. Students will learn about the behavior of particles and wave functions, including the Born rule and the Schrödinger equation, and the interpretation of measurements in quantum mechanics.",
+      "prerequisites": ["Physics I", "Calculus I"]
+    }
+  ],
+  {
+    "name":"Advanced Galactic Astronomy",
+    "description":"This course provides an in-depth study of specific topics in galactic astronomy. Students will learn about the latest research in galactic astronomy, including topics like galactic formation and evolution, observational techniques, and planetary science.",
+    "prerequisites": ["Galactic Astronomy"]
+  }
+]

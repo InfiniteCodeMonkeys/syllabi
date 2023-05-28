@@ -1,0 +1,83 @@
+[
+  {
+    "name": "Calculus I",
+    "description": "This course focuses on functions, limits, continuity, derivatives, and their applications.",
+    "prerequisites": []
+  },
+  {
+    "name": "Calculus II",
+    "description": "This course focuses on integration, techniques of integration, applications of integration, sequences, and series.",
+    "prerequisites": ["Calculus I"]
+  },
+  {
+    "name": "Multivariable Calculus",
+    "description": "This course focuses on vectors, vector functions, partial derivatives, double and triple integrals, and their applications.",
+    "prerequisites": ["Calculus II"]
+  },
+  {
+    "name": "Differential Equations",
+    "description": "This course focuses on first-order differential equations, second-order linear differential equations, power series solutions, and Laplace transforms.",
+    "prerequisites": ["Calculus II"]
+  },
+  {
+    "name": "Linear Algebra",
+    "description": "This course focuses on systems of linear equations, vectors, matrices, determinants, eigenvalues, eigenvectors, and their applications.",
+    "prerequisites": ["Calculus II"]
+  },
+  [
+    {
+      "name": "Numerical Analysis",
+      "description": "This course focuses on numerical methods for solving equations and systems of equations, interpolation and approximation of functions, and numerical integration and differentiation.",
+      "prerequisites": ["Calculus II"]
+    },
+    {
+      "name": "Probability Theory",
+      "description": "This course focuses on probability, random variables, probability distributions, expectation, variance, covariance, and Central Limit Theorem.",
+      "prerequisites": ["Calculus II"]
+    }
+  ],
+  {
+    "name": "Mathematical Statistics",
+    "description": "This course focuses on inference, hypothesis testing, estimation, regression, and ANOVA.",
+    "prerequisites": ["Probability Theory"]
+  },
+  [
+    {
+      "name": "Optimization",
+      "description": "This course focuses on linear programming, integer programming, non-linear programming, and convex optimization.",
+      "prerequisites": ["Calculus II", "Linear Algebra"]
+    },
+    {
+      "name": "Graph Theory",
+      "description": "This course focuses on graphs, trees, connectivity, Euler and Hamiltonian cycles, planarity, and coloring.",
+      "prerequisites": ["Calculus II", "Linear Algebra"]
+    }
+  ],
+  {
+    "name": "Numerical Linear Algebra",
+    "description": "This course focuses on linear systems, matrix factorizations, eigenvalue problems, and iterative methods.",
+    "prerequisites": ["Linear Algebra", "Numerical Analysis"]
+  },
+  [
+    {
+      "name": "Partial Differential Equations",
+      "description": "This course focuses on first-order and second-order partial differential equations, separation of variables, Fourier series, and Fourier transforms.",
+      "prerequisites": ["Multivariable Calculus", "Differential Equations"]
+    },
+    {
+      "name": "Dynamical Systems",
+      "description": "This course focuses on systems of differential equations, stability, bifurcations, chaos, and applications to physics and engineering.",
+      "prerequisites": ["Multivariable Calculus", "Differential Equations"]
+    }
+  ],
+  {
+    "name": "Numerical Partial Differential Equations",
+    "description": "This course focuses on finite difference and finite element methods for solving partial differential equations.",
+    "prerequisites": ["Partial Differential Equations", "Numerical Analysis", "Numerical Linear Algebra"]
+  },
+  {
+    "name": "Applied Mathematics Seminar",
+    "description": "This course focuses on literature review and presentation of current research topics in applied mathematics.",
+    "prerequisites": ["Multivariable Calculus", "Differential Equations", "Linear Algebra", "Probability Theory", "Numerical Analysis", "Partial Differential Equations"]
+  }
+]

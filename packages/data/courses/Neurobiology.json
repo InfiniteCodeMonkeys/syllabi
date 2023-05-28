@@ -1,0 +1,39 @@
+[
+  {
+    "name": "Introductory Biology",
+    "description": "This course introduces students to the principles of biology. Students will learn about the scientific method, the structure and function of cells, the structure and function of DNA, the structure and function of proteins, the structure and function of organelles, the structure and function of tissues, the structure and function of organs, the structure and function of organ systems, the structure and function of organisms, the structure and function of populations, the structure and function of communities, the structure and function of ecosystems, the structure and function of the biosphere, the structure and function of the earth, the structure and function of the solar system, the structure and function of the galaxy, the structure and function of the universe, the structure and function of time, the structure and function of space, the structure and function of matter, the structure and function of energy, the structure and function of life, and the structure and function of death.",
+    "prerequisites": []
+  },
+  {
+    "name": "Cell Biology and Genetics",
+    "description": "This course introduces students to the principles of cell biology and genetics. Students will learn about the structure and function of cells, DNA, proteins, and organelles, as well as the basic principles of genetics such as genetic transmission, mutation, and gene expression.",
+    "prerequisites": ["Introductory Biology"]
+  },
+  {
+    "name": "Developmental Biology",
+    "description": "This course introduces students to the principles of developmental biology. Students will learn about the formation of tissues, organs, and organ systems, as well as the basic principles of embryology.",
+    "prerequisites": ["Cell Biology and Genetics"]
+  },
+  [
+    {
+      "name": "Neuroanatomy",
+      "description": "This course introduces students to the principles of neuroanatomy. Students will learn about the structure and function of the brain and nervous system at the cellular and systems level.",
+      "prerequisites": ["Cell Biology and Genetics"]
+    },
+    {
+      "name": "Neurophysiology",
+      "description": "This course introduces students to the principles of neurophysiology. Students will learn about the principles of electrical and chemical signaling in the nervous system, including neuronal membrane potential, synaptic transmission, and neurotransmitter function.",
+      "prerequisites": ["Cell Biology and Genetics"]
+    }
+  ],
+  {
+    "name": "Neurochemistry",
+    "description": "This course introduces students to the principles of neurochemistry. Students will learn about the biochemistry of neurotransmitters, including synthesis, storage, release, and reuptake.",
+    "prerequisites": ["Cell Biology and Genetics"]
+  },
+  {
+    "name": "Behavioral Neuroscience",
+    "description": "This course introduces students to the principles of behavioral neuroscience. Students will learn about the relationship between brain function and behavior, including topics such as learning and memory, emotion, motivation, and psychopathology.",
+    "prerequisites": ["Cell Biology and Genetics", "Neuroanatomy", "Neurophysiology"]
+  }
+]

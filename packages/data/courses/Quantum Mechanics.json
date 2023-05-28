@@ -1,0 +1,39 @@
+[
+  {
+    "name": "Mechanics",
+    "description": "This course introduces students to classical mechanics. Students will learn about the laws of motion, energy, and momentum, as well as other related topics and applications.",
+    "prerequisites": []
+  },
+  {
+    "name": "Electromagnetism",
+    "description": "This course introduces students to classical electromagnetism. Students will learn about electric and magnetic fields, Maxwell's equations, and other related topics and applications.",
+    "prerequisites": ["Mechanics"]
+  },
+  {
+    "name": "Thermodynamics and Statistical Mechanics",
+    "description": "This course introduces students to classical thermodynamics and statistical mechanics. Students will learn about temperature, entropy, free energy, and other related topics and applications.",
+    "prerequisites": ["Mechanics"]
+  },
+  [
+    {
+      "name": "Quantum Mechanics I",
+      "description": "This course introduces students to quantum mechanics. Students will learn about wave-particle duality, the Schrodinger equation, and other related topics and applications.",
+      "prerequisites": ["Mechanics", "Electromagnetism", "Thermodynamics and Statistical Mechanics"]
+    },
+    {
+      "name": "Mathematical Methods for Physicists",
+      "description": "This course introduces students to mathematical methods used in physics. Students will learn about vector calculus, linear algebra, complex analysis, and other related topics and applications.",
+      "prerequisites": ["Mechanics", "Electromagnetism", "Thermodynamics and Statistical Mechanics"]
+    }
+  ],
+  {
+    "name": "Quantum Mechanics II",
+    "description": "This course expands upon students' understanding of quantum mechanics. Students will learn about time-independent and time-dependent perturbation theory, the hydrogen atom, and other related topics and applications.",
+    "prerequisites": ["Quantum Mechanics I", "Mathematical Methods for Physicists"]
+  },
+  {
+    "name": "Quantum Field Theory",
+    "description": "This course introduces students to quantum field theory. Students will learn about the quantization of fields, Feynman diagrams, and other related topics and applications.",
+    "prerequisites": ["Quantum Mechanics II"]
+  }
+]

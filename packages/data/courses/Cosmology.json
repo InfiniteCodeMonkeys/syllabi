@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Calculus I",
+    "description": "This course introduces students to single-variable calculus. Students will learn about limits, derivatives, integrals, and applications of the derivative and integral.",
+    "prerequisites": []
+  },
+  {
+    "name": "Calculus II",
+    "description": "This course continues the study of single-variable calculus. Topics covered include techniques of integration, improper integrals, infinite series, and applications of integration.",
+    "prerequisites": ["Calculus I"]
+  },
+  {
+    "name": "Calculus III",
+    "description": "This course introduces students to multivariable calculus. Topics covered include vectors, lines and planes in space, functions of several variables, partial derivatives, optimization, double integrals, triple integrals, and vector calculus.",
+    "prerequisites": ["Calculus II"]
+  },
+  {
+    "name": "Linear Algebra",
+    "description": "This course introduces students to the study of vector spaces and linear transformations. Other topics covered include matrices, determinants, eigenvalues, eigenvectors, diagonalization, and applications to physics.",
+    "prerequisites": ["Calculus III"]
+  },
+  {
+    "name": "Classical Mechanics",
+    "description": "This course introduces students to the principles of classical mechanics. Topics covered include Newton's laws, Lagrangian mechanics, Hamiltonian mechanics, central forces, systems of particles, rigid bodies, and oscillations.",
+    "prerequisites": ["Calculus III", "Linear Algebra"]
+  },
+  {
+    "name": "Electromagnetism",
+    "description": "This course introduces students to the principles of electromagnetism. Topics covered include Coulomb's law, electric fields, electric potential, Gauss's law, Biot-Savart law, magnetic fields, Ampere's law, Faraday's law, Lenz's law, and Maxwell's equations.",
+    "prerequisites": ["Calculus III", "Linear Algebra"]
+  },
+  [
+    {
+      "name": "Modern Physics",
+      "description": "This course introduces students to the principles of modern physics. Topics covered include special relativity, wave-particle duality, the photoelectric effect, atomic structure, quantum mechanics, and applications to condensed matter physics.",
+      "prerequisites": ["Calculus III", "Linear Algebra"]
+    },
+    {
+      "name": "Thermal Physics",
+      "description": "This course introduces students to the principles of thermal physics. Topics covered include temperature, heat, laws of thermodynamics, ideal gases, kinetic theory, and entropy.",
+      "prerequisites": ["Calculus III", "Linear Algebra"]
+    }
+  ],
+  {
+    "name": "Astrophysics",
+    "description": "This course introduces students to the principles of astrophysics. Topics covered include the celestial sphere, stellar properties, black holes, galaxies, the expanding universe, dark matter, and dark energy.",
+    "prerequisites": ["Classical Mechanics", "Electromagnetism", "Modern Physics"]
+  },
+  {
+    "name": "Cosmology",
+    "description": "This course introduces students to the principles of cosmology. Topics covered include the cosmic microwave background, the early universe, inflation, the big bang, dark matter, dark energy, and the fate of the universe.",
+    "prerequisites": ["Astrophysics"]
+  }
+][
+  {
+    "name": "Introduction to Astronomy",
+    "description": "This course introduces students to the fundamental concepts of astronomy including the motion of celestial objects, how telescopes work, and some of the major achievements in astronomy throughout history. Students will also learn about the properties of light, stars, black holes, galaxies, and the large-scale structure of the universe.",
+    "prerequisites": []
+  },
+  {
+    "name": "Classical Mechanics",
+    "description": "This course covers the fundamental principles of classical mechanics including the laws of motion, conservation of energy, and conservation of momentum. Students will learn how to solve problems involving forces, motion, and energy using mathematical methods such as calculus.",
+    "prerequisites": []
+  },
+  {
+    "name": "Electromagnetism",
+    "description": "This course covers the fundamental principles of electromagnetism including the behavior of charged particles, electric and magnetic fields, and electromagnetic waves. Students will learn how to solve problems involving electric and magnetic fields using mathematical methods such as calculus.",
+    "prerequisites": []
+  },
+  {
+    "name": "Thermodynamics and Statistical Mechanics",
+    "description": "This course covers the fundamental principles of thermodynamics and statistical mechanics including the laws of thermodynamics, the behavior of gases, and thermodynamic cycles. Students will also learn about statistical distributions, the Boltzmann distribution, and the statistical interpretation of entropy.",
+    "prerequisites": ["Classical Mechanics"]
+  },
+  [
+    {
+      "name": "Introduction to Modern Physics",
+      "description": "This course introduces students to the fundamental concepts of modern physics including relativity, quantum mechanics, and atomic physics. Students will learn how to solve problems involving really small things and really fast things, and how our modern understanding of physics has transformed our understanding of the universe.",
+      "prerequisites": ["Classical Mechanics", "Electromagnetism"]
+    },
+    {
+      "name": "Introduction to Astrophysics",
+      "description": "This course covers the fundamental principles of astrophysics including the observational tools used to study the universe, the physical properties of stars and galaxies, and the life cycle of stars. Students will also learn about stellar nucleosynthesis, black holes, and cosmology.",
+      "prerequisites": ["Introduction to Astronomy", "Classical Mechanics", "Electromagnetism"]
+    }
+  ],
+  {
+    "name": "Cosmology",
+    "description": "This course covers the fundamental principles of cosmology including the large-scale structure of the universe, the expansion of the universe, the cosmic microwave background, and the formation and evolution of galaxies. Students will also learn about dark matter, dark energy, and the most recent discoveries in cosmology.",
+    "prerequisites": ["Introduction to Astronomy", "Thermodynamics and Statistical Mechanics", "Introduction to Modern Physics", "Introduction to Astrophysics"]
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Classical Mechanics",
+    "description": "This course introduces students to the principles of classical mechanics. Students will learn about the kinematics and dynamics of particles and rigid bodies, conservation laws, gravity, and oscillatory motion.",
+    "prerequisites": []
+  },
+  [{
+    "name": "Calculus",
+    "description": "This course is an introduction to calculus. Students will learn about functions, limits, continuity, derivatives, integrals, and infinite series.",
+    "prerequisites": []
+  },
+  {
+    "name": "Physics I",
+    "description": "This course is an introduction to Newtonian mechanics, wave phenomena, and thermodynamics. Students will learn about kinematics, dynamics, energy, momentum, waves, sound, temperature, heat, and thermal properties of matter.",
+    "prerequisites": ["Classical Mechanics", "Calculus"]
+  }],
+  {
+    "name": "Physics II",
+    "description": "This course is a continuation of Physics I and an introduction to electromagnetism and optics. Students will learn about electric and magnetic fields, electromagnetic waves, reflection and refraction, lenses, and mirrors.",
+    "prerequisites": ["Physics I"]
+  },
+  [{
+    "name": "Differential Equations",
+    "description": "This course is an introduction to ordinary differential equations. Students will learn about first-order equations, second-order equations, systems of first-order equations, and Laplace transforms.",
+    "prerequisites": ["Calculus"]
+  },
+  {
+    "name": "Thermodynamics",
+    "description": "This course is an introduction to thermodynamics. Students will learn about temperature, heat, work, the first law of thermodynamics, the second law of thermodynamics, entropy, and thermodynamic cycles.",
+    "prerequisites": ["Physics I"]
+  }],
+  {
+    "name": "Statistical Mechanics",
+    "description": "This course is an introduction to statistical mechanics. Students will learn about the basis of thermodynamics, the kinetic theory of gases, the partition function, entropy, quantum statistics, and applications to various systems.",
+    "prerequisites": ["Physics II"]
+  },
+  {
+    "name": "Advanced Thermodynamics",
+    "description": "This course is an advanced treatment of thermodynamics. Students will learn about thermodynamic potentials, the third law of thermodynamics, phase transitions, chemical reactions, and non-equilibrium thermodynamics.",
+    "prerequisites": ["Thermodynamics", "Statistical Mechanics"]
+  }
+]

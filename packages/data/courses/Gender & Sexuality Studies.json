@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Gender and Sexuality Studies: An Introduction",
+    "description": "This course introduces students to the key concepts, theories, and debates in the field of gender and sexuality studies. Students will learn about the social construction of gender and sexuality, the intersections of gender and sexuality with race, class, and other aspects of identity, and the ways in which gender and sexuality shape power and inequality in society.",
+    "prerequisites": []
+  },
+  {
+    "name": "Women's Studies",
+    "description": "This course provides an in-depth exploration of women's experiences, histories, and perspectives, drawing from feminist theories and methods. Students will learn about the ways in which gender intersects with other aspects of identity, including race, class, sexuality, and ability. The course will also cover the women's liberation movement and feminist activism.",
+    "prerequisites": ["Gender and Sexuality Studies: An Introduction"]
+  },
+  {
+    "name": "Queer Theory",
+    "description": "This course examines the theoretical and political frameworks that have emerged from the study of queer experiences, cultures, and politics. Students will critically engage with concepts like heteronormativity, the closet, and queer temporality, and will explore the intersections of queer theory with other fields like feminism, critical race theory, and disability studies.",
+    "prerequisites": ["Gender and Sexuality Studies: An Introduction"]
+  },
+  {
+    "name": "Beyond Binaries: Transgender Studies",
+    "description": "This course explores the experiences and perspectives of transgender and gender non-conforming individuals in society, culture, and history. Students will study the medicalization of transgender identities as well as trans resistance and activism. The course will also examine the intersections of transgender issues with race, class, and disability.",
+    "prerequisites": ["Gender and Sexuality Studies: An Introduction"]
+  },
+  {
+    "name": "Feminist Research and Methodologies",
+    "description": "This course introduces students to the various ways scholar-practitioners in feminist and queer studies approach research and politically-engaged methodologies. Students will learn feminist and queer theories of knowledge production, explore community-based approaches to research, and design an original research project.",
+    "prerequisites": ["Gender and Sexuality Studies: An Introduction"]
+  },
+  [
+    {
+      "name": "Intersections of Gender and Race",
+      "description": "This course explores the complex and intersecting experiences and social categories of gender and race as they shape social institutions and everyday life. Applying interdisciplinary theories and methods, we examine how cultures structure, naturalize, and contest social difference.",
+      "prerequisites": ["Gender and Sexuality Studies: An Introduction"]
+    },
+    {
+      "name": "Global Feminism(s)",
+      "description": "This course offers a transnational analysis of feminist issues, movements, and cultural productions. It examines the politics of feminist representation, women's rights, and activism across diverse cultures while acknowledging intersectional experiences of race, class, colonization, and migration",
+      "prerequisites": ["Gender and Sexuality Studies: An Introduction"]
+    }
+  ],
+  {
+    "name": "Queer of Color Critique",
+    "description": "This course examines queer lives and representations of people who are positioned in the intersection of multiple forms of oppression, such as race, class, gender, sexuality, and citizenship status. This course explores the broad range of theoretical generative queer of color scholarship and the ways it contributes to our broader understandings of sexualities, genders, race and nation.",
+    "prerequisites": ["Gender and Sexuality Studies: An Introduction", "Queer Theory"]
+  },
+  [
+    {
+      "name": "Sexual Politics",
+      "description": "This course explores the intersection of individuals and power. Students investigate the ways that public debate about sexuality often implicitly or overtly involves questions of power, citizenship, and the public good while examining contemporary controversies regarding sexual representation, gender violence, the law, sexual health, and sex work.",
+      "prerequisites": ["Gender and Sexuality Studies: An Introduction", "Women's Studies", "Queer Theory"]
+    },
+    {
+      "name": "Transnational Sexualities",
+      "description": "This course examines the diverse forms that sexuality takes cross cultural, regional, national and historical contexts. A transnational approach foregrounds the different meanings of sexuality within different social, cultural and economic contexts and challenges Western-centric studies of sexuality and desire.",
+      "prerequisites": ["Gender and Sexuality Studies: An Introduction"]
+    }
+  ]
+]

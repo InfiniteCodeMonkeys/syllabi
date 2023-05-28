@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Engineering Mechanics",
+    "description": "This course introduces the principles of engineering mechanics. Students will learn about vector mechanics, particle dynamics, rigid body dynamics, deformation and strain, stress, and energy.",
+    "prerequisites": []
+  },
+  [
+    {
+      "name": "Statics",
+      "description": "This course introduces the principles of statics. Students will learn about the equilibrium of particles and rigid bodies under different loading conditions.",
+      "prerequisites": ["Engineering Mechanics"]
+    },
+    {
+      "name": "Dynamics",
+      "description": "This course introduces the principles of dynamics. Students will learn about the motion of particles and rigid bodies under different loading and constraint conditions.",
+      "prerequisites": ["Statics", "Engineering Mechanics"]
+    }
+  ],
+  {
+    "name": "Mechanics of Materials",
+    "description": "This course introduces the principles of mechanics of materials. Students will learn about the deformation and stress analysis of materials under different loading conditions.",
+    "prerequisites": ["Statics", "Engineering Mechanics"]
+  },
+  [
+    {
+      "name": "Introduction to Geotechnical Engineering",
+      "description": "This course introduces the principles of geotechnical engineering. Students will learn about soil mechanics, rock mechanics, and foundation engineering.",
+      "prerequisites": ["Mechanics of Materials"]
+    },
+    {
+      "name": "Geology for Engineers",
+      "description": "This course introduces the principles of geology. Students will learn about the classification, formation, and properties of rocks and soil.",
+      "prerequisites": []
+    }
+  ],
+  {
+    "name": "Soil Mechanics",
+    "description": "This course introduces the principles of soil mechanics. Students will learn about soil properties, soil classification, soil compaction, and soil stabilization.",
+    "prerequisites": ["Introduction to Geotechnical Engineering", "Geology for Engineers"]
+  },
+  {
+    "name": "Foundation Engineering",
+    "description": "This course introduces the principles of foundation engineering. Students will learn about shallow and deep foundation design, bearing capacity, settlement, and slope stability.",
+    "prerequisites": ["Soil Mechanics", "Introduction to Geotechnical Engineering"]
+  },
+  [
+    {
+      "name": "Rock Mechanics",
+      "description": "This course introduces the principles of rock mechanics. Students will learn about rock properties, rock classification, rock drilling, and rock slope stability.",
+      "prerequisites": ["Soil Mechanics", "Introduction to Geotechnical Engineering"]
+    },
+    {
+      "name": "Tunneling",
+      "description": "This course introduces the principles of tunneling. Students will learn about tunnel types, tunnel construction methods, and tunnel design.",
+      "prerequisites": ["Rock Mechanics", "Foundation Engineering"]
+    }
+  ]  
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Introduction to Philosophy",
+    "description": "This course introduces basic philosophical concepts and ways of thinking. Topics may include epistemology, metaphysics, ethics, logic, and social/political philosophy.",
+    "prerequisites": []
+  },
+  {
+    "name": "Logic",
+    "description": "This course explores the principles and techniques of logic. Topics may include logical argumentation, deductive and inductive reasoning, and the study of fallacies.",
+    "prerequisites": ["Introduction to Philosophy"]
+  },
+  [
+    {
+      "name": "Epistemology",
+      "description": "This course examines theories of knowledge and their philosophical implications. Topics may include skepticism, justification, and the analysis of knowledge.",
+      "prerequisites": ["Introduction to Philosophy"]
+    },
+    {
+      "name": "Metaphysics",
+      "description": "This course explores the fundamental nature of reality. Topics may include ontology, causation, free will, and the nature of space and time.",
+      "prerequisites": ["Introduction to Philosophy"]
+    }
+  ],
+  {
+    "name": "Ethics",
+    "description": "This course examines ethical theories and the application of those theories to real-world moral issues. Topics may include consequentialism, deontological ethics, and virtue ethics.",
+    "prerequisites": ["Introduction to Philosophy"]
+  },
+  [
+    {
+      "name": "Philosophy of Science",
+      "description": "This course explores fundamental questions about the nature of science and scientific knowledge. Topics may include the scientific method, causation, and scientific explanation.",
+      "prerequisites": ["Logic"]
+    },
+    {
+      "name": "Philosophy of Mind",
+      "description": "This course examines the nature of consciousness and mental processes. Topics may include intentionality, subjective experience, and the mind-body problem.",
+      "prerequisites": ["Logic"]
+    }
+  ],
+  {
+    "name": "Existentialism and Phenomenology",
+    "description": "This course examines major figures and themes in 20th century existentialist and phenomenological philosophy. Topics may include authenticity, freedom, and the nature of existence.",
+    "prerequisites": ["Ethics", "Metaphysics"]
+  }
+]

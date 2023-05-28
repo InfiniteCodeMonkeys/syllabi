@@ -1,0 +1,39 @@
+[
+  {
+    "name": "Introductory Astronomy",
+    "description": "This course provides a broad introduction to the field of astronomy, covering the history of astronomy, the physical principles governing the behavior of celestial objects, and the observational techniques used to study them.",
+    "prerequisites": []
+  },
+  {
+    "name": "Classical Mechanics",
+    "description": "This course covers the basic principles of classical mechanics, including Newton's laws of motion, conservation laws, and the laws of gravitation.",
+    "prerequisites": ["Introductory Astronomy"]
+  },
+  {
+    "name": "Introduction to Astrophysics",
+    "description": "This course provides an introduction to the physical principles governing the behavior of celestial objects, including stars, galaxies, and the interstellar medium. Topics covered include radiation processes, fluid mechanics, and plasma physics.",
+    "prerequisites": ["Classical Mechanics"]
+  },
+  [
+    {
+      "name": "Electromagnetism",
+      "description": "This course covers the basic principles of electromagnetism, including Maxwell's equations, electromagnetic waves, and the properties of electromagnetic radiation.",
+      "prerequisites": ["Classical Mechanics"]
+    },
+    {
+      "name": "Thermal and Statistical Physics",
+      "description": "This course covers the basic principles of thermodynamics and statistical mechanics, including the laws of thermodynamics, the kinetic theory of gases, and the statistical nature of entropy.",
+      "prerequisites": ["Classical Mechanics"]
+    }
+  ],
+  {
+    "name": "General Relativity",
+    "description": "This course covers the basic principles of general relativity, including the geometry of spacetime, the equivalence principle, and the behavior of gravity in extreme situations.",
+    "prerequisites": ["Classical Mechanics"]
+  },
+  {
+    "name": "High-Energy Astrophysics",
+    "description": "This course covers the physical processes that govern the behavior of high-energy astrophysical phenomena such as supernovae, black holes, and gamma-ray bursts. Topics covered include cosmic ray acceleration, particle interactions, and relativistic plasmas.",
+    "prerequisites": ["Introduction to Astrophysics", "Electromagnetism", "Thermal and Statistical Physics", "General Relativity"]
+  }
+]

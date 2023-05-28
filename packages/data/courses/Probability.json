@@ -1,0 +1,39 @@
+[
+  {
+    "name": "Calculus I",
+    "description": "This course introduces mathematical notation and concepts and teaches the basics of calculus. Topics covered include limits, derivatives, and integrals. It is recommended that students be familiar with algebra before taking this course.",
+    "prerequisites": []
+  },
+  {
+    "name": "Calculus II",
+    "description": "This course covers advanced techniques of integration, applications of integration, infinite sequences and series, and first and second order differential equations. It is recommended that students have taken Calculus I before taking this course.",
+    "prerequisites": ["Calculus I"]
+  },
+  [
+    {
+      "name": "Elementary Probability and Statistics",
+      "description": "This course covers basic topics in probability and statistics, including probability theory, random variables, probability distributions, statistical inference, correlation, and regression. It is recommended that students have taken Calculus I before taking this course.",
+      "prerequisites": ["Calculus I"]
+    },
+    {
+      "name": "Discrete Mathematics",
+      "description": "This course covers mathematical topics related to discrete structures, including sets, functions, relations, graphs, trees, recursion, counting problems, and combinatorics. It is recommended that students have taken Calculus II before taking this course.",
+      "prerequisites": ["Calculus II"]
+    }
+  ],
+  {
+    "name": "Data Structures and Algorithms",
+    "description": "This course covers algorithm design and analysis, data structures, and their applications. Topics covered include dynamic programming, greedy algorithms, divide and conquer, graph algorithms, and sorting and searching algorithms. It is recommended that students have taken Discrete Mathematics before taking this course.",
+    "prerequisites": ["Discrete Mathematics"]
+  },
+  {
+    "name": "Probability Theory",
+    "description": "This course covers probability theory in depth, including combinatorial analysis, conditional probability, independence, random variables, probability distribution functions, expected value, moment generating functions, joint distributions, and important distributions such as the normal distribution. It is recommended that students have taken Elementary Probability and Statistics before taking this course.",
+    "prerequisites": ["Elementary Probability and Statistics"]
+  },
+  {
+    "name": "Mathematical Statistics",
+    "description": "This course covers the fundamental concepts of statistical theory, including hypothesis testing, confidence intervals, regression, analysis of variance, nonparametric methods, and maximum likelihood estimation. It is recommended that students have taken Probability Theory before taking this course.",
+    "prerequisites": ["Probability Theory"]
+  }
+]

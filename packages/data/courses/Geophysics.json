@@ -1,0 +1,52 @@
+[
+      {
+        "name": "Physical Geology",
+        "description": "This course introduces students to the principles of geology, including the composition and structure of the Earth, plate tectonics, minerals, rocks, and geological time. The course may also cover the history of geology and Earth science, geological hazards, and environmental geology."
+        "prerequisites": []
+      },
+      [{
+        "name": "Earth Materials",
+        "description": "This course covers the properties of minerals and rocks, as well as their formation and distribution. It may include laboratory work on mineral identification, rock classification, and mineral and rock thin sections."
+        "prerequisites": ["Physical Geology"]
+      },
+      {
+        "name": "Structural Geology",
+        "description": "This course covers the forces and processes that shape the Earth's crust, including faults, folds, and other structures. It may include laboratory work on geological mapping and interpretation of geological structures."
+        "prerequisites": ["Physical Geology"]
+      }],
+      {
+        "name": "Geophysics",
+        "description": "This course covers the use of physics and mathematics to study the Earth, including seismology, gravity, magnetism, and heat flow. Topics may include the structure of the Earth's interior, the origin and evolution of the Earth, and geophysical exploration of natural resources."
+        "prerequisites": ["Earth Materials", "Structural Geology", "Calculus I"]
+      },
+      {
+        "name": "Mineralogy and Petrology",
+        "description": "This course covers the systematic study of minerals and rocks, including their crystallography, chemistry, and physical properties. It may include laboratory work on optical mineralogy, X-ray diffraction, and petrographic analysis."
+        "prerequisites": ["Earth Materials"]
+      },
+      {
+        "name": "Sedimentology and Stratigraphy",
+        "description": "This course covers the processes of sedimentation and the formation of sedimentary rocks, as well as the principles of stratigraphy and geologic time. It may include laboratory work on sedimentary structures, facies analysis, and the interpretation of geologic history from the stratigraphic record."
+        "prerequisites": ["Earth Materials", "Structural Geology"]
+      },
+      {
+        "name": "Geological Field Methods",
+        "description": "This course covers the techniques used in geological fieldwork, such as mapping, sampling, and data analysis. Students may conduct fieldwork and write a report on their findings."
+        "prerequisites": ["Earth Materials", "Structural Geology"]
+      },
+      [{
+        "name": "Geological Field Camp",
+        "description": "This course is an intensive field course in geological mapping, data collection, and analysis. Students may work in groups or individually to produce a technical report on their findings."
+        "prerequisites": ["Geological Field Methods"]
+      },
+      {
+        "name": "Geological Remote Sensing",
+        "description": "This course covers the use of remote sensing techniques, such as aerial photography, satellite imagery, and geophysical surveys, to study the Earth's surface and subsurface. Students may learn to interpret remote sensing data and integrate it with other geological data sources."
+        "prerequisites": ["Geophysics"]
+      }],
+      {
+        "name": "Geological Research Project",
+        "description": "This course allows students to conduct an independent research project in geology under the supervision of a faculty member. Students may present their findings in a written report and an oral presentation."
+        "prerequisites": ["Geological Field Camp", "Geological Remote Sensing"]
+      }
+ ]

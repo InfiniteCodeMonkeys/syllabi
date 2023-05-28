@@ -1,0 +1,34 @@
+[
+  {
+    "name": "General Chemistry",
+    "description": "This course introduces students to the principles of chemistry. Students will learn about the nature and behavior of matter, the struture and properties of atoms, ions and molecules, stoichiometry, chemical bonding, thermochemistry, gas laws, solutions, acids and bases, and equilibrium concepts."
+    "prerequisites": []
+  },
+  {
+    "name": "Organic Chemistry",
+    "description": "This course introduces students to the principles of organic chemistry. Students will learn about the structure, properties, and reactivity of organic molecules. Topics include nomenclature, functional groups, isomerism, reactions of alkenes and alkynes, substitution and elimination reactions, spectroscopy, and structure determination."
+    "prerequisites": ["General Chemistry"]
+  },
+  {
+    "name": "Physical Chemistry",
+    "description": "This course introduces students to the principles of physical chemistry. Students will learn about the underlying concepts and theories in thermodynamics, quantum mechanics, kinetics, and spectroscopy that are essential to understanding chemical systems."
+    "prerequisites": ["General Chemistry", "Calculus"]
+  },
+  [
+    {
+      "name": "Analytical Chemistry",
+      "description": "This course introduces students to the principles of analytical chemistry. Students will learn about the basic concepts and techniques of analytical chemistry including titrimetry, gravimetry, electrochemistry, chromatography, and spectroscopy."
+      "prerequisites": ["General Chemistry", "Calculus", "Organic Chemistry"]
+    },
+    {
+      "name": "Instrumental Analysis",
+      "description": "This course provides a more in-depth look at the principles of analytical chemistry and the use of instruments in the analysis of chemical systems. Topics include spectroscopy, chromatography, mass spectrometry, electroanalytical methods, and nuclear magnetic resonance spectroscopy."
+      "prerequisites": ["Analytical Chemistry"]
+    }
+  ],
+  {
+    "name": "Advanced Analytical Chemistry",
+    "description": "This course covers advanced topics in analytical chemistry such as advanced spectroscopy methods, surface analysis, microfabricated systems, and chemical sensors."
+    "prerequisites": ["Instrumental Analysis"]
+  }
+]

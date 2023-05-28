@@ -1,0 +1,41 @@
+[
+  {
+    "name": "Introduction to Logic",
+    "description": "This course introduces students to the basic concepts and principles of logic, including propositional and predicate logic, inductive reasoning, and logical fallacies.",
+    "prerequisites": []
+  },
+  {
+    "name": "Introduction to Set Theory",
+    "description": "This course introduces students to the basic concepts and principles of set theory, including sets, subsets, functions, relations, and cardinality.",
+    "prerequisites": ["Introduction to Logic"]
+  },
+  [
+    {
+      "name": "Intermediate Logic",
+      "description": "This course builds upon the concepts and principles introduced in Introduction to Logic, including metalogic, modal logic, and higher-order logic.",
+      "prerequisites": ["Introduction to Logic"]
+    },
+    {
+      "name": "Abstract Algebra",
+      "description": "This course introduces students to the basic concepts and principles of abstract algebra, including groups, rings, fields, and vector spaces.",
+      "prerequisites": ["Introduction to Set Theory"]
+    }
+  ],
+  {
+    "name": "Advanced Logic",
+    "description": "This course covers advanced topics in logic, including non-classical logics, proof theory, and model theory.",
+    "prerequisites": ["Intermediate Logic", "Introduction to Set Theory"]
+  },
+  [
+    {
+      "name": "Real Analysis",
+      "description": "This course introduces students to the basic concepts and principles of real analysis, including limits, continuity, differentiation, and integration.",
+      "prerequisites": ["Introduction to Set Theory"]
+    },
+    {
+      "name": "Topological Spaces",
+      "description": "This course introduces students to the basic concepts and principles of topological spaces, including open sets, closed sets, and continuity.",
+      "prerequisites": ["Introduction to Set Theory"]
+    }
+  ]
+]

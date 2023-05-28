@@ -1,0 +1,36 @@
+[
+  { 
+  "name": "Introductory Biology",
+  "description": "This course introduces students to the principles of biology. Students will learn about the scientific method, the structure and function of cells, the structure and function of DNA, the structure and function of proteins, the structure and function of organelles, the structure and function of tissues, the structure and function of organs, the structure and function of organ systems, the structure and function of organisms, the structure and function of populations, the structure and function of communities, the structure and function of ecosystems, and much more.",
+  "prerequisites": []
+  },
+  {
+    "name": "Genetics",
+    "description": "This course introduces students to the principles of genetics. Students will learn about inheritance and variation in organisms, the structure and function of DNA, and the techniques and tools used in genetic analysis. ",
+    "prerequisites": ["Introductory Biology"]
+  },
+  [
+    {
+    "name": "Cell Biology",
+    "description": "This course introduces students to the principles of cell biology. Students will learn about the structure and function of cells, organelles, and biomolecules, how cells communicate and divide, and techniques and tools used in cellular analysis. ",
+    "prerequisites": ["Introductory Biology"]
+    },
+    {
+    "name": "Molecular Biology",
+    "description": "This course builds upon the principles of genetics and cell biology to introduce students to the principles of molecular biology. Students will learn about the structure and function of DNA, RNA, and proteins, and the techniques and tools used in molecular analysis. ",
+    "prerequisites": ["Introductory Biology", "Genetics", "Cell Biology"]
+    },
+  ],
+  {
+    "name": "Biochemistry",
+    "description": "This course builds upon the principles of molecular biology and cell biology to introduce students to the principles of biochemical processes. Students will learn about the major metabolic pathways, the biochemistry of macromolecules, and techniques and tools used in biochemical analysis. ",
+    "prerequisites": ["Introductory Biology", "Genetics", "Cell Biology", "Molecular Biology"]
+  },
+
+  {
+    "name": "Microbiology",
+    "description": "This course introduces students to the principles and techniques of microbiology. Students will learn about the structure, classification, and function of microorganisms and their interactions with humans and the environment. Techniques and tools used in microbiology analysis will also be explored.",
+    "prerequisites": ["Introductory Biology", "Genetics", "Cell Biology", "Molecular Biology", "Biochemistry"]
+  }
+
+]

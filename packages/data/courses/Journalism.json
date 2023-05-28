@@ -1,0 +1,39 @@
+[
+  {
+    "name": "Introduction to Journalism",
+    "description": "This course introduces students to the principles of journalism. Students will learn about the history, ethics, and values of the profession, as well as how to write news stories, conduct interviews, and write features.",
+    "prerequisites": []
+  },
+  {
+    "name": "Media Law and Ethics",
+    "description": "This course teaches students about First Amendment law, libel law, privacy, and other legal and ethical issues facing journalists.",
+    "prerequisites": ["Introduction to Journalism"]
+  },
+  [
+    {
+      "name": "Writing for the Media",
+      "description": "This course teaches students how to write in different journalistic forms, such as news stories, features, and opinion pieces.",
+      "prerequisites": ["Introduction to Journalism"]
+    },
+    {
+      "name": "Digital Storytelling",
+      "description": "This course teaches students how to produce stories using different digital media, such as audio, photojournalism, and video.",
+      "prerequisites": ["Introduction to Journalism"]
+    }
+  ],
+  {
+    "name": "Data Journalism",
+    "description": "This course teaches students how to collect, analyze, and visualize data from various sources to produce news stories.",
+    "prerequisites": ["Introduction to Journalism", "Writing for the Media"]
+  },
+  {
+    "name": "Investigative Journalism",
+    "description": "This course teaches students how to conduct investigative reporting and research, including document analysis, source development, and interviews.",
+    "prerequisites": ["Media Law and Ethics", "Digital Storytelling", "Data Journalism"]
+  },
+  {
+    "name": "Journalism Capstone",
+    "description": "This course allows students to apply the skills and knowledge learned in previous courses to produce a significant piece of journalism, such as a project or a portfolio.",
+    "prerequisites": ["Investigative Journalism"]
+  }
+]

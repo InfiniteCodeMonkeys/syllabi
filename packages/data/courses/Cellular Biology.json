@@ -1,0 +1,68 @@
+[
+  { 
+    "name": "Introductory Biology",
+    "description": "This course introduces students to the principles of biology. Students will learn about the scientific method, the structure and function of cells, the structure and function of DNA, the structure and function of proteins, the structure and function of organelles, and the structure and function of tissues."
+    "prerequisites": []
+  }, 
+  {
+    "name": "Genetics",
+    "description": "This course introduces students to the principles of genetics. Students will learn about the structure and function of DNA, inheritance patterns, and genetic engineering."
+    "prerequisites": ["Introductory Biology"]
+  }, 
+  [
+    {
+      "name": "Cell Biology",
+      "description": "This course introduces students to the principles of cell biology. Students will learn about the structure and function of cells, cell division and signaling, and the cytoskeleton."
+      "prerequisites": ["Introductory Biology"]
+    }, 
+    {
+      "name": "Molecular Biology",
+      "description": "This course introduces students to the principles of molecular biology. Students will learn about the structure and function of DNA, RNA, and proteins, DNA replication, transcription, and translation, and gene expression."
+      "prerequisites": ["Introductory Biology"]
+    }
+  ],
+  {
+    "name": "Biochemistry",
+    "description": "This course covers the principles of biochemistry. Students will learn about carbohydrates, proteins, lipids, enzymes, metabolism, and energy production."
+    "prerequisites": ["Cell Biology", "Molecular Biology"]
+  },
+  [
+    {
+      "name": "Cell Physiology",
+      "description": "This course introduces students to the principles of cell physiology. Students will learn about the physiology of the cell membrane, the endoplasmic reticulum, the Golgi apparatus, and the mitochondria."
+      "prerequisites": ["Cell Biology", "Biochemistry"]
+    },
+    {
+      "name": "Developmental Biology",
+      "description": "This course covers the principles of developmental biology. Students will learn about the formation of the embryo, genetics of development, cell signaling, and tissue development."
+      "prerequisites": ["Cell Biology", "Biochemistry"]
+    }
+  ],
+  {
+    "name": "Immunology",
+    "description": "This course introduces students to the principles of immunology. Students will learn about the immune system, immune responses, and antibodies."
+    "prerequisites": ["Cell Biology", "Biochemistry", "Genetics"]
+  },
+  [
+    {
+      "name": "Cancer Biology",
+      "description": "This course introduces students to the principles of cancer biology. Students will learn about the molecular genetics of cancer, oncogenes, tumor suppressor genes, and the role of the immune system in cancer."
+      "prerequisites": ["Cell Biology", "Biochemistry", "Genetics"]
+    }, 
+    {
+      "name": "Neurobiology",
+      "description": "This course introduces students to the principles of neurobiology. Students will learn about the structure and function of neurons, synapses, and neuronal networks."
+      "prerequisites": ["Cell Biology", "Biochemistry", "Genetics"]
+    }
+  ],
+  {
+    "name": "Stem Cell Biology",
+    "description": "This course introduces students to the principles of stem cell biology. Students will learn about the properties of stem cells, types of stem cells, and the role of stem cells in development and disease."
+    "prerequisites": ["Cell Biology", "Biochemistry", "Genetics", "Developmental Biology"]
+  },
+  {
+    "name": "Microbiology",
+    "description": "This course covers the principles of microbiology. Students will learn about the types of microorganisms, their structures, metabolism, and pathogenesis."
+    "prerequisites": ["Cell Biology", "Biochemistry", "Genetics", "Immunology"]
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "name": "General Chemistry I",
+    "description": "Introduction to the basic principles of chemistry including atomic and molecular structure, chemical reactions and stoichiometry, gas laws, solutions, thermochemistry, chemical bonding, and equilibrium.",
+    "prerequisites": []
+  },
+
+  {
+    "name": "General Chemistry II",
+    "description": "Continuation of General Chemistry I with emphasis on acid-base chemistry, chemical kinetics, thermodynamics, electrochemistry, nuclear chemistry, and introduction to organic chemistry.",
+    "prerequisites": ["General Chemistry I"]
+  },
+
+  [
+    {
+      "name": "Calculus I",
+      "description": "A study of limits, continuity, differentiation and integrals with basic applications.",
+      "prerequisites": []
+    },
+    {
+      "name": "General Physics I",
+      "description": "An introduction to mechanics, including motion, forces, work, energy, momentum, and harmonic motion.",
+      "prerequisites": []
+    }
+  ],
+
+  {
+    "name": "Quantum Chemistry",
+    "description": "Development of the fundamental concepts and techniques of quantum mechanics. Applications to atomic and molecular structure, spectroscopy, and chemical bonding.",
+    "prerequisites": ["General Chemistry II", "Calculus I", "General Physics I"]
+  },
+
+  [
+    {
+      "name": "Mathematical Methods for Physical Sciences",
+      "description": "Development of mathematical techniques for use in physical sciences, including vector calculus, linear algebra, ordinary and partial differential equations, and complex analysis.",
+      "prerequisites": ["Calculus I"]
+    },
+    {
+      "name": "General Physics II",
+      "description": "An introduction to electricity and magnetism, including circuits, capacitance, resistance, electric fields, magnetic fields, and electromagnetic waves.",
+      "prerequisites": ["General Physics I"]
+    }
+  ],
+
+  {
+    "name": "Statistical Thermodynamics",
+    "description": "Introduction to the basic concepts of statistical mechanics, including classical and quantum statistics and their application to the thermodynamic behavior of matter.",
+    "prerequisites": ["General Chemistry II", "Calculus II", "Quantum Chemistry", "Mathematical Methods for Physical Sciences", "General Physics II"]
+  },
+
+  {
+    "name": "Computational Chemistry",
+    "description": "Introduction to the use of computers in chemistry, including molecular modeling, molecular dynamics, and quantum chemical calculations.",
+    "prerequisites": ["Quantum Chemistry", "Statistical Thermodynamics"]
+  }
+]

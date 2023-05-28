@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Introduction to Astronomy",
+    "description": "This course introduces students to the principles of astronomy. Students will learn about the history of astronomy, telescopes and observing, the solar system, stars and galaxies, and the origin of the universe.",
+    "prerequisites": []
+  },
+  {
+    "name": "Introduction to Biology",
+    "description": "This course introduces students to the principles of biology. Students will learn about the scientific method, the structure and function of cells, genetics, evolution, and ecology.",
+    "prerequisites": []
+  },
+  [
+    {
+      "name": "Astrobiology",
+      "description": "This course introduces students to the principles of astrobiology. Students will learn about the origin of life, the search for extraterrestrial life, habitable zones, and the evolution of life in the universe.",
+      "prerequisites": ["Introduction to Astronomy", "Introduction to Biology"]
+    },
+    {
+      "name": "Planetary Science",
+      "description": "This course introduces students to the principles of planetary science. Students will learn about the formation and evolution of planets, the geology and atmospheres of planets, and the search for habitable planets.",
+      "prerequisites": ["Introduction to Astronomy", "Introduction to Biology"]
+    }
+  ],
+  {
+    "name": "Advanced Astrobiology",
+    "description": "This course builds upon the principles of astrobiology learned in the introductory course. Students will learn about the habitability of other worlds, the search for biosignatures, and the limits of life.",
+    "prerequisites": ["Astrobiology", "Planetary Science"]
+  },
+  [
+    {
+      "name": "Stellar and Galactic Astrophysics",
+      "description": "This course introduces students to the principles of stellar and galactic astrophysics. Students will learn about the properties of stars, stellar evolution, black holes, and the structure and evolution of galaxies.",
+      "prerequisites": ["Introduction to Astronomy", "Calculus"]
+    },
+    {
+      "name": "Exoplanets",
+      "description": "This course introduces students to the study of exoplanets. Students will learn about the methods of exoplanet detection, the properties of exoplanets, and the search for Earth-like exoplanets.",
+      "prerequisites": ["Introduction to Astronomy"]
+    }
+  ],
+  {
+    "name": "Advanced Astrophysics",
+    "description": "This course builds upon the principles of stellar and galactic astrophysics learned in the introductory course. Students will learn about high-energy astrophysics, nuclear astrophysics, and cosmology.",
+    "prerequisites": ["Stellar and Galactic Astrophysics"]
+  }
+]

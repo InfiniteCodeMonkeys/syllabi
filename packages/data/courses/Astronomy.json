@@ -1,0 +1,58 @@
+[
+  { 
+    "name": "Introductory Physics",
+    "description": "This course introduces students to the principles of physics. Students will learn about mechanics, thermodynamics, waves, optics, electromagnetism, and atomic physics."
+    "prerequisites": []
+  },
+  [
+    {
+      "name": "Introductory Astronomy",
+      "description": "This course introduces students to the principles of Astronomy. Students will learn about the structure and formation of stars, galaxies and the universe, solar system, celestial mechanics, and a general overview of astronomical phenomena."
+      "prerequisites": ["Introductory Physics"]
+    },
+    {
+      "name": "Introductory Calculus",
+      "description": "This course introduces students to the principles of calculus. Students will learn about functions, derivatives, integrals, and applications of calculus."
+      "prerequisites": ["Introductory Physics"]
+    }
+  ],
+  {
+    "name": "Classical Mechanics",
+    "description": "This course introduces students to the principles of classical mechanics. Students will learn about kinematics, Newton’s laws of motion, conservation laws, oscillations, and gravitation."
+    "prerequisites": ["Introductory Physics", "Introductory Calculus"]
+  },
+  [
+    {
+      "name": "Stellar Astrophysics",
+      "description": "This course focuses on the structure, formation, and evolution of stars. Students will learn about the physical processes occurring within the star, including nuclear fusion, energy transport, and stellar atmospheres and interiors."
+      "prerequisites": ["Introductory Astronomy", "Classical Mechanics"]
+    },
+    {
+      "name": "Introductory Programming",
+      "description": "This course introduces students to the principles of programming and basic concepts in computer science. Students will learn basic syntax, control structures, data types, and algorithms to solve simple problems."
+      "prerequisites": ["Introductory Physics"]
+    }
+  ],
+  {
+    "name": "Cosmology",
+    "description": "This course provides an overview of the universe on a large scale. Students will learn about the large-scale structure of the universe, the geometry of the universe, dark matter and dark energy, inflation, and the cosmic microwave background."
+    "prerequisites": ["Introductory Astronomy", "Classical Mechanics"]
+  },
+  [
+    {
+      "name": "Quantum Mechanics",
+      "description": "This course introduces students to the principles of quantum mechanics. Students will learn about wave-particle duality, Heisenberg's uncertainty principle, the Schrödinger equation, quantum states and operators, and quantum mechanical systems."
+      "prerequisites": ["Introductory Physics", "Introductory Calculus"]
+    },
+    {
+      "name": "Planetary Science",
+      "description": "This course focuses on the geology, meteorology, and formation of planets. Students will learn about the physical processes occurring on rocky, icy, and gas giant planets, their moons, and comets."
+      "prerequisites": ["Introductory Astronomy", "Classical Mechanics"]
+    }
+  ],
+  {
+    "name": "Astrophysics",
+    "description": "This course focuses on the application of physics to astronomy. Students will learn about the properties of radiation, the principles of spectroscopy, black holes, neutron stars, pulsars, and gravitational waves."
+    "prerequisites": ["Stellar Astrophysics", "Cosmology", "Quantum Mechanics"]
+  }
+]

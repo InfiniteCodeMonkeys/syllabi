@@ -1,0 +1,108 @@
+[
+  {
+    "name": "Calculus I",
+    "description": "This course covers limit, continuity, differentiation, and integration of algebraic, exponential, and logarithmic functions of one variable.",
+    "prerequisites": []
+  },
+  {
+    "name": "Physics I",
+    "description": "This course covers classical mechanics, including kinematics, Newton's laws of motion, work and energy, conservation laws, and rotational motion.",
+    "prerequisites": []
+  },
+  [
+    {
+      "name": "Introduction to Engineering Design",
+      "description": "This course introduces students to the engineering design process, including problem formulation, visualization, optimization, teamwork, and communication.",
+      "prerequisites": []
+    },
+    {
+      "name": "Engineering Graphics",
+      "description": "This course covers the principles of engineering graphics, including orthographic projection, dimensioning, sectioning, and assembly drawings.",
+      "prerequisites": []
+    }
+  ],
+  {
+    "name": "Calculus II",
+    "description": "This course covers techniques and applications of integration, series, and sequences.",
+    "prerequisites": ["Calculus I"]
+  },
+  {
+    "name": "Physics II",
+    "description": "This course covers electricity, magnetism, optics, and thermodynamics.",
+    "prerequisites": ["Physics I"]
+  },
+  {
+    "name": "Materials Science and Engineering",
+    "description": "This course introduces students to the structure, properties, and processing of materials, including metals, ceramics, polymers, and composites.",
+    "prerequisites": ["Physics I"]
+  },
+  [
+    {
+      "name": "Engineering Mechanics: Statics",
+      "description": "This course covers the principles of engineering mechanics, including particle and rigid body equilibrium, distributed forces, and friction.",
+      "prerequisites": ["Physics I", "Calculus II"]
+    },
+    {
+      "name": "Introduction to Thermodynamics",
+      "description": "This course covers the principles of thermodynamics and their applications, including energy, entropy, temperature, and heat transfer.",
+      "prerequisites": ["Physics I", "Calculus II"]
+    }
+  ],
+  {
+    "name": "Engineering Mechanics: Dynamics",
+    "description": "This course covers the principles of engineering mechanics, including kinematics, kinetics, work and energy, impulse and momentum, and vibrations.",
+    "prerequisites": ["Engineering Mechanics: Statics", "Calculus II"]
+  },
+  {
+    "name": "Probability and Statistics for Engineers",
+    "description": "This course covers probability theory, random variables, probability distributions, statistical inference, and experimental design.",
+    "prerequisites": ["Calculus II"]
+  },
+  {
+    "name": "Design of Machine Elements",
+    "description": "This course covers the design of mechanical components and systems, including stress, strain, deflection, fatigue, and failure analysis.",
+    "prerequisites": ["Engineering Mechanics: Statics"]
+  },
+  {
+    "name": "Manufacturing Processes",
+    "description": "This course covers the principles of manufacturing processes, including casting, forming, cutting, welding, and surface treatment.",
+    "prerequisites": ["Materials Science and Engineering"]
+  },
+  {
+    "name": "Operations Research I",
+    "description": "This course covers the principles of operations research, including linear programming, integer programming, network analysis, and game theory.",
+    "prerequisites": ["Probability and Statistics for Engineers"]
+  },
+  {
+    "name": "Engineering Economy",
+    "description": "This course covers the principles of engineering economy, including time value of money, cost analysis, and project evaluation.",
+    "prerequisites": ["Probability and Statistics for Engineers"]
+  },
+  [
+    {
+      "name": "Human Factors Engineering",
+      "description": "This course covers the principles of human factors engineering, including human-machine interaction, ergonomics, and anthropometry.",
+      "prerequisites": ["Probability and Statistics for Engineers"]
+    },
+    {
+      "name": "Operations Research II",
+      "description": "This course covers advanced topics in operations research, including nonlinear programming, dynamic programming, and stochastic processes.",
+      "prerequisites": ["Operations Research I"]
+    }
+  ],
+  {
+    "name": "Quality Engineering",
+    "description": "This course covers the principles of quality engineering, including statistical process control, reliability, and acceptance sampling.",
+    "prerequisites": ["Probability and Statistics for Engineers"]
+  },
+  {
+    "name": "Simulation Modeling and Analysis",
+    "description": "This course covers the principles of simulation modeling and analysis, including input modeling, output analysis, and optimization.",
+    "prerequisites": ["Probability and Statistics for Engineers"]
+  },
+  {
+    "name": "Industrial Engineering Design",
+    "description": "This course covers the principles of industrial engineering design, including systems analysis, facility layout, and production planning.",
+    "prerequisites": ["Design of Machine Elements", "Operations Research I", "Manufacturing Processes"]
+  }
+]

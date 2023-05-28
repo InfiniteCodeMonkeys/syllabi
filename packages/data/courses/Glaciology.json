@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Introduction to Geology",
+    "description": "This course introduces students to the basic principles of geology, including the structure of the earth and plate tectonics, types of rocks and minerals, and geological time scales.",
+    "prerequisites": []
+  },
+  {
+    "name": "Earth Processes",
+    "description": "This course explores the physical and chemical processes that shape the Earth, including erosion, weathering, and sedimentation.",
+    "prerequisites": ["Introduction to Geology"]
+  },
+  {
+    "name": "Introduction to Glaciology",
+    "description": "This course introduces students to the basic principles of glaciology, including the formation and movement of glaciers, and their role in the Earth system.",
+    "prerequisites": ["Introduction to Geology"]
+  },
+  {
+    "name": "Geomorphology",
+    "description": "This course explores landforms and the processes that shape them, including erosion, weathering, and tectonics. Glaciers are also an important focus.",
+    "prerequisites": ["Introduction to Geology", "Earth Processes"]
+  },
+  {
+    "name": "Climatology",
+    "description": "This course is an introduction to the study of climate, including its causes, mechanisms, and variability. This course should be taken alongside or after Introduction to Glaciology.",
+    "prerequisites": ["Introduction to Geology"]
+  },
+  {
+    "name": "Polar Climate",
+    "description": "This course studies the climate patterns of Earth's polar regions. This course should be taken after Introduction to Glaciology and Climatology.",
+    "prerequisites": ["Introduction to Geology", "Introduction to Glaciology", "Climatology"]
+  },
+  {
+    "name": "Ice Dynamics",
+    "description": "This course explores the mechanics and dynamics of ice, including ice sheets and glaciers. This course should be taken after Introduction to Glaciology and Geomorphology.",
+    "prerequisites": ["Introduction to Geology", "Introduction to Glaciology", "Geomorphology"]
+  }
+]

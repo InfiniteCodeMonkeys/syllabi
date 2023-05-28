@@ -1,0 +1,93 @@
+[
+  {
+    "name": "Calculus I",
+    "description": "This course provides an introduction to the fundamental concepts of calculus, including limits, derivatives, and integrals.",
+    "prerequisites": []
+  },
+  {
+    "name": "Calculus II",
+    "description": "This course builds on the fundamental concepts of calculus introduced in Calculus I and introduces students to more advanced concepts and techniques, such as integrals over regions, polar coordinates, and infinite series.",
+    "prerequisites": ["Calculus I"]
+  },
+  {
+    "name": "Physics I",
+    "description": "This course provides an introduction to classical mechanics, including topics such as kinematics, forces, energy, and momentum.",
+    "prerequisites": ["Calculus I"]
+  },
+  {
+    "name": "Physics II",
+    "description": "This course builds on the topics covered in Physics I and covers more advanced topics such as electromagnetism, optics, and thermodynamics.",
+    "prerequisites": ["Calculus II", "Physics I"]
+  },
+  [
+    {
+      "name": "Statics",
+      "description": "This course provides an introduction to the principles of static equilibrium and the analysis of simple structures.",
+      "prerequisites": ["Calculus I", "Physics I"]
+    },
+    {
+      "name": "Materials Science",
+      "description": "This course provides an introduction to the basic principles of materials science, including topics such as crystal structure, defects, and mechanical properties.",
+      "prerequisites": ["Calculus II", "Physics II"]
+    }
+  ],
+  {
+    "name": "Strength of Materials",
+    "description": "This course covers the design of structural elements, including stresses, strains, and beam deflections.",
+    "prerequisites": ["Statics", "Materials Science"]
+  },
+  {
+    "name": "Dynamics",
+    "description": "This course provides an introduction to the principles of dynamics and the analysis of particle and rigid body motion.",
+    "prerequisites": ["Calculus II", "Physics II"]
+  },
+  {
+    "name": "Thermodynamics",
+    "description": "This course covers the basic principles of thermodynamics, including topics such as heat transfer, work, and energy conversion.",
+    "prerequisites": ["Calculus II", "Physics II"]
+  },
+  [
+    {
+      "name": "Structural Analysis",
+      "description": "This course covers the analysis of statically determinate and indeterminate structures.",
+      "prerequisites": ["Strength of Materials", "Dynamics"]
+    },
+    {
+      "name": "Fluid Mechanics",
+      "description": "This course provides an introduction to the principles of fluid mechanics, including topics such as fluid statics, fluid dynamics, and flow measurement.",
+      "prerequisites": ["Calculus II", "Physics II"]
+    }
+  ],
+  {
+    "name": "Geotechnical Engineering",
+    "description": "This course covers the properties and mechanics of soils and rocks, including topics such as soil composition, soil testing, and foundation design.",
+    "prerequisites": ["Strength of Materials", "Fluid Mechanics"]
+  },
+  {
+    "name": "Transportation Engineering",
+    "description": "This course covers the design and analysis of transportation systems, including topics such as traffic flow theory, geometric design, and pavement design.",
+    "prerequisites": ["Calculus II", "Physics II"]
+  },
+  [
+    {
+      "name": "Structural Design",
+      "description": "This course covers the design of simple structural systems, including topics such as architectural considerations, load calculations, and structural detailing.",
+      "prerequisites": ["Structural Analysis", "Geotechnical Engineering"]
+    },
+    {
+      "name": "Environmental Engineering",
+      "description": "This course provides an introduction to the principles of environmental engineering, including topics such as water quality, air pollution, and solid waste management.",
+      "prerequisites": ["Calculus II", "Physics II"]
+    }
+  ],
+  {
+    "name": "Building Systems Engineering",
+    "description": "This course covers the design of mechanical, electrical, and plumbing systems for buildings, including topics such as heating and cooling systems, lighting systems, and fire protection.",
+    "prerequisites": ["Structural Design", "Environmental Engineering"]
+  },
+  {
+    "name": "Architectural Engineering Design",
+    "description": "This course provides students with the opportunity to apply the principles learned in previous courses to the design of an architectural engineering project.",
+    "prerequisites": ["Building Systems Engineering", "Transportation Engineering"]
+  }
+]

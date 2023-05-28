@@ -1,0 +1,39 @@
+[
+  {
+    "name": "Calculus I",
+    "description": "This course is an introduction to differential calculus of functions of one variable. Topics include limits, continuity, derivatives, differentiation rules, applications, integration, and the Fundamental Theorem of Calculus.",
+    "prerequisites": []
+  },
+  {
+    "name": "Calculus II",
+    "description": "This course is a continuation of Calculus I. Topics include integration technics, applications of integration, differential equations, improper integrals, sequences, and series.",
+    "prerequisites": ["Calculus I"]
+  },
+  {
+    "name": "Linear Algebra",
+    "description": "This course covers the basic concepts of linear algebra including vectors and matrices, systems of linear equations, determinants, vector spaces, linear transformations, eigenvalues, and eigenvectors.",
+    "prerequisites": ["Calculus II"]
+  },
+  [
+    {
+      "name": "Discrete Mathematics",
+      "description": "This course introduces the fundamental concepts of discrete mathematics, which is the foundation of computer science and many other fields. Topics include logic, set theory, graph theory, combinatorics, and discrete probability.",
+      "prerequisites": ["Calculus I"]
+    },
+    {
+      "name": "Probability Theory",
+      "description": "This course studies probability theory, which is a foundation of statistics and many other fields. Topics include probability spaces, random variables, distributions, law of large numbers, and the central limit theorem.",
+      "prerequisites": ["Calculus II"]
+    }
+  ],
+  {
+    "name": "Real Analysis",
+    "description": "This course is an introduction to rigorous analysis of functions of one variable. Topics include sequences, series, limits, continuity, differentiation, integration, and point-set topology.",
+    "prerequisites": ["Calculus II"]
+  },
+  {
+    "name": "Topology",
+    "description": "This course studies the properties of space that are preserved under continuous transformations. Topics include topological spaces, continuous functions, connectedness, compactness, and separation axioms.",
+    "prerequisites": ["Real Analysis"]
+  }
+]

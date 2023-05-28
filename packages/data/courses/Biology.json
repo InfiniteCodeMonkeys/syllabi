@@ -1,0 +1,63 @@
+[
+  { 
+  "name": "Introductory Biology",
+  "description": "This course introduces students to the principles of biology. Students will learn about the scientific method, the structure and function of cells, the structure and function of DNA, the structure and function of proteins, the structure and function of organelles, the structure and function of tissues, the structure and function of organs, the structure and function of organ systems, the structure and function of organisms, the structure and function of populations, the structure and function of communities, the structure and function of ecosystems, the structure and function of the biosphere, the structure and function of the earth, the structure and function of the solar system, the structure and function of the galaxy, the structure and function of the universe, the structure and function of time, the structure and function of space, the structure and function of matter, the structure and function of energy, the structure and function of life, and the structure and function of death.",
+  "prerequisites": []
+  },
+  { 
+  "name": "Cell Biology",
+  "description": "In this course, students will learn about the structure and function of cells, including the biomolecules that make them up and the processes that occur therein such as cell division and metabolism.",
+  "prerequisites": ["Introductory Biology"]
+  },
+  [ 
+    {
+    "name": "Molecular Biology",
+    "description": "This course focuses on the molecular basis of life, including DNA, RNA, and protein synthesis.",
+    "prerequisites": ["Introductory Biology"]
+    },
+    {
+    "name": "Genetics",
+    "description": "In this course, students will study the principles of inheritance and the genetic basis of traits.",
+    "prerequisites": ["Introductory Biology"]
+    }
+  ],
+  {
+  "name": "Biochemistry",
+  "description": "This course covers the biochemical processes that occur in living organisms, including metabolism and energy conversion.",
+  "prerequisites": ["Introductory Biology", "Cell Biology", "Molecular Biology", "Genetics"]
+  },
+  [ 
+    {
+    "name": "Ecology",
+    "description": "In this course, students will learn about the interactions between organisms and their environment, from the level of individual populations to the biosphere as a whole.",
+    "prerequisites": ["Introductory Biology"]
+    },
+    {
+    "name": "Evolutionary Biology",
+    "description": "This course focuses on the history of life on Earth and the processes that have led to its present diversity.",
+    "prerequisites": ["Introductory Biology"]
+    }
+  ],
+  {
+  "name": "Physiology",
+  "description": "In this course, students will study the integrated functioning of biological systems at all levels, from cells to organisms.",
+  "prerequisites": ["Introductory Biology", "Cell Biology", "Molecular Biology", "Genetics", "Biochemistry"]
+  },
+  [ 
+    {
+    "name": "Neuroscience",
+    "description": "This course covers the anatomy and physiology of the nervous system and its regulation of behavior and cognition.",
+    "prerequisites": ["Introductory Biology", "Physiology"]
+    },
+    {
+    "name": "Immunology",
+    "description": "In this course, students will study the immune system's response to pathogens and other foreign substances.",
+    "prerequisites": ["Introductory Biology", "Physiology"]
+    }
+  ],
+  {
+  "name": "Microbiology",
+  "description": "This course covers the biology of microorganisms, including bacteria, viruses, and fungi.",
+  "prerequisites": ["Introductory Biology", "Cell Biology", "Molecular Biology", "Genetics", "Biochemistry", "Physiology"]
+  }
+]

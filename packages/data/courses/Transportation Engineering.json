@@ -1,0 +1,71 @@
+[
+  {
+    "name": "Calculus I",
+    "description": "This course provides an introduction to differential calculus. Students will learn about limits, derivatives, and their applications.",
+    "prerequisites": []
+  },
+  {
+    "name": "Calculus II",
+    "description": "This course provides an introduction to integral calculus. Students will learn about integrals, series, and their applications.",
+    "prerequisites": ["Calculus I"]
+  },
+  {
+    "name": "Physics I",
+    "description": "This course provides an introduction to classical mechanics. Students will learn about kinematics, dynamics, and conservation laws.",
+    "prerequisites": ["Calculus I"]
+  },
+  {
+    "name": "Physics II",
+    "description": "This course provides an introduction to electromagnetism and thermodynamics. Students will learn about electric and magnetic fields, circuits, and heat.",
+    "prerequisites": ["Calculus II", "Physics I"]
+  },
+  {
+    "name": "Engineering Mechanics",
+    "description": "This course provides an introduction to statics and dynamics. Students will learn about forces, moments, equilibrium, and motion.",
+    "prerequisites": ["Calculus II", "Physics I"]
+  },
+  [
+    {
+      "name": "Introduction to Transportation Engineering",
+      "description": "This course provides an introduction to the field of transportation engineering. Students will learn about the history of transportation, modes of transportation, and transportation systems.",
+      "prerequisites": ["Calculus II", "Physics I"]
+    },
+    {
+      "name": "Data Analysis and Modeling in Transportation Engineering",
+      "description": "This course provides an introduction to data analysis and modeling in transportation engineering. Students will learn about statistical methods, simulation techniques, and optimization tools.",
+      "prerequisites": ["Calculus II", "Physics I"]
+    }
+  ],
+  {
+    "name": "Transportation Planning",
+    "description": "This course provides an introduction to transportation planning. Students will learn about the principles of transportation planning, travel demand modeling, traffic flow theory, and transportation network design.",
+    "prerequisites": ["Engineering Mechanics", "Introduction to Transportation Engineering", "Data Analysis and Modeling in Transportation Engineering"]
+  },
+  {
+    "name": "Transportation Infrastructure Design",
+    "description": "This course provides an introduction to transportation infrastructure design. Students will learn about geometric design, pavement design, and traffic control devices.",
+    "prerequisites": ["Engineering Mechanics", "Introduction to Transportation Engineering", "Data Analysis and Modeling in Transportation Engineering"]
+  },
+  [
+    {
+      "name": "Public Transportation Systems",
+      "description": "This course provides an introduction to public transportation systems. Students will learn about transit planning, operations, and management.",
+      "prerequisites": ["Transportation Planning"]
+    },
+    {
+      "name": "Traffic Engineering",
+      "description": "This course provides an introduction to traffic engineering. Students will learn about traffic flow characteristics, capacity analysis, and traffic signal design.",
+      "prerequisites": ["Transportation Infrastructure Design"]
+    }
+  ],
+  {
+    "name": "Transportation Policy and Economics",
+    "description": "This course provides an introduction to transportation policy and economics. Students will learn about transportation policy analysis, project evaluation, and funding mechanisms.",
+    "prerequisites": ["Transportation Planning"]
+  },
+  {
+    "name": "Advanced Topics in Transportation Engineering",
+    "description": "This course provides an overview of advanced topics in transportation engineering. Students will learn about emerging technologies, sustainability, and transportation safety.",
+    "prerequisites": ["Transportation Planning", "Transportation Infrastructure Design", "Traffic Engineering", "Transportation Policy and Economics"]
+  }
+]

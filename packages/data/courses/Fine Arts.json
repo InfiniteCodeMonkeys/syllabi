@@ -1,0 +1,83 @@
+[
+  {
+    "name": "Introduction to Art History",
+    "description": "A survey of the history of art from prehistoric times to the present.",
+    "prerequisites": []
+  },
+  [
+    {
+      "name": "Foundations in Drawing",
+      "description": "An introduction to the fundamental principles and techniques of drawing. Topics covered include line, form, value, composition, and perspective.",
+      "prerequisites": []
+    },
+    {
+      "name": "Foundations in 2D Design",
+      "description": "An introduction to the fundamental principles and techniques of 2D design. Topics covered include color theory, composition, balance, and experimentation.",
+      "prerequisites": []
+    }
+  ],
+  {
+    "name": "Foundations in 3D Design",
+    "description": "An introduction to the fundamental principles and techniques of 3D design. Topics covered include form, space, materials, and fabrication methods.",
+    "prerequisites": []
+  },
+  {
+    "name": "Introduction to Printmaking",
+    "description": "An overview of printmaking techniques including relief, intaglio, and planographic processes.",
+    "prerequisites": ["Foundations in Drawing"]
+  },
+  [
+    {
+      "name": "Introduction to Painting",
+      "description": "An introduction to the materials, techniques, and concepts of painting. Topics covered include color theory, composition, and various application methods.",
+      "prerequisites": ["Foundations in Drawing"]
+    },
+    {
+      "name": "Introduction to Sculpture",
+      "description": "An introduction to sculpture techniques and materials. Topics covered include additive and subtractive processes, armature construction, and casting methods.",
+      "prerequisites": ["Foundations in 3D Design"]
+    }
+  ],
+  {
+    "name": "Intermediate Drawing",
+    "description": "Continued exploration of principles and techniques of drawing including advanced composition and experimentation.",
+    "prerequisites": ["Foundations in Drawing"]
+  },
+  {
+    "name": "Contemporary Art",
+    "description": "An exploration of current trends and issues in contemporary art practice, theory, and criticism.",
+    "prerequisites": ["Introduction to Art History"]
+  },
+  {
+    "name": "Intermediate Printmaking",
+    "description": "Continued exploration of printmaking techniques and processes including combination and experimental forms.",
+    "prerequisites": ["Introduction to Printmaking"]
+  },
+  [
+    {
+      "name": "Intermediate Painting",
+      "description": "Continued exploration of painting techniques and concepts including advanced color theory, composition, and experimentation.",
+      "prerequisites": ["Introduction to Painting"]
+    },
+    {
+      "name": "Intermediate Sculpture",
+      "description": "Continued exploration of sculpture techniques and materials including larger scale projects and public art.",
+      "prerequisites": ["Introduction to Sculpture"]
+    }
+  ],
+  {
+    "name": "Art in Context",
+    "description": "An examination of the social, cultural, and political context of art production and reception.",
+    "prerequisites": ["Contemporary Art"]
+  },
+  {
+    "name": "Advanced Drawing",
+    "description": "Development of a personalized approach to drawing with an emphasis on individual artistic vision and experimentation.",
+    "prerequisites": ["Intermediate Drawing"]
+  },
+  {
+    "name": "Advanced Studio Practice",
+    "description": "Guided development of an independent body of work demonstrating mastery of a variety of materials and techniques.",
+    "prerequisites": ["Intermediate Painting", "Intermediate Sculpture"]
+  }
+]

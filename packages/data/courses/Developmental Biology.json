@@ -1,0 +1,39 @@
+[
+  {
+    "name": "Introductory Biology",
+    "description": "This course introduces students to the principles of biology. Students will learn about the scientific method, the structure and function of cells, the structure and function of DNA, the structure and function of proteins, the structure and function of organelles, the structure and function of tissues, the structure and function of organs, the structure and function of organ systems, the structure and function of organisms, the structure and function of populations, the structure and function of communities, the structure and function of ecosystems, the structure and function of the biosphere, and the structure and function of the earth's systems.",
+    "prerequisites": []
+  },
+  {
+    "name": "Cell Biology",
+    "description": "This course introduces students to the principles of cell biology. Students will learn about the structure and function of cells, the structure and function of DNA, the structure and function of proteins, and the various organelles that make up a cell.",
+    "prerequisites": ["Introductory Biology"]
+  },
+  [
+    {
+      "name": "Genetics",
+      "description": "This course introduces students to the principles of genetics, including the structure and function of DNA, Mendelian and non-Mendelian inheritance, and genomics.",
+      "prerequisites": ["Introductory Biology"]
+    },
+    {
+      "name": "Biochemistry",
+      "description": "This course introduces students to the principles of biochemistry, including the chemical properties of biological molecules and their functions in cells.",
+      "prerequisites": ["Introductory Biology", "Cell Biology"]
+    }
+  ],
+  {
+    "name": "Developmental Biology",
+    "description": "This course covers the principles of developmental biology, including the mechanisms of embryonic development and the genetic and environmental factors that contribute to developmental processes.",
+    "prerequisites": ["Introductory Biology", "Cell Biology", "Genetics", "Biochemistry"]
+  },
+  {
+    "name": "Neurobiology",
+    "description": "This course covers the principles of neurobiology, including the structure and function of the nervous system, the molecular and cellular basis of neural signaling, and the relationship between neural activity and behavior.",
+    "prerequisites": ["Introductory Biology", "Cell Biology", "Developmental Biology"]
+  },
+  {
+    "name": "Immunology",
+    "description": "This course covers the principles of immunology, including the molecular and cellular basis of the immune response, the function of the immune system in health and disease, and the development of vaccines and immunotherapies.",
+    "prerequisites": ["Introductory Biology", "Cell Biology", "Genetics", "Biochemistry"]
+  }
+]

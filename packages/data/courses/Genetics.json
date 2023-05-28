@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Introductory Biology",
+    "description": "This course introduces students to the principles of biology. Students will learn about the scientific method, the structure and function of cells, the structure and function of DNA, the structure and function of proteins, and the process of evolution.",
+    "prerequisites": []
+  },
+  {
+    "name": "Biochemistry",
+    "description": "This course introduces students to the principles of biochemistry. Students will learn about the structure and function of proteins, carbohydrates, lipids, and nucleic acids.",
+    "prerequisites": ["Introductory Biology"]
+  },
+  [
+    {
+      "name": "Genetics",
+      "description": "This course introduces students to the principles of genetics. Students will learn about the structure and function of DNA, the processes of DNA replication, transcription, and translation, and the principles of genetic inheritance.",
+      "prerequisites": ["Introductory Biology", "Biochemistry"]
+    },
+    {
+      "name": "Cell Biology",
+      "description": "This course introduces students to the principles of cell biology. Students will learn about the structure and function of different types of cells, cellular organelles, and the process of cellular respiration.",
+      "prerequisites": ["Introductory Biology", "Biochemistry"]
+    }
+  ],
+  {
+    "name": "Molecular Genetics",
+    "description": "This course focuses on the structure and function of DNA and on techniques used to study DNA. Students will learn about how genes are regulated, the process of DNA replication, the protein synthesis process, and the technologies used to study genetics.",
+    "prerequisites": ["Genetics", "Cell Biology"]
+  },
+  {
+    "name": "Population Genetics",
+    "description": "This course focuses on the principles of population genetics. Students will learn about the study of genetic variation within and between populations, principles of evolution, and the processes that shape genetic variation.",
+    "prerequisites": ["Genetics", "Cell Biology"]
+  },
+  [
+    {
+      "name": "Developmental Biology",
+      "description": "This course introduces students to the principles of developmental biology. Students will learn about how genes function during the development of organisms from a single cell to adulthood.",
+      "prerequisites": ["Genetics", "Cell Biology"]
+    },
+    {
+      "name": "Systems Biology",
+      "description": "This course focuses on the application of mathematical models to biological processes. Students will learn about the principles of systems biology, biochemical networks, and computational modeling.",
+      "prerequisites": ["Genetics", "Cell Biology"]
+    }
+  ]
+]

@@ -1,0 +1,85 @@
+[
+  {
+    "name": "Introduction to World Religions",
+    "description": "This course is an introduction to the major world religions, including but not limited to Hinduism, Buddhism, Judaism, Christianity, and Islam. Students will learn about the basic tenets and practices of each religion, as well as their historical and cultural contexts.",
+    "prerequisites": []
+  },
+  
+  [
+    {
+      "name": "Introduction to Philosophy",
+      "description": "This course is an introduction to philosophy, which will cover the basic concepts and ideas in epistemology, ontology, and ethics. Students will examine the works of major philosophers such as Plato, Aristotle, Descartes, Kant, and Nietzsche.",
+      "prerequisites": []
+    },
+    {
+      "name": "Introduction to Ethics",
+      "description": "This course is an introduction to normative ethical theories, including but not limited to virtue ethics, consequentialism, and deontology. Students will learn the concepts and principles underlying each theory, as well as how to apply them to real-world ethical dilemmas.",
+      "prerequisites": ["Introduction to Philosophy"]
+    }
+  ],
+  
+  {
+    "name": "The Bible as Literature",
+    "description": "This course is an introduction to the literary study of the Bible, including but not limited to literary genres (e.g. myth, epic, poetry, prophecy), narrative analysis, and intertextuality. Students will learn the basic historical and cultural context of the Bible, as well as its literary themes and motifs.",
+    "prerequisites": ["Introduction to World Religions"]
+  },
+  
+  {
+    "name": "Islam: History, Culture, and Religion",
+    "description": "This course is an introduction to the religion of Islam as well as its history and culture. Students will study the basic tenets and practices of Islam, as well as the historical and cultural contexts that have shaped it.",
+    "prerequisites": ["Introduction to World Religions"]
+  },
+  
+  [
+    {
+      "name": "Ancient Greek Philosophy",
+      "description": "This course explores the development of philosophy in ancient Greece from its origins in the pre-Socratic period through the Hellenistic period. Students will examine the works of major philosophers such as Thales, Anaximander, Heraclitus, Plato, Aristotle, and the Stoics.",
+      "prerequisites": ["Introduction to Philosophy"]
+    },
+    
+    {
+      "name": "Classical Mythology",
+      "description": "This course explores the mythology of ancient Greece and Rome, including creation myths, hero myths, and the myths of the gods and goddesses. Students will also examine the role of mythology in ancient Greek and Roman culture and literature.",
+      "prerequisites": []
+    }
+  ],
+  
+  {
+    "name": "History of Christianity",
+    "description": "This course is a historical survey of Christianity from its origins in the Roman Empire through the Protestant Reformation. Students will study the major theological developments, political events, and social trends that have shaped Christianity throughout its history.",
+    "prerequisites": ["Introduction to World Religions"]
+  },
+  
+  {
+    "name": "Religion and Human Rights",
+    "description": "This course explores the relationship between religion and human rights, including topics such as religious freedom, the role of religion in public life, and the intersection of religion and gender, sexuality, and race. Students will examine case studies from around the world.",
+    "prerequisites": ["Introduction to Ethics"]
+  },
+  
+  {
+    "name": "Philosophy of Religion",
+    "description": "This course is an in-depth exploration of the philosophical issues surrounding religion, such as the existence of God, the problem of evil, the nature of faith, and the relationship between religion and science. Students will study the arguments of major philosophers on these topics.",
+    "prerequisites": ["Introduction to Philosophy"]
+  },
+  
+  [
+    {
+      "name": "Feminist Theory",
+      "description": "This course is an introduction to feminist theory, which focuses on the study of gender and power. Students will examine the history of feminist thought, as well as contemporary debates in feminist theory, such as intersectionality and feminist ethics.",
+      "prerequisites": []
+    },
+    
+    {
+      "name": "Religion, Gender, and Sexuality",
+      "description": "This course explores the relationship between religion, gender, and sexuality, including topics such as the role of women in religious traditions, queer theology, and the politics of sexuality and sexual orientation. Students will examine case studies from around the world.",
+      "prerequisites": ["Introduction to World Religions", "Feminist Theory"]
+    }
+  ],
+  
+  {
+    "name": "Jewish Thought and Culture",
+    "description": "This course is an introduction to Jewish thought and culture, focusing on the major ideas and practices of Judaism, as well as the historical and cultural context of Jewish life throughout history. Students will also examine the diversity of Jewish thought and practice.",
+    "prerequisites": ["Introduction to World Religions"]
+  }
+  
+]

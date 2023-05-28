@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Introduction to Theater",
+    "description": "This course provides an overview of the theater as an art form. Students will learn about the history of theater, the various genres of theater, the role of theater in society, and the process of creating live theater performances.",
+    "prerequisites": []
+  },
+  {
+    "name": "Acting I",
+    "description": "This course provides an introduction to acting techniques and exercises. Students will learn about character development, script analysis, vocal and physical expression, and performance skills.",
+    "prerequisites": ["Introduction to Theater"]
+  },
+  {
+    "name": "Theater Design and Technology",
+    "description": "This course provides an introduction to the technical aspects of theater production. Students will learn about scenic design, lighting design, sound design, and costume design.",
+    "prerequisites": ["Introduction to Theater"]
+  },
+  [{
+    "name": "History of Theater",
+    "description": "This course provides a comprehensive survey of the history of theater from ancient Greece to the present day. Students will study the major developments and movements in theater history and their cultural contexts.",
+    "prerequisites": ["Introduction to Theater"]
+   },
+   {
+    "name": "Script Analysis",
+    "description": "This course provides an in-depth study of dramatic texts. Students will learn about the elements of playwriting, the structure of dramatic narratives, and the process of analyzing and interpreting scripts.",
+    "prerequisites": ["Introduction to Theater"]
+  }],
+  {
+    "name": "Directing",
+    "description": "This course provides an introduction to the art of directing for the theater. Students will learn about the process of interpreting scripts and translating them into performance, as well as the various techniques and strategies involved in directing actors and designing productions.",
+    "prerequisites": ["Acting I", "Theater Design and Technology", "Script Analysis"]
+  },
+  {
+    "name": "Contemporary Theater",
+    "description": "This course provides an overview of recent developments in theater practice and theory. Students will explore contemporary trends in acting, directing, and design, as well as the role of theater in contemporary society.",
+    "prerequisites": ["History of Theater"]
+  },
+  {
+    "name": "Performance Studies",
+    "description": "This course provides an introduction to the interdisciplinary field of performance studies. Students will explore the relationship between performance and culture, as well as the various methods and theories used to analyze and interpret performance phenomena.",
+    "prerequisites": ["History of Theater"]
+  },
+  {
+    "name": "Theater Practicum",
+    "description": "This course provides hands-on experience in theater production. Students will collaborate on the creation and performance of a theatrical production, working in various technical and artistic roles.",
+    "prerequisites": ["Directing", "Contemporary Theater"]
+  }
+]

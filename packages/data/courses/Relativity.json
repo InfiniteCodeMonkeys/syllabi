@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Introductory Physics",
+    "description": "This course introduces students to the basics of physics. Students will learn about Force, Motion, Energy, Momentum, Waves, Thermodynamics, Electromagnetism and Optics.",
+    "prerequisites": []
+  },
+  {
+    "name": "Classical Mechanics",
+    "description": "This course introduces students to the fundamental principles of classical mechanics. Students will learn about Kinematics, Newton's Laws of Motion, Work, Energy, Momentum, Rotational Motion, Oscillations, and Gravitation.",
+    "prerequisites": ["Introductory Physics"]
+  },
+  {
+    "name": "Electromagnetism",
+    "description": "This course introduces students to the fundamental principles of electromagnetism. Students will learn about Electric Charge, Electric Field, Electric Potential, Capacitance, Current, Resistance, Magnetism, Magnetic Field, and Electromagnetic Induction.",
+    "prerequisites": ["Introductory Physics"]
+  },
+  {
+    "name": "Thermodynamics and Statistical Mechanics",
+    "description": "This course introduces students to the fundamental concepts of thermodynamics and statistical mechanics. Students will learn about Heat, Temperature, Laws of Thermodynamics, Carnot Cycles, Entropy, Maxwell-Boltzmann Statistics, and Quantum Statistics.",
+    "prerequisites" : ["Introductory Physics"]
+  },
+  {
+    "name": "Quantum Mechanics",
+    "description": "This course explains the fundamental principles of quantum mechanics. Students will learn about Wave-Particle Duality, Uncertainty Principle, Schrodinger Equation, Quantum States, Quantum Tunneling, and Quantum Entanglement.",
+    "prerequisites": ["Classical Mechanics", "Electromagnetism"]
+  },
+  {
+    "name": "Special Relativity",
+    "description": "This course is an introduction to Einstein's Special Theory of Relativity. Topics include Time Dilation, Length Contraction, Lorentz Transformations, Minkowski Spacetime, Relativistic Energy and Momentum, and Black Holes.",
+    "prerequisites": ["Classical Mechanics", "Electromagnetism"]
+  },
+  [
+    {
+      "name": "General Relativity",
+      "description": "This course introduces students to Einstein's general theory of relativity which extended his special theory. Students will learn about Curved Space-time, the Equivalence Principle, Gravitational Waves, Black Holes, Cosmology, and Dark Matter.",
+      "prerequisites": ["Special Relativity", "Thermodynamics and Statistical Mechanics", "Quantum Mechanics"]
+    },
+    {
+      "name": "Quantum Field Theory",
+      "description": "This course explores the foundations of quantum field theory and its applications to particle physics. Topics include the mathematics of Quantum Field Theory, Symmetries and Conservation Laws, the Standard Model of Particle Physics, and the Higgs Mechanism.",
+      "prerequisites": ["Special Relativity","Quantum Mechanics"]
+    }
+  ]
+]

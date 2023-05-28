@@ -1,0 +1,29 @@
+[
+  {
+    "name": "General Chemistry",
+    "description": "This course introduces students to the principles of general chemistry. Students will learn about atomic structure, chemical bonding, stoichiometry, chemical reactions, and thermodynamics.",
+    "prerequisites": []
+  },
+  {
+    "name": "Organic Chemistry",
+    "description": "This course introduces students to the principles of organic chemistry. Students will learn about the structure, properties, and reactions of organic compounds.",
+    "prerequisites": ["General Chemistry"]
+  },
+  [
+    {
+      "name": "Physical Chemistry",
+      "description": "This course introduces students to the principles of physical chemistry. Students will learn about thermodynamics, kinetics, quantum mechanics, and spectroscopy.",
+      "prerequisites": ["General Chemistry", "Calculus"]
+    },
+    {
+      "name": "Analytical Chemistry",
+      "description": "This course introduces students to the principles of analytical chemistry. Students will learn about quantitative analysis, including chemical equilibrium and electrochemistry, and qualitative analysis.",
+      "prerequisites": ["General Chemistry"]
+    }
+  ],
+  {
+    "name": "Medicinal Chemistry",
+    "description": "This course introduces students to the principles of medicinal chemistry. Students will learn about drug design, synthesis, and evaluation, as well as pharmacokinetics and pharmacodynamics.",
+    "prerequisites": ["Organic Chemistry", "Physical Chemistry", "Analytical Chemistry"]
+  }
+]

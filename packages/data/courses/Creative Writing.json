@@ -1,0 +1,51 @@
+[
+  { 
+    "name": "Introduction to Creative Writing",
+    "description": "This course introduces students to the basic concepts and techniques of creative writing in the context of the larger field of arts. Students will learn about the different genres of creative writing, including poetry, fiction, and creative nonfiction, as well as the fundamentals of the writing process, such as generating ideas, developing characters, and using sensory detail.",
+    "prerequisites": []
+  },
+  { 
+    "name": "Reading and Writing Short Fiction",
+    "description": "This course focuses on the craft of writing short fiction, with an emphasis on reading and writing stories that demonstrate an understanding of literary elements such as character, setting, point of view, and plot development. Students will analyze published works of fiction and discuss the techniques used by the authors. Students will write and workshop their own short stories.",
+    "prerequisites": ["Introduction to Creative Writing"]
+  },
+  [
+    {
+      "name": "Reading and Writing Poetry",
+      "description": "This course focuses on the craft of writing poetry, with an emphasis on reading and writing poems that demonstrate an understanding of literary elements such as form, line, syntax, and figurative language. Students will analyze published works of poetry and discuss the techniques used by the authors. Students will write and workshop their own poems.",
+      "prerequisites": ["Introduction to Creative Writing"]
+    },
+    {
+      "name": "Reading and Writing Nonfiction",
+      "description": "This course focuses on the craft of writing creative nonfiction, with an emphasis on reading and writing personal essays, memoir, and literary journalism. Students will analyze published works of creative nonfiction and discuss the techniques used by the authors. Students will write and workshop their own pieces of creative nonfiction.",
+      "prerequisites": ["Introduction to Creative Writing"]
+    }
+  ],
+  {
+    "name": "Advanced Fiction Writing",
+    "description": "This course builds on the skills learned in Reading and Writing Short Fiction, with a focus on writing longer works of fiction such as novellas or novels. Students will learn advanced techniques such as plotting, character development, and dialogue. Students will workshop their own longer works of fiction.",
+    "prerequisites": ["Reading and Writing Short Fiction"]
+  },
+  {
+    "name": "Advanced Poetry Writing",
+    "description": "This course builds on the skills learned in Reading and Writing Poetry, with a focus on writing longer works of poetry such as chapbooks or full-length collections. Students will learn advanced techniques such as sequencing, voice, and experimentation with form. Students will workshop their own longer works of poetry.",
+    "prerequisites": ["Reading and Writing Poetry"]
+  },
+  {
+    "name": "Advanced Creative Nonfiction Writing",
+    "description": "This course builds on the skills learned in Reading and Writing Nonfiction, with a focus on writing longer works of creative nonfiction such as memoirs or book-length works of literary journalism. Students will learn advanced techniques such as structuring longer pieces, research, and experimentation with voice. Students will workshop their own longer works of creative nonfiction.",
+    "prerequisites": ["Reading and Writing Nonfiction"]
+  },
+  [
+    {
+      "name": "Writing for Stage and Screen",
+      "description": "This course focuses on the craft of writing scripts for theater and film, with an emphasis on understanding the unique demands of each medium. Students will learn how to write effective dialogue, block scenes, and write effective action. Students will workshop their own scripts.",
+      "prerequisites": ["Introduction to Creative Writing"]
+    },
+    {
+      "name": "Writing for New Media",
+      "description": "This course focuses on the craft of writing for new media, such as blogs, podcasts, and social media. Students will learn how to write effective content for different platforms, build a digital presence, and measure the impact of their work. Students will produce their own content and comment on the work of others.",
+      "prerequisites": ["Introduction to Creative Writing"]
+    }
+  ]
+]

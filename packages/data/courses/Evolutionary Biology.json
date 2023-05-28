@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Introductory Biology",
+    "description": "This course introduces students to the principles of biology. Students will learn about the scientific method, the structure and function of cells, the structure and function of DNA, the structure and function of proteins, the structure and function of organelles, the structure and function of tissues, the structure and function of organs, the structure and function of organ systems, the structure and function of organisms, the structure and function of populations, the structure and function of communities, the structure and function of ecosystems, the structure and function of the biosphere, and the history of biology.",
+    "prerequisites": []
+  },
+  {
+    "name": "Genetics",
+    "description": "This course introduces students to the principles of genetics. Students will learn about the structure and function of DNA, the principles of inheritance, genetic variation, and the genetic basis of evolutionary processes.",
+    "prerequisites": ["Introductory Biology"]
+  },
+  [
+    {
+      "name": "Cell Biology",
+      "description": "This course introduces students to the principles of cell biology. Students will learn about the structure and function of cells, cellular processes, and the role of cells in evolution.",
+      "prerequisites": ["Introductory Biology"]
+    },
+    {
+      "name": "Molecular Biology",
+      "description": "This course introduces students to the principles of molecular biology. Students will learn about the structure and function of DNA, RNA, and proteins, and the mechanisms by which genetic information is expressed and regulated.",
+      "prerequisites": ["Introductory Biology"]
+    }
+  ],
+  {
+    "name": "Evolutionary Biology",
+    "description": "This course introduces students to the principles of evolutionary biology. Students will learn about the mechanisms of evolution, the history of life on earth, and the current state of knowledge in the field of evolutionary biology.",
+    "prerequisites": ["Introductory Biology", "Genetics", "Cell Biology"]
+  },
+  [
+    {
+      "name": "Ecology",
+      "description": "This course introduces students to the principles of ecology. Students will learn about the interactions between organisms and their environment and the structure and function of ecosystems.",
+      "prerequisites": ["Introductory Biology"]
+    },
+    {
+      "name": "Behavioral Ecology",
+      "description": "This course introduces students to the principles of behavioral ecology. Students will learn how natural selection acts on behavior and how behavior affects the fitness of individuals and populations.",
+      "prerequisites": ["Introductory Biology", "Evolutionary Biology"]
+    }
+  ],
+  {
+    "name": "Paleontology",
+    "description": "This course introduces students to the principles of paleontology. Students will learn about the history of life on earth and the fossil record, and how fossils contribute to our understanding of evolution.",
+    "prerequisites": ["Introductory Biology", "Evolutionary Biology"]
+  }
+]

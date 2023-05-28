@@ -1,0 +1,46 @@
+[
+  {
+    "name": "General Chemistry I",
+    "description": "This course introduces students to the fundamental concepts of Chemistry. Students will study atomic structure, bonding, stoichiometry, chemical reactions, gases, liquids and solids, thermochemistry, and solutions.",
+    "prerequisites": []
+  },
+  {
+    "name": "General Chemistry II",
+    "description": "This course builds on the concepts introduced in General Chemistry I, and introduces students to equilibrium, acids and bases, thermodynamics, kinetics, oxidation-reduction reactions, electrochemistry, and nuclear chemistry.",
+    "prerequisites": ["General Chemistry I"]
+  },
+  [
+    {
+      "name": "Organic Chemistry I",
+      "description": "This course focuses on the chemistry of carbon compounds. Students will study bonding, nomenclature, isomerism, stereochemistry, reactions of alkanes and cycloalkanes, and the chemical behavior of alkyl halides.",
+      "prerequisites": ["General Chemistry I", "General Chemistry II"]
+    },
+    {
+      "name": "Analytical Chemistry",
+      "description": "This course introduces students to the principles of chemical analysis. Students will study statistical analysis, gravimetric analysis, titrimetry, electrochemistry, chromatography, spectroscopy, and quality control.",
+      "prerequisites": ["General Chemistry I", "General Chemistry II"]
+    }
+  ],
+  {
+    "name": "Environmental Chemistry",
+    "description": "This course focuses on the chemical aspects of environmental issues. Students will study environmental pollutants, atmospheric chemistry, water quality, waste treatment, and global climate change.",
+    "prerequisites": ["Organic Chemistry I", "Analytical Chemistry"]
+  },
+  {
+    "name": "Physical Chemistry",
+    "description": "This course explores the theoretical basis of chemical phenomena. Students will study thermodynamics, quantum chemistry, spectroscopy, kinetics, statistical mechanics, and surface chemistry.",
+    "prerequisites": ["General Chemistry II"]
+  },
+  [
+    {
+      "name": "Inorganic Chemistry",
+      "description": "This course examines the chemistry of the elements. Students will study atomic and molecular structure, periodic properties, coordination compounds, organometallic compounds, and bioinorganic chemistry.",
+      "prerequisites": ["General Chemistry II"]
+    },
+    {
+      "name": "Biochemistry",
+      "description": "This course focuses on the chemical basis of life processes. Students will study bioenergetics, protein structure and function, enzyme kinetics, metabolism, and nucleic acid structure and function.",
+      "prerequisites": ["Organic Chemistry I"]
+    }
+  ]
+]

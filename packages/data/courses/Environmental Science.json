@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Introduction to Environmental Science",
+    "description": "This course introduces the basic principles of environmental science. Students will learn about the interactions between the environment and human societies, ecosystem services, earth systems, biodiversity conservation, and environmental policy and regulation.",
+    "prerequisites": []
+  },
+  {
+    "name": "General Biology",
+    "description": "This course includes an overview of cellular biology, genetics, evolution, and ecology.",
+    "prerequisites": []
+  },
+  {
+    "name": "General Chemistry",
+    "description": "This course covers the fundamental principles of chemistry.",
+    "prerequisites": []
+  },
+  {
+    "name": "Geology",
+    "description": "This course covers the structure, composition, and history of the earth and geologic processes.",
+    "prerequisites": []
+  },
+  {
+    "name": "Meteorology",
+    "description": "This course covers the basics of atmospheric science, including the causes and consequences of weather and climate.",
+    "prerequisites": []
+  },
+  {
+    "name": "Soil Science",
+    "description": "This course covers the physical, chemical, and biological properties and processes of soils.",
+    "prerequisites": []
+  },
+  {
+    "name": "Ecology",
+    "description": "This course covers the study of ecosystems, including the interactions between organisms and their environment.",
+    "prerequisites": ["General Biology"]
+  },
+  [
+    {
+      "name": "Environmental Chemistry",
+      "description": "This course covers the application of chemical principles to the study of environmental issues.",
+      "prerequisites": ["General Chemistry"]
+    },
+    {
+      "name": "Environmental Geology",
+      "description": "This course covers the application of geologic principles to the study of environmental issues.",
+      "prerequisites": ["Geology"]
+    }
+  ],
+  [
+    {
+      "name": "Atmospheric Science",
+      "description": "This course covers the study of the atmosphere and atmospheric processes.",
+      "prerequisites": ["Meteorology"]
+    },
+    {
+      "name": "Hydrology",
+      "description": "This course covers the study of water in the environment, including its distribution, movement, and quality.",
+      "prerequisites": []
+    }
+  ],
+  {
+    "name": "Environmental Policy",
+    "description": "This course covers the development and implementation of environmental policies and regulations.",
+    "prerequisites": []
+  },
+  {
+    "name": "Environmental Ethics",
+    "description": "This course covers the philosophical and ethical dimensions of environmental issues.",
+    "prerequisites": []
+  },
+  {
+    "name": "Conservation Biology",
+    "description": "This course covers the study of the conservation of biodiversity and the management of natural resources.",
+    "prerequisites": ["Ecology"]
+  },
+  {
+    "name": "Environmental Impact Assessment",
+    "description": "This course covers the techniques and methods used to assess the environmental impacts of human activities.",
+    "prerequisites": []
+  },
+  {
+    "name": "Sustainable Development",
+    "description": "This course covers the sustainable use and management of natural resources.",
+    "prerequisites": []
+  }
+]

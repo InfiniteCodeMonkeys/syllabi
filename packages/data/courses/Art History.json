@@ -1,0 +1,34 @@
+[
+   {
+    "name": "Introduction to Art History",
+    "description": "This course provides an introduction to the history of art from the ancient world to the present. Students will learn how to identify and analyze key styles, techniques, and artistic movements across cultures and periods.",
+    "prerequisites": []
+   }, 
+   {
+     "name": "Western Art and Architecture",
+     "description": "This course provides an overview of the development of Western art and architecture from the Middle Ages to the present. Students will consider how social, cultural, and historical forces have intersected with artistic movements and styles.",
+     "prerequisites": ["Introduction to Art History"]
+   },
+   {
+     "name": "Non-Western Art",
+     "description": "This course surveys the traditions of non-Western art, including African, Asian, Islamic, and Oceanic art. Students will examine the cultural and historical contexts surrounding the creation and reception of these works.",
+     "prerequisites": ["Introduction to Art History"]
+   },
+   [
+     {
+       "name": "Art Theory and Criticism",
+       "description": "This course focuses on the theoretical and critical approaches to art, including formalism, feminism, Marxism and psychoanalysis. Students will read and analyze a variety of critical texts and consider how these theories shape our understanding of art and culture today.",
+       "prerequisites": ["Introduction to Art History"]
+     },
+     {
+       "name": "Art and Politics of Propaganda",
+       "description": " This course examines the role of art and design in shaping political messages and propaganda in the 20th century. Students will consider how artists and designers have negotiated their responsibilities as political agents and makers of culture.",
+       "prerequisites": ["Introduction to Art History"]
+     }
+   ],
+   {
+     "name": "Advanced Studies in Art History",
+     "description": "This course focuses on advanced topics in art history, including contemporary art, museum studies, and interdisciplinary approaches to art and culture. Students will engage in independent research and develop their own research projects.",
+     "prerequisites": ["Introduction to Art History", "Western Art and Architecture", "Non-Western Art", "Art Theory and Criticism", "Art and Politics of Propaganda"]
+   }
+ ]

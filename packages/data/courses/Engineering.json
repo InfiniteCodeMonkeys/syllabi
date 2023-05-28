@@ -1,0 +1,61 @@
+[
+  {
+    "name": "Calculus I",
+    "description": "Calculus I is an introduction to differentiation and integration, calculus applications, and analytic geometry. Students will learn how to compute derivatives and integrals, analyze functions using mathematical models, and apply calculus concepts to physical problems.",
+    "prerequisites": []
+  },
+  {
+    "name": "Physics I",
+    "description": "Physics I is an introduction to mechanics, including kinematics, Newton's laws, work and energy, momentum, and rotational motion. Students will learn how to use mathematical models to solve problems in physics.",
+    "prerequisites": ["Calculus I"]
+  },
+  {
+    "name": "Physics II",
+    "description": "Physics II is an introduction to electricity and magnetism, including electric and magnetic fields, circuits, and electromagnetic waves. Students will learn how to use mathematical models to solve problems in physics.",
+    "prerequisites": ["Calculus I", "Physics I"]
+  },
+  [
+    {
+      "name": "Multivariable Calculus",
+      "description": "Multivariable calculus is an introduction to functions of several variables, partial differentiation, multiple integrals, and vector calculus. Students will learn how to analyze functions of several variables, compute partial derivatives and integrals, and apply calculus concepts to physical problems.",
+      "prerequisites": ["Calculus I"]
+    },
+    {
+      "name": "Differential Equations",
+      "description": "Differential Equations is an introduction to first-order and second-order differential equations, Laplace transforms, and series solutions. Students will learn how to analyze differential equations and apply mathematical models to physical problems.",
+      "prerequisites": ["Calculus I"]
+    }
+  ],
+  {
+    "name": "Engineering Mechanics",
+    "description": "Engineering Mechanics is an introduction to statics and dynamics of particles and rigid bodies, forces and moments, moment of inertia, and work and energy. Students will learn how to use mathematical models to solve problems in mechanics.",
+    "prerequisites": ["Calculus I", "Physics I"]
+  },
+  {
+    "name": "Electric Circuits",
+    "description": "Electric Circuits is an introduction to fundamental concepts of electric circuits, including resistors, capacitors, inductors, and AC circuits. Students will learn how to use mathematical models to solve problems in circuits.",
+    "prerequisites": ["Calculus I", "Physics II"]
+  },
+  {
+    "name": "Materials Science",
+    "description": "Materials Science is an introduction to the structure and properties of materials, including metals, polymers, ceramics, and composites. Students will learn how to use materials in engineering applications and design.",
+    "prerequisites": ["Physics II", "Chemistry"]
+  },
+  [
+    {
+      "name": "Thermodynamics",
+      "description": "Thermodynamics is an introduction to the concepts of energy, temperature, heat, and entropy. Students will learn how to use mathematical models to solve problems in thermodynamics.",
+      "prerequisites": ["Calculus I", "Physics II", "Chemistry"]
+    },
+    {
+      "name": "Fluid Mechanics",
+      "description": "Fluid Mechanics is an introduction to the fundamentals of fluid behavior, including hydrostatics, dynamics, and Bernoulli's equation. Students will learn how to use mathematical models to solve problems in fluid mechanics.",
+      "prerequisites": ["Calculus I", "Physics II"]
+    }
+  ],
+  {
+    "name": "Engineering Design and Analysis",
+    "description": "Engineering Design and Analysis is a course that teaches students how to use the skills they have learned to analyze, design, and create engineering systems. Students will work on projects that demonstrate their skills with real-world engineering problems.",
+    "prerequisites": ["Calculus I", "Physics I", "Physics II", "Engineering Mechanics", "Electric Circuits", "Materials Science", "Thermodynamics", "Fluid Mechanics"]
+  }
+]

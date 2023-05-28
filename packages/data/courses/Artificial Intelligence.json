@@ -1,0 +1,56 @@
+[
+  { 
+    "name": "Introduction to Computer Science",
+    "description": "This course introduces students to fundamental concepts in computer science, including programming, algorithms, data structures, and machine organization.",
+    "prerequisites": []
+  },
+  {
+    "name": "Discrete Mathematics",
+    "description": "This course covers mathematical fundamentals that are essential for computer science students, including logic, set theory, combinatorics, and graph theory.",
+    "prerequisites": []
+  },
+  [
+    {
+      "name": "Data Structures and Algorithms",
+      "description": "This course covers basic data structures such as arrays and linked lists, as well as more advanced ones such as trees and graphs, and the algorithms to manipulate them.",
+      "prerequisites": ["Introduction to Computer Science"]
+    },
+    {
+      "name": "Databases",
+      "description": "This course covers basic database concepts and technologies, including data modeling, SQL, and database design.",
+      "prerequisites": ["Introduction to Computer Science"]
+    },
+  ],
+  {
+    "name": "Machine Learning",
+    "description": "This course provides an introduction to machine learning, including supervised and unsupervised learning algorithms, feature selection and engineering, and model selection.",
+    "prerequisites": ["Data Structures and Algorithms", "Discrete Mathematics"]
+  },
+  {
+    "name": "Artificial Intelligence",
+    "description": "This course provides a broad overview of artificial intelligence, including topics such as knowledge representation, reasoning, planning, and natural language processing.",
+    "prerequisites": ["Machine Learning"]
+  },
+  [
+    {
+      "name": "Computer Vision",
+      "description": "This course covers the image processing and machine learning techniques used in computer vision applications, such as object recognition and tracking.",
+      "prerequisites": ["Machine Learning"]
+    },
+    {
+      "name": "Natural Language Processing",
+      "description": "This course covers the machine learning and computational techniques used in natural language processing applications, such as text classification and sentiment analysis.",
+      "prerequisites": ["Machine Learning"]
+    },
+  ],
+  {
+    "name": "Deep Learning",
+    "description": "This course covers the fundamental building blocks of deep learning, including neural networks, convolutional neural networks, and recurrent neural networks.",
+    "prerequisites": ["Machine Learning"]
+  },
+  {
+    "name": "Reinforcement Learning",
+    "description": "This course covers the reinforcement learning paradigm, including Markov decision processes, Q-learning, and policy gradients.",
+    "prerequisites": ["Machine Learning", "Discrete Mathematics"]
+  }
+]

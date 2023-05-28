@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Introduction to Literature",
+    "description": "This course teaches students how to read literature critically and introduces them to concepts and techniques related to literary analysis. Students will learn how to interpret literary texts as well as how to identify and analyze literary elements, including plot, character, theme, setting, and style. Emphasis is placed on close reading and critical thinking skills.",
+    "prerequisites": []
+  },
+  {
+    "name": "Survey of English Literature I",
+    "description": "This course provides an overview of English literature from the Old English period through the 18th century, with an emphasis on major literary movements, authors, and works. Students will read and critically analyze representative texts from different periods, genres, and authors, and will learn about the historical and cultural contexts in which they were produced.",
+    "prerequisites": ["Introduction to Literature"]
+  },
+  {
+    "name": "Survey of English Literature II",
+    "description": "This course provides an overview of English literature from the Romantic period through the contemporary period, with an emphasis on major literary movements, authors, and works. Students will read and critically analyze representative texts from different periods, genres, and authors, and will learn about the historical and cultural contexts in which they were produced.",
+    "prerequisites": ["Introduction to Literature"]
+  },
+  [
+    {
+      "name": "Shakespeare",
+      "description": "This course provides an in-depth study of the works of William Shakespeare. Students will read and analyze a range of Shakespeare’s plays, exploring their historical and cultural contexts as well as their literary and dramatic elements. Special attention will be paid to Shakespeare’s language, themes, and techniques, as well as to critical debates surrounding his work.",
+      "prerequisites": ["Introduction to Literature"]
+    },
+    {
+      "name": "Medieval and Renaissance Literature",
+      "description": "This course explores the literature of medieval and Renaissance England, with an emphasis on representative authors, works, and genres. Students will read and analyze a range of literary texts, including poetry, drama, and prose, and will learn about their historical and cultural contexts as well as their literary and rhetorical features.",
+      "prerequisites": ["Introduction to Literature"]
+    }
+  ],
+  {
+    "name": "Modern and Contemporary Literature",
+    "description": "This course explores the literature of the modern and contemporary periods, with an emphasis on representative authors, works, and genres. Students will read and analyze a range of literary texts from the early 20th century to the present, and will learn about their historical and cultural contexts as well as their distinctive literary features and techniques.",
+    "prerequisites": ["Survey of English Literature II"]
+  },
+  [
+    {
+      "name": "Literary Theory and Criticism",
+      "description": "This course introduces students to the major theoretical and critical approaches to literature and literary studies. Students will learn about different schools of literary criticism, including formalism, structuralism, post-structuralism, feminism, psychoanalysis, and cultural studies, and will apply these approaches to close readings of literary texts.",
+      "prerequisites": ["Introduction to Literature"]
+    },
+    {
+      "name": "Creative Writing",
+      "description": "This course introduces students to the theory and practice of creative writing in several genres, including poetry, fiction, and creative nonfiction. Students will learn about different elements of craft, including voice, character, setting, plot, and image, and will hone their skills through frequent writing exercises and workshops.",
+      "prerequisites": ["Introduction to Literature"]
+    }
+  ],
+  {
+    "name": "Capstone Seminar in English Literature",
+    "description": "This seminar provides an opportunity for advanced students to engage in independent research and critical analysis of a topic or theme related to English literature. Students will complete a significant research project, presenting their findings and arguments to the class. Emphasis is placed on research methodology, critical thinking, and effective communication.",
+    "prerequisites": ["Literary Theory and Criticism", "Modern and Contemporary Literature"]
+  }
+]

@@ -1,0 +1,49 @@
+[
+{
+    "name": "General Chemistry I",
+    "description": "Introduction to the fundamental principles of chemistry, including atomic and molecular structure, chemical reactions, stoichiometry, and thermodynamics.",
+    "prerequisites": []
+},
+{
+    "name": "General Chemistry II",
+    "description": "Continuation of General Chemistry I, covering topics such as intermolecular forces, solutions, kinetics, equilibrium, acid-base chemistry, and electrochemistry.",
+    "prerequisites": ["General Chemistry I"]
+},
+{
+    "name": "Organic Chemistry I",
+    "description": "Introduction to organic chemistry, including bonding, functional groups, nomenclature, synthesis, and reaction mechanisms.",
+    "prerequisites": ["General Chemistry II"]
+},
+{
+    "name": "Organic Chemistry II",
+    "description": "Continuation of Organic Chemistry I, covering topics such as aromatic compounds, carbonyl chemistry, amines, carboxylic acids, and spectroscopy.",
+    "prerequisites": ["Organic Chemistry I"]
+},
+[
+{
+    "name": "Polymer Chemistry",
+    "description": "Introduction to the chemistry of polymers, including synthesis, characterization, reactions, and physical properties.",
+    "prerequisites": ["Organic Chemistry II"]
+},
+{
+    "name": "Physical Chemistry I",
+    "description": "Introduction to the principles of physical chemistry, including thermodynamics, quantum mechanics, and statistical mechanics.",
+    "prerequisites": ["General Chemistry II", "Calculus I"]
+}
+],
+{
+    "name": "Physical Chemistry II",
+    "description": "Continuation of Physical Chemistry I, covering topics such as spectroscopy, kinetics, surface chemistry, and electrochemistry.",
+    "prerequisites": ["Physical Chemistry I"]
+},
+{
+    "name": "Materials Science",
+    "description": "Introduction to the science of materials, including structure, characterization, properties, and applications.",
+    "prerequisites": ["Physical Chemistry I"]
+},
+{
+    "name": "Advanced Polymer Chemistry",
+    "description": "Advanced topics in polymer chemistry, including polymerization mechanisms, supramolecular assemblies, and functional polymers.",
+    "prerequisites": ["Polymer Chemistry", "Physical Chemistry II"]
+}
+]

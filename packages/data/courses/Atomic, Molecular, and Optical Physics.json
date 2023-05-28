@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Introductory Mechanics",
+    "description": "This course introduces students to classical mechanics. Students will learn about kinematics, dynamics, and conservation laws."
+    "prerequisites": []
+  },
+  {
+    "name": "Introductory Electromagnetism",
+    "description": "This course introduces students to classical electromagnetism. Students will learn about electric and magnetic fields, electromagnetic waves, and Maxwell's equations."
+    "prerequisites": ["Introductory Mechanics"]
+  },
+  {
+    "name": "Thermal Physics",
+    "description": "This course introduces students to thermal physics. Students will learn about the laws of thermodynamics, statistical mechanics, and thermodynamic potentials."
+    "prerequisites": ["Introductory Mechanics", "Introductory Electromagnetism"]
+  },
+  [
+    {
+      "name": "Introduction to Quantum Mechanics",
+      "description": "This course introduces students to quantum mechanics. Students will learn about wave-particle duality, quantum states, and operators."
+      "prerequisites": ["Introductory Mechanics", "Introductory Electromagnetism"]
+    },
+    {
+      "name": "Introduction to Optics",
+      "description": "This course introduces students to optics. Students will learn about ray optics, wave optics, and the interaction of light with matter."
+      "prerequisites": ["Introductory Mechanics", "Introductory Electromagnetism"]
+    }
+  ],
+  {
+    "name": "Atomic Physics",
+    "description": "This course introduces students to atomic physics. Students will learn about atomic structure, atomic spectra, and quantum mechanics in atoms."
+    "prerequisites": ["Thermal Physics", "Introduction to Quantum Mechanics", "Introduction to Optics"]
+  },
+  {
+    "name": "Molecular Physics",
+    "description": "This course introduces students to molecular physics. Students will learn about molecular structure, molecular spectra, and quantum mechanics in molecules."
+    "prerequisites": ["Thermal Physics", "Introduction to Quantum Mechanics", "Introduction to Optics", "Atomic Physics"]
+  },
+  {
+    "name": "Optical Physics",
+    "description": "This course introduces students to optical physics. Students will learn about basic principles of laser optics, waveguides, fiber optics, and nonlinear optics."
+    "prerequisites": ["Thermal Physics", "Introduction to Quantum Mechanics", "Introduction to Optics", "Atomic Physics", "Molecular Physics"]
+  }
+]

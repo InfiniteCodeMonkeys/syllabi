@@ -1,0 +1,157 @@
+[
+  {
+    "name": "Introductory Chemistry",
+    "description": "This course introduces students to the principles of chemistry. Students will learn about atoms, molecules, compounds, chemical reactions, and stoichiometry.",
+    "prerequisites": []
+  },
+  [
+    {
+      "name": "Introductory Biology",
+      "description": "This course introduces students to the principles of biology. Students will learn about the scientific method, the structure and function of cells, the structure and function of DNA, the structure and function of proteins, and the structure and function of organelles.",
+      "prerequisites": []
+    },
+    {
+      "name": "General Chemistry",
+      "description": "This course introduces students to the principles of general chemistry. Students will learn about chemical thermodynamics, bonding, kinetics, and equilibrium.",
+      "prerequisites": ["Introductory Chemistry"]
+    }
+  ],
+  {
+    "name": "Organic Chemistry",
+    "description": "This course introduces students to the principles of organic chemistry. Students will learn about the structure and reactions of organic molecules.",
+    "prerequisites": ["Introductory Chemistry"]
+  },
+  [
+    {
+      "name": "Cell Biology",
+      "description": "This course introduces students to the principles of cell biology. Students will learn about the structure and function of cells, the structure and function of DNA, the structure and function of proteins, and the structure and function of organelles.",
+      "prerequisites": ["Introductory Biology"]
+    },
+    {
+      "name": "Genetics",
+      "description": "This course introduces students to the principles of genetics. Students will learn about the structure and function of DNA, the structure and function of proteins, and the molecular basis of inheritance.",
+      "prerequisites": ["Introductory Biology"]
+    }
+  ],
+  {
+    "name": "Biochemistry",
+    "description": "This course introduces students to the principles of biochemistry. Students will learn about the structure and function of proteins, carbohydrates, lipids, and nucleic acids, and the biochemical pathways of metabolism.",
+    "prerequisites": ["Organic Chemistry", "Cell Biology", "Genetics"]
+  },
+  {
+    "name": "Advanced Biochemistry",
+    "description": "This course covers advanced topics in biochemistry, including enzyme kinetics, macromolecular structure, and signal transduction.",
+    "prerequisites": ["Biochemistry"]
+  },
+  {
+    "name": "Molecular Biology",
+    "description": "This course covers the molecular biology of gene expression, including DNA replication, transcription, and translation. Students will also learn about recombinant DNA technology.",
+    "prerequisites": ["Biochemistry", "Genetics"]
+  },
+  {
+    "name": "Systems Biology",
+    "description": "This course introduces students to the principles of systems biology, and explores how complex biological systems can be mathematically modeled.",
+    "prerequisites": ["Advanced Biochemistry", "Molecular Biology"]
+  },
+  [
+    {
+      "name": "Immunology",
+      "description": "This course introduces students to the principles of immunology. Students will learn about the structure and function of the immune system, and the molecular basis of immune responses.",
+      "prerequisites": ["Biochemistry", "Cell Biology"]
+    },
+    {
+      "name": "Microbiology",
+      "description": "This course introduces students to the principles of microbiology. Students will learn about the structure and function of bacteria, viruses, and other microorganisms, and explore their roles in health and disease.",
+      "prerequisites": ["Biochemistry", "Cell Biology"]
+    }
+  ]
+][
+  {
+    "name": "General Chemistry I",
+    "description": "This course introduces students to the basic principles of chemistry. Students will learn about the structure and behavior of atoms, elements, and compounds, chemical reactions, and stoichiometry.",
+    "prerequisites": []
+  },
+  {
+    "name": "General Chemistry II",
+    "description": "This course builds on the principles learned in General Chemistry I. Students will learn about solutions, acid-base equilibria, thermodynamics, kinetics, and electrochemistry.",
+    "prerequisites": ["General Chemistry I"]
+  },
+  [
+    {
+      "name": "Organic Chemistry I",
+      "description": "This course introduces students to the chemistry of carbon and its compounds. Students will learn about the structure and reactions of alkanes, alkenes, alkynes, and aromatic compounds.",
+      "prerequisites": ["General Chemistry I"]
+    },
+    {
+      "name": "General Biology I",
+      "description": "This course introduces students to the principles of biology. Students will learn about the scientific method, the structure and function of cells, and basic biochemistry.",
+      "prerequisites": []
+    }
+  ],
+  {
+    "name": "Organic Chemistry II",
+    "description": "This course builds on the principles learned in Organic Chemistry I. Students will learn about the synthesis and reactions of alcohols, ethers, amines, and carbonyl compounds.",
+    "prerequisites": ["Organic Chemistry I"]
+  },
+  {
+    "name": "Analytical Chemistry",
+    "description": "This course introduces students to the principles of analytical chemistry. Students will learn about chemical equilibria, acid-base equilibria, complexometric titrations, and electroanalytical chemistry.",
+    "prerequisites": ["General Chemistry II"]
+  },
+  [
+    {
+      "name": "Biochemistry I",
+      "description": "This course introduces students to the basic chemistry of biological molecules. Students will learn about the structure and function of amino acids, proteins, nucleic acids, and carbohydrates.",
+      "prerequisites": ["General Biology I", "Organic Chemistry II", "Analytical Chemistry"]
+    },
+    {
+      "name": "Physical Chemistry I",
+      "description": "This course introduces students to the principles of physical chemistry. Students will learn about thermodynamics, chemical kinetics, and quantum mechanics.",
+      "prerequisites": ["General Chemistry II"]
+    }
+  ],
+  {
+    "name": "Biochemistry II",
+    "description": "This course builds on the principles learned in Biochemistry I. Students will learn about the metabolism of carbohydrates, lipids, and proteins, as well as enzyme kinetics and mechanisms.",
+    "prerequisites": ["Biochemistry I", "Physical Chemistry I"]
+  },
+  {
+    "name": "Biophysical Chemistry",
+    "description": "This course introduces students to the physical principles that govern biological systems. Students will learn about protein structure and function, enzyme kinetics, and thermodynamics of biological systems.",
+    "prerequisites": ["Biochemistry II"]
+  },
+  [
+    {
+      "name": "Cell Biology",
+      "description": "This course introduces students to the principles of cell biology. Students will learn about the structure and function of cells, cellular organelles, and cellular processes.",
+      "prerequisites": ["General Biology I"]
+    },
+    {
+      "name": "Genetics",
+      "description": "This course introduces students to the principles of genetics. Students will learn about gene structure, replication, and expression, as well as some genetic techniques.",
+      "prerequisites": ["General Biology I"]
+    }
+  ],
+  {
+    "name": "Structural Biology",
+    "description": "This course introduces students to structure-function relationships in biological systems. Students will learn basic X-ray crystallography and NMR spectroscopy, and their applications in structural biology.",
+    "prerequisites": ["Biochemistry II", "Biophysical Chemistry"]
+  },
+  [
+    {
+      "name": "Molecular Biology",
+      "description": "This course introduces students to the molecular mechanisms of gene expression and regulation. Students will learn about transcription, translation, and post-transcriptional modifications.",
+      "prerequisites": ["Genetics", "Cell Biology"]
+    },
+    {
+      "name": "Immunology",
+      "description": "This course introduces students to the principles of immunology. Students will learn about the immune system, its components, and how it fights infections.",
+      "prerequisites": ["Genetics", "Cell Biology"]
+    }
+  ],
+  {
+    "name": "Advanced Topics in Biochemistry",
+    "description": "This course covers advanced topics in biochemistry, including signal transduction, molecular motors, and membrane transport.",
+    "prerequisites": ["Structural Biology", "Molecular Biology", "Immunology"]
+  }
+]

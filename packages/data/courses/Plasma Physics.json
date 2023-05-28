@@ -1,0 +1,39 @@
+[
+  {
+    "name": "Introduction to Physics",
+    "description": "This course introduces students to the principles of basic physics. Students will learn about classical mechanics, electromagnetism, thermodynamics, and modern physics."
+    "prerequisites": []
+  },
+  [
+    {
+      "name": "Classical Mechanics",
+      "description": "This course introduces students to the principles of classical mechanics. Students will learn about the motion of particles, rigid bodies, fluids, and waves in classical physics."
+      "prerequisites": ["Introduction to Physics"]
+    },
+    {
+      "name": "Electricity and Magnetism",
+      "description": "This course introduces students to the principles of electricity and magnetism. Students will learn about the nature of electric and magnetic fields, and their interactions with charged particles."
+      "prerequisites": ["Introduction to Physics"]
+    },
+  ],
+  {
+    "name": "Thermal Physics",
+    "description": "This course introduces students to the principles of thermal physics. Students will learn about the nature of heat, temperature, entropy, and the laws of thermodynamics."
+    "prerequisites": ["Introduction to Physics"]
+  },
+  {
+    "name": "Quantum Mechanics",
+    "description": "This course introduces students to the principles of quantum mechanics. Students will learn about the nature of the wave-particle duality, uncertainty principle, and quantum states."
+    "prerequisites": ["Introduction to Physics"]
+  },
+  {
+    "name": "Plasma Physics",
+    "description": "This course introduces students to the principles of plasma physics. Students will learn about the nature of plasmas, plasma waves, and their interactions with electromagnetic fields."
+    "prerequisites": ["Electricity and Magnetism", "Quantum Mechanics"]
+  },
+  {
+    "name": "Advanced Plasma Physics",
+    "description": "This course introduces students to advanced principles in plasma physics. Students will learn about non-linear plasma phenomena, magnetic confinement fusion, and plasma diagnostics."
+    "prerequisites": ["Plasma Physics"]
+  },
+]

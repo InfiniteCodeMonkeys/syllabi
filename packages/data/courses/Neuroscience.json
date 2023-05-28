@@ -1,0 +1,150 @@
+[
+  {
+    "name": "Introduction to Psychology",
+    "description": "This course introduces students to the major topics in psychology. Students will learn about many of the different subfields within psychology, such as social psychology, developmental psychology, clinical psychology, cognitive psychology, and neuroscience.",
+    "prerequisites": []
+  },
+
+  [
+    {
+      "name": "Biological Psychology",
+      "description": "This course introduces students to the basic principles of biological psychology. Students will learn about the anatomy and physiology of the brain, as well as the neural mechanisms underlying behavior and cognition.",
+      "prerequisites": ["Introduction to Psychology"]
+    },
+    {
+      "name": "Statistics for Experimental Design",
+      "description": "This course teaches students the basics of statistical analysis for experimental design. Students will learn how to properly collect and analyze data.",
+      "prerequisites": ["Introduction to Psychology"]
+    }
+  ],
+
+  {
+    "name": "Research Methods in Psychology",
+    "description": "This course provides students with an understanding of various research methods commonly used in psychology, including experimental design and statistical analysis.",
+    "prerequisites": [
+      "Statistics for Experimental Design",
+      "Biological Psychology"
+    ]
+  },
+
+  [
+    {
+      "name": "Sensation and Perception",
+      "description": "This course focuses on the neural mechanisms of sensory processing and perception, including topics such as vision, hearing, and touch.",
+      "prerequisites": ["Biological Psychology"]
+    },
+    {
+      "name": "Cognitive Psychology",
+      "description": "This course focuses on how humans process information and make decisions. Topics covered include memory, attention, decision-making, and problem-solving.",
+      "prerequisites": ["Biological Psychology"]
+    }
+  ],
+
+  {
+    "name": "Neuroscience",
+    "description": "This course provides an in-depth understanding of the anatomy and physiology of the nervous system, including the cellular and molecular mechanisms underlying neural function.",
+    "prerequisites": [
+      "Biological Psychology",
+      "Sensation and Perception",
+      "Cognitive Psychology",
+      "Research Methods in Psychology"
+    ]
+  },
+
+  [
+    {
+      "name": "Behavioral Neuroscience",
+      "description": "This course covers the neural basis of behavior, including topics such as motivation, emotion, learning, and memory.",
+      "prerequisites": ["Neuroscience"]
+    },
+    {
+      "name": "Neuropharmacology",
+      "description": "This course covers the effects of drugs and other chemicals on the nervous system, including topics such as drug addiction and mental illness.",
+      "prerequisites": ["Neuroscience"]
+    }
+  ],
+
+  {
+    "name": "Systems Neuroscience",
+    "description": "This course focuses on how different parts of the nervous system work together to generate behavior.",
+    "prerequisites": [
+      "Neuroscience",
+      "Behavioral Neuroscience",
+      "Neuropharmacology"
+    ]
+  },
+
+  [
+    {
+      "name": "Computational Neuroscience",
+      "description": "This course covers the application of mathematical and computational methods to understand brain function.",
+      "prerequisites": ["Neuroscience"]
+    },
+    {
+      "name": "Developmental Neuroscience",
+      "description": "This course focuses on how the nervous system develops, including topics such as neural stem cells, neural migration, and synaptogenesis.",
+      "prerequisites": ["Neuroscience"]
+    }
+  ],
+
+  {
+    "name": "Cognitive Neuroscience",
+    "description": "This course focuses on how the brain supports complex cognitive functions, including language, attention, and decision-making.",
+    "prerequisites": [
+      "Neuroscience",
+      "Systems Neuroscience",
+      "Computational Neuroscience"
+    ]
+  }
+]
+[
+  {
+    "name": "Introductory Psychology",
+    "description": "This course introduces students to the basic principles of psychology. Students will learn about the history of psychology, research methods, sensation and perception, learning, memory, thinking and language, motivation and emotion, personality, social psychology, and abnormal psychology.",
+    "prerequisites": []
+  },
+  [
+    {
+      "name": "Cell Biology",
+      "description": "This course introduces students to the principles of cell biology. Students will learn about the structure and function of cells, the structure and function of DNA, the structure and function of proteins, the structure and function of organelles, and the mechanisms of cellular processes.",
+      "prerequisites": ["Introductory Psychology"]
+    },
+    {
+      "name": "Neuroanatomy",
+      "description": "This course introduces students to the structure of the nervous system. Students will learn about neuroanatomy, neural development, and neural plasticity.",
+      "prerequisites": ["Introductory Psychology"]
+    }
+  ],
+  {
+    "name": "Sensory Neuroscience",
+    "description": "This course covers the anatomy and physiology of the five senses: vision, audition, olfaction, gustation, and somatosensation. Students will learn about sensory perception and sensory processing.",
+    "prerequisites": ["Cell Biology"]
+  },
+  {
+    "name": "Neuronal Signaling",
+    "description": "This course covers neuronal signaling and information processing in the nervous system. Students will learn about neurophysiology, synapses, and ion channels.",
+    "prerequisites": ["Cell Biology"]
+  },
+  [
+    {
+      "name": "Systems Neuroscience",
+      "description": "This course covers the functions of the nervous system at the level of circuits and systems. Students will learn about sensory and motor systems, cortical processing, and memory.",
+      "prerequisites": ["Sensory Neuroscience", "Neuronal Signaling"]
+    },
+    {
+      "name": "Cognitive Neuroscience",
+      "description": "This course covers the neural basis of cognition. Students will learn about attention, perception, memory, language, and decision-making.",
+      "prerequisites": ["Sensory Neuroscience", "Neuronal Signaling"]
+    }
+  ],
+  {
+    "name": "Neuropharmacology",
+    "description": "This course covers the effects of drugs on the nervous system. Students will learn about the mechanisms of drug action, drug addiction, and drug abuse.",
+    "prerequisites": ["Neuronal Signaling"]
+  },
+  {
+    "name": "Neurophysiology",
+    "description": "This course covers the electrical properties of neurons and the measurement of neural activity. Students will learn about electrophysiology, neuroimaging, and the methods of systems neuroscience.",
+    "prerequisites": ["Neuronal Signaling"]
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Introductory Astronomy",
+    "description": "An introduction to the study of astronomy.  Topics include the history of astronomy, celestial mechanics, electromagnetic radiation and telescopes, and the properties and evolution of the solar system.", 
+    "prerequisites": []
+  },
+  {
+    "name": "Stellar Astronomy",
+    "description": "A study of stars and the various processes and phenomena associated with them. Topics include stellar structure and evolution, nuclear reactions and nucleosynthesis, white dwarfs and neutron stars, supernovae, black holes, and binary stars.", 
+    "prerequisites": ["Introductory Astronomy"]
+  },
+  [
+    {
+      "name": "Galactic Astronomy",
+      "description": "An overview of the Milky Way galaxy and other galaxies in the universe. Topics include galactic structure and dynamics, the interstellar medium, star formation in galaxies, galactic evolution, and the large-scale structure of the universe.", 
+     "prerequisites": ["Introductory Astronomy", "Stellar Astronomy"]
+    },
+    {
+      "name": "Observational Astronomy",
+      "description": "A practical course in observing the night sky using telescopes and other tools. Topics include site selection, equipment setup and maintenance, data acquisition and reduction, and data analysis techniques.", 
+      "prerequisites": ["Introductory Astronomy", "Stellar Astronomy"]
+    }
+  ],
+  {
+    "name": "Planetary Science",
+    "description": "An exploration of the planets and other bodies in our solar system. Topics include planetary formation and evolution, planetary geology and atmospheric physics, the search for habitable worlds, and the exploration of space.", 
+    "prerequisites": ["Introductory Astronomy"]
+  }
+]

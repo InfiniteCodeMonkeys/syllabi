@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Introductory Biology",
+    "description": "This course introduces students to the principles of biology. Students will learn about the scientific method, the structure and function of cells, the structure and function of DNA, the structure and function of proteins, the structure and function of organelles, the structure and function of tissues, the structure and function of organs, the structure and function of organ systems, the structure and function of organisms, the structure and function of populations, the structure and function of communities, the structure and function of ecosystems, the structure and function of the biosphere, the structure and function of the earth, the structure and function of the solar system, the structure and function of the galaxy, the structure and function of the universe, the structure and function of time, the structure and function of space, the structure and function of matter, the structure and function of energy, the structure and function of life, and the structure and function of death.",
+    "prerequisites": []
+  },
+  {
+    "name": "Chemistry",
+    "description": "This course teaches the fundamentals of chemistry, including atoms and molecules, chemical reactions, stoichiometry, atomic structure, bonding, and chemical equilibrium",
+    "prerequisites": ["Introductory Biology"]
+  },
+  [
+    {
+      "name": "Cell Biology",
+      "description": "This course introduces students to the principles of cell biology. Students will learn about the structure and function of cells, the structure and function of DNA, the structure and function of proteins, the structure and function of organelles, the structure and function of tissues, the structure and function of organs, the structure and function of organ systems, the structure and function of organisms, the structure and function of populations, the structure and function of communities, the structure and function of ecosystems, the structure and function of the biosphere, the structure and function of the earth, the structure and function of the solar system, the structure and function of the galaxy, the structure and function of the universe, the structure and function of time, the structure and function of space, the structure and function of matter, the structure and function of energy, the structure and function of life, and the structure and function of death.",
+      "prerequisites": ["Introductory Biology"]
+    }, 
+    {
+      "name": "Molecular Biology",
+      "description": "This course introduces students to the principles of molecular biology. Students will learn about the structure and function of DNA, the structure and function of proteins, the structure and function of organelles, the structure and function of tissues, the structure and function of organs, the structure and function of organ systems, the structure and function of organisms, the structure and function of populations, the structure and function of communities, the structure and function of ecosystems, the structure and function of the biosphere, the structure and function of the earth, the structure and function of the solar system, the structure and function of the galaxy, the structure and function of the universe, the structure and function of time, the structure and function of space, the structure and function of matter, the structure and function of energy, the structure and function of life, and the structure and function of death.",
+      "prerequisites": ["Introductory Biology", "Chemistry"]
+    }
+  ],
+  {
+    "name": "Genetics",
+    "description": "This course introduces students to the principles of genetics. Students will learn about the structure and function of DNA, the inheritance of traits, and population genetics",
+    "prerequisites": ["Introductory Biology", "Cell Biology", "Molecular Biology", "Chemistry"]
+  },
+  [
+    {
+      "name": "Statistics",
+      "description": "This course teaches students the fundamentals of statistical analysis",
+      "prerequisites": ["Introductory Biology"]
+    },
+    {
+      "name": "Bioinformatics",
+      "description": "This course teaches students how to use computational tools to analyze biological data, including genomics and proteomics",
+      "prerequisites": ["Introductory Biology", "Molecular Biology"]
+    }
+  ],
+  {
+    "name": "Immunology",
+    "description": "This course introduces students to the principles of immunology. Students will learn about the immune system, immune responses, and immune-mediated diseases",
+    "prerequisites": ["Introductory Biology", "Cell Biology", "Molecular Biology", "Genetics"]
+  },
+  {
+    "name": "Biochemistry",
+    "description": "This course introduces students to the principles of biochemistry. Students will learn about proteins, enzymes, metabolism, and the biosynthesis of biological macromolecules",
+    "prerequisites": ["Introductory Biology", "Cell Biology", "Molecular Biology", "Chemistry"]
+  },
+  {
+    "name": "Cell Culture and Tissue Engineering",
+    "description": "This course teaches students the basic principles of in vitro cell culture and tissue engineering, as well as applications in biotechnology and tissue regeneration",
+    "prerequisites": ["Introductory Biology", "Cell Biology", "Molecular Biology", "Chemistry", "Genetics"]
+  },
+  {
+    "name": "Biotechnology Methods and Applications",
+    "description": "This course teaches students about the various methods used in biotechnology, including genetic engineering, protein production, and transgenic organism creation",
+    "prerequisites": ["Introductory Biology", "Cell Biology", "Molecular Biology", "Chemistry", "Genetics", "Biochemistry"]
+  },
+  {
+    "name": "Biotechnology Laboratory Techniques",
+    "description": "This course teaches students the laboratory techniques used in modern biotechnology, including DNA sequencing, polymerase chain reaction (PCR), and gel electrophoresis",
+    "prerequisites": ["Introductory Biology", "Cell Biology", "Molecular Biology", "Chemistry", "Biochemistry", "Biotechnology Methods and Applications"]
+  }
+]

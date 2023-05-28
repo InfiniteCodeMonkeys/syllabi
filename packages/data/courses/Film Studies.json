@@ -1,0 +1,46 @@
+[
+  { 
+    "name": "Introduction to Film Studies",
+    "description": "This course introduces students to the basic terminology, concepts, and methods used in film analysis and criticism. Students will learn about the history of film, different genres, film techniques, and how to analyze and write about movies.",
+    "prerequisites": []
+  },
+  {
+    "name": "History of Film",
+    "description": "This course provides students with a broad overview of the history of film and its cultural impact. Students will study the major movements, artists, and trends that have shaped the medium, giving them a strong foundation for more advanced classes.",
+    "prerequisites": ["Introduction to Film Studies"]
+  },
+  [
+    {
+      "name": "Film Theory",
+      "description": "This course introduces students to different schools of film theory and criticism, including formalism, realism, psychoanalytic theory, genre theory, and feminist theory. Students will learn how to apply these theories to the analysis and interpretation of film.",
+      "prerequisites": ["Introduction to Film Studies"]
+    },
+    {
+      "name": "Film Production",
+      "description": "This course teaches students about the technical aspects of film production, including cinematography, lighting, sound, and editing. Students may create their own short films or work on a group project as part of the class.",
+      "prerequisites": ["Introduction to Film Studies"]
+    }
+  ],
+  {
+    "name": "Global Cinema",
+    "description": "This course provides students with an overview of international film as a cultural phenomenon and art form. Students will explore cinema from different regions of the world, learn about different film movements, and gain insight into how filmmakers from different backgrounds approach storytelling.",
+    "prerequisites": ["Introduction to Film Studies", "History of Film"]
+  },
+  [
+    {
+      "name": "Film and Society",
+      "description": "This course explores the social and political dimensions of film, including how films reflect, represent, or challenge various issues, such as race, class, gender, sexuality, and identity. Students will learn how film can be used to inspire social change, activism, and dialogue.",
+      "prerequisites": ["Introduction to Film Studies"]
+    },
+    {
+      "name": "Documentary Film",
+      "description": "This course focuses on the art and history of documentary filmmaking, including various techniques used to represent reality in film. Students will learn how to analyze and critique documentaries, as well as how to make their own short documentary as part of the class.",
+      "prerequisites": ["Introduction to Film Studies"]
+    }
+  ],
+  {
+    "name": "Advanced Topics in Film",
+    "description": "This course explores a specific topic in depth, such as film genre, auteur theory, film sound, or animation. Students will engage with advanced theoretical and critical approaches to film, as well as build upon the practical skills learned in previous courses.",
+    "prerequisites": ["Introduction to Film Studies", "History of Film", "Global Cinema"]
+  }
+]

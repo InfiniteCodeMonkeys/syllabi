@@ -1,0 +1,61 @@
+[
+  {
+    "name": "Introduction to Programming",
+    "description": "This course is an introduction to programming. Students will learn basic concepts such as variables, data types, control structures, and functions. This course will use a high level language such as Python or Java.",
+    "prerequisites": []
+  },
+  {
+    "name": "Algorithms and Data Structures",
+    "description": "This course covers the design and analysis of algorithms and the implementation of data structures. Topics include searching and sorting algorithms, graph algorithms, and advanced data structures such as trees and hash tables.",
+    "prerequisites": ["Introduction to Programming"]
+  },
+  [
+    {
+      "name": "Computer Organization and Architecture",
+      "description": "This course covers computer organization and architecture. Topics include system architecture, memory, CPU, pipelining, and instruction sets.",
+      "prerequisites": ["Introduction to Programming"]
+    },
+    {
+      "name": "Discrete Mathematics",
+      "description": "This course covers mathematical concepts important to computer science. Topics include logic, set theory, graphs, combinatorics, and probability.",
+      "prerequisites": ["Introduction to Programming"]
+    }
+  ],
+  {
+    "name": "Software Engineering",
+    "description": "This course covers software development methodologies and processes, including requirements gathering, design, implementation, testing, and maintenance. Students will also learn about software project management, version control, and software documentation.",
+    "prerequisites": ["Algorithms and Data Structures"]
+  },
+  {
+    "name": "Database Systems",
+    "description": "This course covers the design and implementation of database systems. Topics include database models, query processing, transactions, and database security.",
+    "prerequisites": ["Algorithms and Data Structures"]
+  },
+  {
+    "name": "Web Development",
+    "description": "This course covers web development concepts such as HTML, CSS, JavaScript, and server-side programming. Students will also learn about web development frameworks and libraries.",
+    "prerequisites": ["Software Engineering"]
+  },
+  {
+    "name": "Operating Systems",
+    "description": "This course covers operating system design and implementation. Topics include concurrency, process management, memory management, and file systems.",
+    "prerequisites": ["Computer Organization and Architecture", "Algorithms and Data Structures"]
+  },
+  {
+    "name": "Networks and Security",
+    "description": "This course covers computer networks and security. Topics include network protocols, network architecture, and network security.",
+    "prerequisites": ["Operating Systems"]
+  },
+  [
+    {
+      "name": "Mobile App Development",
+      "description": "This course covers mobile app development concepts such as iOS and Android development, user interfaces, and app architecture.",
+      "prerequisites": ["Software Engineering", "Web Development"]
+    },
+    {
+      "name": "Machine Learning",
+      "description": "This course covers machine learning concepts such as regression, classification, clustering, and neural networks.",
+      "prerequisites": ["Algorithms and Data Structures", "Discrete Mathematics"]
+    }
+  ]
+]

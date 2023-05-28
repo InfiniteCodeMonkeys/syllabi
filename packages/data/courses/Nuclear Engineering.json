@@ -1,0 +1,61 @@
+[
+  {
+    "name": "Calculus I",
+    "description": "This course introduces students to the fundamentals of differential calculus and its applications. Students will learn about limits, continuity, derivatives, and integrals.",
+    "prerequisites": []
+  },
+  {
+    "name": "Calculus II",
+    "description": "This course expands on the fundamentals of differential calculus and introduces students to integral calculus. Students will learn about techniques of integration, applications of integration, polar coordinates, and sequences and series.",
+    "prerequisites": ["Calculus I"]
+  },
+  {
+    "name": "Physics I",
+    "description": "This course introduces students to the principles of classical mechanics. Students will learn about kinematics, Newton's laws, work, energy, momentum, rotational motion, oscillations, and waves.",
+    "prerequisites": ["Calculus I"]
+  },
+  {
+    "name": "Physics II",
+    "description": "This course expands on the principles of classical mechanics and introduces students to the principles of electricity and magnetism. Students will learn about electric charge, electric field, electric potential, capacitors, magnetic field, electromagnetic induction, and alternating current circuits.",
+    "prerequisites": ["Calculus II", "Physics I"]
+  },
+  [
+    {
+      "name": "Introduction to Nuclear Engineering",
+      "description": "This course introduces students to the principles of nuclear engineering. Students will learn about nuclear reactions, fission, fusion, radioactivity, radiation, radiation detection, radiation shielding, and nuclear power.",
+      "prerequisites": ["Calculus II", "Physics II"]
+    },
+    {
+      "name": "Differential Equations",
+      "description": "This course introduces students to the principles of differential equations and its applications. Students will learn about first-order differential equations, second-order differential equations, Laplace transforms, and systems of differential equations.",
+      "prerequisites": ["Calculus II"]
+    }
+  ],
+  {
+    "name": "Nuclear Reactor Theory",
+    "description": "This course introduces students to nuclear reactor theory. Students will learn about reactor kinetics, neutron diffusion theory, one-group and multi-group diffusion, criticality, and reactor control.",
+    "prerequisites": ["Calculus II", "Physics II", "Introduction to Nuclear Engineering"]
+  },
+  {
+    "name": "Thermal Hydraulics of Nuclear Reactors",
+    "description": "This course introduces students to the thermal hydraulics of nuclear reactors. Students will learn about fluid mechanics, heat transfer, two-phase flow, heat transfer in two-phase flow, and thermal-hydraulic behavior of nuclear reactors.",
+    "prerequisites": ["Calculus II", "Physics II", "Introduction to Nuclear Engineering"]
+  },
+  [
+    {
+      "name": "Materials in Nuclear Engineering",
+      "description": "This course introduces students to materials used in nuclear engineering. Students will learn about material behavior, selection of materials, and materials for radiation protection.",
+      "prerequisites": ["Calculus II", "Physics II", "Introduction to Nuclear Engineering"]
+    },
+    {
+      "name": "Nuclear Fuel Cycle",
+      "description": "This course introduces students to the nuclear fuel cycle. Students will learn about uranium resources, nuclear fuel enrichment, fuel fabrication, fuel irradiation, and spent fuel storage and disposal.",
+      "prerequisites": ["Introduction to Nuclear Engineering"]
+    }
+  ],
+   {
+    "name": "Nuclear Reactor Safety",
+    "description": "This course introduces students to nuclear reactor safety. Students will learn about the principles of reactor safety, reactor accidents, containment systems, emergency planning, and risk assessment.",
+    "prerequisites": ["Nuclear Reactor Theory", "Thermal Hydraulics of Nuclear Reactors"]
+   }
+]

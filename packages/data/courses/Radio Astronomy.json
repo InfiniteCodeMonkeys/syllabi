@@ -1,0 +1,44 @@
+[
+   {
+      "name": "Introduction to Astronomy",
+      "description": "This course provides an introduction to the field of astronomy. Students will learn about the celestial sphere, the solar system, stars, galaxies, and cosmology. The course will also provide an introduction to scientific methodology, including observation, hypothesis, and experimentation.",
+      "prerequisites": []
+   },
+   {
+      "name": "Physics for Scientists and Engineers I",
+      "description": "This course provides an introduction to classical mechanics, including kinematics, Newton's laws of motion, energy, and momentum. Topics covered include linear and angular motion, oscillations, and wave motion.",
+      "prerequisites": ["Introduction to Astronomy"]
+   },
+   {
+      "name": "Physics for Scientists and Engineers II",
+      "description": "This course provides an introduction to electromagnetism, including electric and magnetic fields, electromagnetic waves, and electromagnetic radiation. Topics covered include Gauss's law, Ampere's law, Faraday's law, and Maxwell's equations.",
+      "prerequisites": ["Physics for Scientists and Engineers I"]
+   },
+   {
+      "name": "Introduction to Astrophysics",
+      "description": "This course provides an introduction to the astrophysical principles that govern the behavior of various astronomical objects. Topics covered include stellar structure and evolution, nucleosynthesis, and the formation and evolution of galaxies.",
+      "prerequisites": ["Physics for Scientists and Engineers I", "Introduction to Astronomy"]
+   },
+   {
+      "name": "Radiative Processes in Astrophysics",
+      "description": "This course provides an introduction to the physics of electromagnetic radiation, including radiative transfer, blackbody radiation, and spectral lines. The course will also cover the application of radiative processes to various astronomical objects, including stars and galaxies.",
+      "prerequisites": ["Physics for Scientists and Engineers II", "Introduction to Astrophysics"]
+   },
+   [
+      {
+         "name": "Observational Astronomy",
+         "description": "This course provides an introduction to observational techniques and instrumentation in modern astronomy. Topics covered include optical, infrared, and radio telescopes, as well as space-based observatories and interferometry.",
+         "prerequisites": ["Radiative Processes in Astrophysics"]
+      },
+      {
+         "name": "Electromagnetic Astronomy",
+         "description": "This course provides an introduction to the electromagnetic spectrum and the variety of phenomena that can be observed across different wavelengths. Topics covered include the Sun, stars, galaxies, and cosmology.",
+         "prerequisites": ["Radiative Processes in Astrophysics"]
+      }
+   ],
+   {
+      "name": "Radio Astronomy",
+      "description": "This course provides an in-depth exploration of radio astronomy, including the principles and techniques of radio telescopes, as well as the application of radio observations to various astronomical objects, including the Sun, stars, galaxies, and cosmology.",
+      "prerequisites": ["Observational Astronomy", "Electromagnetic Astronomy"]
+   }
+]

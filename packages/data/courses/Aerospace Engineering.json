@@ -1,0 +1,105 @@
+[
+  {
+    "name": "Introductory Mechanics",
+    "description": "This course introduces students to the principles of mechanics. Students will learn about kinematics, Newton's laws of motion, momentum and energy conservation, and rotation of rigid bodies.",
+    "prerequisites": []
+  },
+
+  {
+    "name": "Introductory Electricity and Magnetism",
+    "description": "This course introduces students to the principles of electricity and magnetism. Students will learn about electric and magnetic fields, capacitors, inductors, and AC and DC circuits.",
+    "prerequisites": []
+  },
+
+  {
+    "name": "Calculus I",
+    "description": "This course introduces students to the principles of differential and integral calculus. Students will learn about limits, derivatives, and integrals of functions of one variable.",
+    "prerequisites": []
+  },
+
+  {
+    "name": "Calculus II",
+    "description": "This course builds upon the principles of differential and integral calculus learned in Calculus I. Students will learn about techniques of integration, sequences and series, and functions of several variables.",
+    "prerequisites": ["Calculus I"]
+  },
+
+  [
+    {
+      "name": "Dynamics",
+      "description": "This course introduces students to the principles of dynamics. Students will learn about kinematics and kinetics of particles and rigid bodies, conservation of energy and momentum, and vibrations and waves.",
+      "prerequisites": ["Introductory Mechanics", "Calculus II"]
+    },
+
+    {
+      "name": "Thermodynamics",
+      "description": "This course introduces students to the principles of thermodynamics. Students will learn about the laws of thermodynamics, thermodynamic properties, cycles and processes, and refrigeration and air conditioning.",
+      "prerequisites": ["Introductory Mechanics", "Calculus II"]
+    }
+  ],
+
+  {
+    "name": "Materials Science",
+    "description": "This course introduces students to the principles of materials science. Students will learn about crystal structure, defects in materials, phase diagrams, mechanical properties, and material processing.",
+    "prerequisites": [
+      "Introductory Mechanics",
+      "Calculus II",
+      "Introductory Electricity and Magnetism"
+    ]
+  },
+
+  {
+    "name": "Fluid Mechanics",
+    "description": "This course introduces students to the principles of fluid mechanics. Students will learn about fluid statics, fluid dynamics, Bernoulli's equation, Navier-Stokes equation, and boundary layers.",
+    "prerequisites": ["Introductory Mechanics", "Calculus II"]
+  },
+
+  [
+    {
+      "name": "Aerodynamics",
+      "description": "This course applies the principles of fluid mechanics to the study of aerodynamics. Students will learn about airfoil and wing theory, and the various types of drag and methods of drag reduction.",
+      "prerequisites": [
+        "Introductory Mechanics",
+        "Calculus II",
+        "Fluid Mechanics"
+      ]
+    },
+
+    {
+      "name": "Propulsion",
+      "description": "This course introduces students to the principles of propulsion. Students will learn about the thermodynamics of propulsion, rocket engines, jet engines, and turbomachinery.",
+      "prerequisites": [
+        "Introductory Mechanics",
+        "Calculus II",
+        "Thermodynamics",
+        "Fluid Mechanics"
+      ]
+    }
+  ],
+
+  {
+    "name": "Dynamics and Control of Aerospace Vehicles",
+    "description": "This course introduces students to the principles of dynamics and control of aerospace vehicles. Students will learn about vehicle modeling, linear and nonlinear control theory, and optimal control.",
+    "prerequisites": [
+      "Dynamics",
+      "Thermodynamics",
+      "Materials Science",
+      "Fluid Mechanics",
+      "Aerodynamics",
+      "Propulsion"
+    ]
+  },
+
+  [
+    {
+      "name": "Spacecraft Design",
+      "description": "This course provides an introduction to spacecraft systems engineering and spacecraft design. Students will learn about space environment, payloads and subsystems, spacecraft configuration, and mission analysis and design.",
+      "prerequisites": ["Dynamics and Control of Aerospace Vehicles"]
+    },
+
+    {
+      "name": "Aircraft Design",
+      "description": "This course provides an introduction to aircraft systems engineering and aircraft design. Students will learn about aerodynamics, propulsion, aircraft structures, flight control systems, and aircraft stability and control.",
+      "prerequisites": ["Dynamics and Control of Aerospace Vehicles"]
+    }
+  ]
+]

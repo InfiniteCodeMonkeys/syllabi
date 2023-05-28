@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Introductory Physics",
+    "description": "This course covers the basics of classical mechanics, thermodynamics, and electromagnetism in physics.",
+    "prerequisites": []
+  },
+  {
+    "name": "General Chemistry",
+    "description": "This course covers the basics of chemical structure, stoichiometry, and thermodynamics.",
+    "prerequisites": []
+  },
+  {
+    "name": "General Math and Calculus I",
+    "description": "This course introduces the fundamentals of math and calculus.",
+    "prerequisites": []
+  },
+  {
+    "name": "Materials Science",
+    "description": "This course introduces the fundamentals of materials science, including materials structures, properties, and processing.",
+    "prerequisites": ["Introductory Physics", "General Chemistry"]
+  },
+  [
+    {
+      "name": "General Math and Calculus II",
+      "description": "This course covers differentiation, integration, series expansion, and multivariable calculus.",
+      "prerequisites": ["General Math and Calculus I"],
+    },
+    {
+      "name": "Computer-Aided Design and Manufacturing",
+      "description": "This course introduces the fundamentals of computer-aided design (CAD) and manufacturing (CAM) systems.",
+      "prerequisites": ["Materials Science"]
+    }
+  ],
+  {
+    "name": "Mechanical Behavior of Materials",
+    "description": "This course covers the relationships between materials structures, defects, and mechanical properties.",
+    "prerequisites": ["Materials Science", "General Math and Calculus II", "Computer-Aided Design and Manufacturing"]
+  },
+  {
+    "name": "Electronic and Magnetic Properties of Materials",
+    "description": "This course covers the electronic and magnetic properties of materials, including conductivity, semiconductors, and magnetism.",
+    "prerequisites": ["Materials Science", "General Math and Calculus II", "Computer-Aided Design and Manufacturing"]
+  },
+  [
+    {
+      "name": "Polymer Science",
+      "description": "This course covers the properties, structures, and processing of polymers.",
+      "prerequisites": ["Mechanical Behavior of Materials"],
+    },
+    {
+      "name": "Ceramic Science",
+      "description": "This course covers the properties, structures, and processing of ceramics.",
+      "prerequisites": ["Mechanical Behavior of Materials"]
+    }
+  ],
+  {
+    "name": "Materials Selection and Design",
+    "description": "This course covers materials selection and design principles, including performance indices, environmental effects, and optimization.",
+    "prerequisites": ["Mechanical Behavior of Materials", "Electronic and Magnetic Properties of Materials"]
+  },
+  {
+    "name": "Materials Processing",
+    "description": "This course covers the principles and techniques of materials processing, including casting, welding, and forming.",
+    "prerequisites": ["Materials Science"]
+  }
+]

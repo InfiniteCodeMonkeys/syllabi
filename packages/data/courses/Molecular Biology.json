@@ -1,0 +1,69 @@
+[
+  {
+    "name": "Introductory Biology",
+    "description": "This course introduces students to the principles of biology.",
+    "prerequisites": []
+  },
+  {
+    "name": "General Chemistry",
+    "description": "This course introduces students to the principles of chemistry.",
+    "prerequisites": ["Introductory Biology"]
+  },
+  {
+    "name": "Organic Chemistry",
+    "description": "This course introduces students to the principles of organic chemistry.",
+    "prerequisites": ["General Chemistry"]
+  },
+  {
+    "name": "Biochemistry",
+    "description": "This course introduces students to the principles of biochemistry.",
+    "prerequisites": ["Organic Chemistry", "General Chemistry", "Molecular Biology"]
+  },
+  [
+    {
+      "name": "Cell Biology",
+      "description": "This course introduces students to the principles of cell biology.",
+      "prerequisites": ["Introductory Biology", "General Chemistry"]
+    },
+    {
+      "name": "Microbiology",
+      "description": "This course introduces students to the principles of microbiology.",
+      "prerequisites": ["Introductory Biology"]
+    }
+  ],
+  {
+    "name": "Genetics",
+    "description": "This course introduces students to the principles of genetics.",
+    "prerequisites": ["Cell Biology", "Molecular Biology", "Biochemistry"]
+  },
+  {
+    "name": "Molecular Biology",
+    "description": "This course introduces students to the principles of molecular biology.",
+    "prerequisites": ["Cell Biology", "Genetics", "Biochemistry"]
+  },
+  {
+    "name": "Immunology",
+    "description": "This course introduces students to the principles of immunology.",
+    "prerequisites": ["Cell Biology", "Molecular Biology", "Genetics", "Biochemistry"]
+  },
+  {
+    "name": "Neurobiology",
+    "description": "This course introduces students to the principles of neurobiology.",
+    "prerequisites": ["Cell Biology", "Molecular Biology", "Genetics", "Biochemistry"]
+  },
+  {
+    "name": "Developmental Biology",
+    "description": "This course introduces students to the principles of developmental biology.",
+    "prerequisites": ["Cell Biology", "Molecular Biology", "Genetics", "Biochemistry"]
+  },
+  {
+    "name": "Stem Cell Biology",
+    "description": "This course introduces students to the principles of stem cell biology.",
+    "prerequisites": ["Cell Biology", "Molecular Biology", "Genetics", "Biochemistry"]
+  },
+  {
+    "name": "Advanced Topics in Molecular Biology",
+    "description": "This course covers advanced and specialized topics in molecular biology.",
+    "prerequisites": ["Molecular Biology", "Biochemistry", "Genetics"]
+  }
+]

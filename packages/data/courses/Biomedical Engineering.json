@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Introductory Chemistry",
+    "description": "This course introduces students to general chemistry concepts such as stoichiometry, atomic structure, bonding, thermodynamics, chemical reactions, and equilibrium.",
+    "prerequisites": []
+  },
+  {
+    "name": "Introductory Calculus",
+    "description": "This course covers basic concepts of differential and integral calculus including limits, derivatives, integrals, applications of derivatives, and optimization.",
+    "prerequisites": []
+  },
+  [
+    {
+      "name": "Introductory Physics",
+      "description": "This course introduces the fundamental concepts of mechanics, thermodynamics, electricity, magnetism, and waves.",
+      "prerequisites": ["Introductory Calculus"]
+    },
+    {
+      "name": "General Biology",
+      "description": "This course provides an overview of the basic principles related to the structure, function, and organization of living organisms at the cellular, molecular, and organismal level.",
+      "prerequisites": ["Introductory Chemistry"]
+    }
+  ],
+  {
+    "name": "Biomechanics",
+    "description": "This course applies the principles of mechanics to the study of biological systems, focusing on the mechanical behavior of biological tissues, cells, and molecules. Topics covered include mechanics of musculoskeletal systems, cardiovascular systems, and medical imaging.",
+    "prerequisites": ["General Biology", "Introductory Physics"]
+  },
+  {
+    "name": "Biological Transport Phenomena",
+    "description": "This course covers the principles of fluid mechanics, heat transfer, and mass transfer, applying them to understanding biological transport phenomena in living organisms.",
+    "prerequisites": ["General Biology", "Introductory Physics", "Introductory Calculus"]
+  },
+  [
+    {
+      "name": "Biomaterials",
+      "description": "This course covers the design and development of biomedical materials and their applications in tissue engineering, drug delivery, and medical devices.",
+      "prerequisites": ["Biomechanics", "General Biology"]
+    },
+    {
+      "name": "Introduction to Signals and Systems",
+      "description": "This course introduces fundamental concepts of continuous and discrete signals and systems, including Fourier series, Fourier transform, Laplace transform, and Z transform.",
+      "prerequisites": ["Introductory Calculus", "Introductory Physics"]
+    }
+  ],
+  [
+    {
+      "name": "Bioelectricity",
+      "description": "This course focuses on the electrical properties of biological tissues, cells, and molecules, and their applications in medical devices and diagnostics.",
+      "prerequisites": ["Introduction to Signals and Systems", "Biomechanics"]
+    },
+    {
+      "name": "Bioinstrumentation",
+      "description": "This course covers the design and development of medical instrumentation, including sensing, actuation, and control systems.",
+      "prerequisites": ["Introduction to Signals and Systems", "Biomechanics", "General Biology"]
+    }
+  ],
+  {
+    "name": "Medical Imaging",
+    "description": "This course introduces the principles of medical imaging, including X-ray, MRI, CT, ultrasound, and nuclear imaging, focusing on their applications in diagnosis and treatment.",
+    "prerequisites": ["Biomaterials", "Bioelectricity", "Bioinstrumentation", "Biological Transport Phenomena"]
+  },
+  {
+    "name": "Biomedical Systems and Controls",
+    "description": "This course covers the design and development of feedback control systems for biomedical applications, including physiological systems modeling, system identification, and control techniques.",
+    "prerequisites": ["Biomaterials", "Bioelectricity", "Bioinstrumentation", "Biological Transport Phenomena"]
+  }
+]

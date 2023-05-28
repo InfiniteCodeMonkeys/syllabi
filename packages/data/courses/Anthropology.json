@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Introduction to Anthropology",
+    "description": "This course introduces students to the four main sub-fields of anthropology: archaeology, biological anthropology, cultural anthropology, and linguistics. Students will learn about the origins and development of anthropology as a discipline and explore various methodological approaches used by anthropologists across the sub-fields.",
+    "prerequisites": []
+  },
+  {
+    "name": "Cultural Anthropology",
+    "description": "This course focuses on the study of human cultures and societies, with an emphasis on the diversity of cultural practices worldwide. Students will learn about key concepts and theories in cultural anthropology, including culture, ethnicity, race, gender, globalization, and power.",
+    "prerequisites": ["Introduction to Anthropology"]
+  },
+  {
+    "name": "Archaeology",
+    "description": "This course focuses on the study of human material culture from prehistoric times to the present. Students will learn about key concepts and theories in archaeology, including excavation, dating methods, artifact analysis, and interpretation.",
+    "prerequisites": ["Introduction to Anthropology"]
+  },
+  {
+    "name": "Biological Anthropology",
+    "description": "This course focuses on the biological and evolutionary aspects of human beings and their closest relatives. Students will learn about key concepts and theories in biological anthropology, including genetics, primatology, human evolution, and the biology of race and ethnicity.",
+    "prerequisites": ["Introduction to Anthropology"]
+  },
+  [
+    {
+      "name": "Fieldwork in Anthropology",
+      "description": "This course provides students with hands-on training in ethnographic fieldwork methods, including participant observation, interviewing, and data analysis. Students will conduct their own anthropological research project in a local community.",
+      "prerequisites": ["Cultural Anthropology"]
+    },
+    {
+      "name": "Methods in Archaeology",
+      "description": "This course provides students with hands-on training in archaeological fieldwork methods, including excavation, documentation, and artifact analysis. Students will participate in an archaeological excavation and learn how to interpret their findings.",
+      "prerequisites": ["Archaeology"]
+    },
+    {
+      "name": "Primate Behavior and Ecology",
+      "description": "This course provides students with an in-depth understanding of primate behavior and ecology, including social organization, mating strategies, and conservation issues. Students will learn about current research in primatology and conduct their own primate research project.",
+      "prerequisites": ["Biological Anthropology"]
+    }
+  ],
+  {
+    "name": "Anthropological Theory",
+    "description": "This course explores the historical and contemporary debates and controversies within the field of anthropology. Students will learn about the major theoretical perspectives and schools of thought that have shaped the discipline.",
+    "prerequisites": ["Cultural Anthropology"]
+  },
+  {
+    "name": "Language and Culture",
+    "description": "This course examines the relationship between language and culture, including linguistic structures, communicative practices, and the social and cultural context of language use. Students will learn about the diversity of human languages and the role of language in identity, power, and globalization.",
+    "prerequisites": ["Introduction to Anthropology"]
+  },
+  {
+    "name": "Seminar in Anthropology",
+    "description": "This course provides students with the opportunity to conduct original research and engage in advanced discussions and debates within the field of anthropology. Students will write a research paper and present their findings to the class.",
+    "prerequisites": ["Anthropological Theory"]
+  }
+]

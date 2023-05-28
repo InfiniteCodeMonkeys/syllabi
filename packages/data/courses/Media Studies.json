@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Introduction to Media Studies",
+    "description": "This course introduces students to the study of media. Students will learn about the various forms of media, such as print, film, television, and digital media, and how they shape our understanding of the world around us.",
+    "prerequisites": []
+  },
+  [
+    {
+      "name": "Visual Culture",
+      "description": "This course explores the visual aspect of media and popular culture. Students will analyze and interpret images, such as photographs and films, and their relationship to social, cultural, and political contexts.",
+      "prerequisites": ["Introduction to Media Studies"]
+    },
+    {
+      "name": "Writing for the Media",
+      "description": "This course teaches students how to write for different forms of media, including journalism, public relations, and advertising. Students will learn how to use different writing styles and techniques to craft effective messages for different audiences.",
+      "prerequisites": ["Introduction to Media Studies"]
+    }
+  ],
+  {
+    "name": "Media Ethics and Law",
+    "description": "This course explores legal and ethical issues related to media and communication. Students will analyze the impact of laws and regulations on media production and consumption, as well as the role of media in shaping public opinion and policy.",
+    "prerequisites": ["Introduction to Media Studies"]
+  },
+  {
+    "name": "Media and Society",
+    "description": "This course examines the relationship between media and society, focusing on how media affects social, cultural, and political norms. Students will analyze various media forms in relation to social phenomena, such as gender, race, and class.",
+    "prerequisites": ["Introduction to Media Studies"]
+  },
+  [
+    {
+      "name": "Media History",
+      "description": "This course examines the historical development of media and its impact on society. Students will analyze the changing technologies, institutions, and social practices associated with media production and consumption.",
+      "prerequisites": ["Introduction to Media Studies"]
+    },
+    {
+      "name": "Media Theory and Criticism",
+      "description": "This course introduces students to different theoretical approaches to the study of media, such as political economy, cultural studies, and postmodernism. Students will also learn how to apply various critical approaches to analyze media texts.",
+      "prerequisites": ["Introduction to Media Studies"]
+    }
+  ],
+  {
+    "name": "Media Production",
+    "description": "This course teaches students how to produce media content for different platforms, such as film, television, and digital media. Students will learn how to use different tools and techniques to produce effective media content.",
+    "prerequisites": ["Introduction to Media Studies"]
+  }
+]

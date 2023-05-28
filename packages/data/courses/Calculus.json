@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Precalculus",
+    "description": "This course is an introduction to the topics of algebra and trigonometry that are necessary prerequisites for studying calculus. Topics covered include functions, graphs of functions, solving equations, geometric series, and trigonometric functions.",
+    "prerequisites": []
+  },
+  {
+    "name": "Calculus I",
+    "description": "This course involves a rigorous study of limits, derivatives, integrals, and applications of these concepts. Topics covered include limits, derivatives of algebraic and transcendental functions, applications of derivatives involving maximum and minimum values and optimization, integrals and definite integrals, and applications of integrals.",
+    "prerequisites": ["Precalculus"]
+  },
+  {
+    "name": "Calculus II",
+    "description": "This course is a continuation of Calculus I with an emphasis on techniques of integration and applications of the integral. Topics covered include techniques of integration, applications of integration involving areas, volumes, arc length, and center of mass, sequences and series, and power series.",
+    "prerequisites": ["Calculus I"]
+  },
+  {
+    "name": "Multivariable Calculus",
+    "description": "This course is a study of functions of several variables and their derivatives. Topics covered include vectors, partial derivatives, tangent planes, optimization problems, multiple integrals, cylindrical and spherical coordinates, and vector fields.",
+    "prerequisites": ["Calculus II"]
+  },
+  {
+    "name": "Differential Equations",
+    "description": "This course is a study of ordinary differential equations and their solutions. Topics covered include first order differential equations, linear differential equations of higher order, Laplace transforms, systems of differential equations and numerical methods.",
+    "prerequisites": ["Calculus II"]
+  },
+  {
+    "name": "Linear Algebra",
+    "description": "This course is a study of vector spaces, linear transformations, matrices, determinants, eigenvectors, and eigenvalues. Topics covered include linear transformations and their matrix representations, eigenvectors and eigenvalues, diagonalization, real inner product spaces, orthogonal projections, and least squares approximation.",
+    "prerequisites": ["Calculus II"]
+  }
+]

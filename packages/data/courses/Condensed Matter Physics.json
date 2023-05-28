@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Introductory Physics",
+    "description": "This course introduces students to the principles of physics. Students will learn about mechanics, heat and thermodynamics, waves and sound, and electricity and magnetism.",
+    "prerequisites": []
+  },
+  {
+    "name": "Modern Physics",
+    "description": "This course introduces students to the principles of modern physics. Students will learn about special relativity, quantum mechanics, atomic physics, and nuclear physics.",
+    "prerequisites": ["Introductory Physics"]
+  },
+  [
+    {
+      "name": "Mathematical Methods for Physicists",
+      "description": "This course covers the mathematical methods commonly used in physics. Topics covered include vector calculus, differential equations, linear algebra, and complex analysis.",
+      "prerequisites": ["Introductory Physics", "Modern Physics"]
+    },
+    {
+      "name": "Classical Mechanics",
+      "description": "This course covers classical mechanics. Topics covered include Newtonian mechanics, Lagrangian mechanics, Hamiltonian mechanics, and the calculus of variations.",
+      "prerequisites": ["Mathematical Methods for Physicists", "Modern Physics"]
+    }
+  ],
+  {
+    "name": "Electromagnetism",
+    "description": "This course covers electromagnetism. Topics covered include electrostatics, magnetism, electromagnetic waves, and Maxwell's equations.",
+    "prerequisites": ["Mathematical Methods for Physicists", "Modern Physics"]
+  },
+  {
+    "name": "Quantum Mechanics",
+    "description": "This course covers quantum mechanics. Topics covered include wave-particle duality, the Schrödinger equation, angular momentum, and the hydrogen atom.",
+    "prerequisites": ["Mathematical Methods for Physicists", "Modern Physics"]
+  },
+  {
+    "name": "Thermodynamics and Statistical Mechanics",
+    "description": "This course covers thermodynamics and statistical mechanics. Topics covered include the laws of thermodynamics, the free energy, entropy, and the statistical interpretation of thermodynamics.",
+    "prerequisites": ["Mathematical Methods for Physicists", "Modern Physics"]
+  },
+  [
+    {
+      "name": "Solid State Physics",
+      "description": "This course covers the properties of solids. Topics covered include crystal structures, electronic band theory, phonons, and defects in crystals.",
+      "prerequisites": ["Mathematical Methods for Physicists", "Quantum Mechanics", "Thermodynamics and Statistical Mechanics"]
+    },
+    {
+      "name": "Condensed Matter Physics",
+      "description": "This course covers condensed matter physics. Topics covered include superconductivity, magnetism, electronic properties of metals and semiconductors, and surface physics.",
+      "prerequisites": ["Mathematical Methods for Physicists", "Quantum Mechanics", "Thermodynamics and Statistical Mechanics"]
+    }
+  ]
+]

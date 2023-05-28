@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Introductory Biology",
+    "description": "This course introduces students to the principles of biology. Students will learn about the scientific method, the structure and function of cells, genetics, ecology, the theory of evolution, and the diversity of life on Earth.",
+    "prerequisites": []
+  },
+  [
+    {
+      "name": "Cell Biology",
+      "description": "This course introduces students to the principles of cell biology. Students will learn about the structure and function of cells, including membranes, organelles, and molecular biology. Topics include cell division, metabolism, and communication. Applications of cell biology in medicine, biotechnology, and drug discovery are explored.",
+      "prerequisites": ["Introductory Biology"]
+    },
+    {
+      "name": "Genetics",
+      "description": "This course introduces students to the principles of genetics. Students will learn about the structure and function of DNA, including DNA replication and repair. Topics include patterns of inheritance, gene expression, and genetic engineering. Applications of genetics in medicine, biotechnology, and agriculture are explored.",
+      "prerequisites": ["Introductory Biology"]
+    }
+  ],
+  {
+    "name": "Ecology",
+    "description": "This course introduces students to the principles of ecology. Students will learn about the interactions between organisms and their environment, including population dynamics, community structure, and biogeochemical cycles. Topics include conservation biology, ecosystem services, and global change.",
+    "prerequisites": ["Introductory Biology"]
+  },
+  {
+    "name": "Animal Diversity",
+    "description": "This course introduces students to the diversity of animal life. Students will learn about the structure and function of animal organs and systems, including the integumentary, skeletal, muscular, nervous, endocrine, circulatory, respiratory, digestive, and reproductive systems. Topics include animal behavior, adaptation, and diversity.",
+    "prerequisites": ["Introductory Biology"]
+  },
+  {
+    "name": "Animal Behavior",
+    "description": "This course introduces students to animal behavior. Students will learn about proximate and ultimate approaches to understanding behavior, including animal communication, social behavior, and ecological interactions. Topics include animal cognition, learning, and evolution.",
+    "prerequisites": ["Introductory Biology"]
+  },
+  [
+    {
+      "name": "Developmental Biology",
+      "description": "This course introduces students to the principles of developmental biology. Students will learn about the molecular and cellular mechanisms that regulate embryonic development, including fertilization, gene expression, signaling, and pattern formation. Topics include stem cells, organogenesis, and regeneration.",
+      "prerequisites": ["Cell Biology", "Genetics"]
+    },
+    {
+      "name": "Neuroscience",
+      "description": "This course introduces students to the principles of neuroscience. Students will learn about the structure and function of the nervous system, including the brain, spinal cord, and peripheral nerves. Topics include neural development, information processing, and neural plasticity.",
+      "prerequisites": ["Cell Biology", "Animal Behavior"]
+    }
+  ],
+  [
+    {
+      "name": "Comparative Anatomy",
+      "description": "This course introduces students to the principles of comparative anatomy. Students will learn about the diversity of animal anatomy and how it relates to evolution and function, including skeletal, muscular, and organ systems. Topics include adaptations to various environments, locomotion, and feeding.",
+      "prerequisites": ["Animal Diversity", "Developmental Biology"]
+    },
+    {
+      "name": "Physiology",
+      "description": "This course introduces students to the principles of animal physiology. Students will learn about the integration of organ systems and regulation of bodily functions, including homeostasis, metabolism, and reproduction. Topics include adaptations to various environments and applications of physiology to medicine and biotechnology.",
+      "prerequisites": ["Animal Diversity", "Developmental Biology"]
+    }
+  ],
+  {
+    "name": "Entomology",
+    "description": "This course introduces students to the principles of entomology. Students will learn about the diversity, morphology, ecology, and behavior of insects. Topics include the importance of insects to humans and ecosystems, insect conservation, and pest management.",
+    "prerequisites": ["Animal Diversity"]
+  },
+  {
+    "name": "Ornithology",
+    "description": "This course introduces students to the principles of ornithology. Students will learn about the diversity, morphology, ecology, and behavior of birds. Topics include the importance of birds to humans and ecosystems, bird conservation, and bird watching.",
+    "prerequisites": ["Animal Diversity"]
+  }
+]

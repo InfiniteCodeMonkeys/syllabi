@@ -1,0 +1,121 @@
+[
+  {
+    "name": "Freshman Physics I",
+    "description": "This course covers classical mechanics, including motion, energy, and force, using algebra and calculus.",
+    "prerequisites": []
+  },
+  {
+    "name": "Freshman Physics II",
+    "description": "This course covers electromagnetism, including electric and magnetic fields, circuits, and waves, using algebra and calculus.",
+    "prerequisites": ["Freshman Physics I"]
+  },
+  [
+    {
+      "name": "Introduction to Astronomy",
+      "description": "This course provides an overview of our knowledge of the universe, with topics including the solar system, stars, galaxies, and cosmology.",
+      "prerequisites": []
+    },
+    {
+      "name": "Introduction to Geology",
+      "description": "This course introduces students to the structure of the Earth, including rocks, minerals, and the geological processes that shape the planet.",
+      "prerequisites": []
+    }
+  ],
+  {
+    "name": "Modern Physics",
+    "description": "This course covers the foundations of quantum mechanics and relativity, including topics such as wave-particle duality, the uncertainty principle, and time dilation.",
+    "prerequisites": ["Freshman Physics II"]
+  },
+  {
+    "name": "Thermodynamics",
+    "description": "This course covers the laws of thermodynamics and their applications to systems of particles and to materials.",
+    "prerequisites": ["Freshman Physics II"]
+  },
+  [
+    {
+      "name": "Introduction to Chemistry",
+      "description": "This course covers chemical reactions, atomic and molecular structure, and other basic principles of chemistry.",
+      "prerequisites": []
+    },
+    {
+      "name": "Introduction to Biology",
+      "description": "This course introduces students to the basic principles of biology, including ecology, cellular biology, and genetics.",
+      "prerequisites": []
+    }
+  ],
+  {
+    "name": "Special Relativity",
+    "description": "This course covers the theory of special relativity and its applications to high-energy physics, including the behavior of particles at relativistic speeds.",
+    "prerequisites": ["Modern Physics"]
+  },
+  {
+    "name": "Electromagnetic Theory",
+    "description": "This course covers advanced topics in electromagnetism, including Maxwell's equations, electromagnetic waves, and the interaction of particles with electromagnetic fields.",
+    "prerequisites": ["Freshman Physics II", "Multivariable Calculus"]
+  },
+  {
+    "name": "Quantum Mechanics",
+    "description": "This course covers the principles of quantum mechanics and their application to atomic and molecular systems.",
+    "prerequisites": ["Modern Physics", "Differential Equations"]
+  },
+  {
+    "name": "Statistical Mechanics",
+    "description": "This course covers the theoretical basis of thermodynamics and its relation to the behavior of particles in large systems.",
+    "prerequisites": ["Quantum Mechanics"]
+  }
+][
+  {
+    "name": "Mechanics",
+    "description": "This course is an introduction to the principles of mechanics. Students will learn about classical mechanics and the laws of motion. Topics include: kinematics, dynamics, energy, momentum, angular momentum, rotational motion, oscillations, and waves.",
+    "prerequisites": []
+  },
+  {
+    "name": "Electricity and Magnetism",
+    "description": "This course is an introduction to the principles of electricity and magnetism. Students will learn about electromagnetism and how it relates to electric and magnetic fields. Topics include: electric charge, electric fields, magnetic fields, electric potential, capacitance, inductance, circuits, and electromagnetic radiation.",
+    "prerequisites": ["Mechanics"]
+  },
+  {
+    "name": "Thermodynamics and Statistical Mechanics",
+    "description": "This course is an introduction to the principles of thermodynamics and statistical mechanics. Students will learn about the laws of thermodynamics and how they relate to thermal energy. Topics include: temperature, heat, work, internal energy, entropy, heat engines, thermodynamic cycles, and statistical distributions.",
+    "prerequisites": ["Mechanics"]
+  },
+  [
+    {
+      "name": "Optics",
+      "description": "This course is an introduction to the principles of optics. Students will learn about light and how it interacts with different materials. Topics include: geometric optics, wave optics, interference, diffraction, polarization, and optical devices.",
+      "prerequisites": ["Mechanics","Electricity and Magnetism"]
+    },
+    {
+      "name": "Modern Physics",
+      "description": "This course is an introduction to modern physics. Students will learn about quantum mechanics, relativity, and their applications. Topics include: wave-particle duality, Schrodinger's equation, quantum states, energy quantization, nuclear physics, particle physics, and cosmology.",
+      "prerequisites": ["Mechanics","Electricity and Magnetism"]
+    }
+  ],
+  {
+    "name": "Advanced Mechanics",
+    "description": "This course is a more advanced exploration of classical mechanics. Students will learn about Lagrangian and Hamiltonian mechanics, symmetries, and conservation laws. Topics include: calculus of variations, Lagrangian mechanics, Hamiltonian mechanics, symmetries and conservation laws, and their applications.",
+    "prerequisites": ["Mechanics","Thermodynamics and Statistical Mechanics"]
+  },
+  [
+    {
+      "name": "Advanced Electricity and Magnetism",
+      "description": "This course is a more advanced exploration of electricity and magnetism. Students will learn about Maxwell's equations and their applications. Topics include: electrostatics, magnetostatics, electromagnetic waves, and their applications.",
+      "prerequisites": ["Mechanics","Electricity and Magnetism"]
+    },
+    {
+      "name": "Astrophysics",
+      "description": "This course is an introduction to the principles of astrophysics. Students will learn about the physics of celestial objects and their interactions. Topics include: star formation, stellar structure and evolution, black holes, galaxies, cosmology, and the large scale structure of the universe.",
+      "prerequisites": ["Mechanics","Electricity and Magnetism"]
+    }
+  ],
+  {
+    "name": "Mathematical Methods in Physics",
+    "description": "This course is a study of the mathematical methods used in physics. Students will learn about analysis, linear algebra, and differential equations. Topics include: vector calculus, Fourier series, differential equations, complex analysis, and group theory.",
+    "prerequisites": ["Mechanics","Electricity and Magnetism"]
+  },
+  {
+    "name": "Experimental Physics",
+    "description": "This course is a study of experimental methods in physics. Students will learn about measurement techniques, data analysis, and experimental design. Topics include: error analysis, statistical methods, electronic instrumentation, and experimental design.",
+    "prerequisites": ["Mechanics","Electricity and Magnetism"]
+  }
+]

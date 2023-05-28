@@ -1,0 +1,49 @@
+[
+  {
+    "name": "Introductory Chemistry",
+    "description": "This course introduces students to the fundamental principles of chemistry, including chemical reactions, molecular structure, bonding, and intermolecular forces.",
+    "prerequisites": []
+  },
+  {
+    "name": "Experimental Chemistry",
+    "description": "This course is a laboratory-based course that provides students with hands-on experience in synthesizing and characterizing materials.",
+    "prerequisites": ["Introductory Chemistry"]
+  },
+  [
+    {
+      "name": "Organic Chemistry",
+      "description": "This course explores the chemistry of carbon-containing compounds, and emphasizes understanding of the relationship between structure and reactivity.",
+      "prerequisites": ["Introductory Chemistry"]
+    },
+    {
+      "name": "Inorganic Chemistry",
+      "description": "This course explores the chemistry of elements and their compounds, and emphasizes understanding of the relationship between structure and reactivity.",
+      "prerequisites": ["Introductory Chemistry"]
+    }
+  ],
+  {
+    "name": "Physical Chemistry",
+    "description": "This course explores the physical principles underlying chemical phenomena, including thermodynamics, quantum chemistry, and kinetics.",
+    "prerequisites": ["Introductory Chemistry", "Calculus"]
+  },
+  {
+    "name": "Materials Chemistry",
+    "description": "This course introduces students to the synthesis, properties, and applications of advanced materials, including polymers, ceramics, glasses, and composites.",
+    "prerequisites": ["Experimental Chemistry", "Physical Chemistry"]
+  },
+  {
+    "name": "Analytical Chemistry",
+    "description": "This course provides students with a comprehensive understanding of modern analytical techniques, including spectroscopy, chromatography, and electrochemistry, and emphasizes applications to materials chemistry.",
+    "prerequisites": ["Experimental Chemistry", "Physical Chemistry"]
+  },
+  {
+    "name": "Advanced Materials Synthesis",
+    "description": "This course provides students with advanced knowledge of synthetic methods for creating complex materials, and emphasizes development of novel approaches to address current challenges in materials science.",
+    "prerequisites": ["Materials Chemistry"]
+  },
+  {
+    "name": "Advanced Materials Characterization",
+    "description": "This course provides students with advanced knowledge of techniques for characterizing materials at the atomic and molecular level, and emphasizes development of novel approaches to address current challenges in materials science.",
+    "prerequisites": ["Materials Chemistry", "Analytical Chemistry"]
+  }
+]

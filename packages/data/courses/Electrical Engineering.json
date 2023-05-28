@@ -1,0 +1,61 @@
+[
+  {
+    "name": "Introduction to Electrical Engineering",
+    "description": "This course introduces students to basic principles of electrical engineering. Topics include: voltage, current, power, resistance, capacitance, inductance, Fourier analysis, basic circuit analysis, and introduction to circuit simulation.",
+    "prerequisites": []
+  },
+  {
+    "name": "Circuits and Systems",
+    "description": "This course covers advanced circuit analysis and design techniques. Topics include: Laplace transforms, network theorems, AC steady-state analysis, resonant circuits, frequency response, Bode plots, transfer functions, two-port circuits, power transfer, signal flow graphs, and introduction to filters.",
+    "prerequisites": ["Introduction to Electrical Engineering"]
+  },
+  [
+    {
+      "name": "Electronics I",
+      "description": "This course covers the fundamentals of electronic devices and circuit design. Topics include: diodes, bipolar junction transistors, field-effect transistors, MOSFET amplifiers, and analysis and design of simple transistor circuits.",
+      "prerequisites": ["Introduction to Electrical Engineering"]
+    },
+    {
+      "name": "Electromagnetic Fields and Waves",
+      "description": "This course covers the fundamentals of electromagnetic fields and waves. Topics include: electrostatics, magnetostatics, electromagnetic waves, transmission lines, waveguides, and antennas.",
+      "prerequisites": ["Introduction to Electrical Engineering"]
+    }
+  ],
+  {
+    "name": "Control Systems",
+    "description": "This course covers control systems theory and design. Topics include: system modeling and analysis, stability, performance specifications, feedback control, PID control, frequency response methods, state-space methods, and digital control.",
+    "prerequisites": ["Circuits and Systems"]
+  },
+  {
+    "name": "Digital Signal Processing",
+    "description": "This course covers theory and applications of digital signal processing. Topics include: discrete-time signals and systems, z-transforms, Fourier analysis of discrete-time signals, digital filter design, and spectral analysis.",
+    "prerequisites": ["Circuits and Systems"]
+  },
+  {
+    "name": "Communication Systems",
+    "description": "This course covers theory and design of communication systems. Topics include: signal representation, modulation techniques, noise and its effects on communication, detection theory, probability theory, error-correcting codes, channel capacity, and multiple-access techniques.",
+    "prerequisites": ["Electronics I", "Digital Signal Processing"]
+  },
+  [
+    {
+      "name": "Power Systems",
+      "description": "This course covers the analysis and design of electrical power systems. Topics include: power system components, power flow analysis, fault analysis, stability analysis, and power system protection.",
+      "prerequisites": ["Circuits and Systems", "Electromagnetic Fields and Waves"]
+    },
+    {
+      "name": "Renewable Energy Systems",
+      "description": "This course covers the design and operation of renewable energy systems. Topics include: solar energy, wind energy, hydro energy, geothermal energy, and bioenergy.",
+      "prerequisites": ["Circuits and Systems", "Electromagnetic Fields and Waves"]
+    }
+  ],
+  {
+    "name": "Microelectronics",
+    "description": "This course covers the design and fabrication of microelectronic devices and integrated circuits. Topics include: semiconductor physics, MOSFETs, bipolar junction transistors, device modeling, CMOS logic gates, and digital integrated circuit design.",
+    "prerequisites": ["Electronics I", "Electromagnetic Fields and Waves"]
+  },
+  {
+    "name": "Senior Design Project",
+    "description": "This course provides students with the opportunity to design, build and test a large-scale electrical engineering project. Students will work in teams to design a system to meet certain specifications, build and test the system, and present their work to the class.",
+    "prerequisites": ["Control Systems", "Communication Systems", "Microelectronics", "Power Systems", "Renewable Energy Systems"]
+  }
+]

@@ -1,0 +1,111 @@
+[
+  {
+    "name": "Introduction to Political Science",
+    "description": "This course introduces students to the concepts, themes, approaches, and methods of political science. Students will learn about the origins and nature of politics, the role and function of government, the nature and extent of power, the sources and dynamics of conflict, the nature and scope of democracy, the methods and techniques of political analysis, and the key issues and challenges facing contemporary politics.",
+    "prerequisites": []
+  },
+  {
+    "name": "Comparative Politics",
+    "description": "This course examines the structures, institutions, processes, and outcomes of politics in different countries and regions of the world. Students will learn about the comparative method, the varieties of democracy and authoritarianism, the factors that shape political development and change, and the major issues and challenges facing contemporary global politics.",
+    "prerequisites": ["Introduction to Political Science"]
+  },
+  {
+    "name": "International Relations",
+    "description": "This course explores the key concepts, theories, and issues of international relations. Students will learn about the nature and structure of the international system, the dynamics of power and conflict between states and non-state actors, the challenges of globalization and interdependence, the evolution of international law and institutions, and the prospects for peace and cooperation in the 21st century.",
+    "prerequisites": ["Introduction to Political Science"]
+  },
+  {
+    "name": "Political Theory",
+    "description": "This course introduces students to the historical and contemporary debates and ideas in political theory. Students will learn about the major schools of thought, the core concepts and values of political theory, and the relevance of these ideas to contemporary political issues and problems.",
+    "prerequisites": ["Introduction to Political Science"]
+  },
+  {
+    "name": "Research Methods in Political Science",
+    "description": "This course provides students with the tools and techniques for designing, conducting, and evaluating political research. Students will learn about the logic of social science research, the principles of research design, the methods of data collection and analysis, and the ethics and politics of research.",
+    "prerequisites": ["Introduction to Political Science"]
+  },
+  [
+    {
+      "name": "American Politics",
+      "description": "This course examines the structure, institutions, processes, and outcomes of American politics. Students will learn about the U.S. Constitution, the branches and levels of government, the role of interest groups and political parties, the dynamics of elections and public opinion, and the major issues and controversies facing contemporary American politics.",
+      "prerequisites": ["Introduction to Political Science"]
+    },
+    {
+      "name": "State and Local Politics",
+      "description": "This course explores the political dynamics and issues of state and local government in the United States. Students will learn about the organization and functions of state and local governments, the role of interest groups and political parties, the dynamics of elections and public opinion, and the major issues and challenges facing state and local politics.",
+      "prerequisites": ["Introduction to Political Science"]
+    }
+  ],
+  {
+    "name": "Public Policy",
+    "description": "This course examines the processes and outcomes of public policy-making in the United States. Students will learn about the policy-making process, the role of interest groups and political parties, the challenges of policy implementation and evaluation, and the major policy issues and controversies facing contemporary American politics.",
+    "prerequisites": ["Introduction to Political Science"]
+  },
+  {
+    "name": "Political Economy",
+    "description": "This course explores the intersection of politics and economics. Students will learn about the theories and models of political economy, the sources and dynamics of economic growth and development, the challenges of inequality and poverty, and the debates and controversies surrounding economic policy.",
+    "prerequisites": ["Introduction to Political Science"]
+  },
+  {
+    "name": "Political Psychology",
+    "description": "This course examines the psychological dimensions of politics. Students will learn about the theories and models of political psychology, the dynamics of political attitudes and beliefs, the role of emotions and cognition in political behavior, and the implications of political psychology for democracy and governance.",
+    "prerequisites": ["Introduction to Political Science"]
+  }
+][
+  {
+    "name": "Introduction to Political Science",
+    "description": "This course is an introduction to the field of Political Science. Students will learn about politics, political parties, ideology, government, public policy, and issues facing modern democracies.",
+    "prerequisites": []
+  },
+  [
+    {
+      "name": "American Government",
+      "description": "This course provides an overview of the US government, including the Constitution, the legislative, executive, and judicial branches, and how the government interacts with society.",
+      "prerequisites": ["Introduction to Political Science"]
+    },
+    {
+      "name": "Comparative Politics",
+      "description": "This course compares different political systems around the world, introducing students to different political cultures, systems, ideologies, and institutions.",
+      "prerequisites": ["Introduction to Political Science"]
+    }
+  ],
+  {
+    "name": "Political Theory",
+    "description": "This course offers an overview of political theory and philosophy, including classical and modern theories of the state and sovereignty, democracy, justice, and citizenship.",
+    "prerequisites": ["Introduction to Political Science"]
+  },
+  [
+    {
+      "name": "International Relations",
+      "description": "This course introduces students to key concepts in international relations, such as power, conflict, cooperation, global governance, and international law.",
+      "prerequisites": ["Introduction to Political Science"]
+    },
+    {
+      "name": "Political Economy",
+      "description": "This course explores the relationship between politics and economics, introducing students to theories of market and government failure, the political economy of development, and global economic governance.",
+      "prerequisites": ["Introduction to Political Science"]
+    }
+  ],
+  {
+    "name": "Research Methods in Political Science",
+    "description": "This course introduces students to the methodology and techniques used in political science research, including data analysis, statistical inference, and research design.",
+    "prerequisites": ["Introduction to Political Science"]
+  },
+  [
+    {
+      "name": "Public Policy",
+      "description": "This course examines how public policies are formulated, adopted, and implemented, and their impact on society.",
+      "prerequisites": ["Introduction to Political Science", "American Government"]
+    },
+    {
+      "name": "Political Psychology",
+      "description": "This course examines the intersection of psychology and politics, introducing students to the psychological dimensions of political behavior, public opinion, and decision making.",
+      "prerequisites": ["Introduction to Political Science"]
+    }
+  ],
+  {
+    "name": "Senior Thesis/Research Seminar",
+    "description": "This course involves students doing independent research in a topic of their choice and writing a senior thesis or presenting their research in a seminar.",
+    "prerequisites": ["Introduction to Political Science","Research Methods in Political Science"]
+  }
+]

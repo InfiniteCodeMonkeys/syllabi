@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Classical Mechanics",
+    "description": "This course introduces students to the principles of classical mechanics. Students will learn about the kinematics and dynamics of particles and systems of particles, conservation laws, oscillatory motion, gravitation, and central-force motion.",
+    "prerequisites": []
+  },
+  {
+    "name": "Electromagnetism",
+    "description": "This course introduces students to the principles of electromagnetism. Students will learn about electric and magnetic fields, Gauss's Law and its applications, electrostatic potential, electric currents, magnetic fields, Ampere's Law and its applications, Faraday's Law of Induction, electromagnetic waves, and radiation.",
+    "prerequisites": ["Classical Mechanics"]
+  },
+  [
+    {
+      "name": "Quantum Mechanics",
+      "description": "This course introduces students to the principles of quantum mechanics. Students will learn about the wave-particle duality, the Schrödinger Equation, wave functions, operators and observables, the Heisenberg Uncertainty Principle, angular momentum, and the hydrogen atom.",
+      "prerequisites": ["Classical Mechanics", "Electromagnetism"]
+    },
+    {
+      "name": "Thermodynamics and Statistical Mechanics",
+      "description": "This course introduces students to the principles of thermodynamics and statistical mechanics. Students will learn about the laws of thermodynamics, thermodynamic potentials, engines and refrigerators, kinetic theory, distributions of velocities and energies, heat capacity, and phase transitions.",
+      "prerequisites": ["Classical Mechanics", "Electromagnetism"]
+    }
+  ],
+  {
+    "name": "Mathematical Methods for Physicists",
+    "description": "This course introduces students to the mathematical methods used in physics. Students will learn about complex analysis, Fourier series and transforms, partial differential equations, and special functions.",
+    "prerequisites": ["Classical Mechanics", "Electromagnetism"]
+  },
+  {
+    "name": "Nuclear and Particle Physics",
+    "description": "This course introduces students to the principles of nuclear and particle physics. Students will learn about nuclear structure and properties, the strong and weak nuclear forces, radioactivity, nuclear reactions, particle interactions, particles and antiparticles, and the Standard Model of particle physics.",
+    "prerequisites": ["Quantum Mechanics", "Mathematical Methods for Physicists"]
+  }
+]

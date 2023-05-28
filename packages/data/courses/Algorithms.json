@@ -1,0 +1,69 @@
+[
+  {
+    "name": "Introduction to Computer Science",
+    "description": "This course introduces students to the principles of computer science. Students will learn about algorithms, data structures, programming languages, paradigms, software development, computer architecture, operating systems, databases, networking, security, and ethical issues in computing.",
+    "prerequisites": []
+  },
+  {
+    "name": "Data Structures and Algorithms",
+    "description": "This course covers the design, implementation, analysis, and optimization of data structures and algorithms. Students will learn about arrays, linked lists, stacks, queues, trees, graphs, sorting, searching, recursion, dynamic programming, and complexity theory.",
+    "prerequisites": ["Introduction to Computer Science"]
+  },
+
+  [
+    {
+      "name": "Discrete Mathematics",
+      "description": "This course covers the mathematical foundations of computer science. Students will learn about logic, set theory, functions, relations, combinatorics, graph theory, and formal languages.",
+      "prerequisites": []
+    },
+    {
+      "name": "Logic and Computation",
+      "description": "This course covers the logical foundations of computer science. Students will learn about propositional and predicate logic, inference rules, proof techniques, formal semantics, and applications to programming languages and automated reasoning.",
+      "prerequisites": ["Discrete Mathematics"]
+    }
+  ],
+
+  {
+    "name": "Operating Systems",
+    "description": "This course covers the principles of operating systems. Students will learn about process management, memory management, file systems, input/output management, and concurrency control.",
+    "prerequisites": ["Data Structures and Algorithms"]
+  },
+
+  [
+    {
+      "name": "Computer Networks",
+      "description": "This course covers the principles of computer networks. Students will learn about layered architectures, protocols, performance analysis, security and privacy issues, and emerging trends in networking.",
+      "prerequisites": ["Data Structures and Algorithms"]
+    },
+    {
+      "name": "Database Systems",
+      "description": "This course covers the principles of database systems. Students will learn about data models, relational algebra, SQL, transaction management, concurrency control, and database designs.",
+      "prerequisites": ["Data Structures and Algorithms"]
+    }
+  ],
+
+  {
+    "name": "Automata and Formal Languages",
+    "description": "This course covers the theoretical foundations of computer science. Students will learn about automata, grammars, regular expressions, context-free languages, and computability theory.",
+    "prerequisites": ["Logic and Computation"]
+  },
+
+  [
+    {
+      "name": "Compiler Design",
+      "description": "This course covers the principles of compiler design. Students will learn about lexical and syntactic analysis, parsing, code generation, optimization, and interpreter and virtual machine designs.",
+      "prerequisites": ["Data Structures and Algorithms", "Automata and Formal Languages"]
+    },
+    {
+      "name": "Computer Graphics",
+      "description": "This course covers the principles of computer graphics. Students will learn about raster and vector graphics, geometric transformations, shading models, rendering techniques, and applications in computer games, animation, and virtual reality.",
+      "prerequisites": ["Data Structures and Algorithms", "Linear Algebra"]
+    }
+  ],
+
+  {
+    "name": "Artificial Intelligence",
+    "description": "This course covers the principles of artificial intelligence. Students will learn about search algorithms, knowledge representation, reasoning, planning, machine learning, natural language processing, and robotics.",
+    "prerequisites": ["Data Structures and Algorithms", "Automata and Formal Languages"]
+  }
+]

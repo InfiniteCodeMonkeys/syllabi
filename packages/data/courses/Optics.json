@@ -1,0 +1,41 @@
+[
+  {
+    "name": "Introductory Physics",
+    "description": "This course provides students with an introduction to the basic concepts of physics. Topics covered include mechanics, waves, electricity, magnetism, and thermodynamics.",
+    "prerequisites": []
+  },
+  [
+    {
+      "name": "General Chemistry",
+      "description": "This course introduces students to the foundational concepts and principles of chemistry. Topics covered include atomic structure, chemical bonding, stoichiometry, thermodynamics, and chemical reactions.",
+      "prerequisites": []
+    },
+    {
+      "name": "Calculus I",
+      "description": "This course introduces students to the fundamental concepts of calculus. Topics covered include limits, derivatives, integrals, and applications of calculus to physics and engineering problems.",
+      "prerequisites": []
+    },
+  ],
+  {
+    "name": "Optics",
+    "description": "This course provides students with an introduction to the principles and applications of optics. Topics covered include the nature of light, reflection, refraction, diffraction, interference, polarization, and optical instruments.",
+    "prerequisites": ["Introductory Physics", "Calculus I"]
+  },
+  [
+    {
+      "name": "Electricity and Magnetism",
+      "description": "This course covers the principles of electricity and magnetism. Topics include electric and magnetic fields, electromagnetic waves, electric circuits, and applications of electricity and magnetism in modern technology.",
+      "prerequisites": ["Introductory Physics", "Calculus I"]
+    },
+    {
+      "name": "Modern Physics",
+      "description": "This course covers the principles of modern physics. Topics include special relativity, quantum mechanics, atomic physics, nuclear physics, and particle physics.",
+      "prerequisites": ["Introductory Physics", "Calculus I"]
+    },
+  ],
+  {
+    "name": "Quantum Mechanics",
+    "description": "This course covers the principles of quantum mechanics. Topics include wave-particle duality, uncertainty principle, Schrödinger equation, quantum states, and applications of quantum mechanics in modern technology.",
+    "prerequisites": ["Optics", "Electricity and Magnetism", "Modern Physics"]
+  }
+]

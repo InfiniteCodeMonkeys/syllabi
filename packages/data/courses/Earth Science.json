@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Introductory Geology",
+    "description": "This course introduces students to the principles of geology. Students will learn about the nature of the Earth and its materials, the structure of the Earth, the processes that shape the Earth's surface and interior, and the history of the Earth and its life.",
+    "prerequisites": []
+  },
+  [
+    {
+      "name": "Physical Geology",
+      "description": "This course focuses on the materials and processes of the solid Earth, including the composition and structure of the Earth, plate tectonics, volcanism, earthquakes, rock and mineral identification, and the interpretation of geologic maps.",
+      "prerequisites": ["Introductory Geology"]
+    },
+    {
+      "name": "Historical Geology",
+      "description": "This course focuses on the history of the Earth and its life, including the principles of stratigraphy and relative dating, radiometric dating, the evolution of life, and the interactions between life and the Earth system.",
+      "prerequisites": ["Introductory Geology"]
+    }
+  ],
+  {
+    "name": "Mineralogy and Petrology",
+    "description": "This course focuses on the nature and origin of minerals and rocks, including mineral identification, crystallography, the classification of rocks, and the interpretation of rock textures and structures.",
+    "prerequisites": ["Physical Geology"]
+  },
+  {
+    "name": "Sedimentology and Stratigraphy",
+    "description": "This course focuses on the processes that form sedimentary rocks, including weathering, erosion, transport, deposition, and diagenesis, and the principles of stratigraphy and sedimentary basin analysis.",
+    "prerequisites": ["Physical Geology"]
+  },
+  [
+    {
+      "name": "Structural Geology",
+      "description": "This course focuses on the deformation of rocks and the structures that result, including faults, folds, and fabrics, and the tectonic processes that drive deformation.",
+      "prerequisites": ["Physical Geology"]
+    },
+    {
+      "name": "Geophysics",
+      "description": "This course focuses on the use of geophysical methods to study the Earth's interior and its processes, including seismic methods, gravity methods, magnetic methods, and electromagnetic methods.",
+      "prerequisites": ["Physical Geology"]
+    }
+  ],
+  {
+    "name": "Geomorphology",
+    "description": "This course focuses on the processes that shape the Earth's surface, including weathering, erosion, transport, and deposition, and the landforms and landscapes that result.",
+    "prerequisites": ["Sedimentology and Stratigraphy"]
+  },
+  {
+    "name": "Environmental Geology",
+    "description": "This course focuses on the interactions between human societies and the Earth system, including natural hazards, resource use, and environmental management.",
+    "prerequisites": ["Physical Geology"]
+  }
+]

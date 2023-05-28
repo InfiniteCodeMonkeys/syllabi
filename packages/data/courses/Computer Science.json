@@ -1,0 +1,73 @@
+[
+  {
+    "name": "Introduction to Computer Science",
+    "description": "Students will learn the basics of programming languages and basic computer science concepts such as algorithms, data structures, computer hardware, and basic software engineering concepts.",
+    "prerequisites": []
+  },
+  [
+    {
+      "name": "Discrete Mathematics",
+      "description": "Students will learn about mathematical concepts and structures that are fundamental to computer science, including sets, logic, relations, graphs, and basic probability and counting principles.",
+      "prerequisites": []
+    },
+    {
+      "name": "Programming Fundamentals",
+      "description": "Students will develop their programming skills beyond the introductory level, and will learn how to design, implement, debug, and evaluate small programs using good programming practices.",
+      "prerequisites": ["Introduction to Computer Science"]
+    }
+  ],
+  {
+    "name": "Data Structures and Algorithms",
+    "description": "Students will learn how to design, analyze, and implement algorithms and data structures, including arrays, lists, stacks, queues, trees, and graphs, and will learn about basic algorithmic analysis techniques.",
+    "prerequisites": ["Programming Fundamentals", "Discrete Mathematics"]
+  },
+  {
+    "name": "Computer Organization and Architecture",
+    "description": "Students will learn about the principles of digital logic, computer organization, and computer architecture, including topics such as data representation, computer arithmetic, memory hierarchy, I/O, and CPU design.",
+    "prerequisites": ["Data Structures and Algorithms"]
+  },
+  [
+    {
+      "name": "Operating Systems",
+      "description": "Students will learn about the principles and design of operating systems, including process management, memory management, device management, file systems, and security.",
+      "prerequisites": ["Computer Organization and Architecture"]
+    },
+    {
+      "name": "Database Systems",
+      "description": "Students will learn about the principles of database management systems, including data modeling, database design, relational algebra, SQL, and transactions.",
+      "prerequisites": ["Data Structures and Algorithms"]
+    }
+  ],
+  {
+    "name": "Programming Languages",
+    "description": "Students will learn about the principles and design of programming languages, including syntax, semantics, and type systems, and will learn about language processing techniques such as lexing, parsing, and interpretation.",
+    "prerequisites": ["Data Structures and Algorithms"]
+  },
+  {
+    "name": "Computer Networks",
+    "description": "Students will learn about the principles and design of computer networks, including basic network protocols, LANs, WANs, the internet, transport protocols, and network security.",
+    "prerequisites": ["Operating Systems", "Data Structures and Algorithms"]
+  },
+  {
+    "name": "Theory of Computation",
+    "description": "Students will learn about the theoretical foundations of computation, including formal languages, automata, computability, complexity theory, and algorithmic randomness.",
+    "prerequisites": ["Data Structures and Algorithms", "Discrete Mathematics"]
+  },
+  [
+    {
+      "name": "Artificial Intelligence",
+      "description": "Students will learn about the principles and applications of artificial intelligence, including topics such as search, logic, knowledge representation, uncertainty, machine learning, and natural language processing.",
+      "prerequisites": ["Data Structures and Algorithms", "Theory of Computation"]
+    },
+    {
+      "name": "Computer Graphics",
+      "description": "Students will learn about the principles and techniques of computer graphics, including 2D and 3D graphics, geometric modeling, rendering, animation, and human-computer interaction.",
+      "prerequisites": ["Data Structures and Algorithms"]
+    }
+  ],
+  {
+    "name": "Software Engineering",
+    "description": "Students will learn about the principles and practices of software engineering, including project management, requirement engineering, software design, verification and validation, and software maintenance.",
+    "prerequisites": ["Data Structures and Algorithms", "Programming Fundamentals"]
+  }
+]

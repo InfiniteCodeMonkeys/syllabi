@@ -1,0 +1,97 @@
+[
+  {
+    "name": "Introductory Biology",
+    "description": "This course introduces students to the principles of biology. Students will learn about the scientific method, the structure and function of cells, the structure and function of DNA, the structure and function of genes, the structure and function of organelles, the structure and function of tissues, the structure and function of organs, the structure and function of organ systems, the structure and function of organisms, the structure and function of populations, and the structure and function of communities.",
+    "prerequisites": []
+  },
+  {
+    "name": "General Chemistry",
+    "description": "This course deals with fundamental principles of chemistry including atomic and molecular structure, chemical bonding, stoichiometry, thermochemistry, states of matter, properties of solutions, chemical equilibrium, electrochemistry, and chemical kinetics.",
+    "prerequisites": ["Introductory Biology"]
+  },
+  {
+    "name": "Statistics",
+    "description": "This course will introduce you to the methods of statistical analysis, hypothesis testing, and experimental design.",
+    "prerequisites": ["Introductory Biology"]
+  },
+  [
+    {
+      "name": "General Physics",
+      "description": "This course deals with fundamental principles of physics, including mechanics, thermodynamics, waves, optics, electricity and magnetism.",
+      "prerequisites": ["Introductory Biology"]
+    },
+    {
+      "name": "Organic Chemistry",
+      "description": "This course covers the principles of organic chemistry including the structure, reactivity, and reactions of organic compounds.",
+      "prerequisites": ["General Chemistry"]
+    },
+  ],
+  {
+    "name": "Ecology",
+    "description": "This course covers basic ecological principles as they relate to the structure and function of ecosystems and the interactions among organisms and their environment.",
+    "prerequisites": ["Introductory Biology", "General Chemistry"]
+  },
+  [
+    {
+      "name": "Botany",
+      "description": "This course covers the principles of plant biology including physiology, ecology, evolution, and systematics.",
+      "prerequisites": ["Introductory Biology"]
+    },
+    {
+      "name": "Zoology",
+      "description": "This course covers animal biology, including physiology, ecology, and evolution.",
+      "prerequisites": ["Introductory Biology"]
+    }
+  ],
+  {
+    "name": "Evolutionary Biology",
+    "description": "This course covers the principles of biological evolution, including genetic change, speciation, adaptation, and diversification of life, as well as the history of life on Earth.",
+    "prerequisites": ["Introductory Biology"]
+  },
+  [
+    {
+      "name": "Conservation Biology",
+      "description": "This course covers the principles of conservation biology, including conservation genetics, population biology, ecosystem management, and biodiversity conservation.",
+      "prerequisites": ["Ecology", "Evolutionary Biology"]
+    },
+    {
+      "name": "Behavioral Ecology",
+      "description": "This course covers the principles of animal behavior, including communication, social behavior, and mating systems, in the context of evolution and ecology.",
+      "prerequisites": ["Ecology", "Evolutionary Biology"]
+    }
+  ],
+  {
+    "name": "Biostatistics",
+    "description": "This course covers statistical methods used in the analysis of biological data, including sampling, experimental design, regression, and hypothesis testing.",
+    "prerequisites": ["Statistics", "Ecology", "General Chemistry"]
+  },
+  [
+    {
+      "name": "Ecosystem Ecology",
+      "description": "This course covers the principles of ecosystem ecology, including the cycling of energy and materials, biogeochemical cycles, and ecosystem processes.",
+      "prerequisites": ["Ecology"]
+    },
+    {
+      "name": "Community Ecology",
+      "description": "This course covers the principles of community ecology, including species interactions, competition, predation, and mutualism, in the context of ecosystem processes and biogeochemical cycling.",
+      "prerequisites": ["Ecology"]
+    }
+  ],
+  {
+    "name": "Biogeography",
+    "description": "This course covers the principles of biogeography, including historical biogeography, island biogeography, and conservation biogeography.",
+    "prerequisites": ["Ecology", "Evolutionary Biology"]
+  },
+  [
+    {
+      "name": "Aquatic Ecology",
+      "description": "This course covers the principles of aquatic ecology, including physical and chemical properties of water, organisms of freshwater and marine environments, and the processes that influence aquatic systems.",
+      "prerequisites": ["Ecology"]
+    },
+    {
+      "name": "Conservation Science",
+      "description": "This course covers the principles of conservation science, including management strategies, conservation genetics, population biology, and biodiversity conservation.",
+      "prerequisites": ["Conservation Biology"]
+    }
+  ]
+]

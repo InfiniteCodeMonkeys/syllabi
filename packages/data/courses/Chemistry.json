@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Introductory Chemistry",
+    "description": "This course introduces students to the principles of chemistry. Students will learn about the scientific method, atomic theory, chemical bonds, reactions, the periodic table, stoichiometry, gas laws, thermochemistry, intermolecular forces, and equilibrium.",
+    "prerequisites": []
+  },
+  {
+    "name": "Organic Chemistry I",
+    "description": "This course introduces students to the principles of organic chemistry. Students will learn about the structure and properties of organic molecules, nomenclature, resonance, acid-base chemistry, reaction mechanisms, addition reactions, elimination reactions, substitution reactions, and stereochemistry.",
+    "prerequisites": ["Introductory Chemistry"]
+  },
+  {
+    "name": "General Physics I",
+    "description": "This course introduces students to the principles of physics. Students will learn about vectors, kinematics, dynamics, work, energy, momentum, collisions, circular motion, and gravitation.",
+    "prerequisites": ["Introductory Chemistry", "Calculus I"]
+  },
+  {
+    "name": "Organic Chemistry II",
+    "description": "This course builds upon the principles learned in Organic Chemistry I. Students will learn about carbonyl chemistry, aromaticity, spectroscopy, and the reactions of aldehydes, ketones, carboxylic acids, and derivatives.",
+    "prerequisites": ["Organic Chemistry I"]
+  },
+  {
+    "name": "Inorganic Chemistry",
+    "description": "This course introduces students to the principles of inorganic chemistry. Students will learn about the periodic table, acids and bases, Lewis structures, molecular geometry, and the chemistry of main group and transition elements.",
+    "prerequisites": ["Organic Chemistry I", "Introductory Chemistry"]
+  },
+  {
+    "name": "Physical Chemistry I",
+    "description": "This course introduces students to the principles of physical chemistry. Students will learn about thermodynamics, kinetics, statistical mechanics, quantum mechanics, and spectroscopy.",
+    "prerequisites": ["Organic Chemistry I", "General Physics I", "Calculus II"]
+  },
+  {
+    "name": "Biochemistry",
+    "description": "This course introduces students to the principles of biochemistry. Students will learn about the structure and function of nucleic acids, proteins, and carbohydrates, metabolism, and enzyme kinetics.",
+    "prerequisites": ["Physical Chemistry I", "Organic Chemistry II"]
+  },
+  {
+    "name": "Analytical Chemistry",
+    "description": "This course introduces students to the principles of analytical chemistry. Students will learn about chemical equilibria, acid-base titration, complexometric titration, gravimetric analysis, and electrochemistry.",
+    "prerequisites": ["Physical Chemistry I", "Inorganic Chemistry"]
+  },
+  {
+    "name": "Physical Chemistry II",
+    "description": "This course builds upon the principles learned in Physical Chemistry I. Students will learn about advanced topics in thermodynamics, kinetics, quantum mechanics, and statistical mechanics.",
+    "prerequisites": ["Physical Chemistry I"]
+  },
+  {
+    "name": "Instrumental Analysis",
+    "description": "This course introduces students to the principles of instrumental analysis. Students will learn about spectroscopy, chromatography, mass spectrometry, and electroanalytical methods.",
+    "prerequisites": ["Analytical Chemistry"]
+  }
+]

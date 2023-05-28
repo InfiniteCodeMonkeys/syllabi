@@ -1,0 +1,71 @@
+[
+  {
+    "name": "Calculus I",
+    "description": "This course introduces students to limits, derivatives, and integrals of single variable functions, with an emphasis on applied problems in engineering and natural sciences.",
+    "prerequisites": []
+  },
+  {
+    "name": "Calculus II",
+    "description": "This course builds on the concepts of Calculus I and extends it to functions of several variables and vector calculus, with an emphasis on applied problems in engineering and natural sciences.",
+    "prerequisites": ["Calculus I"]
+  },
+  {
+    "name": "Physics I",
+    "description": "This course introduces students to the principles of mechanics, including topics such as motion, force, momentum, and energy, with an emphasis on applied problems in engineering and natural sciences.",
+    "prerequisites": ["Calculus I"]
+  },
+  {
+    "name": "Physics II",
+    "description": "This course builds on the concepts of Physics I and covers topics such as thermodynamics, electricity and magnetism, and waves, with an emphasis on applied problems in engineering and natural sciences.",
+    "prerequisites": ["Calculus II", "Physics I"]
+  },
+  [
+    {
+      "name": "Introduction to Engineering",
+      "description": "This course provides a broad overview of the field of engineering, including the different branches of engineering and their applications, design and manufacturing processes, and ethical considerations.",
+      "prerequisites": []
+    },
+    {
+      "name": "Introduction to Petroleum Engineering",
+      "description": "This course introduces students to the principles of petroleum engineering, including topics such as oil and gas reservoirs, drilling and completion techniques, production processes, and economic and environmental considerations.",
+      "prerequisites": ["Physics I", "Calculus I"]
+    }
+  ],
+  {
+    "name": "Fluid Mechanics",
+    "description": "This course covers the principles of fluid statics and dynamics, including topics such as viscosity, laminar and turbulent flow, Bernoulli's equation, and fluid measurements.",
+    "prerequisites": ["Calculus II", "Physics II", "Introduction to Engineering"]
+  },
+  {
+    "name": "Thermodynamics",
+    "description": "This course covers the principles of thermodynamics, including topics such as energy and entropy, equations of state, heat engines, and phase transitions.",
+    "prerequisites": ["Calculus II", "Physics II", "Introduction to Engineering"]
+  },
+  {
+    "name": "Materials Science and Engineering",
+    "description": "This course introduces the fundamentals of materials science and engineering, including topics such as crystal structures, phase diagrams, mechanical properties, and failure modes.",
+    "prerequisites": ["Calculus II", "Physics II", "Introduction to Engineering"]
+  },
+  [
+    {
+      "name": "Reservoir Engineering",
+      "description": "This course covers the principles of reservoir engineering, including topics such as reservoir properties, fluid flow in porous media, and reservoir simulation and management.",
+      "prerequisites": ["Fluid Mechanics", "Thermodynamics", "Introduction to Petroleum Engineering"]
+    },
+    {
+      "name": "Drilling Engineering",
+      "description": "This course covers the principles of drilling engineering, including topics such as drilling equipment and materials, drilling fluids, drilling processes and techniques, and well control.",
+      "prerequisites": ["Fluid Mechanics", "Materials Science and Engineering", "Introduction to Petroleum Engineering"]
+    }
+  ],
+  {
+    "name": "Production Engineering",
+    "description": "This course covers the principles of production engineering, including topics such as well completion, artificial lift techniques, surface facilities and equipment, and production optimization.",
+    "prerequisites": ["Reservoir Engineering", "Drilling Engineering"]
+  },
+  {
+    "name": "Petroleum Economics and Project Management",
+    "description": "This course covers the economic and project management principles of the petroleum industry, including topics such as cash flow analysis, investment and financing decisions, risk assessment and management, and project scheduling and control.",
+    "prerequisites": ["Reservoir Engineering", "Drilling Engineering"]
+  }
+]
