@@ -1,0 +1,25 @@
+[
+  {
+    "name": "Introduction to Anthropology",
+    "description": "An overview of the field of Anthropology, with an emphasis on the history, different branches, and current research.",
+    "prerequisites": []
+  },
+  {
+    "name": "Foundations of Economic Anthropology",
+    "description": "An introduction to the field of Economic Anthropology, including the historical basis, key concepts, and theories.",
+    "prerequisites": ["Introduction to Anthropology"]
+  },
+  {
+    "name": "Applied Economic Anthropology",
+    "description": "A study of the application of Economic Anthropology to problems in the real world, with a focus on case studies and examples.",
+    "prerequisites": ["Foundations of Economic Anthropology"]
+  },
+  {
+    "name": "Advanced Economic Anthropology",
+    "description": "An in-depth exploration of Economic Anthropology theories and concepts, with a focus on contemporary debates and new research.",
+    "prerequisites": [
+      "Foundations of Economic Anthropology",
+      "Applied Economic Anthropology"
+    ]
+  }
+]

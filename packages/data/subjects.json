@@ -1,130 +1,1200 @@
-{
-  
-        "children": [
-          {
-            "id": "1hgfhfkhf",
-            "name": "Art History",
-            "description": "Art History is the study of the visual arts in civilization. It examines painting, sculpture, and architecture of the Western tradition, from the ancient through the modern eras.",
-            "type": "fieldNode"
-          },
-          {
-            "id": "1fgdhdxx",
-            "name": "Classics",
-            "description": "Classics is the study of the ancient Greek and Roman civilizations, especially their languages, literature, and philosophy.",
-            "type": "fieldNode"
-          },
-          {
-            "id": "765thfdd",
-            "name": "History",
-            "description": "History is the study of the past. It is the search for meaning in the past and for the significance of the past for the present or future.",
-            "type": "fieldNode"
-          },
-
-          {
-            "id": "65yhfddr",
-            "name": "Language & Literature",
-            "description": "Language & Literature is the study of written and verbal communication. It includes the study of the history, structure, and use of language and the study of literary works.",
-            "type": "fieldNode"
-          },
-
-          {
-            "id": "1274rqwe",
-            "name": "Music",
-            "description": "Music is the study of the art and science of music, including its historical development, theoretical foundations, and creative inspiration.",
-            "type": "fieldNode"
-          },
-
-          {
-            "id": "1676jgdd",
-            "name": "Philosophy",
-            "description": "Philosophy is the study of the fundamental nature of knowledge, reality, and existence, especially when considered as an academic discipline.",
-            "type": "fieldNode"
-          },
-
-          {
-            "id": "1256gfds",
-            "name": "Religion",
-            "description": "Religion is the study of the religious beliefs, behavior, and institutions of humankind.",
-            "type": "fieldNode"
-          }
-        ]
-      
-    },
-    {
-      
-        "children": [
-          {
-            "id": "1hgfhfghf",
-            "name": "Biology",
-            "description": "Biology is the study of living organisms, divided into many specialized fields that cover their morphology, physiology, anatomy, behavior, origin, and distribution.",
-            "type": "fieldNode"
-          },
-          {
-            "id": "35345rfs",
-            "name": "Chemistry",
-            "description": "Chemistry is the study of the composition, structure, properties, and reactions of matter, especially of atomic and molecular systems.",
-            "type": "fieldNode"
-          },
-          {
-            "id": "fdfsjhkfu333",
-            "name": "Computer Science",
-            "description": "Computer Science is the study of the theoretical foundations of information and computation and their implementation and application in computer systems.",
-            "type": "fieldNode",
-            "children": [
-              {
-                "id": "clgny7kqd0002p0vo4bxx7k65",
-                "name": "Introduction to Computer Science",
-                "description": "This course is an introduction to the intellectual enterprises of computer science and the art of programming.",
-                "type": "courseNode",
-                "children": [
-                  {
-                    "id": "clgny7kqd0002p0vo4bxx5666",
-                    "name": "Programming Methodology",
-                    "description": "This course is an introduction to the intellectual enterprises of computer science and the art of programming.",
-                    "type": "courseNode"
-                  }
-                ]
-              },
-              {
-                "id": "clgny7kqd0002p0vo4bxx7k6poop",
-                "name": "Introduction to Data Structures",
-                "description": "This course is an introduction to design of data structures.",
-                "type": "courseNode",
-                "children": [
-                  {
-                    "id": "clgny7kqd0002p0vo4bxx5666",
-                    "name": "Programming Methodology",
-                    "description": "This course is an introduction to the intellectual enterprises of computer science and the art of programming.",
-                    "type": "courseNode"
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "id": "8907fddsfdsu767",
-            "name": "Engineering",
-            "description": "Engineering is the application of scientific, economic, social, and practical knowledge in order to design, build, and maintain structures, machines, devices, systems, materials and processes.",
-            "type": "fieldNode"
-          },
-          {
-            "id": "786fhsdjfldsf",
-            "name": "Environmental Studies",
-            "description": "Environmental Studies is the study of the environment and the solution of environmental problems.",
-            "type": "fieldNode"
-          },
-          {
-            "id": "fsdbn3535w23",
-            "name": "Mathematics",
-            "description": "Mathematics is the study of quantity, structure, space, and change.",
-            "type": "fieldNode"
-          },
-          {
-            "id": "fsdbn3535w2gfgdf3",
-            "name": "Physics",
-            "description": "Physics is the study of matter and its motion through spacetime and all that derives from these, such as energy and force.",
-            "type": "fieldNode"
-          }
-        ]
+[
+  {
+    "type": "fieldNode",
+    "parent": {
+      "id": "rul85bvivt3yuyyubm5lgu6x",
+      "data": {
+        "name": "Gender & Sexuality Studies",
+        "description": "The interdisciplinary study of gender and sexuality, including their social, cultural, and political dimensions, as well as their intersections with race, class, and other identity categories."
       }
-
+    },
+    "children": [],
+    "id": "h0krsjhp5mfvixy1vy44pzeu",
+    "data": {
+      "name": "Queer Theory",
+      "description": "Examines the ways in which gender and sexuality intersect and how these intersections are constructed and represented in culture, history, and society."
+    }
+  },
+  {
+    "type": "fieldNode",
+    "parent": {
+      "id": "rul85bvivt3yuyyubm5lgu6x",
+      "data": {
+        "name": "Gender & Sexuality Studies",
+        "description": "The interdisciplinary study of gender and sexuality, including their social, cultural, and political dimensions, as well as their intersections with race, class, and other identity categories."
+      }
+    },
+    "children": [],
+    "id": "vxcz918gaqrc9qn35oo115kp",
+    "data": {
+      "name": "Women's Studies",
+      "description": "Explores the roles and experiences of women in various societies, with a focus on issues such as gender inequality, social and political empowerment, and representation."
+    }
+  },
+  {
+    "type": "fieldNode",
+    "parent": {
+      "id": "rul85bvivt3yuyyubm5lgu6x",
+      "data": {
+        "name": "Gender & Sexuality Studies",
+        "description": "The interdisciplinary study of gender and sexuality, including their social, cultural, and political dimensions, as well as their intersections with race, class, and other identity categories."
+      }
+    },
+    "children": [],
+    "id": "i74ylam79kygqccfgwfbvnc0",
+    "data": {
+      "name": "Masculinity Studies",
+      "description": "Explores the ways in which masculinity is constructed and performed in different cultures and societies, and how it intersects with other social categories such as race, class, and sexuality."
+    }
+  },
+  {
+    "type": "fieldNode",
+    "parent": {
+      "id": "rul85bvivt3yuyyubm5lgu6x",
+      "data": {
+        "name": "Gender & Sexuality Studies",
+        "description": "The interdisciplinary study of gender and sexuality, including their social, cultural, and political dimensions, as well as their intersections with race, class, and other identity categories."
+      }
+    },
+    "children": [],
+    "id": "pdg6w8g901wcin3xds8yuvza",
+    "data": {
+      "name": "LGBTQ+ Studies",
+      "description": "Examines the social, cultural, and political dimensions of lesbian, gay, bisexual, transgender, and queer identities and communities, with a focus on issues such as discrimination, representation, and social movements."
+    }
+  },
+  {
+    "type": "fieldNode",
+    "parent": {
+      "id": "rul85bvivt3yuyyubm5lgu6x",
+      "data": {
+        "name": "Gender & Sexuality Studies",
+        "description": "The interdisciplinary study of gender and sexuality, including their social, cultural, and political dimensions, as well as their intersections with race, class, and other identity categories."
+      }
+    },
+    "children": [],
+    "id": "g5ekv98ms2mxtqvp6u9ssqlg",
+    "data": {
+      "name": "Sexuality Studies",
+      "description": "Explores the ways in which sexuality is constructed and represented in culture, history, and society, and how it intersects with other social categories such as gender, race, and class."
+    }
+  },
+  {
+    "type": "fieldNode",
+    "parent": {
+      "id": "rul85bvivt3yuyyubm5lgu6x",
+      "data": {
+        "name": "Gender & Sexuality Studies",
+        "description": "The interdisciplinary study of gender and sexuality, including their social, cultural, and political dimensions, as well as their intersections with race, class, and other identity categories."
+      }
+    },
+    "children": [],
+    "id": "srb60aslwex47c87tmugbnhe",
+    "data": {
+      "name": "Intersex Studies",
+      "description": "Examines the social and medical treatment of people born with intersex traits, as well as the experiences of people who identify as intersex."
+    }
+  },
+  {
+    "type": "fieldNode",
+    "parent": {
+      "id": "rul85bvivt3yuyyubm5lgu6x",
+      "data": {
+        "name": "Gender & Sexuality Studies",
+        "description": "The interdisciplinary study of gender and sexuality, including their social, cultural, and political dimensions, as well as their intersections with race, class, and other identity categories."
+      }
+    },
+    "children": [],
+    "id": "wksn7pewephc9da1c84rs1ac",
+    "data": {
+      "name": "Transgender Studies",
+      "description": "Explores the social, cultural, and political dimensions of transgender identities and communities, with a focus on issues such as discrimination, representation, and social movements."
+    }
+  },
+  {
+    "type": "fieldNode",
+    "parent": {
+      "id": "rul85bvivt3yuyyubm5lgu6x",
+      "data": {
+        "name": "Gender & Sexuality Studies",
+        "description": "The interdisciplinary study of gender and sexuality, including their social, cultural, and political dimensions, as well as their intersections with race, class, and other identity categories."
+      }
+    },
+    "children": [],
+    "id": "cqisto7em84dr4jr6e4o3x5r",
+    "data": {
+      "name": "Two-Spirit Studies",
+      "description": "Focuses on the experiences of Indigenous people who identify as Two-Spirit, a term used to describe gender and sexual diversity in Native American and First Nations cultures."
+    }
+  },
+  {
+    "type": "fieldNode",
+    "parent": {
+      "id": "gewxxb54cp7cc13guq6u6fvp",
+      "data": {
+        "name": "Journalism",
+        "description": "Journalism is the practice of gathering, assessing, creating, and presenting news and information. It involves researching, writing, and reporting stories on current events and issues to inform and engage audiences."
+      }
+    },
+    "children": [],
+    "id": "yg2qmmv4v5peq55z4l5f58o2",
+    "data": {
+      "name": "Broadcast Journalism",
+      "description": "The reporting of news and current events through broadcast media such as television and radio"
+    }
+  },
+  {
+    "type": "fieldNode",
+    "parent": {
+      "id": "gewxxb54cp7cc13guq6u6fvp",
+      "data": {
+        "name": "Journalism",
+        "description": "Journalism is the practice of gathering, assessing, creating, and presenting news and information. It involves researching, writing, and reporting stories on current events and issues to inform and engage audiences."
+      }
+    },
+    "children": [],
+    "id": "m79ay90vjw6p7snrr2njxbr8",
+    "data": {
+      "name": "Data Journalism",
+      "description": "The use of data analysis techniques to produce and report news stories"
+    }
+  },
+  {
+    "type": "fieldNode",
+    "parent": {
+      "id": "gewxxb54cp7cc13guq6u6fvp",
+      "data": {
+        "name": "Journalism",
+        "description": "Journalism is the practice of gathering, assessing, creating, and presenting news and information. It involves researching, writing, and reporting stories on current events and issues to inform and engage audiences."
+      }
+    },
+    "children": [],
+    "id": "ktoinpyuo9x9sm22tmamzhqv",
+    "data": {
+      "name": "Investigative Journalism",
+      "description": "In-depth reporting that uncovers scandals, corruption, and other societal issues"
+    }
+  },
+  {
+    "type": "fieldNode",
+    "parent": {
+      "id": "gewxxb54cp7cc13guq6u6fvp",
+      "data": {
+        "name": "Journalism",
+        "description": "Journalism is the practice of gathering, assessing, creating, and presenting news and information. It involves researching, writing, and reporting stories on current events and issues to inform and engage audiences."
+      }
+    },
+    "children": [],
+    "id": "qu4bev61cbkmu70g94lf8aml",
+    "data": {
+      "name": "Multimedia Journalism",
+      "description": "The use of different media formats such as text, images, video, and audio to tell news stories"
+    }
+  },
+  {
+    "type": "fieldNode",
+    "parent": {
+      "id": "gewxxb54cp7cc13guq6u6fvp",
+      "data": {
+        "name": "Journalism",
+        "description": "Journalism is the practice of gathering, assessing, creating, and presenting news and information. It involves researching, writing, and reporting stories on current events and issues to inform and engage audiences."
+      }
+    },
+    "children": [],
+    "id": "yma2kehr1kd4hoqwe66mt553",
+    "data": {
+      "name": "Photojournalism",
+      "description": "The use of photographs to tell news stories"
+    }
+  },
+  {
+    "type": "fieldNode",
+    "parent": {
+      "id": "gewxxb54cp7cc13guq6u6fvp",
+      "data": {
+        "name": "Journalism",
+        "description": "Journalism is the practice of gathering, assessing, creating, and presenting news and information. It involves researching, writing, and reporting stories on current events and issues to inform and engage audiences."
+      }
+    },
+    "children": [],
+    "id": "ko5py21che9p9te8014wdjju",
+    "data": {
+      "name": "Science Journalism",
+      "description": "The reporting of scientific news and research findings"
+    }
+  },
+  {
+    "type": "fieldNode",
+    "parent": {
+      "id": "gewxxb54cp7cc13guq6u6fvp",
+      "data": {
+        "name": "Journalism",
+        "description": "Journalism is the practice of gathering, assessing, creating, and presenting news and information. It involves researching, writing, and reporting stories on current events and issues to inform and engage audiences."
+      }
+    },
+    "children": [],
+    "id": "ofek57hbu03g6066z49l5gwy",
+    "data": {
+      "name": "Sports Journalism",
+      "description": "The reporting of news and events in the world of sports"
+    }
+  },
+  {
+    "type": "fieldNode",
+    "parent": {
+      "id": "gewxxb54cp7cc13guq6u6fvp",
+      "data": {
+        "name": "Journalism",
+        "description": "Journalism is the practice of gathering, assessing, creating, and presenting news and information. It involves researching, writing, and reporting stories on current events and issues to inform and engage audiences."
+      }
+    },
+    "children": [],
+    "id": "efqd3o1jgdc9jqdhbwz1wkf7",
+    "data": {
+      "name": "War Journalism",
+      "description": "The reporting of conflicts, wars, and related events and issues"
+    }
+  },
+  {
+    "type": "fieldNode",
+    "parent": {
+      "id": "gewxxb54cp7cc13guq6u6fvp",
+      "data": {
+        "name": "Journalism",
+        "description": "Journalism is the practice of gathering, assessing, creating, and presenting news and information. It involves researching, writing, and reporting stories on current events and issues to inform and engage audiences."
+      }
+    },
+    "children": [],
+    "id": "tk88rx2806j1b16sh3ep9xaw",
+    "data": {
+      "name": "Business Journalism",
+      "description": "The reporting of news and analysis related to business and finance"
+    }
+  },
+  {
+    "type": "fieldNode",
+    "parent": {
+      "id": "gewxxb54cp7cc13guq6u6fvp",
+      "data": {
+        "name": "Journalism",
+        "description": "Journalism is the practice of gathering, assessing, creating, and presenting news and information. It involves researching, writing, and reporting stories on current events and issues to inform and engage audiences."
+      }
+    },
+    "children": [],
+    "id": "ttn90dcaf017qovyj2qsc8sb",
+    "data": {
+      "name": "Environmental Journalism",
+      "description": "The reporting of news and analysis related to the environment, conservation, and sustainability"
+    }
+  },
+  {
+    "type": "fieldNode",
+    "parent": {
+      "id": "gewxxb54cp7cc13guq6u6fvp",
+      "data": {
+        "name": "Journalism",
+        "description": "Journalism is the practice of gathering, assessing, creating, and presenting news and information. It involves researching, writing, and reporting stories on current events and issues to inform and engage audiences."
+      }
+    },
+    "children": [],
+    "id": "d31pwy2q3wuetnug7ct3dhjs",
+    "data": {
+      "name": "Opinion Journalism",
+      "description": "The expression of personal opinions and perspectives on current events and issues"
+    }
+  },
+  {
+    "type": "fieldNode",
+    "parent": {
+      "id": "gewxxb54cp7cc13guq6u6fvp",
+      "data": {
+        "name": "Journalism",
+        "description": "Journalism is the practice of gathering, assessing, creating, and presenting news and information. It involves researching, writing, and reporting stories on current events and issues to inform and engage audiences."
+      }
+    },
+    "children": [],
+    "id": "z96x1cywfd55m1i91j1r71ua",
+    "data": {
+      "name": "Political Journalism",
+      "description": "The reporting of news and analysis related to politics and government"
+    }
+  },
+  {
+    "type": "fieldNode",
+    "parent": {
+      "id": "gewxxb54cp7cc13guq6u6fvp",
+      "data": {
+        "name": "Journalism",
+        "description": "Journalism is the practice of gathering, assessing, creating, and presenting news and information. It involves researching, writing, and reporting stories on current events and issues to inform and engage audiences."
+      }
+    },
+    "children": [],
+    "id": "xtm9zpfajeqcqt1x9avnu8qq",
+    "data": {
+      "name": "Entertainment Journalism",
+      "description": "The reporting of news and analysis related to the entertainment industry, including movies, music, and television"
+    }
+  },
+  {
+    "type": "fieldNode",
+    "parent": {
+      "id": "gewxxb54cp7cc13guq6u6fvp",
+      "data": {
+        "name": "Journalism",
+        "description": "Journalism is the practice of gathering, assessing, creating, and presenting news and information. It involves researching, writing, and reporting stories on current events and issues to inform and engage audiences."
+      }
+    },
+    "children": [],
+    "id": "dzt7ru379o1etx2vgf4x7hyt",
+    "data": {
+      "name": "International Journalism",
+      "description": "The reporting of news and analysis related to events and issues in other countries and regions"
+    }
+  },
+  {
+    "type": "fieldNode",
+    "parent": {
+      "id": "gewxxb54cp7cc13guq6u6fvp",
+      "data": {
+        "name": "Journalism",
+        "description": "Journalism is the practice of gathering, assessing, creating, and presenting news and information. It involves researching, writing, and reporting stories on current events and issues to inform and engage audiences."
+      }
+    },
+    "children": [],
+    "id": "gveb394nw7fv8mlviz4txmko",
+    "data": {
+      "name": "Community Journalism",
+      "description": "The reporting of news and events in a specific community or locality"
+    }
+  },
+  {
+    "type": "fieldNode",
+    "parent": {
+      "id": "hoktowuaz2ksqu5u1pn68xk5",
+      "data": {
+        "name": "Media Studies",
+        "description": "Media studies is the interdisciplinary study of mass media and its impact on society and culture. It involves analyzing the production, distribution, and consumption of media content, as well as the social, political, and economic factors that shape media industries."
+      }
+    },
+    "children": [],
+    "id": "y58v74a06esjo4ygsh9ah25t",
+    "data": {
+      "name": "Media Theory",
+      "description": "Studies of the nature of media, how media is created and consumed, and the impact of media on society"
+    }
+  },
+  {
+    "type": "fieldNode",
+    "parent": {
+      "id": "hoktowuaz2ksqu5u1pn68xk5",
+      "data": {
+        "name": "Media Studies",
+        "description": "Media studies is the interdisciplinary study of mass media and its impact on society and culture. It involves analyzing the production, distribution, and consumption of media content, as well as the social, political, and economic factors that shape media industries."
+      }
+    },
+    "children": [],
+    "id": "fc8f4joinc9w0dn60bh6il62",
+    "data": {
+      "name": "Media Criticism",
+      "description": "Analysis and evaluation of media content, including news, advertising, film, and television"
+    }
+  },
+  {
+    "type": "fieldNode",
+    "parent": {
+      "id": "hoktowuaz2ksqu5u1pn68xk5",
+      "data": {
+        "name": "Media Studies",
+        "description": "Media studies is the interdisciplinary study of mass media and its impact on society and culture. It involves analyzing the production, distribution, and consumption of media content, as well as the social, political, and economic factors that shape media industries."
+      }
+    },
+    "children": [],
+    "id": "rp6couptzy2j732w3bjooiu3",
+    "data": {
+      "name": "Media History",
+      "description": "Study of the historical development of media technologies and their impact on society"
+    }
+  },
+  {
+    "type": "fieldNode",
+    "parent": {
+      "id": "hoktowuaz2ksqu5u1pn68xk5",
+      "data": {
+        "name": "Media Studies",
+        "description": "Media studies is the interdisciplinary study of mass media and its impact on society and culture. It involves analyzing the production, distribution, and consumption of media content, as well as the social, political, and economic factors that shape media industries."
+      }
+    },
+    "children": [],
+    "id": "csfvgun4ue3ymjjtk2jj8ryy",
+    "data": {
+      "name": "Media Ethics",
+      "description": "Examination of the ethical considerations and responsibilities of media professionals"
+    }
+  },
+  {
+    "type": "fieldNode",
+    "parent": {
+      "id": "hoktowuaz2ksqu5u1pn68xk5",
+      "data": {
+        "name": "Media Studies",
+        "description": "Media studies is the interdisciplinary study of mass media and its impact on society and culture. It involves analyzing the production, distribution, and consumption of media content, as well as the social, political, and economic factors that shape media industries."
+      }
+    },
+    "children": [],
+    "id": "zegrplr8uwm59q35ao5ltbk2",
+    "data": {
+      "name": "Media Effects",
+      "description": "Study of the psychological and social effects of media on individuals and society"
+    }
+  },
+  {
+    "type": "fieldNode",
+    "parent": {
+      "id": "hoktowuaz2ksqu5u1pn68xk5",
+      "data": {
+        "name": "Media Studies",
+        "description": "Media studies is the interdisciplinary study of mass media and its impact on society and culture. It involves analyzing the production, distribution, and consumption of media content, as well as the social, political, and economic factors that shape media industries."
+      }
+    },
+    "children": [],
+    "id": "qwsfolgmo8u526i8prwj4ewa",
+    "data": {
+      "name": "Media Production",
+      "description": "Practical skills and techniques involved in producing media content, such as film, television, radio, and digital media"
+    }
+  },
+  {
+    "type": "fieldNode",
+    "parent": {
+      "id": "hoktowuaz2ksqu5u1pn68xk5",
+      "data": {
+        "name": "Media Studies",
+        "description": "Media studies is the interdisciplinary study of mass media and its impact on society and culture. It involves analyzing the production, distribution, and consumption of media content, as well as the social, political, and economic factors that shape media industries."
+      }
+    },
+    "children": [],
+    "id": "hmq7jo7o16qvxnhrnpe2n66p",
+    "data": {
+      "name": "Media Management",
+      "description": "Study of the business aspects of media, including marketing, finance, and organizational structure"
+    }
+  },
+  {
+    "type": "fieldNode",
+    "parent": {
+      "id": "hoktowuaz2ksqu5u1pn68xk5",
+      "data": {
+        "name": "Media Studies",
+        "description": "Media studies is the interdisciplinary study of mass media and its impact on society and culture. It involves analyzing the production, distribution, and consumption of media content, as well as the social, political, and economic factors that shape media industries."
+      }
+    },
+    "children": [],
+    "id": "prvqpqc4dkwvrbydlf20yepa",
+    "data": {
+      "name": "Digital Media",
+      "description": "Exploration of the creation and consumption of media in digital formats, including online content, social media, and video games"
+    }
+  },
+  {
+    "type": "fieldNode",
+    "parent": {
+      "id": "hoktowuaz2ksqu5u1pn68xk5",
+      "data": {
+        "name": "Media Studies",
+        "description": "Media studies is the interdisciplinary study of mass media and its impact on society and culture. It involves analyzing the production, distribution, and consumption of media content, as well as the social, political, and economic factors that shape media industries."
+      }
+    },
+    "children": [],
+    "id": "i7wga3vcbx824dj4jhb7ujo4",
+    "data": {
+      "name": "Advertising",
+      "description": "Study of the principles and practices of advertising, including media planning, creative development, and audience targeting"
+    }
+  },
+  {
+    "type": "fieldNode",
+    "parent": {
+      "id": "hoktowuaz2ksqu5u1pn68xk5",
+      "data": {
+        "name": "Media Studies",
+        "description": "Media studies is the interdisciplinary study of mass media and its impact on society and culture. It involves analyzing the production, distribution, and consumption of media content, as well as the social, political, and economic factors that shape media industries."
+      }
+    },
+    "children": [],
+    "id": "ip0hhmzjh5atdbrdk1nqfuqb",
+    "data": {
+      "name": "Public Relations",
+      "description": "Study of the principles and practices of public relations, including media relations, crisis management, and reputation management."
+    }
+  },
+  {
+    "type": "fieldNode",
+    "parent": {
+      "id": "vs5ep3ere10vsvl4e0ry9q8i",
+      "data": {
+        "name": "Political Science",
+        "description": "Political science is the study of politics, government, and public policies at the local, national, and international levels. It involves analyzing the structures and functions of political systems, as well as the behavior of individuals and groups in political contexts."
+      }
+    },
+    "children": [],
+    "id": "ha59b4wravet5zugs3lzdsd8",
+    "data": {
+      "name": "American Politics",
+      "description": "Study of American political institutions and behavior, including the presidency, Congress, political parties, elections, public opinion, and political culture."
+    }
+  },
+  {
+    "type": "fieldNode",
+    "parent": {
+      "id": "vs5ep3ere10vsvl4e0ry9q8i",
+      "data": {
+        "name": "Political Science",
+        "description": "Political science is the study of politics, government, and public policies at the local, national, and international levels. It involves analyzing the structures and functions of political systems, as well as the behavior of individuals and groups in political contexts."
+      }
+    },
+    "children": [],
+    "id": "roapez7naxzuiol6moud4euu",
+    "data": {
+      "name": "Comparative Politics",
+      "description": "Comparative study of political systems and institutions across different countries and regions, including democratization, authoritarianism, and political economy."
+    }
+  },
+  {
+    "type": "fieldNode",
+    "parent": {
+      "id": "vs5ep3ere10vsvl4e0ry9q8i",
+      "data": {
+        "name": "Political Science",
+        "description": "Political science is the study of politics, government, and public policies at the local, national, and international levels. It involves analyzing the structures and functions of political systems, as well as the behavior of individuals and groups in political contexts."
+      }
+    },
+    "children": [],
+    "id": "k4la9uwrjfuiw1aw2nbf5v3p",
+    "data": {
+      "name": "International Relations",
+      "description": "Study of interactions between nation-states and non-state actors, including diplomacy, foreign policy, security studies, international law, and global governance."
+    }
+  },
+  {
+    "type": "fieldNode",
+    "parent": {
+      "id": "vs5ep3ere10vsvl4e0ry9q8i",
+      "data": {
+        "name": "Political Science",
+        "description": "Political science is the study of politics, government, and public policies at the local, national, and international levels. It involves analyzing the structures and functions of political systems, as well as the behavior of individuals and groups in political contexts."
+      }
+    },
+    "children": [],
+    "id": "nq2pt5gsxtmegouoop1yw6q2",
+    "data": {
+      "name": "Political Theory",
+      "description": "Exploration of political concepts and ideas, including democracy, justice, liberty, equality, and human rights."
+    }
+  },
+  {
+    "type": "fieldNode",
+    "parent": {
+      "id": "vs5ep3ere10vsvl4e0ry9q8i",
+      "data": {
+        "name": "Political Science",
+        "description": "Political science is the study of politics, government, and public policies at the local, national, and international levels. It involves analyzing the structures and functions of political systems, as well as the behavior of individuals and groups in political contexts."
+      }
+    },
+    "children": [],
+    "id": "ctxd84a2jkrtgp0tumwpuw59",
+    "data": {
+      "name": "Public Administration",
+      "description": "Study of the organization, management, and implementation of public policies and programs, including bureaucracy, public management, and public policy analysis."
+    }
+  },
+  {
+    "type": "fieldNode",
+    "parent": {
+      "id": "vs5ep3ere10vsvl4e0ry9q8i",
+      "data": {
+        "name": "Political Science",
+        "description": "Political science is the study of politics, government, and public policies at the local, national, and international levels. It involves analyzing the structures and functions of political systems, as well as the behavior of individuals and groups in political contexts."
+      }
+    },
+    "children": [],
+    "id": "pq8hhbmj4oww45kjlwckihnw",
+    "data": {
+      "name": "Public Law",
+      "description": "Study of the role of law in politics and society, including constitutional law, administrative law, and the relationship between law and politics."
+    }
+  },
+  {
+    "type": "fieldNode",
+    "parent": {
+      "id": "vs5ep3ere10vsvl4e0ry9q8i",
+      "data": {
+        "name": "Political Science",
+        "description": "Political science is the study of politics, government, and public policies at the local, national, and international levels. It involves analyzing the structures and functions of political systems, as well as the behavior of individuals and groups in political contexts."
+      }
+    },
+    "children": [],
+    "id": "d3dlmsnirmrciqw46qtar9k2",
+    "data": {
+      "name": "Public Opinion",
+      "description": "Analysis of the attitudes and beliefs of the general public toward politics and public policy, including surveys, polling, and statistical analysis."
+    }
+  },
+  {
+    "type": "fieldNode",
+    "parent": {
+      "id": "vs5ep3ere10vsvl4e0ry9q8i",
+      "data": {
+        "name": "Political Science",
+        "description": "Political science is the study of politics, government, and public policies at the local, national, and international levels. It involves analyzing the structures and functions of political systems, as well as the behavior of individuals and groups in political contexts."
+      }
+    },
+    "children": [],
+    "id": "d41edmiakie3d77b9fh7eqhr",
+    "data": {
+      "name": "Public Policy",
+      "description": "Study of the processes by which government decisions are made and implemented, including policy analysis, program evaluation, and policy implementation."
+    }
+  },
+  {
+    "type": "fieldNode",
+    "parent": {
+      "id": "vs5ep3ere10vsvl4e0ry9q8i",
+      "data": {
+        "name": "Political Science",
+        "description": "Political science is the study of politics, government, and public policies at the local, national, and international levels. It involves analyzing the structures and functions of political systems, as well as the behavior of individuals and groups in political contexts."
+      }
+    },
+    "children": [],
+    "id": "c258a5dclegtw3ysgo93cv2p",
+    "data": {
+      "name": "Political Methodology",
+      "description": "Development and application of quantitative and qualitative research methods to the study of politics and political phenomena."
+    }
+  },
+  {
+    "type": "fieldNode",
+    "parent": {
+      "id": "vs5ep3ere10vsvl4e0ry9q8i",
+      "data": {
+        "name": "Political Science",
+        "description": "Political science is the study of politics, government, and public policies at the local, national, and international levels. It involves analyzing the structures and functions of political systems, as well as the behavior of individuals and groups in political contexts."
+      }
+    },
+    "children": [],
+    "id": "p896a7m1ukejf3j7432qrep4",
+    "data": {
+      "name": "Political Economy",
+      "description": "Study of the interplay between politics and economics, including issues such as economic development, inequality, and regulation."
+    }
+  },
+  {
+    "type": "fieldNode",
+    "parent": {
+      "id": "tblwwggcjmsyu6j6wiogpc43",
+      "data": {
+        "name": "Sociology",
+        "description": "Sociology is the scientific study of human social behavior, relationships, and institutions. It examines how society is organized, how individuals and groups interact within society, and how social structures and systems shape people's lives."
+      }
+    },
+    "children": [],
+    "id": "dx2z9zwo0fi46qv9ud2escax",
+    "data": {
+      "name": "Social Stratification",
+      "description": "Studies how individuals and groups are positioned within a social hierarchy, and how this affects their life chances and opportunities."
+    }
+  },
+  {
+    "type": "fieldNode",
+    "parent": {
+      "id": "tblwwggcjmsyu6j6wiogpc43",
+      "data": {
+        "name": "Sociology",
+        "description": "Sociology is the scientific study of human social behavior, relationships, and institutions. It examines how society is organized, how individuals and groups interact within society, and how social structures and systems shape people's lives."
+      }
+    },
+    "children": [],
+    "id": "ffry9u0cdeei1dd02mq3pjcj",
+    "data": {
+      "name": "Sociology of Culture",
+      "description": "Explores the social meanings and practices of cultural phenomena such as art, music, literature, fashion, and media."
+    }
+  },
+  {
+    "type": "fieldNode",
+    "parent": {
+      "id": "tblwwggcjmsyu6j6wiogpc43",
+      "data": {
+        "name": "Sociology",
+        "description": "Sociology is the scientific study of human social behavior, relationships, and institutions. It examines how society is organized, how individuals and groups interact within society, and how social structures and systems shape people's lives."
+      }
+    },
+    "children": [],
+    "id": "fp6i328mmjc7rltkv4w0wi61",
+    "data": {
+      "name": "Sociology of Education",
+      "description": "Examines the social structures and processes that shape education, including school systems, curriculum, pedagogy, and student outcomes."
+    }
+  },
+  {
+    "type": "fieldNode",
+    "parent": {
+      "id": "tblwwggcjmsyu6j6wiogpc43",
+      "data": {
+        "name": "Sociology",
+        "description": "Sociology is the scientific study of human social behavior, relationships, and institutions. It examines how society is organized, how individuals and groups interact within society, and how social structures and systems shape people's lives."
+      }
+    },
+    "children": [],
+    "id": "olaq2b2es63asp6xn6k78d4p",
+    "data": {
+      "name": "Sociology of Health and Illness",
+      "description": "Investigates the social factors that influence health, illness, and healthcare, including access to resources, social support, and cultural beliefs."
+    }
+  },
+  {
+    "type": "fieldNode",
+    "parent": {
+      "id": "tblwwggcjmsyu6j6wiogpc43",
+      "data": {
+        "name": "Sociology",
+        "description": "Sociology is the scientific study of human social behavior, relationships, and institutions. It examines how society is organized, how individuals and groups interact within society, and how social structures and systems shape people's lives."
+      }
+    },
+    "children": [],
+    "id": "bawmzeb10ls054a71a7jsr0v",
+    "data": {
+      "name": "Sociology of Law",
+      "description": "Explores how law is created, enforced, and contested within society, and how legal institutions shape social relations and norms."
+    }
+  },
+  {
+    "type": "fieldNode",
+    "parent": {
+      "id": "tblwwggcjmsyu6j6wiogpc43",
+      "data": {
+        "name": "Sociology",
+        "description": "Sociology is the scientific study of human social behavior, relationships, and institutions. It examines how society is organized, how individuals and groups interact within society, and how social structures and systems shape people's lives."
+      }
+    },
+    "children": [],
+    "id": "gq8erndflgo0qd3fth50qzyd",
+    "data": {
+      "name": "Sociology of Religion",
+      "description": "Examines the role of religion in society, including its impact on social values, identity, and behavior."
+    }
+  },
+  {
+    "type": "fieldNode",
+    "parent": {
+      "id": "tblwwggcjmsyu6j6wiogpc43",
+      "data": {
+        "name": "Sociology",
+        "description": "Sociology is the scientific study of human social behavior, relationships, and institutions. It examines how society is organized, how individuals and groups interact within society, and how social structures and systems shape people's lives."
+      }
+    },
+    "children": [],
+    "id": "pptazc44yno3vh0nngsc64op",
+    "data": {
+      "name": "Sociology of Science and Technology",
+      "description": "Studies the social and cultural factors that shape scientific and technological innovation, including the role of social institutions and actors in the development of science and technology."
+    }
+  },
+  {
+    "type": "fieldNode",
+    "parent": {
+      "id": "tblwwggcjmsyu6j6wiogpc43",
+      "data": {
+        "name": "Sociology",
+        "description": "Sociology is the scientific study of human social behavior, relationships, and institutions. It examines how society is organized, how individuals and groups interact within society, and how social structures and systems shape people's lives."
+      }
+    },
+    "children": [],
+    "id": "vi1o106pxmbd2gie7thsg9v5",
+    "data": {
+      "name": "Environmental Sociology",
+      "description": "Examines the social and cultural dimensions of environmental problems and their solutions, including the role of social institutions, policies, and social movements in shaping environmental outcomes."
+    }
+  },
+  {
+    "type": "fieldNode",
+    "parent": {
+      "id": "tblwwggcjmsyu6j6wiogpc43",
+      "data": {
+        "name": "Sociology",
+        "description": "Sociology is the scientific study of human social behavior, relationships, and institutions. It examines how society is organized, how individuals and groups interact within society, and how social structures and systems shape people's lives."
+      }
+    },
+    "children": [],
+    "id": "xnx4p8e7dnthvsfel1nn4pgt",
+    "data": {
+      "name": "Economic Sociology",
+      "description": "Studies how social structures and processes influence economic behavior and outcomes, including the distribution of resources, economic institutions, and the role of markets in society."
+    }
+  },
+  {
+    "type": "fieldNode",
+    "parent": {
+      "id": "tblwwggcjmsyu6j6wiogpc43",
+      "data": {
+        "name": "Sociology",
+        "description": "Sociology is the scientific study of human social behavior, relationships, and institutions. It examines how society is organized, how individuals and groups interact within society, and how social structures and systems shape people's lives."
+      }
+    },
+    "children": [],
+    "id": "hbkbaurhn3p5qd1qr5dikywa",
+    "data": {
+      "name": "Political Sociology",
+      "description": "Examines the relationship between social structures and political processes, including the role of power, institutions, and social movements in shaping political outcomes."
+    }
+  },
+  {
+    "type": "fieldNode",
+    "parent": {
+      "id": "tblwwggcjmsyu6j6wiogpc43",
+      "data": {
+        "name": "Sociology",
+        "description": "Sociology is the scientific study of human social behavior, relationships, and institutions. It examines how society is organized, how individuals and groups interact within society, and how social structures and systems shape people's lives."
+      }
+    },
+    "children": [],
+    "id": "pamx9pzabn5cp2vcnttvsj5t",
+    "data": {
+      "name": "Sociology of Migration",
+      "description": "Investigates the social and cultural dimensions of migration, including the causes and consequences of migration, and the social and cultural factors that shape the experiences of migrants and their reception in host societies."
+    }
+  },
+  {
+    "type": "fieldNode",
+    "parent": {
+      "id": "er5u1sytmk5mra3zxqkz7m04",
+      "data": {
+        "name": "Economics",
+        "description": "The study of how individuals, organizations, and societies allocate resources and make decisions about production, distribution, and consumption of goods and services."
+      }
+    },
+    "children": [],
+    "id": "c58155p47snzflhe7eo7kzij",
+    "data": {
+      "name": "Microeconomics",
+      "description": "Focuses on individual economic agents such as consumers, producers, and markets"
+    }
+  },
+  {
+    "type": "fieldNode",
+    "parent": {
+      "id": "er5u1sytmk5mra3zxqkz7m04",
+      "data": {
+        "name": "Economics",
+        "description": "The study of how individuals, organizations, and societies allocate resources and make decisions about production, distribution, and consumption of goods and services."
+      }
+    },
+    "children": [],
+    "id": "t1lenxe3kfokq31uvrpk2peb",
+    "data": {
+      "name": "Macroeconomics",
+      "description": "Studies the behavior of the economy as a whole, including economic growth, inflation, and unemployment"
+    }
+  },
+  {
+    "type": "fieldNode",
+    "parent": {
+      "id": "er5u1sytmk5mra3zxqkz7m04",
+      "data": {
+        "name": "Economics",
+        "description": "The study of how individuals, organizations, and societies allocate resources and make decisions about production, distribution, and consumption of goods and services."
+      }
+    },
+    "children": [],
+    "id": "y8lcr9kj4iltrq9de1itaxg3",
+    "data": {
+      "name": "Econometrics",
+      "description": "Applies statistical and mathematical methods to analyze economic data and test economic theories"
+    }
+  },
+  {
+    "type": "fieldNode",
+    "parent": {
+      "id": "er5u1sytmk5mra3zxqkz7m04",
+      "data": {
+        "name": "Economics",
+        "description": "The study of how individuals, organizations, and societies allocate resources and make decisions about production, distribution, and consumption of goods and services."
+      }
+    },
+    "children": [],
+    "id": "clskfxiaa7ose7cxtftplzn9",
+    "data": {
+      "name": "Development Economics",
+      "description": "Studies the economic development of countries and regions, and the factors that contribute to or hinder economic growth"
+    }
+  },
+  {
+    "type": "fieldNode",
+    "parent": {
+      "id": "er5u1sytmk5mra3zxqkz7m04",
+      "data": {
+        "name": "Economics",
+        "description": "The study of how individuals, organizations, and societies allocate resources and make decisions about production, distribution, and consumption of goods and services."
+      }
+    },
+    "children": [],
+    "id": "zlcu8k2omcx954fio5drpa6f",
+    "data": {
+      "name": "International Economics",
+      "description": "Examines the economic interactions between countries, including trade, finance, and migration"
+    }
+  },
+  {
+    "type": "fieldNode",
+    "parent": {
+      "id": "er5u1sytmk5mra3zxqkz7m04",
+      "data": {
+        "name": "Economics",
+        "description": "The study of how individuals, organizations, and societies allocate resources and make decisions about production, distribution, and consumption of goods and services."
+      }
+    },
+    "children": [],
+    "id": "q8o8ctldgxpl0ksybicrhbqc",
+    "data": {
+      "name": "Public Economics",
+      "description": "Analyzes the role of government in the economy, including taxation, public goods, and welfare programs"
+    }
+  },
+  {
+    "type": "fieldNode",
+    "parent": {
+      "id": "er5u1sytmk5mra3zxqkz7m04",
+      "data": {
+        "name": "Economics",
+        "description": "The study of how individuals, organizations, and societies allocate resources and make decisions about production, distribution, and consumption of goods and services."
+      }
+    },
+    "children": [],
+    "id": "vcidn7275aq55fqayhglyh82",
+    "data": {
+      "name": "Environmental Economics",
+      "description": "Studies the interactions between the economy and the environment, including issues related to pollution, natural resources, and climate change"
+    }
+  },
+  {
+    "type": "fieldNode",
+    "parent": {
+      "id": "er5u1sytmk5mra3zxqkz7m04",
+      "data": {
+        "name": "Economics",
+        "description": "The study of how individuals, organizations, and societies allocate resources and make decisions about production, distribution, and consumption of goods and services."
+      }
+    },
+    "children": [],
+    "id": "nhuul29d5xt7ta4hbb1dfp1a",
+    "data": {
+      "name": "Behavioral Economics",
+      "description": "Examines how psychological factors influence economic decision-making, including topics such as biases, heuristics, and framing effects"
+    }
+  },
+  {
+    "type": "fieldNode",
+    "parent": {
+      "id": "er5u1sytmk5mra3zxqkz7m04",
+      "data": {
+        "name": "Economics",
+        "description": "The study of how individuals, organizations, and societies allocate resources and make decisions about production, distribution, and consumption of goods and services."
+      }
+    },
+    "children": [],
+    "id": "w8nld1hmxccs5uzu4ax8ei83",
+    "data": {
+      "name": "Health Economics",
+      "description": "Studies the production, consumption, and distribution of healthcare goods and services, including topics such as healthcare policy, healthcare markets, and healthcare financing"
+    }
+  },
+  {
+    "type": "fieldNode",
+    "parent": {
+      "id": "er5u1sytmk5mra3zxqkz7m04",
+      "data": {
+        "name": "Economics",
+        "description": "The study of how individuals, organizations, and societies allocate resources and make decisions about production, distribution, and consumption of goods and services."
+      }
+    },
+    "children": [],
+    "id": "nt18zum1onysti2e9fj5b0bm",
+    "data": {
+      "name": "Labor Economics",
+      "description": "Focuses on the labor market, including topics such as wages, employment, and discrimination"
+    }
+  },
+  {
+    "type": "fieldNode",
+    "parent": {
+      "id": "er5u1sytmk5mra3zxqkz7m04",
+      "data": {
+        "name": "Economics",
+        "description": "The study of how individuals, organizations, and societies allocate resources and make decisions about production, distribution, and consumption of goods and services."
+      }
+    },
+    "children": [],
+    "id": "w4yut4h8ibm86vmqptupwy9r",
+    "data": {
+      "name": "Industrial Organization",
+      "description": "Studies the behavior of firms and industries, including issues such as market structure, competition, and regulation"
+    }
+  },
+  {
+    "type": "fieldNode",
+    "parent": {
+      "id": "er5u1sytmk5mra3zxqkz7m04",
+      "data": {
+        "name": "Economics",
+        "description": "The study of how individuals, organizations, and societies allocate resources and make decisions about production, distribution, and consumption of goods and services."
+      }
+    },
+    "children": [],
+    "id": "ft3s0fam41llqtap20nz2gsq",
+    "data": {
+      "name": "Financial Economics",
+      "description": "Analyzes financial markets and the behavior of financial agents, including topics such as asset pricing, corporate finance, and risk management"
+    }
+  },
+  {
+    "type": "fieldNode",
+    "parent": {
+      "id": "er5u1sytmk5mra3zxqkz7m04",
+      "data": {
+        "name": "Economics",
+        "description": "The study of how individuals, organizations, and societies allocate resources and make decisions about production, distribution, and consumption of goods and services."
+      }
+    },
+    "children": [],
+    "id": "x99tx6pzkuybzheq4ibnevn2",
+    "data": {
+      "name": "Agricultural Economics",
+      "description": "Studies the economics of agriculture and the food industry, including issues related to production, distribution, and consumption of food"
+    }
+  },
+  {
+    "type": "fieldNode",
+    "parent": {
+      "id": "er5u1sytmk5mra3zxqkz7m04",
+      "data": {
+        "name": "Economics",
+        "description": "The study of how individuals, organizations, and societies allocate resources and make decisions about production, distribution, and consumption of goods and services."
+      }
+    },
+    "children": [],
+    "id": "gz2i59k2lh31u7n4a0hnp7c3",
+    "data": {
+      "name": "Urban Economics",
+      "description": "Examines the economic aspects of urban areas, including topics such as urban growth, housing, and transportation"
+    }
+  },
+  {
+    "type": "fieldNode",
+    "parent": {
+      "id": "er5u1sytmk5mra3zxqkz7m04",
+      "data": {
+        "name": "Economics",
+        "description": "The study of how individuals, organizations, and societies allocate resources and make decisions about production, distribution, and consumption of goods and services."
+      }
+    },
+    "children": [],
+    "id": "cz7bvl7oi4qy4cuojakhiz06",
+    "data": {
+      "name": "Law and Economics",
+      "description": "Applies economic principles to analyze legal issues, including topics such as contracts, property rights, and torts"
+    }
+  },
+  {
+    "type": "fieldNode",
+    "parent": {
+      "id": "er5u1sytmk5mra3zxqkz7m04",
+      "data": {
+        "name": "Economics",
+        "description": "The study of how individuals, organizations, and societies allocate resources and make decisions about production, distribution, and consumption of goods and services."
+      }
+    },
+    "children": [],
+    "id": "tvkcnl2xdpdnv4587wf4nx8i",
+    "data": {
+      "name": "Economic History",
+      "description": "Studies the economic development of societies over time, including topics such as economic growth, technological change, and institutional evolution"
+    }
+  },
+  {
+    "parent": {
+      "id": "o28xt7pr1onmv0fqn61qzac0",
+      "data": {
+        "name": "Zoology",
+        "description": "Study of animal life, including their physiology and ecology"
+      }
+    },
+    "children": [],
+    "id": "vrksd8aukswiotojb88eb65t",
+    "data": { "name": "Ornithology", "description": "The study of birds" }
+  },
+  {
+    "parent": {
+      "id": "o28xt7pr1onmv0fqn61qzac0",
+      "data": {
+        "name": "Zoology",
+        "description": "Study of animal life, including their physiology and ecology"
+      }
+    },
+    "children": [],
+    "id": "go3i2pbf3iechs1bty8sbjeo",
+    "data": { "name": "Ichthyology", "description": "The study of fish" }
+  },
+  {
+    "parent": {
+      "id": "o28xt7pr1onmv0fqn61qzac0",
+      "data": {
+        "name": "Zoology",
+        "description": "Study of animal life, including their physiology and ecology"
+      }
+    },
+    "children": [],
+    "id": "u2y7zbtqotu4lgu6m816378z",
+    "data": {
+      "name": "Herpetology",
+      "description": "The study of reptiles and amphibians"
+    }
+  },
+  {
+    "parent": {
+      "id": "o28xt7pr1onmv0fqn61qzac0",
+      "data": {
+        "name": "Zoology",
+        "description": "Study of animal life, including their physiology and ecology"
+      }
+    },
+    "children": [],
+    "id": "ydpuwmrw63hmivcrck7yj4i6",
+    "data": { "name": "Entomology", "description": "The study of insects" }
+  },
+  {
+    "parent": {
+      "id": "o28xt7pr1onmv0fqn61qzac0",
+      "data": {
+        "name": "Zoology",
+        "description": "Study of animal life, including their physiology and ecology"
+      }
+    },
+    "children": [],
+    "id": "v0ooqg94rsdmrihqhoorz5x5",
+    "data": { "name": "Mammalogy", "description": "The study of mammals" }
+  },
+  {
+    "parent": {
+      "id": "o28xt7pr1onmv0fqn61qzac0",
+      "data": {
+        "name": "Zoology",
+        "description": "Study of animal life, including their physiology and ecology"
+      }
+    },
+    "children": [],
+    "id": "ip4fevdzioxiv9ikbeco5lm1",
+    "data": {
+      "name": "Ethology",
+      "description": "The study of animal behavior"
+    }
+  }
+]

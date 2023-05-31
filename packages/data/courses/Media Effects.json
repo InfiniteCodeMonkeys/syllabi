@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Introduction to Media Studies",
+    "description": "This course provides a general introduction to media studies, covering topics such as media literacy, media history, media technology, and media effects.",
+    "prerequisites": []
+  },
+  {
+    "name": "Media Effects Theory and Research",
+    "description": "This course provides an overview of media effects theory and research, covering topics such as agenda-setting theory, cultivation theory, framing theory, and moral panics.",
+    "prerequisites": ["Introduction to Media Studies"]
+  },
+  {
+    "name": "Media Effects Research Methods",
+    "description": "This course provides an overview of media effects research methods, covering topics such as survey methods, content analysis, and experimental design.",
+    "prerequisites": [
+      "Introduction to Media Studies",
+      "Media Effects Theory and Research"
+    ]
+  },
+  {
+    "name": "Advanced Media Effects Research",
+    "description": "This course provides an in-depth exploration of media effects research, covering topics such as longitudinal research, diffusion of innovations, and health communication.",
+    "prerequisites": [
+      "Introduction to Media Studies",
+      "Media Effects Theory and Research",
+      "Media Effects Research Methods"
+    ]
+  }
+]

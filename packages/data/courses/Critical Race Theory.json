@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Introduction to Cultural Studies",
+        "description": "This course introduces students to the field of Cultural Studies, including the history, theory, and practice of the field.",
+        "prerequisites": []
+    },
+    {
+        "name": "Social Movements and Activism",
+        "description": "This course covers the history and theory of social movements and activism, as well as practical techniques and strategies for successful engagement.",
+        "prerequisites": []
+    },
+    {
+        "name": "Diversity and Multiculturalism",
+        "description": "This course examines the concept of diversity and its history, as well as the contemporary socio-political realities that shape multiculturalism.",
+        "prerequisites": []
+    },
+    {
+        "name": "Race and Ethnicity",
+        "description": "This course examines the concepts of race and ethnicity in the United States, exploring historical and contemporary contexts of power and privilege.",
+        "prerequisites": ["Introduction to Cultural Studies", "Social Movements and Activism", "Diversity and Multiculturalism"]
+    },
+    {
+        "name": "Critical Race Theory",
+        "description": "This course provides an introduction to the field of Critical Race Theory, exploring its history, methodology, and contemporary debates.",
+        "prerequisites": ["Race and Ethnicity"]
+    }
+]

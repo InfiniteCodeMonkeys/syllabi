@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Introduction to Cultural Studies",
+    "description": "An introduction to the interdisciplinary field of cultural studies, which looks at how the media, language, and other aspects of culture shape and are shaped by society.",
+    "prerequisites": []
+  },
+  {
+    "name": "Globalization and Cultural Change",
+    "description": "Explores how globalization has changed the way culture is understood and experienced, both nationally and globally.",
+    "prerequisites": ["Introduction to Cultural Studies"]
+  },
+  {
+    "name": "Cultural Globalization and Development",
+    "description": "Explores how globalization and development interact and shape each other as well as the economic, political, and social aspects of various cultures.",
+    "prerequisites": ["Introduction to Cultural Studies", "Globalization and Cultural Change"]
+  },
+  {
+    "name": "Advanced Globalization Studies",
+    "description": "Explores the history, theory, and practice of globalization, including its economic, political, and cultural effects.",
+    "prerequisites": ["Introduction to Cultural Studies", "Globalization and Cultural Change", "Cultural Globalization and Development"]
+  }
+]

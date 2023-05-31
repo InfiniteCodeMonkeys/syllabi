@@ -1,0 +1,27 @@
+[
+        {
+            "name": "Introduction to Environmental Science",
+            "description": "This course examines the science of the environment, its components, processes, and interactions. It covers the basics of the environment, humans and their impact on the environment, the environment and public policy, and global environmental issues.",
+            "prerequisites": []
+        },
+        {
+            "name": "Earth Science",
+            "description": "This course provides an overview of the Earth’s composition, structure, history, and the processes that shape the planet. Topics include plate tectonics, earthquakes, volcanoes, weather, climate, and the Earth’s history.",
+            "prerequisites": []
+        },
+        {
+            "name": "Introduction to Ecology",
+            "description": "This course introduces the study of ecology, including the principles of population ecology, community ecology, and the effects of human activities on the environment. Topics include the structure and function of ecosystems, population dynamics, and the effects of global change.",
+            "prerequisites": ["Introduction to Environmental Science", "Earth Science"]
+        },
+        {
+            "name": "Environmental Science Laboratory",
+            "description": "This course provides an introduction to the tools and techniques used in the study of environmental science. Topics include data collection, analysis, and presentation. Students will learn to use computer software for data analysis, as well as laboratory techniques for the collection of environmental data.",
+            "prerequisites": ["Introduction to Ecology"]
+        },
+        {
+            "name": "Environmental Policy and Law",
+            "description": "This course introduces students to the legal and policy frameworks that shape environmental protection. Topics include the history of environmental law, the role of government in environmental protection, and the role of citizens in the environmental decision-making process.",
+            "prerequisites": ["Introduction to Ecology", "Environmental Science Laboratory"]
+        }
+    ]

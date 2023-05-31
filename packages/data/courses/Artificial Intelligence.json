@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Introduction to Computer Science",
+        "description": "A course introducing basic computer science concepts such as data structures and algorithms, as well as programming fundamentals in a high-level language.",
+        "prerequisites": []
+    },
+    {
+        "name": "Computer Organization and Architecture",
+        "description": "A course introducing the fundamentals of computer architecture and hardware organization, including topics such as memory and instruction set architectures.",
+        "prerequisites": []
+    },
+    {
+        "name": "Data Structures and Algorithms",
+        "description": "A course introducing data structures and algorithms, including topics such as sorting, searching, and recursion.",
+        "prerequisites": ["Introduction to Computer Science"]
+    },
+    {
+        "name": "Operating Systems",
+        "description": "A course introducing the fundamentals of operating systems, including topics such as scheduling, memory management, and synchronization.",
+        "prerequisites": ["Computer Organization and Architecture"]
+    },
+    {
+        "name": "Programming Languages",
+        "description": "A course introducing the fundamentals of programming languages, including topics such as syntax, semantics, and types.",
+        "prerequisites": ["Data Structures and Algorithms"]
+    },
+    {
+        "name": "Computer Networks",
+        "description": "A course introducing the fundamentals of computer networks, including topics such as protocols and architecture.",
+        "prerequisites": ["Operating Systems"]
+    },
+    {
+        "name": "Artificial Intelligence",
+        "description": "A course introducing the fundamentals of artificial intelligence, including topics such as search algorithms, game playing, and natural language processing.",
+        "prerequisites": ["Programming Languages", "Computer Networks"]
+    }
+]

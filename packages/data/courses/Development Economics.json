@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Microeconomics",
+    "description": "An introductory course in microeconomic analysis, including the theory of consumer behavior, production and cost analysis, market structure, and market failure.",
+    "prerequisites": []
+  },
+  {
+    "name": "Macroeconomics",
+    "description": "An introductory course in macroeconomic analysis, including the theory of national income, economic growth, business cycles, money and banking, and international economics.",
+    "prerequisites": []
+  },
+  {
+    "name": "Econometrics",
+    "description": "A course in the use of statistical and mathematical methods in economics, including the estimation and testing of economic models.",
+    "prerequisites": ["Microeconomics", "Macroeconomics"]
+  },
+  {
+    "name": "Development Economics",
+    "description": "A course in the theory and application of economic analysis to the study of developing economies, including topics such as economic growth, international trade, poverty, and inequality.",
+    "prerequisites": ["Microeconomics", "Macroeconomics", "Econometrics"]
+  }
+]

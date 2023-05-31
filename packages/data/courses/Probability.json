@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Introduction to Probability",
+        "description": "This course introduces students to the basics of probability, including sample spaces, events, probability mass functions, and more.",
+        "prerequisites": []
+    },
+    {
+        "name": "Discrete Probability",
+        "description": "This course builds on the basics of probability, introducing students to the fundamentals of discrete probability, including random variables, expectation, and more.",
+        "prerequisites": ["Introduction to Probability"]
+    },
+    {
+        "name": "Continuous Probability",
+        "description": "This course introduces students to the fundamentals of continuous probability, including probability density functions, Markov chains, and more.",
+        "prerequisites": ["Introduction to Probability", "Discrete Probability"]
+    }
+]

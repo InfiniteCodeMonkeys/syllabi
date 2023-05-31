@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Introduction to Sciences",
+        "description": "An introductory course to the larger field of Sciences",
+        "prerequisites": []
+    },
+    {
+        "name": "Introduction to Engineering",
+        "description": "A basic introduction to the field of Engineering within the larger field of Sciences",
+        "prerequisites": ["Introduction to Sciences"]
+    },
+    {
+        "name": "Engineering Mathematics I and II",
+        "description": "A two course sequence on mathematics in the context of engineering",
+        "prerequisites": ["Introduction to Engineering"]
+    },
+    {
+        "name": "Engineering Materials",
+        "description": "A course on the use of materials in engineering",
+        "prerequisites": ["Engineering Mathematics I and II"]
+    },
+    {
+        "name": "Engineering Design",
+        "description": "A course on the fundamentals of design in engineering",
+        "prerequisites": ["Engineering Materials", "Engineering Mathematics I and II"]
+    }
+]

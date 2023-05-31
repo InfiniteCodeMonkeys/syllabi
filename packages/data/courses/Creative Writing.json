@@ -1,0 +1,17 @@
+[ 
+    { 
+        "name": "Introduction to Creative Writing", 
+        "description": "This course provides an introduction to the fundamentals of creative writing, including the study of literary genres such as poetry, fiction, and drama.", 
+        "prerequisites": [] 
+    },
+    { 
+        "name": "Creative Writing Workshop", 
+        "description": "This course is a creative writing workshop for students who have already taken Introduction to Creative Writing. The course focuses on the craft of writing, with an emphasis on revision and experimentation.", 
+        "prerequisites": ["Introduction to Creative Writing"] 
+    }, 
+    { 
+        "name": "Advanced Creative Writing", 
+        "description": "This course covers advanced topics in creative writing, such as writing for specific audiences, the development of personal writing style, and the use of literary devices. It also includes a focus on the business and culture of writing.", 
+        "prerequisites": ["Creative Writing Workshop", "Introduction to Creative Writing"] 
+    } 
+]

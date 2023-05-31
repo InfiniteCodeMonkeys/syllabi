@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Introduction to Physics",
+        "description": "A basic course introducing students to the fundamentals of Physics.",
+        "prerequisites": []
+    },
+    {
+        "name": "Classical Mechanics",
+        "description": "A course introducing students to the classical mechanics of Newton and Lagrange.",
+        "prerequisites": ["Introduction to Physics"]
+    },
+    {
+        "name": "Quantum Mechanics",
+        "description": "A course introducing students to the basics of quantum mechanics.",
+        "prerequisites": ["Introduction to Physics", "Classical Mechanics"]
+    },
+    {
+        "name": "Advanced Quantum Mechanics",
+        "description": "A course introducing students to the more advanced concepts of quantum mechanics.",
+        "prerequisites": ["Introduction to Physics", "Classical Mechanics", "Quantum Mechanics"]
+    }
+]

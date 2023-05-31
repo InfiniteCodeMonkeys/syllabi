@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Engineering Fundamentals",
+        "description": "An introduction to the fundamentals of engineering.",
+        "prerequisites": []
+    },
+    {
+        "name": "Chemistry for Engineers",
+        "description": "A course on the basics of chemistry and its applications in engineering.",
+        "prerequisites": ["Engineering Fundamentals"]
+    },
+    {
+        "name": "Chemical Engineering Thermodynamics",
+        "description": "A course on the basics of thermodynamics and its applications in chemical engineering.",
+        "prerequisites": ["Chemistry for Engineers"]
+    },
+    {
+        "name": "Chemical Engineering Kinetics",
+        "description": "A course on the basics of kinetics and its applications in chemical engineering.",
+        "prerequisites": ["Chemistry for Engineers", "Chemical Engineering Thermodynamics"]
+    },
+    {
+        "name": "Chemical Engineering Fluid Dynamics",
+        "description": "A course on the basics of fluid dynamics and its applications in chemical engineering.",
+        "prerequisites": ["Chemistry for Engineers", "Chemical Engineering Thermodynamics", "Chemical Engineering Kinetics"]
+    }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Introduction to Media Studies",
+    "description": "This course provides an overview of the field of Media Studies and introduces students to the topics, tools and approaches used in the field. Topics covered include the history of media, media production, media aesthetics, media and culture, and media analysis.",
+    "prerequisites": []
+  },
+  {
+    "name": "Media Ethics",
+    "description": "This course explores the ethical implications of media production and consumption. Topics covered include ethical theories, ethical decision-making, media responsibility, censorship, and media advocacy.",
+    "prerequisites": ["Introduction to Media Studies"]
+  },
+  {
+    "name": "Advanced Media Ethics",
+    "description": "This course builds on the material from the previous course and examines the ethical implications of advanced media technologies. Topics covered include the social, political, and legal implications of media production and consumption, and the ethical implications of emerging media technologies.",
+    "prerequisites": ["Introduction to Media Studies", "Media Ethics"]
+  }
+]

@@ -1,0 +1,53 @@
+[
+  {
+    "name": "Introduction to Archaeology",
+    "description": "A basic overview of Archaeology as a field of study.",
+    "prerequisites": []
+  },
+  {
+    "name": "Introduction to Classical Archaeology",
+    "description": "An introduction to Classical Archaeology and its history.",
+    "prerequisites": []
+  },
+  {
+    "name": "Archaeology of the Ancient Near East",
+    "description": "An overview of the archaeological history of the Ancient Near East.",
+    "prerequisites": []
+  },
+  {
+    "name": "Classical Archaeology Field School",
+    "description": "A hands-on introduction to the field of Classical Archaeology.",
+    "prerequisites": [
+      "Introduction to Archaeology",
+      "Introduction to Classical Archaeology"
+    ]
+  },
+  {
+    "name": "Archaeological Theory and Interpretation",
+    "description": "A deeper exploration of Archaeology as a modern field of study.",
+    "prerequisites": [
+      "Introduction to Archaeology",
+      "Introduction to Classical Archaeology"
+    ]
+  },
+  {
+    "name": "Archaeology of the Mediterranean World",
+    "description": "A closer look at the archaeological history of the Mediterranean world.",
+    "prerequisites": [
+      "Introduction to Archaeology",
+      "Introduction to Classical Archaeology"
+    ]
+  },
+  {
+    "name": "Advanced Classical Archaeology Field School",
+    "description": "A more in-depth exploration of the field of Classical Archaeology.",
+    "prerequisites": [
+      "Introduction to Archaeology",
+      "Introduction to Classical Archaeology",
+      "Archaeology of the Ancient Near East",
+      "Classical Archaeology Field School",
+      "Archaeological Theory and Interpretation",
+      "Archaeology of the Mediterranean World"
+    ]
+  }
+]

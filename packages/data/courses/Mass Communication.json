@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Introduction to Communication Studies",
+    "description": "An introduction to the field of communication studies and the various areas of study within it. This course will cover fundamentals such as mass media, interpersonal communication, and organizational communication.",
+    "prerequisites": []
+  },
+  {
+    "name": "Introduction to Mass Communication",
+    "description": "A detailed study of the various components that make up the field of mass communication. This course will cover topics such as history, ethics, and technology.",
+    "prerequisites": []
+  },
+  {
+    "name": "Media Writing",
+    "description": "An introduction to the various types of writing used in the field of mass communication. This course will focus on writing for print, radio, television, and digital media.",
+    "prerequisites": [
+      "Introduction to Communication Studies",
+      "Introduction to Mass Communication"
+    ]
+  },
+  {
+    "name": "Media Production",
+    "description": "An introduction to the various production techniques used in the field of mass communication. This course will cover topics such as audio, video, and animation.",
+    "prerequisites": [
+      "Introduction to Communication Studies",
+      "Introduction to Mass Communication"
+    ]
+  },
+  {
+    "name": "Media Management",
+    "description": "An introduction to the various management strategies used in the field of mass communication. This course will cover topics such as budgeting, scheduling, and personnel management.",
+    "prerequisites": [
+      "Introduction to Communication Studies",
+      "Introduction to Mass Communication",
+      "Media Writing",
+      "Media Production"
+    ]
+  }
+]

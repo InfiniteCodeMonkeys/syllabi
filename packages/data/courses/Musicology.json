@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Intro to Musicology",
+    "description": "This course covers the fundamentals of Musicology, such as the history of music, the basic elements of music, and the different genres of music.",
+    "prerequisites": []
+  },
+  {
+    "name": "Music Theory",
+    "description": "This course covers the fundamentals of music theory, such as scales, chords, rhythm, and harmonic structure.",
+    "prerequisites": []
+  },
+  {
+    "name": "Music History",
+    "description": "This course covers the history of music from antiquity to the present day, including the development of music in different cultures and the evolution of musical styles.",
+    "prerequisites": ["Intro to Musicology", "Music Theory"]
+  },
+  {
+    "name": "Composition",
+    "description": "This course covers the fundamentals of composition, including the basics of structure, melody, harmony, and instrumentation.",
+    "prerequisites": ["Music Theory"]
+  },
+  {
+    "name": "Performance",
+    "description": "This course covers the fundamentals of performance, including techniques for playing various instruments and vocal performance.",
+    "prerequisites": ["Music Theory"]
+  },
+  {
+    "name": "Music Analysis",
+    "description": "This course covers the techniques of music analysis, including the methods of formal analysis, Schenkerian analysis, and set theory.",
+    "prerequisites": ["Music Theory", "Music History", "Composition", "Performance"]
+  },
+  {
+    "name": "Music Criticism",
+    "description": "This course covers the fundamentals of music criticism, including the techniques of literary and historical analysis of music.",
+    "prerequisites": ["Music Theory", "Music History", "Composition", "Performance", "Music Analysis"]
+  }
+]

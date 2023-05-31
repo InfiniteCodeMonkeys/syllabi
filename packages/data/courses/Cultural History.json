@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Introduction to Cultural History",
+        "description": "This course serves as an introduction to the field of cultural history and its various methods and approaches for studying the past. Topics covered include the history of ideas, the history of material culture, the history of literature, and the use of cultural symbols and objects in interpreting the past.",
+        "prerequisites": []
+    },
+    {
+        "name": "Archaeology and Material Culture",
+        "description": "This course explores the material culture of the past, including buildings, monuments, artifacts, and artifacts that have survived from the past. Topics covered include methods of archaeological investigation, the study of artifacts as sources of historical information, and the use of material culture in the interpretation of the past.",
+        "prerequisites": ["Introduction to Cultural History"]
+    },
+    {
+        "name": "History of Ideas",
+        "description": "This course examines the history of ideas, including the development and transmission of ideas, the impact of ideas on culture, and the influence of ideas on social and political life. Topics covered include the history of philosophy, religion, science, and literature.",
+        "prerequisites": ["Introduction to Cultural History"]
+    },
+    {
+        "name": "History of Literature",
+        "description": "This course explores the history of literature, focusing on the major authors, works, and genres of literature from antiquity to the present. Topics covered include the development of literary forms, the impact of literature on culture, and the use of literature as a source of historical information.",
+        "prerequisites": ["Introduction to Cultural History","Archaeology and Material Culture","History of Ideas"]
+    }
+]

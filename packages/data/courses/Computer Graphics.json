@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Introduction to Computer Science",
+        "description": "A basic, introductory course in the foundations of computer science, including algorithms, problem-solving, and basic programming concepts.",
+        "prerequisites": []
+    },
+    {
+        "name": "Discrete Mathematics",
+        "description": "A course in mathematical proofs and the foundations of computer science.",
+        "prerequisites": []
+    },
+    {
+        "name": "Data Structures and Algorithms",
+        "description": "A course in the design of data structures and algorithms, including searching, sorting, and other fundamental algorithms.",
+        "prerequisites": ["Introduction to Computer Science", "Discrete Mathematics"]
+    },
+    {
+        "name": "Computer Graphics",
+        "description": "A course in the fundamentals of computer graphics, including the use of graphics hardware and software for visual representation.",
+        "prerequisites": ["Data Structures and Algorithms"]
+    }
+]

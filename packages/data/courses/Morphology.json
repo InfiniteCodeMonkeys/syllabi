@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Introduction to Linguistics",
+        "description": "This course serves as an introduction to the field of linguistics. It provides an overview of the various sub-disciplines and research methods within linguistics, as well as an introduction to the basics of language structure and use.",
+        "prerequisites": []
+    },
+    {
+        "name": "Morphology",
+        "description": "This course provides an introduction to morphological theories, processes, and structures. It covers the basics of word formation, affixation, and the principles that govern morphological change.",
+        "prerequisites": ["Introduction to Linguistics"]
+    },
+    {
+        "name": "Advanced Morphology",
+        "description": "This course is a more in-depth exploration of morphological theory and structure. It covers topics such as morphology-syntax interactions, markedness, and the relation between morphology and phonology.",
+        "prerequisites": ["Introduction to Linguistics", "Morphology"]
+    }
+]

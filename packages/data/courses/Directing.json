@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Introduction to Theater and Performance Studies",
+        "description": "This course is an introduction to theater and performance studies, covering the history of theater, performance styles, and the ways in which theater and performance are studied.",
+        "prerequisites": []
+    },
+    {
+        "name": "Acting I",
+        "description": "This course is an introduction to acting techniques, covering the basics of acting, improvisation, and scene study.",
+        "prerequisites": ["Introduction to Theater and Performance Studies"]
+    },
+    {
+        "name": "Theater Directing I",
+        "description": "This course is an introduction to directing techniques, covering the basics of directing, storytelling, and working with actors.",
+        "prerequisites": ["Introduction to Theater and Performance Studies", "Acting I"]
+    },
+    {
+        "name": "Theater Directing II",
+        "description": "This course is a more advanced look at directing techniques, covering advanced topics such as working with designers, physical movement, and production management.",
+        "prerequisites": ["Introduction to Theater and Performance Studies", "Acting I", "Theater Directing I"]
+    }
+]

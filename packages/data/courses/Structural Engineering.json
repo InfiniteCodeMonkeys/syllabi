@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Introduction to Engineering",
+    "description": "Introduction to basic engineering principles and concepts, including problem solving, research, and design.",
+    "prerequisites": []
+  },
+  {
+    "name": "Engineering Analysis",
+    "description": "Introduction to engineering analysis tools and techniques, including engineering mathematics, statistics, and computer programming.",
+    "prerequisites": []
+  },
+  {
+    "name": "Structural Mechanics",
+    "description": "Introduction to the fundamentals of structural mechanics, including stress and strain, structural design, stability, and vibration.",
+    "prerequisites": ["Introduction to Engineering", "Engineering Analysis"]
+  },
+  {
+    "name": "Structural Design",
+    "description": "Introduction to the design of structures, including materials, methods, and codes.",
+    "prerequisites": ["Structural Mechanics"]
+  },
+  {
+    "name": "Structural Analysis",
+    "description": "Introduction to the analysis of structures, including static and dynamic methods.",
+    "prerequisites": ["Structural Mechanics", "Structural Design"]
+  },
+  {
+    "name": "Advanced Structural Analysis",
+    "description": "Advanced topics in structural analysis, including finite element methods and nonlinear analysis.",
+    "prerequisites": ["Structural Analysis"]
+  }
+]

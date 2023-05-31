@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Introduction to Cultural Studies",
+        "description": "An introduction to the basic principles and theories of Cultural Studies.",
+        "prerequisites": []
+    },
+    {
+        "name": "Intro to Visual Culture",
+        "description": "An introduction to the field of Visual Culture, including its historical development and its relationship to other fields.",
+        "prerequisites": ["Introduction to Cultural Studies"]
+    },
+    {
+        "name": "Semiotics",
+        "description": "An introduction to the study of symbols and signs in culture, including an understanding of their structure and function.",
+        "prerequisites": ["Introduction to Cultural Studies"]
+    },
+    {
+        "name": "Visual Representation and Interpretation",
+        "description": "A study of visual representation and interpretation, including visual rhetoric and visual argumentation.",
+        "prerequisites": ["Intro to Visual Culture", "Semiotics"]
+    },
+    {
+        "name": "Advanced Visual Culture Theory",
+        "description": "An in-depth exploration of the theories and critiques of Visual Culture, including an analysis of the power dynamics at play in the production and interpretation of visual media.",
+        "prerequisites": ["Visual Representation and Interpretation"]
+    }
+]

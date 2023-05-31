@@ -1,0 +1,31 @@
+[
+        {
+            "name": "Introduction to Journalism",
+            "description": "A course introducing students to the fundamentals of journalism, including writing, interviewing, and research techniques.",
+            "prerequisites": []
+        },
+        {
+            "name": "Writing for the Media",
+            "description": "A course teaching students how to write for various forms of media, including print, television, and radio.",
+            "prerequisites": [
+                "Introduction to Journalism"
+            ]
+        },
+        {
+            "name": "Mass Media and Society",
+            "description": "A course exploring the role of the media in our society and its impact on culture, politics, and economics.",
+            "prerequisites": [
+                "Introduction to Journalism",
+                "Writing for the Media"
+            ]
+        },
+        {
+            "name": "History of Journalism",
+            "description": "A course examining the history of journalism from ancient times to the present.",
+            "prerequisites": [
+                "Introduction to Journalism",
+                "Writing for the Media",
+                "Mass Media and Society"
+            ]
+        }
+    ]

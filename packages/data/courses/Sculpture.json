@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Introduction to Sculpture",
+    "description": "An introductory course on the basics of sculpting, including different mediums and techniques.",
+    "prerequisites": []
+  },
+  {
+    "name": "Sculpture I",
+    "description": "An intermediate course on sculpting, including more advanced techniques and materials.",
+    "prerequisites": ["Introduction to Sculpture"]
+  },
+  {
+    "name": "Sculpture II",
+    "description": "An advanced course on sculpting, including complex techniques and materials.",
+    "prerequisites": ["Introduction to Sculpture", "Sculpture I"]
+  },
+  {
+    "name": "Sculpture III",
+    "description": "A course on advanced sculpting techniques, including complex material manipulation.",
+    "prerequisites": ["Introduction to Sculpture", "Sculpture I", "Sculpture II"]
+  }
+]

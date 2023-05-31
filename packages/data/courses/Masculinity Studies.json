@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Introduction to Gender & Sexuality Studies",
+    "description": "A course exploring the history and theories of gender and sexuality studies.",
+    "prerequisites": []
+  },
+  {
+    "name": "Gender & Sexuality in History",
+    "description": "An overview of how gender and sexuality have been understood in different historical contexts.",
+    "prerequisites": ["Introduction to Gender & Sexuality Studies"]
+  },
+  {
+    "name": "Introduction to Masculinity Studies",
+    "description": "An introduction to the concepts and theories of masculinity studies, including its intersections with other fields.",
+    "prerequisites": [
+      "Gender & Sexuality in History",
+      "Introduction to Gender & Sexuality Studies"
+    ]
+  },
+  {
+    "name": "Masculinity & Media",
+    "description": "A study of how gender roles and expressions are portrayed and reinforced in different media forms.",
+    "prerequisites": ["Introduction to Masculinity Studies"]
+  },
+  {
+    "name": "Masculinity & Society",
+    "description": "An exploration of the social and cultural construction of masculinity and how masculinity is used to shape social institutions and norms.",
+    "prerequisites": [
+      "Masculinity & Media",
+      "Introduction to Masculinity Studies"
+    ]
+  },
+  {
+    "name": "Research Methods in Masculinity Studies",
+    "description": "A course on the different research methods and approaches commonly used in Masculinity Studies.",
+    "prerequisites": [
+      "Masculinity & Society",
+      "Masculinity & Media",
+      "Introduction to Masculinity Studies"
+    ]
+  }
+]

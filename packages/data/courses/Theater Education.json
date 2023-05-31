@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Introduction to Theater and Performance Studies",
+    "description": "This course introduces students to the major concepts of theater and performance studies, including the history, theory, and practice of theater and performance.",
+    "prerequisites": []
+  },
+  {
+    "name": "Theater and Performance Theory",
+    "description": "This course introduces students to the major theories and approaches to theater and performance, including the works of Aristotle, Brecht, Stanislavski, and more.",
+    "prerequisites": []
+  },
+  {
+    "name": "Introduction to Acting I and II",
+    "description": "This course introduces students to the fundamentals of acting, from basic physical and vocal techniques to character development and storytelling.",
+    "prerequisites": []
+  },
+  {
+    "name": "Theater Education",
+    "description": "This course introduces students to the theories and practices of teaching theater and performance to young people. Topics covered include curriculum design, assessment, and approaches to working with young people in the classroom.",
+    "prerequisites": [
+      "Introduction to Theater and Performance Studies",
+      "Theater and Performance Theory",
+      "Introduction to Acting I and II"
+    ]
+  }
+]

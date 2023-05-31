@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Introduction to Film Studies",
+    "description": "A course introducing students to the larger field of Film Studies, covering topics such as history, film theory, and analysis.",
+    "prerequisites": []
+  },
+  {
+    "name": "Introduction to Cinematography",
+    "description": "A course introducing students to the basics of cinematography, covering topics such as camera operation, lighting, and shot composition.",
+    "prerequisites": ["Introduction to Film Studies"]
+  },
+  {
+    "name": "Intermediate Cinematography",
+    "description": "An intermediate course building upon the basics of cinematography, covering topics such as advanced camera operation, lighting, and shot composition.",
+    "prerequisites": ["Introduction to Cinematography"]
+  },
+  {
+    "name": "Advanced Cinematography",
+    "description": "An advanced course building upon the basics of cinematography, covering topics such as advanced camera operation, lighting, and shot composition.",
+    "prerequisites": ["Intermediate Cinematography"]
+  }
+]

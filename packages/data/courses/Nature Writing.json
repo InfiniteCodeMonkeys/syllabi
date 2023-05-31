@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Introduction to Creative Writing",
+    "description": "This course gives a broad overview of creative writing, with an emphasis on the creative process. Students will learn the fundamentals of writing fiction, poetry, and other forms of creative writing. They will also be introduced to the history and craft of writing, and be encouraged to develop their own individual creative voice.",
+    "prerequisites": []
+  },
+  {
+    "name": "Nature Writing",
+    "description": "This course examines the genre of nature writing, which combines elements of creative non-fiction, memoir, and science writing. Students will explore the ways in which writers use language to capture the beauty and power of nature and the natural world. The course will cover a range of topics including narrative structure, the art of description, and the ethical implications of writing about nature.",
+    "prerequisites": ["Introduction to Creative Writing"]
+  },
+  {
+    "name": "Advanced Nature Writing",
+    "description": "This advanced course builds on the foundations of the Nature Writing course. It examines a range of topics in greater depth, with an emphasis on the craft of writing and the development of a personal style. Students will be encouraged to further explore the genre and develop their own writing practice.",
+    "prerequisites": ["Introduction to Creative Writing", "Nature Writing"]
+  }
+]

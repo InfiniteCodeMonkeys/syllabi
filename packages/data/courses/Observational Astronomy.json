@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Introduction to Astronomy",
+        "description": "This course introduces the major areas of astronomy, including solar system astronomy, stars, galaxies, and cosmology.",
+        "prerequisites": []
+    },
+    {
+        "name": "Stellar Astrophysics",
+        "description": "This course covers the physical properties of stars, including structure, formation, evolution, and death.",
+        "prerequisites": ["Introduction to Astronomy"]
+    },
+    {
+        "name": "Galactic Astronomy and Extragalactic Astronomy",
+        "description": "This course covers the structure, formation, and evolution of galaxies, as well as the large-scale structure of the Universe.",
+        "prerequisites": ["Introduction to Astronomy", "Stellar Astrophysics"]
+    },
+    {
+        "name": "Observational Astronomy",
+        "description": "This course covers the basics of astronomical observation, including the use of telescopes, instruments, and data analysis.",
+        "prerequisites": ["Introduction to Astronomy", "Stellar Astrophysics", "Galactic Astronomy and Extragalactic Astronomy"]
+    }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Introduction to Intercultural Communication",
+    "description": "A basic introduction to the concepts of intercultural communication, including cross-cultural communication, communication contexts, and communication strategies.",
+    "prerequisites": []
+  },
+  {
+    "name": "Foundations of Intercultural Communication",
+    "description": "This course focuses on the foundations of intercultural communication, including theories and research methods, language and identity, and intercultural relationships.",
+    "prerequisites": ["Introduction to Intercultural Communication"]
+  },
+  {
+    "name": "Advanced Intercultural Communication",
+    "description": "This course dives deeper into more advanced topics in intercultural communication, including intercultural communication in a globalized world and cultural competence.",
+    "prerequisites": [
+      "Foundations of Intercultural Communication",
+      "Introduction to Intercultural Communication"
+    ]
+  }
+]

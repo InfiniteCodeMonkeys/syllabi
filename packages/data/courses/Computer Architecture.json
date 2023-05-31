@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Introduction to Computer Science",
+        "description": "A basic introduction to the fundamentals of computer science.",
+        "prerequisites": []
+    },
+    {
+        "name": "Discrete Mathematics",
+        "description": "A course covering the basics of discrete mathematics such as logic, set theory, and graph theory.",
+        "prerequisites": [ "Introduction to Computer Science" ]
+    },
+    {
+        "name": "Data Structures and Algorithms",
+        "description": "A course covering the basics of data structures and algorithms, including trees, sorting, and search algorithms.",
+        "prerequisites": [ "Discrete Mathematics" ]
+    },
+    {
+        "name": "Computer Organization and Architecture",
+        "description": "A course covering the basics of computer organization and architecture, including memory, processors, and buses.",
+        "prerequisites": [ "Data Structures and Algorithms" ]
+    },
+    {
+        "name": "Advanced Computer Architecture",
+        "description": "An advanced course covering more complex topics in computer architecture such as pipelining, cache systems, and virtual memory.",
+        "prerequisites": [ "Computer Organization and Architecture" ]
+    }
+]

@@ -1,0 +1,47 @@
+[
+    {
+        "name": "Introduction to Political History",
+        "description": "This course provides an introduction to the field of political history, including its major themes and the roles of various actors throughout history.",
+        "prerequisites": []
+    },
+    {
+        "name": "World History I & II",
+        "description": "This course covers the history of the world from ancient times to the present day, with emphasis on major political, social, and cultural developments.",
+        "prerequisites": []
+    },
+    {
+        "name": "American History I & II",
+        "description": "This course covers the history of the United States from the pre-Columbian era to the present day, with emphasis on major political, social, and cultural developments.",
+        "prerequisites": []
+    },
+    {
+        "name": "European History I & II",
+        "description": "This course covers the history of Europe from antiquity to the present day, with emphasis on major political, social, and cultural developments.",
+        "prerequisites": []
+    },
+    {
+        "name": "Comparative Politics",
+        "description": "This course examines the political systems of various countries and regions, including their historical development, political structures, and policies.",
+        "prerequisites": ["World History I & II", "American History I & II", "European History I & II"]
+    },
+    {
+        "name": "Political Theory",
+        "description": "This course covers the major theories and thinkers in the field of political science, including their historical development and contemporary applications.",
+        "prerequisites": ["World History I & II", "American History I & II", "European History I & II"]
+    },
+    {
+        "name": "Political Ideologies",
+        "description": "This course examines the major ideologies of the modern world, including their historical development, major proponents, and contemporary applications.",
+        "prerequisites": ["World History I & II", "American History I & II", "European History I & II", "Political Theory"]
+    },
+    {
+        "name": "Political Systems",
+        "description": "This course covers the major systems of government, including their historical development and contemporary applications.",
+        "prerequisites": ["World History I & II", "American History I & II", "European History I & II", "Political Theory", "Political Ideologies"]
+    },
+    {
+        "name": "Political History",
+        "description": "This course focuses on the history of politics, with an emphasis on the major political, social, and cultural developments throughout history.",
+        "prerequisites": ["World History I & II", "American History I & II", "European History I & II", "Political Theory", "Political Ideologies", "Political Systems"]
+    }
+]

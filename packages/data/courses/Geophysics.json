@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Introduction to Earth Sciences",
+        "description": "A survey of the basic principles of Earth sciences.",
+        "prerequisites": []
+    },
+    {
+        "name": "Introduction to Geology",
+        "description": "An introduction to the study of Earth's physical structure, composition, and processes.",
+        "prerequisites": []
+    },
+    {
+        "name": "Geology Laboratory",
+        "description": "A laboratory course that covers geological field studies and the practice of geological techniques.",
+        "prerequisites": ["Introduction to Geology"]
+    },
+    {
+        "name": "Introduction to Geophysics",
+        "description": "An introduction to the study of the physical properties of the Earth.",
+        "prerequisites": ["Introduction to Earth Sciences", "Introduction to Geology"]
+    },
+    {
+        "name": "Geophysics Laboratory",
+        "description": "A laboratory course that covers field studies and the practice of geophysical techniques.",
+        "prerequisites": ["Introduction to Geophysics"]
+    },
+    {
+        "name": "Advanced Geophysics",
+        "description": "An advanced course on the study of the physical properties of the Earth.",
+        "prerequisites": ["Introduction to Geophysics", "Geophysics Laboratory"]
+    }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Introduction to Journalism",
+    "description": "This course introduces students to the fundamentals of journalism, including writing, reporting, and interviewing.",
+    "prerequisites": []
+  },
+  {
+    "name": "Data Journalism",
+    "description": "This course teaches students the basics of data journalism, from data collection and analysis to writing data-driven stories.",
+    "prerequisites": ["Introduction to Journalism"]
+  },
+  {
+    "name": "Advanced Data Journalism",
+    "description": "This course builds on the fundamentals of data journalism and teaches students more advanced methods for data collection, analysis, and reporting.",
+    "prerequisites": ["Data Journalism"]
+  },
+  {
+    "name": "Data Visualization and Storytelling",
+    "description": "This course focuses on the use of data visualization tools to tell stories with data. Students will learn how to create effective data visualizations and tell compelling stories with data.",
+    "prerequisites": ["Data Journalism", "Advanced Data Journalism"]
+  }
+]

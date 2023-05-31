@@ -1,0 +1,40 @@
+[
+  {
+    "name": "Introduction to Engineering",
+    "description": "This course provides an introduction to the field of Engineering, covering topics such as problem solving, engineering design, and engineering ethics.",
+    "prerequisites": []
+  },
+  {
+    "name": "Introduction to Software Engineering",
+    "description": "This course provides an introduction to the field of Software Engineering, covering topics such as software design, software development, and software testing.",
+    "prerequisites": []
+  },
+  {
+    "name": "Computer Science I",
+    "description": "This course provides an introduction to the fundamentals of Computer Science, covering topics such as data structures, algorithms, and programming languages.",
+    "prerequisites": []
+  },
+  {
+    "name": "Computer Science II",
+    "description": "This course builds on the fundamentals learned in Computer Science I, covering topics such as recursion, sorting algorithms, and software design patterns.",
+    "prerequisites": ["Computer Science I"]
+  },
+  {
+    "name": "Software Design",
+    "description": "This course focuses on the principles of software design, covering topics such as object-oriented programming, design patterns, and software architecture.",
+    "prerequisites": [
+      "Introduction to Software Engineering",
+      "Computer Science II"
+    ]
+  },
+  {
+    "name": "Software Testing and Quality Assurance",
+    "description": "This course covers the principles of software testing and quality assurance, covering topics such as unit testing, integration testing, and performance testing.",
+    "prerequisites": ["Software Design"]
+  },
+  {
+    "name": "Software Project Management",
+    "description": "This course covers the principles of software project management, covering topics such as project planning, resource management, and risk management.",
+    "prerequisites": ["Software Testing and Quality Assurance"]
+  }
+]

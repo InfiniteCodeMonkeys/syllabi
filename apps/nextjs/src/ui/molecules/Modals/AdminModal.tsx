@@ -5,6 +5,7 @@ import { trpc } from "utils/trpc";
 
 const AdminModal = () => {
   const newCourse = trpc.seed.seed.useMutation();
+  const getProgression = trpc.courses.newProgression.useMutation();
   const { setAdminModalOpen } = useStore((state: RootState) => ({
     setAdminModalOpen: state.setAdminModalOpen,
   }));
@@ -16,6 +17,10 @@ const AdminModal = () => {
     console.log(response);
   };
 
+  const handleProgression = async () => {
+    const response = await getProgression.mutateAsync();
+    console.log(response);
+  };
   return (
     <>
       <Transition.Root show={true} as={Fragment}>
@@ -84,6 +89,12 @@ const AdminModal = () => {
                             className="alrounded-md mt-2 block rounded-md border-transparent bg-gradient-to-r from-orange-600 to-pink-500 px-4 py-3 text-center font-medium text-white shadow hover:bg-gray-700"
                           >
                             Seed Database
+                          </button>
+                          <button
+                            onClick={handleProgression}
+                            className="alrounded-md ml-4 mt-2 block rounded-md border-transparent bg-gradient-to-r from-orange-600 to-pink-500 px-4 py-3 text-center font-medium text-white shadow hover:bg-gray-700"
+                          >
+                            Get Progression
                           </button>
                         </div>
                       </div>

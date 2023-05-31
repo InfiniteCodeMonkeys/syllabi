@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Introduction to English Literature",
+        "description": "This course offers an overview to the major figures, works, and movements in English literature from the Middle Ages to the present day.",
+        "prerequisites": []
+    },
+    {
+        "name": "Reading and Writing Children's Literature",
+        "description": "This course provides an introduction to the literature and culture of children, as well as an introduction to the writing and editing of children's literature.",
+        "prerequisites": ["Introduction to English Literature"]
+    },
+    {
+        "name": "Children's Literature: Theory and Practice",
+        "description": "This course examines the theoretical and historical aspects of children's literature, including the definition of children's literature, the evolution of the genre, the development of children's literature in different cultures, and the role of literature in the lives of children.",
+        "prerequisites": ["Reading and Writing Children's Literature"]
+    },
+    {
+        "name": "Advanced Children's Literature",
+        "description": "This course provides an in-depth exploration of the literature and culture of children, including the writing and editing of children's literature. Topics may include the importance of diversity in children's literature, the role of gender, and the influence of technology on the literature.",
+        "prerequisites": ["Children's Literature: Theory and Practice"]
+    }
+]

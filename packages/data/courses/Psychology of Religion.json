@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Introduction to Religious Studies",
+        "description": "This course provides an introduction to the study of religion, covering key concepts, theories, and critical approaches to the academic study of religion.",
+        "prerequisites": []
+    },
+    {
+        "name": "History of Religion",
+        "description": "This course examines the history of religion, including the development of religious thought and practices.",
+        "prerequisites": []
+    },
+    {
+        "name": "Psychology of Religion",
+        "description": "This course examines the psychological aspects of religion, including the study of religious beliefs, experiences, and behaviours.",
+        "prerequisites": ["Introduction to Religious Studies", "History of Religion"]
+    }
+]

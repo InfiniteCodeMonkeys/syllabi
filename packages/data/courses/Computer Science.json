@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Introduction to Computer Science",
+        "description": "Course introducing the fundamentals of computer science, including algorithms, data structures, and programming techniques.",
+        "prerequisites": []
+    },
+    {
+        "name": "Computer Science Foundations",
+        "description": "Course introducing the basics of computer architecture, operating systems, and software engineering.",
+        "prerequisites": ["Introduction to Computer Science"]
+    },
+    {
+        "name": "Data Structures and Algorithms",
+        "description": "Course introducing the fundamentals of data structures and algorithms, including sorting, searching, and graph algorithms.",
+        "prerequisites": ["Computer Science Foundations"]
+    },
+    {
+        "name": "Programming Languages",
+        "description": "Course introducing the fundamentals of programming languages, including syntax, semantics, and type systems.",
+        "prerequisites": ["Data Structures and Algorithms"]
+    },
+    {
+        "name": "Software Engineering",
+        "description": "Course introducing the fundamentals of software engineering, including design patterns, testing, and debugging.",
+        "prerequisites": ["Programming Languages"]
+    },
+    {
+        "name": "Computer Networks",
+        "description": "Course introducing the fundamentals of computer networks, including protocols, routing, and security.",
+        "prerequisites": ["Software Engineering"]
+    },
+    {
+        "name": "Computer Graphics",
+        "description": "Course introducing the fundamentals of computer graphics, including 3D rendering, ray tracing, and animation.",
+        "prerequisites": ["Computer Networks"]
+    }
+]

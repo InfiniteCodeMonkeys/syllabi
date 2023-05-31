@@ -1,0 +1,36 @@
+[
+  {
+    "name": "Introduction to Archaeology",
+    "description": "An introduction to the field of archaeology, its history, and its methods.",
+    "prerequisites": []
+  },
+  {
+    "name": "The Prehistory of Human Society",
+    "description": "A comprehensive overview of the development of human societies from the Neanderthals to the modern era.",
+    "prerequisites": []
+  },
+  {
+    "name": "Archaeological Dating Methods",
+    "description": "An introduction to the various methods used to date archaeological sites and artifacts.",
+    "prerequisites": ["Introduction to Archaeology"]
+  },
+  {
+    "name": "Field Methods in Prehistoric Archaeology",
+    "description": "An introduction to archaeological field methods, including surveying, excavation, and recovery techniques.",
+    "prerequisites": [
+      "Introduction to Archaeology",
+      "The Prehistory of Human Society",
+      "Archaeological Dating Methods"
+    ]
+  },
+  {
+    "name": "Analysis of Prehistoric Artifacts",
+    "description": "An introduction to the study and analysis of prehistoric artifacts, including typology, chronology, and interpretation.",
+    "prerequisites": [
+      "Introduction to Archaeology",
+      "The Prehistory of Human Society",
+      "Archaeological Dating Methods",
+      "Field Methods in Prehistoric Archaeology"
+    ]
+  }
+]

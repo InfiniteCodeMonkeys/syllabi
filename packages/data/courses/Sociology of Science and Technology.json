@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Introduction to the Sociology of Science and Technology",
+    "description": "An introduction course to the sociology of science and technology, covering topics such as the history and development of scientific knowledge, the role of technology in modern societies, and the implications of technological change for human life.",
+    "prerequisites": []
+  },
+  {
+    "name": "Sociology of Science and Technology and Social Theory",
+    "description": "This course covers the ways in which scientific knowledge and technological change are shaped by and interact with social structures, cultures, and values and how they relate to the larger social world.",
+    "prerequisites": ["Introduction to the Sociology of Science and Technology"]
+  },
+  {
+    "name": "Sociology of Technology and Knowledge Production",
+    "description": "This course covers the ways in which scientific knowledge is produced and how technological innovation is shaped by and affects social relationships, institutions, and dynamics.",
+    "prerequisites": [
+      "Introduction to the Sociology of Science and Technology",
+      "Sociology of Science and Technology and Social Theory"
+    ]
+  },
+  {
+    "name": "Sociology of Technology and Risk",
+    "description": "This course covers topics related to the risks and uncertainties associated with technological change, including the risks posed to human life, health, and the environment.",
+    "prerequisites": [
+      "Introduction to the Sociology of Science and Technology",
+      "Sociology of Science and Technology and Social Theory",
+      "Sociology of Technology and Knowledge Production"
+    ]
+  }
+]

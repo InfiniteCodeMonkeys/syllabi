@@ -1,0 +1,41 @@
+[
+  {
+    "name": "Introduction to Mammalogy",
+    "description": "This course provides an overview of the field of Mammalogy. It covers topics such as taxonomy, anatomy, physiology, behavior, and conservation of mammals.",
+    "prerequisites": []
+  },
+  {
+    "name": "General Zoology",
+    "description": "This course provides an introduction to the diversity and evolution of animals. It covers topics such as the classification, structure, and development of animals.",
+    "prerequisites": []
+  },
+  {
+    "name": "Animal Ecology",
+    "description": "This course provides an introduction to the ecology of animals. It covers topics such as population and community ecology, life histories, and behavior.",
+    "prerequisites": ["General Zoology"]
+  },
+  {
+    "name": "Evolutionary Biology",
+    "description": "This course provides an introduction to evolutionary biology. It covers topics such as population genetics, natural selection, adaptation, and speciation.",
+    "prerequisites": ["General Zoology"]
+  },
+  {
+    "name": "Mammalian Anatomy and Physiology",
+    "description": "This course provides an overview of mammalian anatomy and physiology. It covers topics such as body systems, organ functions, and endocrine regulation.",
+    "prerequisites": ["Introduction to Mammalogy", "General Zoology"]
+  },
+  {
+    "name": "Mammalian Behavior",
+    "description": "This course provides an overview of the behavior of mammals. It covers topics such as communication, learning, and social organization.",
+    "prerequisites": ["Introduction to Mammalogy", "Animal Ecology"]
+  },
+  {
+    "name": "Conservation and Management of Mammals",
+    "description": "This course provides an overview of the conservation and management of mammals. It covers topics such as population dynamics, habitat protection, and population restoration.",
+    "prerequisites": [
+      "Introduction to Mammalogy",
+      "Animal Ecology",
+      "Evolutionary Biology"
+    ]
+  }
+]

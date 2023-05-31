@@ -1,0 +1,37 @@
+[
+        {
+            "name": "Introduction to Engineering",
+            "description": "This course is an introduction to the field of engineering, covering topics such as engineering design process, engineering ethics, and sustainability.",
+            "prerequisites": []
+        },
+        {
+            "name": "Basic Engineering Mathematics",
+            "description": "This course covers basic engineering mathematics topics such as calculus, linear algebra, and differential equations.",
+            "prerequisites": []
+        },
+        {
+            "name": "Engineering Mechanics",
+            "description": "This course covers topics in engineering mechanics such as forces, moments, and energy.",
+            "prerequisites": ["Introduction to Engineering", "Basic Engineering Mathematics"]
+        },
+        {
+            "name": "Introduction to Agricultural Engineering",
+            "description": "This course introduces students to the field of agricultural engineering, covering topics such as soil science, irrigation, and farm machinery.",
+            "prerequisites": ["Engineering Mechanics"]
+        },
+        {
+            "name": "Soil Mechanics and Plant Nutrition",
+            "description": "This course covers topics such as soil composition and physical properties, plant nutrition, and soil fertility.",
+            "prerequisites": ["Introduction to Agricultural Engineering"]
+        },
+        {
+            "name": "Irrigation and Drainage",
+            "description": "This course covers topics related to irrigation and drainage, such as hydrology, water management, and water conservation.",
+            "prerequisites": ["Soil Mechanics and Plant Nutrition"]
+        },
+        {
+            "name": "Farm Machinery and Structures",
+            "description": "This course covers topics such as farm machinery, design of farm structures, and agricultural instrumentation.",
+            "prerequisites": ["Irrigation and Drainage"]
+        }
+    ]

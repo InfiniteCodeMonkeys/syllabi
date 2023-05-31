@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Introduction to Zoology",
+    "description": "This course introduces students to the study of zoology, including the origin and evolution of animals, the anatomy and physiology of animals, and the behavior of animals.",
+    "prerequisites": []
+  },
+  {
+    "name": "Vertebrate Biology",
+    "description": "This course provides an overview of vertebrate biology and the evolutionary relationships between different vertebrate groups, including fishes, amphibians, reptiles, birds, and mammals.",
+    "prerequisites": ["Introduction to Zoology"]
+  },
+  {
+    "name": "Ornithology",
+    "description": "This course examines the biology and ecology of birds, including bird anatomy, physiology, behavior, evolution, ecology, and conservation.",
+    "prerequisites": ["Vertebrate Biology", "Introduction to Zoology"]
+  }
+]

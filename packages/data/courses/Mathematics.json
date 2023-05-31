@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Introduction to Mathematics",
+        "description": "Introduces the fundamentals of Mathematics, such as basic logic, set theory, and proofs",
+        "prerequisites": []
+    },
+    {
+        "name": "Algebra",
+        "description": "Introduces the fundamentals of Algebra, such as linear equations, polynomials, and matrices",
+        "prerequisites": ["Introduction to Mathematics"]
+    },
+    {
+        "name": "Calculus",
+        "description": "Introduces the fundamentals of Calculus, such as derivatives, integrals, and limits",
+        "prerequisites": ["Introduction to Mathematics", "Algebra"]
+    },
+    {
+        "name": "Statistics",
+        "description": "Introduces the fundamentals of Statistics, such as descriptive statistics, probability, and hypothesis testing",
+        "prerequisites": ["Introduction to Mathematics", "Algebra", "Calculus"]
+    },
+    {
+        "name": "Advanced Mathematics",
+        "description": "Introduces the fundamentals of Advanced Mathematics, such as numerical analysis, combinatorics, and graph theory",
+        "prerequisites": ["Introduction to Mathematics", "Algebra", "Calculus", "Statistics"]
+    }
+]

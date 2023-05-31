@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Introduction to Polymer Chemistry",
+    "description": "This course provides an introduction to the fundamentals of polymer chemistry. It covers topics such as polymer structure and properties, reaction mechanisms and kinetics of polymerization, and characterization techniques. Students will also learn about the industrial applications of polymer chemistry.",
+    "prerequisites": []
+  },
+  {
+    "name": "Organic Chemistry I",
+    "description": "This course introduces the basic principles of organic chemistry. It covers topics such as molecular structure and bonding, functional groups, stereochemistry, and reaction mechanisms. It also provides an introduction to organic synthesis and spectroscopy.",
+    "prerequisites": []
+  },
+  {
+    "name": "Organic Chemistry II",
+    "description": "This course is a continuation of Organic Chemistry I. It covers topics such as aromatic compounds, carboxylic acids and derivatives, amines, and organometallic compounds. Students will also learn about spectroscopy and organic synthesis.",
+    "prerequisites": ["Organic Chemistry I"]
+  },
+  {
+    "name": "Polymer Synthesis",
+    "description": "This course introduces the principles of polymer synthesis. It covers topics such as condensation and addition polymerization, step-growth polymerization, radical polymerization, and polymer characterization techniques. Students will also learn about the industrial applications of polymer synthesis.",
+    "prerequisites": ["Organic Chemistry I", "Organic Chemistry II"]
+  },
+  {
+    "name": "Polymer Characterization",
+    "description": "This course introduces the principles of polymer characterization. It covers topics such as thermal and mechanical properties, rheology, thermodynamics, and characterization techniques. Students will also learn about the industrial applications of polymer characterization.",
+    "prerequisites": ["Organic Chemistry I", "Organic Chemistry II", "Polymer Synthesis"]
+  },
+  {
+    "name": "Polymer Physics",
+    "description": "This course introduces the principles of polymer physics. It covers topics such as chain and network structures, molecular weight distribution, thermal and mechanical properties, and rheology. Students will also learn about the industrial applications of polymer physics.",
+    "prerequisites": ["Organic Chemistry I", "Organic Chemistry II", "Polymer Synthesis", "Polymer Characterization"]
+  }
+]

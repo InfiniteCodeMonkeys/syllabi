@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Introduction to Gender & Sexuality Studies",
+        "description": "An introduction to the field of Gender & Sexuality Studies, focusing on the history of the field, its major concepts, and its relevance to the Humanities.",
+        "prerequisites": []
+    },
+    {
+        "name": "Gender & Sexuality in Politics",
+        "description": "An exploration of the role of gender and sexuality in the political arena, focusing on the history of the field and its relevance to contemporary politics.",
+        "prerequisites": ["Introduction to Gender & Sexuality Studies"]
+    },
+    {
+        "name": "Gender & Sexuality in Literature",
+        "description": "An exploration of the role of gender and sexuality in literature, looking at how gender and sexuality are represented in different works of literature.",
+        "prerequisites": ["Introduction to Gender & Sexuality Studies"]
+    },
+    {
+        "name": "Gender & Sexuality in Art",
+        "description": "An exploration of the role of gender and sexuality in art, looking at how gender and sexuality are represented in different works of art.",
+        "prerequisites": ["Introduction to Gender & Sexuality Studies"]
+    },
+    {
+        "name": "Gender & Sexuality in Media & Popular Culture",
+        "description": "A study of the role of gender and sexuality in media and popular culture, focusing on how gender and sexuality are represented in different media and in popular culture.",
+        "prerequisites": ["Introduction to Gender & Sexuality Studies", "Gender & Sexuality in Politics", "Gender & Sexuality in Literature", "Gender & Sexuality in Art"]
+    }
+]

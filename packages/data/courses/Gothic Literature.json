@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Introduction to English Literature",
+    "description": "Course introducing students to English literature, including an overview of the historical and cultural context of the works.",
+    "prerequisites": []
+  },
+  {
+    "name": "Survey of Gothic Literature",
+    "description": "Course covering the major works of Gothic literature, including an overview of the genre and its conventions.",
+    "prerequisites": ["Introduction to English Literature"]
+  },
+  {
+    "name": "Advanced Gothic Literature",
+    "description": "Course continuing the study of Gothic literature, focusing on a deeper analysis of the works and their contexts.",
+    "prerequisites": ["Survey of Gothic Literature"]
+  },
+  {
+    "name": "Gothic Literature in Context",
+    "description": "Course exploring the influence of Gothic literature on other literary works, as well as its broader historical and cultural context.",
+    "prerequisites": ["Advanced Gothic Literature"]
+  }
+]

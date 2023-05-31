@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Introduction to Astronomy",
+        "description": "A basic overview of astronomy",
+        "prerequisites": []
+    },
+    {
+        "name": "Astronomy and Astrophysics I",
+        "description": "An introduction to the observational and computational techniques used in astronomy",
+        "prerequisites": ["Introduction to Astronomy"]
+    },
+    {
+        "name": "Astronomy and Astrophysics II",
+        "description": "A continuation of Astronomy and Astrophysics I with topics such as stellar structure and evolution, galaxies, and cosmology",
+        "prerequisites": ["Astronomy and Astrophysics I"]
+    },
+    {
+        "name": "High-Energy Astrophysics I",
+        "description": "An introduction to high-energy astrophysics including black holes, neutron stars, gamma-ray bursts, and X-ray binaries",
+        "prerequisites": ["Astronomy and Astrophysics II"]
+    },
+    {
+        "name": "High-Energy Astrophysics II",
+        "description": "A continuation of High-Energy Astrophysics I with topics such as high energy gamma-ray astronomy, cosmic rays, and particle acceleration",
+        "prerequisites": ["High-Energy Astrophysics I"]
+    }
+]

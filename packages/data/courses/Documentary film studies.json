@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Introduction to Film Studies",
+    "description": "This course provides an introduction to the study of film and media, emphasizing the development of critical skills in analysis, interpretation, and cultural context.",
+    "prerequisites": []
+  },
+  {
+    "name": "Documentary Film Theory",
+    "description": "This course explores the theoretical and philosophical aspects of documentary film, including its history, aesthetics, and ethical implications.",
+    "prerequisites": ["Introduction to Film Studies"]
+  },
+  {
+    "name": "Documentary Production",
+    "description": "This course provides an introduction to the technical aspects of documentary filmmaking, including digital and analog production and post-production techniques.",
+    "prerequisites": ["Introduction to Film Studies"]
+  },
+  {
+    "name": "Documentary Film History",
+    "description": "This course examines the history of documentary film, from its inception to the present day, with a focus on the development of key aesthetic and thematic trends.",
+    "prerequisites": ["Documentary Film Theory", "Documentary Production"]
+  },
+  {
+    "name": "Advanced Documentary Production",
+    "description": "This course is a more in-depth exploration of the technical aspects of documentary filmmaking, with a focus on advanced production and post-production techniques.",
+    "prerequisites": ["Documentary Production", "Documentary Film History"]
+  }
+]

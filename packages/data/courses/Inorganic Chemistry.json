@@ -1,0 +1,22 @@
+[
+    {
+        "name": "General Chemistry",
+        "description": "An introduction to the fundamentals of chemistry, including atomic structure, elements, equations, and periodic table.",
+        "prerequisites": []
+    },
+    {
+        "name": "Organic Chemistry",
+        "description": "An introduction to the fundamentals of organic chemistry, including hydrocarbons, functional groups, and reactions.",
+        "prerequisites": ["General Chemistry"]
+    },
+    {
+        "name": "Inorganic Chemistry",
+        "description": "An introduction to the fundamentals of inorganic chemistry, including bonding, chemical reactions, and types of compounds.",
+        "prerequisites": ["General Chemistry", "Organic Chemistry"]
+    },
+    {
+        "name": "Advanced Inorganic Chemistry",
+        "description": "An advanced course in inorganic chemistry, including more complex compounds, reactions, and theories.",
+        "prerequisites": ["General Chemistry", "Organic Chemistry", "Inorganic Chemistry"]
+    }
+]

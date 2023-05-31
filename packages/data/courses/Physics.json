@@ -1,0 +1,27 @@
+[
+      {
+        "name": "Introduction to Physics",
+        "description": "A basic overview of physics principles and concepts.",
+        "prerequisites": []
+      },
+      {
+        "name": "Kinematics and Dynamics",
+        "description": "A study of the motion of objects and forces that act upon them.",
+        "prerequisites": ["Introduction to Physics"]
+      },
+      {
+        "name": "Thermodynamics and Statistical Mechanics",
+        "description": "A study of heat, its properties and its effects on matter.",
+        "prerequisites": ["Kinematics and Dynamics", "Introduction to Physics"]
+      },
+      {
+        "name": "Electromagnetism",
+        "description": "A study of the interaction between electric and magnetic fields and forces.",
+        "prerequisites": ["Kinematics and Dynamics", "Thermodynamics and Statistical Mechanics", "Introduction to Physics"]
+      },
+      {
+        "name": "Quantum Mechanics",
+        "description": "A study of the behavior of matter and energy at the atomic and subatomic level.",
+        "prerequisites": ["Electromagnetism", "Kinematics and Dynamics", "Thermodynamics and Statistical Mechanics", "Introduction to Physics"]
+      }
+    ]

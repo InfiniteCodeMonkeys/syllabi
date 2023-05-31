@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Introduction to Logic",
+    "description": "A basic introduction to the fundamentals of logic",
+    "prerequisites": []
+  },
+  {
+    "name": "Set Theory",
+    "description": "An introduction to the basics of set theory and set operations",
+    "prerequisites": []
+  },
+  {
+    "name": "Logic and Sets",
+    "description": "An introduction to the application of logic to set theory",
+    "prerequisites": ["Introduction to Logic", "Set Theory"]
+  },
+  {
+    "name": "Logic and Proofs",
+    "description": "An introduction to the application of logic to proofs",
+    "prerequisites": ["Introduction to Logic"]
+  },
+  {
+    "name": "Advanced Logic",
+    "description": "A detailed study of advanced topics in logic",
+    "prerequisites": ["Logic and Sets", "Logic and Proofs"]
+  }
+]

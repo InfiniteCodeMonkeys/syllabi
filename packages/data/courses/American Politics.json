@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Introduction to American Politics",
+    "description": "This course provides an overview of the major components of American politics, including the Constitution, the branches of government, political parties, interest groups, and elections.",
+    "prerequisites": []
+  },
+  {
+    "name": "Political Ideologies and American Politics",
+    "description": "This course will examine the major ideologies of contemporary American politics, such as liberalism, conservatism, libertarianism, populism, and progressivism. It will also discuss the role of ideology in American politics and how ideologies shape political debates.",
+    "prerequisites": ["Introduction to American Politics"]
+  },
+  {
+    "name": "American Political Behavior",
+    "description": "This course will explore the psychological and sociological factors that influence political behavior in the United States. Discussion topics will include public opinion, voting behavior, and political participation.",
+    "prerequisites": [
+      "Introduction to American Politics",
+      "Political Ideologies and American Politics"
+    ]
+  },
+  {
+    "name": "American Political Parties and Interest Groups",
+    "description": "This course examines the role of political parties and interest groups in the American political system. It will discuss the structure and activities of political parties and interest groups, as well as their influence on the political process.",
+    "prerequisites": [
+      "Introduction to American Politics",
+      "Political Ideologies and American Politics",
+      "American Political Behavior"
+    ]
+  },
+  {
+    "name": "American Political Institutions",
+    "description": "This course will explore the role of the major American political institutions, including the presidency, Congress, and the Supreme Court. It will examine the powers and responsibilities of each institution and how they interact with each other.",
+    "prerequisites": [
+      "Introduction to American Politics",
+      "Political Ideologies and American Politics",
+      "American Political Behavior",
+      "American Political Parties and Interest Groups"
+    ]
+  },
+  {
+    "name": "American Public Policy",
+    "description": "This course provides an introduction to the study of public policy in the United States. It will explore the process by which public policies are formulated, implemented, and evaluated.",
+    "prerequisites": [
+      "Introduction to American Politics",
+      "Political Ideologies and American Politics",
+      "American Political Behavior",
+      "American Political Parties and Interest Groups",
+      "American Political Institutions"
+    ]
+  },
+  {
+    "name": "Contemporary American Politics",
+    "description": "This course will focus on the current debates and issues in American politics. It will explore how the political process is shaped by a variety of factors, including public opinion, political parties, interest groups, the media, and the economy.",
+    "prerequisites": [
+      "Introduction to American Politics",
+      "Political Ideologies and American Politics",
+      "American Political Behavior",
+      "American Political Parties and Interest Groups",
+      "American Political Institutions",
+      "American Public Policy"
+    ]
+  }
+]

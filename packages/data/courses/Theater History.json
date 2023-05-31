@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Theater History I",
+        "description": "Introduction to theater history from ancient times to the 18th century.",
+        "prerequisites": []
+    },
+    {
+        "name": "Theater History II",
+        "description": "Introduction to theater history from the 18th century to the present.",
+        "prerequisites": ["Theater History I"]
+    },
+    {
+        "name": "Theater and Performance Studies",
+        "description": "Introduction to the study of theater and performance through an interdisciplinary lens.",
+        "prerequisites": ["Theater History I", "Theater History II"]
+    },
+    {
+        "name": "Advanced Theater and Performance Studies",
+        "description": "Advanced study of theater and performance through an interdisciplinary lens.",
+        "prerequisites": ["Theater History I", "Theater History II", "Theater and Performance Studies"]
+    }
+]

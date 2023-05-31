@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Introduction to Sociology",
+    "description": "This course provides a general introduction to the field of sociology and its major theories, research methods, and debates.",
+    "prerequisites": []
+  },
+  {
+    "name": "Environmental Sociology",
+    "description": "This course covers the theoretical and empirical basis of environmental sociology, the study of the complex relationships between society and the natural environment.",
+    "prerequisites": ["Introduction to Sociology"]
+  },
+  {
+    "name": "Environmental Politics & Policy",
+    "description": "This course examines the various political and policy processes that shape environmental issues and the ways in which people interact with the environment.",
+    "prerequisites": ["Introduction to Sociology", "Environmental Sociology"]
+  },
+  {
+    "name": "Ecological Economics",
+    "description": "This course focuses on the economic analysis of the environment and natural resources, examining the relationships between economic development, environmental degradation, and sustainable development.",
+    "prerequisites": [
+      "Introduction to Sociology",
+      "Environmental Sociology",
+      "Environmental Politics & Policy"
+    ]
+  }
+]

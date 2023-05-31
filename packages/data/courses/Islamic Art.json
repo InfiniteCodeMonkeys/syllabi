@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Introduction to Islamic Art",
+        "description": "This course provides a foundation for understanding the art of Islamic cultures. It examines the Islamic worldview, Islamic culture, and the art of the Islamic world from the 7th century to the present.",
+        "prerequisites": []
+    },
+    {
+        "name": "History of Islamic Art and Architecture",
+        "description": "This course examines the history of Islamic art and architecture from the early Islamic period to the modern era. It covers the development of the various architectural, artistic, and decorative traditions in different Islamic cultures.",
+        "prerequisites": ["Introduction to Islamic Art"]
+    },
+    {
+        "name": "Islamic Calligraphy",
+        "description": "This course focuses on the art of Islamic calligraphy and its development from its earliest beginnings to its use in modern art. It covers the history, techniques, and styles of Islamic calligraphy as well as its role in Islamic culture and the contemporary art world.",
+        "prerequisites": ["Introduction to Islamic Art", "History of Islamic Art and Architecture"]
+    },
+    {
+        "name": "Islamic Painting and Illumination",
+        "description": "This course covers the history and practice of Islamic painting and illumination, from the earliest examples to the present day. It examines the various techniques, materials, and styles used in Islamic painting and illumination, and their relationship to Islamic culture and art history.",
+        "prerequisites": ["Introduction to Islamic Art", "History of Islamic Art and Architecture", "Islamic Calligraphy"]
+    },
+    {
+        "name": "Islamic Textiles and Ceramics",
+        "description": "This course focuses on the history and practice of Islamic textiles and ceramics. It covers the techniques, materials, and styles used in Islamic textiles and ceramics, as well as their relationship to Islamic culture and art history.",
+        "prerequisites": ["Introduction to Islamic Art", "History of Islamic Art and Architecture", "Islamic Calligraphy", "Islamic Painting and Illumination"]
+    }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Introduction to Physics",
+    "description": "A broad introduction to the study of physics, covering topics such as motion, Newton's laws of motion, thermodynamics, energy, electricity, magnetism, waves, optics, and relativity.",
+    "prerequisites": []
+  }, 
+  {
+    "name": "Classical Mechanics",
+    "description": "A course providing an in-depth study of classical mechanics, including topics such as Newton's laws of motion, kinematics, momentum, energy, momentum conservation, angular momentum, central force, and gravitation.",
+    "prerequisites": []
+  },
+  {
+    "name": "Electromagnetism",
+    "description": "A course providing a study of electricity, magnetism, and electromagnetic fields, including topics such as electric and magnetic fields, Maxwell's equations, electromagnetic waves, and the propagation of light.",
+    "prerequisites": ["Introduction to Physics", "Classical Mechanics"]
+  },
+  {
+    "name": "Special Relativity",
+    "description": "A course providing an in-depth study of special relativity, including topics such as the Lorentz transformation, time dilation, length contraction, and the equivalence of mass and energy.",
+    "prerequisites": ["Introduction to Physics", "Classical Mechanics", "Electromagnetism"]
+ }
+]

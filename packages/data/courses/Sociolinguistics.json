@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Introduction to Linguistics",
+        "description": "An introduction to the study of language with a focus on the structure of language, language acquisition, and language change.",
+        "prerequisites": []
+    },
+    {
+        "name": "Introduction to Sociolinguistics",
+        "description": "A study of language as a social phenomenon, with a focus on language variation, language attitudes, and language change.",
+        "prerequisites": ["Introduction to Linguistics"]
+    },
+    {
+        "name": "Methods of Sociolinguistic Research",
+        "description": "An introduction to the methods used to conduct sociolinguistic research, with a focus on quantitative and qualitative methods.",
+        "prerequisites": ["Introduction to Sociolinguistics"]
+    },
+    {
+        "name": "Sociolinguistic Fieldwork",
+        "description": "A course exploring the theoretical and practical aspects of sociolinguistic fieldwork, with a focus on data collection, analysis, and interpretation.",
+        "prerequisites": ["Methods of Sociolinguistic Research"]
+    },
+    {
+        "name": "Sociolinguistic Theory",
+        "description": "An exploration of the theories and models used to explain sociolinguistic phenomena, with a focus on language variation and language change.",
+        "prerequisites": ["Introduction to Sociolinguistics", "Methods of Sociolinguistic Research", "Sociolinguistic Fieldwork"]
+    }
+]

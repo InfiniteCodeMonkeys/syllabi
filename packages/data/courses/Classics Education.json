@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Introduction to Classics",
+    "description": "Provides an overview of the field of Classics and its primary works and authors.",
+    "prerequisites": []
+  },
+  {
+    "name": "Classical Greek and Roman History",
+    "description": "Explores the history, culture, and literature of the ancient Greeks and Romans.",
+    "prerequisites": []
+  },
+  {
+    "name": "Classical Mythology",
+    "description": "Introduces students to classical myth and its importance in the development of Greco-Roman culture.",
+    "prerequisites": []
+  },
+  {
+    "name": "Classical Latin",
+    "description": "Introduces students to the Latin language, including basic grammar, syntax, and vocabulary.",
+    "prerequisites": []
+  },
+  {
+    "name": "Classical Greek",
+    "description": "Introduces students to the Greek language, including basic grammar, syntax, and vocabulary.",
+    "prerequisites": []
+  },
+  {
+    "name": "Advanced Latin and Greek",
+    "description": "Provides more comprehensive study of the Latin and Greek languages, including more complex grammar, syntax, and vocabulary.",
+    "prerequisites": ["Classical Latin", "Classical Greek"]
+  },
+  {
+    "name": "Classical Art and Architecture",
+    "description": "Explores the art and architecture of the ancient Greeks and Romans.",
+    "prerequisites": []
+  },
+  {
+    "name": "Classical Philosophy",
+    "description": "Introduces students to the philosophy of the ancient Greeks and Romans.",
+    "prerequisites": []
+  },
+  {
+    "name": "Advanced Classics Education",
+    "description": "Provides more comprehensive study of the field of Classics, including a deeper exploration of the history, culture, literature, philosophy, and art of the ancient Greeks and Romans.",
+    "prerequisites": ["Classical Greek and Roman History", "Classical Mythology", "Advanced Latin and Greek", "Classical Art and Architecture", "Classical Philosophy"]
+  }
+]

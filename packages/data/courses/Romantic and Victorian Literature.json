@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Introduction to English Literature",
+    "description": "This course introduces students to the basic concepts of English Literature, including literary elements, topics, and themes.",
+    "prerequisites": []
+  },
+  {
+    "name": "Romanticism",
+    "description": "This course provides a detailed overview of the Romantic Period of English Literature, including key authors, works, and themes.",
+    "prerequisites": ["Introduction to English Literature"]
+  },
+  {
+    "name": "Victorian Literature",
+    "description": "This course provides a detailed overview of the Victorian Period of English Literature, including key authors, works, and themes.",
+    "prerequisites": ["Introduction to English Literature", "Romanticism"]
+  }
+]

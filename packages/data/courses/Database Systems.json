@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Introduction to Computer Science",
+        "description": "This course covers the fundamentals of computer science, including topics such as algorithms, data structures, and programming languages.",
+        "prerequisites": []
+    },
+    {
+        "name": "Database Systems",
+        "description": "This course explores the design and implementation of database systems, covering topics such as relational database theory, normalization, query optimization, and database security.",
+        "prerequisites": ["Introduction to Computer Science"]
+    },
+    {
+        "name": "Advanced Database Systems",
+        "description": "This course covers advanced topics in database systems, such as distributed databases, NoSQL databases, and query processing.",
+        "prerequisites": ["Database Systems"]
+    }
+]

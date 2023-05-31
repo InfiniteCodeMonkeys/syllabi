@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Introduction to Engineering",
+    "description": "Introduces students to the fundamentals of engineering, including the engineering design process and use of computer-aided design tools.",
+    "prerequisites": []
+  },
+  {
+    "name": "Engineering Mathematics",
+    "description": "Introduces students to the mathematical foundations needed to understand engineering problems. Covers calculus, linear algebra, and differential equations.",
+    "prerequisites": []
+  },
+  {
+    "name": "Physics for Engineering",
+    "description": "Explores mechanics, thermodynamics, electricity, and magnetism as they apply to engineering.",
+    "prerequisites": []
+  },
+  {
+    "name": "Engineering Statistics",
+    "description": "Introduces students to the principles and methods of statistical analysis used in engineering.",
+    "prerequisites": ["Engineering Mathematics"]
+  },
+  {
+    "name": "Engineering Design",
+    "description": "Explores the design process and examines the design of components and systems.",
+    "prerequisites": ["Introduction to Engineering"]
+  },
+  {
+    "name": "Transportation Engineering Basics",
+    "description": "Introduces students to the fundamentals of transportation engineering, including traffic flow theory, transportation infrastructure, and design principles.",
+    "prerequisites": ["Engineering Mathematics", "Physics for Engineering", "Engineering Statistics", "Engineering Design"]
+  },
+  {
+    "name": "Highway Engineering",
+    "description": "Examines the engineering principles involved in the design and operation of highways, including geometric layout, traffic control systems, and pavement design.",
+    "prerequisites": ["Transportation Engineering Basics"]
+  },
+  {
+    "name": "Transportation Planning",
+    "description": "Explores the principles and practice of transportation planning, including travel demand forecasting, trip generation, and the evaluation of alternative transportation systems.",
+    "prerequisites": ["Transportation Engineering Basics"]
+  },
+  {
+    "name": "Transportation Systems Analysis",
+    "description": "Introduces students to the tools and techniques used to analyze transportation systems, including network analysis, optimization models, and simulation models.",
+    "prerequisites": ["Transportation Planning"]
+  }
+]

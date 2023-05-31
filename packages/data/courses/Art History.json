@@ -1,0 +1,36 @@
+[
+  {
+    "name": "Introduction to Humanities",
+    "description": "This course introduces students to the larger field of Humanities, which includes the study of philosophy, literature, and art history.",
+    "prerequisites": []
+  },
+  {
+    "name": "Art History I",
+    "description": "This course provides a basic overview of the major trends and movements in art history, including the Renaissance, Baroque, and Neoclassical periods.",
+    "prerequisites": ["Introduction to Humanities"]
+  },
+  {
+    "name": "Art History II",
+    "description": "This course provides a more in-depth look at the major trends and movements in art history, including the Romanticism, Impressionism, and Modernism periods.",
+    "prerequisites": ["Introduction to Humanities", "Art History I"]
+  },
+  {
+    "name": "Advanced Art History I",
+    "description": "This course provides an overview of advanced topics in art history, including Postmodernism, Poststructuralism, and Critical Theory.",
+    "prerequisites": [
+      "Introduction to Humanities",
+      "Art History I",
+      "Art History II"
+    ]
+  },
+  {
+    "name": "Advanced Art History II",
+    "description": "This course provides an in-depth look at advanced topics in art history, including Contemporary Art, Globalization, and New Media.",
+    "prerequisites": [
+      "Introduction to Humanities",
+      "Art History I",
+      "Art History II",
+      "Advanced Art History I"
+    ]
+  }
+]

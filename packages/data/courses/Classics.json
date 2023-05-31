@@ -1,0 +1,47 @@
+[
+    {
+        "name": "Introduction to Humanities", 
+        "description": "A broad overview of the humanities, including literature, philosophy, art, music, and religion.",
+        "prerequisites": []
+    },
+    {
+        "name": "Classical Culture",
+        "description": "An introduction to the culture, religion, art and literature of the ancient world, including the Greek and Roman Empires.",
+        "prerequisites": []
+    },
+    {
+        "name": "Introduction to Ancient Greek",
+        "description": "A foundational course in reading, writing, and speaking Ancient Greek.",
+        "prerequisites": []
+    },
+    {
+        "name": "Introduction to Ancient Latin",
+        "description": "A foundational course in reading, writing, and speaking Ancient Latin.",
+        "prerequisites": []
+    },
+    {
+        "name": "Ancient Greek and Latin Reading",
+        "description": "An introduction to the interpretation of Greek and Latin literature from the classical period.",
+        "prerequisites": ["Introduction to Ancient Greek", "Introduction to Ancient Latin"]
+    },
+    {
+        "name": "Classical Art and Archaeology",
+        "description": "A survey of the art and artifacts of the ancient world, focusing on the Greek and Roman Empires.",
+        "prerequisites": []
+    },
+    {
+        "name": "Classical Mythology",
+        "description": "A survey of the gods, goddesses, heroes, and villains of Greek and Roman mythology.",
+        "prerequisites": []
+    },
+    {
+        "name": "Classical Philosophy",
+        "description": "An introduction to the major philosophical movements of the ancient world, including the Pre-Socratics, Plato, and Aristotle.",
+        "prerequisites": []
+    },
+    {
+        "name": "Classical Literature",
+        "description": "An introduction to the major works of the ancient world, including Homer, Virgil, and Ovid.",
+        "prerequisites": ["Ancient Greek and Latin Reading"]
+    }
+]

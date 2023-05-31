@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Introduction to Journalism",
+    "description": "This course introduces students to the basic concepts of journalism and the responsibilities associated with a journalist.",
+    "prerequisites": []
+  },
+  {
+    "name": "Principles of International Journalism",
+    "description": "This course provides an introduction to the principles and practices of international journalism.",
+    "prerequisites": ["Introduction to Journalism"]
+  },
+  {
+    "name": "International Reporting",
+    "description": "This course focuses on the practice of international reporting, from researching and conducting interviews to reporting in hostile environments.",
+    "prerequisites": ["Principles of International Journalism"]
+  },
+  {
+    "name": "International Journalism Ethics",
+    "description": "This course focuses on the ethical issues associated with international journalism, including cultural sensitivity and responsible reporting.",
+    "prerequisites": ["International Reporting"]
+  },
+  {
+    "name": "Advanced International Journalism",
+    "description": "This course focuses on the advanced techniques of international journalism, from developing sources to effectively covering conflicts.",
+    "prerequisites": [
+      "International Reporting",
+      "International Journalism Ethics"
+    ]
+  }
+]

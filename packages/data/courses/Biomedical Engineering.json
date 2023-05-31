@@ -1,0 +1,32 @@
+[
+        {
+            "name": "Introduction to Engineering",
+            "description": "This course introduces students to the engineering field and provides a foundation for further study.",
+            "prerequisites": []
+        },
+        {
+            "name": "Engineering Mathematics",
+            "description": "This course introduces students to mathematical concepts and techniques essential for engineering.",
+            "prerequisites": []
+        },
+        {
+            "name": "Engineering Mechanics I",
+            "description": "This course introduces students to the fundamental principles of engineering mechanics, including statics and dynamics.",
+            "prerequisites": ["Introduction to Engineering", "Engineering Mathematics"]
+        },
+        {
+            "name": "Engineering Mechanics II",
+            "description": "This course builds on the concepts learned in Engineering Mechanics I and introduces students to more advanced concepts, such as kinematics and vibration.",
+            "prerequisites": ["Introduction to Engineering", "Engineering Mathematics", "Engineering Mechanics I"]
+        },
+        {
+            "name": "Biomedical Engineering I",
+            "description": "This course introduces students to the anatomy and physiology of the human body and the basic principles of biomedical engineering.",
+            "prerequisites": ["Introduction to Engineering", "Engineering Mathematics", "Engineering Mechanics I"]
+        },
+        {
+            "name": "Biomedical Engineering II",
+            "description": "This course builds on the concepts learned in Biomedical Engineering I and introduces students to more advanced topics, such as medical imaging, bioinstrumentation, and biomaterials.",
+            "prerequisites": ["Introduction to Engineering", "Engineering Mathematics", "Engineering Mechanics I", "Engineering Mechanics II", "Biomedical Engineering I"]
+        }
+    ]

@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Introduction to Theater and Performance Studies", 
+        "description": "This course provides an introduction to the study of theater and performance studies, exploring its history and current practice. Topics may include theater and performance genres, theater and performance history, theatricality and performance, and the social and political aspects of theater and performance.", 
+        "prerequisites": []
+    }, 
+    {
+        "name": "Acting Basics", 
+        "description": "This course provides an introduction to the fundamentals of acting. Topics include types of acting, character development, vocal techniques, physicality, improvisation, and scene study.", 
+        "prerequisites": []
+    }, 
+    {
+        "name": "Stage Lighting and Design", 
+        "description": "This course provides an overview of the fundamentals of stage lighting and design. Topics may include the design process, types of lighting, equipment and supplies, working with a director, and safety.", 
+        "prerequisites": []
+    }, 
+    {
+        "name": "Theater Directing", 
+        "description": "This course introduces the fundamentals of theater directing. Topics include the director’s role, script analysis, casting, working with actors, stage blocking, and rehearsal techniques.", 
+        "prerequisites": ["Acting Basics", "Stage Lighting and Design"]
+    }, 
+    {
+        "name": "Technical Theater", 
+        "description": "This course provides an overview of the fundamentals of technical theater. Topics may include sound design, stage construction, rigging, scenic painting, and costuming.", 
+        "prerequisites": ["Stage Lighting and Design"]
+    }, 
+    {
+        "name": "Advanced Theater and Performance Studies", 
+        "description": "This course provides an in-depth exploration of theater and performance studies. Topics may include theatrical theory, performance theory, theater and performance history, and the social and political aspects of theater and performance.", 
+        "prerequisites": ["Introduction to Theater and Performance Studies", "Acting Basics", "Theater Directing", "Technical Theater"]
+    }
+]

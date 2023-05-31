@@ -1,0 +1,36 @@
+[
+  {
+    "name": "Intro to Film Studies",
+    "description": "A foundational course providing an introduction to the field of film studies.",
+    "prerequisites": []
+  },
+  {
+    "name": "History of Film",
+    "description": "A course focusing on the development and history of film over the past century.",
+    "prerequisites": []
+  },
+  {
+    "name": "Cinematography",
+    "description": "A course focusing on the techniques and principles of cinematography.",
+    "prerequisites": ["Intro to Film Studies", "History of Film"]
+  },
+  {
+    "name": "Film Analysis",
+    "description": "A course focusing on the techniques and principles of film analysis.",
+    "prerequisites": [
+      "Intro to Film Studies",
+      "History of Film",
+      "Cinematography"
+    ]
+  },
+  {
+    "name": "Genre Studies",
+    "description": "A course focusing on the study of genres in film, including their history, evolution, and significance.",
+    "prerequisites": [
+      "Intro to Film Studies",
+      "History of Film",
+      "Cinematography",
+      "Film Analysis"
+    ]
+  }
+]

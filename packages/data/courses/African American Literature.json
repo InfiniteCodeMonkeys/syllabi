@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Introduction to African American Literature",
+        "description": "This course introduces students to the broad survey of African American literature from the 19th century to the present.",
+        "prerequisites": []
+    },
+    {
+        "name": "African American Literature to 1900",
+        "description": "This course examines African American literature from the 19th century to the turn of the 20th century.",
+        "prerequisites": ["Introduction to African American Literature"]
+    },
+    {
+        "name": "Survey of Modern African American Literature",
+        "description": "This course provides an overview of the major genres and authors in African American literature since 1900.",
+        "prerequisites": ["African American Literature to 1900"]
+    },
+    {
+        "name": "African American Literature and Poetry",
+        "description": "This course examines African American literature from both historical and contemporary perspectives.",
+        "prerequisites": ["Survey of Modern African American Literature"]
+    },
+    {
+        "name": "African American Fiction",
+        "description": "This course provides an overview of the major authors, works, and themes in African American fiction.",
+        "prerequisites": ["African American Literature and Poetry"]
+    },
+    {
+        "name": "African American Non-Fiction",
+        "description": "This course examines African American non-fiction literature, focusing on the major authors, works, and themes.",
+        "prerequisites": ["African American Fiction"]
+    }
+]

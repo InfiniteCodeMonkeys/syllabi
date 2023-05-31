@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Introduction to Cultural Studies",
+        "description": "An introduction to the field of Cultural Studies and its major concepts, theories, and approaches.",
+        "prerequisites": []
+    },
+    {
+        "name": "Food Studies",
+        "description": "An introduction to the study of food and its role in culture, including topics such as food production, distribution, consumption, and nutrition.",
+        "prerequisites": ["Introduction to Cultural Studies"]
+    },
+    {
+        "name": "Food Politics and Policy",
+        "description": "An exploration of the global political economy of food, including topics such as food security, food aid, and agricultural trade.",
+        "prerequisites": ["Food Studies"]
+    },
+    {
+        "name": "Global Food Systems",
+        "description": "A study of the global food system, including topics such as the history, structure, and impacts of global food systems.",
+        "prerequisites": ["Food Politics and Policy"]
+    },
+    {
+        "name": "Food Culture and Society",
+        "description": "An examination of the role of food in society, including topics such as food and identity, food and social structure, and food and global change.",
+        "prerequisites": ["Global Food Systems"]
+    }
+]

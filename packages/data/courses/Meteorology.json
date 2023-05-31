@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Introduction to Earth Science",
+    "description": "An introduction to the fundamentals of Earth Science. Topics may include geology, geography, geochemistry, geophysics, oceanography, meteorology, and astronomy.",
+    "prerequisites": []
+  },
+  {
+    "name": "Geology",
+    "description": "A study of the physical structure and processes of the Earth, its history, and its mineral and energy resources.",
+    "prerequisites": []
+  },
+  {
+    "name": "Atmospheric Science",
+    "description": "A study of the Earth's atmosphere, including the physics and chemistry of the atmosphere, meteorology, and climate change.",
+    "prerequisites": ["Introduction to Earth Science", "Geology"]
+  },
+  {
+    "name": "Meteorology",
+    "description": "A study of the physics and dynamics of the atmosphere, including the physics of clouds, precipitation, and storms.",
+    "prerequisites": ["Atmospheric Science"]
+  }
+]

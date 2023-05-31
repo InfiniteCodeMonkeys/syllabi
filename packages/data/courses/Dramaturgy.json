@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Introduction to Theater and Performance Studies",
+        "description": "This course introduces students to the field of Theater and Performance Studies, providing an overview of historical and contemporary developments in theater, performance, and related disciplines.",
+        "prerequisites": []
+    },
+    {
+        "name": "Acting I",
+        "description": "This course introduces students to the fundamentals of acting, including physical and vocal training, scene study, monologues, and improvisation.",
+        "prerequisites": []
+    },
+    {
+        "name": "Dramaturgy",
+        "description": "This course explores the role of dramaturgy in the theater and performance industries. Students will learn about the history and theory of dramaturgy, as well as practical applications such as script analysis, playwriting, and dramaturgical research.",
+        "prerequisites": ["Introduction to Theater and Performance Studies", "Acting I"]
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Introduction to Painting",
+        "description": "An introductory course in the fundamentals of painting.",
+        "prerequisites": []
+    },
+    {
+        "name": "Drawing and Composition",
+        "description": "Learn the fundamentals of drawing and composition.",
+        "prerequisites": []
+    },
+    {
+        "name": "Color Theory and Practice",
+        "description": "Learn the fundamentals of color theory and its application to painting.",
+        "prerequisites": []
+    },
+    {
+        "name": "Painting Techniques",
+        "description": "Learn various painting techniques and their applications in painting.",
+        "prerequisites": ["Introduction to Painting", "Drawing and Composition", "Color Theory and Practice"]
+    },
+    {
+        "name": "Advanced Painting",
+        "description": "Study advanced painting techniques and their application to painting.",
+        "prerequisites": ["Painting Techniques"]
+    }
+]

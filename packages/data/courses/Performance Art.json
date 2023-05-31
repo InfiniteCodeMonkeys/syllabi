@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Introduction to Performance Art",
+        "description": "An introduction to the history and theory of performance art, as well as fundamentals of production and performance.",
+        "prerequisites": []
+    },
+    {
+        "name": "Acting for Performance Art",
+        "description": "Exploring the role of the actor/performer in performance art, with an emphasis on improvisation and physicality.",
+        "prerequisites": ["Introduction to Performance Art"]
+    },
+    {
+        "name": "Directing and Producing Performance Art",
+        "description": "Exploring the role of the director/producer in performance art, with an emphasis on collaboration and problem-solving.",
+        "prerequisites": ["Introduction to Performance Art"]
+    },
+    {
+        "name": "Advanced Performance Art",
+        "description": "Exploring the artistic and political potential of performance art, with an emphasis on creating original works.",
+        "prerequisites": ["Introduction to Performance Art", "Acting for Performance Art", "Directing and Producing Performance Art"]
+    }
+]

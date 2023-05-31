@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Introduction to Greek Literature",
+        "description": "An introduction to the literature and culture of ancient Greece.",
+        "prerequisites": []
+    },
+    {
+        "name": "Classical Greek History",
+        "description": "A survey of the history of ancient Greece, from the Minoan civilization to the fall of the Roman Empire.",
+        "prerequisites": []
+    },
+    {
+        "name": "Classical Greek Art and Architecture",
+        "description": "An overview of the art and architecture of ancient Greece, from the Minoan civilization to the fall of the Roman Empire.",
+        "prerequisites": []
+    },
+    {
+        "name": "Classical Greek Mythology",
+        "description": "An overview of the mythology of ancient Greece, from the Minoan civilization to the fall of the Roman Empire.",
+        "prerequisites": []
+    },
+    {
+        "name": "Classical Greek Religion",
+        "description": "An overview of the religion of ancient Greece, from the Minoan civilization to the fall of the Roman Empire.",
+        "prerequisites": []
+    },
+    {
+        "name": "Homeric Greek",
+        "description": "An introduction to the language and works of Homer, the earliest known author in Greek literature.",
+        "prerequisites": ["Introduction to Greek Literature", "Classical Greek History", "Classical Greek Art and Architecture", "Classical Greek Mythology", "Classical Greek Religion"]
+    },
+    {
+        "name": "Classical Greek Drama",
+        "description": "An introduction to the works of Aeschylus, Sophocles, and Euripides.",
+        "prerequisites": ["Introduction to Greek Literature", "Classical Greek History", "Classical Greek Art and Architecture", "Classical Greek Mythology", "Classical Greek Religion", "Homeric Greek"] 
+    },
+    {
+        "name": "Hellenistic Greek Literature",
+        "description": "An introduction to the works of the Hellenistic period, including the works of Theocritus and Apollonius Rhodius.",
+        "prerequisites": ["Introduction to Greek Literature", "Classical Greek History", "Classical Greek Art and Architecture", "Classical Greek Mythology", "Classical Greek Religion", "Homeric Greek", "Classical Greek Drama"]
+    }
+]

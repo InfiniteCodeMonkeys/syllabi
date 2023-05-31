@@ -1,0 +1,42 @@
+[
+        {
+            "name": "Introduction to Biology",
+            "description": "This course provides a basic introduction to the principles of biology.",
+            "prerequisites": []
+        },
+        {
+            "name": "Introduction to Biotechnology",
+            "description": "This course provides a basic introduction to the principles of biotechnology and its applications.",
+            "prerequisites": ["Introduction to Biology"]
+        },
+        {
+            "name": "Cell Biology",
+            "description": "This course covers the structure and function of cells and their relationship to the larger organism.",
+            "prerequisites": ["Introduction to Biology"]
+        },
+        {
+            "name": "Genetics and Molecular Biology",
+            "description": "This course covers the structure and function of genes and their relationship to the larger organism.",
+            "prerequisites": ["Introduction to Biology", "Cell Biology"]
+        },
+        {
+            "name": "Immunology",
+            "description": "This course covers the structure and function of the immune system and its relationship to the larger organism.",
+            "prerequisites": ["Introduction to Biology", "Cell Biology"]
+        },
+        {
+            "name": "Microbiology",
+            "description": "This course covers the structure and function of microorganisms and their relationship to the larger organism.",
+            "prerequisites": ["Introduction to Biology", "Cell Biology"]
+        },
+        {
+            "name": "Biochemistry",
+            "description": "This course covers the structure and function of biochemical molecules and their relationship to the larger organism.",
+            "prerequisites": ["Introduction to Biology", "Cell Biology", "Genetics and Molecular Biology"]
+        },
+        {
+            "name": "Advanced Biotechnology",
+            "description": "This course covers the advanced applications of biotechnology.",
+            "prerequisites": ["Introduction to Biotechnology", "Cell Biology", "Genetics and Molecular Biology", "Immunology", "Microbiology", "Biochemistry"]
+        }
+    ]

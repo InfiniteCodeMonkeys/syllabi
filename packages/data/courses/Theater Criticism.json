@@ -1,0 +1,17 @@
+[
+      {
+        "name": "Introduction to Theater and Performance Studies",
+        "description": "This course introduces students to the field of theater and performance studies. It covers topics such as theater history, dramatic literature, theater production, and performance theory.",
+        "prerequisites": []
+      },
+      {
+        "name": "Criticism and Theory of Theater and Performance",
+        "description": "This course introduces students to the critical theories and techniques used in theater and performance studies. It covers topics such as play analysis, audience engagement, and the impact of theater and performance on culture.",
+        "prerequisites": ["Introduction to Theater and Performance Studies"]
+      },
+      {
+        "name": "Advanced Criticism and Theory of Theater and Performance",
+        "description": "This course builds upon the Criticism and Theory of Theater and Performance course and introduces students to more advanced theories and techniques used in theater and performance studies. It covers topics such as postmodernism, avant-garde theater, and experimental performance.",
+        "prerequisites": ["Introduction to Theater and Performance Studies", "Criticism and Theory of Theater and Performance"]
+      }
+    ]

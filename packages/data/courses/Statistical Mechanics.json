@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Classical Mechanics",
+        "description": "Introduction to classical mechanics, including Newton's laws of motion, Lagrangian and Hamiltonian mechanics, and nonlinear dynamical systems.",
+        "prerequisites": []
+    },
+    {
+        "name": "Statistical Mechanics",
+        "description": "Concepts of statistical mechanics, including macrostate and microstate, energy and entropy, and the ensembles of statistical mechanics.",
+        "prerequisites": ["Classical Mechanics"]
+    },
+    {
+        "name": "Equilibrium Statistical Mechanics",
+        "description": "Analysis of equilibrium systems, including the partition function, the virial equation of state, and the thermodynamic potentials.",
+        "prerequisites": ["Statistical Mechanics"]
+    },
+    {
+        "name": "Nonequilibrium Statistical Mechanics",
+        "description": "Analysis of nonequilibrium systems, including linear response theory, the fluctuation-dissipation theorem, and the theory of stochastic processes.",
+        "prerequisites": ["Equilibrium Statistical Mechanics"]
+    }
+]

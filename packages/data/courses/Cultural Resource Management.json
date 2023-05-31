@@ -1,0 +1,45 @@
+[
+  {
+    "name": "Introduction to Archaeology",
+    "description": "This course provides an overview of the field of Archaeology, including its history, methods, and key concepts.",
+    "prerequisites": []
+  },
+  {
+    "name": "Introduction to Cultural Resource Management",
+    "description": "This course introduces students to the field of Cultural Resource Management (CRM) and its role in Archaeology, including CRM laws and regulations, and the ethical considerations of CRM.",
+    "prerequisites": ["Introduction to Archaeology"]
+  },
+  {
+    "name": "Archaeological Field Methods",
+    "description": "This course covers the practical aspects of fieldwork in Archaeology, including survey, excavation, and data management.",
+    "prerequisites": ["Introduction to Archaeology"]
+  },
+  {
+    "name": "Archaeological Site Documentation",
+    "description": "This course covers methods for identifying and documenting archaeological sites, including mapping and recording techniques.",
+    "prerequisites": [
+      "Introduction to Archaeology",
+      "Archaeological Field Methods"
+    ]
+  },
+  {
+    "name": "Archaeological Analysis and Interpretation",
+    "description": "This course covers the analysis and interpretation of archaeological data, including the use of GIS and other data analysis methods.",
+    "prerequisites": [
+      "Introduction to Archaeology",
+      "Archaeological Field Methods",
+      "Archaeological Site Documentation"
+    ]
+  },
+  {
+    "name": "Cultural Resource Management in Archaeology",
+    "description": "This course provides an in-depth look at the role of Cultural Resource Management (CRM) in Archaeology, including CRM laws and regulations, and the ethical considerations of CRM.",
+    "prerequisites": [
+      "Introduction to Archaeology",
+      "Introduction to Cultural Resource Management",
+      "Archaeological Field Methods",
+      "Archaeological Site Documentation",
+      "Archaeological Analysis and Interpretation"
+    ]
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Introduction to Law and Economics",
+    "description": "This course provides an introduction to the principles of law and economics. Topics include economic analysis of law, property rights, contract theory, and public goods. The course also explores the effects of law on economic outcomes.",
+    "prerequisites": []
+  },
+  {
+    "name": "Intermediate Law and Economics",
+    "description": "This course provides an in-depth examination of the economic foundations of the law. Topics include the use of economic principles in the analysis of legal problems, the impact of legal rules and institutions on economic behavior, and the role of public policy in economic regulation.",
+    "prerequisites": ["Introduction to Law and Economics"]
+  },
+  {
+    "name": "Advanced Law and Economics",
+    "description": "This course builds on the principles of law and economics introduced in Intermediate Law and Economics. Topics include antitrust analysis, economic analysis of tort law, and economic analysis of the criminal law. The course also covers the use of economic models to analyze legal issues.",
+    "prerequisites": [
+      "Introduction to Law and Economics",
+      "Intermediate Law and Economics"
+    ]
+  }
+]

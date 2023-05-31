@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Introduction to Archaeology",
+    "description": "An introductory course to the field of Archaeology, covering the basics of archaeological methods, research, and theory.",
+    "prerequisites": []
+  },
+  {
+    "name": "Introduction to Forensic Archaeology",
+    "description": "An introduction to the field of Forensic Archaeology, covering the basics of its methods, research, and theory.",
+    "prerequisites": ["Introduction to Archaeology"]
+  },
+  {
+    "name": "Archaeology of Human Remains",
+    "description": "A course covering the analysis of human remains found through archaeological methods, and the legal and ethical implications of such research.",
+    "prerequisites": ["Introduction to Forensic Archaeology"]
+  },
+  {
+    "name": "Forensic Anthropology",
+    "description": "A course covering the anthropology of human remains, including their analysis and application to crime.",
+    "prerequisites": [
+      "Introduction to Forensic Archaeology",
+      "Archaeology of Human Remains"
+    ]
+  },
+  {
+    "name": "Advanced Forensic Archaeology",
+    "description": "An advanced course in Forensic Archaeology, covering more complex methods, research, and theory.",
+    "prerequisites": [
+      "Introduction to Forensic Archaeology",
+      "Archaeology of Human Remains",
+      "Forensic Anthropology"
+    ]
+  }
+]

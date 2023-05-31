@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Introductory Physics",
+        "description": "An introduction to basic concepts in classical and modern physics.",
+        "prerequisites": []
+    },
+    {
+        "name": "Classical Mechanics",
+        "description": "An introduction to the behavior of classical particles and systems.",
+        "prerequisites": ["Introductory Physics"]
+    },
+    {
+        "name": "Quantum Mechanics",
+        "description": "An introduction to the behavior of quantum particles and systems.",
+        "prerequisites": ["Introductory Physics", "Classical Mechanics"]
+    },
+    {
+        "name": "Atomic Physics",
+        "description": "An introduction to the behavior of atomic particles and systems.",
+        "prerequisites": ["Introductory Physics", "Classical Mechanics", "Quantum Mechanics"]
+    },
+    {
+        "name": "Molecular Physics",
+        "description": "An introduction to the behavior of molecular particles and systems.",
+        "prerequisites": ["Introductory Physics", "Classical Mechanics", "Quantum Mechanics", "Atomic Physics"]
+    },
+    {
+        "name": "Optical Physics",
+        "description": "An introduction to the behavior of light and the fundamentals of optics.",
+        "prerequisites": ["Introductory Physics", "Classical Mechanics", "Quantum Mechanics", "Atomic Physics", "Molecular Physics"]
+    }
+]

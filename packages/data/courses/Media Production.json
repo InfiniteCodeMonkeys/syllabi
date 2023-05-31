@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Introduction to Media Studies",
+    "description": "This is a basic course introducing students to the fundamentals of media studies and its history.",
+    "prerequisites": []
+  },
+  {
+    "name": "Basics of Media Production",
+    "description": "This course introduces students to the basics of media production, including the principles of sound and video recording, editing, and post-production.",
+    "prerequisites": ["Introduction to Media Studies"]
+  },
+  {
+    "name": "Advanced Media Production",
+    "description": "This course builds on the basics of media production, introducing students to more advanced concepts and techniques.",
+    "prerequisites": ["Basics of Media Production"]
+  },
+  {
+    "name": "Digital Media Production",
+    "description": "This course teaches students the fundamentals of digital media production, including the principles of digital audio and video recording, editing, and post-production.",
+    "prerequisites": ["Advanced Media Production"]
+  },
+  {
+    "name": "Advanced Digital Media Production",
+    "description": "This course builds on the basics of digital media production, introducing students to more advanced concepts and techniques.",
+    "prerequisites": ["Digital Media Production"]
+  }
+]

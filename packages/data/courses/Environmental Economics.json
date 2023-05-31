@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Introduction to Economics",
+    "description": "This course introduces students to the principles and foundations of economic decision-making.",
+    "prerequisites": []
+  },
+  {
+    "name": "Intermediate Microeconomics",
+    "description": "This course covers the fundamentals of microeconomic theory, including consumer and producer theory, market structure, and welfare economics.",
+    "prerequisites": ["Introduction to Economics"]
+  },
+  {
+    "name": "Intermediate Macroeconomics",
+    "description": "This course covers the fundamentals of macroeconomic theory, including economic growth, inflation, unemployment, and monetary and fiscal policies.",
+    "prerequisites": ["Introduction to Economics"]
+  },
+  {
+    "name": "Econometrics",
+    "description": "This course covers the fundamentals of econometric methods, including linear regression analysis, hypothesis testing, forecasting, and time series analysis.",
+    "prerequisites": [
+      "Intermediate Microeconomics",
+      "Intermediate Macroeconomics"
+    ]
+  },
+  {
+    "name": "Environmental Economics",
+    "description": "This course covers the economic principles and models used to analyze environmental and natural resource issues.",
+    "prerequisites": [
+      "Intermediate Microeconomics",
+      "Intermediate Macroeconomics",
+      "Econometrics"
+    ]
+  }
+]

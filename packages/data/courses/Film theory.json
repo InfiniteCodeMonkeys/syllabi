@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Introduction to Film Studies",
+    "description": "Introduces students to the field of Film Studies, including its history, theory, and critical approaches to analyzing film.",
+    "prerequisites": []
+  },
+  {
+    "name": "History of World Cinema",
+    "description": "Explores the history of world cinema, focusing on the development of film language, film genres, and the history of cinema from a variety of international perspectives.",
+    "prerequisites": []
+  },
+  {
+    "name": "Film Aesthetics and Analysis",
+    "description": "Introduces students to the visual and narrative elements of film and provides an in-depth exploration of the fundamentals of film analysis.",
+    "prerequisites": ["Introduction to Film Studies", "History of World Cinema"]
+  },
+  {
+    "name": "Film Genres and Theory",
+    "description": "Explores the history and development of various film genres and provides an introduction to film theory.",
+    "prerequisites": ["History of World Cinema", "Film Aesthetics and Analysis"]
+  },
+  {
+    "name": "Film Theory and Criticism",
+    "description": "Explores the various theoretical and critical approaches to analyzing film, including formalism, psychoanalysis, and post-structuralism.",
+    "prerequisites": ["Film Genres and Theory"]
+  }
+]

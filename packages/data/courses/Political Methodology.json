@@ -1,0 +1,25 @@
+[
+  {
+    "name": "Introduction to Political Science",
+    "description": "This course provides a broad overview of the field of political science, covering concepts such as democracy, power, and governance.",
+    "prerequisites": []
+  },
+  {
+    "name": "Political Methodology",
+    "description": "This course introduces students to the methodological techniques used in the field of political science, including quantitative and qualitative analysis.",
+    "prerequisites": ["Introduction to Political Science"]
+  },
+  {
+    "name": "Research Design & Statistics in Political Science",
+    "description": "This course provides an introduction to research design and statistical techniques used in the field of political science.",
+    "prerequisites": ["Introduction to Political Science"]
+  },
+  {
+    "name": "Advanced Political Methodology",
+    "description": "This course provides an advanced overview of methodological techniques used in the field of political science, including more advanced quantitative and qualitative analysis.",
+    "prerequisites": [
+      "Political Methodology",
+      "Research Design & Statistics in Political Science"
+    ]
+  }
+]

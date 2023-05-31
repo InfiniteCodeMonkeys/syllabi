@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Introduction to Global History",
+        "description": "This course provides an introduction to the history of the world from a global perspective, examining the period from the Paleolithic era to the present day.",
+        "prerequisites": []
+    },
+    {
+        "name": "Regional Histories of the World",
+        "description": "This course examines the history of specific regions of the world, including Europe, Asia, Africa, and the Americas. It will focus on the political, social, economic, and cultural developments of each region.",
+        "prerequisites": ["Introduction to Global History"]
+    },
+    {
+        "name": "Political and Diplomatic History of the World",
+        "description": "This course examines the history of international relations, focusing on the interaction between states, empires, and other international organizations. It will cover topics such as international law, international organizations, and the history of war and diplomacy.",
+        "prerequisites": ["Introduction to Global History", "Regional Histories of the World"]
+    },
+    {
+        "name": "Economic History of the World",
+        "description": "This course examines the history of the global economy, from the earliest forms of trade to the development of industrialization and capitalism. It will focus on the economic systems of different regions, as well as the impact of global economic forces on the world.",
+        "prerequisites": ["Introduction to Global History", "Regional Histories of the World", "Political and Diplomatic History of the World"]
+    },
+    {
+        "name": "Cultural History of the World",
+        "description": "This course examines the history of global cultures, focusing on the development of art, literature, music, and other forms of expression. It will explore the cultural history of different regions, as well as the impact of cultural exchange and globalization.",
+        "prerequisites": ["Introduction to Global History", "Regional Histories of the World", "Political and Diplomatic History of the World", "Economic History of the World"]
+    }
+]

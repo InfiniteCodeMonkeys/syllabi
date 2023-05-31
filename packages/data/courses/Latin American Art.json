@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Introduction to Latin American Art",
+        "description": "This is a course introducing students to the fundamentals of Latin American Art.",
+        "prerequisites": []
+    },
+    {
+        "name": "Studies in Pre-Columbian Art",
+        "description": "This course covers the fundamentals of Pre-Columbian Art.",
+        "prerequisites": ["Introduction to Latin American Art"]
+    },
+    {
+        "name": "Latin American Art of the 19th and 20th Centuries",
+        "description": "This course covers the fundamentals of Latin American Art from the 19th and 20th centuries.",
+        "prerequisites": ["Introduction to Latin American Art", "Studies in Pre-Columbian Art"]
+    },
+    {
+        "name": "Latin American Art of the 21st Century",
+        "description": "This course covers the fundamentals of Latin American Art from the 21st century.",
+        "prerequisites": ["Introduction to Latin American Art", "Studies in Pre-Columbian Art", "Latin American Art of the 19th and 20th Centuries"]
+    }
+]

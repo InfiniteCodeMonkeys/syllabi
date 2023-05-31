@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Introduction to Film",
+    "description": "This course is an introduction to the basics of film studies, including film theory, analysis, and history.",
+    "prerequisites": []
+  },
+  {
+    "name": "Film Genres and History",
+    "description": "This course covers various genres of film and their development over time, from the beginning of film to the present.",
+    "prerequisites": ["Introduction to Film"]
+  },
+  {
+    "name": "Cinematography",
+    "description": "This course covers the art of cinematography, including lighting, composition, and camera movement.",
+    "prerequisites": ["Introduction to Film"]
+  },
+  {
+    "name": "Film Editing",
+    "description": "This course covers the basics of editing, including assembling footage, transitions, and post-production.",
+    "prerequisites": ["Introduction to Film"]
+  },
+  {
+    "name": "Screenwriting",
+    "description": "This course covers the basics of screenwriting, including structure, character development, and dialogue.",
+    "prerequisites": ["Introduction to Film"]
+  },
+  {
+    "name": "Advanced Film Theory and Analysis",
+    "description": "This course covers advanced topics in film theory and analysis, including feminist film theory, postmodernism, and psychoanalytic film theory.",
+    "prerequisites": ["Introduction to Film", "Film Genres and History", "Cinematography", "Film Editing", "Screenwriting"]
+  }
+]

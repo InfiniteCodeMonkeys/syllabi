@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Introduction to Psychology",
+        "description": "This course provides an overview of the major sub-disciplines of psychology and introduces students to psychological theories and research.",
+        "prerequisites": []
+    },
+    {
+        "name": "Developmental Psychology",
+        "description": "This course examines the psychological development of individuals from infancy through adulthood, focusing on the physical, cognitive, and social development.",
+        "prerequisites": []
+    },
+    {
+        "name": "Social Psychology",
+        "description": "This course examines how people think, interact, and behave in social contexts, exploring the influence of interpersonal and group dynamics on individual behavior.",
+        "prerequisites": []
+    },
+    {
+        "name": "Cognitive Psychology",
+        "description": "This course examines how people perceive, process, and remember information, exploring topics such as attention, memory, language, decision-making, and problem-solving.",
+        "prerequisites": []
+    },
+    {
+        "name": "Statistics for Psychology",
+        "description": "This course provides an introduction to the use of statistical methods in psychological research, including data analysis, graphical presentation, and the interpretation of results.",
+        "prerequisites": []
+    },
+    {
+        "name": "Experimental Psychology",
+        "description": "This course provides an introduction to the basic principles of experimental design, data collection, and data analysis in psychology research.",
+        "prerequisites": ["Introduction to Psychology", "Developmental Psychology", "Social Psychology", "Cognitive Psychology", "Statistics for Psychology"]
+    }
+]

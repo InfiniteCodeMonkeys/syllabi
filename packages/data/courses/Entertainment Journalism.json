@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Introduction to Journalism",
+    "description": "This course covers the basics of journalism, including the principles of ethical reporting, the fundamentals of writing for a journalistic audience, and the fundamentals of journalistic research.",
+    "prerequisites": []
+  },
+  {
+    "name": "Media Law and Ethics",
+    "description": "This course covers the various legal and ethical considerations in the field of journalism and media, including defamation, copyright infringement, plagiarism, and more.",
+    "prerequisites": ["Introduction to Journalism"]
+  },
+  {
+    "name": "Writing for Print and Online Media",
+    "description": "This course covers the fundamentals of writing for print and online media, including grammar, syntax, style, and more.",
+    "prerequisites": ["Introduction to Journalism"]
+  },
+  {
+    "name": "Investigative Reporting",
+    "description": "This course covers the fundamentals of investigative reporting, including research techniques, developing sources, and how to effectively report on complex topics.",
+    "prerequisites": [
+      "Media Law and Ethics",
+      "Writing for Print and Online Media"
+    ]
+  },
+  {
+    "name": "Entertainment Journalism",
+    "description": "This course covers the fundamentals of entertainment journalism, including the basics of reporting on celebrities, events, issues, and the culture at large.",
+    "prerequisites": [
+      "Media Law and Ethics",
+      "Writing for Print and Online Media",
+      "Investigative Reporting"
+    ]
+  }
+]

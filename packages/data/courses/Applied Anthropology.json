@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Introduction to Anthropology",
+    "description": "This course provides an introduction to the field of anthropology, including its sub-fields, history, methods, and theories.",
+    "prerequisites": []
+  },
+  {
+    "name": "Cultural Anthropology",
+    "description": "This course introduces students to the study of culture, including its development, transmission, and expression. Topics may include language, religion, kinship, gender, and the arts.",
+    "prerequisites": ["Introduction to Anthropology"]
+  },
+  {
+    "name": "Anthropology of Development",
+    "description": "This course explores the role of anthropology in the study of global development. It examines the effects of development projects on local communities, and the theoretical and methodological approaches used by anthropologists to understand these effects.",
+    "prerequisites": ["Cultural Anthropology"]
+  },
+  {
+    "name": "Applied Anthropology",
+    "description": "This course examines the role of anthropology in applied settings, such as public health, social welfare, and economic development. It focuses on the application of anthropological knowledge and methods in addressing social problems.",
+    "prerequisites": ["Anthropology of Development"]
+  }
+]

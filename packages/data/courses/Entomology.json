@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Introduction to Entomology",
+    "description": "An introduction to the science of entomology and its history, focusing on the basics of insect anatomy, physiology, behavior, and ecology.",
+    "prerequisites": []
+  },
+  {
+    "name": "Insect Biology",
+    "description": "A study of the anatomy, physiology, genetics, and ecology of insects.",
+    "prerequisites": []
+  },
+  {
+    "name": "Insect Taxonomy",
+    "description": "A study of the classification, nomenclature, and identification of insect species.",
+    "prerequisites": []
+  },
+  {
+    "name": "Insect Ecology",
+    "description": "An in-depth study of the roles of insects in natural and managed ecosystems.",
+    "prerequisites": [
+      "Introduction to Entomology",
+      "Insect Biology",
+      "Insect Taxonomy"
+    ]
+  },
+  {
+    "name": "Insect Pest Management",
+    "description": "An exploration of the principles and practices of insect pest management, including chemical, biological, and cultural control techniques.",
+    "prerequisites": [
+      "Introduction to Entomology",
+      "Insect Biology",
+      "Insect Taxonomy",
+      "Insect Ecology"
+    ]
+  },
+  {
+    "name": "Medical and Veterinary Entomology",
+    "description": "A study of the medical and veterinary importance of insects, including the effects of insect-borne diseases and control strategies.",
+    "prerequisites": [
+      "Introduction to Entomology",
+      "Insect Biology",
+      "Insect Taxonomy",
+      "Insect Ecology",
+      "Insect Pest Management"
+    ]
+  }
+]

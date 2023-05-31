@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Introduction to Neuroscience",
+        "description": "An introductory course on the fundamentals of neuroscience, covering topics from the cellular level to behavior.",
+        "prerequisites": []
+    },
+    {
+        "name": "Neuroanatomy",
+        "description": "A course on the structure and function of the nervous system, focusing on the brain and its components.",
+        "prerequisites": ["Introduction to Neuroscience"]
+    },
+    {
+        "name": "Neurophysiology",
+        "description": "A course on the electrical, chemical, and biological properties of neurons and their role in the nervous system.",
+        "prerequisites": ["Introduction to Neuroscience", "Neuroanatomy"]
+    },
+    {
+        "name": "Cellular Neuroscience",
+        "description": "A course on the molecular and cellular mechanisms of neurons, including ion channels and synaptic transmission.",
+        "prerequisites": ["Introduction to Neuroscience", "Neuroanatomy", "Neurophysiology"]
+    }
+]

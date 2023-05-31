@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Introduction to Linguistics", 
+        "description": "An introduction to the discipline of linguistics, with a focus on language structure and use.", 
+        "prerequisites": []
+    },
+    {
+        "name": "Introduction to Psycholinguistics",
+        "description": "An introduction to the study of psycholinguistics, including the physiology of language, language acquisition, and language processing.",
+        "prerequisites": ["Introduction to Linguistics"]
+    },
+    {
+        "name": "Phonology and Morphology",
+        "description": "A study of the structure and sound systems of language, as well as the internal structure of words.",
+        "prerequisites": ["Introduction to Linguistics"]
+    },
+    {
+        "name": "Syntax and Semantics",
+        "description": "A study of the structure and meaning of language, including sentence structure, sentence meaning, and the meaning of words.",
+        "prerequisites": ["Introduction to Linguistics", "Phonology and Morphology"]
+    },
+    {
+        "name": "Psycholinguistics",
+        "description": "A study of psychological and neurological aspects of language processing, including language acquisition, language production, and language comprehension.",
+        "prerequisites": ["Introduction to Psycholinguistics", "Syntax and Semantics"]
+    }
+]
