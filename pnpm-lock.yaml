@@ -124,6 +124,7 @@ importers:
       '@types/react-typing-effect': ^2.0.3
       '@types/react-vis': ^1.11.11
       '@upstash/qstash': ^0.3.2
+      '@visx/responsive': ^3.0.0
       '@visx/visx': ^3.1.2
       autoprefixer: ^10.4.14
       aws-sdk: ^2.1354.0
@@ -167,6 +168,7 @@ importers:
       '@trpc/server': 10.19.1
       '@types/react-vis': 1.11.11
       '@upstash/qstash': 0.3.6
+      '@visx/responsive': 3.0.0_react@18.2.0
       '@visx/visx': 3.1.2_ascez6k7nd5fdb4das6z5m2uga
       aws-sdk: 2.1354.0
       classcat: 5.0.4

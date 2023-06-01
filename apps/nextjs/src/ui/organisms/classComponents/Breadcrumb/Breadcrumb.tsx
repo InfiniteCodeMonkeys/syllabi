@@ -40,7 +40,7 @@ export const Breadcrumb: React.FunctionComponent<IBreadcrumbProps> = ({
       {items.map((item: IBreadcrumbItem, index: number) => (
         <div key={index}>
           <a
-            className="TreeMap__breadcrumbItem"
+            className=" ml-2 text-white"
             key={item.key}
             id={`${item.key}`}
             onClick={item.onClick ? item.onClick : undefined}
@@ -49,7 +49,7 @@ export const Breadcrumb: React.FunctionComponent<IBreadcrumbProps> = ({
             {item.text}
           </a>
           {index < items.length - 1 ? (
-            <span className="TreeMap__breadcrumbSeparator">/</span>
+            <span className="ml-1 text-white">/</span>
           ) : null}
         </div>
       ))}

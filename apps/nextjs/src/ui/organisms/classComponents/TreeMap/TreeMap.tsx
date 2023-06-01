@@ -269,7 +269,7 @@ class TreeMap<TreeMapInputData> extends React.Component<
         onClick={!isSelectedNode ? this._onNodeClick : undefined}
         treemapId={treemapId}
         url={url}
-        value={!hideValue && formattedValue}
+        value=""
         x0={x0}
         x1={x1}
         xScaleFunction={xScaleFunction}

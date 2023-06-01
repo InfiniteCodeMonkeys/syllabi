@@ -34,7 +34,7 @@ const NumberOfChildren: React.FunctionComponent<NumberOfChildrenProps> = ({
   const fontSize = Number(style.fontSize);
   const itemsWidth = getNumberItemsWidthByNumberOfChars(
     fontSize,
-    nodeTotalNodes.toString().length
+    nodeTotalNodes.toString().length,
   );
   const itemHeightFactor = 2;
   const itemsHeight = fontSize + itemHeightFactor;

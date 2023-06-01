@@ -29,6 +29,7 @@
     "@trpc/server": "^10.1.0",
     "@types/react-vis": "^1.11.11",
     "@upstash/qstash": "^0.3.2",
+    "@visx/responsive": "^3.0.0",
     "@visx/visx": "^3.1.2",
     "aws-sdk": "^2.1354.0",
     "classcat": "^5.0.4",
