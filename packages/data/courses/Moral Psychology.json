@@ -1,0 +1,39 @@
+[
+  {
+    "name": "Introduction to Ethics",
+    "description": "This course provides an introduction to ethical theory and its application to practical issues.",
+    "prerequisites": []
+  },
+  {
+    "name": "Moral Psychology and Rationality",
+    "description": "This course introduces the study of moral psychology, focusing on the role of rationality in moral decision-making.",
+    "prerequisites": ["Introduction to Ethics"]
+  },
+  {
+    "name": "Theories of Moral Responsibility",
+    "description": "This course examines the philosophical theories of moral responsibility, including the concept of free will.",
+    "prerequisites": [
+      "Introduction to Ethics",
+      "Moral Psychology and Rationality"
+    ]
+  },
+  {
+    "name": "Ethics and the Law",
+    "description": "This course explores the relationship between ethics and law, focusing on the ethical implications of legal decision-making.",
+    "prerequisites": [
+      "Introduction to Ethics",
+      "Moral Psychology and Rationality",
+      "Theories of Moral Responsibility"
+    ]
+  },
+  {
+    "name": "Moral Philosophy",
+    "description": "This course covers a wide range of topics in moral philosophy, including moral theories, moral dilemmas, and moral responsibility.",
+    "prerequisites": [
+      "Introduction to Ethics",
+      "Moral Psychology and Rationality",
+      "Theories of Moral Responsibility",
+      "Ethics and the Law"
+    ]
+  }
+]

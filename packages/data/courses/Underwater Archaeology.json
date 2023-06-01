@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Introduction to Archaeology",
+    "description": "This course provides an introduction to the basic principles and methods of archaeology. Topics include fundamental concepts, archaeological field methods, laboratory techniques, and the analysis and interpretation of archaeological data.",
+    "prerequisites": []
+  },
+  {
+    "name": "Underwater Archaeology",
+    "description": "This course provides an introduction to the principles and practices of underwater archaeology. Topics include the history of underwater archaeology, marine environment, archaeological research design, site documentation, remote sensing, and the stabilization and conservation of underwater sites.",
+    "prerequisites": ["Introduction to Archaeology"]
+  },
+  {
+    "name": "Maritime Archaeology",
+    "description": "This course provides an overview of the principles and practices of maritime archaeology. Topics include the history of maritime archaeology, the relationship between ships and their environment, the documentation of shipwrecks, the design and implementation of archaeological projects, conservation and management issues, and the interpretation of archaeological data.",
+    "prerequisites": ["Introduction to Archaeology", "Underwater Archaeology"]
+  },
+  {
+    "name": "Underwater Archaeology Field Methods",
+    "description": "This course provides an introduction to the field methods used in underwater archaeology, including the use of remote sensing, marine survey, and underwater excavation techniques. Students will gain practical experience in the application of these techniques in the field.",
+    "prerequisites": [
+      "Introduction to Archaeology",
+      "Underwater Archaeology",
+      "Maritime Archaeology"
+    ]
+  }
+]

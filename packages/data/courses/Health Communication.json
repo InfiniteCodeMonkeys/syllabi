@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Introduction to Communication Studies",
+    "description": "This course introduces students to the major concepts in communication studies, including interpersonal communication, group communication, and mass communication.",
+    "prerequisites": []
+  },
+  {
+    "name": "Health Communication",
+    "description": "This course explores how communication shapes and is shaped by health-related issues, including public health policy, biomedical research, and health care organizations.",
+    "prerequisites": ["Introduction to Communication Studies"]
+  },
+  {
+    "name": "Public Health Policy",
+    "description": "This course examines the history, development, and implementation of public health policy, with a focus on the role of health communication in policymaking.",
+    "prerequisites": ["Health Communication"]
+  },
+  {
+    "name": "Biomedical Research",
+    "description": "This course explores how communication is used in biomedical research, including ethical considerations, the role of language in research, and the communication of research findings.",
+    "prerequisites": ["Public Health Policy"]
+  }
+]

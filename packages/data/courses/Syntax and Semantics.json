@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Introductory Linguistics",
+        "description": "Introduction to the fundamentals of linguistics, including phonetics, phonology, morphology, syntax, semantics, and pragmatics.",
+        "prerequisites": []
+    },
+    {
+        "name": "Introduction to Syntax",
+        "description": "An introduction to the basics of syntax, including the core components of sentence structure.",
+        "prerequisites": ["Introductory Linguistics"]
+    },
+    {
+        "name": "Intermediate Syntax",
+        "description": "A more in-depth exploration of syntax, including the analysis of sentences, phrase structure, and the organization of words.",
+        "prerequisites": ["Introductory Linguistics", "Introduction to Syntax"]
+    },
+    {
+        "name": "Semantics",
+        "description": "An introduction to semantics, including the study of meaning in language.",
+        "prerequisites": ["Introductory Linguistics", "Introduction to Syntax", "Intermediate Syntax"]
+    },
+    {
+        "name": "Advanced Syntax and Semantics",
+        "description": "A more advanced exploration of syntax and semantics, including the study of complex sentence structure and the application of meaning to sentences.",
+        "prerequisites": ["Introductory Linguistics", "Introduction to Syntax", "Intermediate Syntax", "Semantics"]
+    }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Introduction to Sociology of Education",
+    "description": "This course provides an introduction to the sociology of education, including an overview of the major theoretical and empirical contributions to the field, and an examination of how educational systems have developed and changed over time.",
+    "prerequisites": []
+  },
+  {
+    "name": "Sociology of Inequalities in Education",
+    "description": "This course focuses on the social and educational inequalities found in different countries and societies. It explores the historical roots of education inequality and examines the role of educational policies, practices, and institutions in reproducing these inequalities.",
+    "prerequisites": ["Introduction to Sociology of Education"]
+  },
+  {
+    "name": "Sociology of Knowledge and Learning",
+    "description": "This course examines the relationships between knowledge, learning, and power. It explores the ways in which knowledge is constructed, reproduced, and contested in different educational contexts.",
+    "prerequisites": [
+      "Introduction to Sociology of Education",
+      "Sociology of Inequalities in Education"
+    ]
+  },
+  {
+    "name": "Sociology of Education Policy and Practice",
+    "description": "This course examines the relationship between educational policy and practice, and the implications for educational systems. It explores the role of power, politics, and economics in the formulation of educational policy.",
+    "prerequisites": [
+      "Introduction to Sociology of Education",
+      "Sociology of Inequalities in Education",
+      "Sociology of Knowledge and Learning"
+    ]
+  }
+]

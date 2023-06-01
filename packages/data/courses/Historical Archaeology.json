@@ -1,0 +1,36 @@
+[
+  {
+    "name": "Introduction to Archaeology",
+    "description": "An introductory course on the history, methods, theories, and concepts of archaeology.",
+    "prerequisites": []
+  },
+  {
+    "name": "Historical Archaeology",
+    "description": "A course focusing on the history of archaeological practice and the use of archaeological evidence to understand past societies.",
+    "prerequisites": ["Introduction to Archaeology"]
+  },
+  {
+    "name": "Historical Archaeological Field Methods",
+    "description": "This course focuses on the methods and techniques used to collect archaeological data in the field.",
+    "prerequisites": ["Introduction to Archaeology", "Historical Archaeology"]
+  },
+  {
+    "name": "Archaeological Analysis and Interpretation",
+    "description": "This course covers the use of archaeological evidence to interpret past societies.",
+    "prerequisites": [
+      "Introduction to Archaeology",
+      "Historical Archaeology",
+      "Historical Archaeological Field Methods"
+    ]
+  },
+  {
+    "name": "Advanced Historical Archaeology",
+    "description": "This course provides a more in-depth look at the history, methods, theories, and concepts of historical archaeology.",
+    "prerequisites": [
+      "Introduction to Archaeology",
+      "Historical Archaeology",
+      "Historical Archaeological Field Methods",
+      "Archaeological Analysis and Interpretation"
+    ]
+  }
+]

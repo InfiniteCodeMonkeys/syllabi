@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Introduction to Restoration and 18th-Century Literature",
+    "description": "This course introduces students to the works of Restoration and 18th-Century authors, including the great English novelists such as Alexander Pope, Samuel Johnson, and Daniel Defoe.",
+    "prerequisites": []
+  },
+  {
+    "name": "Restoration and 18th-Century Poetry",
+    "description": "This course focuses on the poetry of the period, including the works of John Dryden, Alexander Pope, and Jonathan Swift.",
+    "prerequisites": ["Introduction to Restoration and 18th-Century Literature"]
+  },
+  {
+    "name": "Restoration and 18th-Century Drama",
+    "description": "This course explores the plays of the period, including the works of William Congreve, George Farquhar, and Richard Brinsley Sheridan.",
+    "prerequisites": ["Introduction to Restoration and 18th-Century Literature"]
+  },
+  {
+    "name": "Restoration and 18th-Century Novels",
+    "description": "This course examines the novels of the period, including the works of Daniel Defoe, Samuel Richardson, and Henry Fielding.",
+    "prerequisites": ["Introduction to Restoration and 18th-Century Literature",
+    "Restoration and 18th-Century Poetry",
+    "Restoration and 18th-Century Drama"]
+  }
+]

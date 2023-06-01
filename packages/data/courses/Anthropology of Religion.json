@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Introduction to Anthropology of Religion",
+        "description": "A course introducing the basic concepts and theories within the field of Anthropology of Religion. Covers foundational literature, theories, and methods.",
+        "prerequisites": []
+    },
+    {
+        "name": "History of Witchcraft",
+        "description": "A course exploring the interconnected histories of witchcraft, magic, and sorcery. Discusses the construction of gender, sexuality, and power within the field.",
+        "prerequisites": ["Introduction to Anthropology of Religion"]
+    },
+    {
+        "name": "Anthropology of Rituals",
+        "description": "A course focusing on the study of rituals and their contexts. Explores how rituals can be used to construct and reinforce gender, class, and power.",
+        "prerequisites": ["Introduction to Anthropology of Religion", "History of Witchcraft"]
+    },
+    {
+        "name": "Anthropology of Beliefs",
+        "description": "A course exploring the anthropological approach to the study of beliefs and belief systems. Explores the social, cultural, and political implications of belief systems.",
+        "prerequisites": ["Introduction to Anthropology of Religion", "History of Witchcraft", "Anthropology of Rituals"]
+    }
+]

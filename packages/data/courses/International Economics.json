@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Introduction to Economics",
+    "description": "This course provides an introduction to the basic principles of economics, including the theory of supply and demand, the theory of the firm, and the theory of consumer behavior.",
+    "prerequisites": []
+  },
+  {
+    "name": "Intermediate Economics",
+    "description": "This course covers the tools and methods of economic analysis, including game theory, econometrics, and the theory of economic growth.",
+    "prerequisites": ["Introduction to Economics"]
+  },
+  {
+    "name": "International Economics I",
+    "description": "This course introduces international economic topics, including international trade and finance. Students will be introduced to the basic concepts of international economics and the various theories that have been used to explain international trade.",
+    "prerequisites": ["Introduction to Economics", "Intermediate Economics"]
+  },
+  {
+    "name": "International Economics II",
+    "description": "This course builds on the material covered in International Economics I. It includes topics such as the balance of payments, trade policy, and exchange rate determination.",
+    "prerequisites": ["International Economics I"]
+  }
+]

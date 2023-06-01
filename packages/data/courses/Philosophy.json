@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Introduction to Philosophy",
+        "description": "This course introduces students to the study of philosophy, its major branches, and its primary historical figures.",
+        "prerequisites": []
+    },
+    {
+        "name": "Logic",
+        "description": "This course covers the basics of symbolic and traditional logic, providing students with an understanding of the principles of valid reasoning.",
+        "prerequisites": ["Introduction to Philosophy"]
+    },
+    {
+        "name": "Ethics",
+        "description": "This course examines the major moral theories, their foundations in philosophical principles, and their implications for life.",
+        "prerequisites": ["Introduction to Philosophy"]
+    },
+    {
+        "name": "Metaphysics",
+        "description": "This course provides an introduction to the central questions and arguments in metaphysics, such as the nature of being, the existence of God, and the problem of evil.",
+        "prerequisites": ["Introduction to Philosophy", "Logic", "Ethics"]
+    },
+    {
+        "name": "Epistemology",
+        "description": "This course examines the nature of knowledge and its limits, as well as the various theories of knowledge, such as skepticism, foundationalism, and relativism.",
+        "prerequisites": ["Introduction to Philosophy", "Logic", "Ethics", "Metaphysics"]
+    },
+    {
+        "name": "Philosophy of Language",
+        "description": "This course explores the relationship between language and meaning, and how language is used to express and comprehend ideas.",
+        "prerequisites": ["Introduction to Philosophy", "Logic", "Ethics", "Metaphysics", "Epistemology"]
+    }
+]

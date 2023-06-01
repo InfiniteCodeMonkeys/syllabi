@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Introduction to Astronomy",
+    "description": "This course is an introduction to the science of astronomy and its subfields.",
+    "prerequisites": []
+  },
+  {
+    "name": "Observational Astronomy",
+    "description": "This course is an introduction to observational astronomy techniques.",
+    "prerequisites": ["Introduction to Astronomy"]
+  },
+  {
+    "name": "Astronomical Data Analysis",
+    "description": "This course is an introduction to astronomical data analysis and modeling.",
+    "prerequisites": ["Observational Astronomy"]
+  },
+  {
+    "name": "Astrophysics I",
+    "description": "This course is an introduction to the astrophysical principles and processes.",
+    "prerequisites": ["Introduction to Astronomy", "Astronomical Data Analysis"]
+  },
+  {
+    "name": "Astrophysics II",
+    "description": "This course is a continuation of Astrophysics I, covering more advanced topics.",
+    "prerequisites": ["Astrophysics I"]
+  }
+]

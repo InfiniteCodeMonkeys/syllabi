@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Introduction to Neuroscience", 
+        "description": "This course provides an introduction and overview of the structure and function of the nervous system.",
+        "prerequisites": []
+    },
+    {
+        "name": "Cellular Neuroscience",
+        "description": "This course covers the structure and function of neurons at the cellular level, including ion channels, synaptic transmission, excitability, and plasticity.",
+        "prerequisites": []
+    },
+    {
+        "name": "Neural Systems and Behavior",
+        "description": "This course covers the principles of neural system structure and function as they relate to behavior.", 
+        "prerequisites": ["Introduction to Neuroscience", "Cellular Neuroscience"]
+    },
+    {
+        "name": "Computational Neuroscience I",
+        "description": "This course covers the basics of computational neuroscience, such as neural networks, cellular automata, and the Hodgkin-Huxley equations.",
+        "prerequisites": ["Introduction to Neuroscience", "Cellular Neuroscience", "Neural Systems and Behavior"]
+    },
+    {
+        "name": "Computational Neuroscience II",
+        "description": "This course covers more advanced topics in computational neuroscience, such as spiking neural networks and reinforcement learning.",
+        "prerequisites": ["Introduction to Neuroscience", "Cellular Neuroscience", "Neural Systems and Behavior", "Computational Neuroscience I"]
+    }
+]

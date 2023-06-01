@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Introduction to Physics",
+    "description": "This course provides an introduction to the fundamentals of physics.",
+    "prerequisites": []
+  },
+  {
+    "name": "Classical Mechanics",
+    "description": "This course covers the principles of classical mechanics.",
+    "prerequisites": ["Introduction to Physics"]
+  },
+  {
+    "name": "Thermodynamics",
+    "description": "This course covers the principles of thermodynamics.",
+    "prerequisites": ["Classical Mechanics"]
+  },
+  {
+    "name": "Quantum Mechanics",
+    "description": "This course covers the principles of quantum mechanics.",
+    "prerequisites": ["Classical Mechanics", "Thermodynamics"]
+  },
+  {
+    "name": "Introduction to Biophysics",
+    "description": "This course provides an introduction to the fundamentals of biophysics.",
+    "prerequisites": ["Introduction to Physics", "Classical Mechanics", "Thermodynamics", "Quantum Mechanics"]
+  },
+  {
+    "name": "Biophysical Chemistry",
+    "description": "This course covers the principles of biophysical chemistry.",
+    "prerequisites": ["Introduction to Biophysics", "Quantum Mechanics"]
+  },
+  {
+    "name": "Advanced Biophysics",
+    "description": "This course covers advanced topics in biophysics.",
+    "prerequisites": ["Introduction to Biophysics", "Biophysical Chemistry", "Quantum Mechanics"]
+  }
+]

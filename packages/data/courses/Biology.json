@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Biology 101",
+        "description": "Introduction to Biology",
+        "prerequisites": []
+    },
+    {
+        "name": "Molecular Biology",
+        "description": "Introduction to molecular biology and biochemistry",
+        "prerequisites": ["Biology 101"]
+    },
+    {
+        "name": "Cell Biology",
+        "description": "Introduction to cell biology and physiology",
+        "prerequisites": ["Biology 101", "Molecular Biology"]
+    },
+    {
+        "name": "Genetics",
+        "description": "Introduction to genetics and heredity",
+        "prerequisites": ["Biology 101", "Molecular Biology", "Cell Biology"]
+    },
+    {
+        "name": "Evolutionary Biology",
+        "description": "Introduction to evolutionary biology and ecology",
+        "prerequisites": ["Biology 101", "Molecular Biology", "Cell Biology", "Genetics"]
+    }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Introduction to Film Studies",
+    "description": "This course provides an introduction to the field of Film Studies. Topics include film history, theory, and criticism. Students will learn about the various genres of film and how they have evolved over time.",
+    "prerequisites": []
+  },
+  {
+    "name": "Film Production Basics",
+    "description": "This course provides a comprehensive overview of the fundamentals of film production, from the basics of camera operation and audio recording to the basics of editing and post-production. Students will learn the essential elements of filmmaking and gain a basic understanding of the production process.",
+    "prerequisites": []
+  },
+  {
+    "name": "Cinematography & Lighting",
+    "description": "This course explores the fundamentals of cinematography, lighting, and camera placement. Students will gain an understanding of the principles of film production and learn how to create visually compelling images using a variety of techniques.",
+    "prerequisites": ["Introduction to Film Studies"]
+  },
+  {
+    "name": "Editing & Post-Production",
+    "description": "This course covers the basics of editing and post-production. Students will learn the principles of editing and the tools and techniques used in post-production. They will also gain an understanding of the importance of sound design and music in film production.",
+    "prerequisites": ["Introduction to Film Studies", "Film Production Basics"]
+  },
+  {
+    "name": "Advanced Film Production",
+    "description": "This course covers advanced topics in film production, such as directing, writing, and producing. Students will learn the essential elements of filmmaking and develop an understanding of the production process. They will also explore the professional aspects of filmmaking, including budgeting, scheduling, and marketing.",
+    "prerequisites": [
+      "Introduction to Film Studies",
+      "Film Production Basics",
+      "Cinematography & Lighting",
+      "Editing & Post-Production"
+    ]
+  }
+]

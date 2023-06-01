@@ -1,0 +1,36 @@
+[
+  {
+    "name": "Introduction to Biochemistry",
+    "description": "A course introducing the fundamentals of biochemistry.",
+    "prerequisites": []
+  },
+  {
+    "name": "Molecular Biology",
+    "description": "A course covering the structure and function of macromolecules.",
+    "prerequisites": ["Introduction to Biochemistry"]
+  },
+  {
+    "name": "Cellular Biology",
+    "description": "A course covering the structure and function of cells.",
+    "prerequisites": ["Introduction to Biochemistry", "Molecular Biology"]
+  },
+  {
+    "name": "Biochemistry I",
+    "description": "A course covering the fundamentals of biochemistry.",
+    "prerequisites": [
+      "Introduction to Biochemistry",
+      "Molecular Biology",
+      "Cellular Biology"
+    ]
+  },
+  {
+    "name": "Biochemistry II",
+    "description": "A course covering more advanced topics in biochemistry.",
+    "prerequisites": [
+      "Introduction to Biochemistry",
+      "Molecular Biology",
+      "Cellular Biology",
+      "Biochemistry I"
+    ]
+  }
+]

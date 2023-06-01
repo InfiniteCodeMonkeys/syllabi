@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Introduction to Educational Psychology",
+        "description": "An introductory course to the field of Educational Psychology, which includes topics such as learning theories and strategies, cognitive development, and motivation.",
+        "prerequisites": []
+    },
+    {
+        "name": "Educational Psychology in the Classroom",
+        "description": "This course focuses on the application of Educational Psychology in the classroom, including topics such as classroom management, assessment, and instructional design.",
+        "prerequisites": ["Introduction to Educational Psychology"]
+    },
+    {
+        "name": "Research Methods in Educational Psychology",
+        "description": "This course focuses on research methods and techniques used in Educational Psychology, including topics such as research designs, data collection, and data analysis.",
+        "prerequisites": ["Introduction to Educational Psychology", "Educational Psychology in the Classroom"]
+    },
+    {
+        "name": "Advanced Educational Psychology",
+        "description": "This course focuses on the more advanced topics of Educational Psychology, including topics such as program evaluation, innovation, and the impact of educational technology.",
+        "prerequisites": ["Introduction to Educational Psychology", "Educational Psychology in the Classroom", "Research Methods in Educational Psychology"]
+    }
+]

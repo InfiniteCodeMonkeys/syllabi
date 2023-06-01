@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Introduction to Psychology",
+        "description": "An introductory survey of the basic principles of psychology, including topics such as the biological basis of behavior, learning, memory, perception, development, motivation, emotion, and social behavior.",
+        "prerequisites": []
+    },
+    {
+        "name": "Research Methods in Psychology",
+        "description": "Introduction to the methods used by psychologists to conduct research. Topics include research design, data collection, analysis, and interpretation.",
+        "prerequisites": ["Introduction to Psychology"]
+    },
+    {
+        "name": "Cognitive Psychology",
+        "description": "Exploration of the mental processes that underlie behavior, including attention, perception, memory, language, and problem-solving. Students will gain an understanding of the fundamental principles of cognitive psychology and their applications.",
+        "prerequisites": ["Introduction to Psychology", "Research Methods in Psychology"]
+    }
+]

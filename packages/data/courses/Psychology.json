@@ -1,0 +1,31 @@
+[
+    {
+        "name": "Introduction to Psychology",
+        "description": "An introductory course covering the basics of the field of psychology",
+        "prerequisites": []
+    },
+    {
+        "name": "Cognitive Psychology",
+        "description": "A more advanced course that investigates the mental processes and behavior of humans",
+        "prerequisites": [
+            "Introduction to Psychology"
+        ]
+    },
+    {
+        "name": "Biological Psychology",
+        "description": "An introduction to the biological foundations of psychology",
+        "prerequisites": [
+            "Introduction to Psychology",
+            "Cognitive Psychology"
+        ]
+    },
+    {
+        "name": "Personality Psychology",
+        "description": "An in-depth look at the various theories of personality",
+        "prerequisites": [
+            "Introduction to Psychology",
+            "Cognitive Psychology",
+            "Biological Psychology"
+        ]
+    }
+]

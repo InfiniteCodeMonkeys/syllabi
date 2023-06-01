@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Introduction to Organizational Communication",
+    "description": "This course provides an overview of the basic principles of organizational communication. Topics include theories of communication, communication networks, organizational cultures, and persuasive strategies. Students will gain an understanding of how communication works in organizational contexts and how to apply communication techniques to organizational goals.",
+    "prerequisites": []
+  },
+  {
+    "name": "Interpersonal Communication in Organizations",
+    "description": "This course explores the dynamics of interpersonal communication in organizational settings. Topics include personal relationships, group dynamics, conflict resolution, and leadership. Students will learn how to effectively interact with others in an organizational setting and improve their communication skills.",
+    "prerequisites": ["Introduction to Organizational Communication"]
+  },
+  {
+    "name": "Organizational Communication Theory",
+    "description": "This course examines the theories and principles of organizational communication. Topics include communication networks, power and influence, organizational structure, and organizational change. Students will learn to analyze and interpret organizational communication strategies.",
+    "prerequisites": [
+      "Introduction to Organizational Communication",
+      "Interpersonal Communication in Organizations"
+    ]
+  },
+  {
+    "name": "Organizational Communication Research",
+    "description": "This course examines the research methods used to study organizational communication. Topics include survey design, qualitative research methods, data analysis, and ethical considerations. Students will learn to design and implement research studies in the field of organizational communication.",
+    "prerequisites": [
+      "Introduction to Organizational Communication",
+      "Interpersonal Communication in Organizations",
+      "Organizational Communication Theory"
+    ]
+  }
+]

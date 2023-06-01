@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Introduction to Ancient Philosophy",
+        "description": "This course provides an introduction to the Ancient Greek and Roman philosophical traditions. Topics include the Pre-Socratics, Socrates, Plato, Aristotle, and the Hellenistic philosophers. It includes an overview of Ancient Greek and Latin philosophical texts.",
+        "prerequisites": []
+    },
+    {
+        "name": "Ancient Greek and Latin Language",
+        "description": "This course provides an introduction to Ancient Greek and Latin language and literature. It covers basic grammar, syntax, and vocabulary. It also introduces the student to a selection of major works from the Ancient Greek and Latin literary traditions.",
+        "prerequisites": []
+    },
+    {
+        "name": "Advanced Ancient Greek and Latin Language",
+        "description": "This course builds on the basic language skills developed in the introductory course. It covers more advanced grammar and syntax, as well as introducing the student to a selection of more advanced works from the Ancient Greek and Latin literary traditions.",
+        "prerequisites": ["Introduction to Ancient Philosophy", "Ancient Greek and Latin Language"]
+    },
+    {
+        "name": "Advanced Ancient Philosophy",
+        "description": "This course provides a more in-depth exploration of the Ancient Greek and Roman philosophical traditions. It expands on the topics covered in the introductory course and includes a more detailed examination of Ancient Greek and Latin philosophical texts.",
+        "prerequisites": ["Introduction to Ancient Philosophy", "Ancient Greek and Latin Language", "Advanced Ancient Greek and Latin Language"]
+    }
+]

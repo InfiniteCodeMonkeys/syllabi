@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Introduction to Gender & Sexuality Studies",
+    "description": "This course serves as an introduction to the history and contemporary studies of gender and sexuality. The course will cover topics such as gender, sexuality, and gender identity in the social sciences, including feminist and queer theories.",
+    "prerequisites": []
+  },
+  {
+    "name": "Gender Identity and Sexual Orientation",
+    "description": "This course covers the concepts of gender identity and sexual orientation, and examines how they intersect with race, class, and other power dynamics. Topics include gender roles, queer theory, and the politics of desire.",
+    "prerequisites": ["Introduction to Gender & Sexuality Studies"]
+  },
+  {
+    "name": "Transgender Studies",
+    "description": "This course will explore the history of transgender studies. It will focus on a variety of topics such as gender identity, gender dysphoria, gender transition, and the medical, legal, and social aspects of being transgender.",
+    "prerequisites": [
+      "Introduction to Gender & Sexuality Studies",
+      "Gender Identity and Sexual Orientation"
+    ]
+  }
+]

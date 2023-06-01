@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Introduction to Mechanics",
+        "description": "An introduction to the concepts of mechanics, including motion, forces, energy, and momentum.",
+        "prerequisites": []
+    },
+    {
+        "name": "Intermediate Mechanics",
+        "description": "Further exploration of the concepts of mechanics, including more advanced topics such as angular momentum.",
+        "prerequisites": ["Introduction to Mechanics"]
+    },
+    {
+        "name": "Classical Mechanics",
+        "description": "A deep dive into the classical mechanics of Newton, including the three laws of motion and the law of gravity.",
+        "prerequisites": ["Intermediate Mechanics"]
+    },
+    {
+        "name": "Quantum Mechanics",
+        "description": "An introduction to the concepts of quantum mechanics, including wave-particle duality and energy states.",
+        "prerequisites": ["Classical Mechanics"]
+    }
+]

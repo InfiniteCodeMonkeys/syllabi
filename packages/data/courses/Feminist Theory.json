@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Introduction to Gender & Sexuality Studies",
+    "description": "This course introduces students to the fundamentals of Gender & Sexuality Studies, exploring the ways in which gender and sexuality are socially constructed, and how they interact with other aspects of identity, including race, class, and nationality.",
+    "prerequisites": []
+  },
+  {
+    "name": "Foundations of Feminist Theory",
+    "description": "This course examines the history of feminist thought and theories of gender, power, and oppression. Students will explore the impact of gender and sexuality in a variety of contexts, including the family, the workplace, and the media.",
+    "prerequisites": ["Introduction to Gender & Sexuality Studies"]
+  },
+  {
+    "name": "Advanced Feminist Theory",
+    "description": "This course builds on the foundations of feminist theory introduced in the Foundations of Feminist Theory course. Students will examine the intersection of race, gender, and sexuality, as well as the implications of feminist theory for social change and justice.",
+    "prerequisites": [
+      "Introduction to Gender & Sexuality Studies",
+      "Foundations of Feminist Theory"
+    ]
+  }
+]

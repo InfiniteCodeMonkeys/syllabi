@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Introduction to Ethics",
+    "description": "This course introduces students to the study of ethical issues and theories.",
+    "prerequisites": []
+  },
+  {
+    "name": "Moral Reasoning and Applied Ethics",
+    "description": "This course examines practical ethical issues such as abortion, capital punishment, and animal rights.",
+    "prerequisites": ["Introduction to Ethics"]
+  },
+  {
+    "name": "Professional Ethics",
+    "description": "This course explores ethical issues related to particular professions, such as medicine, engineering, and business.",
+    "prerequisites": [
+      "Introduction to Ethics",
+      "Moral Reasoning and Applied Ethics"
+    ]
+  },
+  {
+    "name": "Bioethics",
+    "description": "This course examines ethical issues related to medical science and technology, such as euthanasia, cloning, and genetic engineering.",
+    "prerequisites": [
+      "Introduction to Ethics",
+      "Moral Reasoning and Applied Ethics",
+      "Professional Ethics"
+    ]
+  }
+]

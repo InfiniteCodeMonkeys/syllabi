@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Introduction to Linguistics",
+        "description": "This course provides an introduction to the field of linguistics. Topics covered include phonetics, phonology, morphology, syntax, semantics, sociolinguistics, and language change.",
+        "prerequisites": []
+    },
+    {
+        "name": "Historical Linguistics",
+        "description": "This course provides an introduction to the study of language change over time, including the diachronic study of phonology, morphology, syntax, and semantics. It also covers the principles of genetic classification, the application of the comparative method, and the use of internal reconstruction.",
+        "prerequisites": ["Introduction to Linguistics"]
+    },
+    {
+        "name": "Advanced Historical Linguistics",
+        "description": "This course provides an in-depth exploration of the principles and techniques of historical linguistics. Topics include phonological change, morphosyntactic change, language contact, and the use of advanced techniques such as statistical methods and computational modeling.",
+        "prerequisites": ["Introduction to Linguistics", "Historical Linguistics"]
+    }
+]

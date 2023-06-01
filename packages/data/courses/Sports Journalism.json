@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Intro to Journalism",
+    "description": "This course introduces students to the fundamentals of Journalism. Topics covered include: media literacy, ethical considerations, and the fundamentals of media law.",
+    "prerequisites": []
+  },
+  {
+    "name": "Sports Journalism",
+    "description": "This course introduces students to the field of Sports Journalism. Topics covered include: the history of Sports Journalism, its relationship to the larger field of journalism, and how to effectively cover a sporting event.",
+    "prerequisites": ["Intro to Journalism"]
+  },
+  {
+    "name": "Advanced Sports Writing",
+    "description": "This course builds on the fundamentals of Sports Journalism. Topics covered include: interviewing techniques, analysis and opinion writing, and data journalism.",
+    "prerequisites": ["Sports Journalism"]
+  },
+  {
+    "name": "Sports Media and Technology",
+    "description": "This course introduces students to the intersection of sports and media/technology. Topics covered include: the impact of digital media on sports coverage, advanced techniques for using digital media for sports journalism, and the role of digital media in the sports industry.",
+    "prerequisites": ["Advanced Sports Writing"]
+  }
+]

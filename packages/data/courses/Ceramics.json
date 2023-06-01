@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Introduction to Ceramics",
+        "description": "A general overview of the art of ceramics with an introduction to the basic tools and materials used in the craft.",
+        "prerequisites": []
+    },
+    {
+        "name": "Ceramics I",
+        "description": "An introduction to the fundamental processes of creating objects in clay with an emphasis on hand-building techniques.",
+        "prerequisites": ["Introduction to Ceramics"]
+    },
+    {
+        "name": "Ceramics II",
+        "description": "A continuation of Ceramics I with an introduction to wheel-throwing and glazing techniques.",
+        "prerequisites": ["Ceramics I"]
+    },
+    {
+        "name": "Advanced Ceramics",
+        "description": "A more in-depth exploration of the craft of ceramics, with an emphasis on glazing, firing, and finishing techniques.",
+        "prerequisites": ["Ceramics I", "Ceramics II"]
+    }
+]

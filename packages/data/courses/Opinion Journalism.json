@@ -1,0 +1,25 @@
+[
+  {
+    "name": "Introduction to Journalism",
+    "description": "This course provides an introduction to the field of Journalism, with a focus on the history, ethics, and professional standards of the practice.",
+    "prerequisites": []
+  },
+  {
+    "name": "Introduction to Opinion Journalism",
+    "description": "This course provides a general overview of Opinion Journalism, with a focus on developing the student’s ability to recognize and analyze opinions.",
+    "prerequisites": ["Introduction to Journalism"]
+  },
+  {
+    "name": "News Writing and Reporting",
+    "description": "This course focuses on the fundamentals of writing and reporting news, including research techniques, interviewing, fact-checking, and reporting accuracy.",
+    "prerequisites": ["Introduction to Journalism"]
+  },
+  {
+    "name": "Editorial Writing and Analysis",
+    "description": "This course focuses on the fundamentals of writing and analyzing editorials, including developing an argument, fact-checking, and researching opposing viewpoints.",
+    "prerequisites": [
+      "Introduction to Opinion Journalism",
+      "News Writing and Reporting"
+    ]
+  }
+]

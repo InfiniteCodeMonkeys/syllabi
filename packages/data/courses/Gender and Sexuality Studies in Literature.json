@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Introduction to Gender and Sexuality Studies in Literature",
+        "description": "This course provides students with an introduction to the field of gender and sexuality studies through a study of historical and contemporary literature.",
+        "prerequisites": []
+    },
+    {
+        "name": "Gender, Race, and Class in Literature",
+        "description": "This course examines how gender, race, and class intersect and interact in literature.",
+        "prerequisites": ["Introduction to Gender and Sexuality Studies in Literature"]
+    },
+    {
+        "name": "Queer Theory and Representation",
+        "description": "This course explores how queer identities are represented in literature and how this representation has changed over time.",
+        "prerequisites": ["Introduction to Gender and Sexuality Studies in Literature", "Gender, Race, and Class in Literature"]
+    },
+    {
+        "name": "Gender and Sexuality in the Postmodern Age",
+        "description": "This course examines how gender and sexuality have been represented in literature since the postmodern period.",
+        "prerequisites": ["Introduction to Gender and Sexuality Studies in Literature", "Gender, Race, and Class in Literature", "Queer Theory and Representation"]
+    }
+]

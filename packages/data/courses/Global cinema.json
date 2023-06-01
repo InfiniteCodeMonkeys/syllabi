@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Introduction to Global Cinema",
+    "description": "A broad survey of global film production from the beginning of the 20th century to the present.",
+    "prerequisites": []
+  },
+  {
+    "name": "History of Film",
+    "description": "A survey of the history of film, including technological developments, major filmmakers, and critical and theoretical approaches.",
+    "prerequisites": []
+  },
+  {
+    "name": "Cinematography",
+    "description": "An in-depth study of the art of cinematography, including camera angles, lighting, and composition.",
+    "prerequisites": []
+  },
+  {
+    "name": "Film Editing",
+    "description": "An in-depth study of the art and technique of film editing, including montage, transitions, and sound design.",
+    "prerequisites": []
+  },
+  {
+    "name": "Film Theory and Criticism",
+    "description": "An introduction to the theories and history of film criticism and film theory, including aesthetic and ideological approaches.",
+    "prerequisites": []
+  },
+  {
+    "name": "Global Cinema and Culture",
+    "description": "An exploration of global film production in relation to culture, politics, and history.",
+    "prerequisites": [
+      "Introduction to Global Cinema",
+      "History of Film",
+      "Cinematography",
+      "Film Editing",
+      "Film Theory and Criticism"
+    ]
+  }
+]

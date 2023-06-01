@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Introduction to Biology",
+        "description": "A course introducing the basics of biology",
+        "prerequisites": []
+    },
+    {
+        "name": "Biochemistry",
+        "description": "A course introducing the fundamentals of biochemistry",
+        "prerequisites": ["Introduction to Biology"]
+    },
+    {
+        "name": "Genomics and Molecular Genetics",
+        "description": "A course introducing the fundamentals of genomics and molecular genetics",
+        "prerequisites": ["Introduction to Biology", "Biochemistry"]
+    },
+    {
+        "name": "Evolutionary Biology",
+        "description": "A course introducing the fundamentals of evolutionary biology",
+        "prerequisites": ["Introduction to Biology", "Biochemistry", "Genomics and Molecular Genetics"]
+    }
+]

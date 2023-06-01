@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Introduction to Religious Studies",
+        "description": "This course provides an introduction to the study of religion from a wide variety of perspectives, including those of history, anthropology, psychology, and philosophy.",
+        "prerequisites": []
+    },
+    {
+        "name": "History of World Religions",
+        "description": "This course provides an overview of the history of major world religions and their impact on culture and society.",
+        "prerequisites": ["Introduction to Religious Studies"]
+    },
+    {
+        "name": "Religious Ethics",
+        "description": "This course explores the ethical implications of various religious beliefs and practices.",
+        "prerequisites": ["Introduction to Religious Studies", "History of World Religions"]
+    },
+    {
+        "name": "Comparative Religion",
+        "description": "This course provides a comparative analysis of the beliefs, rituals, and practices of various religious traditions.",
+        "prerequisites": ["Introduction to Religious Studies", "History of World Religions", "Religious Ethics"]
+    }
+]

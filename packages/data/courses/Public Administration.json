@@ -1,0 +1,39 @@
+[
+  {
+    "name": "Introduction to Public Administration",
+    "description": "This course explores the history of public administration, its role in government, and the various theories and methods used to study it.",
+    "prerequisites": []
+  },
+  {
+    "name": "Political Theory and Public Policy Analysis",
+    "description": "This course explores the relationship between political theory and public policy analysis, examining the various ways in which these two aspects of politics are interconnected.",
+    "prerequisites": ["Introduction to Public Administration"]
+  },
+  {
+    "name": "Public Budgeting and Finance",
+    "description": "This course examines the principles of public budgeting and finance, exploring the various methods used to manage public funds and resources.",
+    "prerequisites": [
+      "Introduction to Public Administration",
+      "Political Theory and Public Policy Analysis"
+    ]
+  },
+  {
+    "name": "Public Management",
+    "description": "This course explores the principles of public management, examining the various theories and methods used to manage public organizations.",
+    "prerequisites": [
+      "Introduction to Public Administration",
+      "Political Theory and Public Policy Analysis",
+      "Public Budgeting and Finance"
+    ]
+  },
+  {
+    "name": "Public Policy Analysis",
+    "description": "This course examines the principles of public policy analysis, exploring the various ways in which policies are created, implemented, and evaluated.",
+    "prerequisites": [
+      "Introduction to Public Administration",
+      "Political Theory and Public Policy Analysis",
+      "Public Budgeting and Finance",
+      "Public Management"
+    ]
+  }
+]

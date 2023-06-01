@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Introduction to Environmental History",
+        "description": "Learn the basics of environmental history and its role in the larger field of history",
+        "prerequisites": []
+    },
+    {
+        "name": "History of the Environment and Society",
+        "description": "Gain an understanding of the connections between the environment and society",
+        "prerequisites": ["Introduction to Environmental History"]
+    },
+    {
+        "name": "Environmental History of the United States",
+        "description": "Examine the history of the United States and how the environment has impacted it",
+        "prerequisites": ["Introduction to Environmental History", "History of the Environment and Society"]
+    },
+    {
+        "name": "Environmental History of the World",
+        "description": "Explore the environment's impact on global history",
+        "prerequisites": ["Introduction to Environmental History", "History of the Environment and Society", "Environmental History of the United States"]
+    }
+]

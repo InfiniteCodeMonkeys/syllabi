@@ -1,0 +1,36 @@
+[
+  {
+    "name": "Introduction to Economics",
+    "description": "This course provides an introduction to micro- and macroeconomics, economic theory, and the study of economic institutions.",
+    "prerequisites": []
+  },
+  {
+    "name": "Intermediate Microeconomics",
+    "description": "This course covers the core principles and theories of microeconomics, including consumer and firm behavior, the behavior of markets, and the determinants of economic performance.",
+    "prerequisites": ["Introduction to Economics"]
+  },
+  {
+    "name": "Intermediate Macroeconomics",
+    "description": "This course covers the core principles and theories of macroeconomics, including economic growth and business cycles, money and banking, fiscal policy, and international economics.",
+    "prerequisites": ["Introduction to Economics"]
+  },
+  {
+    "name": "Econometrics",
+    "description": "This course covers the theory and practice of econometrics, including estimation of linear models, hypothesis testing, and forecasting.",
+    "prerequisites": [
+      "Introduction to Economics",
+      "Intermediate Microeconomics",
+      "Intermediate Macroeconomics"
+    ]
+  },
+  {
+    "name": "Behavioral Economics",
+    "description": "This course covers the principles of behavioral economics, including the psychology of decision making, the role of emotions and social norms, and the implications of economic behavior for public policy.",
+    "prerequisites": [
+      "Introduction to Economics",
+      "Intermediate Microeconomics",
+      "Intermediate Macroeconomics",
+      "Econometrics"
+    ]
+  }
+]

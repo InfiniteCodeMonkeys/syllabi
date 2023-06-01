@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Introduction to Art History",
+        "description": "This course is an introduction to the history of art, focusing on the development of Western and non-Western art from ancient to modern times.",
+        "prerequisites": []
+    },
+    {
+        "name": "Renaissance Art",
+        "description": "This course examines the development of Renaissance art in Europe from the 14th century to the early 17th century.",
+        "prerequisites": ["Introduction to Art History"]
+    },
+    {
+        "name": "High Renaissance Art",
+        "description": "This course focuses on the development of High Renaissance art in Europe from the early 16th century to the early 17th century.",
+        "prerequisites": ["Introduction to Art History", "Renaissance Art"]
+    }
+]

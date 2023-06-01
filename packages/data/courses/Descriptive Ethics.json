@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Introduction to Ethics",
+    "description": "An introductory course in Ethics, covering the fundamentals of the field and an overview of the major ethical theories.",
+    "prerequisites": []
+  },
+  {
+    "name": "Moral Philosophy",
+    "description": "A course exploring different theories of morality and their practical implications.",
+    "prerequisites": ["Introduction to Ethics"]
+  },
+  {
+    "name": "History of Ethics",
+    "description": "A course exploring the history of ethical thought, from Ancient Greece to modern times.",
+    "prerequisites": ["Introduction to Ethics"]
+  },
+  {
+    "name": "Descriptive Ethics",
+    "description": "A course discussing the descriptive ethics of major cultures and religions, and the ethical systems they espouse.",
+    "prerequisites": [
+      "Introduction to Ethics",
+      "Moral Philosophy",
+      "History of Ethics"
+    ]
+  }
+]

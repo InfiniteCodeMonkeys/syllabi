@@ -1,0 +1,87 @@
+[
+    {
+        "name": "Introduction to Classics",
+        "description": "Overview of the study of the ancient Mediterranean world, including literature, history, religion, art, and archaeology.",
+        "prerequisites": []
+    },
+    {
+        "name": "Introduction to Ancient Greek",
+        "description": "Introduction to the language of ancient Greece, including grammar, syntax, and vocabulary.",
+        "prerequisites": []
+    },
+    {
+        "name": "Introduction to Ancient Latin",
+        "description": "Introduction to the language of ancient Rome, including grammar, syntax, and vocabulary.",
+        "prerequisites": []
+    },
+    {
+        "name": "Introduction to Ancient History",
+        "description": "Overview of the civilizations of the ancient Mediterranean, including their literature, religion, politics, and art.",
+        "prerequisites": []
+    },
+    {
+        "name": "Ancient Greek Literature",
+        "description": "Introduction to the literature of ancient Greece, including Homer, tragedy, comedy, and philosophy.",
+        "prerequisites": ["Introduction to Ancient Greek"]
+    },
+    {
+        "name": "Ancient Roman Literature",
+        "description": "Introduction to the literature of ancient Rome, including epic poetry, histories, orations, and satire.",
+        "prerequisites": ["Introduction to Ancient Latin"]
+    },
+    {
+        "name": "Archaeology of the Ancient Mediterranean",
+        "description": "Introduction to the archaeology of the ancient Mediterranean, including excavation techniques, cultural artifacts, and the interpretation of archaeological data.",
+        "prerequisites": ["Introduction to Ancient History"]
+    },
+    {
+        "name": "History of the Ancient Mediterranean",
+        "description": "Introduction to the history of the ancient Mediterranean, including political structures, wars, and major historical events.",
+        "prerequisites": ["Introduction to Ancient History"]
+    },
+    {
+        "name": "Ancient Greek Religion",
+        "description": "Introduction to the religion of ancient Greece, including the gods, myths, and cults.",
+        "prerequisites": ["Introduction to Ancient Greek", "Introduction to Ancient History"]
+    },
+    {
+        "name": "Ancient Roman Religion",
+        "description": "Introduction to the religion of ancient Rome, including the gods, myths, and cults.",
+        "prerequisites": ["Introduction to Ancient Latin", "Introduction to Ancient History"]
+    },
+    {
+        "name": "Advanced Ancient Greek Literature",
+        "description": "Introduction to advanced topics in ancient Greek literature, including the works of Homer, tragedy, comedy, and philosophy.",
+        "prerequisites": ["Introduction to Ancient Greek", "Ancient Greek Literature"]
+    },
+    {
+        "name": "Advanced Ancient Roman Literature",
+        "description": "Introduction to advanced topics in ancient Roman literature, including epic poetry, histories, orations, and satire.",
+        "prerequisites": ["Introduction to Ancient Latin", "Ancient Roman Literature"]
+    },
+    {
+        "name": "Advanced Archaeology of the Ancient Mediterranean",
+        "description": "Advanced topics in the archaeology of the ancient Mediterranean, including excavation techniques, cultural artifacts, and the interpretation of archaeological data.",
+        "prerequisites": ["Introduction to Ancient History", "Archaeology of the Ancient Mediterranean"]
+    },
+    {
+        "name": "Advanced History of the Ancient Mediterranean",
+        "description": "Advanced topics in the history of the ancient Mediterranean, including political structures, wars, and major historical events.",
+        "prerequisites": ["Introduction to Ancient History", "History of the Ancient Mediterranean"]
+    },
+    {
+        "name": "Advanced Ancient Greek Religion",
+        "description": "Advanced topics in the religion of ancient Greece, including the gods, myths, and cults.",
+        "prerequisites": ["Introduction to Ancient Greek", "Introduction to Ancient History", "Ancient Greek Religion"]
+    },
+    {
+        "name": "Advanced Ancient Roman Religion",
+        "description": "Advanced topics in the religion of ancient Rome, including the gods, myths, and cults.",
+        "prerequisites": ["Introduction to Ancient Latin", "Introduction to Ancient History", "Ancient Roman Religion"]
+    },
+    {
+        "name": "Ancient History",
+        "description": "Overview of the civilizations of the ancient Mediterranean, including their literature, religion, politics, and art.",
+        "prerequisites": ["Introduction to Classics", "Introduction to Ancient Greek", "Introduction to Ancient Latin", "Introduction to Ancient History", "Ancient Greek Literature", "Ancient Roman Literature", "Archaeology of the Ancient Mediterranean", "History of the Ancient Mediterranean", "Ancient Greek Religion", "Ancient Roman Religion", "Advanced Ancient Greek Literature", "Advanced Ancient Roman Literature", "Advanced Archaeology of the Ancient Mediterranean", "Advanced History of the Ancient Mediterranean", "Advanced Ancient Greek Religion", "Advanced Ancient Roman Religion"]
+    }
+]

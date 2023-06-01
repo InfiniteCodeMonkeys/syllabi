@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Introduction to Physics",
+        "description": "A basic course introducing physics fundamentals and concepts.",
+        "prerequisites": []
+    },
+    {
+        "name": "Classical Mechanics",
+        "description": "A course introducing the principles of classical mechanics.",
+        "prerequisites": ["Introduction to Physics"]
+    },
+    {
+        "name": "Quantum Mechanics",
+        "description": "A course introducing the principles of quantum mechanics.",
+        "prerequisites": ["Introduction to Physics", "Classical Mechanics"]
+    },
+    {
+        "name": "Statistical Mechanics",
+        "description": "A course introducing the principles of statistical mechanics.",
+        "prerequisites": ["Classical Mechanics", "Quantum Mechanics"]
+    },
+    {
+        "name": "Thermodynamics",
+        "description": "A course introducing the principles of thermodynamics.",
+        "prerequisites": ["Classical Mechanics"]
+    },
+    {
+        "name": "Electromagnetism",
+        "description": "A course introducing the principles of electromagnetism.",
+        "prerequisites": ["Classical Mechanics", "Thermodynamics"]
+    },
+    {
+        "name": "Advanced Electromagnetism",
+        "description": "A more advanced course introducing more advanced principles of electromagnetism.",
+        "prerequisites": ["Classical Mechanics", "Thermodynamics", "Electromagnetism"]
+    },
+    {
+        "name": "High Energy Physics",
+        "description": "A course introducing the principles of high energy physics.",
+        "prerequisites": ["Quantum Mechanics", "Statistical Mechanics", "Advanced Electromagnetism"]
+    }
+]

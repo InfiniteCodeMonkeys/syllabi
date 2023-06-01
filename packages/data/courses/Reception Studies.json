@@ -1,0 +1,47 @@
+[
+    {
+        "name": "Introduction to Greek",
+        "description": "Introduces students to the basics of ancient Greek language and literature.",
+        "prerequisites": []
+    },
+    {
+        "name": "Introduction to Latin",
+        "description": "Introduces students to the basics of ancient Latin language and literature.",
+        "prerequisites": []
+    },
+    {
+        "name": "Introduction to Classical Mythology",
+        "description": "Introduces students to the gods, goddesses, and stories of classical antiquity.",
+        "prerequisites": []
+    },
+    {
+        "name": "Intermediate Greek",
+        "description": "Continues to build on the fundamentals of ancient Greek language and literature.",
+        "prerequisites": ["Introduction to Greek"]
+    },
+    {
+        "name": "Intermediate Latin",
+        "description": "Continues to build on the fundamentals of ancient Latin language and literature.",
+        "prerequisites": ["Introduction to Latin"]
+    },
+    {
+        "name": "Classical Studies",
+        "description": "Provides an overview of the major works of classical literature and art.",
+        "prerequisites": ["Introduction to Greek", "Introduction to Latin", "Introduction to Classical Mythology"]
+    },
+    {
+        "name": "Advanced Greek",
+        "description": "Focuses on more advanced topics in ancient Greek language and literature.",
+        "prerequisites": ["Intermediate Greek"]
+    },
+    {
+        "name": "Advanced Latin",
+        "description": "Focuses on more advanced topics in ancient Latin language and literature.",
+        "prerequisites": ["Intermediate Latin"]
+    },
+    {
+        "name": "Introduction to Reception Studies",
+        "description": "Introduces students to the field of reception studies and its major debates.",
+        "prerequisites": ["Classical Studies", "Advanced Greek", "Advanced Latin"]
+    }
+]

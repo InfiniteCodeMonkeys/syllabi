@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Introduction to Anthropology",
+    "description": "A course introducing the fundamentals of anthropology, including physical anthropology, archaeology, and cultural anthropology.",
+    "prerequisites": []
+  },
+  {
+    "name": "Cultural Anthropology",
+    "description": "A course focusing on the study of human culture, including the study of social organizations, language, religion, and other aspects of human societies.",
+    "prerequisites": ["Introduction to Anthropology"]
+  },
+  {
+    "name": "Archaeology",
+    "description": "A course focusing on the study of human history and prehistory through the analysis of material culture.",
+    "prerequisites": ["Introduction to Anthropology"]
+  },
+  {
+    "name": "Physical Anthropology",
+    "description": "A course focusing on the study of the biological and behavioral aspects of humans, their extinct hominin ancestors, and their primate relatives.",
+    "prerequisites": ["Introduction to Anthropology"]
+  },
+  {
+    "name": "Advanced Cultural Anthropology",
+    "description": "A course focusing on more advanced topics in cultural anthropology, such as social change, power and politics, and globalization.",
+    "prerequisites": ["Introduction to Anthropology", "Cultural Anthropology"]
+  },
+  {
+    "name": "Advanced Archaeology",
+    "description": "A course focusing on more advanced topics in archaeology, such as archaeological theory, archaeological methods, and archaeological analysis.",
+    "prerequisites": ["Introduction to Anthropology", "Archaeology"]
+  },
+  {
+    "name": "Advanced Physical Anthropology",
+    "description": "A course focusing on more advanced topics in physical anthropology, such as human evolution, primate behavior, and human genetics.",
+    "prerequisites": ["Introduction to Anthropology", "Physical Anthropology"]
+  }
+]

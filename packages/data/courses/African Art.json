@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Introduction to Art History",
+        "description": "This course provides an overview of the history of art from ancient to modern. It examines the development of visual arts from various cultures and civilisations and introduces students to the major works of art and their historical and cultural contexts.",
+        "prerequisites": []
+    },
+    {
+        "name": "African Art History",
+        "description": "This course introduces students to the history of African art from ancient to modern. It examines the development of African visual arts from various cultures and civilisations and explores the major works of art and their historical and cultural contexts.",
+        "prerequisites": ["Introduction to Art History"]
+    },
+    {
+        "name": "Modern African Art History",
+        "description": "This course examines the development of modern African art from the twentieth century to the present. It focuses on the works of influential African artists and explores the historical and cultural contexts in which they were created.",
+        "prerequisites": ["African Art History"]
+    }
+]

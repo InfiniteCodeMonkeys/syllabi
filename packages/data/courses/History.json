@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Introduction to Humanities",
+        "description": "An overview of the history, literature, art, music, philosophy, and other aspects of human culture.",
+        "prerequisites": []
+    },
+    {
+        "name": "History of Ancient Civilizations",
+        "description": "A study of the civilizations that existed in the ancient world, including their political, social, and cultural development.",
+        "prerequisites": ["Introduction to Humanities"]
+    },
+    {
+        "name": "Classical Art and Architecture",
+        "description": "A study of the art and architecture of ancient Greece and Rome.",
+        "prerequisites": ["History of Ancient Civilizations"]
+    },
+    {
+        "name": "Medieval History and Art",
+        "description": "A study of the history and art of the Middle Ages.",
+        "prerequisites": ["History of Ancient Civilizations", "Classical Art and Architecture"]
+    },
+    {
+        "name": "Renaissance and Reformation History",
+        "description": "A study of the history of the Renaissance and Reformation.",
+        "prerequisites": ["Medieval History and Art"]
+    },
+    {
+        "name": "Modern History",
+        "description": "A study of the history of the modern era, from the 17th century to the present day.",
+        "prerequisites": ["Renaissance and Reformation History"]
+    }
+]

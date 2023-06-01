@@ -1,0 +1,36 @@
+[
+  {
+    "name": "Introduction to Archaeology",
+    "description": "This course will provide an introduction to the field of archaeology, including the history and methods of archaeology, as well as an overview of the different types of archaeological research.",
+    "prerequisites": []
+  },
+  {
+    "name": "Archaeological Fieldwork",
+    "description": "This course will teach students the techniques and methods used in archaeological fieldwork, from the initial planning of an excavation to the completion of a site report.",
+    "prerequisites": ["Introduction to Archaeology"]
+  },
+  {
+    "name": "Archaeological Laboratory Methods",
+    "description": "This course will teach students the techniques and methods used in archaeological laboratory analysis, including the use of specialized equipment and techniques for artifact analysis.",
+    "prerequisites": ["Introduction to Archaeology"]
+  },
+  {
+    "name": "Archaeology of Ancient Egypt",
+    "description": "This course will provide an in-depth study of the archaeology of Ancient Egypt, including an overview of the history and culture of Ancient Egypt, as well as the archaeological sites, artifacts, and other evidence for the study of the ancient civilization.",
+    "prerequisites": [
+      "Introduction to Archaeology",
+      "Archaeological Fieldwork",
+      "Archaeological Laboratory Methods"
+    ]
+  },
+  {
+    "name": "Advanced Archaeology of Ancient Egypt",
+    "description": "This course will provide an advanced study of the archaeology of Ancient Egypt, including an in-depth analysis of the archaeological sites, artifacts, and other evidence for the study of the ancient civilization.",
+    "prerequisites": [
+      "Introduction to Archaeology",
+      "Archaeological Fieldwork",
+      "Archaeological Laboratory Methods",
+      "Archaeology of Ancient Egypt"
+    ]
+  }
+]

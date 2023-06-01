@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Introduction to Linguistics",
+        "description": "An introductory course to the field of Linguistics, covering the fundamentals of language and linguistics.",
+        "prerequisites": []
+    },
+    {
+        "name": "Introduction to Neurolinguistics",
+        "description": "An introductory course to Neurolinguistics, covering the fundamentals of the neurological basis of language and the relationship between language and the brain.",
+        "prerequisites": ["Introduction to Linguistics"]
+    },
+    {
+        "name": "Neurolinguistics of Reading and Writing",
+        "description": "A course covering the neurological basis of reading and writing, including the relationship between the brain and language.",
+        "prerequisites": ["Introduction to Neurolinguistics", "Introduction to Linguistics"]
+    },
+    {
+        "name": "Neurolinguistics of Speech and Language",
+        "description": "A course covering the neurological basis of speech and language, including the relationship between the brain and language.",
+        "prerequisites": ["Introduction to Neurolinguistics", "Introduction to Linguistics"]
+    },
+    {
+        "name": "Advanced Neurolinguistics",
+        "description": "An advanced course in Neurolinguistics, exploring the neurological basis of language and the relationship between language and the brain.",
+        "prerequisites": ["Neurolinguistics of Reading and Writing", "Neurolinguistics of Speech and Language", "Introduction to Neurolinguistics", "Introduction to Linguistics"]
+    }
+]

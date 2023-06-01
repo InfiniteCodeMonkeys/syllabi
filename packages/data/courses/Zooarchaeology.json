@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Introduction to Archaeology",
+    "description": "This course provides a broad overview of the field of archaeology, including a wide range of topics, such as archaeological theory, methods, and the history of archaeology. It is designed to provide an introduction to the field and to provide a foundation for more advanced courses.",
+    "prerequisites": []
+  },
+  {
+    "name": "Introduction to Zooarchaeology",
+    "description": "This course provides an introduction to zooarchaeology, a sub-discipline of archaeology that focuses on the study of animal bones. The course covers the basics of zooarchaeological analysis, from excavation and identification of animal bones to the interpretation of animal remains in archaeological contexts.",
+    "prerequisites": ["Introduction to Archaeology"]
+  },
+  {
+    "name": "Taphonomy",
+    "description": "This course focuses on the study of animal bones in archaeological contexts. It covers the processes of decay and preservation of animal bones, as well as the ways in which animal remains can be used to interpret past environments and human behavior.",
+    "prerequisites": ["Introduction to Zooarchaeology"]
+  },
+  {
+    "name": "Advanced Zooarchaeology",
+    "description": "This course provides an advanced overview of the field of zooarchaeology. The course covers topics such as the use of isotopic and molecular methods to study animal bones, as well as the use of animal bones in reconstructing past environments and human behavior.",
+    "prerequisites": ["Introduction to Zooarchaeology", "Taphonomy"]
+  }
+]

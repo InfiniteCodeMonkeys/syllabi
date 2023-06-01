@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Introduction to Economics",
+        "description": "An introduction to the basic concepts of economics",
+        "prerequisites": []
+    },
+    {
+        "name": "Microeconomics",
+        "description": "Study of the behavior of individuals and small groups in the economy",
+        "prerequisites": ["Introduction to Economics"]
+    },
+    {
+        "name": "Macroeconomics",
+        "description": "Study of the behavior of the economy as a whole",
+        "prerequisites": ["Introduction to Economics"]
+    },
+    {
+        "name": "Econometrics",
+        "description": "Application of statistical methods to economic data",
+        "prerequisites": ["Microeconomics", "Macroeconomics"]
+    },
+    {
+        "name": "Economics of Human Resources",
+        "description": "Study of the impact of economic forces on the labor market",
+        "prerequisites": ["Microeconomics", "Macroeconomics", "Econometrics"]
+    }
+]

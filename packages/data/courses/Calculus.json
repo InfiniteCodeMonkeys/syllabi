@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Introduction to Calculus",
+    "description": "A course introducing students to the basics of calculus, including derivatives and integrals.",
+    "prerequisites": []
+  },
+  {
+    "name": "Calculus I",
+    "description": "A course on the foundational principles of calculus, including derivatives and integrals.",
+    "prerequisites": ["Introduction to Calculus"]
+  },
+  {
+    "name": "Calculus II",
+    "description": "An intermediate course on the principles of calculus, including series, parametric equations, and polar coordinates.",
+    "prerequisites": ["Calculus I"]
+  },
+  {
+    "name": "Calculus III",
+    "description": "A further advanced course on the principles of calculus, including multi-variable calculus and vector calculus.",
+    "prerequisites": ["Calculus II"]
+  }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Introduction to Humanities",
+        "description": "An introduction to the basics of Humanities",
+        "prerequisites": []
+    },
+    {
+        "name": "Introduction to Sociology",
+        "description": "An introduction to the basics of Sociology",
+        "prerequisites": ["Introduction to Humanities"]
+    },
+    {
+        "name": "Social Interactions and Social Structures",
+        "description": "An introduction to the social interactions and social structures in sociology",
+        "prerequisites": ["Introduction to Sociology"]
+    },
+    {
+        "name": "Cultural Studies in Sociology",
+        "description": "An introduction to the study of cultures in sociology",
+        "prerequisites": ["Introduction to Sociology", "Social Interactions and Social Structures"]
+    },
+    {
+        "name": "Political Sociology",
+        "description": "An introduction to the study of politics in sociology",
+        "prerequisites": ["Introduction to Sociology", "Social Interactions and Social Structures"]
+    },
+    {
+        "name": "Advanced Sociology",
+        "description": "A more advanced overview of Sociology",
+        "prerequisites": ["Introduction to Sociology", "Social Interactions and Social Structures", "Cultural Studies in Sociology", "Political Sociology"]
+    }
+]

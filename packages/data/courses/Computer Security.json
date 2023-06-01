@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Introduction to Computer Science",
+        "description": "This course offers an introduction to the field of computer science, introducing students to the fundamentals of programming and computer systems.",
+        "prerequisites": []
+    },
+    {
+        "name": "Data Structures and Algorithms",
+        "description": "This course covers basic techniques and approaches for designing and analyzing algorithms and data structures.",
+        "prerequisites": ["Introduction to Computer Science"]
+    },
+    {
+        "name": "Operating Systems",
+        "description": "This course covers the fundamentals of operating systems, including topics such as process scheduling, memory management, and filesystems.",
+        "prerequisites": ["Introduction to Computer Science", "Data Structures and Algorithms"]
+    },
+    {
+        "name": "Computer Networks",
+        "description": "This course covers the fundamentals of computer networking, including topics such as network protocols, routing, and security.",
+        "prerequisites": ["Introduction to Computer Science", "Data Structures and Algorithms"]
+    },
+    {
+        "name": "Computer Security",
+        "description": "This course covers the fundamentals of computer security, including topics such as authentication, encryption, and network security.",
+        "prerequisites": ["Introduction to Computer Science", "Data Structures and Algorithms", "Operating Systems", "Computer Networks"]
+    }
+]

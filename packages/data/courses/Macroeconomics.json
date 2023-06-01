@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Introduction to Economics",
+    "description": "An introductory course to Economics, covering basic concepts such as supply and demand, economic growth, and fiscal policy.",
+    "prerequisites": []
+  },
+  {
+    "name": "Intermediate Economics",
+    "description": "An intermediate course in Economics, covering more complex topics such as economic cycles, monetary policy, and economic theory.",
+    "prerequisites": ["Introduction to Economics"]
+  },
+  {
+    "name": "Macroeconomics",
+    "description": "A course in Macroeconomics, covering topics such as international economics, macroeconomic policy, and economic forecasting.",
+    "prerequisites": ["Introduction to Economics", "Intermediate Economics"]
+  }
+]

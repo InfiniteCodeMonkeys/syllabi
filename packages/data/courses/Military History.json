@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Introduction to Military History",
+        "description": "An introductory course covering the basics of military history.",
+        "prerequisites": []
+    },
+    {
+        "name": "Ancient Warfare",
+        "description": "A course covering the warfare of ancient civilizations.",
+        "prerequisites": ["Introduction to Military History"]
+    },
+    {
+        "name": "Medieval Warfare",
+        "description": "A course covering the warfare of the medieval period.",
+        "prerequisites": ["Introduction to Military History"]
+    },
+    {
+        "name": "Early Modern Warfare",
+        "description": "A course covering the warfare of the early modern period.",
+        "prerequisites": ["Introduction to Military History", "Ancient Warfare", "Medieval Warfare"]
+    },
+    {
+        "name": "Modern Warfare",
+        "description": "A course covering the warfare of the modern period.",
+        "prerequisites": ["Introduction to Military History", "Ancient Warfare", "Medieval Warfare", "Early Modern Warfare"]
+    },
+    {
+        "name": "Contemporary Warfare",
+        "description": "A course covering the warfare of the contemporary period.",
+        "prerequisites": ["Introduction to Military History", "Ancient Warfare", "Medieval Warfare", "Early Modern Warfare", "Modern Warfare"]
+    }
+]

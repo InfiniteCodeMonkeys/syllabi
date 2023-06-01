@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Introduction to Economics",
+    "description": "This course introduces students to the fundamentals of economics, including supply and demand, market structures, economic decision making, and economic concepts.",
+    "prerequisites": []
+  },
+  {
+    "name": "Intermediate Microeconomics",
+    "description": "This course introduces students to the microeconomic foundations of industrial organization, including game theory, market power, and pricing strategies.",
+    "prerequisites": ["Introduction to Economics"]
+  },
+  {
+    "name": "Industrial Organization",
+    "description": "This course introduces students to the theories and empirics of industrial organization, including markets with imperfect competition, antitrust, and government regulation.",
+    "prerequisites": ["Intermediate Microeconomics"]
+  }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Introduction to Biology",
+        "description": "This course introduces students to the fundamentals of biology, including the scientific method, cell structure and function, genetics, evolution, and ecology.",
+        "prerequisites": []
+    },
+    {
+        "name": "General Physiology",
+        "description": "This course covers the fundamentals of physiology, including cells, tissues, organs, and systems. It also covers the endocrine, cardiovascular, respiratory, and digestive systems.",
+        "prerequisites": ["Introduction to Biology"]
+    },
+    {
+        "name": "Organic Chemistry",
+        "description": "This course covers the fundamentals of organic chemistry, including the structure, properties, and reactions of organic compounds.",
+        "prerequisites": ["Introduction to Biology"]
+    },
+    {
+        "name": "Biochemistry",
+        "description": "This course covers the fundamentals of biochemistry, including the structure and function of proteins, carbohydrates, lipids, and nucleic acids.",
+        "prerequisites": ["Organic Chemistry", "General Physiology"]
+    },
+    {
+        "name": "Advanced Physiology",
+        "description": "This course covers the advanced topics in physiology, including the endocrine, cardiovascular, respiratory, and digestive systems, as well as metabolism and homeostasis.",
+        "prerequisites": ["Organic Chemistry", "General Physiology", "Biochemistry"]
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Introduction to English Literature",
+        "description": "A course introducing the basics of English Literature from its earliest forms to the present day.",
+        "prerequisites": []
+    },
+    {
+        "name": "Medieval Literature",
+        "description": "A course covering the literature of the Middle Ages, from Old English to the Renaissance.",
+        "prerequisites": ["Introduction to English Literature"]
+    },
+    {
+        "name": "Renaissance Literature",
+        "description": "A course covering the literature of the Renaissance period, from the 16th century to the late 17th century.",
+        "prerequisites": ["Introduction to English Literature", "Medieval Literature"]
+    },
+    {
+        "name": "Early Modern Literature",
+        "description": "A course covering the literature of the Early Modern period, from the late 17th century to the early 19th century.",
+        "prerequisites": ["Introduction to English Literature", "Medieval Literature", "Renaissance Literature"]
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Introduction to Chemistry",
+        "description": "A general introduction to Chemistry, this course covers the fundamental principles and theories in the field.",
+        "prerequisites": []
+    },
+    {
+        "name": "Organic Chemistry",
+        "description": "This course introduces the principles of organic chemistry and its applications to real-world problems.",
+        "prerequisites": ["Introduction to Chemistry"]
+    },
+    {
+        "name": "Inorganic Chemistry",
+        "description": "This course covers the principles of inorganic chemistry, including the nature and properties of elements and molecules.",
+        "prerequisites": ["Organic Chemistry"]
+    },
+    {
+        "name": "Physical Chemistry",
+        "description": "This course covers the principles of physical chemistry, including thermodynamics, quantum mechanics, and statistical mechanics.",
+        "prerequisites": ["Organic Chemistry", "Inorganic Chemistry"]
+    },
+    {
+        "name": "Theoretical Chemistry",
+        "description": "This course covers the principles of theoretical chemistry, including quantum mechanics, computational chemistry, and chemical dynamics.",
+        "prerequisites": ["Organic Chemistry", "Inorganic Chemistry", "Physical Chemistry"]
+    }
+]

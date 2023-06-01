@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Introduction to Neuroscience", 
+    "description": "A broad overview of the fundamentals of Neuroscience, covering the basics of the structure and function of the nervous system.", 
+    "prerequisites": []
+  },
+  {
+    "name": "Neurophysiology", 
+    "description": "A course focused on the physiology of nerve cells and their interactions with one another, with an emphasis on the methods of quantitative analysis.", 
+    "prerequisites": ["Introduction to Neuroscience"]
+  },
+  {
+    "name": "Neurochemistry", 
+    "description": "A course focused on the chemistry of the nervous system, with an emphasis on the chemistry of neurotransmitters and the role they play in the functioning of the nervous system.", 
+    "prerequisites": ["Introduction to Neuroscience"]
+  },
+  {
+    "name": "Cognitive Neuroscience", 
+    "description": "A course exploring the relationship between the brain and behavior, focusing on how the brain influences cognitive processes such as perception, attention, memory, language, and decision-making.", 
+    "prerequisites": ["Neurophysiology", "Neurochemistry"]
+  }
+]

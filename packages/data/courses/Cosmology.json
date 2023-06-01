@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Astronomy Introduction",
+    "description": "An introduction to the field of Astronomy, including the history of Astronomy, the study of light and radiation, the Solar System, and the Milky Way Galaxy.",
+    "prerequisites": []
+  },
+  {
+    "name": "Theoretical Astrophysics I",
+    "description": "An introduction to the basic principles of theoretical astrophysics, including the theory of stellar structure, hydrodynamic equations, and stellar evolution.",
+    "prerequisites": ["Astronomy Introduction"]
+  },
+  {
+    "name": "Theoretical Astrophysics II",
+    "description": "A continuation of Theoretical Astrophysics I, covering topics such as stellar populations, star formation, galactic structure and evolution, and cosmology.",
+    "prerequisites": ["Theoretical Astrophysics I"]
+  },
+  {
+    "name": "Cosmology",
+    "description": "A survey of the modern theories of cosmology, including topics such as the Big Bang, the evolution of the universe, and the structure of the universe.",
+    "prerequisites": ["Theoretical Astrophysics II"]
+  }
+]

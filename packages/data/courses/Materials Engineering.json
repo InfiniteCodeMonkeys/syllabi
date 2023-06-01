@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Introduction to Engineering",
+    "description": "This course introduces students to the engineering profession and provides an overview of the engineering disciplines.",
+    "prerequisites": []
+  },
+  {
+    "name": "Engineering Mechanics",
+    "description": "This course covers basic principles of statics and dynamics, including forces, couples, structures, trusses, friction, and kinematics.",
+    "prerequisites": []
+  },
+  {
+    "name": "Material Science and Engineering",
+    "description": "This course covers the fundamentals of materials science and engineering, including structure, properties, processing, and behavior of materials.",
+    "prerequisites": []
+  },
+  {
+    "name": "Thermodynamics",
+    "description": "This course covers the principles of thermodynamics, including the laws of thermodynamics, the properties of fluids, and heat transfer.",
+    "prerequisites": []
+  },
+  {
+    "name": "Introduction to Materials Engineering",
+    "description": "This course provides an introduction to the field of materials engineering, including the properties and processing of materials.",
+    "prerequisites": ["Engineering Mechanics", "Material Science and Engineering", "Thermodynamics"]
+  },
+  {
+    "name": "Materials Processing",
+    "description": "This course covers the basics of materials processing, including casting, forming, joining, and machining of materials.",
+    "prerequisites": ["Introduction to Materials Engineering"]
+  },
+  {
+    "name": "Materials Characterization",
+    "description": "This course covers the fundamentals of materials characterization, including microscopy, spectroscopy, and mechanical testing.",
+    "prerequisites": ["Introduction to Materials Engineering"]
+  },
+  {
+    "name": "Materials Selection and Design",
+    "description": "This course covers the basics of materials selection and design, including the principles of materials selection and the design of materials components.",
+    "prerequisites": ["Materials Processing", "Materials Characterization"]
+  }
+]

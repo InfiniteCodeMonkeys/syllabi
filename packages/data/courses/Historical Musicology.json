@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Introduction to Historical Musicology",
+        "description": "This course introduces students to the field of Historical Musicology, covering the history of music, music theory, and performance practice.",
+        "prerequisites": []
+    },
+    {
+        "name": "Music of the Middle Ages",
+        "description": "This course covers the history of music from the Middle Ages to the early modern period, with a focus on notation, performance practice, and composition.",
+        "prerequisites": ["Introduction to Historical Musicology"]
+    },
+    {
+        "name": "Music of the Baroque and Classical Periods",
+        "description": "This course covers the history of music from the Baroque to the Classical period, with a focus on notation, performance practice, and composition.",
+        "prerequisites": ["Music of the Middle Ages", "Introduction to Historical Musicology"]
+    },
+    {
+        "name": "Music of the Romantic and Modern Periods",
+        "description": "This course covers the history of music from the Romantic to the Modern period, with a focus on notation, performance practice, and composition.",
+        "prerequisites": ["Music of the Baroque and Classical Periods", "Music of the Middle Ages", "Introduction to Historical Musicology"]
+    }
+]

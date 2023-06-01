@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Introduction to Theater and Performance Studies",
+    "description": "This course introduces students to the field of Theater and Performance Studies, exploring the cultural, political, and economic contexts of theatrical performance in different societies and times.",
+    "prerequisites": []
+  },
+  {
+    "name": "Playwriting I",
+    "description": "This course will introduce the theory and practice of playwriting. It will explore the elements of playwriting, including structure, character, dialogue, and theme. Additionally, the course will provide an opportunity for students to write their own plays.",
+    "prerequisites": ["Introduction to Theater and Performance Studies"]
+  },
+  {
+    "name": "Playwriting II",
+    "description": "This course is a continuation of Playwriting I, providing an opportunity for students to further hone their writing skills. Students will write and workshop their own plays, as well as analyze existing plays.",
+    "prerequisites": ["Playwriting I"]
+  },
+  {
+    "name": "Advanced Playwriting",
+    "description": "This course is a more advanced study of the craft of playwriting. It will focus on more complex techniques, such as structure, character development, language, and genre. Additionally, students will have the opportunity to workshop their own plays.",
+    "prerequisites": ["Playwriting I", "Playwriting II"]
+  }
+]

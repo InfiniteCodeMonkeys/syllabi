@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Introduction to Anthropology",
+    "description": "This course provides an introduction to the study of anthropology, including a description of its basic concepts, theories, and methods.",
+    "prerequisites": []
+  },
+  {
+    "name": "Ethnography",
+    "description": "This course provides an introduction to ethnographic methods, including methods of participant observation, interviewing, and fieldwork.",
+    "prerequisites": []
+  },
+  {
+    "name": "Cultural Anthropology",
+    "description": "This course provides an introduction to the field of cultural anthropology, including the study of culture and its effects on human behavior.",
+    "prerequisites": ["Introduction to Anthropology", "Ethnography"]
+  },
+  {
+    "name": "Psychological Anthropology",
+    "description": "This course provides an introduction to the field of psychological anthropology, including the study of the psychological and cognitive aspects of culture and behavior.",
+    "prerequisites": ["Cultural Anthropology"]
+  }
+]

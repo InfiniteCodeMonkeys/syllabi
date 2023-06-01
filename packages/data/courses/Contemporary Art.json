@@ -1,0 +1,22 @@
+[
+        {
+            "name": "Introduction to Art History",
+            "description": "This course is an introduction to the history of art, its major movements, and its relationship to various world cultures.",
+            "prerequisites": []
+        },
+        {
+            "name": "The History of Western Art",
+            "description": "This course examines the history of Western art from the Renaissance to the present day.",
+            "prerequisites": ["Introduction to Art History"]
+        },
+        {
+            "name": "Modern Art",
+            "description": "This course explores the major movements of modern art from the 19th to the 21st centuries.",
+            "prerequisites": ["Introduction to Art History", "The History of Western Art"]
+        },
+        {
+            "name": "Contemporary Art",
+            "description": "This course explores the major movements and trends of contemporary art from the late 20th century to the present day.",
+            "prerequisites": ["Introduction to Art History", "The History of Western Art", "Modern Art"]
+        }
+    ]

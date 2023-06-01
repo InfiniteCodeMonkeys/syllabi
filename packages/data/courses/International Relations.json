@@ -1,0 +1,40 @@
+[
+  {
+    "name": "Introduction to International Relations",
+    "description": "A survey course of the field of International Relations, covering the major theories, actors, conflicts, and institutions of global politics.",
+    "prerequisites": []
+  },
+  {
+    "name": "International Security",
+    "description": "A study of the sources of security and insecurity in the international system, including the causes and consequences of war, the rise of terrorism, and the dynamics of arms control.",
+    "prerequisites": []
+  },
+  {
+    "name": "International Political Economy",
+    "description": "An examination of the interaction between politics and economics in the international system, including the roles of states, international institutions, and multinational corporations.",
+    "prerequisites": []
+  },
+  {
+    "name": "Comparative Politics",
+    "description": "An introduction to the study of political systems around the world, covering topics such as political culture, regime types, democratization, and globalization.",
+    "prerequisites": []
+  },
+  {
+    "name": "International Law",
+    "description": "A survey of the major legal instruments and institutions governing international relations, from the UN Charter to the International Court of Justice.",
+    "prerequisites": ["Introduction to International Relations"]
+  },
+  {
+    "name": "International Organizations",
+    "description": "An exploration of the role of international organizations in global governance, focusing on the structure and functioning of the UN and other major international institutions.",
+    "prerequisites": [
+      "International Security",
+      "International Political Economy"
+    ]
+  },
+  {
+    "name": "International Negotiation and Conflict Resolution",
+    "description": "An introduction to the theory and practice of international negotiation and conflict resolution, covering topics such as game theory, bargaining, and mediation.",
+    "prerequisites": ["International Law", "Comparative Politics"]
+  }
+]

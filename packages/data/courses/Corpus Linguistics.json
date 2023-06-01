@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Introduction to Linguistics",
+        "description": "Introduction to the field of linguistics, including an overview of the history, structure, and methods of linguistics.",
+        "prerequisites": []
+    },
+    {
+        "name": "Introduction to Computational Linguistics",
+        "description": "Introduction to the field of computational linguistics, including an overview of automated language processing.",
+        "prerequisites": []
+    },
+    {
+        "name": "Corpus Linguistics",
+        "description": "Introduction to the field of corpus linguistics, including an overview of corpus construction and analysis methods.",
+        "prerequisites": ["Introduction to Linguistics", "Introduction to Computational Linguistics"]
+    },
+    {
+        "name": "Advanced Corpus Linguistics",
+        "description": "Advanced topics in corpus linguistics, including an overview of corpus-based language models and applications.",
+        "prerequisites": ["Corpus Linguistics"]
+    }
+]

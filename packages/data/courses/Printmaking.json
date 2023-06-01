@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Introduction to Printmaking",
+        "description": "This course covers the basics of printmaking techniques such as relief printing, intaglio, lithography, and screen printing.",
+        "prerequisites": []
+    },
+    {
+        "name": "Intermediate Printmaking",
+        "description": "This course builds on the concepts learned in the introductory course, covering more advanced printmaking techniques.",
+        "prerequisites": ["Introduction to Printmaking"]
+    },
+    {
+        "name": "Advanced Printmaking",
+        "description": "This course builds on the concepts learned in the intermediate course, covering even more advanced printmaking techniques.",
+        "prerequisites": ["Introduction to Printmaking", "Intermediate Printmaking"]
+    }
+]

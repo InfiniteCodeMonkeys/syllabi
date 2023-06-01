@@ -1,0 +1,36 @@
+[
+  {
+    "name": "Introduction to Zoology",
+    "description": "This course provides an overview of the field of zoology and its sub-disciplines, including Ethology. It covers principles of animal structure and function, behavior, ecology, and evolution.",
+    "prerequisites": []
+  },
+  {
+    "name": "Animal Behavior",
+    "description": "This course introduces students to the study of animal behavior. It covers topics such as learning, communication, mating behavior, and social behavior.",
+    "prerequisites": ["Introduction to Zoology"]
+  },
+  {
+    "name": "Animal Physiology",
+    "description": "This course introduces students to the physiology of animals, including the structure and function of cells, tissues, and organ systems. It covers principles of metabolism, nutrition, gas exchange, circulation, and excretion.",
+    "prerequisites": ["Introduction to Zoology"]
+  },
+  {
+    "name": "Animal Ecology",
+    "description": "This course introduces students to the study of animal populations in their environment, including the effects of physical and biological factors on populations and communities. It covers topics such as population dynamics, competition, predation, and adaptation.",
+    "prerequisites": [
+      "Introduction to Zoology",
+      "Animal Behavior",
+      "Animal Physiology"
+    ]
+  },
+  {
+    "name": "Ethology",
+    "description": "This course introduces students to the study of animal behavior, with a focus on evolutionary explanations for behavior. It covers topics such as instinctive behavior, learning, communication, mating behavior, and social behavior.",
+    "prerequisites": [
+      "Introduction to Zoology",
+      "Animal Behavior",
+      "Animal Physiology",
+      "Animal Ecology"
+    ]
+  }
+]

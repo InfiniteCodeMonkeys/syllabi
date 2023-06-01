@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Introduction to Economics",
+    "description": "This course provides an introduction to the field of economics and its core principles.",
+    "prerequisites": []
+  },
+  {
+    "name": "Macroeconomics",
+    "description": "This course is a study of the behavior of the national, regional, and global economies.",
+    "prerequisites": ["Introduction to Economics"]
+  },
+  {
+    "name": "Microeconomics",
+    "description": "This course covers the principles of microeconomics, including supply and demand, cost and production, and market structure.",
+    "prerequisites": ["Introduction to Economics"]
+  },
+  {
+    "name": "Econometrics",
+    "description": "This course covers the use of statistical methods and data in economics, including regression analysis, hypothesis testing, and forecasting.",
+    "prerequisites": ["Macroeconomics", "Microeconomics"]
+  },
+  {
+    "name": "Health Economics",
+    "description": "This course covers the economics of health and health care, including financing, insurance, and demand and supply.",
+    "prerequisites": ["Macroeconomics", "Microeconomics", "Econometrics"]
+  }
+]

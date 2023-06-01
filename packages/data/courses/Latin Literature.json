@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Introduction to Latin Literature",
+        "description": "This course provides an introduction to the genre of Latin Literature, including discussing the different authors, works, and themes.",
+        "prerequisites": []
+    },
+    {
+        "name": "Latin Grammar",
+        "description": "This course provides a comprehensive overview of Latin grammar, including verb conjugation, noun declension, and more.",
+        "prerequisites": []
+    },
+    {
+        "name": "Classical Mythology",
+        "description": "This course provides a comprehensive overview of Classical Mythology, including the gods and goddesses, major themes, and common motifs in Latin literature.",
+        "prerequisites": []
+    },
+    {
+        "name": "Virgil's Aeneid",
+        "description": "This course focuses on the epic poem Aeneid by Virgil, discussing its major plot points, characters, and themes.",
+        "prerequisites": ["Introduction to Latin Literature", "Latin Grammar", "Classical Mythology"]
+    },
+    {
+        "name": "Ovid's Metamorphoses",
+        "description": "This course focuses on the epic poem Metamorphoses by Ovid, discussing its major plot points, characters, and themes.",
+        "prerequisites": ["Introduction to Latin Literature", "Latin Grammar", "Classical Mythology"]
+    },
+    {
+        "name": "Cicero's Orations",
+        "description": "This course focuses on the orations of Cicero, discussing their major topics, themes, and rhetoric.",
+        "prerequisites": ["Introduction to Latin Literature", "Latin Grammar", "Classical Mythology"]
+    }
+]

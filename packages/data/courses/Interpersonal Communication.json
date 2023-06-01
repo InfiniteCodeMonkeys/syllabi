@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Introduction to Interpersonal Communication",
+    "description": "This course introduces students to the fundamentals of interpersonal communication. It covers topics such as self-disclosure, nonverbal communication, culture, and conflict resolution.",
+    "prerequisites": []
+  },
+  {
+    "name": "Interpersonal Listening",
+    "description": "This course focuses on the process of listening in interpersonal communication. Students learn about different types of listening, active listening strategies, and the impact of effective listening.",
+    "prerequisites": ["Introduction to Interpersonal Communication"]
+  },
+  {
+    "name": "Interpersonal Conflict Management",
+    "description": "This course explores the process of managing conflict in interpersonal relationships. Students learn strategies for conflict avoidance, resolution, and communication.",
+    "prerequisites": [
+      "Introduction to Interpersonal Communication",
+      "Interpersonal Listening"
+    ]
+  },
+  {
+    "name": "Interpersonal Communication Theory",
+    "description": "This course covers different theoretical perspectives on interpersonal communication. Students learn about the role of language, culture, and emotions in interpersonal communication.",
+    "prerequisites": [
+      "Introduction to Interpersonal Communication",
+      "Interpersonal Listening",
+      "Interpersonal Conflict Management"
+    ]
+  }
+]

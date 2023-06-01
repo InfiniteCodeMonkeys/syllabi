@@ -1,0 +1,47 @@
+[
+    {
+        "name": "Engineering Basics",
+        "description": "This course will provide an introduction to engineering concepts and principles.",
+        "prerequisites": []
+    },
+    {
+        "name": "Applied Mathematics",
+        "description": "This course will cover the mathematics necessary for engineering applications.",
+        "prerequisites": []
+    },
+    {
+        "name": "Chemistry",
+        "description": "This course will cover the fundamentals of chemistry and its application in engineering.",
+        "prerequisites": []
+    },
+    {
+        "name": "Physics",
+        "description": "This course will cover the fundamentals of physics and its application in engineering.",
+        "prerequisites": []
+    },
+    {
+        "name": "Engineering Principles and Practices",
+        "description": "This course will cover the fundamentals of engineering principles and practices.",
+        "prerequisites": ["Engineering Basics", "Applied Mathematics", "Chemistry", "Physics"]
+    },
+    {
+        "name": "Petroleum Engineering Fundamentals",
+        "description": "This course will cover the fundamentals of petroleum engineering.",
+        "prerequisites": ["Engineering Principles and Practices"]
+    },
+    {
+        "name": "Petroleum Drilling and Well Completion",
+        "description": "This course will cover the process of drilling and completing petroleum wells.",
+        "prerequisites": ["Petroleum Engineering Fundamentals"]
+    },
+    {
+        "name": "Petroleum Production and Processing",
+        "description": "This course will cover the process of producing and processing petroleum.",
+        "prerequisites": ["Petroleum Drilling and Well Completion"]
+    },
+    {
+        "name": "Petroleum Reservoir Engineering",
+        "description": "This course will cover the fundamentals of petroleum reservoir engineering.",
+        "prerequisites": ["Petroleum Production and Processing"]
+    }
+]

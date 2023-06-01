@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Introduction to Musicology",
+        "description": "This course introduces students to the discipline of musicology. It focuses on music history, music theory, and music appreciation.",
+        "prerequisites": []
+    },
+    {
+        "name": "Introduction to Music Technology",
+        "description": "This course introduces students to the fundamentals of music technology. It covers topics such as audio production, recording techniques, and digital music composition.",
+        "prerequisites": ["Introduction to Musicology"]
+    },
+    {
+        "name": "Music Technology I",
+        "description": "This course covers more advanced topics in music technology. It focuses on topics such as electronic music production, digital audio workstations, and sound synthesis.",
+        "prerequisites": ["Introduction to Music Technology"]
+    },
+    {
+        "name": "Music Technology II",
+        "description": "This course covers even more advanced topics in music technology. It focuses on topics such as music programming, music visualization, and interactive music systems.",
+        "prerequisites": ["Music Technology I"]
+    }
+]

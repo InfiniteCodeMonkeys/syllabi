@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Introduction to Musicology", 
+        "description": "This course provides an introduction to musicology, the study of music in its historical, cultural, and theoretical contexts. Topics include music theory, music history, and music analysis.",
+        "prerequisites": []
+    },
+    {
+        "name": "Musicology Fundamentals",
+        "description": "This course provides an overview of the fundamentals of musicology. Topics include music theory, music history, and music analysis.",
+        "prerequisites": ["Introduction to Musicology"]
+    },
+    {
+        "name": "History of Music",
+        "description": "This course provides an overview of the history of music from the Middle Ages to the present. Topics include medieval music, classical music, jazz, and popular music.",
+        "prerequisites": ["Musicology Fundamentals"]
+    },
+    {
+        "name": "Music Theory",
+        "description": "This course provides an overview of the fundamentals of music theory. Topics include scales, intervals, harmony, and musical forms.",
+        "prerequisites": ["Musicology Fundamentals"]
+    },
+    {
+        "name": "Popular Music Studies",
+        "description": "This course provides an introduction to the study of popular music. Topics include the history and development of popular music, different genres and styles, and popular music analysis.",
+        "prerequisites": ["History of Music", "Music Theory"]
+    }
+]

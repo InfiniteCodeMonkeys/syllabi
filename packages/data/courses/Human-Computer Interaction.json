@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Intro to Computer Science",
+        "description": "Introduction to the fundamentals of computer science. Topics include problem solving, computer systems, algorithms, and programming.",
+        "prerequisites": []
+    },
+    {
+        "name": "Introduction to Human-Computer Interaction",
+        "description": "Overview of human-computer interaction, user-centered design, and the evaluation of interactive systems. Topics include human capabilities, interaction styles, user-centered design, and usability evaluation.",
+        "prerequisites": ["Intro to Computer Science"]
+    },
+    {
+        "name": "Intermediate Human-Computer Interaction",
+        "description": "Advanced topics in human-computer interaction. Topics include user interface design, user interface technologies, and user-centered design for interactive systems.",
+        "prerequisites": ["Introduction to Human-Computer Interaction"]
+    },
+    {
+        "name": "Advanced Human-Computer Interaction",
+        "description": "Advanced topics in human-computer interaction. Topics include user interface design, user interface technologies, and user-centered design for interactive systems.",
+        "prerequisites": ["Intermediate Human-Computer Interaction"]
+    }
+]

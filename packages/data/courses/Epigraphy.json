@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Introduction to Classics",
+        "description": "An introduction to the study of classical literature, language, and culture.",
+        "prerequisites": []
+    },
+    {
+        "name": "Greek and Roman History",
+        "description": "A survey of the history, culture, and literature of ancient Greece and Rome.",
+        "prerequisites": []
+    },
+    {
+        "name": "Epigraphy",
+        "description": "A study of the form, content, and interpretation of ancient inscriptions.",
+        "prerequisites": [
+            "Introduction to Classics",
+            "Greek and Roman History"
+        ]
+    }
+]

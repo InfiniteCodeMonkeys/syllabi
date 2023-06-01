@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Introduction to Economics",
+    "description": "A survey of the fundamental principles of economics, including microeconomic and macroeconomic analysis.",
+    "prerequisites": []
+  },
+  {
+    "name": "Intermediate Microeconomics",
+    "description": "A study of Microeconomic theory and its application to markets, including consumer demand theory, production and cost theory, and market structure.",
+    "prerequisites": ["Introduction to Economics"]
+  },
+  {
+    "name": "Advanced Microeconomics",
+    "description": "Advanced microeconomic analysis, including topics such as game theory, general equilibrium models, and welfare economics.",
+    "prerequisites": ["Intermediate Microeconomics"]
+  }
+]

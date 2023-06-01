@@ -1,0 +1,39 @@
+[
+  {
+    "name": "Introduction to Gender & Sexuality Studies",
+    "description": "This course provides an introduction to theories, debates, and primary texts in the field of Gender & Sexuality Studies.",
+    "prerequisites": []
+  },
+  {
+    "name": "Sexuality & Identity",
+    "description": "This course examines the ways in which identities are constructed around gender and sexuality, and explores the history and politics of sexuality, and its role in the formation of identities.",
+    "prerequisites": ["Introduction to Gender & Sexuality Studies"]
+  },
+  {
+    "name": "Gender & Sexuality in Intersectional Contexts",
+    "description": "This course explores the intersections of gender, race, class, and sexuality, and how they operate through culture, media, and in everyday life.",
+    "prerequisites": [
+      "Introduction to Gender & Sexuality Studies",
+      "Sexuality & Identity"
+    ]
+  },
+  {
+    "name": "Queer Theory",
+    "description": "This course introduces students to the theoretical concepts that are used to analyze gender and sexuality, including queer theory, critical race theory, and postcolonial theory.",
+    "prerequisites": [
+      "Introduction to Gender & Sexuality Studies",
+      "Sexuality & Identity",
+      "Gender & Sexuality in Intersectional Contexts"
+    ]
+  },
+  {
+    "name": "Advanced Topics in Sexuality Studies",
+    "description": "This course examines advanced topics in the field of Sexuality Studies, including sexology, trans studies, and the medicalization of sex and gender.",
+    "prerequisites": [
+      "Introduction to Gender & Sexuality Studies",
+      "Sexuality & Identity",
+      "Gender & Sexuality in Intersectional Contexts",
+      "Queer Theory"
+    ]
+  }
+]

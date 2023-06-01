@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Introduction to Astronomy",
+        "description": "This course introduces students to basic astronomical concepts including celestial mechanics, stellar evolution, and star formation.",
+        "prerequisites": []
+    },
+    {
+        "name": "Introductory Physics of the Solar System and Beyond",
+        "description": "This course examines the physics of the solar system, including the origin and evolution of the sun and planets, and their interactions with the interstellar medium.",
+        "prerequisites": []
+    },
+    {
+        "name": "Planetary Geology",
+        "description": "This course explores the geological history of the solar system, including the formation and evolution of the planets, asteroids and comets.",
+        "prerequisites": ["Introduction to Astronomy", "Introductory Physics of the Solar System and Beyond"]
+    },
+    {
+        "name": "Extrasolar Planets",
+        "description": "This course covers the study of planets around other stars, including their formation, evolution, and habitability.",
+        "prerequisites": ["Introduction to Astronomy", "Introductory Physics of the Solar System and Beyond"]
+    },
+    {
+        "name": "Origin and Evolution of Life in the Universe",
+        "description": "This course introduces students to the study of Astrobiology, including the origin of life, the evolution of life on Earth, and the search for life outside of Earth.",
+        "prerequisites": ["Planetary Geology", "Extrasolar Planets"]
+    }
+]

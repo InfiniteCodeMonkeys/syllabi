@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Introduction to Religious Studies",
+        "description": "This course introduces students to the major themes, issues, and approaches in the academic study of religion. Through readings, lectures, and class discussions, students will gain an understanding of the various ways in which religion has been studied and will gain an appreciation of the complexity of religious belief and practice.",
+        "prerequisites": []
+    },
+    {
+        "name": "History of Religious Thought",
+        "description": "This course introduces students to the history of religious thought from antiquity to the present. Through readings, lectures, and class discussions, students will gain an understanding of the major religious traditions of the world and their impact on human thought and behavior.",
+        "prerequisites": []
+    },
+    {
+        "name": "Philosophy of Religion",
+        "description": "This course examines the philosophical foundations of religion. Through readings, lectures, and class discussions, students will gain an understanding of the various ways in which philosophers have argued for or against the existence of God, the nature of religious experience, and the relationship between faith and reason.",
+        "prerequisites": ["Introduction to Religious Studies", "History of Religious Thought"]
+    }
+]

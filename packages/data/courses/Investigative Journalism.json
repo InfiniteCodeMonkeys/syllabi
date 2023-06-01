@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Introduction to Journalism",
+    "description": "This course is designed to introduce students to the field of journalism, including the history of journalism, ethical principles, and the impact of media on society.",
+    "prerequisites": []
+  },
+  {
+    "name": "News Writing",
+    "description": "This course provides an introduction to the writing and reporting skills needed for journalistic writing. Students will learn the principles of news gathering, writing, and editing, and will practice their writing skills with frequent assignments.",
+    "prerequisites": ["Introduction to Journalism"]
+  },
+  {
+    "name": "Journalistic Interviewing",
+    "description": "This course covers the principles and techniques of interviewing people for journalistic purposes. Students will learn how to conduct effective interviews, ask the right questions, and use their skills to gather useful information for their stories.",
+    "prerequisites": ["Introduction to Journalism", "News Writing"]
+  },
+  {
+    "name": "Investigative Journalism",
+    "description": "This course covers the principles and techniques of investigative journalism. Students will learn how to find and use sources, conduct research, write investigative stories, and use the power of the press to uncover the truth.",
+    "prerequisites": [
+      "Introduction to Journalism",
+      "News Writing",
+      "Journalistic Interviewing"
+    ]
+  }
+]

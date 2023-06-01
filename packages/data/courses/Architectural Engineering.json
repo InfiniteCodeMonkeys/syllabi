@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Introduction to Engineering",
+        "description": "This course covers the fundamentals of engineering, including problem solving, design, and engineering principles.",
+        "prerequisites": []
+    },
+    {
+        "name": "Introduction to Architectural Engineering",
+        "description": "This course provides an introduction to architectural engineering, which covers the design, analysis, and construction of buildings and other structures.",
+        "prerequisites": ["Introduction to Engineering"]
+    },
+    {
+        "name": "Structural Design",
+        "description": "This course covers the design of structural components for buildings and other structures, including steel, concrete, masonry, and wood.",
+        "prerequisites": ["Introduction to Engineering", "Introduction to Architectural Engineering"]
+    },
+    {
+        "name": "Architectural Building Systems",
+        "description": "This course covers the design, selection, and operation of building systems, including heating, ventilation, and air conditioning (HVAC), plumbing, electrical, and security systems.",
+        "prerequisites": ["Introduction to Engineering", "Introduction to Architectural Engineering", "Structural Design"]
+    },
+    {
+        "name": "Construction Management",
+        "description": "This course covers the management of construction projects, including cost estimating, scheduling, and project management.",
+        "prerequisites": ["Introduction to Engineering", "Introduction to Architectural Engineering", "Structural Design", "Architectural Building Systems"]
+    }
+]

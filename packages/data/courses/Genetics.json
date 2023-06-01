@@ -1,0 +1,22 @@
+[
+        {
+            "name": "Introduction to Biology",
+            "description": "An introduction to the fundamental concepts and principles of biology.",
+            "prerequisites": []
+        },
+        {
+            "name": "Genetics",
+            "description": "Exploration of the role of genetics in the living world.",
+            "prerequisites": ["Introduction to Biology"]
+        },
+        {
+            "name": "Biochemistry",
+            "description": "An introduction to the chemical processes in living organisms.",
+            "prerequisites": ["Introduction to Biology"]
+        },
+        {
+            "name": "Molecular Biology",
+            "description": "Study of the molecular basis of biological processes.",
+            "prerequisites": ["Genetics", "Biochemistry"]
+        }
+    ]

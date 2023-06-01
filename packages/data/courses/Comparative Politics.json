@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Introduction to Comparative Politics",
+    "description": "This course introduces the study of Comparative Politics and examines the ways in which politics varies across countries. Topics covered include the nature of the state, political institutions, economic development, political culture, political behavior, and public policy.",
+    "prerequisites": []
+  },
+  {
+    "name": "Comparative Political Systems",
+    "description": "This course examines the different types of political systems found around the world. Topics covered include the study of democracy, authoritarianism, and hybrid regimes, as well as the causes and consequences of different political systems.",
+    "prerequisites": ["Introduction to Comparative Politics"]
+  },
+  {
+    "name": "Political Economy of Development",
+    "description": "This course explores the relationship between political and economic institutions and processes in the developing world. Topics covered include the impact of institutions on economic development, the role of the state in economic development, and the politics of economic policy.",
+    "prerequisites": [
+      "Introduction to Comparative Politics",
+      "Comparative Political Systems"
+    ]
+  },
+  {
+    "name": "Comparative Political Culture and Behavior",
+    "description": "This course examines the ways in which political culture and behavior vary across countries. Topics covered include the study of public opinion, voting behavior, social movements, and political participation.",
+    "prerequisites": [
+      "Introduction to Comparative Politics",
+      "Comparative Political Systems",
+      "Political Economy of Development"
+    ]
+  }
+]

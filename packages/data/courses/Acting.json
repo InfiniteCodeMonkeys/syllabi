@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Introduction to Theater and Performance Studies",
+        "description": "This course provides an introduction to the major topics, theories, and approaches to the study of theater and performance.",
+        "prerequisites": []
+    },
+    {
+        "name": "Acting Fundamentals",
+        "description": "This course covers the essential fundamentals of acting, including the development of acting skills and techniques.",
+        "prerequisites": ["Introduction to Theater and Performance Studies"]
+    },
+    {
+        "name": "Acting for the Camera",
+        "description": "This course explores the unique challenges and opportunities of acting for the camera.",
+        "prerequisites": ["Acting Fundamentals"]
+    },
+    {
+        "name": "Advanced Acting",
+        "description": "This course provides an in-depth study of acting techniques, the rehearsal process, and performance styles.",
+        "prerequisites": ["Acting Fundamentals", "Acting for the Camera"]
+    }
+]

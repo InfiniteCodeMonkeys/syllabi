@@ -1,0 +1,39 @@
+[
+  {
+    "name": "Introduction to Technical Theater",
+    "description": "This course introduces students to the fundamentals of Technical Theater, including lighting, sound, and scenic design.",
+    "prerequisites": []
+  },
+  {
+    "name": "Theatre Design & Technology",
+    "description": "This course covers the basics of designing and constructing theater sets, including drafting, tools, and materials.",
+    "prerequisites": ["Introduction to Technical Theater"]
+  },
+  {
+    "name": "Theatre Lighting and Sound Design",
+    "description": "This course covers the basics of designing and operating lighting and sound systems for theatre productions.",
+    "prerequisites": [
+      "Introduction to Technical Theater",
+      "Theatre Design & Technology"
+    ]
+  },
+  {
+    "name": "Advanced Theatre Design & Technology",
+    "description": "This course covers the advanced concepts of designing and constructing theater sets, including advanced drafting, tools, and materials.",
+    "prerequisites": [
+      "Introduction to Technical Theater",
+      "Theatre Design & Technology",
+      "Theatre Lighting and Sound Design"
+    ]
+  },
+  {
+    "name": "Advanced Theatre Lighting and Sound Design",
+    "description": "This course covers the advanced concepts of designing and operating lighting and sound systems for theatre productions.",
+    "prerequisites": [
+      "Introduction to Technical Theater",
+      "Theatre Design & Technology",
+      "Theatre Lighting and Sound Design",
+      "Advanced Theatre Design & Technology"
+    ]
+  }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Introduction to Earth Science",
+        "description": "An overview of the various Earth science disciplines, including geology, geography, oceanography, and glaciology.",
+        "prerequisites": []
+    },
+    {
+        "name": "Physical Geology",
+        "description": "An introduction to geology, the study of the Earth's physical structure and processes.",
+        "prerequisites": []
+    },
+    {
+        "name": "Glacial Geology",
+        "description": "An introduction to glacial geology, the study of the Earth's glacial processes and landforms.",
+        "prerequisites": ["Introduction to Earth Science", "Physical Geology"]
+    },
+    {
+        "name": "Cryosphere",
+        "description": "A comprehensive overview of the cryosphere, the frozen portions of the Earth's surface and atmosphere.",
+        "prerequisites": ["Introduction to Earth Science", "Physical Geology", "Glacial Geology"]
+    },
+    {
+        "name": "Glacial Erosion and Deposition",
+        "description": "An introduction to glacial erosion and deposition, including the processes and landforms resulting from glacial erosion.",
+        "prerequisites": ["Introduction to Earth Science", "Physical Geology", "Glacial Geology", "Cryosphere"]
+    },
+    {
+        "name": "Glacier Dynamics",
+        "description": "An introduction to glacier dynamics, including the processes and features associated with glacier movement.",
+        "prerequisites": ["Introduction to Earth Science", "Physical Geology", "Glacial Geology", "Cryosphere", "Glacial Erosion and Deposition"]
+    }
+]

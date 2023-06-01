@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Introduction to Gender & Sexuality Studies",
+    "description": "This course covers the basics of gender and sexuality studies. It introduces students to the field and provides an overview of the key concepts, theories, and methods of analysis.",
+    "prerequisites": []
+  },
+  {
+    "name": "Feminist Theory & Practice",
+    "description": "This course examines the history and development of feminisms, exploring the ways gender intersects with other categories of identity, including sexuality, race, ethnicity, class, and disability.",
+    "prerequisites": ["Introduction to Gender & Sexuality Studies"]
+  },
+  {
+    "name": "Theories & Practices of Queer Studies",
+    "description": "This course will examine the history, theories, and practices of queer studies. Topics include queer theory, queer activism, and the intersections of gender, sexuality, race, class, and other systems of power and privilege.",
+    "prerequisites": [
+      "Introduction to Gender & Sexuality Studies",
+      "Feminist Theory & Practice"
+    ]
+  },
+  {
+    "name": "Women's Studies",
+    "description": "This course explores the history, theories, and practices of women's studies. Topics include feminism, gender equality, and issues concerning women's rights in a global context.",
+    "prerequisites": [
+      "Introduction to Gender & Sexuality Studies",
+      "Feminist Theory & Practice",
+      "Theories & Practices of Queer Studies"
+    ]
+  }
+]

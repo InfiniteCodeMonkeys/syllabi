@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Introduction to Creative Writing",
+    "description": "An introductory course to the basics of Creative Writing, including poetry, short stories, novel writing, and more.",
+    "prerequisites": []
+  },
+  {
+    "name": "Introduction to Young Adult Writing",
+    "description": "An introductory course to the basics of Young Adult Writing, including common themes, characterization, and more.",
+    "prerequisites": ["Introduction to Creative Writing"]
+  },
+  {
+    "name": "Young Adult Writing I",
+    "description": "An intermediate course in Young Adult Writing, including plot structure, world-building, and more.",
+    "prerequisites": [
+      "Introduction to Creative Writing",
+      "Introduction to Young Adult Writing"
+    ]
+  },
+  {
+    "name": "Young Adult Writing II",
+    "description": "An advanced course in Young Adult Writing, including genre conventions, advanced characterization, and more.",
+    "prerequisites": [
+      "Introduction to Creative Writing",
+      "Introduction to Young Adult Writing",
+      "Young Adult Writing I"
+    ]
+  }
+]

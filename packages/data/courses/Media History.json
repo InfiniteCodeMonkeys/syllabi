@@ -1,0 +1,36 @@
+[
+  {
+    "name": "Introduction to Media Studies",
+    "description": "An introductory course to the field of Media Studies, focusing on the basics.",
+    "prerequisites": []
+  },
+  {
+    "name": "Digital Storytelling",
+    "description": "An introduction to digital media production in the form of creating stories.",
+    "prerequisites": ["Introduction to Media Studies"]
+  },
+  {
+    "name": "History of Media Studies",
+    "description": "A course exploring the history of media studies, from the dawn of the printing press to the digital age.",
+    "prerequisites": ["Introduction to Media Studies"]
+  },
+  {
+    "name": "History of Journalism",
+    "description": "A course exploring the history of journalism, from the printing press to the digital age.",
+    "prerequisites": ["Introduction to Media Studies"]
+  },
+  {
+    "name": "History of Broadcasting",
+    "description": "A course exploring the history of broadcasting, from radio to television.",
+    "prerequisites": ["History of Media Studies", "History of Journalism"]
+  },
+  {
+    "name": "History of Digital Media",
+    "description": "A course exploring the history of digital media, from the internet to social media.",
+    "prerequisites": [
+      "History of Media Studies",
+      "History of Journalism",
+      "History of Broadcasting"
+    ]
+  }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Introduction to Drawing",
+        "description": "This course introduces the fundamentals of drawing for the fine arts. Topics covered include types of drawing media and techniques, basic compositional principles, and how to use drawing as a means of expression.",
+        "prerequisites": []
+    },
+    {
+        "name": "Drawing Concepts and Practices",
+        "description": "This course focuses on developing an understanding of the relationships between drawing media, techniques, form, and content. Students will gain an understanding of the elements of drawing, including line, texture, composition, and perspective. Additionally, students will explore the use of drawing as a means of communication.",
+        "prerequisites": ["Introduction to Drawing"]
+    },
+    {
+        "name": "Figure Drawing",
+        "description": "This course focuses on the study of the human figure in drawing. Students will learn about technique, anatomy, proportion, and composition as they relate to figure drawing. Emphasis is placed on developing observational and analytical skills for accurate rendering.",
+        "prerequisites": ["Drawing Concepts and Practices"]
+    },
+    {
+        "name": "Advanced Drawing",
+        "description": "This course focuses on the development of advanced drawing skills and techniques. Students will explore a variety of drawing media and techniques, including pencil, charcoal, and pastel. Additionally, students will develop an understanding of the principles of composition and design.",
+        "prerequisites": ["Figure Drawing", "Drawing Concepts and Practices"]
+    }
+]

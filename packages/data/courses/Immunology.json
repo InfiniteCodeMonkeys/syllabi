@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Introduction to Immunology",
+        "description": "This course introduces students to the fundamentals of immunology, including the components of the immune system, the different types of immunity, and the development of immune responses.",
+        "prerequisites": []
+    },
+    {
+        "name": "Cellular and Molecular Biology",
+        "description": "This course covers the fundamentals of cellular and molecular biology, including cell structure, metabolism, genetics, and gene expression.",
+        "prerequisites": []
+    },
+    {
+        "name": "Microbiology",
+        "description": "This course covers the fundamentals of microbiology, including bacteria, viruses, and other microorganisms.",
+        "prerequisites": []
+    },
+    {
+        "name": "Molecular Immunology",
+        "description": "This course covers the molecular basis of immunology, including antigen recognition, immune cell signaling, and immune responses.",
+        "prerequisites": ["Introduction to Immunology", "Cellular and Molecular Biology", "Microbiology"]
+    },
+    {
+        "name": "Immunology Laboratory",
+        "description": "This course covers laboratory techniques used in immunology, including immunoassays, flow cytometry, and ELISA.",
+        "prerequisites": ["Introduction to Immunology", "Cellular and Molecular Biology", "Microbiology", "Molecular Immunology"]
+    },
+    {
+        "name": "Advanced Immunology Topics",
+        "description": "This course covers advanced topics in immunology, including autoimmunity, immunodeficiency, and immunotherapy.",
+        "prerequisites": ["Introduction to Immunology", "Cellular and Molecular Biology", "Microbiology", "Molecular Immunology", "Immunology Laboratory"]
+    }
+]

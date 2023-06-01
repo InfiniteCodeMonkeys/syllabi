@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Introduction to Neuroscience",
+        "description": "A course introducing the fundamentals of neuroscience, including the structure and function of neurons, the anatomy of the nervous system, and the fundamental principles of neuroscience.",
+        "prerequisites": []
+    },
+    {
+        "name": "Neuroanatomy I",
+        "description": "A course focusing on the structural organization of the human nervous system. Topics may include neuroanatomy, histology, and neurophysiology.",
+        "prerequisites": ["Introduction to Neuroscience"]
+    },
+    {
+        "name": "Neuroanatomy II",
+        "description": "A continuation of Neuroanatomy I, focusing on the anatomy of the central and peripheral nervous systems.",
+        "prerequisites": ["Neuroanatomy I"]
+    },
+    {
+        "name": "Neural Development",
+        "description": "A course covering the development of the nervous system, from embryogenesis to adulthood.",
+        "prerequisites": ["Neuroanatomy I", "Neuroanatomy II"]
+    },
+    {
+        "name": "Cellular Neurophysiology",
+        "description": "A course covering the physiology of the neuron, including topics such as action potentials, synaptic transmission, and electrical properties of cells.",
+        "prerequisites": ["Neuroanatomy I", "Neuroanatomy II", "Neural Development"]
+    },
+    {
+        "name": "Systems Neuroscience I",
+        "description": "A course focusing on the structure and function of the nervous system, including topics such as sensory systems, motor systems, and brain plasticity.",
+        "prerequisites": ["Neuroanatomy I", "Neuroanatomy II", "Neural Development", "Cellular Neurophysiology"]
+    },
+    {
+        "name": "Systems Neuroscience II",
+        "description": "A continuation of Systems Neuroscience I, focusing on higher-level topics such as cognition, emotion, and behavior.",
+        "prerequisites": ["Systems Neuroscience I"]
+    },
+    {
+        "name": "Behavioral Neuroscience",
+        "description": "A course focusing on the relationship between brain systems and behavior, including topics such as learning and memory, motivation, and decision-making.",
+        "prerequisites": ["Systems Neuroscience I", "Systems Neuroscience II"]
+    }
+]

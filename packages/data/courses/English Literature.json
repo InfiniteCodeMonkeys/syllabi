@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Introduction to Humanities",
+        "description": "This course introduces students to the humanities, and includes studies of literary, cultural, and artistic themes from ancient to contemporary times.",
+        "prerequisites": []
+    },
+    {
+        "name": "English Literature I",
+        "description": "This course covers English literature from the Anglo-Saxon period to the 18th century.",
+        "prerequisites": ["Introduction to Humanities"]
+    },
+    {
+        "name": "English Literature II",
+        "description": "This course covers English literature from the Romantic period to the present.",
+        "prerequisites": ["Introduction to Humanities", "English Literature I"]
+    },
+    {
+        "name": "British and World Literature",
+        "description": "This course covers the literature of Britain and other countries, including the cultural and historical contexts of the works.",
+        "prerequisites": ["Introduction to Humanities", "English Literature I", "English Literature II"]
+    }
+]

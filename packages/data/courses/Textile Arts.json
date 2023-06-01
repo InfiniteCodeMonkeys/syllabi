@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Introduction to Textile Arts",
+        "description": "This course provides an overview of basic textile techniques and materials, as well as the principles of design for creating textile art.",
+        "prerequisites": []
+    },
+    {
+        "name": "Textile Arts History",
+        "description": "This course covers the history of textile arts from pre-industrial times to the present.",
+        "prerequisites": []
+    },
+    {
+        "name": "Textile Dyeing and Printing",
+        "description": "This course covers the techniques of dyeing and printing with natural and synthetic dyes, and the principles of color theory.",
+        "prerequisites": ["Introduction to Textile Arts"]
+    },
+    {
+        "name": "Weaving and Fabric Construction",
+        "description": "This course covers the principles and techniques of weaving and fabric construction, including hand-weaving, machine-weaving, and non-woven techniques.",
+        "prerequisites": ["Introduction to Textile Arts"]
+    },
+    {
+        "name": "Textile Arts Techniques",
+        "description": "This course covers various techniques of textile art-making, including needlework, crochet, knitting, quilting, and embroidery.",
+        "prerequisites": ["Introduction to Textile Arts"]
+    },
+    {
+        "name": "Textile Arts Design",
+        "description": "This course covers the principles of design and composition for creating textile art, including the use of texture, color, and pattern.",
+        "prerequisites": ["Introduction to Textile Arts", "Textile Dyeing and Printing", "Weaving and Fabric Construction", "Textile Arts Techniques"]
+    }
+]

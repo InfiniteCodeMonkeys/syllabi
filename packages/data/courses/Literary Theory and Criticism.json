@@ -1,0 +1,17 @@
+[
+        {
+            "name": "Introduction to Literary Theory and Criticism",
+            "description": "This course provides an introduction to the study of literature through the theories and practices of literary criticism. It examines the different approaches to analyzing and interpreting literature, as well as the historical and social contexts in which these approaches were developed.",
+            "prerequisites": []
+        },
+        {
+            "name": "Contemporary Literary Theory",
+            "description": "This course provides an introduction to contemporary literary theory, with an emphasis on its history, context, and application. The course examines the development of literary theory in the twentieth century and its implications for the study of literature.",
+            "prerequisites": ["Introduction to Literary Theory and Criticism"]
+        },
+        {
+            "name": "Advanced Literary Theory and Criticism",
+            "description": "This course provides an in-depth exploration of the theoretical and methodological approaches to literary analysis and interpretation. The course examines the development of various critical approaches, such as structuralism, post-structuralism, feminism, psychoanalysis, and post-colonialism.",
+            "prerequisites": ["Contemporary Literary Theory", "Introduction to Literary Theory and Criticism"]
+        }
+    ]

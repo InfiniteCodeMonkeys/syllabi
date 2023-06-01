@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Introduction to Sociology",
+    "description": "Introduction to the field of sociology, including its history, methods, theories, and research. Focus on the major concepts and debates in the field.",
+    "prerequisites": []
+  },
+  {
+    "name": "Social Inequality and Stratification",
+    "description": "Exploration of the forms and consequences of social inequality in the United States and other countries. Focus on social class, race, gender, and age.",
+    "prerequisites": []
+  },
+  {
+    "name": "Social Problems",
+    "description": "In-depth examination of the social problems facing the United States and other countries. Focus on poverty, crime, addiction, violence, and other social issues.",
+    "prerequisites": []
+  },
+  {
+    "name": "Sociology of Health and Illness",
+    "description": "Exploration of the social factors that influence health and illness. Focus on the connections between health, society, and culture.",
+    "prerequisites": [
+      "Introduction to Sociology",
+      "Social Inequality and Stratification",
+      "Social Problems"
+    ]
+  }
+]

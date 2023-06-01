@@ -1,0 +1,36 @@
+[
+  {
+    "name": "Introduction to Rhetoric",
+    "description": "This course provides an introduction to the study of rhetoric and its role in communication, discourse, and culture.",
+    "prerequisites": []
+  },
+  {
+    "name": "Rhetoric of Public Address",
+    "description": "This course focuses on the study of rhetoric in public address, from the ancient Greeks to modern day speakers.",
+    "prerequisites": ["Introduction to Rhetoric"]
+  },
+  {
+    "name": "Rhetorical Analysis",
+    "description": "This course covers the fundamentals of rhetorical analysis and strategies for discourse analysis.",
+    "prerequisites": ["Introduction to Rhetoric", "Rhetoric of Public Address"]
+  },
+  {
+    "name": "Rhetorical Criticism",
+    "description": "This course focuses on the various techniques of rhetorical criticism, including the use of historical, ideological, and psychological approaches to rhetorical discourse.",
+    "prerequisites": [
+      "Introduction to Rhetoric",
+      "Rhetoric of Public Address",
+      "Rhetorical Analysis"
+    ]
+  },
+  {
+    "name": "Advanced Rhetorical Theory",
+    "description": "This course examines advanced topics in rhetorical theory, from classical oration to modern public discourse.",
+    "prerequisites": [
+      "Introduction to Rhetoric",
+      "Rhetoric of Public Address",
+      "Rhetorical Analysis",
+      "Rhetorical Criticism"
+    ]
+  }
+]

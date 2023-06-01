@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Introduction to Film Studies",
+    "description": "This course will introduce students to the fundamentals of film studies. Topics include film history, theory, and criticism.",
+    "prerequisites": []
+  },
+  {
+    "name": "Film and Culture",
+    "description": "This course will explore the ways in which films reflect, shape, and challenge cultural values. Students will learn to analyze films in terms of historical, social, and political contexts.",
+    "prerequisites": ["Introduction to Film Studies"]
+  },
+  {
+    "name": "Film History I",
+    "description": "This course will explore the history of the film industry from its beginnings to the present day. Topics include the development of film genres, technology, and aesthetics.",
+    "prerequisites": ["Introduction to Film Studies", "Film and Culture"]
+  },
+  {
+    "name": "Film History II",
+    "description": "This course will provide an in-depth exploration of the history of the film industry from its beginnings to the present day. Topics include the development of film genres, technology, and aesthetics.",
+    "prerequisites": [
+      "Introduction to Film Studies",
+      "Film and Culture",
+      "Film History I"
+    ]
+  }
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Introduction to History",
+        "description": "An introduction to the study of history, including its theories, methods, and sources.",
+        "prerequisites": []
+    },
+    {
+        "name": "Archival Research",
+        "description": "An introduction to archival research techniques and the organization of archival sources.",
+        "prerequisites": ["Introduction to History"]
+    },
+    {
+        "name": "Public History",
+        "description": "Exploration of the theory and practice of public history, including its history, methods, and sources.",
+        "prerequisites": ["Introduction to History", "Archival Research"]
+    }
+]

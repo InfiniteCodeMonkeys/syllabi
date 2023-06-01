@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Introduction to Creative Writing",
+    "description": "An introductory course focusing on the fundamentals of creative writing.",
+    "prerequisites": []
+  },
+  {
+    "name": "Creative Writing: Poetry",
+    "description": "A course on the fundamentals of writing poetry.",
+    "prerequisites": ["Introduction to Creative Writing"]
+  },
+  {
+    "name": "Creative Writing: Fiction",
+    "description": "A course on the fundamentals of writing fiction.",
+    "prerequisites": ["Introduction to Creative Writing"]
+  },
+  {
+    "name": "Creative Writing: Non-Fiction",
+    "description": "A course on the fundamentals of writing non-fiction.",
+    "prerequisites": ["Introduction to Creative Writing"]
+  },
+  {
+    "name": "Creative Writing: Advanced Poetry",
+    "description": "An advanced course on writing poetry.",
+    "prerequisites": ["Creative Writing: Poetry"]
+  },
+  {
+    "name": "Creative Writing: Advanced Fiction",
+    "description": "An advanced course on writing fiction.",
+    "prerequisites": ["Creative Writing: Fiction"]
+  },
+  {
+    "name": "Creative Writing: Advanced Non-Fiction",
+    "description": "An advanced course on writing non-fiction.",
+    "prerequisites": ["Creative Writing: Non-Fiction"]
+  },
+  {
+    "name": "Writing for Social Media",
+    "description": "A course on writing for social media in the context of creative writing.",
+    "prerequisites": [
+      "Creative Writing: Advanced Poetry",
+      "Creative Writing: Advanced Fiction",
+      "Creative Writing: Advanced Non-Fiction"
+    ]
+  }
+]
