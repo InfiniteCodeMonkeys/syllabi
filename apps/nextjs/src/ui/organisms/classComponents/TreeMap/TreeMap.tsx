@@ -37,7 +37,7 @@ class TreeMap<TreeMapInputData> extends React.Component<
     width: 600,
     valueFormat: ",d",
     disableBreadcrumb: false,
-    colorModel: ColorModel.OneEachChildren,
+    colorModel: ColorModel.Value,
     paddingInner: 4,
     paddingOuter: 4,
     customD3ColorScale: scaleSequential(interpolateSpectral),
@@ -301,62 +301,12 @@ class TreeMap<TreeMapInputData> extends React.Component<
       lightNodeBorderColor,
     },
   ) {
-    const {
-      colorModel,
-      valuePropInData,
-      customD3ColorScale,
-      data,
-      childrenPropInData,
-    } = this.props;
+    const color1 = "#111928";
+    const color2 = "#374150";
 
-    const colorDomainFn = getColorDomainFn(
-      getTopParent(node),
-      data,
-      colorModel,
-      childrenPropInData,
-      valuePropInData,
-      customD3ColorScale,
-    );
+    const scale = scaleLinear().domain([0, 1834]).range([color2, color1]);
 
-    let backgroundColor;
-    switch (colorModel) {
-      case ColorModel.Depth:
-        backgroundColor = colorDomainFn(node.depth);
-        if (node.parent === null) {
-          backgroundColor = colorDomainFn(0);
-        }
-        break;
-      case ColorModel.Value:
-        backgroundColor = colorDomainFn(node[valuePropInData]);
-        if (node.parent === null) {
-          backgroundColor = colorDomainFn(1);
-        }
-        break;
-      case ColorModel.NumberOfChildren:
-        backgroundColor = colorDomainFn(nodeTotalNodes);
-        if (node.parent === null) {
-          backgroundColor = colorDomainFn(1);
-        }
-        break;
-      case ColorModel.OneEachChildren: {
-        const originalBackgroundColor = colorDomainFn(
-          getTopSubParentId<TreeMapInputData>(node),
-        );
-        if (node.depth > 1) {
-          backgroundColor = scaleLinear<string>()
-            .domain([0, node && node.children ? node.children.length : 0])
-            .interpolate(interpolateHcl)
-            .range(["white", originalBackgroundColor])(
-            getTopSubParentId<TreeMapInputData>(node),
-          );
-        } else {
-          backgroundColor = originalBackgroundColor;
-        }
-        if (node.parent === null) {
-          backgroundColor = colorDomainFn(0);
-        }
-      }
-    }
+    const backgroundColor = scale(nodeTotalNodes);
 
     return {
       bgColor: backgroundColor,
