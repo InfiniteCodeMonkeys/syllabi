@@ -9,7 +9,7 @@
       "tsnn44wkim179hq4fgtag0ta"
     ],
     "data": {
-      "name": "Academy",
+      "name": "The Academy",
       "description": "The body of human knowledge. The term comes from the Greek word akademeia, referring to the garden where Plato taught his students."
     }
   },
@@ -17,7 +17,7 @@
     "parent": {
       "id": "clggtsotk0004p0eqk2lfm793",
       "data": {
-        "name": "Academy",
+        "name": "The Academy",
         "description": "The body of human knowledge. The term comes from the Greek word akademeia, referring to the garden where Plato taught his students."
       }
     },
@@ -54,7 +54,7 @@
     "parent": {
       "id": "clggtsotk0004p0eqk2lfm793",
       "data": {
-        "name": "Academy",
+        "name": "The Academy",
         "description": "The body of human knowledge. The term comes from the Greek word akademeia, referring to the garden where Plato taught his students."
       }
     },
@@ -80,7 +80,7 @@
     "parent": {
       "id": "clggtsotk0004p0eqk2lfm793",
       "data": {
-        "name": "Academy",
+        "name": "The Academy",
         "description": "The body of human knowledge. The term comes from the Greek word akademeia, referring to the garden where Plato taught his students."
       }
     },

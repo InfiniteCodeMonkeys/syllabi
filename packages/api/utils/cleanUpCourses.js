@@ -5,6 +5,7 @@ const coursesDir = "../data/courses";
 const coursesFile = "../data/courses.json";
 const subjectsFile = "../data/subjectsAndDisciplines.json";
 const uniqueCoursesFile = "../data/uniqueCourses.json";
+const combinedCoursesFile = "../data/combined.json";
 
 const formatSubjects = async () => {
   const files = await fs.promises.readdir(coursesDir);
@@ -89,11 +90,10 @@ const addIdstoPreReqs = () => {
 // addIdstoPreReqs();
 
 const getParentId = () => {
-  const courses = JSON.parse(fs.readFileSync(uniqueCoursesFile, "utf8"));
-  const subjects = JSON.parse(fs.readFileSync(subjectsFile, "utf8"));
+  const courses = JSON.parse(fs.readFileSync(combinedCoursesFile, "utf8"));
 
   for (const course of courses) {
-    if (course.parent) {
+    if (!course.parent.id) {
       const found = subjects.find((c) => c.data.name === course.parent.name);
       if (found) {
         course.parent.id = found.id;
@@ -102,8 +102,47 @@ const getParentId = () => {
       }
     }
   }
-  fs.writeFileSync(uniqueCoursesFile, JSON.stringify(courses));
+  fs.writeFileSync(combinedCoursesFile, JSON.stringify(courses));
   console.log("COMPLETED");
 };
 
-getParentId();
+// getParentId();
+
+const addChildrenToParents = () => {
+  const courses = JSON.parse(fs.readFileSync(combinedCoursesFile, "utf8"));
+
+  for (const course of courses) {
+    if (course.parent.id) {
+      const parent = courses.filter((c) => c.id === course.parent.id);
+      if (parent[0]) {
+        console.log("parent", parent[0]);
+
+        if (!parent[0].children.includes(course.id)) {
+          parent[0].children.push(course.id);
+        }
+      } else {
+        console.log("not found", course.parent.name);
+      }
+    }
+  }
+
+  fs.writeFileSync(combinedCoursesFile, JSON.stringify(courses));
+  console.log("COMPLETED");
+};
+
+addChildrenToParents();
+
+const cutChildrenArrayInHalf = () => {
+  const courses = JSON.parse(fs.readFileSync(combinedCoursesFile, "utf8"));
+
+  for (const course of courses) {
+    if (course.children?.length) {
+      course.children = course.children.slice(0, course.children.length / 2);
+    }
+  }
+
+  fs.writeFileSync(combinedCoursesFile, JSON.stringify(courses));
+  console.log("COMPLETED");
+};
+
+// cutChildrenArrayInHalf();
