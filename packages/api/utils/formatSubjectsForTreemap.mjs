@@ -21,15 +21,17 @@ const formatSubjectsForTreemap = (subjects) => {
       });
 
       console.log(foundChild[0].children);
-
-      formattedArray.push({
-        name: foundChild[0].data.name,
-        value:
-          foundChild[0]?.children?.length > 1
-            ? foundChild[0]?.children?.length
-            : 1,
-        children: loopThroughChildren(foundChild[0]?.children) || [],
-      });
+      if (foundChild[0].type === "fieldNode") {
+        formattedArray.push({
+          name: foundChild[0].data.name,
+          id: foundChild[0].id,
+          value:
+            foundChild[0]?.children?.length > 1
+              ? foundChild[0]?.children?.length
+              : 1,
+          children: loopThroughChildren(foundChild[0]?.children) || [],
+        });
+      }
     }
     return formattedArray;
   };

@@ -1,7 +1,9 @@
 import fs from "fs";
 import path from "path";
-import { protectedProcedure, router } from "../../trpc";
+import { protectedProcedure, publicProcedure, router } from "../../trpc";
 import { getProgression } from "../../helpers/getProgression";
+import { z } from "zod";
+import { prisma } from "@acme/db";
 
 const subjects = path.join(process.cwd(), "../../packages/data/subjects.json");
 
@@ -30,4 +32,23 @@ export const coursesRouter = router({
 
     return "Completed!";
   }),
+
+  get: publicProcedure
+    .input(z.object({ id: z.string() }))
+    .query(async ({ input }) => {
+      console.log("firing");
+      console.log(input);
+      try {
+        const course = await prisma.subject.findUnique({
+          where: {
+            id: input.id,
+          },
+        });
+        console.log(course);
+        return course;
+      } catch (error) {
+        console.log(error);
+        return error;
+      }
+    }),
 });

@@ -8,6 +8,7 @@ import NumberOfChildren, {
 } from "./NumberOfChildren";
 import { getNumberItemsWidthByNumberOfChars } from "./helpers";
 import LabelNewLine from "./LabelNewLine";
+import { useRouter } from "next/router";
 
 export interface NodeProps {
   /*
@@ -17,8 +18,8 @@ export interface NodeProps {
   y0?: number;
   x1?: number;
   y1?: number;
-
-  bgColor: string;
+  data: any;
+  bgColor: string | number;
   borderColor: string;
   className?: string;
   hasChildren: boolean;
@@ -28,7 +29,7 @@ export interface NodeProps {
   label: string;
   nodeTotalNodes: number;
   numberOfChildrenPlacement: NumberOfChildrenPlacement;
-  onClick?: (ev?: React.MouseEvent<SVGElement>) => void;
+  onClick?: (ev: React.MouseEvent<SVGElement, MouseEvent>) => void;
   style?: React.CSSProperties;
   textColor: string;
   treemapId?: string;
@@ -41,6 +42,7 @@ export interface NodeProps {
 }
 
 const Node: React.FunctionComponent<NodeProps> = ({
+  data,
   bgColor,
   borderColor,
   className,
@@ -55,17 +57,19 @@ const Node: React.FunctionComponent<NodeProps> = ({
   treemapId,
   url,
   value,
-  x0,
-  x1,
+  x0 = 0,
+  x1 = 0,
   xScaleFunction,
-  y0,
-  y1,
+  y0 = 0,
+  y1 = 0,
   yScaleFunction,
   style,
   numberOfChildrenPlacement,
   paddingInner,
   splitRegExp,
 }) => {
+  console.log("node", data);
+  const router = useRouter();
   const currentXTranslated = Math.max(0, xScaleFunction(x0) + paddingInner);
   const currentYTranslated = Math.max(0, yScaleFunction(y0) + paddingInner);
   const currentWidth = Math.max(
@@ -77,20 +81,20 @@ const Node: React.FunctionComponent<NodeProps> = ({
     yScaleFunction(y1) - yScaleFunction(y0) - paddingInner,
   );
 
-  const cursor =
-    hasChildren === true && isSelectedNode === false ? "pointer" : "auto";
+  const cursor = isSelectedNode === false ? "pointer" : "auto";
 
   const fontSize = Number(style.fontSize);
   const itemsWidth = getNumberItemsWidthByNumberOfChars(
     fontSize,
     nodeTotalNodes.toString().length,
   );
-  const showNumberOfItems = !hideNumberOfChildren && hasChildren;
+  const showNumberOfItems = !hideNumberOfChildren;
 
   const paddedCurrentWidth =
     currentWidth -
     (Number(style.paddingLeft) || 0) -
     (Number(style.paddingRight) || 4);
+
   const clipWidth = Math.max(
     0,
     showNumberOfItems &&
@@ -112,6 +116,11 @@ const Node: React.FunctionComponent<NodeProps> = ({
     hideTooltip();
   }, [hideTooltip]);
 
+  const handleClick = () => {
+    console.log("handleClick", data.id);
+    router.push(`/subject/${data.id}`);
+  };
+
   return (
     <g
       onMouseEnter={disableTooltip ? undefined : handleMouseMove}
@@ -119,7 +128,7 @@ const Node: React.FunctionComponent<NodeProps> = ({
       onMouseMove={disableTooltip ? undefined : handleMouseMove}
       transform={`translate(${currentXTranslated},${currentYTranslated})`}
       id={`${id}`}
-      onClick={hasChildren ? onClick : null}
+      onClick={hasChildren ? onClick : handleClick}
       style={{ cursor }}
     >
       <rect

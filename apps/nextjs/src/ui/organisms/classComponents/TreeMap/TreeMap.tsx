@@ -214,6 +214,7 @@ class TreeMap<TreeMapInputData> extends React.Component<
     const { xScaleFunction, yScaleFunction, selectedNode } = this.state;
 
     const { customId, data, x0, x1, y0, y1 } = node;
+    console.log("node", node);
 
     const name = data[namePropInData];
     const url = data[linkPropInData];
@@ -223,13 +224,6 @@ class TreeMap<TreeMapInputData> extends React.Component<
       node[childrenPropInData] && node[childrenPropInData].length > 0
         ? true
         : false;
-    let formatted = node[valuePropInData];
-    try {
-      formatted = getValueFormatFn(valueFn, valueFormat)(node[valuePropInData]);
-    } catch (e) {
-      console.warn(e);
-    }
-    const formattedValue = `(${formatted}${valueUnit ? ` ${valueUnit}` : ""})`;
 
     const nodeTotalNodes = node.descendants().length - 1;
 
@@ -248,6 +242,7 @@ class TreeMap<TreeMapInputData> extends React.Component<
 
     return (
       <Node
+        data={data}
         bgColor={bgColor}
         textColor={textColor}
         borderColor={borderColor}
@@ -265,7 +260,7 @@ class TreeMap<TreeMapInputData> extends React.Component<
         isSelectedNode={isSelectedNode}
         key={customId}
         label={name}
-        nodeTotalNodes={nodeTotalNodes}
+        nodeTotalNodes={nodeTotalNodes || data.value}
         onClick={!isSelectedNode ? this._onNodeClick : undefined}
         treemapId={treemapId}
         url={url}
@@ -301,10 +296,39 @@ class TreeMap<TreeMapInputData> extends React.Component<
       lightNodeBorderColor,
     },
   ) {
-    const color1 = "#111928";
-    const color2 = "#374150";
+    const {
+      colorModel,
+      valuePropInData,
+      customD3ColorScale,
+      data,
+      childrenPropInData,
+    } = this.props;
+    const colorDomainFn = getColorDomainFn(
+      getTopParent(node),
+      data,
+      colorModel,
+      childrenPropInData,
+      valuePropInData,
+      customD3ColorScale,
+    );
+    let maxDomain = 431;
 
-    const scale = scaleLinear().domain([0, 1834]).range([color2, color1]);
+    const color1 = "#f3e9d2";
+    let color2 = "#4281a4";
+
+    const originalBackgroundColor = colorDomainFn(
+      getTopSubParentId<TreeMapInputData>(node),
+    );
+
+    if (node.depth > 1) {
+      maxDomain = node?.parent?.descendants().length - 1 || 431;
+      color2 = originalBackgroundColor;
+    }
+
+    const scale = scaleLinear()
+      .domain([0, maxDomain])
+      .interpolate(interpolateHcl)
+      .range([color1, color2]);
 
     const backgroundColor = scale(nodeTotalNodes);
 
