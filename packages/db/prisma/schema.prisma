@@ -56,6 +56,8 @@ model UsersSavedNodes {
     nodesId    String // relation scalar field (used in the `@relation` attribute above)
     assignedAt DateTime @default(now())
     assignedBy String
+    Courses    Course?  @relation(fields: [coursesId], references: [id])
+    coursesId  String?
 
     @@id([userId, nodesId])
 }
@@ -64,4 +66,29 @@ model Edges {
     id     String @id @default(cuid())
     source String
     target String
+}
+
+model Course {
+    id                 String            @id @default(cuid())
+    name               String
+    description        String
+    type               String            @default("courseNode")
+    parent             Json
+    prerequisites      String[]
+    resources          Json?
+    learningObjectives String[]
+    syllabus           Json?
+    experts            String[]
+    UsersSavedNodes    UsersSavedNodes[]
+    Subject            Subject?          @relation(fields: [subjectId], references: [id])
+    subjectId          String?
+}
+
+model Subject {
+    id          String   @id @default(cuid())
+    name        String
+    description String?
+    type        String   @default("fieldNode")
+    parent      Json
+    Courses     Course[]
 }
