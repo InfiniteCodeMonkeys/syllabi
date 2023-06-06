@@ -22,13 +22,12 @@ importers:
       '@manypkg/cli': 0.19.2
       '@typescript-eslint/eslint-plugin': 5.58.0_hzv37tkb63et4viajosjuuyxgi
       '@typescript-eslint/parser': 5.58.0_ze6bmax3gcsfve3yrzu6npguhe
+      dotenv-cli: 7.2.1
       eslint: 8.38.0
       prettier: 2.8.7
       prettier-plugin-tailwindcss: 0.1.13_prettier@2.8.7
       turbo: 1.8.8
       typescript: 4.9.5
-    devDependencies:
-      dotenv-cli: 7.2.1
 
   apps/expo:
     specifiers:
@@ -38,17 +37,17 @@ importers:
       '@babel/preset-env': ^7.19.3
       '@babel/runtime': ^7.19.0
       '@clerk/clerk-expo': 0.11.3
-      '@headlessui/react': ^1.7.3
-      '@heroicons/react': ^2.0.12
+      '@headlessui/react': ^1.7.13
+      '@heroicons/react': ^2.0.17
       '@shopify/flash-list': ^1.4.0
       '@tailwindcss/forms': ^0.5.3
-      '@tailwindcss/line-clamp': ^0.4.2
+      '@tailwindcss/line-clamp': ^0.4.4
       '@tailwindcss/typography': ^0.5.9
       '@tanstack/react-query': ^4.16.1
       '@trpc/client': ^10.1.0
       '@trpc/react-query': ^10.1.0
       '@trpc/server': ^10.1.0
-      '@types/react': ^18.0.25
+      '@types/react': ^18.0.34
       '@types/react-native': ~0.70.6
       eslint: ^8.28.0
       expo: ~47.0.12
@@ -216,7 +215,7 @@ importers:
       puppeteer: ^20.2.1
       superjson: ^1.9.1
       typescript: ^4.9.3
-      zod: ^3.18.0
+      zod: ^3.21.4
     dependencies:
       '@acme/db': link:../db
       '@paralleldrive/cuid2': 2.2.0
@@ -235,7 +234,7 @@ importers:
 
   packages/config/tailwind:
     specifiers:
-      autoprefixer: ^10.4.13
+      autoprefixer: ^10.4.14
       postcss: ^8.4.19
       tailwindcss: ^3.2.4
     devDependencies:
@@ -246,13 +245,13 @@ importers:
   packages/db:
     specifiers:
       '@prisma/client': ^4.6.1
-      dotenv-cli: ^6.0.0
+      dotenv-cli: ^7.1.0
       prisma: ^4.6.1
       typescript: ^4.9.3
     dependencies:
       '@prisma/client': 4.12.0_prisma@4.12.0
     devDependencies:
-      dotenv-cli: 6.0.0
+      dotenv-cli: 7.2.1
       prisma: 4.12.0
       typescript: 4.9.5
 
@@ -3117,7 +3116,7 @@ packages:
       react: '>=16.8.0'
       react-dom: '>=16.8.0'
     dependencies:
-      '@tanstack/react-query': 4.29.1_biqbaboplfbrettd7655fr4n2y
+      '@tanstack/react-query': 4.29.1_2so4eo66zr774rftk5qlya5ltu
       '@trpc/client': 10.19.1_@trpc+server@10.19.1
       '@trpc/server': 10.19.1
       react: 18.2.0
@@ -6041,16 +6040,6 @@ packages:
       tslib: 2.5.0
     dev: false
 
-  /dotenv-cli/6.0.0:
-    resolution: {integrity: sha512-qXlCOi3UMDhCWFKe0yq5sg3X+pJAz+RQDiFN38AMSbUrnY3uZshSfDJUAge951OS7J9gwLZGfsBlWRSOYz/TRg==}
-    hasBin: true
-    dependencies:
-      cross-spawn: 7.0.3
-      dotenv: 16.0.3
-      dotenv-expand: 8.0.3
-      minimist: 1.2.8
-    dev: true
-
   /dotenv-cli/7.2.1:
     resolution: {integrity: sha512-ODHbGTskqRtXAzZapDPvgNuDVQApu4oKX8lZW7Y0+9hKA6le1ZJlyRS687oU9FXjOVEDU/VFV6zI125HzhM1UQ==}
     hasBin: true
@@ -6059,17 +6048,10 @@ packages:
       dotenv: 16.0.3
       dotenv-expand: 10.0.0
       minimist: 1.2.8
-    dev: true
 
   /dotenv-expand/10.0.0:
     resolution: {integrity: sha512-GopVGCpVS1UKH75VKHGuQFqS1Gusej0z4FyQkPdwjil2gNIv+LNsqBlboOzpJFZKVT95GkCyWJbBSdFEFUWI2A==}
     engines: {node: '>=12'}
-    dev: true
-
-  /dotenv-expand/8.0.3:
-    resolution: {integrity: sha512-SErOMvge0ZUyWd5B0NXMQlDkN+8r+HhVUsxgOO7IoPDOdDRD2JjExpN6y3KnFR66jsJMwSn1pqIivhU5rcJiNg==}
-    engines: {node: '>=12'}
-    dev: true
 
   /dotenv/16.0.3:
     resolution: {integrity: sha512-7GO6HghkA5fYG9TYnNxi14/7K9f5occMlp3zXAuSxn7CKCxt9xbNWG7yF8hTCSUchlfWSe3uLmlPfigevRItzQ==}
