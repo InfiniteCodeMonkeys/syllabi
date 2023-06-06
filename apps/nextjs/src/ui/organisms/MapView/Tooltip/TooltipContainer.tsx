@@ -13,7 +13,7 @@ interface TooltipContainerProps {
 // eslint-disable-next-line react/display-name
 export const TooltipContainer = React.memo<TooltipContainerProps>(
   ({ position, placement, offsetX = 0, offsetY = 0, children }) => {
-    const [measureRef, { width, height }] = useMeasure();
+    const [measureRef, { width, height }] = useMeasure<HTMLDivElement>();
 
     const [newX, newY] = position;
     let x = Math.round(newX);
