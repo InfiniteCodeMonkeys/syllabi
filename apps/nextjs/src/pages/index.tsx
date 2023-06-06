@@ -8,8 +8,9 @@ import HowWorkModal from "ui/molecules/Modals/HowDoesThisWorkModal";
 import AdminModal from "ui/molecules/Modals/AdminModal";
 import ParentSize from "@visx/responsive/lib/components/ParentSize";
 import dynamic from "next/dynamic";
+import { data } from "ui/organisms/data";
 import { trpc } from "utils/trpc";
-const Treemap = dynamic(() => import("ui/organisms/classComponents/TreeMap"), {
+const Treemap = dynamic(() => import("ui/organisms/MapView/Treemap/Treemap"), {
   ssr: false,
 });
 
@@ -21,8 +22,8 @@ const Home: NextPage = () => {
       adminModalOpen: state.adminModalOpen,
     }),
   );
-  const data = trpc.nodes.get.useQuery({ refetchOnWindowFocus: false })
-    .data as unknown as any;
+  // const data = trpc.nodes.get.useQuery({ refetchOnWindowFocus: false })
+  //   .data as unknown as any;
 
   return (
     <>

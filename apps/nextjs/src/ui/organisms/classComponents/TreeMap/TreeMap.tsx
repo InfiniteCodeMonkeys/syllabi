@@ -4,7 +4,7 @@ import classnames from "classnames";
 import { HierarchyRectangularNode } from "d3-hierarchy";
 import { scaleLinear, scaleSequential } from "d3-scale";
 import { interpolateSpectral } from "d3-scale-chromatic";
-import { interpolateHcl } from "d3-interpolate";
+import { interpolateHcl,  } from "d3-interpolate";
 
 import Node, { NumberOfChildrenPlacement } from "../Node";
 import Breadcrumb from "../Breadcrumb";
@@ -16,7 +16,7 @@ import {
   getHighContrastColorFromString,
   getTopParent,
   getTopSubParentId,
-  getValueFormatFn,
+  ,
 } from "./helpers";
 import { useTreeMap } from "./hooks";
 
@@ -131,10 +131,10 @@ class TreeMap<TreeMapInputData> extends React.Component<
       disableBreadcrumb,
       tooltipPlacement,
       tooltipClassName,
-      disableTooltip,
+      disableTooltip = false,
       tooltipOffsetX,
       tooltipOffsetY,
-      levelsToDisplay,
+      levelsToDisplay = 2,
     } = this.props;
 
     let reactNodes: Array<React.ReactNode> = [];
