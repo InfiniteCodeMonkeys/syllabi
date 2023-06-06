@@ -1,20 +1,27 @@
-import {
-  ScaleLinear,
-  scaleLinear,
-  scaleSequentialLog,
-  scaleSequentialQuantile,
-} from "d3-scale";
+import { ScaleLinear, scaleSequentialLog } from "d3-scale";
 import { Dispatch, ReactNode, SetStateAction } from "react";
 import { CustomHierarchyRectangularNode } from "./Treemap";
 import NodeComponent, { NumberOfChildrenPlacement } from "../Node";
 import classnames from "classnames";
-import { getTopParent } from "ui/organisms/Treemap/helpers";
-import {
-  interpolateRainbow,
-  interpolateRdYlBu,
-  interpolateBuGn,
-  interpolatePuBuGn,
-} from "d3-scale-chromatic";
+import { interpolatePuBuGn } from "d3-scale-chromatic";
+
+export const getTopSubParentId = (
+  node: CustomHierarchyRectangularNode<any>,
+): number => {
+  if (node.parent && node.parent.parent) {
+    return getTopSubParentId(node.parent);
+  }
+  return node.customId;
+};
+
+export const getTopParent = (
+  node: CustomHierarchyRectangularNode<any>,
+): CustomHierarchyRectangularNode<any> => {
+  if (node.parent) {
+    return getTopParent(node.parent);
+  }
+  return node;
+};
 
 export const zoomTo = (
   nodeId: any,
