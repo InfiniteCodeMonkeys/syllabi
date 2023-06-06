@@ -146,15 +146,10 @@ const Node: React.FunctionComponent<NodeProps> = ({
       <clipPath id={`clip-${treemapId}-${id}`}>
         <rect width={clipWidth} height={currentHeight} />
       </clipPath>
-      <a
-        className={classnames({ Node__link: !!url })}
-        href={url}
-        target="_blank"
-        rel="noreferrer"
-      >
+      <a href={url} target="_blank" rel="noreferrer">
         <text
           clipPath={`url(#clip-${treemapId}-${id})`}
-          transform={`translate(${style?.paddingLeft || 0},${
+          transform={`translate(${style?.paddingLeft || 8},${
             style?.paddingTop || 0
           })`}
           style={{
