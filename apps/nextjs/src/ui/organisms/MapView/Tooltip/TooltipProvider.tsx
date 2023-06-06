@@ -1,4 +1,10 @@
-import * as React from "react";
+import React, {
+  MouseEvent,
+  useRef,
+  useState,
+  ReactNode,
+  useCallback,
+} from "react";
 import TooltipContainer from "./TooltipContainer";
 import TooltipContext from "./TooltipContext";
 import { TooltipPlacement, TooltipPosition } from "./types";
@@ -11,31 +17,31 @@ const TooltipProvider: React.FunctionComponent<{
   tooltipOffsetY?: number;
   children?: React.ReactNode;
 }> = ({
-  tooltipPlacement,
+  tooltipPlacement = "topRight",
   tooltipClassName,
   tooltipOffsetX,
   tooltipOffsetY,
   disableTooltip,
   children,
 }) => {
-  const containerRef = React.useRef<HTMLDivElement>(null);
-  const [isVisible, setIsVisible] = React.useState<boolean>(false);
-  const [pos, setPos] = React.useState<TooltipPosition>([null, null]);
-  const [content, setContent] = React.useState<React.ReactNode>(null);
-  const [placement, setPlacement] = React.useState<TooltipPlacement>(
-    tooltipPlacement
-  );
+  const containerRef = useRef<HTMLDivElement>(null);
+  const [isVisible, setIsVisible] = useState<boolean>(false);
+  const [pos, setPos] = useState<TooltipPosition>([0, 0]);
+  const [content, setContent] = useState<ReactNode>(null);
+  const [placement, setPlacement] =
+    useState<TooltipPlacement>(tooltipPlacement);
 
-  const showTooltip = React.useCallback(
-    (content: React.ReactNode, { clientX, clientY }: React.MouseEvent) => {
-      const {
-        width,
-        height,
-        left,
-        top,
-      } = containerRef.current.getBoundingClientRect();
-      const x = clientX - left;
-      const y = clientY - top;
+  const showTooltip = useCallback(
+    (content: ReactNode, event: MouseEvent) => {
+      const rect = containerRef?.current?.getBoundingClientRect();
+      const width = rect?.width || 0;
+      const height = rect?.height || 0;
+      const left = rect?.left || 0;
+      const top = rect?.top || 0;
+      // const { width, height, left, top } =
+      //   containerRef?.current?.getBoundingClientRect();
+      const x = event.clientX - left;
+      const y = event.clientY - top;
 
       if (!placement) {
         const autoPlacement: TooltipPlacement =
@@ -53,11 +59,13 @@ const TooltipProvider: React.FunctionComponent<{
       setPos([x, y]);
       setContent(content);
     },
-    [containerRef, setContent, setIsVisible, setPos]
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [containerRef, setContent, setIsVisible, setPos],
   );
 
-  const hideTooltip = React.useCallback(() => {
+  const hideTooltip = useCallback(() => {
     setIsVisible(false);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [setIsVisible, setPos]);
 
   const tooltipContextValue = React.useMemo(
@@ -67,7 +75,8 @@ const TooltipProvider: React.FunctionComponent<{
       tooltipClassName,
       disableTooltip,
     }),
-    [showTooltip, hideTooltip, tooltipClassName]
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [showTooltip, hideTooltip, tooltipClassName],
   );
 
   return (
