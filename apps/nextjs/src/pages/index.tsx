@@ -1,49 +1,25 @@
-import type { NextPage } from "next";
-import MarketingLayout from "../layouts/MarketingLayout";
-import Head from "../ui/atoms/Head";
-import CourseModal from "ui/molecules/Modals/CourseModal";
-import useStore, { RootState } from "store";
-import SuggestCourseModal from "ui/molecules/Modals/SuggestCourseModal";
-import HowWorkModal from "ui/molecules/Modals/HowDoesThisWorkModal";
-import AdminModal from "ui/molecules/Modals/AdminModal";
-import ParentSize from "@visx/responsive/lib/components/ParentSize";
-import dynamic from "next/dynamic";
-import { data } from "ui/organisms/data";
-import { trpc } from "utils/trpc";
-const Treemap = dynamic(() => import("ui/organisms/MapView/Treemap/Treemap"), {
-  ssr: false,
-});
+import React from "react";
+import Header from "layouts/MarketingLayout/Header/MarketingHeader";
+import Footer from "layouts/MarketingLayout/Footer";
+import ChatBox from "ui/organisms/ChatBox";
+import Search from "ui/organisms/Search";
 
-const Home: NextPage = () => {
-  const { courseModalOpen, howWorkModalOpen, adminModalOpen } = useStore(
-    (state: RootState) => ({
-      courseModalOpen: state.courseModalOpen,
-      howWorkModalOpen: state.howWorkModalOpen,
-      adminModalOpen: state.adminModalOpen,
-    }),
-  );
-  // const data = trpc.nodes.get.useQuery({ refetchOnWindowFocus: false })
-  //   .data as unknown as any;
-
+const Home = () => {
   return (
     <>
-      <Head />
-      <MarketingLayout>
-        <>
-          <main className="h-[80vh]">
-            <ParentSize>
-              {({ width, height }) => (
-                <Treemap width={width} height={height} data={data} />
-              )}
-            </ParentSize>
-          </main>
-
-          <CourseModal courseModalOpen={courseModalOpen} />
-          <SuggestCourseModal />
-          {howWorkModalOpen ? <HowWorkModal /> : null}
-          {adminModalOpen ? <AdminModal /> : null}
-        </>
-      </MarketingLayout>
+      <Header />
+      <main className="mx-auto flex min-h-screen flex-col bg-slate-100 lg:flex-row">
+        <div className="container mt-8 px-4">
+          <h1 className="ml-4 text-2xl font-bold">
+            Search bills, amendments, hearings and more
+          </h1>
+          <Search />
+        </div>
+        <div className="mr-12 mt-6 min-w-[50%] max-w-[50%]">
+          <ChatBox />
+        </div>
+      </main>
+      <Footer />
     </>
   );
 };

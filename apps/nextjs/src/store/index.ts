@@ -1,27 +1,10 @@
-import {
-  Edge,
-  Node,
-  OnNodesChange,
-  OnEdgesChange,
-  XYPosition,
-} from "reactflow";
 import { create } from "zustand";
-import { createFlowSlice } from "./slices/createFlowSlice";
 import { createUISlice } from "./slices/createUISlice";
+import { createChatSlice } from "./slices/createChatSlice";
 
 export type RootState = {
-  nodes: Node[];
-  edges: Edge[];
-  onNodesChange: OnNodesChange;
-  onEdgesChange: OnEdgesChange;
-  addChildNode: (parentNode: Node, position: XYPosition) => void;
-  updateNodeLabel: (nodeId: string, label: string) => void;
-  updateNodes: (nodes: Node[]) => void;
-  updateEdges: (edges: Edge[]) => void;
-  filterNodes: (node: any) => void;
-  filteredNodes: boolean;
-  updateFilteredNodes: (filteredNodes: boolean) => void;
-  courseModalOpen: string;
+  namespace: string;
+  setNamespace: (id: string) => void;
   setCourseModalOpen: (id: string) => void;
   suggestionModalOpen: boolean;
   setSuggestionModalOpen: (open: boolean) => void;
@@ -32,7 +15,7 @@ export type RootState = {
 };
 
 const useStore = create<RootState>((set, get) => ({
-  ...createFlowSlice(set, get),
+  ...createChatSlice(set, get),
   ...createUISlice(set, get),
 }));
 

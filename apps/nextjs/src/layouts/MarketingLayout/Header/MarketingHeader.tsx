@@ -1,34 +1,23 @@
-import React from "react";
-import { Fragment } from "react";
+import React, { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { UserButton, useUser } from "@clerk/nextjs";
 import Link from "next/link";
 import Image from "next/image";
-import SearchBox from "ui/molecules/Search";
-import useStore, { RootState } from "store";
 import { trpc } from "utils/trpc";
-import { User } from "@acme/db";
 
 const MarketingHeader = () => {
   const { isSignedIn } = useUser();
-  const user = trpc.user.get.useQuery().data as User;
-  const isAdmin = user?.isAdmin;
-  const { setSuggestionModalOpen, setHowWorkModalOpen, setAdminModalOpen } =
-    useStore((state: RootState) => ({
-      setSuggestionModalOpen: state.setSuggestionModalOpen,
-      setHowWorkModalOpen: state.setHowWorkModalOpen,
-      setAdminModalOpen: state.setAdminModalOpen,
-    }));
+  const { data } = trpc.user.get.useQuery();
 
   const navigation = [
-    { name: "How does this work?", onClick: () => setHowWorkModalOpen(true) },
-    { name: "Contribute", onClick: () => setSuggestionModalOpen(true) },
+    { name: "How does this work?", onClick: () => console.log("Clicked") },
+    { name: "Contribute", onClick: () => console.log("Clicked") },
   ];
 
   return (
     <Popover as="header" className="relative z-40">
-      <div className=" h-16 bg-gray-900 ">
+      <div className=" h-16 bg-gradient-to-r from-gray-900 to-gray-700 ">
         <nav
           className="relative flex h-full items-center justify-between px-4 sm:px-6"
           aria-label="Global"
@@ -37,8 +26,8 @@ const MarketingHeader = () => {
             <div className="flex w-full items-center justify-between md:w-auto">
               <Link href="/">
                 <>
-                  <span className="sr-only">theCurricula</span>
-                  <h1 className="text-xl font-bold text-white">theCurricula</h1>
+                  <span className="sr-only">LegisGPT</span>
+                  <h1 className=" text-2xl font-bold text-white">LegisGPT</h1>
                 </>
               </Link>
               <div className="-mr-2 flex items-center md:hidden">
@@ -48,34 +37,9 @@ const MarketingHeader = () => {
                 </Popover.Button>
               </div>
             </div>
-            <div className="hidden space-x-8  md:ml-10 md:flex">
-              <div className="hidden space-x-8 lg:flex">
-                {" "}
-                {navigation.map((item) => (
-                  <button
-                    key={item.name}
-                    onClick={item.onClick}
-                    className=" text-base font-medium text-white hover:text-gray-300"
-                  >
-                    {item.name}
-                  </button>
-                ))}
-              </div>
-
-              <SearchBox />
-            </div>
           </div>
           {isSignedIn ? (
             <div className="hidden items-center md:flex md:items-center md:space-x-6">
-              {isAdmin ? (
-                <button
-                  onClick={() => setAdminModalOpen(true)}
-                  className=" text-base font-medium text-white hover:text-gray-300"
-                >
-                  Admin
-                </button>
-              ) : null}
-
               <UserButton />
             </div>
           ) : (
@@ -86,7 +50,7 @@ const MarketingHeader = () => {
                 </button>
               </Link>
               <Link href="/sign-up">
-                <button className="inline-flex items-center rounded-md border border-transparent bg-gradient-to-r from-orange-600 to-pink-500 px-4 py-2 text-base font-medium text-white hover:bg-gray-700">
+                <button className="inline-flex items-center  rounded-md border border-transparent bg-gradient-to-r from-orange-600 to-pink-500 px-4 py-2 pb-3 text-base font-medium text-white hover:bg-gray-700">
                   Sign Up Free
                 </button>
               </Link>
